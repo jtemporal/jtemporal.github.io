@@ -1,14 +1,8 @@
 ---
 layout: page
-title: Contato
+title: Get in touch
 image: /images/logo.jpeg
 permalink: /contact/
 ---
 
-Você pode falar comigo [pelo Telegram aqui](https://t.me/jtemporal) ou se preferir [me mandar um e-mail aqui](mailto:hello@jtemporal.com).
-
-<!--
-Insert your contact details or a contact form here.
-
-Read [How to create a form in Jekyll site](http://blog.webjeda.com/jekyll-contact-form/){: target="_blank"} to implement using formspree.
--->
+You can talk to min [via Telegram](https://t.me/jtemporal) or if you prefer [send me an e-mail](mailto:hello@jtemporal.com).
