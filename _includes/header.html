@@ -15,10 +15,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{site.url}}{{site.baseurl}}/about/">Sobre</a></li>
-        <li><a href="{{site.url}}{{site.baseurl}}/contact/">Fale comigo</a></li>
-        <li><a href="{{site.url}}{{site.baseurl}}/talks/">Talks</a></li>
+        {% if page.lang  == "pt_BR" %}
+          <li><a href="{{site.url}}{{site.baseurl}}/sobre/">Sobre</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/contact/">Fale comigo</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/talks/">Palestras</a></li>
+        {% else %} 
+          <li><a href="{{site.url}}{{site.baseurl}}/about/">About</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/contact/">Get in touch</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/talks/">Talks</a></li>
+        {% endif %}
         <li><a href="{{site.url}}{{site.baseurl}}/EnJtResume.pdf">Curriculum</a></li>
+        
         <!--
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
