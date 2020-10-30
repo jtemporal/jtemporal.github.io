@@ -7,9 +7,7 @@
             {% endif %}
         </div>
 
-        {% if page.title != "Contato" %}
-        {% if page.title != "Sobre" %}
-        {% if page.title != "About" %}
+        {% if page.title != "Contato", "Sobre", "About" %}
         <div class="mt10 recent">
             <h2>Recent articles</h2>
              <ul>
@@ -22,8 +20,6 @@
                 {% endfor %}
               </ul>
         </div>
-        {% endif %}
-        {% endif %}
         {% endif %}
         {% if site.fb-like-box %}
         <div class="mt10">
