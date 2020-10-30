@@ -3,8 +3,7 @@ layout: default
 title: English
 image: /images/logo.jpeg
 permalink: "/en/"
-lang: pt_BR
-locale: en_US
+lang: en_US
 
 ---
 
