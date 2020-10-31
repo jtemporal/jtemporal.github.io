@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Contato
 image: /images/logo.jpeg
 permalink: /digaoi/
