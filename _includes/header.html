@@ -9,14 +9,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {% if page.lang  == "pt_BR" or post.tags contains "português" %}
-        <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
-        {% assign options = "Sobre,Fale comigo,Palestras" | split: ',' %}
-        {% assign base = "sobre,digaoi,talks" | split : ',' %}
-      {% else %}
+      {% if page.lang  == "en_US" or post.tags contains "english" %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
         {% assign options = "About,Get in touch,Talks" | split: ',' %}
         {% assign base = "about,contact,talks" | split: ',' %}
+      {% else %}
+        <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
+        {% assign options = "Sobre,Fale comigo,Palestras" | split: ',' %}
+        {% assign base = "sobre,digaoi,talks" | split : ',' %}
       {% endif %}
     </div>
 
