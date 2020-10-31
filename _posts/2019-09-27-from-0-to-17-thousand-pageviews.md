@@ -6,7 +6,6 @@ comments: true
 title: From 0 to 17 thousand pageviews
 description: How a theme exchange impacted the number of hits on my blog
 tags:
-- english
 - static site
 - google analytics
 - pageviews
@@ -17,6 +16,7 @@ tags:
 - git
 - github
 - jekyll
+- português
 
 ---
 ***
