@@ -5,7 +5,6 @@ date: 2019-04-13T03:00:00.000+00:00
 image: "/images/tutorial.png"
 comments: true
 tags:
-- english
 - tutorial
 - data science
 - ciencia de dados
@@ -20,6 +19,7 @@ tags:
 - unsupervised clustering
 - analysis
 - nao supervisionado
+- english
 description: Learn to calculate the optimal cluster number using the elbow method
 
 ---
