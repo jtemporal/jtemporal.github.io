@@ -5,12 +5,13 @@ date: 2019-12-18T07:00:00.000+00:00
 image: "/images/miscellaneous.png"
 comments: true
 tags:
-- english
 - pyladies
 - women in stem
 - women in tech
-- 'Python '
+- Python
 - career
+- english
+
 description: You know qualified women. Why not appoint them?
 
 ---
