@@ -28,12 +28,10 @@
         {% endif %}
         {% for item in options %}
           {% assign idx = forloop.index0 %}
-        <p>{{ idx }}</p>
           <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
           <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
           <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
         {% endfor %}
-        <li>{{ options }}</li>
         <li><a href="{{site.url}}{{site.baseurl}}/EnJtResume.pdf">Curriculum</a></li>
         
         <!--
