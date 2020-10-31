@@ -7,12 +7,12 @@ title: Trabalhando remoto
 description: Dicas que sigo quando estou trabalhando remoto para que você que está
   se adaptando
 tags:
-- português
 - dicas de trabalho
 - trabalho remoto
 - remoto
 - covid
 - Corona Virus
+- português
 
 ---
 Eu já trabalhei remotamente e presencialmente durante anos e posso dizer que criar novos hábitos e deixar para trás os antigos é a parte mais difícil de qualquer processo de adaptação. Infelizmente períodos de crise, como a pandemia que estamos vivendo agora, pedem que façamos mais esforços para continuarmos sendo pessoas producentes na medida do possível.
