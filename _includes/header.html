@@ -20,14 +20,18 @@
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         {% if page.lang  == "pt_BR" %}
-          <li><a href="{{site.url}}{{site.baseurl}}/sobre/">Sobre</a></li>
-          <li><a href="{{site.url}}{{site.baseurl}}/digaoi/">Fale comigo</a></li>
-          <li><a href="{{site.url}}{{site.baseurl}}/talks/">Palestras</a></li>
-        {% else %} 
-          <li><a href="{{site.url}}{{site.baseurl}}/about/">About</a></li>
-          <li><a href="{{site.url}}{{site.baseurl}}/contact/">Get in touch</a></li>
-          <li><a href="{{site.url}}{{site.baseurl}}/talks/">Talks</a></li>
+          {% assign options = ["Sobre", "Fale comigo", "Palestras"] %}
+          {% assign base = ["sobre", "digaoi", "talks"] %}
+        {% else %}
+          {% assign options = ["About", "Get in touch", "Talks"] %}
+          {% assign base = ["about", "contact", "talks"] %}
         {% endif %}
+        {% for item in options %}
+          {% assign idx = forloop.index0 %}
+          <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
+          <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
+        {% endfor %}
         <li><a href="{{site.url}}{{site.baseurl}}/EnJtResume.pdf">Curriculum</a></li>
         
         <!--
