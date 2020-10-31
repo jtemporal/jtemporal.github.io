@@ -9,7 +9,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
+      {% if page.lang  == "pt_BR" %}
+        <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
+      {% else %}
+        <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
+      {% endif %}
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
