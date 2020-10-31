@@ -5,7 +5,6 @@ date: 2019-04-03T14:00:00.000+00:00
 image: "/images/pro_tip.png"
 comments: true
 tags:
-- english
 - pro tip
 - docker
 - container
@@ -13,6 +12,7 @@ tags:
 - pro tip
 - listing
 - image
+- english
 description: Let's learn to copy files into a container without using volumes
 
 ---
