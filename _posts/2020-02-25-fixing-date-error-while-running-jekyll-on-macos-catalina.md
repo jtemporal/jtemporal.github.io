@@ -6,6 +6,7 @@ title: 'Fixing date error while running jekyll on macOS Catalina '
 description: This pro tip explains how to fix the "Invalid date" error you may see
   on macOS Catalina
 date: 2020-02-25 07:00:00 -0300
+lang: en_US
 tags:
 - error
 - Catalina
