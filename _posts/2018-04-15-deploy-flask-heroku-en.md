@@ -2,7 +2,7 @@
 title: Deploying an API to Heroku
 layout: post
 image: "/images/tutorial.png"
-date: 2018-04-15T01:00:00.000+00:00
+date: 2018-04-15 01:00:00 +0000
 tags:
 - tutorial
 - python
@@ -14,6 +14,7 @@ tags:
 - server
 - english
 comments: true
+description: Learn how to deploy a Flask API to Heroku, using Heroku CLI and Git
 
 ---
 ***

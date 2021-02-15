@@ -47,6 +47,7 @@ fields:
 pages:
 - _posts/2018-01-07-do-tema-ao-ar.md
 - _posts/2018-01-07-publishing-a-website-with-jekyll.md
+- _posts/2018-04-15-deploy-flask-heroku-en.md
 - _posts/2019-04-13-kmeans-and-elbow-method.md
 - _posts/2019-06-03-como-ser-cientista-de-dados-usando-um-computador-da-xuxa.md
 - _posts/2019-09-27-adicionando-um-novo-projeto-na-lista-da-hacktoberfest-2019.md
