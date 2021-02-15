@@ -2,7 +2,7 @@
 title: Fazendo deploy de uma API para o Heroku
 layout: post
 image: "/images/tutorial.png"
-date: 2018-04-15 00:00:00
+date: 2018-04-15T00:00:00.000+00:00
 tags:
 - tutorial
 - python
@@ -16,14 +16,20 @@ tags:
 comments: true
 
 ---
+\***
+
+Author note: You can [read this post in English here](https://jtemporal.com/deploy-flask-heroku-en/).
+
+\***
+
 Quer aprender a fazer deploy @? Vem que eu te ensino!
 
 ## O que você vai encontrar nesse tutorial
 
-- Como criar uma aplicação Flask nos moldes do Heroku
-- Como fazer deploy
-- Um pouquinho de Git
-- Um pouquinho de consumo de API
+* Como criar uma aplicação Flask nos moldes do Heroku
+* Como fazer deploy
+* Um pouquinho de Git
+* Um pouquinho de consumo de API
 
 **Avisos**: Dos dois posts que eu usei de base para escrever esse aqui, um deles era muiiiito antigo e o outro, apesar de recente, não tinha instruções que correspondem a versão mais atual do Heroku, eles estão na sessão de links para quem quiser lê-los.
 
@@ -37,8 +43,8 @@ Resumo:
 
 <center>
 <img alt="tudo computador essa porra" src="https://media1.tenor.com/images/2c7b2d01405349faca72550fc1b954f0/tenor.gif">
-</center> 
-  
+</center>
+
 ## Partiu código!
 
 Pra esse tutorial eu fiz uma API em um microframework Python chamado [Flask](http://flask.pocoo.org/). Não irei explicar em detalhes como o Flask funciona, mas se você quiser aprender sobre isso, o Bruno Rocha tem um conjunto de posts chamado "What the Flask" que explicam super bem e estão todos lá nos links.
@@ -47,14 +53,14 @@ Pra esse tutorial eu fiz uma API em um microframework Python chamado [Flask](htt
 
 Ela terá apenas um _endpoint_ definido pelo `/`. Esse _endpoint_ poderá dar duas respostas dependendo da requisição que você faça. São eles:
 
----
+***
 
-|        Requisição                   |                   Resultado                    |
-|:-----------------------------------:|:----------------------------------------------:|
-| GET sem cabeçalhos (headers) extras | Não entre em pânico!                           |
-| GET com Authorization 42            | a resposta para a vida, o universo e tudo mais |
+| Requisição | Resultado |
+| :---: | :---: |
+| GET sem cabeçalhos (headers) extras | Não entre em pânico! |
+| GET com Authorization 42 | a resposta para a vida, o universo e tudo mais |
 
----
+***
 
 O código pra fazer isso fica pequeninho, dá uma olhada:
 
@@ -77,7 +83,6 @@ if __name__ == "__main__":
 ```
 
 Esse código fica dentro de um arquivo chamado aqui de `nao_entre_em_panico.py` mas você pode nomear da forma que você achar melhor. Além disso, esse código tem uma peculiaride: as três linhas finais, elas servem para configurar o servidor Flask quando ele estiver rodando no Heroku.
-
 
 ### Pipfile
 
@@ -144,7 +149,7 @@ $ git commit -m "criando a aplicação"
 
 Essa sequência de comandos acima vai colocar todos os arquivos num mesmo commit, isso não é uma boa prática e caso esteja interessada(o) em boas práticas lá no fim do desse tutorial vai ter links sobre isso.
 
-## 3, 2, 1... Deploy \o/
+## 3, 2, 1... Deploy \\o/
 
 Agora você tem uma escolha: existem algumas formas de enviar o seu código para o Heroku. Você pode connectar com o GitHub ou com Dropbox ou ainda usar o Heroku CLI. Nesse post nós vamos fazer da última forma.
 
@@ -259,6 +264,7 @@ O que aconteceu foi o seguinte: ao acessar a URL da nossa aplicação no Heroku 
 ```console
 curl -X GET -k -i 'https://guiaapi.herokuapp.com/'
 ```
+
 Que me dá este resultado:
 
 ![Get sem cabeçalho de autorização no terminal com cURL](https://i.imgur.com/QmlCniF.png)
@@ -302,14 +308,15 @@ Agora se alguém falar _"Faz um deploy ae!"_ você já sabe como ;)
 
 _Ps.: Se tiver dúvidas ou comenta ali em baixo ou me manda mensagem que eu tento responder, sem crise as DMs tão sempre abertas ;)_
 
----
+***
+
 ## Links
 
-- [Código mostrado nesse post](https://github.com/jtemporal/api-example-flask-heroku)
-- Texto do Diego Garcia: [Publicando seu Hello World no Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
-- Texto do John Kagga em inglês: [Deploying a Python Flask app on Heroku](https://medium.com/@johnkagga/deploying-a-python-flask-app-to-heroku-41250bda27d0)
-- [What the Flask](https://twitter.com/rochacbruno) do Bruno Rocha
-- Curso de [Git para inciantes do Willian Justen no Udemy](https://www.udemy.com/git-e-github-para-iniciantes/)
-- [Discussão sobre boas práticas de Git no Stackoverflow](https://pt.stackoverflow.com/questions/60729/quais-seriam-as-pr%C3%A1ticas-recomendadas-para-commits-no-git)
-- O site [Oh shit, git!](http://ohshitgit.com/) em Inglês com uns poucos tópicos mais acançados em Git
-- Vídeo do [Bruno Rocha](https://twitter.com/rochacbruno) com uma [Introdução ao HTTP](https://www.youtube.com/watch?v=GVTEyLNyGWE)
+* [Código mostrado nesse post](https://github.com/jtemporal/api-example-flask-heroku)
+* Texto do Diego Garcia: [Publicando seu Hello World no Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+* Texto do John Kagga em inglês: [Deploying a Python Flask app on Heroku](https://medium.com/@johnkagga/deploying-a-python-flask-app-to-heroku-41250bda27d0)
+* [What the Flask](https://twitter.com/rochacbruno) do Bruno Rocha
+* Curso de [Git para inciantes do Willian Justen no Udemy](https://www.udemy.com/git-e-github-para-iniciantes/)
+* [Discussão sobre boas práticas de Git no Stackoverflow](https://pt.stackoverflow.com/questions/60729/quais-seriam-as-pr%C3%A1ticas-recomendadas-para-commits-no-git)
+* O site [Oh shit, git!](http://ohshitgit.com/) em Inglês com uns poucos tópicos mais acançados em Git
+* Vídeo do [Bruno Rocha](https://twitter.com/rochacbruno) com uma [Introdução ao HTTP](https://www.youtube.com/watch?v=GVTEyLNyGWE)
