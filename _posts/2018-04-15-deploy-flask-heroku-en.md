@@ -40,7 +40,7 @@ If you've made it this far, you probably already know what Heroku is, but for th
 This platform provides a service that, based on a predefined structure of an application, manages to package that application and put it to run on a server in one of their data centers. Heroku accepts applications written in several languages, but today we are going to use Python.
 
 <center>
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 </center>
 
 ## Let's code!
@@ -254,7 +254,7 @@ heroku ps: scale web = 1
 ### Dynos
 
 <center>
-<div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/xTk9ZY0C9ZWM2NgmCA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hello-wave-hi-xTk9ZY0C9ZWM2NgmCA">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/xTk9ZY0C9ZWM2NgmCA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 </center>
 
 Now you maybe asking yourself, what is a _dyno_? A _dyno_ is a Linux Container, Heroku uses a container model that isolates your application and allows for easy scalability of the system. In other, less technical words: Take all the code and configuration files we've written so far and put them in a box and put them to run, that is a _dyno_.
