@@ -42,6 +42,21 @@ fields:
   type: boolean
   hidden: false
   default: true
+- name: lang
+  type: select
+  default: en
+  config:
+    required: true
+    options:
+    - en
+    - pt
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lang
+  description: post language
 pages:
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
