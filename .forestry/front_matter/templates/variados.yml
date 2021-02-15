@@ -47,7 +47,9 @@ fields:
   default: en
   config:
     required: true
-    options: []
+    options:
+    - en_US
+    - pt_BR
     source:
       type: simple
       section: 

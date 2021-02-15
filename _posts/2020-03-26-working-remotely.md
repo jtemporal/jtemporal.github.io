@@ -12,7 +12,7 @@ tags:
 - remote
 - covid
 - Corona Virus
-lang: en
+lang: en_US
 
 ---
 I have worked remotely and allocated for years now, and I can say that creating new habits and leaving old ones behind is the most challenging part of any adaptation process. Unfortunately, in periods of crisis, such as the pandemic we are experiencing right now, it is essential to make more efforts to remain as productive as possible.
