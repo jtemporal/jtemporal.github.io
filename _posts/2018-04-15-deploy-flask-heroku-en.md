@@ -2,7 +2,7 @@
 title: Deploying an API to Heroku
 layout: post
 image: "/images/tutorial.png"
-date: 2018-04-15 01:00:00
+date: 2018-04-15T01:00:00.000+00:00
 tags:
 - tutorial
 - python
@@ -14,8 +14,8 @@ tags:
 - server
 - english
 comments: true
----
 
+---
 ***
 
 Nota da autora: Você pode [ler esse artigo em Português se preferir](https://jtemporal.com/deploy-flask-heroku/).
@@ -251,7 +251,7 @@ heroku ps: scale web = 1
 
 ### Dynos
 
-TK insert t-rex gif
+<div style="width:50%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/xTk9ZY0C9ZWM2NgmCA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hello-wave-hi-xTk9ZY0C9ZWM2NgmCA">via GIPHY</a></p>
 
 Now you maybe asking yourself, what is a _dyno_? A _dyno_ is a Linux Container, Heroku uses a container model that isolates your application and allows for easy scalability of the system. In other, less technical words: Take all the code and configuration files we've written so far and put them in a box and put them to run, that is a _dyno_.
 
