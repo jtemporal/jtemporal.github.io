@@ -251,7 +251,9 @@ heroku ps: scale web = 1
 
 ### Dynos
 
-<div style="width:100%;height:0;padding-bottom:12%;position:relative;"><iframe src="https://giphy.com/embed/xTk9ZY0C9ZWM2NgmCA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hello-wave-hi-xTk9ZY0C9ZWM2NgmCA">via GIPHY</a></p>
+<center>
+<div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/xTk9ZY0C9ZWM2NgmCA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hello-wave-hi-xTk9ZY0C9ZWM2NgmCA">via GIPHY</a></p>
+</center>
 
 Now you maybe asking yourself, what is a _dyno_? A _dyno_ is a Linux Container, Heroku uses a container model that isolates your application and allows for easy scalability of the system. In other, less technical words: Take all the code and configuration files we've written so far and put them in a box and put them to run, that is a _dyno_.
 
