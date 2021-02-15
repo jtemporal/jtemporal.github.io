@@ -280,7 +280,7 @@ Temos o seguinte resultado:
 
 ![Get com cabeçalho de autorização no terminal com cURL](https://i.imgur.com/zMXtUtK.png)
 
-Dá pra passar o caabeçalho de autorização no navegador? Dá! mas vou deixar isso pra outro post/tutorial que eu prometo que linko aqui quando escrever.
+Dá pra passar o cabeçalho de autorização no navegador? Dá! mas vou deixar isso pra outro post/tutorial que eu prometo que linko aqui quando escrever.
 
 ![Overview de um app](https://i.imgur.com/khys820.png)
 
