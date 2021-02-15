@@ -39,7 +39,9 @@ If you've made it this far, you probably already know what Heroku is, but for th
 
 This platform provides a service that, based on a predefined structure of an application, manages to package that application and put it to run on a server in one of their data centers. Heroku accepts applications written in several languages, but today we are going to use Python.
 
-<div style="width:100%;height:0;padding-bottom:12%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/python-UZQQ0yZtq5Ihq">via GIPHY</a></p>
+<center>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+</center>
 
 ## Let's code!
 
