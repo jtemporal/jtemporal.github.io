@@ -26,10 +26,10 @@ Deploys, where do they live? What do they eat? If you want to learn how to deplo
 
 ## What you will learn in this tutorial
 
-- How to create a Flask application to run on Heroku
-- How to deploy said app
-- A little bit of Git
-- A little bit of API consumption
+* How to create a Flask application to run on Heroku
+* How to deploy said app
+* A little bit of Git
+* A little bit of API consumption
 
 **Warnings:** Of the two posts I used as a base to write this one, one of them was very outdated and the other, although recent, did not have instructions that correspond to the most recent version of Heroku, they are in the links section in case you want to read them.
 
@@ -39,9 +39,7 @@ If you've made it this far, you probably already know what Heroku is, but for th
 
 This platform provides a service that, based on a predefined structure of an application, manages to package that application and put it to run on a server in one of their data centers. Heroku accepts applications written in several languages, but today we are going to use Python.
 
-<center>
-<div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-</center>
+ <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 ## Let's code!
 
@@ -51,14 +49,14 @@ For this tutorial I made an API with the Python microframework called [Flask](ht
 
 The API will only have one endpoint defined by `/` route. This endpoint can give two responses depending on the request you make. They are as follows:
 
----
+***
 
-|        Request            |                     Response                    |
-|:-------------------------:|:-----------------------------------------------:|
-| GET without extra headers | Don't panic!                                    |
+| Request | Response |
+| :---: | :---: |
+| GET without extra headers | Don't panic! |
 | GET with Authorization 42 | the answer to life, the universe and everything |
 
----
+***
 
 The code to do this is short and straight forward, take a look:
 
@@ -149,7 +147,7 @@ $ git commit -m "creating the application"
 
 This commands above will gather all files in the same commit, this is not a good practice and if you are interested in good practices and learning more about Git, there will extra links for that in the links session at the end of the post.
 
-## 3, 2, 1... Deploy \o/
+## 3, 2, 1... Deploy \\o/
 
 Now you have a choice: there are a few ways to send your code to Heroku. You can connect with GitHub or Dropbox or use the Heroku CLI. In this post I'll will show you how to do it using the Heroku command line.
 
@@ -253,9 +251,7 @@ heroku ps: scale web = 1
 
 ### Dynos
 
-<center>
 <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/xTk9ZY0C9ZWM2NgmCA" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-</center>
 
 Now you maybe asking yourself, what is a _dyno_? A _dyno_ is a Linux Container, Heroku uses a container model that isolates your application and allows for easy scalability of the system. In other, less technical words: Take all the code and configuration files we've written so far and put them in a box and put them to run, that is a _dyno_.
 
@@ -325,14 +321,14 @@ Now if someone says _"Deploy the API!"_ you already know how to do it 😉
 
 _PS.: If you have questions or comments, leave them below or send me a message I promise to try to answer, the DMs that are always open_
 
----
+***
 
 ## Links
 
-- [Code I used in this post is available here](https://github.com/jtemporal/api-example-flask-heroku-en)
-- Post by Diego Garcia: [Publishing your Hello World on Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html) in Portuguese
-- Text by John Kagga: [Deploying a Python Flask app on Heroku](https://medium.com/@johnkagga/deploying-a-python-flask-app-to-heroku-41250bda27d0)
-- [What the Flask](http://pythonclub.com.br/what-the-flask-pt-1-introducao-ao-desenvolvimento-web-com-python.html) by Bruno Rocha in Portuguese
-- [Git for beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-- [Discussion on good Git practices on Stackoverflow](https://en.stackoverflow.com/questions/60729/quais-seriam-as-pr%C3%A1ticas-recomendadas-para-commits-no-git)
-- The site [Oh shit, git!](http://ohshitgit.com/) with a few more top tips in Git
+* [Code I used in this post is available here](https://github.com/jtemporal/api-example-flask-heroku-en)
+* Post by Diego Garcia: [Publishing your Hello World on Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html) in Portuguese
+* Text by John Kagga: [Deploying a Python Flask app on Heroku](https://medium.com/@johnkagga/deploying-a-python-flask-app-to-heroku-41250bda27d0)
+* [What the Flask](http://pythonclub.com.br/what-the-flask-pt-1-introducao-ao-desenvolvimento-web-com-python.html) by Bruno Rocha in Portuguese
+* [Git for beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+* [Discussion on good Git practices on Stackoverflow](https://en.stackoverflow.com/questions/60729/quais-seriam-as-pr%C3%A1ticas-recomendadas-para-commits-no-git)
+* The site [Oh shit, git!](http://ohshitgit.com/) with a few more top tips in Git
