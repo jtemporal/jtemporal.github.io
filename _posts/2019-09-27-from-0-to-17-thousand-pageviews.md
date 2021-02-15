@@ -16,7 +16,7 @@ tags:
 - git
 - github
 - jekyll
-- português
+- english
 
 ---
 ***
