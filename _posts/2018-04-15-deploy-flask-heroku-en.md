@@ -37,9 +37,9 @@ Deploys, where do they live? What do they eat? If you want to learn how to deplo
 
 If you've made it this far, you probably already know what Heroku is, but for those who don't know it, [Heroku](https://www.heroku.com) is a cloud platform that gives people "the fastest way to go from idea to URL" and without having headaches with the infrastructure part.
 
-This platform provides a service that, based on a predefined structure of an application, manages to package that application and put it to run on a server in one of their data centers. Heroku accepts applications written in several languages, but today we are going to use Python
+This platform provides a service that, based on a predefined structure of an application, manages to package that application and put it to run on a server in one of their data centers. Heroku accepts applications written in several languages, but today we are going to use Python.
 
-TK add some funny gif here
+<div style="width:50%;height:0;padding-bottom:82%;position:relative;"><iframe src="https://giphy.com/embed/UZQQ0yZtq5Ihq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/python-UZQQ0yZtq5Ihq">via GIPHY</a></p>
 
 ## Let's code!
 
