@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portugu^es
+title: Português
 image: /images/logo.jpeg
 permalink: "/pt/"
 lang: pt_BR
