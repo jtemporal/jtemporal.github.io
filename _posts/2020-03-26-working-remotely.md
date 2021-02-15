@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-03-26 11:50:00 -0300
+date: 2020-03-26T11:50:00.000-03:00
 image: "/images/miscellaneous.png"
 comments: true
 title: Working remotely
@@ -12,6 +12,7 @@ tags:
 - remote
 - covid
 - Corona Virus
+lang: en
 
 ---
 I have worked remotely and allocated for years now, and I can say that creating new habits and leaving old ones behind is the most challenging part of any adaptation process. Unfortunately, in periods of crisis, such as the pandemic we are experiencing right now, it is essential to make more efforts to remain as productive as possible.
