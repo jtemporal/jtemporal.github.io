@@ -27,6 +27,11 @@
           {% assign idx = forloop.index0 %}
           <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
         {% endfor %}
+        {% if post.lang == "en_US" or page.lang  == "en_US" or post.tags contains "english" %}
+          <li><a href="{{site.url}}{{site.baseurl}}/pt/"></a>🇧🇷</li>
+        {% else %}
+          <li><a href="{{site.url}}{{site.baseurl}}/en/"></a>🇺🇸</li>
+        {% endif %}
         <li><a href="{{site.url}}{{site.baseurl}}/EnJtResume.pdf">Curriculum</a></li>
         
         <!--
