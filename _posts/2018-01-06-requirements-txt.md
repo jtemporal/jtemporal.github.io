@@ -1,7 +1,7 @@
 ---
 title: 'Dependências de projetos Python: requirements.txt'
 layout: post
-date: 2018-01-06 08:00:00
+date: 2018-01-06T08:00:00.000+00:00
 image: "/images/colinha.png"
 tags:
 - colinha
@@ -14,6 +14,12 @@ tags:
 comments: true
 
 ---
+***
+
+Author note: You can [read this post in English here](https://jtemporal.com/requirements-txt-en/).
+
+***
+
 Depois de uma conversa longa outro dia sobre dependências e reprodutibilidade de ambientes, decidi fazer essa colinha pra falar de um arquivo muito frequente nos projetos [Python](http://python.org/) que vejo por aí: o `requirements.txt`.
 
 Um passo comum da configuração de ambientes de desenvolvimento Python é fazer a instalação de dependências. Muitas vezes esse passo é executado da seguinte forma:
