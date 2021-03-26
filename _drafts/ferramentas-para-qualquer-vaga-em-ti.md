@@ -21,7 +21,7 @@ A pergunta que eu mais recebo em particular nas minhas redes sociais é "_Jessic
 
 Como todas os demais questionamentos na área de tecnologia, a resposta pra essa pergunta é: depende! E já pra começar com clichês, eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KFSL234o2FlGE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KFSL234o2FlGE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><br>
 
 Neste artigo, vou usar como exemplo a área em que trabalhei muitos anos e que sempre é mencionada nos pedidos de ajuda que recebo: a Ciência de Dados, mas saiba que é possível abstrair essa lógica e aplicar os mesmos passos para outros tipos de cargos e áreas,  principalmente em tecnologia.
 
