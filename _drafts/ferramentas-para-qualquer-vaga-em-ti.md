@@ -162,6 +162,8 @@ De acordo com o nosso pequeno conjunto de dados de 10 vagas de empresas Brasilei
 
 ## Recapitulando
 
-Saber tudo isso é uma garantia de emprego na área? Não, mas estudar as ferramentas que você encotrar usando este passo-a-passo vai te ajudar a construir um portfólio bem prático de habilidades que as empresas estão procurando para a vaga que você está querendo se candidatar.
+Saber tudo isso é uma garantia de emprego na área? Não, mas estudar as ferramentas que você encotrar usando este passo-a-passo vai te ajudar a construir um portfólio bem prático de habilidades que as empresas estão procurando em pessoas para as suas vaga.
 
-Um outro ponto chave se você está mudando de área ou de empresa é criar um espaço onde você demonstra as suas habilidades. A Lele Portella tem [uma palestra incrível de como fazer isso disponível no YouTube da Python Brasil](https://leportella.com/pt-br/pybr2020/), e eu recomendo que você [leia esse blog post sobre ter um blog](https://leportella.com/pt-br/porque-ter-um-blog/) também da Lele.
+Um outro ponto chave se você está mudando de área ou de empresa, é criar um espaço onde você demonstra as suas habilidades. A Lele Portella tem [uma palestra incrível de como fazer isso disponível no YouTube da Python Brasil](https://leportella.com/pt-br/pybr2020/), e eu recomendo que você [leia esse artigo sobre ter um blog](https://leportella.com/pt-br/porque-ter-um-blog/) também da Lele.
+
+Por fim, espero que este artigo possa te ajudar a escolher um norte para chegar até o seu próximo emprego. Se tiver dúvidas deixa ali na caixinha de comentários no final do artigo ;)
