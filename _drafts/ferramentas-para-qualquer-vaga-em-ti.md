@@ -120,11 +120,11 @@ Virou essa coluna na minha planilha:
 
 Note que eu também incluí as “habilidades desejáveis”, aquelas que apresentam um diferencial para a vaga, provavelmente essa ferramentas já são parte do conjunto da empresa e você vai encontrá-las no seu dia-a-dia.
 
-Depois de transformar a descrição das vagas num dado colunar eu recomendo que você padronize algumas entradas, por exemplo, eu coloquei todas as letras em minúsculo e troquei alguns termos, tipo “versionamento de código” e “github” viraram apenas “git”, isso vai deixar as suas informações mais fáceis de agregar.
+Depois de transformar a descrição das vagas num dado colunar eu recomendo que você padronize algumas entradas, por exemplo, eu coloquei todas as letras em minúsculo e troquei alguns termos, por exemplo “versionamento de código” e “github” viraram apenas “git”, isso vai deixar as suas informações mais fáceis de agregar.
 
 ## Respondendo a Pergunta
 
-Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou pivot table. Para facilitar a criação dessa tabela, eu coloquei numa nova aba da planilha, todos as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
+Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou _pivot table_. Para facilitar a criação dessa tabela, eu colei numa nova aba da planilha todas as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
 
 ![](/images/vagas_15.JPG)
 
