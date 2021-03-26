@@ -111,8 +111,10 @@ Para isso eu criei uma planilha onde colei as descrições das seções de requi
 Essa é a minha base de informações, mas concorda que ainda não está fácil de visualizar as as habilidades mais importantes? Então vamos estruturar nossos dados. Para isso eu criei uma nova aba na minha planilha e fui manualmente criando uma coluna para cada empresa e transformando o texto em uma lista de habilidades, por exemplo, a vaga da Stone abaixo:
 
 ![](images/vagas_13.JPG)
-
-Data Scientists (Conta Stone) - Stone
+<img src="/images/vagas_13.JPG">
+<br>  <br>
+<i>Requisitos da vaga "Data Scientists (Conta Stone)" na Stone</i>
+</center>
 
 Virou essa coluna na minha planilha:
 
