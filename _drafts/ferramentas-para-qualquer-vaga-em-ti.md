@@ -53,7 +53,9 @@ Outra parte interessante é a aba de “Jobs”. Nessa aba você tem uma pesquis
 
 Agora que você já conhece um pouco da interface vamos fazer a primeira busca, suponha que você quer ser cientista de dados, mas quer trabalhar na cidade de São Paulo. Na primeira caixa você deve preencher o cargo ou termo de pesquisa (não clique nas opções da lista que vai aparecer ainda) e na segunda caixa digite a cidade de interesse e clique em "Search" ou "Buscar" se o seu LinkedIn estiver em Português.
 
-![](/images/vagas_04.JPG)Ao clicar em buscar, a página irá recarregar e mostrar uma lista de vagas para aquela região, veja:
+![](/images/vagas_04.JPG)
+
+Ao clicar em buscar, a página irá recarregar e mostrar uma lista de vagas para aquela região, veja:
 
 ![](/images/vagas_05.JPG)
 
