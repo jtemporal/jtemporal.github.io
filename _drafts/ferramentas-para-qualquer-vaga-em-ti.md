@@ -96,7 +96,7 @@ Cada vaga possui pelo menos 3 elementos:
 
 Como você pode notar, não existe um padrão de divisão ou organização das habilidades, cada empresa escreve essas informações da maneira que lhe é mais interessante.
 
-Além de buscar por um termo e uma cidade, você deve ir refinando a sua busca, às vezes você poderá precisar trocar um termo por outro, por exemplo, experimente procurar Data Scientist ao invés de Cientista de Dados. Algumas empresas mesmo sendo Brasileiras colocam seus cargos e anúncios de vaga em Inglês isso pode te trazer mais vagas que possam encaixar com a área que você quer.
+Além de buscar por um termo e uma cidade, você deve ir refinando a sua busca, às vezes você precisará trocar um termo por outro para obter resultados mais interessantes, por exemplo, experimente procurar Data Scientist ao invés de Cientista de Dados. Algumas empresas mesmo sendo Brasileiras colocam seus cargos e anúncios de vaga em Inglês isso pode te trazer mais vagas que possam encaixar com a área que você quer.
 
 ## Organizando os dados coletados
 
