@@ -102,7 +102,7 @@ Além de buscar por um termo e uma cidade, você deve ir refinando a sua busca, 
 
 Agora que você já tem uma coleção de vagas, chegou a hora de arregaçar as mangas e colocar as informações num formato fácil de identificar nossa jornada de estudo.
 
-Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos e as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que navegar entre 10 abas 😉
+Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos, as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que passear entre 10 abas no navegador 😉
 
 ![](/images/vagas_12.JPG)
 
