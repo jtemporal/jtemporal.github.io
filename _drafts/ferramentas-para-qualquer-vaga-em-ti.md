@@ -140,15 +140,17 @@ E ao clicar em “Criar”, como esperado, uma nova aba aparece:
 Note que a nossa tabela ainda está em branco. Isso acontece porque nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
 ![](/images/vagas_19.JPG)
 
-Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
+Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades como entradas da tabela dinâmica, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
 
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_20_gif.gif">
 
-Com isso os termos na nossa lista aparecem na tabela já sem repetição. Agora você precisa adicionar a frequência de aparecimento de cada termo, para isso no menu de edição da tabela, na seção de “Valores”, clique em adicionar e escolha mais uma vez “Habilidades”, e para ficar mais interessante selecione “% do total geral” no campo “Mostrar como”:
+Com isso os termos na nossa lista aparecem na tabela já sem repetição.
+
+Agora você precisa adicionar a frequência de aparecimento de cada termo. Para adionar a frequência clique em "Adicionar" na seção de “Valores”, e escolha mais uma vez “Habilidades”, e para ficar mais interessante selecione “% do total geral” no campo “Mostrar como”:
 
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_21_gif.gif">
 
-Para finalizar, seria bom ordenar as habilidades pela frequência em que aparecem, isso porque imaginamos que as habilidades e ferramentas mais utilizadas vão aparecer mais vezes, então para ordenar, volte para seção “Linhas” e no campo “Classificar por” você vai poder escolher a coluna que contém as frequências que se chama “COUNTA de Habilidades” e automaticamente a tabela se organiza:
+Para finalizar, seria bom ordenar as habilidades pela frequência em que aparecem, já que imaginamos que as habilidades e ferramentas mais utilizadas vão aparecer mais vezes, então para ordenar, volte para seção “Linhas” e no campo “Classificar por” você vai poder escolher a coluna que contém as frequências que se chama “COUNTA de Habilidades” e automaticamente a tabela se organiza:
 
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_22_gif.gif">
 
