@@ -161,6 +161,8 @@ Para finalizar, seria bom ordenar as habilidades pela frequência em que aparece
 <blockquote class="imgur-embed-pub" lang="en" data-id="hnLL10G"><a href="https://imgur.com/hnLL10G">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </center>
 
+![](images/vagas_22_gif.gif)
+
 Pronto! Agora você tem uma lista das habilidades que precisa desenvolver e ferramentas que precisa aprender!
 
 De acordo com o nosso pequeno conjunto de dados de 10 vagas de empresas Brasileiras que contratam a cientistas de dados, essas são as 15 ferramentas que você precisa ter no no seu currículo.
