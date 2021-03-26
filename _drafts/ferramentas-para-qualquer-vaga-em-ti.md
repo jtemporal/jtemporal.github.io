@@ -170,7 +170,7 @@ Um outro ponto chave se você está mudando de área ou de empresa, é criar um 
 
 Vale salientar que o conjunto de vagas deste artigo é pequeno pois tem apenas o objetivo de ensinar a fazer esse levantamento de informações. Eu recomendo que você faça uma coleta maior de dados antes de tirar conclusões.
 
-Como você deve ter notado, é um trabalho bem manual e que poderíamos automatizar grande parte dele, mas isso é assunto pra outro artigo :P 
+Como você deve ter notado, é um trabalho bem manual e que poderíamos automatizar grande parte dele, mas isso é assunto pra outro artigo 😜
 
 Por fim, espero que este artigo possa te ajudar a escolher um norte para chegar até o seu próximo emprego. Se tiver dúvidas deixa ali na caixinha de comentários no final do artigo 😉
 
