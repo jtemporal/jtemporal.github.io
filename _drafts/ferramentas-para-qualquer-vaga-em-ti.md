@@ -168,4 +168,4 @@ Um outro ponto chave se você está mudando de área ou de empresa, é criar um 
 
 Por fim, espero que este artigo possa te ajudar a escolher um norte para chegar até o seu próximo emprego. Se tiver dúvidas deixa ali na caixinha de comentários no final do artigo 😉
 
-<img width="25%" height="25%" src="{{ site.url}}/thirtydaysjourney/assets/images/jess-signature.gif">
+<img width="25%" height="25%" src="{{site.url}}/thirtydaysjourney/assets/images/jess-signature.gif">
