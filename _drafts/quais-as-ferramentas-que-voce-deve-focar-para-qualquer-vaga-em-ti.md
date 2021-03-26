@@ -79,11 +79,15 @@ Cada vaga possui pelo menos 3 elementos:
 
 É essa lista de habilidades que você vai precisar focar, abaixo você vê os requisitos para três vagas de cientista de dados para três empresas diferentes:
 
+![](images/vagas_09.JPG)
+
 Cientista de Dados Júnior - PicPay
+
+![](images/vagas_10.JPG)
 
 Cientista de dados - Itaú
 
-TK 11
+![](images/vagas_11.JPG)
 
 Cientista de dados - iFood
 
