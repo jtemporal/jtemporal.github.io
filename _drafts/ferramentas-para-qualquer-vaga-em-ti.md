@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quais as ferramentas que você deve focar para qualquer vaga em TI?
+title: Quais ferramentas aprender para qualquer vaga em TI?
 date: 2021-03-26T18:28:34.000+00:00
 image: "/images/tutorial.png"
 comments: true
@@ -19,17 +19,17 @@ tags:
 ---
 Essa é a pergunta que eu mais recebo em particular nas minhas redes sociais e vou tentar ajudar a responder aqui.
 
-Como todas os demais questionamentos na área de tecnologia a resposta pra essa pergunta é: Depende!
+Como todas os demais questionamentos na área de tecnologia, a resposta pra essa pergunta é: depende!
 
-E já pra começar com clichês eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
+E já pra começar com clichês, eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
 
-Nesse artigo eu vou usar como exemplo a área em que trabalhei muitos anos e a qual sempre é mencionada nos pedidos de ajuda que recebo: a Ciência de Dados, mas saiba que é possível abstrair essa lógica e aplicar os mesmos passos para outros tipos de cargos e áreas,  principalmente em tecnologia.
+Neste artigo,vou usar como exemplo a área em que trabalhei muitos anos e que sempre é mencionada nos pedidos de ajuda que recebo: a Ciência de Dados, mas saiba que é possível abstrair essa lógica e aplicar os mesmos passos para outros tipos de cargos e áreas,  principalmente em tecnologia.
 
-Por mais que você queira trabalhar com ciência de dados, os requisitos para cientistas varia de empresa em empresa para empresa e não existe uma receita de bolo que vá servir para todo mundo, afinal de contas, como diz minha mãe: _“Você não é todo mundo”_. E por um lado isso é ótimo, pois te da uma liberdade para trilhar um caminho diferente dos demais, mas ao mesmo tempo levanta a inevitável pergunta: _"O que eu preciso focar/ter no meu currículo para ser considerada pra uma vaga?"._
+Por mais que você queira trabalhar com ciência de dados, os requisitos para cientistas varia de empresa para empresa e não existe uma receita de bolo que vá servir para todo mundo, afinal de contas, como diz minha mãe: _“Você não é todo mundo”_. E por um lado isso é ótimo, pois te dá uma liberdade para trilhar um caminho diferente dos demais, mas ao mesmo tempo levanta a inevitável pergunta: _"O que eu preciso focar/ter no meu currículo para ser considerada pra uma vaga?"._
 
 E aí que entra o pulo do gato, se você não tem uma empresa dos sonhos que você quer trabalhar, você vai precisar se organizar para um processo seletivo que não é unificado. Diferentemente de concurso ou vestibulares que os requisitos são conhecidos e expostos para todos, vagas de emprego e principalmente vagas para grandes empresas não são iguais só por que o cargo tem o mesmo nome. Inclusive, ouso dizer que dentro da mesma empresas cargos de por exemplo, cientistas de dados para times diferentes podem esperar de você capacidades diferentes, então vamos ver como descobrir um caminho no meio de um matagal.
 
-Ler esse post e colocar ele em prática não vai te garantir um emprego, mas os passos que eu mostro aqui deve te ensinar a desenhar o seu currículo de forma que ele apresente as palavras dentre as milhares tecnologias pedidas pelas empresas. Pra isso você vai precisar de 3 coisas:
+Ler esse post e colocar ele em prática não vai te garantir um emprego, mas os passos que eu mostro aqui devem te ensinar a desenhar o seu currículo de forma que ele apresente as ferramentas mais interessantes dentre as milhares tecnologias pedidas pelas empresas. Pra isso você vai precisar de 3 coisas:
 
 1. Acesso à internet
 2. Uma conta no LinkedIn
@@ -102,7 +102,7 @@ Além de buscar por um termo e uma cidade você deve ir refinando a sua busca, �
 
 ## Organizando os dados coletados
 
-Agora que você já tem uma coleção de vagas chegou a hora de arregaçar as mangas e colocar as informações num formato fácil de identificar nossa jornada de estudo.
+Agora que você já tem uma coleção de vagas, chegou a hora de arregaçar as mangas e colocar as informações num formato fácil de identificar nossa jornada de estudo.
 
 Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos e as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que navegar entre 10 abas 😉
 
@@ -128,7 +128,6 @@ Depois de transformar a descrição das vagas num dado colunar eu recomendo que 
 
 Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou pivot table. Para facilitar a criação dessa tabela, eu coloquei numa nova aba da planilha, todos as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
 
-  
 ![](/images/vagas_15.JPG)
 
 Tendo feito isso você conseguirá criar uma tabela que vai apresentar a frequência de cada habilidade ou ferramenta no nosso conjunto de vagas. Para criar uma tabela dinâmica no Google Sheets você deve selecionar “Tabela dinâmica” no menu “Dados”:  
@@ -148,7 +147,6 @@ Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis 
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_20_gif.gif">
 
 Com isso os termos na nossa lista aparecem na tabela já sem repetição. Agora você precisa adicionar a frequência de aparecimento de cada termo, para isso no menu de edição da tabela, na seção de “Valores”, clique em adicionar e escolha mais uma vez “Habilidades”, e para ficar mais interessante selecione “% do total geral” no campo “Mostrar como”:
-
 
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_21_gif.gif">
 
