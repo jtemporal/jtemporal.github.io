@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quais ferramentas focar para qualquer vaga em TI
-date: 2021-03-26T18:28:34.000+00:00
+date: 2021-03-26 15:28:34 -0300
 image: "/images/tutorial.png"
 comments: true
 description: Um framework para definir o que estudar e conseguir sua vaga em TI
