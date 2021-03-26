@@ -128,23 +128,20 @@ Depois de transformar a descrição das vagas num dado colunar eu recomendo que 
 
 Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou pivot table. Para facilitar a criação dessa tabela, eu coloquei numa nova aba da planilha, todos as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
 
-TK 15
+  
+![](images/vagas_15.JPG)
 
-Tendo feito isso você conseguirá criar uma tabela que vai apresentar a frequência de cada habilidade ou ferramenta no nosso conjunto de vagas. Para criar uma tabela dinâmica no Google Sheets você deve selecionar “Tabela dinâmica” no menu “Dados”:
+Tendo feito isso você conseguirá criar uma tabela que vai apresentar a frequência de cada habilidade ou ferramenta no nosso conjunto de vagas. Para criar uma tabela dinâmica no Google Sheets você deve selecionar “Tabela dinâmica” no menu “Dados”:  
+![](images/vagas_16.JPG)
 
-TK 16
+Ao clicar em tabela dinâmica vai aparecer essa janelinha no meio da sua planilha, onde você pode ajustar o intervalo de dados, no meu caso, eu estou escolhendo todas as linhas da coluna A da aba “Habilidades” para criar a minha tabela. Eu também selecionei “inserir em nova página” para criar a tabela numa nova aba da minha planilha e evitar a sobrescrita da minha coluna de habilidades.  
+![](images/vagas_17.JPG)
 
-Ao clicar em tabela dinâmica vai aparecer essa janelinha no meio da sua planilha, onde você pode ajustar o intervalo de dados, no meu caso, eu estou escolhendo todas as linhas da coluna A da aba “Habilidades” para criar a minha tabela. Eu também selecionei “inserir em nova página” para criar a tabela numa nova aba da minha planilha e evitar a sobrescrita da minha coluna de habilidades.
+E ao clicar em “Criar”, uma nova aba aparece:  
+![](images/vagas_18.JPG)
 
-TK 17
-
-E ao clicar em “Criar”, uma nova aba aparece:
-
-TK 18
-
-Note que a nossa tabela está em branco. Isso acontece por quê nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:
-
-TK 19
+Note que a nossa tabela está em branco. Isso acontece por quê nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
+![](images/vagas_19.JPG)
 
 Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
 
@@ -168,7 +165,7 @@ Pronto! Agora você tem uma lista das habilidades que precisa desenvolver e ferr
 
 De acordo com o nosso pequeno conjunto de dados de 10 vagas de empresas Brasileiras que contratam a cientistas de dados, essas são as 15 ferramentas que você precisa ter no no seu currículo.
 
-TK 23
+![](images/vagas_23.JPG)
 
 ## Recapitulando
 
