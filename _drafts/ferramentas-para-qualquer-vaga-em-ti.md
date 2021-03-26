@@ -23,7 +23,7 @@ Como todas os demais questionamentos na área de tecnologia, a resposta pra essa
 
 E já pra começar com clichês, eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
 
-Neste artigo,vou usar como exemplo a área em que trabalhei muitos anos e que sempre é mencionada nos pedidos de ajuda que recebo: a Ciência de Dados, mas saiba que é possível abstrair essa lógica e aplicar os mesmos passos para outros tipos de cargos e áreas,  principalmente em tecnologia.
+Neste artigo, vou usar como exemplo a área em que trabalhei muitos anos e que sempre é mencionada nos pedidos de ajuda que recebo: a Ciência de Dados, mas saiba que é possível abstrair essa lógica e aplicar os mesmos passos para outros tipos de cargos e áreas,  principalmente em tecnologia.
 
 Por mais que você queira trabalhar com ciência de dados, os requisitos para cientistas varia de empresa para empresa e não existe uma receita de bolo que vá servir para todo mundo, afinal de contas, como diz minha mãe: _“Você não é todo mundo”_. E por um lado isso é ótimo, pois te dá uma liberdade para trilhar um caminho diferente dos demais, mas ao mesmo tempo levanta a inevitável pergunta: _"O que eu preciso focar/ter no meu currículo para ser considerada pra uma vaga?"._
 
