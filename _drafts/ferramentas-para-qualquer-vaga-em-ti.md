@@ -17,7 +17,7 @@ tags:
 - linkedin
 
 ---
-A pergunta que eu mais recebo em particular nas minhas redes sociais é "_Jessica estou precisando de um norte para direcionar meus estudos na área x, consegue me ajudar?_". Como ela acontece com certa frequência decidi tentar ajudar a responder ela aqui.
+A pergunta que eu mais recebo em particular nas minhas redes sociais é "_Jessica estou precisando de um norte para direcionar meus estudos na área x, consegue me ajudar?_". Como ela acontece com certa frequência decidi tentar ajudar a respondê-la aqui.
 
 Como todas os demais questionamentos na área de tecnologia, a resposta pra essa pergunta é: depende! E já pra começar com clichês, eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
 
