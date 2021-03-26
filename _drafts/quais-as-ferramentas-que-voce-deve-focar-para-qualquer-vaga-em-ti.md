@@ -83,17 +83,17 @@ Cada vaga possui pelo menos 3 elementos:
 <br>  <br>
 <i>Requisitos da vaga "Cientista de Dados Júnior" no PicPay</i>
 </center>
-  <br>
+<br>
 <center>
-  <img src="/images/vagas_10.JPG">
-  <br>  <br>
-  <i>Requisitos da vaga "Cientista de dados" no Itaú</i>
+<img src="/images/vagas_10.JPG">
+<br>  <br>
+<i>Requisitos da vaga "Cientista de dados" no Itaú</i>
 </center>
-  <br>
+<br>
 <center>
-  <img src="/images/vagas_11.JPG">
-  <br>  <br>
-  <i>Requisitos da vaga "Cientista de dados" no iFood</i>
+<img src="/images/vagas_11.JPG">
+<br>  <br>
+<i>Requisitos da vaga "Cientista de dados" no iFood</i>
 </center>
 
 Como você pode notar, não existe um padrão de divisão ou organização das habilidades, cada empresa escreve essas informações da maneira que lhe é mais interessante.
@@ -106,17 +106,17 @@ Agora que você já tem uma coleção de vagas chegou a hora de arregaçar as ma
 
 Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos e as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que navegar entre 10 abas 😉
 
-TK 12
+![](images/vagas_12.JPG)
 
 Essa é a minha base de informações, mas concorda que ainda não está fácil de visualizar as as habilidades mais importantes? Então vamos estruturar nossos dados. Para isso eu criei uma nova aba na minha planilha e fui manualmente criando uma coluna para cada empresa e transformando o texto em uma lista de habilidades, por exemplo, a vaga da Stone abaixo:
 
-TK 13
+![](images/vagas_13.JPG)
 
 Data Scientists (Conta Stone) - Stone
 
 Virou essa coluna na minha planilha:
 
-TK 14
+TK 14![](images/vagas_14.JPG)
 
 Note que eu também incluí as “habilidades desejáveis”, aquelas que apresentam um diferencial para a vaga, provavelmente essa ferramentas já são parte do conjunto da empresa e você vai encontrar-las no seu dia-a-dia.
 
