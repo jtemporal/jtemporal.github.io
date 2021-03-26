@@ -161,7 +161,7 @@ Para finalizar, seria bom ordenar as habilidades pela frequência em que aparece
 <blockquote class="imgur-embed-pub" lang="en" data-id="hnLL10G"><a href="https://imgur.com/hnLL10G">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </center>
 
-<img src="/images/vagas_22_gif.gif">
+<img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_22_gif.gif">
 
 Pronto! Agora você tem uma lista das habilidades que precisa desenvolver e ferramentas que precisa aprender!
 
