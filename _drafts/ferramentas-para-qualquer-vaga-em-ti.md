@@ -137,7 +137,7 @@ Ao clicar em tabela dinâmica vai aparecer a janelinha abaixo na sua planilha, o
 E ao clicar em “Criar”, como esperado, uma nova aba aparece:  
 ![](/images/vagas_18.JPG)
 
-Note que a nossa tabela está em branco. Isso acontece por quê nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
+Note que a nossa tabela ainda está em branco. Isso acontece porque nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
 ![](/images/vagas_19.JPG)
 
 Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
