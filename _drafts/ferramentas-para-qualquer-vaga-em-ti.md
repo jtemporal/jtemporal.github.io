@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quais as ferramentas que você deve focar para qualquer vaga em TI?
-date: 2021-03-26 18:28:34 +0000
+date: 2021-03-26T18:28:34.000+00:00
 image: "/images/tutorial.png"
 comments: true
 description: Como achar quais ferramentas estudar para se preparar para uma vaga
@@ -106,7 +106,7 @@ Agora que você já tem uma coleção de vagas chegou a hora de arregaçar as ma
 
 Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos e as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que navegar entre 10 abas 😉
 
-![](images/vagas_12.JPG)
+![](/images/vagas_12.JPG)
 
 Essa é a minha base de informações, mas concorda que ainda não está fácil de visualizar as as habilidades mais importantes? Então vamos estruturar nossos dados. Para isso eu criei uma nova aba na minha planilha e fui manualmente criando uma coluna para cada empresa e transformando o texto em uma lista de habilidades, por exemplo, a vaga da Stone abaixo:
 
@@ -129,19 +129,19 @@ Depois de transformar a descrição das vagas num dado colunar eu recomendo que 
 Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou pivot table. Para facilitar a criação dessa tabela, eu coloquei numa nova aba da planilha, todos as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
 
   
-![](images/vagas_15.JPG)
+![](/images/vagas_15.JPG)
 
 Tendo feito isso você conseguirá criar uma tabela que vai apresentar a frequência de cada habilidade ou ferramenta no nosso conjunto de vagas. Para criar uma tabela dinâmica no Google Sheets você deve selecionar “Tabela dinâmica” no menu “Dados”:  
-![](images/vagas_16.JPG)
+![](/images/vagas_16.JPG)
 
 Ao clicar em tabela dinâmica vai aparecer essa janelinha no meio da sua planilha, onde você pode ajustar o intervalo de dados, no meu caso, eu estou escolhendo todas as linhas da coluna A da aba “Habilidades” para criar a minha tabela. Eu também selecionei “inserir em nova página” para criar a tabela numa nova aba da minha planilha e evitar a sobrescrita da minha coluna de habilidades.  
-![](images/vagas_17.JPG)
+![](/images/vagas_17.JPG)
 
 E ao clicar em “Criar”, uma nova aba aparece:  
-![](images/vagas_18.JPG)
+![](/images/vagas_18.JPG)
 
 Note que a nossa tabela está em branco. Isso acontece por quê nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
-![](images/vagas_19.JPG)
+![](/images/vagas_19.JPG)
 
 Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
 
@@ -160,7 +160,7 @@ Pronto! Agora você tem uma lista das habilidades que precisa desenvolver e ferr
 
 De acordo com o nosso pequeno conjunto de dados de 10 vagas de empresas Brasileiras que contratam a cientistas de dados, essas são as 15 ferramentas que você precisa ter no no seu currículo.
 
-![](images/vagas_23.JPG)
+![](/images/vagas_23.JPG)
 
 ## Recapitulando
 
