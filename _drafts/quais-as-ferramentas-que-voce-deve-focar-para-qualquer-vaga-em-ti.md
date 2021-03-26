@@ -42,3 +42,23 @@ Se você está lendo esse post provavelmente você já está usando o item 1. Co
 Eu gosto de encarar o primeiro passo como a coleta de dados, esses dados tem como objetivo responder uma pergunta bem clara “Qual conjunto de ferramentas e habilidades devo focar nos próximos meses para construir meu portfólio?”. Esse levantamento de dados pode ser feito em cerca de meia hora.
 
 Para começar abra o LinkedIn, abaixo você a minha página inicial. Ao centro, você vê a caixa para começar um novo post e o comecinho de um post do Data Bootcamp que foi curtido por pessoas na minha rede. A esquerda você vê o meu perfil com algumas estatísticas, a direita sugestões de tópicos para seguir, mas o nosso foco vai ser na barra superior.
+
+![](images/vagas_01.JPG)
+
+É na barra de mais acima da página que você encontra o campo de busca do LinkedIn, é nessa parte onde você deve inserir os termos de busca como por exemplo empresas que você tem interesse, tópicos/hashtags sobre assuntos para você acompanhar, ofertas de vagas disponíveis e pessoas para se conectar, tente me achar por exemplo, digite “Jessica Temporal” e aperte enter para ver se eu apareço na lista de pessoas.
+
+![](images/vagas_02.JPG)
+
+Outra parte interessante é a aba de “Jobs”. Nessa aba você tem uma pesquisa específica para vagas anunciadas na plataforma. E você pode fazer uma pesquisa tão ampla ou tão específica quanto queira vamos ver como fazer isto a seguir. Além disso é possível criar notificações para uma busca, assim, novas vagas que surgirem com os filtros escolhidos chegam para você por e-mail.
+
+![](images/vagas_03.JPG)
+
+Agora que você já conhece um pouco da interface vamos fazer a primeira busca, suponha que você quer ser cientista de dados, mas quer trabalhar na cidade de São Paulo você pode por exemplo colocar a cidade de interesse para achar as vagas nessa localização, então vamos pesquisar isso, preencha o cargo (não clique nas opções da lista que vai aparecer ainda) e digite a cidade e clique em Search ou Buscar (se o seu LinkedIn estiver em Português).
+
+![](images/vagas_04.JPG)Ao clicar em buscar, a página irá recarregar e mostrar uma lista de vagas para aquela região, veja:
+
+![](images/vagas_05.JPG)
+
+E se você notar, logo abaixo da barra de pesquisa, temos filtros. São esses filtros que vamos usar para achar dez vagas de cientista de dados para tentar responder a nossa pergunta inicial.
+
+![](images/vagas_06.JPG)
