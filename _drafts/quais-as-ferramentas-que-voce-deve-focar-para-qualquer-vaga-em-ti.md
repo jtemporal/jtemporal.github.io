@@ -61,4 +61,62 @@ Agora que você já conhece um pouco da interface vamos fazer a primeira busca, 
 
 E se você notar, logo abaixo da barra de pesquisa, temos filtros. São esses filtros que vamos usar para achar dez vagas de cientista de dados para tentar responder a nossa pergunta inicial.
 
-![](images/vagas_06.JPG)
+![](images/vagas_06.JPG)A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use o filtro Company ou Empresa, e vou selecionar empresas de interesse, aqui selecionei apenas algumas empresas Brasileiras e depois de selecionar todas que tenho interesse clique em "Show results" ou "Mostrar resultado":
+
+TK 07
+
+Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
+
+TK 08
+
+Cada vaga possui pelo menos 3 elementos:
+
+1. Uma descrição da empresa
+2. Uma lista de responsabilidades para a vaga
+3. Uma lista de habilidades desejadas
+
+É essa lista de habilidades que você vai precisar focar, abaixo você vê os requisitos para três vagas de cientista de dados para três empresas diferentes:
+
+TK 09
+
+Cientista de Dados Júnior - PicPay
+
+TK 10
+
+Cientista de dados - Itaú
+
+TK 11
+
+Cientista de dados - iFood
+
+Como você pode notar, não existe um padrão de divisão ou organização das habilidades, cada empresa escreve essas informações da maneira que lhe é mais interessante.
+
+Além de buscar por um termo e uma cidade você deve ir refinando a sua busca, às vezes você poderá precisar trocar um termo por outro, por exemplo, experimente procurar Data Scientist ao invés de Cientista de Dados. Algumas empresas mesmo sendo Brasileiras colocam seus cargos e anúncios de vaga em Inglês isso pode te trazer mais vagas que possam encaixar com a área que você quer.
+
+## Organizando os dados coletados
+
+Agora que você já tem uma coleção de vagas chegou a hora de arregaçar as mangas e colocar as informações num formato fácil de identificar nossa jornada de estudo.
+
+Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos e as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que navegar entre 10 abas 😉
+
+TK 12
+
+Essa é a minha base de informações, mas concorda que ainda não está fácil de visualizar as as habilidades mais importantes? Então vamos estruturar nossos dados. Para isso eu criei uma nova aba na minha planilha e fui manualmente criando uma coluna para cada empresa e transformando o texto em uma lista de habilidades, por exemplo, a vaga da Stone abaixo:
+
+TK 13
+
+Data Scientists (Conta Stone) - Stone
+
+Virou essa coluna na minha planilha:
+
+TK 14
+
+Note que eu também incluí as “habilidades desejáveis”, aquelas que apresentam um diferencial para a vaga, provavelmente essa ferramentas já são parte do conjunto da empresa e você vai encontrar-las no seu dia-a-dia.
+
+Depois de transformar a descrição das vagas num dado colunar eu recomendo que você padronize algumas entradas, por exemplo, eu coloquei todas as letras em minúsculo e troquei alguns termos, tipo “versionamento de código” e “github” viraram apenas “git”, isso vai deixar as suas informações mais fáceis de agregar.
+
+## Respondendo a Pergunta
+
+Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou pivot table. Para facilitar a criação dessa tabela, eu coloquei numa nova aba da planilha, todos as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
+
+TK 15
