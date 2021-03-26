@@ -124,7 +124,7 @@ Depois de transformar a descrição das vagas num dado colunar eu recomendo que 
 
 ## Respondendo a Pergunta
 
-Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou _pivot table_. Para facilitar a criação dessa tabela, eu colei numa nova aba da planilha todas as habilidades de cada em empresa em uma única coluna que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna de habilidades:
+Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou _pivot table_. Para facilitar a criação dessa tabela, eu colei numa nova aba da planilha todas as habilidades de cada das empresas em uma única coluna, que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna resultante:
 
 ![](/images/vagas_15.JPG)
 
