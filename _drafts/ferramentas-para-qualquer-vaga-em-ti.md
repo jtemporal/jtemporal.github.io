@@ -118,7 +118,7 @@ Virou essa coluna na minha planilha:
 <center><img src="/images/vagas_14.JPG">
 </center>
 
-Note que eu também incluí as “habilidades desejáveis”, aquelas que apresentam um diferencial para a vaga, provavelmente essa ferramentas já são parte do conjunto da empresa e você vai encontrar-las no seu dia-a-dia.
+Note que eu também incluí as “habilidades desejáveis”, aquelas que apresentam um diferencial para a vaga, provavelmente essa ferramentas já são parte do conjunto da empresa e você vai encontrá-las no seu dia-a-dia.
 
 Depois de transformar a descrição das vagas num dado colunar eu recomendo que você padronize algumas entradas, por exemplo, eu coloquei todas as letras em minúsculo e troquei alguns termos, tipo “versionamento de código” e “github” viraram apenas “git”, isso vai deixar as suas informações mais fáceis de agregar.
 
