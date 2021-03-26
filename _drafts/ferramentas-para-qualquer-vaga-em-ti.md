@@ -47,7 +47,7 @@ Para começar abra o LinkedIn, abaixo você a minha página inicial. Ao centro, 
 
 ![](/images/vagas_02.JPG)
 
-Outra parte interessante é a aba de “Jobs”. Nessa aba você tem uma pesquisa específica para vagas anunciadas na plataforma. E você pode fazer uma pesquisa tão ampla ou tão específica quanto queira vamos ver como fazer isto a seguir. Além disso é possível criar notificações para uma busca, assim, novas vagas que surgirem com os filtros escolhidos chegam para você por e-mail.
+Outra parte interessante é a aba de “Jobs”. Nessa aba você tem uma pesquisa específica para vagas anunciadas na plataforma. Você pode fazer uma pesquisa tão ampla ou tão específica quanto queira vamos ver como fazer isto a seguir. Além disso é possível criar notificações para uma busca, assim, novas vagas que surgirem com os filtros escolhidos chegam para você por e-mail.
 
 ![](/images/vagas_03.JPG)
 
