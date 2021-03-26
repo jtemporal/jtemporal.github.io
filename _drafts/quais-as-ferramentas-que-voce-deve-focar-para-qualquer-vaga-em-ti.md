@@ -69,7 +69,7 @@ A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use 
 
 Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
 
-![](images/vagas_08.JPG)
+![](/images/vagas_08.JPG)
 
 Cada vaga possui pelo menos 3 elementos:
 
@@ -80,19 +80,19 @@ Cada vaga possui pelo menos 3 elementos:
 É essa lista de habilidades que você vai precisar focar, abaixo você vê os requisitos para três vagas de cientista de dados para três empresas diferentes:
 
 <center><img src="/images/vagas_09.JPG">
-<br>
+<br>  <br>
 <i>Requisitos da vaga "Cientista de Dados Júnior" no PicPay</i>
 </center>
-
+  <br>
 <center>
   <img src="/images/vagas_10.JPG">
-  <br>
+  <br>  <br>
   <i>Requisitos da vaga "Cientista de dados" no Itaú</i>
 </center>
-
+  <br>
 <center>
   <img src="/images/vagas_11.JPG">
-  <br>
+  <br>  <br>
   <i>Requisitos da vaga "Cientista de dados" no iFood</i>
 </center>
 
