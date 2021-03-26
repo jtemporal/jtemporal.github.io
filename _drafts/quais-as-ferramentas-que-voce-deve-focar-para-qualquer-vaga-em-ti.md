@@ -63,7 +63,7 @@ E se você notar, logo abaixo da barra de pesquisa, temos filtros. São esses fi
 
 ![](images/vagas_06.JPG)A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use o filtro Company ou Empresa, e vou selecionar empresas de interesse, aqui selecionei apenas algumas empresas Brasileiras e depois de selecionar todas que tenho interesse clique em "Show results" ou "Mostrar resultado":
 
-TK 07
+<center><blockquote class="imgur-embed-pub" lang="en" data-id="fRmLTCO"><a href="[https://imgur.com/fRmLTCO](https://imgur.com/fRmLTCO "https://imgur.com/fRmLTCO")">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></center>
 
 Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
 
