@@ -166,6 +166,8 @@ Saber tudo isso é uma garantia de emprego na área? Não, mas estudar as ferram
 
 Um outro ponto chave se você está mudando de área ou de empresa, é criar um espaço onde você demonstra as suas habilidades. A Lele Portella tem [uma palestra incrível de como fazer isso disponível no YouTube da Python Brasil](https://leportella.com/pt-br/pybr2020/), e eu recomendo que você [leia esse artigo sobre ter um blog](https://leportella.com/pt-br/porque-ter-um-blog/) também da Lele.
 
+Vale salientar que esse conjunto é pequeno pois tem apenas o objetivo de ensinar a fazer esse levantamento, eu recomendo que você faça uma coleta maior de dados. E como você pode notar é um trabalho bem manual e poderíamos automatizar grande parte dele, mas isso é assunto pra outro artigo :P 
+
 Por fim, espero que este artigo possa te ajudar a escolher um norte para chegar até o seu próximo emprego. Se tiver dúvidas deixa ali na caixinha de comentários no final do artigo 😉
 
 <br><br>
