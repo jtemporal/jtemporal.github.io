@@ -69,6 +69,8 @@ A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use 
 
 Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
 
+![](images/vagas_08.JPG)
+
 Cada vaga possui pelo menos 3 elementos:
 
 1. Uma descrição da empresa
@@ -77,11 +79,7 @@ Cada vaga possui pelo menos 3 elementos:
 
 É essa lista de habilidades que você vai precisar focar, abaixo você vê os requisitos para três vagas de cientista de dados para três empresas diferentes:
 
-TK 09
-
 Cientista de Dados Júnior - PicPay
-
-TK 10
 
 Cientista de dados - Itaú
 
