@@ -19,9 +19,7 @@ tags:
 ---
 A pergunta que eu mais recebo em particular nas minhas redes sociais é "_Jessica estou precisando de um norte para direcionar meus estudos na área x, consegue me ajudar?_". Como ela acontece com certa frequência decidi tentar ajudar a responder ela aqui.
 
-Como todas os demais questionamentos na área de tecnologia, a resposta pra essa pergunta é: depende!
-
-E já pra começar com clichês, eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
+Como todas os demais questionamentos na área de tecnologia, a resposta pra essa pergunta é: depende! E já pra começar com clichês, eu não vou te dar o peixe, eu vou te ensinar a pescar 😉
 
 Neste artigo, vou usar como exemplo a área em que trabalhei muitos anos e que sempre é mencionada nos pedidos de ajuda que recebo: a Ciência de Dados, mas saiba que é possível abstrair essa lógica e aplicar os mesmos passos para outros tipos de cargos e áreas,  principalmente em tecnologia.
 
