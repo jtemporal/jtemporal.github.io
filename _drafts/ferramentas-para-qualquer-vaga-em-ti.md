@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quais ferramentas aprender para qualquer vaga em TI?
+title: Quais ferramentas focar para qualquer vaga em TI?
 date: 2021-03-26T18:28:34.000+00:00
 image: "/images/tutorial.png"
 comments: true
@@ -17,7 +17,7 @@ tags:
 - linkedin
 
 ---
-Essa é a pergunta que eu mais recebo em particular nas minhas redes sociais e vou tentar ajudar a responder aqui.
+A pergunta que eu mais recebo em particular nas minhas redes sociais é "_Jessica estou precisando de um norte para direcionar meus estudos na área x, consegue me ajudar?_". Como ela acontece com certa frequência decidi tentar ajudar a responder ela aqui.
 
 Como todas os demais questionamentos na área de tecnologia, a resposta pra essa pergunta é: depende!
 
