@@ -61,13 +61,13 @@ Agora que você já conhece um pouco da interface vamos fazer a primeira busca, 
 
 E se você notar, logo abaixo da barra de pesquisa, temos filtros. São esses filtros que vamos usar para achar dez vagas de cientista de dados para tentar responder a nossa pergunta inicial.
 
-![](images/vagas_06.JPG)A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use o filtro Company ou Empresa, e vou selecionar empresas de interesse, aqui selecionei apenas algumas empresas Brasileiras e depois de selecionar todas que tenho interesse clique em "Show results" ou "Mostrar resultado":
+![](images/vagas_06.JPG)
+
+A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use o filtro Company ou Empresa, e vou selecionar empresas de interesse, aqui selecionei apenas algumas empresas Brasileiras e depois de selecionar todas que tenho interesse clique em "Show results" ou "Mostrar resultado":
 
 <center><blockquote class="imgur-embed-pub" lang="en" data-id="fRmLTCO"><a href="[https://imgur.com/fRmLTCO](https://imgur.com/fRmLTCO "https://imgur.com/fRmLTCO")">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></center>
 
 Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
-
-TK 08
 
 Cada vaga possui pelo menos 3 elementos:
 
