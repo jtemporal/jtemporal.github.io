@@ -172,4 +172,4 @@ Por fim, espero que este artigo possa te ajudar a escolher um norte para chegar 
 
 <center>
 <img width="25%" height="25%" src="https://jtemporal.com/thirtydaysjourney/assets/images/jess-signature.gif">
-</center
+</center>
