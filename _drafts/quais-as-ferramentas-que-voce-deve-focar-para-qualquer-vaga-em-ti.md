@@ -148,15 +148,21 @@ TK 19
 
 Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
 
-TK 20
+<center>
+<blockquote class="imgur-embed-pub" lang="en" data-id="7fAB31q"><a href="https://imgur.com/7fAB31q">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</center>
 
 Com isso os termos na nossa lista aparecem na tabela já sem repetição. Agora você precisa adicionar a frequência de aparecimento de cada termo, para isso no menu de edição da tabela, na seção de “Valores”, clique em adicionar e escolha mais uma vez “Habilidades”, e para ficar mais interessante selecione “% do total geral” no campo “Mostrar como”:
 
-TK 21
+<center>
+<blockquote class="imgur-embed-pub" lang="en" data-id="nMdvaSp"><a href="https://imgur.com/nMdvaSp">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</center>
 
 Para finalizar, seria bom ordenar as habilidades pela frequência em que aparecem, isso porque imaginamos que as habilidades e ferramentas mais utilizadas vão aparecer mais vezes, então para ordenar, volte para seção “Linhas” e no campo “Classificar por” você vai poder escolher a coluna que contém as frequências que se chama “COUNTA de Habilidades” e automaticamente a tabela se organiza:
 
-TK 22
+<center>
+<blockquote class="imgur-embed-pub" lang="en" data-id="hnLL10G"><a href="https://imgur.com/hnLL10G">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</center>
 
 Pronto! Agora você tem uma lista das habilidades que precisa desenvolver e ferramentas que precisa aprender!
 
