@@ -65,7 +65,7 @@ E se você notar, logo abaixo da barra de pesquisa, temos filtros. São esses fi
 
 A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use o filtro Company ou Empresa, e vou selecionar empresas de interesse, aqui selecionei apenas algumas empresas Brasileiras e depois de selecionar todas que tenho interesse clique em "Show results" ou "Mostrar resultado":
 
-<center><blockquote class="imgur-embed-pub" lang="en" data-id="fRmLTCO"><a href="[https://imgur.com/fRmLTCO](https://imgur.com/fRmLTCO "https://imgur.com/fRmLTCO")">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></center>
+<img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_07_gif.gif">
 
 Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
 
@@ -145,21 +145,14 @@ Note que a nossa tabela está em branco. Isso acontece por quê nós precisamos 
 
 Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
 
-<center>
-<blockquote class="imgur-embed-pub" lang="en" data-id="7fAB31q"><a href="https://imgur.com/7fAB31q">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-</center>
+<img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_20_gif.gif">
 
 Com isso os termos na nossa lista aparecem na tabela já sem repetição. Agora você precisa adicionar a frequência de aparecimento de cada termo, para isso no menu de edição da tabela, na seção de “Valores”, clique em adicionar e escolha mais uma vez “Habilidades”, e para ficar mais interessante selecione “% do total geral” no campo “Mostrar como”:
 
-<center>
-<blockquote class="imgur-embed-pub" lang="en" data-id="nMdvaSp"><a href="https://imgur.com/nMdvaSp">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-</center>
+
+<img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_21_gif.gif">
 
 Para finalizar, seria bom ordenar as habilidades pela frequência em que aparecem, isso porque imaginamos que as habilidades e ferramentas mais utilizadas vão aparecer mais vezes, então para ordenar, volte para seção “Linhas” e no campo “Classificar por” você vai poder escolher a coluna que contém as frequências que se chama “COUNTA de Habilidades” e automaticamente a tabela se organiza:
-
-<center>
-<blockquote class="imgur-embed-pub" lang="en" data-id="hnLL10G"><a href="https://imgur.com/hnLL10G">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-</center>
 
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/vagas_22_gif.gif">
 
