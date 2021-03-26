@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Quais ferramentas focar para qualquer vaga em TI?
+title: Quais ferramentas focar para qualquer vaga em TI
 date: 2021-03-26T18:28:34.000+00:00
 image: "/images/tutorial.png"
 comments: true
-description: Como achar quais ferramentas estudar para se preparar para uma vaga
+description: Um framework para escolher ferramentas para estudar para vagas em TI
 tags:
 - pivot table
 - tabela dinâmica
