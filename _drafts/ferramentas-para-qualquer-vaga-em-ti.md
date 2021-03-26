@@ -131,10 +131,10 @@ Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou _pivot tabl
 Tendo feito isso você conseguirá criar uma tabela que vai apresentar a frequência de cada habilidade ou ferramenta no nosso conjunto de vagas. Para criar uma tabela dinâmica no Google Sheets você deve selecionar “Tabela dinâmica” no menu “Dados”:  
 ![](/images/vagas_16.JPG)
 
-Ao clicar em tabela dinâmica vai aparecer essa janelinha no meio da sua planilha, onde você pode ajustar o intervalo de dados, no meu caso, eu estou escolhendo todas as linhas da coluna A da aba “Habilidades” para criar a minha tabela. Eu também selecionei “inserir em nova página” para criar a tabela numa nova aba da minha planilha e evitar a sobrescrita da minha coluna de habilidades.  
+Ao clicar em tabela dinâmica vai aparecer a janelinha abaixo na sua planilha, onde você pode ajustar o intervalo de dados, no meu caso, eu estou escolhendo todas as linhas da coluna A da aba “Habilidades” para criar a minha tabela. Eu também selecionei “inserir em nova página” para criar a tabela numa nova aba da planilha e evitar a sobrescrita da minha resultante.  
 ![](/images/vagas_17.JPG)
 
-E ao clicar em “Criar”, uma nova aba aparece:  
+E ao clicar em “Criar”, como esperado, uma nova aba aparece:  
 ![](/images/vagas_18.JPG)
 
 Note que a nossa tabela está em branco. Isso acontece por quê nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
