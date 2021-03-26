@@ -79,17 +79,22 @@ Cada vaga possui pelo menos 3 elementos:
 
 É essa lista de habilidades que você vai precisar focar, abaixo você vê os requisitos para três vagas de cientista de dados para três empresas diferentes:
 
-<center><img src="images/vagas_09.JPG"></center>
+<center><img src="/images/vagas_09.JPG">
+<br>
+<i>Requisitos da vaga "Cientista de Dados Júnior" no PicPay</i>
+</center>
 
-Cientista de Dados Júnior - PicPay
+<center>
+  <img src="/images/vagas_10.JPG">
+  <br>
+  <i>Requisitos da vaga "Cientista de dados" no Itaú</i>
+</center>
 
-<center><img src="images/vagas_10.JPG"></center>
-
-Cientista de dados - Itaú
-
-<center><img src="images/vagas_11.JPG"> </center>
-
-Cientista de dados - iFood
+<center>
+  <img src="/images/vagas_11.JPG">
+  <br>
+  <i>Requisitos da vaga "Cientista de dados" no iFood</i>
+</center>
 
 Como você pode notar, não existe um padrão de divisão ou organização das habilidades, cada empresa escreve essas informações da maneira que lhe é mais interessante.
 
