@@ -16,7 +16,9 @@ tags:
 ---
 This post is a step-by-step on how to create a cloud instance on Digital Ocean.
 
+<center>
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/lRXMa7BOWsdcF3NxTA" width="50%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+</center>
 
 ## Get acquainted with Digital Ocean
 
@@ -46,7 +48,7 @@ Then you have to pick a payment plan:
 
 Choosing the right one for either of these choices is essential. Currently, I mostly use my droplet for things like writing and creating examples for blog posts. The basic plan with a shared CPU fits the bill perfectly, but maybe a dedicated CPU might be your thing if you need something more heavy-duty. So choose with care. My current instance is from the basic plan with a 2GB CPU and 50GB disk, which will cost me ten dollars a month.
 
-After picking the best configuration for your use case, you have to choose whether you want to “Add block storage”, imagine this is the external HD that you can take with you whenever you travel. Block storage saves the data and shares it across instances or maybe takes it from one instance to another. But note that block storages cost extra, so you are on a budget. Keep that in mind. 😉 
+After picking the best configuration for your use case, you have to choose whether you want to “Add block storage”, imagine this is the external HD that you can take with you whenever you travel. Block storage saves the data and shares it across instances or maybe takes it from one instance to another. But note that block storages cost extra, so you are on a budget. Keep that in mind. 😉
 
 ![add block storage](https://i.imgur.com/T9ajYfH.jpg)
 
@@ -86,6 +88,6 @@ Congratulations! You did it! You created your droplet successfully!
 
 Now you have to configure your droplet
 
----
+***
 
 For the next post I’ll talk about how to configure the Droplet so you can actually use it, stay tunned 😉
