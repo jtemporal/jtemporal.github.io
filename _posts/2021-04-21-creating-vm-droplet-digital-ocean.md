@@ -16,10 +16,7 @@ tags:
 ---
 This post is a step-by-step on how to create a cloud instance on Digital Ocean.
 
-<center>
-<img alt="video of michelle obama saying let's do this" src="https://media.giphy.com/media/lRXMa7BOWsdcF3NxTA/giphy.gif">
-<br>
-</center>
+<center> <img alt="video of michelle obama saying now let's get this done" src="https://media.giphy.com/media/lRXMa7BOWsdcF3NxTA/giphy.gif"> <br> </center>
 
 ## Get acquainted with Digital Ocean
 
