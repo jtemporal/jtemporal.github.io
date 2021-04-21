@@ -84,8 +84,6 @@ Once you click the "Create Droplet" button, you'll see your new droplet on the l
 
 Congratulations! You did it! You created your droplet successfully!
 
-Now you have to configure your droplet
-
 ***
 
 For the next post I’ll talk about how to configure the Droplet so you can actually use it, stay tunned 😉
