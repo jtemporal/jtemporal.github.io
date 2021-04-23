@@ -6,6 +6,12 @@ image: "/images/tutorial.png"
 comments: true
 description: A guide on how to configure your Droplet to access it via SSH
 tags:
+- droplet
+- digital ocean
+- ssh
+- cloud computing
+- cloud
+- tutorial
 - english
 
 ---
@@ -27,8 +33,10 @@ Then you'll see something like the image below in a new tab of your browser:
 
 Since I couldn't find the default password for my droplet, here's what I did: I clicked the `Access` option on the left-side menu:
 
-![access circled in red photo](https://i.imgur.com/WU01T2H.jpg)
-
+<center>
+<img style="max-width:30%;" alt="access circled in red photo" src="https://i.imgur.com/WU01T2H.jpg">
+</center>
+  
 Once the page loads, you'll see an option to **Reset the root password** and that's exactly what we want:
 
 ![Reset password page](https://i.imgur.com/xjFOm86.jpg)
@@ -143,4 +151,3 @@ That's it for today 😉
 And here are a link that helped me if you want to check it out.
 
 - [Post I followed to create a sudo user](https://linuxize.com/post/how-to-create-a-sudo-user-on-ubuntu/)
-
