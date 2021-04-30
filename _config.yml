@@ -70,4 +70,4 @@ sass:
 include: [.well-known, EnJtResume.pdf, folium]
 
 # Ruby Gems
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
