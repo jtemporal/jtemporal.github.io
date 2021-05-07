@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Configuring and accessing your droplet via SSH
-date: 2021-04-23 09:42:39 -0300
+date: 2021-05-07 09:42:39 -0300
 image: "/images/tutorial.png"
 comments: true
 description: A guide on how to configure your Droplet to access it via SSH
