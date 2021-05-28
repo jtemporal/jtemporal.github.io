@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's new in Flask 2.0
-date: 2021-05-28 18:44:37 -0300
+date: 2021-05-21 18:44:37 -0300
 image: "/images/click_to_read.png"
 comments: true
 description: Get to know more about the changes in this release of the framework
