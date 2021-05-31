@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating your machine on the cloud with Digital Ocean
-date: 2021-04-21 19:48:25 -0300
+date: 2021-04-21T19:48:25.000-03:00
 image: "/images/tutorial.png"
 comments: true
 description: A step-by-step guide to create an instance (Droplet) at Digital Ocean
@@ -86,4 +86,4 @@ Congratulations! You did it! You created your droplet successfully!
 
 ***
 
-For the next post I’ll talk about how to configure the Droplet so you can actually use it, stay tunned 😉
+[In this next post I talk about how to configure the Droplet so you can actually use it with SSH and all](https://jtemporal.com/configuring-and-accessing-your-droplet-via-ssh/), check it out 😉
