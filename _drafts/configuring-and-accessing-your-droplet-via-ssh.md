@@ -57,6 +57,10 @@ Now you are good to go!
     <img src="https://media.giphy.com/media/U5bilM64JWnbhHMtWd/giphy.gif">
 </center>
 
+<center>
+    <img src="https://media.giphy.com/media/JykvbWfXtAHSM/source.mp4">
+</center> 
+
 ## Creating your own user
 
 Okay, maybe you are doing just fine using the root user, but I like my terminal a cool colorful theme. So it's time to create a user for myself. To do this, there are a few commands.
@@ -115,10 +119,8 @@ Then the final step, you must change the ownership of the file you just copied. 
 ```
 
 <center>
-    <img src="https://media.giphy.com/media/JykvbWfXtAHSM/source.mp4">
+    <img src="https://media.giphy.com/media/5hxtIvk6VBzwkVCGN5/giphy.gif">
 </center> 
-
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/JykvbWfXtAHSM" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 Go on! Have a little break 😉 You deserve it 👏
 
