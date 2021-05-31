@@ -115,7 +115,6 @@ Then the final step, you must change the ownership of the file you just copied. 
 (root) $ chown jess /home/jess/.ssh/authorized_keys
 ```
 
-<br>
 <center>
     <img src="https://media.giphy.com/media/5hxtIvk6VBzwkVCGN5/giphy.gif">
 </center> 
