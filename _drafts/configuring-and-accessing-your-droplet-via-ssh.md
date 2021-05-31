@@ -53,10 +53,7 @@ _Note:_ you'll need to find the default root user for the OS of your choosing.
 
 Now you are good to go!
 
-<center>
-    <img src="https://media.giphy.com/media/U5bilM64JWnbhHMtWd/giphy.gif">
-</center>
-
+<br>
 <center>
     <img src="https://media.giphy.com/media/JykvbWfXtAHSM/source.mp4">
 </center> 
@@ -118,6 +115,7 @@ Then the final step, you must change the ownership of the file you just copied. 
 (root) $ chown jess /home/jess/.ssh/authorized_keys
 ```
 
+<br>
 <center>
     <img src="https://media.giphy.com/media/5hxtIvk6VBzwkVCGN5/giphy.gif">
 </center> 
