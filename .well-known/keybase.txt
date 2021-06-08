@@ -1,42 +1,3 @@
-==================================================================
-https://keybase.io/temporal
---------------------------------------------------------------------
-
-I hereby claim:
-
-  * I am an admin of http://jtemporal.com
-  * I am temporal (https://keybase.io/temporal) on keybase.
-  * I have a public key with fingerprint 3655 232A BC54 0BE6 474F  E3DB 228A 965A 1717 398C
-
-To do so, I am signing this object:
-
-{
-    "body": {
-        "key": {
-            "eldest_kid": "01205f5c9d017572cb00a443464fbd2ac648242b5d6bfcdfd8e8d0baf28080c8c55b0a",
-            "fingerprint": "3655232abc540be6474fe3db228a965a1717398c",
-            "host": "keybase.io",
-            "key_id": "228a965a1717398c",
-            "kid": "0101e38f132b41b2b3024f03fbb4d8b465a256df979a3a006a37249d324ed4ae18a80a",
-            "uid": "e4540a7c8404b1becfed2f0ca242be19",
-            "username": "temporal"
-        },
-        "service": {
-            "hostname": "jtemporal.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
-    },
-    "ctime": 1489712555,
-    "expire_in": 157680000,
-    "prev": "76cc37be12c1a9b3422f0ebf9818f905641dbef4c32b25e8062a9967498f4b4d",
-    "seqno": 11,
-    "tag": "signature"
-}
-
-which yields the signature:
-
 -----BEGIN PGP MESSAGE-----
 Version: Keybase OpenPGP v2.0.66
 Comment: https://keybase.io/crypto
@@ -66,11 +27,3 @@ xNcNqeD5um1rmpK7vAK9beUZRZYfzuXNFr1/P3OgsTvIfDvgYXnGMt9LxeuGK2FS
 fMO/w3ff6M75bOvMf+5iwvk=
 =z69N
 -----END PGP MESSAGE-----
-
-And finally, I am proving ownership of this host by posting or
-appending to this document.
-
-View my publicly-auditable identity here: https://keybase.io/temporal
-
-==================================================================
-
