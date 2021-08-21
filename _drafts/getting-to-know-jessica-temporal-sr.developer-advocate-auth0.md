@@ -20,4 +20,4 @@ Something just clicks, and things start falling into place. Before I can tell yo
 
 To keep reading this article, click on the button below 👇
 
-<br> <center> <a href="[https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/](https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/ "https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/")"> <img src="/images/keep_reading.png"/> </a> </center>
+<br> <center> <a href="https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/ "> <img src="/images/keep_reading.png"/> </a> </center>
