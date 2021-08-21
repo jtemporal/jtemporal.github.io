@@ -1,18 +1,23 @@
 ---
 layout: post
 title: Getting to know Jessica Temporal, Sr. Developer Advocate @ Auth0
-date: 2021-07-02T09:20:03.000-03:00
+date: 2021-04-29 09:20:03 -0300
 image: "/images/click_to_read.png"
 comments: true
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
 tags:
-- jwts in python
+- new job
+- Auth0
 
 ---
-JSON Web Tokens, or JWTs for short, are all over the web. They can be used to track bits of information about a user in a very compact way and can be used in APIs for authorization purposes. This post will cover what JSON Web Tokens are and how to create JWTs in Python using the most popular JWT library: [PyJWT](http://pyjwt.readthedocs.io/). We are also going to see how you can sign and verify JWTs in Python using asymmetric algorithms.
+I believe everybody has had an "aha moment" in their lifetime. I want to tell you about 2 of those moments for me.
+
+I also believe people mistake aha moments as something that happens out of nowhere, but when in reality, at least for me, those happen after much work.
+
+Something just clicks, and things start falling into place. Before I can tell you about my aha moments, you need to know me a little bit.
 
 ***
 
 To keep reading this article, click on the button below 👇
 
-<br> <center> <a href="https://auth0.com/blog/how-to-handle-jwt-in-python/"> <img src="/images/keep_reading.png"/> </a> </center>
+<br> <center> <a href="[https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/](https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/ "https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/")"> <img src="/images/keep_reading.png"/> </a> </center>
