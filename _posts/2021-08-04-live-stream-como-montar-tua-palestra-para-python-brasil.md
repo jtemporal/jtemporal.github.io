@@ -1,7 +1,7 @@
 ---
 layout: post
 type: talk
-title: 'Live Stream: Como Montar tua Palestra para Python Brasil'
+title: "[Live Stream] Como Montar tua Palestra para Python Brasil"
 date: 2021-08-04 15:00:00 -0300
 image: "/images/palestra.png"
 description: Super dicas com a Leticia Portella e eu sobre como preparar e submeter
