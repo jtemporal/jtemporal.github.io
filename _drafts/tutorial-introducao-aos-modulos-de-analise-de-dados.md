@@ -7,4 +7,6 @@ image: "/images/palestra.png"
 description: Tutorial introdutório não gravado sobre análise de dados em Python
 
 ---
-[https://2020.pythonnordeste.org/programacao_sabado.html](https://2020.pythonnordeste.org/programacao_sabado.html "https://2020.pythonnordeste.org/programacao_sabado.html")
+O material do tutorial [pode ser encontrado aqui](https://github.com/jtemporal/tutorial-modulos-data-science).
+
+Mais detalhes [sobre o evento aqui](https://2020.pythonnordeste.org/index.html#evento).
