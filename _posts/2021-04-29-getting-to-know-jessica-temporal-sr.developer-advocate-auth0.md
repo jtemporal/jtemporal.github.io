@@ -6,6 +6,7 @@ image: "/images/click_to_read.png"
 comments: true
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
 tags:
+- english
 - new job
 - Auth0
 

@@ -5,6 +5,8 @@ title: Traveling through a secure API in Python
 date: 2021-07-30 10:00:00 -0300
 image: "/images/talk.png"
 description: A talk about how to build a secure API using Flask and Auth0
+tags:
+- english
 
 ---
 ![](https://pbs.twimg.com/media/E7jJ1fyWYAcmeEG?format=jpg&name=medium "E7jJ1fyWYAcmeEG?format=jpg&name=medium")

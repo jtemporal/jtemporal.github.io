@@ -1,11 +1,12 @@
 ---
 layout: post
 title: How to Handle JWTs in Python
-date: 2021-07-02 09:20:03 -0300
+date: 2021-07-02T09:20:03.000-03:00
 image: "/images/click_to_read.png"
 comments: true
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
 tags:
+- english
 - jwts in python
 
 ---
