@@ -7,7 +7,6 @@ image: "/images/talk.png"
 description: A talk about how to build a secure API using Flask and Auth0
 
 ---
+![](https://pbs.twimg.com/media/E7jJ1fyWYAcmeEG?format=jpg&name=medium "E7jJ1fyWYAcmeEG?format=jpg&name=medium")
 
-[E7jJ1fyWYAcmeEG?format=jpg&name=medium](https://pbs.twimg.com/media/E7jJ1fyWYAcmeEG?format=jpg&name=medium "E7jJ1fyWYAcmeEG?format=jpg&name=medium")
-
-[https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/](https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/ "https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/")
+Veja mais detalhes no [site da palestra](https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/ "https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/").
