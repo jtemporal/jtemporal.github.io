@@ -5,6 +5,8 @@ title: "[Podcast] RaphaCast: Second Season"
 date: 2021-08-04 10:00:00 -0300
 image: "/images/talk.png"
 description: Interview for RaphaCast
+tags:
+- english
 
 ---
 I spoke about my trajectory in technology, how I started, how the Python community is fundamental part in everything I do, and finally how I joined [Auth0 to be a developer advocate](https://auth0.com/blog/jessica-temporal-sr-developer-advocate-auth0/).
