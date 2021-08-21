@@ -18,7 +18,7 @@ Isso não é um problema, principalmente se você está começando a sua jornada
 
 Com o objetivo de melhorar a vida de quem usa Git, eu comecei o [GitFichas](https://gitfichas.com/). O GitFichas nada mais é do que um site que agrega fichas de estudo sobre Git, tudo em bom português e da forma mais simples possível para que qualquer pessoa possa entender melhor cada comando ou conceito.
 
-[![GitFicha explicando como adicionar interativamente partes de alterações em commits com o comando git add -p](https://gitfichas.com/assets/img/projects/008/full.jpg)](https://gitfichas.com/projects/008?utm_source=blog)
+[![GitFicha explicando como adicionar interativamente partes de alterações em commits com o comando git add -p](https://gitfichas.com/assets/img/projects/008/thumbnail.jpg)](https://gitfichas.com/projects/008?utm_source=blog)
 
 <center>
 <i>GitFicha número 008 falando sobre o git add -p</i>
