@@ -2,9 +2,10 @@
 layout: post
 type: talk
 title: 'Live Stream: Como Montar tua Palestra para Python Brasil'
-date: 2019-02-21T03:00:00.000+00:00
+date: 2021-08-04 15:00:00 -0300
 image: "/images/palestra.png"
-description: ''
+description: Super dicas com a Leticia Portella e eu sobre como preparar e submeter
+  palestras
 
 ---
 ![](https://pbs.twimg.com/media/E7-BFLfXoAQwM_Y?format=jpg&name=medium "E7-BFLfXoAQwM_Y?format=jpg&name=medium")
@@ -15,4 +16,4 @@ Nesse espaço eu e a [Leticia Portella](http://leportella.com/) demos várias di
 
 Assista na íntegra abaixo. 👇
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/0O9hLeUJPtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/0O9hLeUJPtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
