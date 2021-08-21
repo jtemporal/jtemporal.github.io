@@ -32,7 +32,10 @@ Eu publico as fichas no meu perfil no [Twitter](http://twitter.com/jesstemporal)
 
 E se você quiser sugerir um comando ou conceito para ver no formato de ficha, deixa o seu comentário ali em baixo ou responde esse tweet aqui 👇
 
+<center>
+<br>
 <blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Perguntando pro meu TCC: Que comando <a href="https://twitter.com/hashtag/git?src=hash&amp;ref_src=twsrc%5Etfw">#git</a> você tem dificuldade mesmo rodando ele com frequência?</p>&mdash; Jessica Temporal (@jesstemporal) <a href="https://twitter.com/jesstemporal/status/1419992266828091408?ref_src=twsrc%5Etfw">July 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center><br>
 
-Eu to colocando os comandos na fila das fichas 😉
+Eu to colocando os comandos que me mandam na fila para fazer fichas 😉
 
