@@ -1,7 +1,7 @@
 ---
 layout: post
 type: talk
-title: Traveling trough a secure API in Python
+title: Traveling through a secure API in Python
 date: 2021-07-30 10:00:00 -0300
 image: "/images/talk.png"
 description: A talk about how to build a secure API using Flask and Auth0
