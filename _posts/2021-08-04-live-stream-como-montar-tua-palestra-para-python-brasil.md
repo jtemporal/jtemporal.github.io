@@ -6,6 +6,8 @@ date: 2021-08-04 15:00:00 -0300
 image: "/images/palestra.png"
 description: Super dicas com a Leticia Portella e eu sobre como preparar e submeter
   palestras
+tags:
+- english
 
 ---
 ![](https://pbs.twimg.com/media/E7-BFLfXoAQwM_Y?format=jpg&name=medium "E7-BFLfXoAQwM_Y?format=jpg&name=medium")
