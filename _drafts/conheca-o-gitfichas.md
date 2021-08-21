@@ -26,3 +26,13 @@ Com o objetivo de melhorar a vida de quem usa Git eu comecei o [GitFichas](https
 
 As fichas são imagens que explicam comandos ou conceitos que eu uso diariamente no Git e ainda trás dicas pouco conhecidas ou utilizadas, mas que quando bem aplicadas são uma mão na roda.
 
+Toda semana saem duas fichas novas, uma na segunda-feira e outra na quarta-feira.
+
+Eu publico as fichas no meu perfil no [Twitter](http://twitter.com/jesstemporal) e no [LinkedIn](https://www.linkedin.com/in/jessicatemporal/), mas você pode aproveitar e seguir o [GitFichas no Instagram](https://instagram.com/gitfichas) ou se inscrever no canal do [GitFichas no Telegram](https://t.me/gitfichas).
+
+E se você quiser sugerir um comando ou conceito para ver no formato de ficha, deixa o seu comentário ali em baixo ou responde esse tweet aqui 👇
+
+<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Perguntando pro meu TCC: Que comando <a href="https://twitter.com/hashtag/git?src=hash&amp;ref_src=twsrc%5Etfw">#git</a> você tem dificuldade mesmo rodando ele com frequência?</p>&mdash; Jessica Temporal (@jesstemporal) <a href="https://twitter.com/jesstemporal/status/1419992266828091408?ref_src=twsrc%5Etfw">July 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Eu to colocando os comandos na fila das fichas 😉
+
