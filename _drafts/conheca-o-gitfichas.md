@@ -12,11 +12,11 @@ tags:
 ---
 Eu comecei um novo projeto, e decidi vir aqui te contar tudo sobre ele! 👀
 
-Há algum tempo eu tenho ajudado qualquer pessoa que precisa de ajuda com Git. Pelo que tenho visto a maioria das pessoas usa os comandos git diariamente sem necessariamente entende-los...
+Há algum tempo eu tenho ajudado qualquer pessoa que precise de ajuda com Git. Pelo que tenho visto, a maioria das pessoas usa os comandos git diariamente sem necessariamente entendê-los…
 
-Isso não um problema, principalmente se você está começando a sua jornada com versionamento, no entanto, não entender o os comandos pode te levar a enrascadas com o Git (conflitos eu estou olhando pra vocês). E por mais que o Git nos ajude no processo de desenvolvimento a rastrear alterações, conflitos e _detached heads_ são coisas chatas de resolver se você não entende o que está fazendo não é mesmo?
+Isso não é um problema, principalmente se você está começando a sua jornada com versionamento, no entanto, não entender os comandos pode te levar a enrascadas com o Git (conflitos eu estou olhando pra vocês). E por mais que o Git nos ajude no processo de desenvolvimento a rastrear alterações, conflitos e _detached heads_ são coisas chatas de resolver, principalmente se você não entende o que precisa fazer não é mesmo?
 
-Com o objetivo de melhorar a vida de quem usa Git eu comecei o [GitFichas](https://gitfichas.com). O GitFichas nada mais é do que um site que agrega fichas de estudo sobre Git, tudo em bom português e da forma mais simples possível para que qualquer pessoa possa entender melhor cada comando ou conceito.
+Com o objetivo de melhorar a vida de quem usa Git, eu comecei o [GitFichas](https://gitfichas.com/). O GitFichas nada mais é do que um site que agrega fichas de estudo sobre Git, tudo em bom português e da forma mais simples possível para que qualquer pessoa possa entender melhor cada comando ou conceito.
 
 [![GitFicha explicando como adicionar interativamente partes de alterações em commits com o comando git add -p](https://gitfichas.com/assets/img/projects/008/full.jpg)](https://gitfichas.com/projects/008?utm_source=blog)
 
@@ -34,8 +34,7 @@ E se você quiser sugerir um comando ou conceito para ver no formato de ficha, d
 
 <center>
 <br>
-<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Perguntando pro meu TCC: Que comando <a href="https://twitter.com/hashtag/git?src=hash&amp;ref_src=twsrc%5Etfw">#git</a> você tem dificuldade mesmo rodando ele com frequência?</p>&mdash; Jessica Temporal (@jesstemporal) <a href="https://twitter.com/jesstemporal/status/1419992266828091408?ref_src=twsrc%5Etfw">July 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Perguntando pro meu TCC: Que comando <a href="https://twitter.com/hashtag/git?src=hash&ref_src=twsrc%5Etfw">#git</a> você tem dificuldade mesmo rodando ele com frequência?</p>— Jessica Temporal (@jesstemporal) <a href="https://twitter.com/jesstemporal/status/1419992266828091408?ref_src=twsrc%5Etfw">July 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center><br>
 
 Eu to colocando os comandos que me mandam na fila para fazer fichas 😉
-
