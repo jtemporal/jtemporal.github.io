@@ -7,6 +7,8 @@ lang: pt_BR
 title: Conheça o GitFichas!
 description: Projeto novo no ar!
 tags:
+- portugues
+- português
 - git
 
 ---
