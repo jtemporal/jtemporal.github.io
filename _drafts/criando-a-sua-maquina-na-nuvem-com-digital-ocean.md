@@ -14,19 +14,21 @@ tags:
 - tutorial
 
 ---
-This post is a step-by-step on how to create a cloud instance on Digital Ocean.
+Este post é um passo a passo sobre como criar uma instância de nuvem no Digital Ocean.
 
-<center> <img alt="video of michelle obama saying now let's get this done" src="https://media.giphy.com/media/lRXMa7BOWsdcF3NxTA/giphy.gif"> <br> </center>
+<center> <img alt="video da Michelle Obama dizendo 'Vamos Fazer isso!'" src="https://media.giphy.com/media/lRXMa7BOWsdcF3NxTA/giphy.gif"> <br>
+<i>video da Michelle Obama dizendo 'Vamos Fazer isso!'</i>
+</center>
 
-## Get acquainted with Digital Ocean
+## **Conheça a Digital Ocean**
 
-So Digital Ocean (DO) provides a range of solutions in cloud computing. My favorite one is called [Droplets](https://www.digitalocean.com/products/droplets/). Droplets are a virtual machine that you can use for pretty much anything, and I love to use them as a powerful computer when I have limited power available. Still, it is also a pretty neat choice for those who want to code from anywhere, even from mobile devices.
+A Digital Ocean (DO) oferece uma gama de soluções em computação em nuvem. Minha solução favorita deles é chamada de [Droplets](https://www.digitalocean.com/products/droplets/) (ou gotas em português). As droplets são uma máquina virtual que você pode usar para praticamente qualquer coisa, e adoro usá-las como um computador poderoso [quando tenho uma disponibilidade de poder computacional limitada](https://jtemporal.com/como-ser-cientista-de-dados-usando-um-computador-da-xuxa/). Ainda assim, também é uma escolha muito legal para quem deseja codificar de qualquer lugar, até mesmo de dispositivos móveis.
 
-There is a wide range of operating systems to chose from, and it is pretty straightforward to begin with, so whenever I need some cloud computing, I think of Digital Ocean as the first choice.
+Há uma grande variedade de sistemas operacionais para escolher, e é bastante simples para começar, então sempre que preciso de alguma computação em nuvem, penso no Digital Ocean como a primeira escolha.
 
-## Create the droplet
+## **Crie a droplet**
 
-The first thing you’ll need to do is create your account on DO. To do this, you must [access their website](https://digitalocean.com) and sign up using the form already available on the landing page:
+A primeira coisa que você precisa fazer é criar sua conta no DO. Para fazer isso, você deve [acessar o site deles](https://digitalocean.com) e se inscrever por meio do formulário já disponível na página de destino:
 
 ![Welcome page from Digital Ocean](https://i.imgur.com/fMY3yXz.jpg)
 
