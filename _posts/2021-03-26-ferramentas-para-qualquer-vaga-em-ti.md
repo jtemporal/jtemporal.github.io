@@ -39,7 +39,7 @@ Se você está lendo esse post provavelmente você já está usando o item 1. Co
 
 ## Coleta de dados
 
-Eu gosto de encarar o primeiro passo como a coleta de dados, esses dados tem como objetivo responder uma pergunta bem clara _“Qual conjunto de ferramentas e habilidades devo focar nos próximos meses para construir meu portfólio?”_.
+Eu gosto de encarar o primeiro passo como a **coleta de dados**, esses dados tem como objetivo responder uma pergunta bem clara _“Qual conjunto de ferramentas e habilidades devo focar nos próximos meses para construir meu portfólio?”_.
 
 Para começar abra o LinkedIn, abaixo você a minha página inicial. Ao centro, você vê a caixa para começar um novo post e o comecinho de um post do [Data Bootcamp](https://databootcamp.com.br/) que foi curtido por pessoas na minha rede. A esquerda você vê o meu perfil com algumas estatísticas, a direita sugestões de tópicos para seguir, mas o nosso foco vai ser na barra superior.
 
