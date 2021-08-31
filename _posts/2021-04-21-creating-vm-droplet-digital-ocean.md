@@ -46,7 +46,7 @@ Then you have to pick a payment plan:
 
 Choosing the right one for either of these choices is essential. Currently, I mostly use my droplet for things like writing and creating examples for blog posts. The basic plan with a shared CPU fits the bill perfectly, but maybe a dedicated CPU might be your thing if you need something more heavy-duty. So choose with care. My current instance is from the basic plan with a 2GB CPU and 50GB disk, which will cost me ten dollars a month.
 
-After picking the best configuration for your use case, you have to choose whether you want to “Add block storage”, imagine this is the external HD that you can take with you whenever you travel. Block storage saves the data and shares it across instances or maybe takes it from one instance to another. But note that block storages cost extra, so you are on a budget. Keep that in mind. 😉
+After picking the best configuration for your use case, you have to choose whether you want to “Add block storage”, imagine this is the external HD that you can take with you whenever you travel. Block storage saves the data and shares it across instances or maybe takes it from one instance to another. But note that block storages cost extra, so if you are on a budget. Keep that in mind. 😉
 
 ![add block storage](https://i.imgur.com/T9ajYfH.jpg)
 
