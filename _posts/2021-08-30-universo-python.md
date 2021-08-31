@@ -2,7 +2,7 @@
 layout: post
 type: talk
 title: Universo Python
-date: 2021-08-30 10:00:00 -0300
+date: 2020-11-24 11:00:00 -0200
 image: "/images/podcast.png"
 description: Parte do esquenta para o DoWhile2020 Rocketseat
 tags:
