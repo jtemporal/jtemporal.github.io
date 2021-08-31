@@ -1,9 +1,9 @@
 ---
 layout: post
 type: talk
-title: "[Tutorial] Introdução aos Módulos de Análise de Dados"
+title: Introdução aos Módulos de Análise de Dados
 date: 2021-07-17 00:00:00 -0300
-image: "/images/palestra.png"
+image: "/images/tutorial.png"
 description: Tutorial introdutório não gravado sobre análise de dados em Python
 tags:
 - portugues
