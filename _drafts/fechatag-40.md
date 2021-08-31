@@ -17,4 +17,4 @@ Um papo com o [Montanha](https://twitter.com/femontanha), onde conversamos sobre
 
 Você confere tudo lá no canal do FechaTag ou apertando o play ali em baixo 👇
 
-<iframe max-width="100%" height="315" src="https://www.youtube-nocookie.com/embed/M6guSKTP92U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="415" src="https://www.youtube-nocookie.com/embed/M6guSKTP92U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
