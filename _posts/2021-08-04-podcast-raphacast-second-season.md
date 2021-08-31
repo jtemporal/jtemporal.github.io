@@ -1,7 +1,7 @@
 ---
 layout: post
 type: talk
-title: "[Podcast] RaphaCast: Second Season"
+title: 'RaphaCast: Second Season'
 date: 2021-08-04 10:00:00 -0300
 image: "/images/podcast.png"
 description: Interview for RaphaCast
