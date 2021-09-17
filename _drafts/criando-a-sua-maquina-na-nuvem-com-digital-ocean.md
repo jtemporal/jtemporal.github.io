@@ -26,43 +26,45 @@ A Digital Ocean (DO) oferece uma gama de soluções em computação em nuvem. Mi
 
 Há uma grande variedade de sistemas operacionais para escolher, e é bastante simples para começar, então sempre que preciso de alguma computação em nuvem, penso no Digital Ocean como a primeira escolha.
 
-## **Crie a droplet**
+## **Crie uma droplet**
 
-A primeira coisa que você precisa fazer é criar sua conta no DO. Para fazer isso, você deve [acessar o site deles](https://digitalocean.com) e se inscrever por meio do formulário já disponível na página de destino:
+A primeira coisa que você precisa fazer é criar sua conta na DO. Para fazer isso, você deve [acessar o site deles](https://digitalocean.com) e se inscrever por meio do formulário já disponível na página inicial:
 
 ![Welcome page from Digital Ocean](https://i.imgur.com/fMY3yXz.jpg)
 
-After that, you’ll be taken to your dashboard, where you’ll see all the solutions available, and you should click on the `Droplets` option on the menu on the left-hand side, and this will take you to the page where you can see a list of your current droplets:
+Depois disso, você será levado ao seu painel de controle, onde verá todas as soluções disponíveis, e deverá clicar na `Droplets` opção do menu à esquerda, e isso o levará para a página onde você pode veja uma lista de suas droplets atuais:
 
 ![droplets list on dashboard](https://i.imgur.com/fKpV2pK.jpg)
 
-As you can see in the above image, I already have a droplet there called `jtemporal` and I can also create a new one by clicking the `Create droplet` button on the top left corner, and this will take you to a page where you can choose the configuration you want for your droplet.
+Como você pode ver na imagem acima, eu já tenho uma droplet chamado lá `jtemporal` e também posso criar uma nova clicando no botão `Create droplet` (Criar Droplet em tradução livre) que aparece em verde no canto superior esquerdo, e isso vai te levar pra uma página onde você pode escolher a configuração que você deseja para a sua droplet.
 
-The first thing you need to choose, is the operational system:
+A primeira coisa que você precisa escolher é o sistema operacional:
 
 ![OS options](https://i.imgur.com/NsgOBze.jpg)
 
-Then you have to pick a payment plan:
+Em seguida, você deve escolher um plano de pagamento:
 
 ![payment plans for droplets](https://i.imgur.com/rgDRnA3.jpg)
 
-Choosing the right one for either of these choices is essential. Currently, I mostly use my droplet for things like writing and creating examples for blog posts. The basic plan with a shared CPU fits the bill perfectly, but maybe a dedicated CPU might be your thing if you need something more heavy-duty. So choose with care. My current instance is from the basic plan with a 2GB CPU and 50GB disk, which will cost me ten dollars a month.
+Escolher a configuração correta é essencial. Atualmente, eu uso uma droplet principalmente para coisas como escrever e criar exemplos para postagens no blog. O plano básico com uma CPU compartilhada se encaixa perfeitamente para esse tipo de uso, mas talvez você precise de uma CPU dedicada se você precisar rodar algo mais pesado. Portanto, escolha com cuidado. Minha instância atual é do plano básico com uma CPU de 2 GB e disco de 50 GB, o que vai me custar dez dólares por mês.
 
-After picking the best configuration for your use case, you have to choose whether you want to “Add block storage”, imagine this is the external HD that you can take with you whenever you travel. Block storage saves the data and shares it across instances or maybe takes it from one instance to another. But note that block storages cost extra, so you are on a budget. Keep that in mind. 😉
+O dólar tá caro eu sei, mas eu não vivo com uma droplet o tempo todo, eu sempre apago ela depois que termino a tarefa que tinha para fazer e crio uma nova quando eu precisar, com isso o custo fica em questão de centavos de dólares.
+
+Depois de escolher a melhor configuração para o seu uso, você deve escolher se deseja "adicionar armazenamento em bloco" na seção Add block storage, imagine que este é o HD externo que você pode levar com você sempre que quiser. O armazenamento em bloco salva dados e é compartilhado entre as instâncias. Mas observe que o armazenamento em bloco tem um custo extra, então você está com um orçamento apertado, tenha isso em mente. 😉
 
 ![add block storage](https://i.imgur.com/T9ajYfH.jpg)
 
-After deciding which plan to use and whether or not you want to have block storage, you must choose a region for your instance; This means you have to decide where your machine's data center is physically located. The closer they are to you geographically, the less delay you'll have to deal with. I chose the New York region since it is the closest to me.
+Depois de decidir qual plano usar e se deseja ou não ter armazenamento em bloco, você deve escolher uma região para sua instância. Isso significa que você deve decidir em qual lugar do mundo o data center que hospedará a sua máquina virtual está fisicamente localizado. Quanto mais próximos estiverem de você geograficamente, menor será o atraso na comunicação com a máquina. Escolhi a região de Nova York por ser a mais próxima de mim.
 
-![datacenter region](https://i.imgur.com/FMYxQYU.jpg)
+![região do datacenter](https://i.imgur.com/FMYxQYU.jpg)
 
-Each region comes with a VPC network configured, so you can seamlessly transfer data and information from one instance to another in the same region. You can add custom VPC networks too, but for now, the default will be enough.
+Cada região vem com uma rede VPC configurada para que você possa transferir facilmente dados e informações de uma instância para outra na mesma região. Você também pode adicionar redes VPC personalizadas, mas por enquanto, a que vem por padrão será suficiente.
 
 ![aditional options](https://i.imgur.com/ouc22ui.jpg)
 
-You can also add some extra add-ons to your droplets, like monitoring and IPv6 connections availability. I didn't choose any add-ons since I don't need them right now but chose what best fits your needs.
+Você também pode adicionar alguns complementos extras aos seus droplets, como monitoramento e disponibilidade de conexões IPv6. Eu não escolhi nenhum complemento, pois não preciso deles agora, mas escolha o que melhor se adaptar às suas necessidades.
 
-Now that you have all the basic configuration for your instance set up, you'll need to define a way to access it. This is where the SSH keys come in. I have my SSH keys already set up in my account, and you can see by the picture below that I have a couple, so for this instance, I picked the one I'm currently using that is named `textastic`.
+Agora que você tem todas as configurações básicas para a sua instância configurada, você precisará definir uma maneira de acessá-la. É aqui que entram as chaves SSH. Já tenho minhas chaves SSH configuradas em minha conta e você pode ver na imagem abaixo que tenho algumas, então, para esta instância, escolhi a que estou usando atualmente que é a chave chamada `textastic`. Se preferir você pode também definir uma senha para o usuário `root` se selecionar Password, mas lembre-se de não repetir senhas e usar sempre um gerenciador de senhas para gerar senhas longas e randômicas (eu uso o LastPass)
 
 ![SSH keys configuration](https://i.imgur.com/n4FyN4T.jpg)
 
