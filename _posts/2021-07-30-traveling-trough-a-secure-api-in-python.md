@@ -11,6 +11,6 @@ tags:
 ---
 ![](https://pbs.twimg.com/media/E7jJ1fyWYAcmeEG?format=jpg&name=medium "E7jJ1fyWYAcmeEG?format=jpg&name=medium")
 
-Os slides estão [disponíveis aqui](https://ep2021.europython.eu/media/conference/slides/traveling-through-a-secure-api-in-python.pdf).
+The slides [are available here](https://ep2021.europython.eu/media/conference/slides/traveling-through-a-secure-api-in-python.pdf).
 
-Veja mais detalhes no [site da palestra](https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/ "https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/").
+And you can see more details [in the talk page](https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/ "https://ep2021.europython.eu/talks/traveling-through-a-secure-api-in-python/").
