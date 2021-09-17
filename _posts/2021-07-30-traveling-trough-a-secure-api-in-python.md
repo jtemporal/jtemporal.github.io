@@ -9,6 +9,8 @@ tags:
 - english
 
 ---
+A talk given at the 2021 EuroPython.
+
 ![](https://pbs.twimg.com/media/E7jJ1fyWYAcmeEG?format=jpg&name=medium "E7jJ1fyWYAcmeEG?format=jpg&name=medium")
 
 The slides [are available here](https://ep2021.europython.eu/media/conference/slides/traveling-through-a-secure-api-in-python.pdf).
