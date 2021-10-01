@@ -37,7 +37,8 @@ E é chegado o momento da lista para esse ano! Então aqui vai! Uma lista toda r
 As regrinhas do ano passado se repetem:
 
 1. Ser um projeto criado/desenvolvido/mantido por brasileiras(os);
-2. Ter pelo menos uma _issue_ aberta.
+2. Precisa ser um **projeto**, não pode ser uma organização, caso tenha mais de um projeto da organização precisa ser um PR por projeto com uma entrada por projeto
+3. Ter pelo menos uma _issue_ aberta.
 
 ## Avisos para 2021
 
