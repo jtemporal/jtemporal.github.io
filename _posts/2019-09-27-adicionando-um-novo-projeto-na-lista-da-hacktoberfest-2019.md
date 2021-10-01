@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Adicionando um novo projeto na lista da #Hacktoberfest 2019'
+title: 'Adicionando um novo projeto na lista da #Hacktoberfest'
 date: 2019-09-29T11:00:00.000+00:00
 image: "/images/tutorial.png"
 tags:
@@ -15,6 +15,11 @@ comments: true
 description: Vou te mostrar o passo a passo pra colocar um repo na lista de 2019
 
 ---
+
+***
+Nota da autora: As instruções a seguir foram criadas em 2019, mas a forma de atualizar a lista de projetos se manteve desde então. Então mesmo que você queira atualizar a lista desse ano os passos são os mesmo 😉
+***
+
 A lista de projetos brasileiros para contribuir nesse Hacktoberfest de 2019 é gerada automáticamente usando algumas mágicas do Liquid <!--como eu explico nesse outro artigo-->. Então, vamos ver como podemos adicionar um novo projeto nessa lista por meio de um _pull request_?
 
 <center>
