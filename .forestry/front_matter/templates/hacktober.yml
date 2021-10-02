@@ -41,7 +41,6 @@ pages:
 - _hacktoberfest_projects/Go/gofn+gofn.md
 - _hacktoberfest_projects/Go/goreleaser+goreleaser.md
 - _hacktoberfest_projects/Go/jonatasbaldin+ignore.md
-- _hacktoberfest_projects/Go/prest.md
 - _hacktoberfest_projects/Go/rumlang+rum.md
 - _hacktoberfest_projects/JavaScript/Coderockr+vitrine-social.md
 - _hacktoberfest_projects/JavaScript/MinisterioPublicoRJ+inloco.md
@@ -53,7 +52,6 @@ pages:
 - _hacktoberfest_projects/JavaScript/raphamorim+react-tv.md
 - _hacktoberfest_projects/JavaScript/rdiego26+klefki.md
 - _hacktoberfest_projects/JavaScript/rdiego26+redis-session-storage.md
-- _hacktoberfest_projects/JavaScript/withmoney+withmoney-api.md
 - _hacktoberfest_projects/JavaScript/withmoney+withmoney-mobile.md
 - _hacktoberfest_projects/JavaScript/yanmagale+narigajs.md
 - _hacktoberfest_projects/JavaScript/zeucxb+dymock.md
@@ -63,12 +61,10 @@ pages:
 - _hacktoberfest_projects/Kotlin/wilder+ftwfy.md
 - _hacktoberfest_projects/Kotlin/wilder+lmgtfyGen.md
 - _hacktoberfest_projects/PHP/PHPJasper+phpjasper.md
-- _hacktoberfest_projects/PHP/caronae+caronae-backend.md
 - _hacktoberfest_projects/PHP/comuREDE+core.md
 - _hacktoberfest_projects/Pearl/GouveaHeitor+nipe.md
 - _hacktoberfest_projects/Python/GabrielRF+RastreioBot.md
 - _hacktoberfest_projects/Python/allisson+python-simple-rest-client.md
-- _hacktoberfest_projects/Python/anapaulagomes+looong.md
 - _hacktoberfest_projects/Python/anapaulagomes+pytest-picked.md
 - _hacktoberfest_projects/Python/ayr-ton+kamu.md
 - _hacktoberfest_projects/Python/berinhard+pyp5js.md
@@ -98,7 +94,6 @@ pages:
 - _hacktoberfest_projects/Python/rougeth+bottery.md
 - _hacktoberfest_projects/Python/thaisviana+AlgPedia.md
 - _hacktoberfest_projects/Ruby/anonydog+anonydog.md
-- _hacktoberfest_projects/Ruby/magnetis+spok.md
 - _hacktoberfest_projects/Ruby/railsgirls+guides-ptbr.md
 - _hacktoberfest_projects/Scala/potigol+potigol.md
 - _hacktoberfest_projects/Shell/prefeiturasp+SME-plataforma-curriculo.md
