@@ -1,7 +1,0 @@
----
-principal_language: Python
-repo: https://github.com/basedosdados/mais
-image: https://avatars.githubusercontent.com/u/71097635?s=200&v=4
-description: 'Pacote Python para acesso, automatização e checagem de qualidade de dados do nosso datalake público. O projeto faz parte da Base dos Dados, uma organização sem fins lucrativos com a missão e universalizar o acesso a dados de qualidade para todes.'
-
----
