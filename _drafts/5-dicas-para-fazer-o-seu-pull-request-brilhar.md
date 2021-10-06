@@ -75,12 +75,31 @@ Como uma pessoa que mantem alguns projetos, me faz muito feliz ver essas palavra
 
 ## Dê contexto para quem vai revisar
 
-1. De contexto para quem vai revisar
-   1. Mencione a issue de referencias se ela existir
-   2. se não tiver uma issue de referencia, explique o seu objetivo com o pr e explique o que vocÊ está tentando resolver e/ou melhorar
+Muitas vezes as pessoas que mantém projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um bug por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
 
-## Explique como testar o que você fez
+Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele PR e a geração de _change logs_. Então foque no que você precisa preencher e lembre-se que é possível usar o markdown para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
 
-1. Fale como testar o que você fez
-   1. mesmo que tenha testes unitários/itegracao
-   2. principalmente se não tiver testes unitários/integração
+Embora hoje em dia vários repositórios tenham templates de PR, pode ser que você está contribuindo para um projeto que não tem um desses, então aqui vai um lista de tópicos para você incluir na descrição do seu _pull request:_
+
+1. **Qual o objetivo desse pull request?**
+
+   Aqui coloque aquela informação de qual issue (se ela existir) se relaciona com esse PR.
+2. **Quais alterações foram feitas para atingir esse objetivo?**
+
+   Alterações de código, documentação, mudanças de fluxo de dados e afins devem vir aqui. Use os seus commits para relembrar o que você mudou.
+3. **Como testar se essas mudanças realmente funcionam?**
+
+   Aqui pode usar prints se for algo visual por exemplo, ou exemplos de uso do pedaço de código novo.
+4. **Possíveis melhorias e outras anotações**
+
+   Uma lista de coisas que poderiam ser melhoradas, mas que não são o foco do PR, ou que você não sabe como resolver e precisa de ajuda.
+
+Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informações que ela precisa para revisar o _pull request_ no momento que a revisão for acontecer.
+
+## Aguarde as sugestões
+
+Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou implemente mais testes. De um modo geral elas veem para ajudar o seu pull request melhorar para que a sua contribuição seja aceita. 
+
+## Recapitulando
+
+Contribuir com _open-source_ é ótimo pois pode ajudar todas as pessoas que usam aquele projeto. E durante o hacktoberfest, por exemplo, é um ótimo momento para exercitar essa habilidade, então não deixe de seguir as dicas que você viu aqui para ter ainda mais sucesso no seus _pull requests._
