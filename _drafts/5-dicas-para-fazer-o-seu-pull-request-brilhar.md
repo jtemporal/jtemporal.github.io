@@ -100,9 +100,7 @@ Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informa�
 
 Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou ajuste a documentação.
 
-De um modo geral elas vem para ajudar o seu pull request melhorar e para que a sua contribuição seja aceita.
-
-O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
+De um modo geral elas vem para ajudar o seu pull request melhorar e para que a sua contribuição seja aceita. O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
 
 ## Recapitulando
 
