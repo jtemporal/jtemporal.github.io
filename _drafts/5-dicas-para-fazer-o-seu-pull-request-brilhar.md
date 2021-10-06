@@ -98,7 +98,7 @@ Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informa�
 
 ## Aguarde as sugestões
 
-Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou implemente mais testes. De um modo geral elas veem para ajudar o seu pull request melhorar para que a sua contribuição seja aceita. 
+Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou implemente mais testes. De um modo geral elas vem para ajudar o seu pull request melhorar para que a sua contribuição seja aceita.
 
 ## Recapitulando
 
