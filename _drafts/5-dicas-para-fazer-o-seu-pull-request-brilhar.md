@@ -57,42 +57,42 @@ Essas palavras podem ser usadas em dois lugares:
 1. No **título** do _pull request_;
 2. Ou na **descrição** do _pull request_.
 
-Você deve usá-las da seguinte forma para resolver uma issue:
+Você deve usá-las da seguinte forma para resolver uma _issue_:
 
 ```txt
 fixes #42
 ```
 
-Ou da forma a seguir para resolver mais de um issue:
+Ou da forma a seguir para resolver mais de um _issue_:
 
 ```txt
 fixes #42, fixes #44
 ```
 
-Caso o seu pull request, não resolva uma issue por completo, você ainda deve mencionar o número da issue que tem relação com o seu _pull request_ pois isso vai fazer que o seu _pull request_ apareça na issue como uma menção, mas nesse caso não deve usar as palavras acima.
+Caso o seu _pull request_, não resolva uma issue por completo, você ainda deve mencionar o número da issue que tem relação com o seu _pull request_ pois isso vai fazer que o seu _pull request_ apareça na issue como uma menção, mas nesse caso não deve usar as palavras acima.
 
 Como uma pessoa que mantem alguns projetos, me faz muito feliz ver essas palavras sendo usadas nos _pull requests_. Você pode ler mais sobre isso [nessa documentação do próprio GitHub sobre o assunto](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests0).
 
 ## Dê contexto para quem vai revisar
 
-Muitas vezes as pessoas que mantém projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um bug por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
+Muitas vezes as pessoas que mantém projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um _bug_ por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
 
-Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele pull request e a geração de _change logs_. Então foque no que você precisa preencher e lembre-se que é possível usar o markdown para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
+Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele pull request e a geração de _change logs_. Então foque no que você precisa preencher e lembre-se que é possível usar o _markdown_ para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
 
-Embora hoje em dia vários repositórios tenham templates de PR, pode ser que você está contribuindo para um projeto que não tem um desses, então aqui vai um lista de tópicos para você incluir na descrição do seu _pull request:_
+Embora hoje em dia vários repositórios tenham templates de _pull request_, pode ser que você está contribuindo para um projeto que não tem um desses, então aqui vai um lista de tópicos para você incluir na descrição do seu _pull request:_
 
 1. **Qual o objetivo desse pull request?**
 
-   Aqui coloque aquela informação de qual issue (se ela existir) se relaciona com esse PR.
+   Aqui coloque aquela informação de qual _issue_ (se ela existir) se relaciona com esse _pull request_.
 2. **Quais alterações foram feitas para atingir esse objetivo?**
 
-   Alterações de código, documentação, mudanças de fluxo de dados e afins devem vir aqui. Use os seus commits para relembrar o que você mudou.
+   Alterações de código, documentação, mudanças de fluxo de dados e afins devem vir aqui. Use os seus _commits_ para relembrar o que você mudou.
 3. **Como testar se essas mudanças realmente funcionam?**
 
    Aqui pode usar prints se for algo visual por exemplo, ou exemplos de uso do pedaço de código novo.
 4. **Possíveis melhorias e outras anotações**
 
-   Uma lista de coisas que poderiam ser melhoradas, mas que não são o foco do PR, ou que você não sabe como resolver e precisa de ajuda.
+   Uma lista de coisas que poderiam ser melhoradas, mas que não são o foco do _pull request_, ou que você não sabe como resolver e precisa de ajuda.
 
 Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informações que ela precisa para revisar o _pull request_ no momento que a revisão for acontecer.
 
