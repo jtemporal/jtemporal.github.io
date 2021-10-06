@@ -16,20 +16,18 @@ tags:
 - português
 comments: true
 description: 'Versão 2021 da lista de projetos brasileiros para contribuir no #Hacktoberfest'
+
 ---
 Outubro chegou e com ele chegou o #Hacktoberfest, todo ano tenho feito (às vezes com ajuda das amizades valeu demais [@anaschwendler](https://twitter.com/anaschwendler)) a lista para que você possa contribuir durante o #Hacktoberfest.
 
 E é chegado o momento da lista para esse ano! Então aqui vai! Uma lista toda repleta de projetos pra você contribuir nesse mês de Outubro!
 
-
 ## Edições anteriores
 
-
-- [2017](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
-- [2018](https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411)
-- [2019](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-o-retorno/)
-- [2020](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-2020/)
-
+* [2017](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
+* [2018](https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411)
+* [2019](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-o-retorno/)
+* [2020](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-2020/)
 
 ## Regras para entrar nessa lista
 
@@ -55,7 +53,7 @@ _ATUALIZAÇÃO IMPORTANTE:_
 <small><i>"Acorda menina! Olha as novas regras! New Rules!" - Ana Maria Braga</i></small>
 </center>
 
-O mais importante desse ano é que se você submeter dois PRs inválidos você sofrerá uma **desqualificação por período indeterminado**! 
+O mais importante desse ano é que se você submeter dois PRs inválidos você sofrerá uma **desqualificação por período indeterminado**!
 
 Para um PR ser considerado inválido, ele deve ser marcado com as _tags_ **spam** ou **invalid**. Então é bom tentar fazer PRs de qualidade!
 
@@ -68,10 +66,12 @@ Relembrando que para tornar seu PR válido para a hacktoberfest você precisa te
 <br>
 </center>
 
-2. O PR foi aberto em Outubro
-3. OU o PR é adicionado (merged) ao projeto OU está com o rótulo (label) `hacktoberfest-accepted` por um mantenedor OU o PR foi aprovado.
+1. O PR foi aberto em Outubro
+2. OU o PR é adicionado (merged) ao projeto OU está com o rótulo (label) `hacktoberfest-accepted` por um mantenedor OU o PR foi aprovado.
 
-Mais informações no [site oficial (em inglês)](https://hacktoberfest.digitalocean.com)
+Mais informações no [site oficial (em inglês)](https://hacktoberfest.digitalocean.com).
+
+Por último, nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilhar ✨](https://jtemporal.com/5-dicas-para-fazer-o-seu-pull-request-brilhar/) e pode ser útil.
 
 Happy Hacking! 🎉
 
@@ -84,7 +84,7 @@ Happy Hacking! 🎉
 <div class="github-project-share">
 <a style="text-decoration: none;" href="{{ item.repo }}">
 {% assign project_info = item.relative_path |  remove: ".md" | remove: ".yml" | split: "/"  %}
-{% assign project = project_info[2] | replace: "+", "/" %}
+{% assign project = project_info\[2\] | replace: "+", "/" %}
 <div class="github-project-share-card ">
 <img src="{{ item.image }}" alt="" />
 <h4>{{ project }}</h4>
