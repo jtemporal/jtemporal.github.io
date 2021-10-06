@@ -16,7 +16,7 @@ tags:
 - português
 
 ---
-Outubro é mês de hackatoberfest e esse deve ser o mês que nós nos esforçamos mais para contribuir com open-source e ajudar mais pessoas contribuirem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨brilhar ✨. Vamo lá!
+Outubro é mês de hacktoberfest e esse deve ser o mês que nós nos esforçamos mais para contribuir com open-source e ajudar mais pessoas contribuirem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨brilhar ✨. Vamo lá!
 
 ## Siga o guia de contribuição do projeto
 
@@ -38,7 +38,7 @@ Então o ideal é manter o branch principal limpo de alterações até para que 
 
 ## Relacione o pull request com uma issue
 
-Existem hoje 9 palavras-chave para relacionar o seu pull request com uma issue (se ela existir). Isso mesmo, nove! Usar essas palavras ao fazer o _pull request_ vai facilitar a vida de quem mantém o projeto, pois essas palavras fecham a issue correspondente ao rolar o merge do _pull request_, e também vai ajudar pessoas que estejam interessadas em contribuir pois elas podem ver o _pull request_ em andamento evitando que duas pessoas façam trabalho duplicado.
+Existem hoje 9 palavras-chave para relacionar o seu pull request com uma _issue_ (se ela existir). Isso mesmo, nove! Usar essas palavras ao fazer o _pull request_ vai facilitar a vida de quem mantém o projeto, pois essas palavras fecham a issue correspondente ao rolar o merge do _pull request_, e também vai ajudar pessoas que estejam interessadas em contribuir pois elas podem ver o _pull request_ em andamento evitando que duas pessoas façam trabalho duplicado.
 
 Então essa é a lista de palavras:
 
