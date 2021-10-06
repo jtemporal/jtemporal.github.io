@@ -24,7 +24,7 @@ A maioria dos projetos _open-source_ tem um conjunto de regras ou padrões que v
 
 Seguir o guia do projeto vai garantir um bom caminho para ter um _pull request_ bem sucedido logo do começo, esse guia é geralmente encontrado no arquivo `CONTRIBUTING.md` nos projetos do GitHub mas por vezes as regras também podem estar descritas no arquivo `README.md`.
 
-Agora você pode estar se perguntando _“O que eu faço se o projeto não tiver um guia de contribuição?”_ e essa situação é bem comum. Então caso não exista um guia de contribuição o que eu faço geralmente é olhar alguns commits do histórico de commits para ver como eles são feito e outros pull requests que foram feitos antes do meu para tentar seguir o mesmo formato.
+Agora você pode estar se perguntando _“O que eu faço se o projeto não tiver um guia de contribuição?”_ e essa situação é bem comum. Então caso não exista um guia de contribuição o que eu faço geralmente é olhar alguns commits do histórico de commits para ver como eles são feitos e outros pull requests que foram feitos antes do meu para tentar seguir o mesmo formato.
 
 ## Use branches no seu fork
 
