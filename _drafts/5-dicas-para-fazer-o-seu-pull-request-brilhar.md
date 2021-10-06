@@ -24,7 +24,7 @@ A maioria dos projetos _open-source_ tem um conjunto de regras ou padrões que v
 
 Seguir o guia do projeto vai garantir um bom caminho para ter um _pull request_ bem sucedido logo do começo, esse guia é geralmente encontrado no arquivo `CONTRIBUTING.md` nos projetos do GitHub mas por vezes as regras também podem estar descritas no arquivo `README.md`.
 
-Agora você pode estar se perguntando _“O que eu faço se o projeto não tiver um guia de contribuição?”_ e essa situação é bem comum. Então caso  não exista um guia de contribuição o que eu faço geralmente é olhar alguns commits do histórico de commits para ver como eles são feito e outros pull requests que foram feitos antes do meu para tentar seguir o mesmo formato.
+Agora você pode estar se perguntando _“O que eu faço se o projeto não tiver um guia de contribuição?”_ e essa situação é bem comum. Então caso não exista um guia de contribuição o que eu faço geralmente é olhar alguns commits do histórico de commits para ver como eles são feito e outros pull requests que foram feitos antes do meu para tentar seguir o mesmo formato.
 
 ## Use branches no seu fork
 
@@ -32,9 +32,9 @@ Ao fazer um _fork_ de um projeto para contribuir, é muito comum cairmos no erro
 
 Evite.
 
-Por mais que você só planeje fazer apenas um _pull request_, pode ser que a inspiração role e você queira fazer um segundo _pull request_ e aí você já comprometeu o seu branch principal com alterações do primeiro _pull request_ e, qualquer contribuição a partir desse ponto vai conter as alterações do primeiro pull request.
+Por mais que você só planeje fazer apenas um _pull request_, pode ser que a inspiração role e você queira fazer um segundo _pull request_ e aí você já comprometeu o seu branch principal com alterações do primeiro _pull request_ e, qualquer contribuição a partir desse ponto vai conter as alterações do primeiro _pull request_.
 
-Então o ideal é manter o branch principal limpo de alterações até para que você possa mantê-lo atualizado com o branch principal do repositório de origem. Então crie o bom hábito de separar suas contribuições em branches novas.
+Então o ideal é manter o branch principal limpo de alterações até para que você possa mantê-lo atualizado com o _branch_ principal do repositório de origem. Então crie o bom hábito de separar suas contribuições em branches novas.
 
 ## Relacione o pull request com uma issue
 
@@ -77,7 +77,7 @@ Como uma pessoa que mantem alguns projetos, me faz muito feliz ver essas palavra
 
 Muitas vezes as pessoas que mantém projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um _bug_ por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
 
-Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele pull request e a geração de _change logs_. Então foque no que você precisa preencher e lembre-se que é possível usar o _markdown_ para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
+Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele _pull request_ e a geração de _change logs_. Então foque no que você precisa preencher e lembre-se que é possível usar o _markdown_ para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
 
 Embora hoje em dia vários repositórios tenham templates de _pull request_, pode ser que você está contribuindo para um projeto que não tem um desses, então aqui vai um lista de tópicos para você incluir na descrição do seu _pull request:_
 
@@ -100,7 +100,7 @@ Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informa�
 
 Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou ajuste a documentação.
 
-De um modo geral elas vem para ajudar o seu pull request melhorar e para que a sua contribuição seja aceita. O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
+De um modo geral elas vem para ajudar o seu _pull request_ melhorar e para que a sua contribuição seja aceita. O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
 
 ## Recapitulando
 
