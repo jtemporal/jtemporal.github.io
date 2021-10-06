@@ -75,7 +75,7 @@ Como uma pessoa que mantem alguns projetos, me faz muito feliz ver essas palavra
 
 ## Dê contexto para quem vai revisar
 
-Muitas vezes as pessoas que mantém projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um _bug_ por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
+Muitas vezes as pessoas que mantêm projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um _bug_ por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
 
 Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele _pull request_ e a geração de _change logs_. Então foque no que você precisa preencher e lembre-se que é possível usar o _markdown_ para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
 
