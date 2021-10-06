@@ -3,7 +3,7 @@ layout: post
 date: 2021-10-05 22:15:06 -0300
 image: "/images/variados.png"
 comments: true
-lang: en_US
+lang: pt_BR
 title: 5 Dicas Para Fazer o Seu Pull Request Brilhar ✨
 description: Dicas de ouro para fazer uma contribuição open-source de sucesso
 tags:
