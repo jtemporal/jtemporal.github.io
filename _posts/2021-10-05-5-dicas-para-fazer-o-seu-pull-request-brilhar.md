@@ -105,3 +105,5 @@ De um modo geral elas vêm para ajudar o seu _pull request_ melhorar e para que 
 ## Recapitulando
 
 Contribuir com _open-source_ é ótimo pois pode ajudar todas as pessoas que usam aquele projeto. E durante o hacktoberfest, por exemplo, é um ótimo momento para exercitar essa habilidade, então não deixe de seguir as dicas que você viu aqui para ter ainda mais sucesso no seus _pull requests._
+
+Ah e último recadinho, se você estiver procurando por [projetos brasileiros para contribuir aqui está a lista de 2021](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-2021/).
