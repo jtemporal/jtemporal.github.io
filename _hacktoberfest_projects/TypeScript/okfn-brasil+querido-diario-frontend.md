@@ -5,6 +5,3 @@ description: "Repositório com a implementação do frontend da Plataforma de Bu
 principal_language: TypeScript
 
 ---
-
-
-
