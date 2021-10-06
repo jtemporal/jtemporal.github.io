@@ -89,7 +89,7 @@ Embora hoje em dia vários repositórios tenham templates de _pull request_, pod
    Alterações de código, documentação, mudanças de fluxo de dados e afins devem vir aqui. Use os seus _commits_ para relembrar o que você mudou.
 3. **Como testar se essas mudanças realmente funcionam?**
 
-   Aqui pode usar prints se for algo visual por exemplo, ou exemplos de uso do pedaço de código novo.
+   Aqui pode usar prints se for algo visual, por exemplo, ou exemplos de uso do pedaço de código novo.
 4. **Possíveis melhorias e outras anotações**
 
    Uma lista de coisas que poderiam ser melhoradas, mas que não são o foco do _pull request_, ou que você não sabe como resolver e precisa de ajuda.
@@ -100,7 +100,7 @@ Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informa�
 
 Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou ajuste a documentação.
 
-De um modo geral elas vem para ajudar o seu _pull request_ melhorar e para que a sua contribuição seja aceita. O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
+De um modo geral elas vêm para ajudar o seu _pull request_ melhorar e para que a sua contribuição seja aceita. O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
 
 ## Recapitulando
 
