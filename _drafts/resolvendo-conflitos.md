@@ -102,7 +102,7 @@ Como queremos deixar ambas alterações podemos apenas apagar as linhas com os m
 
 Lembre-se de salvar o arquivo. Em seguida volte para o terminal, se você rodar o comando `git status` vai ver que o arquivo `README.md` se mostra com alterações.
 
-tk resolucao-de-conflito-fig-9 !\[\]()
+![imagem mostrando resultado do comando git status com o arquivo readme.md apresentando alterações](https://res.cloudinary.com/jesstemporal/image/upload/v1640386495/resolucao-de-conflito-git/resolucao-de-conflito-fig-9_qos2xt.png)
 
 Agora você pode adicionar esse arquivo em staging com o seguinte comando:
 
@@ -110,15 +110,15 @@ Agora você pode adicionar esse arquivo em staging com o seguinte comando:
 
 E fazer o commit das alterações da forma que preferir. Note que ao fazer o commit, se você usar editores para escrever a mensagem de commit, é possível que essa mensagem já venha pré-preenchida como na imagem abaixo:
 
-tk resolucao-de-conflito-fig-10 !\[\]()
+![](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-10_urteae.png)
 
 Você pode personalizar a mensagem ou deixá-la como está e, ao terminar de fazer o commit, enviar essas alterações para o GitHub com um `git push`:
 
-tk resolucao-de-conflito-fig-11 !\[\]()
+![](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-11_kumo0k.png)
 
 Agora se você recarregar a página do pull request deverá ver que o conflito foi resolvido, observe:
 
-tk resolucao-de-conflito-fig-12 !\[\]()
+![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](https://res.cloudinary.com/jesstemporal/image/upload/v1640387041/resolucao-de-conflito-git/resolucao-de-conflito-fig-12_nourxm.png)
 
 E podemos finalmente dar merge neste pull request! Vitória! 🎉🎉
 
