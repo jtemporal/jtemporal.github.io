@@ -15,4 +15,6 @@ tags:
 
 Não se preocupe nessa colinha você vai ver como fazer isso usando um arquivo especial chamado `.gitkeep`.
 
-Isso aconteceu comigo à alguns anos no projeto que eu trabalhava, uma das ferramentas _open-source_ dependia da existência de uma pasta e nós decidimos que colocar uma conferência da existência da pasta ou criação dela no nosso código decidimos resolver isso 
+Isso aconteceu comigo à alguns anos no projeto que eu trabalhava: uma das ferramentas _open-source_ dependia da existência de uma pasta para fazer o download de dados de exemplo e o time decidiu que colocar uma conferência da existência da pasta ou criação dela no nosso código seria um exagero. Uma forma que vimos para garantir a existência da pasta foi usando o `.gitkeep`.
+
+Ao colocar este arquivo numa pasta vazia, ele garante que o git vá adicionar essa pasta no seu sistema de versionamento e por ser um arquivo oculto, ele facilita a manutenção da estrutura de pastas sem atrapalhar o uso da pasta para outros fins.
