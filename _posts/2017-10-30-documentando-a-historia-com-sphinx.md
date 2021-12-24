@@ -1,7 +1,7 @@
 ---
 title: "Documentando a história com Sphinx"
 layout: post
-image: "/images/tutorial.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 date: '2017-10-30 10:00:00'
 tags:
 - tutorial

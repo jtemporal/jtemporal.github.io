@@ -1,7 +1,7 @@
 ---
 title: Fazendo deploy de uma API para o Heroku
 layout: post
-image: "/images/tutorial.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 date: 2018-04-15T00:00:00.000+00:00
 tags:
 - tutorial

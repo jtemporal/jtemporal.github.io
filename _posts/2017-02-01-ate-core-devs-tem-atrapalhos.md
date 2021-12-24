@@ -2,7 +2,7 @@
 title: "Até core devs tem atrapalhos ¯\\_(ツ)_/¯"
 layout: post
 date: '2017-02-01 00:00:00'
-image: "/images/tutorial.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 tags:
 - postgres
 - python
