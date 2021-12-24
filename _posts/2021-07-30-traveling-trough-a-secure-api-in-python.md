@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: Traveling through a secure API in Python
 date: 2021-07-30 10:00:00 -0300
-image: "/images/talk.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png"
 description: A talk about how to build a secure API using Flask and Auth0
 tags:
 - english

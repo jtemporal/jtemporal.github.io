@@ -2,7 +2,7 @@
 layout: post
 title: Who do you think of when asked for a referral?
 date: 2019-12-18T07:00:00.000+00:00
-image: "/images/miscellaneous.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
 tags:
 - pyladies

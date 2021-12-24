@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2019-09-27T13:00:00.000+00:00
-image: "/images/miscellaneous.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
 title: From 0 to 17 thousand pageviews
 description: How a theme exchange impacted the number of hits on my blog
@@ -65,8 +65,8 @@ Because both themes are Jekyll, based on markdown, and both have the same patter
 
 <table>
 <tr>
-<td><img src="/images/miscellaneous.png"></td>
-<td><img src="/images/pro_tip.png"></td>
+<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"></td>
+<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"></td>
 </tr>
 </table>
 <center><i>Some of the covers I made for the articles</i></center>

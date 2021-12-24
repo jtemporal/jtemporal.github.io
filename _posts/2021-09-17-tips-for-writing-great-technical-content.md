@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: Tips for Writing Great Technical Content
 date: 2021-09-17 15:30:00 -0300
-image: "/images/talk.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png"
 description: Let's talk about structure and writing tips for creating great technical
   content
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-image: "/images/pro_tip.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 comments: true
 title: 'Fixing date error while running jekyll on macOS Catalina '
 description: This pro tip explains how to fix the "Invalid date" error you may see

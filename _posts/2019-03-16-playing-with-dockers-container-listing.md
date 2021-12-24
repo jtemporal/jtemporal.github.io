@@ -2,7 +2,7 @@
 layout: post
 title: Playing with Docker’s container listing
 date: 2019-03-16T03:00:00.000+00:00
-image: "/images/pro_tip.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 comments: true
 tags:
 - english

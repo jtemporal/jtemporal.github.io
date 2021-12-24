@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-03-26T11:50:00.000-03:00
-image: "/images/miscellaneous.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
 title: Working remotely
 description: Tips I use when I'm working remotely for you that are adapting yourself

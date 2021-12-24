@@ -2,7 +2,7 @@
 layout: post
 title: Getting to know Jessica Temporal, Sr. Developer Advocate @ Auth0
 date: 2021-04-29 09:20:03 -0300
-image: "/images/click_to_read.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png"
 comments: true
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
 tags:

@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: Viajando Por o Uma API Segura com Flask
 date: 2021-10-12 16:40:00 -0300
-image: "/images/talk.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png"
 description: Uma palestra sobre como construir uma API segura em Python usando Flask
   e Auth0
 tags:

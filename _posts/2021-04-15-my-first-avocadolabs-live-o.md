@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: My first AvocadoLabs live o/
 date: 2021-04-15 11:00:00 -0300
-image: "/images/talk.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png"
 description: Auth0 Developer Relations Team Just Got Bigger - Meet Jessica Temporal
 
 ---
