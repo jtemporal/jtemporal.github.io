@@ -2,7 +2,7 @@
 layout: post
 title: Raspagem de dados sem escrever código
 date: 2019-05-08 00:00:00 -0300
-image: "/images/click-2.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
 tags:
 - medium

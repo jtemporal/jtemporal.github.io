@@ -3,7 +3,7 @@ title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest vers√
   2018'
 layout: post
 date: 2018-09-30 00:00:00 -0300
-image: "/images/click-2.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 tags:
 - hacktoberfest
 - GitHub

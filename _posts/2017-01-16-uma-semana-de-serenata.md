@@ -2,7 +2,7 @@
 layout: post
 title: Uma semana de Serenata de Amor
 date: 2017-01-16 00:00:00 -0200
-image: "/images/click-2.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
 tags:
 - medium
