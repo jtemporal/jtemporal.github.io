@@ -23,4 +23,4 @@ Quando esses dados vem de uma API no formato textual de um JSON, nosso _software
 
 Pra fazer o tutorial sobre o Schematics clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/databootcamp/introducao-ao-schematics-a62ce5b83667)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/databootcamp/introducao-ao-schematics-a62ce5b83667)

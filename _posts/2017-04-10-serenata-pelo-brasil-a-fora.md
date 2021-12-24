@@ -26,7 +26,7 @@ Pra continuar lendo esse artigo e saber mais como foi o mês de março no Serena
 <center>
 <a href="https://medium.com/serenata/serenata-pelo-brasil-a-fora-5823cc0d9736">
 
-<img src="/images/clique-aqui-para-ler.png" />
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
 
 </a>
 </center>

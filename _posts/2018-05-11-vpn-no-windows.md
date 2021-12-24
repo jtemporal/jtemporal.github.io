@@ -22,4 +22,4 @@ Além de mascarar IPs, a VPN tem me servido para resolver um bloqueio causado pe
 
 Pra continuar lendo sobre isso e aprender a configurar a VPN no Windows clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/test-after-deploy/instalando-vpn-no-windows-f219016d7886)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/test-after-deploy/instalando-vpn-no-windows-f219016d7886)

@@ -29,7 +29,7 @@ Pra continuar lendo esse artigo corre lÃ¡ para a revista do Code Like a Girl ğŸ‘
 <center>
 <a href="https://code.likeagirl.io/em-quem-voc%C3%AA-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o-b15e047b7759">
 
-<img src="/images/clique-aqui-para-ler.png" />
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
 
 </a>
 </center>

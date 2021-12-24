@@ -36,7 +36,7 @@ Pra continuar lendo esse artigo e saber como funciona o deploy automatizado do S
 <center>
 <a href="https://medium.com/serenata/deploy-automatizado-para-o-pypi-usando-travis-ci-159e86e5d979">
 
-<img src="/images/clique-aqui-para-ler.png" />
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
 
 </a>
 </center>

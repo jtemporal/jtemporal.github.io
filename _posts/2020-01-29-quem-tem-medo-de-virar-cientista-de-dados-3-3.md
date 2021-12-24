@@ -32,6 +32,6 @@ Para continuar lendo, clica nesse botão aqui em baixo 👇
 
 <center>
 <a href="https://medium.com/pizzadedados/quem-tem-medo-de-virar-cientista-de-dados-3-3-f46b118ae12a#1926">
-<img src="/images/clique-aqui-para-ler.png"/>
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png"/>
 </a>
 </center>

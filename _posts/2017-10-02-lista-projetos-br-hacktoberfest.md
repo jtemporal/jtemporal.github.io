@@ -18,5 +18,5 @@ Se não sabe ainda o que é o Hacktoberfest [da uma olhadinha nesse outro post q
 
 Pra ver projetos Brasileiros  para contribuir clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
 

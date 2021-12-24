@@ -24,4 +24,4 @@ A filosofia do micro serviço e de partes que funcionam independemente de um tod
 
 Pra continuar lendo esse comparativo clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/test-after-deploy/filas-e-mensagens-pra-que-te-quero-e78458615b14)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/test-after-deploy/filas-e-mensagens-pra-que-te-quero-e78458615b14)

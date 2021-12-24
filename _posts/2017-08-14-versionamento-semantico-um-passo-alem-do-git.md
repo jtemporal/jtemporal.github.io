@@ -28,7 +28,7 @@ Pra continuar lendo esse artigo e saber como funciona o versionamento semântico
 <center>
 <a href="https://medium.com/serenata/versionamento-sem%C3%A2ntico-um-passo-al%C3%A9m-do-git-53e466d0f21a">
 
-<img src="/images/clique-aqui-para-ler.png" />
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
 
 </a>
 </center>

@@ -26,7 +26,7 @@ Pra continuar lendo esse artigo e saber como foi colocar a Serenata Toolbox no P
 <center>
 <a href="https://medium.com/serenata/serenata-toolbox-no-pypi-2713e3dd4d42">
 
-<img src="/images/clique-aqui-para-ler.png" />
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
 
 </a>
 </center>

@@ -31,6 +31,6 @@ Pra continuar lendo esse tutorial, vai lá para a revista do Pizza 👇
 
 <center>
 <a href="https://medium.com/pizzadedados/raspando-sem-codigo-37caa24395ee">
-<img src="/images/clique-aqui-para-ler.png"/>
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png"/>
 </a>
 </center>

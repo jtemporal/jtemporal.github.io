@@ -28,6 +28,6 @@ Pra continuar lendo esse artigo cheião de dicas vai lá para a revista do Pizza
 
 <center>
   <a href="https://medium.com/pizzadedados/backstage-de-um-podcast-465f02c2a7e5">
-    <img src="/images/clique-aqui-para-ler.png" atl="botao de clique aqui para ler"/>
+    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" atl="botao de clique aqui para ler"/>
   </a>
   </center>

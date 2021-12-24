@@ -22,4 +22,4 @@ Depois de ativar o Ubuntu no Windows qual o próximo passo? Definitivamente conf
 
 Pra continuar lendo sobre isso e aprender a configurar as chaves SSH no Windows clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/test-after-deploy/usando-o-chaves-ssh-no-windows-fa459ee42079)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/test-after-deploy/usando-o-chaves-ssh-no-windows-fa459ee42079)

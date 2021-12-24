@@ -19,5 +19,5 @@ Ultimamente eu tenho precisado testar alguns softwares que desenvolvemos na [Nuv
 
 Pra continuar lendo sobre isso e aprender a usar o Ubuntu (e outras distribuições Linux) no Windows clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/test-after-deploy/ubuntu-no-windows-d71c53ebe402)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/test-after-deploy/ubuntu-no-windows-d71c53ebe402)
 

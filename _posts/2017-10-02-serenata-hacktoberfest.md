@@ -17,4 +17,4 @@ A [Operação Serenata de Amor](https://serenata.ai/) vive de contribuições, t
 
 Pra continuar lendo sobre isso, clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/data-science-brigade/serenatadeamor-nesse-hacktoberfest-a752b909b433)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/data-science-brigade/serenatadeamor-nesse-hacktoberfest-a752b909b433)
