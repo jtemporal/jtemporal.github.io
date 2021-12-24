@@ -14,6 +14,8 @@ tags:
 ---
 Resolver conflitos pode ser uma tarefa árdua e complicada quando se trata de projetos git. Nesse artigo você vai aprender um passo-a-passo infalível para resolver conflitos.
 
+Caso você já saiba o que são conflitos e queira apenas ver a lista de passos e comandos para resolver um conflito sugiro que [pule para a conclusão clicando aqui](#conclusao).
+
 ## O que é um conflito em git
 
 Quando um projeto tem várias pessoas trabalhando ao mesmo tempo, é possível que duas pessoas pessoas precisem fazer alterações no mesmo pedaço de um arquivo. Quando mais de uma pessoa alteram o mesmo pedaço de um arquivo em branches diferentes é nesse momento que os conflitos aparecem.
@@ -110,17 +112,31 @@ Agora você pode adicionar esse arquivo em staging com o seguinte comando:
 
 E fazer o commit das alterações da forma que preferir. Note que ao fazer o commit, se você usar editores para escrever a mensagem de commit, é possível que essa mensagem já venha pré-preenchida como na imagem abaixo:
 
-![](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-10_urteae.png)
+![imagem mostrando a mensagem de commit pré-preenchida pelo editor vim](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-10_urteae.png)
 
 Você pode personalizar a mensagem ou deixá-la como está e, ao terminar de fazer o commit, enviar essas alterações para o GitHub com um `git push`:
 
-![](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-11_kumo0k.png)
+![imagem mostrando o envio das alterações para o github](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-11_kumo0k.png)
 
 Agora se você recarregar a página do pull request deverá ver que o conflito foi resolvido, observe:
 
 ![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](https://res.cloudinary.com/jesstemporal/image/upload/v1640387041/resolucao-de-conflito-git/resolucao-de-conflito-fig-12_nourxm.png)
 
 E podemos finalmente dar merge neste pull request! Vitória! 🎉🎉
+
+## Conclusão<a name="conclusao"></a>
+
+Você agora entende como os conflitos se formam e também sabe todos os passos envolvidos em resolver conflitos.
+
+Aqui está a lista simples de todos os comandos e passos para resolver conflitos, lembre de substituir as notações `<>` de acordo:
+
+1. `git checkout <nome do branch com conflito>`
+1. `git pull origin main`
+1. abra o arquivo com conflito e os resolva
+1. salve o arquivo
+1. `git add <nome do arquivo alterado>`
+1. `git commit`
+1. `git push`
 
 ***
 
