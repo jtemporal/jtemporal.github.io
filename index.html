@@ -16,9 +16,9 @@ img: "/images/profilepicgh.jpeg"
 
                   {% if post.image %}
                     {% if post.image contains "http" %}
-                      <img width="100%" src="{{site.baseurl}}{{site.url}}{{post.image}}" alt="{{post.title}}">
-                    {% else %}
                       <img width="100%" src="{{post.image}}" alt="{{post.title}}">
+                    {% else %}
+                      <img width="100%" src="{{site.baseurl}}{{site.url}}{{post.image}}" alt="{{post.title}}">
                     {% endif %}
                   {% else %}
                     <img width="100%" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{site.title}}">
