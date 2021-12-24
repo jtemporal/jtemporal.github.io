@@ -23,6 +23,11 @@ sections:
   new_doc_ext: md
   templates:
   - hacktober
+- type: directory
+  path: ".forestry/front_matter/templates"
+  label: templates
+  create: all
+  match: "**/*"
 - type: heading
   label: Tema
 - type: directory
@@ -39,11 +44,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: html
-- type: directory
-  path: ".forestry/front_matter/templates"
-  label: templates
-  create: all
-  match: "**/*"
 upload_dir: images
 public_path: images
 front_matter_path: "/images"
