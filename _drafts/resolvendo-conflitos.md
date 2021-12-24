@@ -69,15 +69,38 @@ Isso irá trazer o conflito para a sua máquina te dando um aviso informando que
 
 tk resolucao-de-conflito-fig-5
 
-Se você abrir o `README.md` num editor de código irá notar
+Se você abrir o `README.md` num editor de código irá notar a presença de marcadores indicado por sucessivos sinais de maior que (`>`), sinais de menor que (`>`) e sinais de igual (`=`), aqui um exemplo do conflito mostrado no Vim:
 
 tk resolucao-de-conflito-fig-6
 
+Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te da opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
+
+tk resolucao-de-conflito-fig-7
+
+Para entender o que cada botão apresentado pelo VS Code quer dizer, vamos dissecar um pouco esse formato de representação. Um conflito pode ser dividido em duas partes:
+
+1. **As nossas alterações:** aquelas que estão no branch corrente também chamadas de alterações atuais (_current change_);
+2. **As alterações dos outros:** aquelas que trouxemos para a máquina local ao fazer `git pull` também chamadas de alterações que estão chegando ou de entrada (_incoming changes_).
+
+Nesse formato, cada bloco é delimitado por um sinal de maior ou menor até o bloco de sinais de igual repetidos, então por exemplo nesse caso temos os seguintes blocos:
+
+Aquele com as alterações atuais:
+
+    <<<<<<< HEAD
+    Pessoa 2 esteve aqui!
+    =======
+
+E aquele com as alterações que estão chegando:
+
+    =======
+    Pessoa 1 esteve aqui!
+    >>>>>>> 3c20251a794ec572e2c3202017d843e2d8769843
+
+Como queremos deixar ambas alterações podemos apenas apagar as linhas com os marcadores salvar o arquivo, se você estiver usando editores mais simples. No VS Code podemos apertar em _"Accept both changes"_ e continuar com os comandos a seguir. Após aceitar todas as mudanças, manualmente ou usando os botões no VS Code, você deve ter um arquivo assim:
+
+tk resolucao-de-conflito-fig-8
+
 comandos:
-
-git checkout master
-
-git pull origin develop
 
 dps de resolver
 
