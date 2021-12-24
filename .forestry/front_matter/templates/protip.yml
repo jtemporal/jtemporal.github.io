@@ -24,7 +24,7 @@ fields:
 - type: file
   name: image
   label: image
-  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 - type: list
   name: tags
   label: tags

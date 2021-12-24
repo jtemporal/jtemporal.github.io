@@ -29,7 +29,7 @@ fields:
   label: capa
   type: file
   hidden: false
-  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 - name: tags
   type: list
   config:

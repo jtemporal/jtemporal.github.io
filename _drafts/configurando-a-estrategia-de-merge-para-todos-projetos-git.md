@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-12-24 13:43:00 -0200
+date: 2021-12-24T13:43:00.000-02:00
 image: "/images/colinha.png"
 comments: true
 title: Configurando a estratégia de merge para todos projetos git
@@ -11,5 +11,10 @@ tags:
 - colinha
 
 ---
+lorem ipsum
 
-    git config --global pull.rebase false
+```console
+git config --global pull.rebase false
+```
+
+lorem ipsum

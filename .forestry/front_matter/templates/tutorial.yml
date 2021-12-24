@@ -31,7 +31,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 - name: tags
   type: list
   config:

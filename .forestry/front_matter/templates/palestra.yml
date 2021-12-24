@@ -32,7 +32,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png
 - name: tags
   type: tag_list
   default: []

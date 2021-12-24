@@ -26,7 +26,7 @@ fields:
   label: Capa
   type: file
   hidden: false
-  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
 - name: tags
   label: Tags
   type: tag_list
