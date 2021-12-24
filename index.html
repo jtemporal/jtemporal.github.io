@@ -14,10 +14,14 @@ img: "/images/profilepicgh.jpeg"
                 <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
                 <div class="panel panel-default">
 
-                  {% if post.image   %}
-                  <img width="100%" src="{{site.baseurl}}{{site.url}}{{post.image}}" alt="{{post.title}}">
+                  {% if post.image %}
+                    {% if post.image contains "http" %}
+                      <img width="100%" src="{{site.baseurl}}{{site.url}}{{post.image}}" alt="{{post.title}}">
+                    {% else %}
+                      <img width="100%" src="{{post.image}}" alt="{{post.title}}">
+                    {% endif %}
                   {% else %}
-                  <img width="100%" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{site.title}}">
+                    <img width="100%" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{site.title}}">
                   {% endif %}
 
                   <div class="panel-body">
