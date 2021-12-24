@@ -46,7 +46,32 @@ Em seguida fiz as alterações para cada pessoa, no branch `pessoa1` adicionei a
 
 tk resolucao-de-conflito-fig-2
 
-No momento da revisão eu, e muitas pessoas com quem trabalhei, preferem revisar os pull requests por ordem de chegada
+Revisei o merge no pull request `pessoa1`:
+
+tk resolucao-de-conflito-fig-3
+
+E então voltei para o PR da `pessoa2` e pude notar a indicação de que o pull request contém um conflito, veja:
+
+tk resolucao-de-conflito-fig-4
+
+E agora com o conflito quentinho em mãos é hora de resolvê-lo.
+
+## Resolvendo um conflito no Git
+
+Antes de começar é importante notar que este tipo de conflito é possível resolver também pela interface do GitHub, mas o foco aqui são os comandos, então vamos lá!
+
+A primeira coisa importante é decidir em qual branch resolver o conflito, uma regra que geralmente funciona é resolver os conflitos no branch que apresenta as alterações, neste caso, o branch em questão é o `pessoa2`, com isso você deve atualizar o seu repositório local, e este branch em particular com os ajustes da main, para isso faça:
+
+    git checkout pessoa2
+    git pull origin main
+
+Isso irá trazer o conflito para a sua máquina te dando um aviso informando que existem conflitos, que você deve resolver o conflito e fazer um commit:
+
+tk resolucao-de-conflito-fig-5
+
+Se você abrir o `README.md` num editor de código irá notar
+
+tk resolucao-de-conflito-fig-6
 
 comandos:
 
