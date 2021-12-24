@@ -29,7 +29,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: "/images/click-2.png"
+  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 - name: comments
   label: Comments
   type: boolean
