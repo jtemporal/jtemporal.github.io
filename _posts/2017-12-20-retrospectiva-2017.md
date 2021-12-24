@@ -6,7 +6,7 @@ tags:
 - pessoal
 - português
 comments: true
-image: "/images/pessoal.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
 
 ---
 Eu decidi fazer uma coisa nova esse fim de ano: analisar o meu crescimento e escrever isso em algum lugar. Uma visão geral dum ano tão carregado das coisas que fiz/deixei de fazer.

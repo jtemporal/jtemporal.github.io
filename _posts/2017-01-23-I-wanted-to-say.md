@@ -8,7 +8,7 @@ tags:
 - pycon
 - english
 comments: true
-image: "/images/pessoal.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
 
 ---
 As I was filling out PyCon’s financial aid form, I came across the following

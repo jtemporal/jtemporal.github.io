@@ -8,7 +8,7 @@ tags:
 - friends
 - english
 comments: true
-image: "/images/pessoal.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
 
 ---
 ### A letter to my friends

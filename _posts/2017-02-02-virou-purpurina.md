@@ -8,7 +8,7 @@ tags:
 - amor
 - português
 comments: true
-image: "/images/pessoal.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
 
 ---
 Porque somos tão relutantes em sentir e expressar amor? Não sei vocês. Mas eu amo

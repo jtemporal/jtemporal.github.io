@@ -8,7 +8,7 @@ tags:
 - pycon
 - português
 comments: true
-image: "/images/pessoal.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
 
 ---
 Enquanto eu estava preenchendo o formulário de apoio financeiro da [PyCon](https://us.pycon.org/2017/),
