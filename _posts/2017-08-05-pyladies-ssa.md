@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: "Ciências de Dados com o Serenata de Amor: Pyladies SSA"
 date: 2017-08-05
-image: "/images/palestra.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
 ---
 

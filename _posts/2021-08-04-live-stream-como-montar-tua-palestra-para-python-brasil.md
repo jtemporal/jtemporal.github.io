@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: "[Live Stream] Como Montar tua Palestra para Python Brasil"
 date: 2021-08-04 15:00:00 -0300
-image: "/images/palestra.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 description: Super dicas com a Leticia Portella e eu sobre como preparar e submeter
   palestras
 tags:

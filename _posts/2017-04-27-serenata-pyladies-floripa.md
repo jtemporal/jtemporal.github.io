@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: "4º Pyladies Floripa"
 date: 2017-04-27
-image: "/images/palestra.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
 ---
 

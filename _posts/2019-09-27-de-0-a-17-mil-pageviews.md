@@ -71,7 +71,7 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 </tr>
 <tr>
 <td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"></td>
-<td><img src="/images/palestra.png"></td>
+<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"></td>
 </tr>
 </table>
 <center><i>Algumas das capas que fiz para os artigos</i></center>

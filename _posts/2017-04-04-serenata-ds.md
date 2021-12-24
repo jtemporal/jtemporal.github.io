@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: Cloud Girls Meetup
 date: 2017-04-04
-image: "/images/palestra.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
 ---
 

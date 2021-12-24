@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: "Big Data Meetup: Serenata de Amor"
 date: 2017-03-29
-image: "/images/palestra.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
 ---
 

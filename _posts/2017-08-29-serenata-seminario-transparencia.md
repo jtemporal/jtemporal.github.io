@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: "9º Seminário Catarinense de Transparência e Controle"
 date: 2017-08-29
-image: "/images/palestra.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
 ---
 
