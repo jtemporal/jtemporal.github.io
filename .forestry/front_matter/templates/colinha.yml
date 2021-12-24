@@ -32,7 +32,7 @@ fields:
   label: capa do artigo
   type: file
   hidden: false
-  default: "/images/colinha.png"
+  default: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 - name: tags
   type: list
   config:
