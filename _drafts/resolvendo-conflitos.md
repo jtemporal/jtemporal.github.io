@@ -40,19 +40,19 @@ Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia
 
 Para demonstrar como isso se apresenta, eu criei um repositório com um cenário parecido ao descrito na sessão anterior [que você pode encontrar aqui](https://github.com/jtemporal/exemplo-conflito/branches). O arquivo inicial foi criado e as duas branches, uma para cada pessoa, também já foram criadas a partir da `main`, veja:
 
-tk resolucao-de-conflito-fig-1
+![imagem mostrando o estado inicial do repositório como descrito anteriormente](https://res.cloudinary.com/jesstemporal/image/upload/v1640385396/resolucao-de-conflito-git/resolucao-de-conflito-fig-1_h7tkoc.png)
 
 Em seguida fiz as alterações para cada pessoa, no branch `pessoa1` adicionei a descrição _"Pessoa 1 esteve aqui!"_ na última linha do `README.md` e de forma similar fiz o mesmo processo para o branch `pessoa2`. Então, abri os dois pull requests:
 
-tk resolucao-de-conflito-fig-2
+![imagem mostrando os dois pull requests abertos no github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-2_bqyfl6.png)
 
 Revisei o merge no pull request `pessoa1`:
 
-tk resolucao-de-conflito-fig-3
+![imagem mostrando o pull request feito merge](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-3_oy9bss.png)
 
 E então voltei para o PR da `pessoa2` e pude notar a indicação de que o pull request contém um conflito, veja:
 
-tk resolucao-de-conflito-fig-4
+![imagem mostrando o pull request de pessoa 2 com a mensagem de conflito do github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-4_c55lad.png)
 
 E agora com o conflito quentinho em mãos é hora de resolvê-lo.
 
@@ -67,15 +67,15 @@ A primeira coisa importante é decidir em qual branch resolver o conflito, uma r
 
 Isso irá trazer o conflito para a sua máquina te dando um aviso informando que existem conflitos, que você deve resolver o conflito e fazer um commit:
 
-tk resolucao-de-conflito-fig-5
+![resultado do comando git pull com conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-5_xjzs8d.png)
 
 Se você abrir o `README.md` num editor de código irá notar a presença de marcadores indicado por sucessivos sinais de maior que (`>`), sinais de menor que (`>`) e sinais de igual (`=`), aqui um exemplo do conflito mostrado no Vim:
 
-tk resolucao-de-conflito-fig-6
+![imagem mostrando o conflito no editor vim com as marcações mais simples](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-6_zqutjm.png)
 
 Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te da opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
 
-tk resolucao-de-conflito-fig-7
+![imagem mostrando o conflito no editor VS Code com as marcações mais bem definidas](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-7_wesv8q.png)
 
 Para entender o que cada botão apresentado pelo VS Code quer dizer, vamos dissecar um pouco esse formato de representação. Um conflito pode ser dividido em duas partes:
 
@@ -98,11 +98,9 @@ E aquele com as alterações que estão chegando:
 
 Como queremos deixar ambas alterações podemos apenas apagar as linhas com os marcadores salvar o arquivo, se você estiver usando editores mais simples. No VS Code podemos apertar em _"Accept both changes"_ e continuar com os comandos a seguir. Após aceitar todas as mudanças, manualmente ou usando os botões no VS Code, você deve ter um arquivo assim:
 
-tk resolucao-de-conflito-fig-8
+![imagem mostrando o resultado esperado de aceitar ambos blocos de alterações](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-8_ps9lz7.png)
 
-comandos:
-
-dps de resolver
+Lembre-se 
 
 git add
 
