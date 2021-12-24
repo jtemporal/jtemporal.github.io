@@ -2,7 +2,7 @@
 title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest 2020'
 layout: post
 date: 2020-10-01T09:00:00.000+00:00
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 lang: "pt_BR"
 tags:
 - pull request

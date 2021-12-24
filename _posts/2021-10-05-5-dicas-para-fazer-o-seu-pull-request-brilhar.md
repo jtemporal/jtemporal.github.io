@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-10-05 22:15:06 -0300
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 comments: true
 lang: pt_BR
 title: 5 Dicas Para Fazer o Seu Pull Request Brilhar ✨

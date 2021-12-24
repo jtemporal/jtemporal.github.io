@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-03-26 11:55:46 -0300
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 comments: true
 title: Trabalhando remoto
 description: Dicas que sigo quando estou trabalhando remoto para que você que está

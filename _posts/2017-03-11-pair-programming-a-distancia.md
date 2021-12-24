@@ -11,7 +11,7 @@ tags:
 - parear
 - código
 comments: true
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 
 ---
 Pair programming, parear, escrever código em dupla. Quem escreve código, alguma

@@ -2,7 +2,7 @@
 title: 'Python project dependencies: requirements.txt'
 layout: post
 date: 2018-01-06 08:00:00
-image: "/images/colinha.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 tags:
 - protip
 - python

@@ -11,7 +11,7 @@ tags:
 - open source
 - português
 comments: true
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 
 ---
 ![hacktoberfest banner promocional](https://nyc3.digitaloceanspaces.com/hacktoberfest/Hacktoberfest17-TWFB-02.png)

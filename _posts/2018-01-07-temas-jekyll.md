@@ -2,7 +2,7 @@
 title: Escolhendo um tema Jekyll
 layout: post
 date: 2018-01-07 08:00:00
-image: "/images/colinha.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 tags:
 - colinha
 - jekyll

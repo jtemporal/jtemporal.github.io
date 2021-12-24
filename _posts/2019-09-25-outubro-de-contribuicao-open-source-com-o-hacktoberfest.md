@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2019-09-25T03:00:00.000+00:00
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 comments: true
 title: 'Outubro de contribuição open-source com o #Hacktoberfest'
 description: 'Vem conhecer as regras do #Hacktoberfest para 2019!'

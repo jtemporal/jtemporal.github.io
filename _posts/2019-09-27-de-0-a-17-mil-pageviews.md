@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2019-09-27T13:00:00.000+00:00
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 comments: true
 title: De 0 a 17 mil pageviews
 description: 'Como uma troca de temas impactou na quantidade de acessos do meu blog '
@@ -67,10 +67,10 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 <table>
 <tr>
 <td><img src="/images/tutorial.png"></td>
-<td><img src="/images/variados.png"></td>
+<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"></td>
 </tr>
 <tr>
-<td><img src="/images/colinha.png"></td>
+<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"></td>
 <td><img src="/images/palestra.png"></td>
 </tr>
 </table>

@@ -11,7 +11,7 @@ tags:
 - blogging
 - cms
 - colinha
-image: "/images/colinha.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 description: Com um gerenciador de conteúdo para sites estáticos tem me ajudado a
   escrever mais
 

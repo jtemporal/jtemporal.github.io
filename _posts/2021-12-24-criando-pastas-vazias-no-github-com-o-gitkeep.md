@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-12-24 12:34:20 -0200
-image: "/images/colinha.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 comments: true
 title: Criando pastas vazias no GitHub com o .gitkeep
 description: Entenda pra que serve e como usar o arquivo .gitkeep

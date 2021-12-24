@@ -2,7 +2,7 @@
 layout: post
 title: Diferenciando json.loads de json.load e uma pitada de BigQuery
 date: 2019-03-15 03:00:00 +0000
-image: "/images/variados.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 comments: true
 tags:
 - serialização
