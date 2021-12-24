@@ -100,13 +100,27 @@ Como queremos deixar ambas alterações podemos apenas apagar as linhas com os m
 
 ![imagem mostrando o resultado esperado de aceitar ambos blocos de alterações](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-8_ps9lz7.png)
 
-Lembre-se 
+Lembre-se de salvar o arquivo. Em seguida volte para o terminal, se você rodar o comando `git status` vai ver que o arquivo `README.md` se mostra com alterações.
 
-git add
+tk resolucao-de-conflito-fig-9 !\[\]()
 
-git commit
+Agora você pode adicionar esse arquivo em staging com o seguinte comando:
 
-E aí git push
+    git add README.md
+
+E fazer o commit das alterações da forma que preferir. Note que ao fazer o commit, se você usar editores para escrever a mensagem de commit, é possível que essa mensagem já venha pré-preenchida como na imagem abaixo:
+
+tk resolucao-de-conflito-fig-10 !\[\]()
+
+Você pode personalizar a mensagem ou deixá-la como está e, ao terminar de fazer o commit, enviar essas alterações para o GitHub com um `git push`:
+
+tk resolucao-de-conflito-fig-11 !\[\]()
+
+Agora se você recarregar a página do pull request deverá ver que o conflito foi resolvido, observe:
+
+tk resolucao-de-conflito-fig-12 !\[\]()
+
+E podemos finalmente dar merge neste pull request! Vitória! 🎉🎉
 
 ***
 
