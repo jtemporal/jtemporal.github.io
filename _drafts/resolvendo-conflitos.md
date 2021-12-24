@@ -22,19 +22,31 @@ O conflito simboliza que duas ou mais alterações aconteceram no mesmo pedaço 
 
 ## Como um conflito se forma
 
-Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito”. Vou usar essa imagem e o repositório de exemplo disponível aqui tk link do repo para te explicar como um conflito surge.
+Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito” que mostra os passos até um que um conflito se forme. Vale salientar que normalmente, durante o ciclo de desenvolvimento de projetos, as alterações são maiores a por vezes em maior quantidade.
 
-Tk imagem anatomia de um conflito
+![anatomia de um conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640379728/anatomia-de-um-conflito_ixpolc.png)
 
-**0 -** No nosso projeto temos um README.md que foi adicionado pelo commit inicial no repo. Depois da criação desse arquivo, duas alterações precisam ser feitas para adicionar mais algumas informações ao mesmo arquivo e duas pessoas vão fazer essa alteração;
+**0 -** No nosso projeto temos um `README.md` que foi adicionado pelo commit inicial no repositório. Depois da criação desse arquivo, duas alterações precisam ser feitas para adicionar mais algumas informações ao mesmo arquivo e duas pessoas vão fazer essa alteração;
 
-**1 -** Cada pessoa então criou um branch a partir da main para trabalhar nas suas alterações, esses novos branches foram criados mais ou menos ao mesmo tempo, ou seja, eles possuem um mesmo ponto de partida;
+**1 -** Cada pessoa então criou um branch a partir da `main` para trabalhar nas suas alterações, esses novos branches foram criados mais ou menos ao mesmo tempo, ou seja, eles possuem um mesmo ponto de partida;
 
-**2 -** Durante algum tempo cada pessoa trabalha na sua branch implementando a sua alteração, que nesse caso é adicionar a linha “pessoa x esteve aqui!” no arquivo de README.md
+**2 -** Durante algum tempo cada pessoa trabalha na sua branch implementando a sua alteração, que nesse caso é adicionar a linha _"pessoa x esteve aqui!"_ no arquivo de `README.md` sendo x o identificador da pessoa;
 
-Então cada pessoa vai criar um branch a partir do branch main,
+**3 -** A pessoa 1 faz um pull request e tem esse pull request aprovado e seu merge na `main`;
 
-Para demonstrar como fazer isso eu pro
+**4 -** A pessoa 2 por sua vez, faz o seu pull request para `main`, só que esse pull request **não** pode ser feito merge pois apresenta conflitos.
+
+## Formando um conflito na prática
+
+Para demonstrar como isso se apresenta, eu criei um repositório com um cenário parecido ao descrito na sessão anterior [que você pode encontrar aqui](https://github.com/jtemporal/exemplo-conflito/branches). O arquivo inicial foi criado e as duas branches, uma para cada pessoa, também já foram criadas a partir da `main`, veja:
+
+tk resolucao-de-conflito-fig-1
+
+Em seguida fiz as alterações para cada pessoa, no branch `pessoa1` adicionei a descrição _"Pessoa 1 esteve aqui!"_ na última linha do `README.md` e de forma similar fiz o mesmo processo para o branch `pessoa2`. Então, abri os dois pull requests:
+
+tk resolucao-de-conflito-fig-2
+
+No momento da revisão eu, e muitas pessoas com quem trabalhei, preferem revisar os pull requests por ordem de chegada
 
 comandos:
 
@@ -49,3 +61,12 @@ git add
 git commit
 
 E aí git push
+
+***
+
+## Leitura extra
+
+Seguem mais umas dicas de documentações em português para você aprender sobre resolução de conflitos no git
+
+* [A documentação do GitHub sobre resolução de conflitos](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts);
+* [O tutorial da Atlassian também sobre resolução de conflitos](https://www.atlassian.com/br/git/tutorials/using-branches/merge-conflicts).
