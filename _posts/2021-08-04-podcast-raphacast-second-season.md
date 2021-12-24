@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: 'RaphaCast: Second Season'
 date: 2021-08-04 10:00:00 -0300
-image: "/images/podcast.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/podcast_xah39p.png"
 description: Interview for RaphaCast
 tags:
 - english
