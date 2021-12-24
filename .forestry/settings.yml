@@ -23,6 +23,11 @@ sections:
   new_doc_ext: md
   templates:
   - hacktober
+- type: directory
+  path: ".forestry/front_matter/templates"
+  label: templates
+  create: all
+  match: "**/*"
 - type: heading
   label: Tema
 - type: directory
