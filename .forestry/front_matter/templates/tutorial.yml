@@ -44,6 +44,9 @@ fields:
   type: boolean
   hidden: true
   default: true
+- name: related
+  type: boolean
+  label: related
 pages:
 - _posts/2018-01-07-do-tema-ao-ar.md
 - _posts/2018-01-07-publishing-a-website-with-jekyll.md
