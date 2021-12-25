@@ -144,5 +144,6 @@ Aqui está a lista simples de todos os comandos e passos para resolver conflitos
 
 Seguem mais umas dicas de documentações em português para você aprender sobre resolução de conflitos no git
 
+* [O diretório de fichas de estudo sobre git GitFichas](https://gitfichas.com)
 * [A documentação do GitHub sobre resolução de conflitos](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts);
 * [O tutorial da Atlassian também sobre resolução de conflitos](https://www.atlassian.com/br/git/tutorials/using-branches/merge-conflicts).
