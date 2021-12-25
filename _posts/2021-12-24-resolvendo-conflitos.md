@@ -10,10 +10,7 @@ tags:
 - tutorial
 - português
 - portugues
-related:
-- _posts/2021-10-05-5-dicas-para-fazer-o-seu-pull-request-brilhar.md
-- _posts/2021-12-24-criando-pastas-vazias-no-github-com-o-gitkeep.md
-- _posts/2021-08-21-conheca-o-gitfichas.md
+related: true
 
 ---
 Resolver conflitos pode ser uma tarefa árdua e complicada quando se trata de projetos git. Nesse artigo você vai aprender um passo-a-passo infalível para resolver conflitos.
@@ -71,7 +68,7 @@ A primeira coisa importante é decidir em qual branch resolver o conflito, uma r
     git checkout pessoa2
     git pull origin main
 
-Isso irá trazer o conflito para a sua máquina te dando um aviso informando que existem conflitos, que você deve resolver o conflito e fazer um commit:
+Isso irá trazer o conflito para a sua máquina te dando um aviso informando que existem conflitos, que você deve resolver o conflito e fazer um commit com o resultado:
 
 ![resultado do comando git pull com conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-5_xjzs8d.png)
 
@@ -135,12 +132,12 @@ Você agora entende como os conflitos se formam e também sabe todos os passos e
 Aqui está a lista simples de todos os comandos e passos para resolver conflitos, lembre de substituir as notações `<>` de acordo:
 
 1. `git checkout <nome do branch com conflito>`
-1. `git pull origin main`
-1. abra o arquivo com conflito e os resolva
-1. salve o arquivo
-1. `git add <nome do arquivo alterado>`
-1. `git commit`
-1. `git push`
+2. `git pull origin main`
+3. abra o arquivo com conflito e os resolva
+4. salve o arquivo
+5. `git add <nome do arquivo alterado>`
+6. `git commit`
+7. `git push`
 
 ***
 
