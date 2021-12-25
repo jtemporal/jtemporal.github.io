@@ -50,13 +50,10 @@ fields:
 - name: posts_list
   type: list
   config:
-    use_select: true
+    use_select: false
     min: 
     max: 3
-    source:
-      type: pages
-      section: jekyll-posts
-  label: related post list
+  label: related posts lists
   showOnly:
     field: related
     value: true
