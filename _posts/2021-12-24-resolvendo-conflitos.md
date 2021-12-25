@@ -12,9 +12,9 @@ tags:
 - portugues
 related: true
 posts_list:
-- _posts/criando-pastas-vazias-no-github-com-o-gitkeep
-- _posts/5-dicas-para-fazer-o-seu-pull-request-brilhar
-- _posts/conheca-o-gitfichas
+- criando-pastas-vazias-no-github-com-o-gitkeep
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- conheca-o-gitfichas
 
 ---
 Resolver conflitos pode ser uma tarefa árdua e complicada quando se trata de projetos git. Nesse artigo você vai aprender um passo-a-passo infalível para resolver conflitos.
