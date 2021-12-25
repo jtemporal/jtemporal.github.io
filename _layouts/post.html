@@ -23,40 +23,12 @@ layout: default
     </article>
     <div class="row">
       {% if page.related %}
-        {% include related-art-title.html %}
-        {% capture category %}
-          {{ page.tags | first }}
-        {% endcapture %}
-
-        {% for post in site.tags[category] limit: 4 %}
-          <div class="col-sm-3 card-recent">
-            <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
-              <div class="panel panel-default">
-                {% include images-logic.html %}
-                <div class="panel-body">
-                  <h3 class="panel-title pull-left">{{ post.title }}</h3>
-                  <br>
-                  <span class="post-meta pull-left">
-                    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-                  </span>
-                </div>
-
-                <div class="panel-body">
-                  {% if post.description %}
-                    <small>{{ post.description }}</small>
-                  {% else %}
-                    <small>{{ post.excerpt | strip_html | strip_newlines | truncate: 70 }}</small>
-                  {% endif %}
-                </div>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
+        {% include related-art.html %}
       {% else %}
-        {% include recent-art-title.html %}
+        {% include recent-art.html %}
       {% endif %}
     </div>
-    <!--
+<!--
     <div class="row">
         {% if site.disqus-shortname %}
          {% include disqus.html %}
@@ -75,7 +47,6 @@ layout: default
             </ul>
     </div>
 </div>
-
 
 {% include sidebar.html %}
 
