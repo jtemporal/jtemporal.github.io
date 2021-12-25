@@ -22,7 +22,7 @@ layout: default
 
     </article>
     <div class="row">
-      {% if post.related %}
+      {% if page.related %}
         {% include related-art-title.html %}
         {% capture category %}
           {{ page.categories | first }}
