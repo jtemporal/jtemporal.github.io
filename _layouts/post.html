@@ -25,7 +25,7 @@ layout: default
       {% if page.related %}
         {% include related-art-title.html %}
         {% capture category %}
-          {{ page.categories | first }}
+          {{ page.tags | first }}
         {% endcapture %}
 
         {% for post in site.tags[category] limit: 4 %}
