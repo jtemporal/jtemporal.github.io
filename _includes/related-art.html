@@ -5,7 +5,7 @@
 {% endif %}
 {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
 {% for related_post in related_post_list %}
-  {% assign related_post_url = related_post | append: "/" | remove: "_posts" %}
+  {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
   {% for post in site.posts %}
     {% if post.url == related_post_url %}
       <div class="col-sm-4 card-recent">
