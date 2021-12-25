@@ -24,14 +24,23 @@ layout: default
     <div class="row">
       {% if post.related %}
         {% include related-art-title.html %}
-        {% for post in post.related %}
+        {% capture category %}
+          {{ page.categories | first }}
+        {% endcapture %}
+
+        {% for post in site.tags[category] limit: 4 %}
           <div class="col-sm-3 card-recent">
             <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
-            <div class="panel panel-default">
-              {% include images-logic.html %}
+              <div class="panel panel-default">
+                {% include images-logic.html %}
                 <div class="panel-body">
-                  <h3 class="panel-title pull-left">{{ post.title }}</h3><br><span class="post-meta pull-left"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+                  <h3 class="panel-title pull-left">{{ post.title }}</h3>
+                  <br>
+                  <span class="post-meta pull-left">
+                    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                  </span>
                 </div>
+
                 <div class="panel-body">
                   {% if post.description %}
                     <small>{{ post.description }}</small>
