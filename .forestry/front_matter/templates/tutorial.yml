@@ -47,6 +47,19 @@ fields:
 - name: related
   type: boolean
   label: related
+- name: posts_list
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 3
+    source:
+      type: pages
+      section: jekyll-posts
+  label: related post list
+  showOnly:
+    field: related
+    value: true
 pages:
 - _posts/2018-01-07-do-tema-ao-ar.md
 - _posts/2018-01-07-publishing-a-website-with-jekyll.md
