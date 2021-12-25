@@ -6,8 +6,8 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/t
 comments: true
 description: Uma receita infalível para você entender e resolver conflitos sem medo
 tags:
-- tutorial
 - git
+- tutorial
 - português
 - portugues
 related:
