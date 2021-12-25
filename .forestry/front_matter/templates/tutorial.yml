@@ -44,6 +44,19 @@ fields:
   type: boolean
   hidden: true
   default: true
+- name: related
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-posts
+      file: 
+      path: 
+  label: related
+  description: related posts
 pages:
 - _posts/2018-01-07-do-tema-ao-ar.md
 - _posts/2018-01-07-publishing-a-website-with-jekyll.md
