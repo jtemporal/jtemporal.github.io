@@ -60,6 +60,16 @@ fields:
 - name: related
   type: boolean
   label: related
+- name: posts_list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 3
+  label: related posts list
+  showOnly:
+    field: related
+    value: true
 pages:
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
