@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get in touch
-image: /images/logo.jpeg
+image: /images/logo.png
 permalink: /contact/
 ---
 

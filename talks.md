@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Talks
-image: /images/logo.jpeg
+image: /images/logo.png
 permalink: "/talks/"
 
 ---

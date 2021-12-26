@@ -1,7 +1,7 @@
 ---
 layout: default
 title: English
-image: /images/logo.jpeg
+image: /images/logo.png
 permalink: "/en/"
 lang: en_US
 

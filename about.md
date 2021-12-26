@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: "/images/logo.jpeg"
+image: "/images/logo.png"
 permalink: "/about/"
 lang: en_US
 
