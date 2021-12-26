@@ -19,3 +19,5 @@ Hoje em dia, a ciência de dados deixou de ser o meu ganha pão e estou trabalha
 Sou co-fundadora e co-host no [Pizza de Dados](https://pizzadedados.com), o primeiro podcast sobre ciência de dados no Brasil. Desde 2017 o Pizza vem debatendo tópicos de ciência de dados com especialistas nas mais diversas áreas do ramo, tudo isso em Português para ajudar a aumentar a alfabetização em dados no país.
 
 Além disso, continuo contribuindo e mantendo projetos de código aberto no GitHub, faço parte dos times de instrutores do [Data Bootcamp](https://databootcamp.com.br/team) e [LinkedIn Learning](https://www.linkedin.com/learning/instructors/jessica-temporal), escrevo posts técnicos sobre os mais diversos assuntos de tecnologia [no meu blog](https://jtemporal.com/) e [na revista do Pizza](https://medium.com/pizzadedados).
+
+{% include signature.html %}

@@ -19,10 +19,7 @@ layout: default
         {{ content }}
       </div>
       {% if page.type != "talk" %}
-      <br><br>
-      <center>
-        <img width="25%" height="25%" src="https://jtemporal.com/thirtydaysjourney/assets/images/jess-signature.gif">
-      </center>
+        {% include signature.html %}
       {% endif %}
     </article>
     <div class="row">
