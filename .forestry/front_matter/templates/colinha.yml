@@ -62,6 +62,7 @@ fields:
 pages:
 - _posts/2017-12-29-pyenv-inicio.md
 - _posts/2017-12-30-venv-inicio.md
+- _posts/2018-01-03-force-rebuild-jekyll.md
 - _posts/2018-01-07-temas-jekyll.md
 - _posts/2018-01-13-gemfile.md
 - _posts/2019-03-16-brincando-com-a-listagem-de-containers-docker.md

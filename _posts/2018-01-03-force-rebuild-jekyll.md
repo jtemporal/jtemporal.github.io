@@ -1,8 +1,8 @@
 ---
-title: "Forçando o rebuild de sites Jekyll hospedados no GitHub"
+title: Forçando o rebuild de sites Jekyll hospedados no GitHub
 layout: post
-date: '2018-01-03 10:00:00'
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+date: 2018-01-03 10:00:00
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 tags:
 - colinha
 - jekyll
@@ -12,8 +12,14 @@ tags:
 - github
 - português
 comments: true
----
+description: Como usar Git para forçar o build de um site que usa GitHub Pages
+related: true
+posts_list:
+- conheca-o-gitfichas
+- resolvendo-conflitos
+- do-tema-ao-ar
 
+---
 Seja por um CSS quebrado ou por uma mudança que parece não ter tido efeito, às vezes é necessário forçar o rebuild de um site [Jekyll](https://jekyllrb.com/) hospedado no GitHub. A colinha de hoje explica uma forma de fazer isso.
 
 O GitHub possui um "serviço" para servir páginas a partir de repositórios chamado de [GitHub Pages](https://pages.github.com/). Esse serviço permite que você crie páginas quase que instantaneamente a partir do seu repositório e tudo que você precisa é de um arquivo markdown como o README de um projeto e um arquivo de configuração básica.
