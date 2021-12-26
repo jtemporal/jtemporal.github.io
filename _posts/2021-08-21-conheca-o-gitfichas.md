@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-08-21 12:44:33 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+date: 2021-08-21T12:44:33.000-03:00
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
 lang: pt_BR
 title: Conheça o GitFichas!
@@ -10,6 +10,11 @@ tags:
 - portugues
 - português
 - git
+related: true
+posts_list:
+- resolvendo-conflitos
+- criando-pastas-vazias-no-github-com-o-gitkeep
+- do-tema-ao-ar
 
 ---
 Eu comecei um novo projeto, e decidi vir aqui te contar tudo sobre ele! 👀
