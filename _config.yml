@@ -41,22 +41,12 @@ analytics: UA-89599031-1
 tagmanager: GTM-KKCR3VG
 
 # Comments
-disqus: yes
-disqus-shortname: jtemporal
 
 #social
-#facebook: http://facebook.com/webjeda
-#quora: http://quora.com/sharathdt
 twitter:
   username: jesstemporal
   card: summary_large_image
 github: http://github.com/jtemporal
-
-#facebook like box
-#fb-like-box: yes
-#fb-app-id: 549480635219583
-#fb-page-url: https://www.facebook.com/webjeda/
-#fb-page-title: webjeda
 
 # Collections
 collections:

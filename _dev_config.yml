@@ -39,22 +39,10 @@ paginate_path: /page:num/
 analytics:
 tagmanager:
 
-# Comments
-#disqus: yes
-#disqus-shortname: jtemporal
-
 #social
-#facebook: http://facebook.com/webjeda
-#quora: http://quora.com/sharathdt
 twitter: http://twitter.com/jesstemporal
 github: http://github.com/jtemporal
 email: jessicatemporal@gmail.com
-
-#facebook like box
-#fb-like-box: yes
-#fb-app-id: 549480635219583
-#fb-page-url: https://www.facebook.com/webjeda/
-#fb-page-title: webjeda
 
 # Collections
 collections:
