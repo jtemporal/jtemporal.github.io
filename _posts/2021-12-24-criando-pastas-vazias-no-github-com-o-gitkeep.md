@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-12-24 12:34:20 -0200
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+date: 2021-12-24T12:34:20.000-02:00
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
 title: Criando pastas vazias no GitHub com o .gitkeep
 description: Entenda pra que serve e como usar o arquivo .gitkeep
@@ -9,6 +9,11 @@ tags:
 - git
 - português
 - colinha
+related: true
+posts_list:
+- resolvendo-conflitos
+- conheca-o-gitfichas
+- do-tema-ao-ar
 
 ---
 Ás vezes você precisa colocar uma pasta vazia no seu projeto no GitHub, mas tradicionalmente o git não faz acompanhamento de pastas vazias, e aí cai a dúvida: _"como fazer uma pasta vazia aparecer no GitHub se o git não deixa?"_
