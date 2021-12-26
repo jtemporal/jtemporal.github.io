@@ -4,10 +4,14 @@
             {% if page.image contains "http" %}
               <img width="100%" src="{{page.image}}" alt="{{post.title}}">
             {% else %}
-              <img width="100%" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
+              {% if page.layout == "page" %}
+                <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
+              {% else %}
+                <img width="100%" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
+              {% endif %}
             {% endif %}
           {% else %}
-            <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{page.title}}">
+            <img width="100%" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{page.title}}">
           {% endif %}
         </div>
 
