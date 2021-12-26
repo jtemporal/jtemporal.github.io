@@ -57,6 +57,9 @@ fields:
       path: 
   label: lang
   description: post language
+- name: related
+  type: boolean
+  label: related
 pages:
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
