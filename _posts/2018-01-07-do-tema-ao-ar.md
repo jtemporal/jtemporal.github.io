@@ -1,7 +1,7 @@
 ---
 title: Colocando um site no ar com Jekyll
 layout: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 date: 2018-01-07T10:00:00.000+00:00
 tags:
 - tutorial
@@ -14,6 +14,11 @@ tags:
 - português
 comments: true
 description: Aprenda a colocar o seu site no ar de graça usando o GitHub
+related: true
+posts_list:
+- force-rebuild-jekyll
+- resolvendo-conflitos
+- criando-pastas-vazias-no-github-com-o-gitkeep
 
 ---
 ***
