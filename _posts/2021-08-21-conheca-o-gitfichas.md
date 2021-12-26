@@ -45,9 +45,3 @@ E se você quiser sugerir um comando ou conceito para ver no formato de ficha, d
 </center><br>
 
 Eu to colocando os comandos que me mandam na fila para fazer fichas 😉
-
-<br><br>
-
-<center>
-<img width="25%" height="25%" src="https://jtemporal.com/thirtydaysjourney/assets/images/jess-signature.gif">
-</center>
