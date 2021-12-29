@@ -23,7 +23,7 @@ Caso você já saiba o que são conflitos e queira apenas ver a lista de passos 
 
 ## O que é um conflito em git
 
-Quando um projeto tem várias pessoas trabalhando ao mesmo tempo, é possível que duas pessoas pessoas precisem fazer alterações no mesmo pedaço de um arquivo. Quando mais de uma pessoa alteram o mesmo pedaço de um arquivo em branches diferentes é nesse momento que os conflitos aparecem.
+Quando um projeto tem várias pessoas trabalhando ao mesmo tempo, é possível que duas pessoas pessoas precisem fazer alterações no mesmo pedaço de um arquivo. Quando mais de uma pessoa altera o mesmo pedaço de um arquivo em branches diferentes é nesse momento que os conflitos aparecem.
 
 O conflito simboliza que duas ou mais alterações aconteceram no mesmo pedaço de um arquivo e o git não sabe qual das alterações manter.
 
