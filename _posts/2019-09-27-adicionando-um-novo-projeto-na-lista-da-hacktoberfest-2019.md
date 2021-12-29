@@ -2,8 +2,9 @@
 layout: post
 title: 'Adicionando um novo projeto na lista da #Hacktoberfest'
 date: 2019-09-29T11:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 tags:
+- pull request
 - open source
 - contribuition
 - contribuição
@@ -13,9 +14,13 @@ tags:
 - tutorial
 comments: true
 description: Vou te mostrar o passo a passo pra colocar um repo na lista de 2019
+related: true
+posts_list:
+- dicas-para-fazer-o-seu-pull-request-brilhar
+- conheca-o-gitfichas
+- resolvendo-conflitos
 
 ---
-
 ***
 Nota da autora: As instruções a seguir foram criadas em 2019, mas a forma de atualizar a lista de projetos se manteve desde então. Então mesmo que você queira atualizar a lista desse ano os passos são os mesmo 😉
 ***
