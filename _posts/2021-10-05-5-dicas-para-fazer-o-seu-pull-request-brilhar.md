@@ -1,12 +1,14 @@
 ---
 layout: post
-date: 2021-10-05 22:15:06 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+date: 2021-10-05T22:15:06.000-03:00
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
 lang: pt_BR
 title: 5 Dicas Para Fazer o Seu Pull Request Brilhar ✨
 description: Dicas de ouro para fazer uma contribuição open-source de sucesso
 tags:
+- pull request
+- git
 - open source
 - open-source
 - contribuição
@@ -14,6 +16,11 @@ tags:
 - hacktoberfest
 - portugues
 - português
+related: true
+posts_list:
+- criando-pastas-vazias-no-github-com-o-gitkeep
+- resolvendo-conflitos
+- conheca-o-gitfichas
 
 ---
 Outubro é mês de hacktoberfest e esse deve ser o mês em que nós nos esforçamos mais para contribuir com _open-source_ e ajudar a mais pessoas contribuírem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨brilhar ✨. Vamos lá!
