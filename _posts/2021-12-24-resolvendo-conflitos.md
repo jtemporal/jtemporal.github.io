@@ -29,7 +29,7 @@ O conflito simboliza que duas ou mais alterações aconteceram no mesmo pedaço 
 
 ## Como um conflito se forma
 
-Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito” que mostra os passos até um que um conflito se forme. Vale salientar que normalmente, durante o ciclo de desenvolvimento de projetos, as alterações são maiores a por vezes em maior quantidade.
+Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito” que mostra os passos até que um conflito se forme. Vale salientar que normalmente, durante o ciclo de desenvolvimento de projetos, as alterações são maiores a por vezes em maior quantidade.
 
 ![anatomia de um conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640379728/anatomia-de-um-conflito_ixpolc.png)
 
