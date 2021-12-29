@@ -12,9 +12,9 @@ tags:
 - git
 related: true
 posts_list:
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
 - criando-pastas-vazias-no-github-com-o-gitkeep
-- do-tema-ao-ar
 
 ---
 Eu comecei um novo projeto, e decidi vir aqui te contar tudo sobre ele! 👀
