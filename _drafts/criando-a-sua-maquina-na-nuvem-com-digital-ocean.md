@@ -2,16 +2,20 @@
 layout: post
 title: Criando a sua máquina na nuvem com Digital Ocean
 date: 2021-04-21T19:48:25.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
 description: A step-by-step guide to create an instance (Droplet) at Digital Ocean
 tags:
+- portugues
 - droplet
 - ssh
 - digital ocean
 - cloud
-- english
 - tutorial
+related: true
+posts_list:
+- usando-um-cms
+- como-ser-cientista-de-dados-usando-um-computador-da-xuxa
 
 ---
 Este post é um passo a passo sobre como criar uma instância de nuvem no Digital Ocean.
