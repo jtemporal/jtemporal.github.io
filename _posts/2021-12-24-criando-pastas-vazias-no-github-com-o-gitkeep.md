@@ -11,12 +11,12 @@ tags:
 - colinha
 related: true
 posts_list:
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
 - conheca-o-gitfichas
-- do-tema-ao-ar
 
 ---
-Ás vezes você precisa colocar uma pasta vazia no seu projeto no GitHub, mas tradicionalmente o git não faz acompanhamento de pastas vazias, e aí cai a dúvida: _"como fazer uma pasta vazia aparecer no GitHub se o git não deixa?"_
+Às vezes você precisa colocar uma pasta vazia no seu projeto no GitHub, mas tradicionalmente o git não faz acompanhamento de pastas vazias, e aí cai a dúvida: _"como fazer uma pasta vazia aparecer no GitHub se o git não deixa?"_
 
 Não se preocupe nessa colinha você vai ver como fazer isso usando um arquivo especial chamado `.gitkeep`.
 
