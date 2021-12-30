@@ -18,11 +18,11 @@ posts_list:
 ---
 O comando `git rebase` pode se usado para fazer vários ajustes de histórico, desde reescrever a árvore de commits, reescrevendo assim o histórico, até mesmo empurrar commits para um ponto mais a frente como se o branch fosse criado no futuro.
 
-Nesse blog post vou te mostrar como usar git rebase pra corrigir a origem de um determinado branch.
+Nesse blog post vou te mostrar como usar `git rebase` pra corrigir a origem de um determinado branch.
 
 ## Criando uma branch a partir de um branch incorreto
 
-Suponha que você você tem duas tarefas para fazer nas próximas semanas e que você quer trabalhar em cada tarefa em uma branch diferente.
+Suponha que você tem duas tarefas para fazer nas próximas semanas e que você quer trabalhar em cada tarefa em uma branch diferente.
 
 Então para trabalhar na tarefa 1 você cria uma branch com esse nome a partir da main.
 
