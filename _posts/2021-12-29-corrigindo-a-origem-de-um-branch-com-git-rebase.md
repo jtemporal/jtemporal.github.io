@@ -44,7 +44,7 @@ Se você analisar o grafo do seu histórico pode ver que ele mostra que o commit
 
 Então precisamos corrigir isso.
 
-## Corrigindo a origem da branch
+## Corrigindo a origem do branch
 
 Com esse erro nas mãos e como as implementações de cada tarefa é independente uma da outra você quer fazer essa correção.
 
