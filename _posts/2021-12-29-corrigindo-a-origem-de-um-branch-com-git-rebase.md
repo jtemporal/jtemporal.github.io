@@ -72,4 +72,12 @@ Três coisas são importantes de notar:
 1. Segundo, que o agora o branch `tarefa-2` tem sua origem no branch `main`;
 1. E terceiro, que o hash do commit no branch `tarefa-2` não é mais `99247c` e sim `952dc3` já que o commit mudou.
 
-Com isso agora você sabe alterar ou corrigir a origem de um branch, caso queira mais detalhes sobre o comando `git rebase`, recomendo a leitura da [documentação do comando em português](https://git-scm.com/docs/git-rebase/pt_BR). 
+Com isso agora você sabe alterar ou corrigir a origem de um branch, caso queira mais detalhes sobre o comando `git rebase`, recomendo a leitura da [documentação do comando em português](https://git-scm.com/docs/git-rebase/pt_BR).
+
+Abaixo você pode ver uma ficha que pode te ajudar a lembrar do comando aqui:
+
+{% assign ficha_url = "https://gitfichas.com/projects/028" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/projects/028/full.jpg" %}
+{% assign ficha_title = "GitFicha #028" %}
+{% assign ficha_description = "git rebase --onto" %}
+{% include ficha.html %}

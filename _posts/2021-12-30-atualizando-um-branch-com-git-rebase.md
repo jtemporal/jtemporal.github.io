@@ -67,3 +67,11 @@ E o grafo de histórico deverá se mostrar assim:
 Para finalizar temos uma coisa importante de notar agora que nosso branch está atualizado: o rebase só acontecerá sem interrupções, como mostrado nessa colinha, caso não existam conflitos, caso contrário o rebase será suspendido e os [conflitos devem ser resolvidos](https://jtemporal.com/resolvendo-conflitos/) antes de continuar.
 
 Agora você sabe atualizar um branch usando o rebase, caso queira mais detalhes sobre o comando `git rebase`, recomendo a leitura da [documentação do mesmo em português](https://git-scm.com/docs/git-rebase/pt_BR). 
+
+Abaixo você pode ver uma ficha que pode te ajudar a lembrar do comando `git rebase` para atualizar um branch:
+
+{% assign ficha_url = "https://gitfichas.com/projects/027" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/projects/027/full.jpg" %}
+{% assign ficha_title = "GitFicha #027" %}
+{% assign ficha_description = "git rebase" %}
+{% include ficha.html %}
