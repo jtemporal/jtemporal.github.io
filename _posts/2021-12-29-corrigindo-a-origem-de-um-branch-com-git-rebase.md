@@ -74,7 +74,7 @@ Três coisas são importantes de notar:
 
 Com isso agora você sabe alterar ou corrigir a origem de um branch, caso queira mais detalhes sobre o comando `git rebase`, recomendo a leitura da [documentação do comando em português](https://git-scm.com/docs/git-rebase/pt_BR).
 
-Abaixo você pode ver uma ficha que pode te ajudar a lembrar do comando aqui:
+Abaixo você pode ver uma ficha que pode te ajudar a lembrar do comando `git rebase --onto`:
 
 {% assign ficha_url = "https://gitfichas.com/projects/028" %}
 {% assign ficha_img = "https://gitfichas.com/assets/img/projects/028/full.jpg" %}
