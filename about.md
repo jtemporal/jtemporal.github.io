@@ -21,3 +21,5 @@ I have shared technical content throughout my career and helped many people lear
 I was awarded the [Dorneles Treméa\|Jean Ferri Award](https://python.org.br/premio-dorneles-tremea-jean-ferri/), which symbolizes the Brazilian Python community's recognition of those who dedicated themselves to helping the community.
 
 Other than that, I continue to contribute and maintain open-source projects on GitHub. I'm also part of the instructors' team at both [Data Bootcamp](https://databootcamp.com.br/team) and [LinkedIn Learning](https://www.linkedin.com/learning/instructors/jessica-temporal). I write technical posts about many technology-related subjects [on my blog](https://jtemporal.com/), [Pizza's blog](https://medium.com/pizzadedados), and create git study cards in Portuguese at [GitFichas](http://gitfichas.com).
+
+{% include signature.html %}
