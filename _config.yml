@@ -24,10 +24,10 @@ default-image: logo.png # If there is no featured image in a post then this imag
 
 #footer
 
-built-by: jtemporal
+built-by: 
 
 copyright:
-   name: jtemporal
+   name: Jessica Temporal
    link: 'https://jtemporal.com'
 
 # Build settings
