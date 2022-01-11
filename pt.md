@@ -10,7 +10,7 @@ lang: pt_BR
 
 <div class="row pack">
 {% for post in site.posts %}
-{% if post.tags contains "português" %}
+{% if post.tags contains "português" or post.lang == "pt" %}
 <div class="col-md-4 card">
 <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
 <div class="panel panel-default">

@@ -2,6 +2,8 @@
 layout: post
 title: O que 1024 caracteres não me deixaram falar
 date: 2017-01-23 00:00:00 +0000
+lang: "pt"
+translated: "/I-wanted-to-say"
 tags:
 - pessoal
 - python

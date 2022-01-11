@@ -2,6 +2,8 @@
 layout: post
 title: What I wanted to say but 1024 characters wouldn’t let me
 date: 2017-01-23 00:00:00 +0000
+lang: "en"
+translated: "/eu-quis-dizer"
 tags:
 - personal
 - python

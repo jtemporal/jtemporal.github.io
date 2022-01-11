@@ -27,10 +27,18 @@
           {% assign idx = forloop.index0 %}
           <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
         {% endfor %}
-        {% if post.lang == "en_US" or page.lang  == "en_US" or post.tags contains "english" %}
-          <li><a href="{{site.url}}{{site.baseurl}}/pt/"> 🇧🇷 </a></li>
+        {% if post.lang == "en_US" or post.lang == "en" or page.lang == "en" or page.lang  == "en_US" or post.tags contains "english" %}
+          {% if page.translated %}
+            <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇧🇷 </a></li>
+          {% else %}
+            <li><a href="{{site.url}}{{site.baseurl}}/pt/"> 🇧🇷 </a></li>
+          {% endif %}
         {% else %}
-          <li><a href="{{site.url}}{{site.baseurl}}/en/"> 🇺🇸 </a></li>
+          {% if page.translated %}
+            <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇺🇸 </a></li>
+          {% else %}
+            <li><a href="{{site.url}}{{site.baseurl}}/en/"> 🇺🇸 </a></li>
+          {% endif %}
         {% endif %}
         <li><a href="{{site.url}}{{site.baseurl}}/EnJtResume.pdf">Curriculum</a></li>
         <li><a href="https://gitfichas.com/?utm_source=blog">GitFichas</a></li>

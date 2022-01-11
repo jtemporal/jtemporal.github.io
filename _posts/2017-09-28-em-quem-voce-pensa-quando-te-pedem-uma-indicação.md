@@ -4,9 +4,11 @@ title: Em quem você pensa quando te pedem uma indicação?
 date: 2017-09-21T03:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
+lang: "pt"
+translated: "/who-do-you-think-of-when-asked-for-a-referral"
 tags:
 - medium
-- 'Python '
+- python
 - pessoal
 - carreira
 description: Você conhece mulheres qualificadas. Por que não indicá-las?

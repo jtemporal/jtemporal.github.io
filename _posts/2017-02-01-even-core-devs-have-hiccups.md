@@ -3,6 +3,8 @@ title: "Even core devs have hiccups ¯\\_(ツ)_/¯"
 layout: post
 date: '2017-02-01 00:00:00'
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+lang: "en"
+translated: "/ate-core-devs-tem-atrapalhos"
 tags:
 - postgres
 - python

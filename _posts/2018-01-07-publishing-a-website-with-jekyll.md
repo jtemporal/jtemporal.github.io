@@ -3,6 +3,8 @@ title: Publishing your own website with Jekyll
 layout: post
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 date: 2018-01-07T10:00:00.000+00:00
+lang: "en"
+translated: "/do-tema-ao-ar"
 tags:
 - tutorial
 - jekyll

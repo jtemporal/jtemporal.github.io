@@ -5,6 +5,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 title: Working remotely
 description: Tips I use when I'm working remotely for you that are adapting yourself
+lang: "en"
+translated: "/trabalhando-remoto"
 tags:
 - english
 - work tips

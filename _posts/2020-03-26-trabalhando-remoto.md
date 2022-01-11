@@ -6,6 +6,8 @@ comments: true
 title: Trabalhando remoto
 description: Dicas que sigo quando estou trabalhando remoto para que você que está
   se adaptando
+lang: "pt"
+translated: "/working-remotely"
 tags:
 - dicas de trabalho
 - trabalho remoto

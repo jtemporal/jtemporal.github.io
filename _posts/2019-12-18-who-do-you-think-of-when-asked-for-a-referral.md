@@ -4,6 +4,8 @@ title: Who do you think of when asked for a referral?
 date: 2019-12-18T07:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
+lang: "en"
+translated: "/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
 tags:
 - pyladies
 - women in stem
@@ -19,7 +21,7 @@ description: You know qualified women. Why not appoint them?
 
 ***
 
-Author note: [Leia este artigo em Português](https://code.likeagirl.io/em-quem-voc%C3%AA-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o-b15e047b7759).
+Author note: [Leia este artigo em Português clicando aqui](https://code.likeagirl.io/em-quem-voc%C3%AA-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o-b15e047b7759).
 
 This article was originally posted in Portuguese at the Code Like a Girl blog linked above.
 
