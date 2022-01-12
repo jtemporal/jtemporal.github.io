@@ -30,18 +30,6 @@ fields:
   type: file
   hidden: false
   default: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
-- name: tags
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Tags
-- name: comments
-  label: Comments
-  type: boolean
-  hidden: false
-  default: true
 - name: lang
   type: select
   default: pt
@@ -78,6 +66,18 @@ fields:
   showOnly:
     field: related
     value: true
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Tags
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
 pages:
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
