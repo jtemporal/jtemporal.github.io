@@ -45,6 +45,25 @@ fields:
   type: boolean
   hidden: false
   default: true
+- name: lang
+  type: select
+  default: pt
+  config:
+    required: true
+    options:
+    - en
+    - pt
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lang
+- name: translated
+  type: text
+  config:
+    required: false
+  label: translated
 - name: related
   type: boolean
   label: related
