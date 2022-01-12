@@ -28,6 +28,20 @@ fields:
   type: datetime
   hidden: false
   default: '2019-02-21T03:00:00.000+00:00'
+- name: lang
+  type: select
+  default: pt
+  config:
+    required: true
+    options:
+    - pt
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lang
 - name: image
   label: Img
   type: file
