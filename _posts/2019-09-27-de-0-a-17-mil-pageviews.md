@@ -4,7 +4,9 @@ date: 2019-09-27T13:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 comments: true
 title: De 0 a 17 mil pageviews
-description: 'Como uma troca de temas impactou na quantidade de acessos do meu blog '
+description: 'Como uma troca de temas impactou na quantidade de acessos do meu blog'
+lang: pt
+translated: "/from-0-to-17-thousand-pageviews"
 tags:
 - português
 - static site

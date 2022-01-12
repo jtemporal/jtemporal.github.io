@@ -4,6 +4,8 @@ title: Playing with Docker’s container listing
 date: 2019-03-16T03:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 comments: true
+lang: en
+translated: "/brincando-com-a-listagem-de-containers-docker"
 tags:
 - english
 - 'docker '
@@ -16,6 +18,12 @@ tags:
 description: Learn to list and filter containers from the list
 
 ---
+\***
+
+Author note: [Read this article in English](https://jtemporal.com/playing-with-dockers-container-listing)
+
+\***
+
 If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:
 
 1. List filtering;

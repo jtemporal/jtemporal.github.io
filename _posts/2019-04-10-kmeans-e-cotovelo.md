@@ -4,6 +4,8 @@ title: Como definir o número de clusters para o seu KMeans
 date: 2019-04-10 03:00:00 +0000
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
+lang: pt
+translated: "/kmeans-and-elbow-method"
 tags:
 - medium
 - kmeans

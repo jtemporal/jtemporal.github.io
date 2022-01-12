@@ -5,6 +5,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 title: From 0 to 17 thousand pageviews
 description: How a theme exchange impacted the number of hits on my blog
+lang: en
+translated: "/de-0-a-17-mil-pageviews"
 tags:
 - static site
 - google analytics
