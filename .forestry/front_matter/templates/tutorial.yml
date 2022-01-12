@@ -32,6 +32,25 @@ fields:
   type: file
   hidden: false
   default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+- name: lang
+  type: select
+  default: pt
+  config:
+    required: true
+    options:
+    - en
+    - pt
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lang
+- name: translated
+  type: text
+  config:
+    required: false
+  label: translated
 - name: tags
   type: list
   config:
