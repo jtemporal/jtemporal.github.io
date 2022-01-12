@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {% if post.lang == "en_US" or page.lang  == "en_US" or post.tags contains "english" %}
+      {% if post.lang == "en_US" or page.lang  == "en_US" or page.lang  == "en" or post.tags contains "english" %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
         {% assign options = "About,Get in touch,Talks" | split: ',' %}
         {% assign base = "about,contact,talks" | split: ',' %}
