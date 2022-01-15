@@ -12,7 +12,7 @@ tags:
 related: true
 posts_list:
 - resolvendo-conflitos
-- corrigindo-a-origem-de-um-branch-com-git-rebase
+- desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 
 ---
@@ -35,7 +35,7 @@ Se você quer desfazer o último _commit_ `B` você quer voltar ao estado do _co
 
 ## Desfazendo o último commit
 
-Para desfazer o último _commit_ feito você deve usar o commando a seguir:
+Para desfazer o último _commit_ feito você deve usar o comando a seguir:
 
 ```console
 git reset HEAD~1
@@ -53,7 +53,7 @@ Ou até mesmo o atalho a seguir:
 git reset HEAD~
 ```
 
-Esses três commandos querem dizer o seguinte:
+Esses três comandos querem dizer o seguinte:
 
 > Volte ao estado anterior ao último commit.
 
@@ -89,7 +89,7 @@ Ao executá-lo e rodar mais uma vez o `git status` temos os três arquivos que f
 
 Note que antes de executar esses comandos eu removi o `arquivo-4.txt` já que não vou precisar mais dele. E investigando novamente o histórico vemos apenas o commit inicial:
 
-![captura de tela mostrando o histórico de commits mostrando apenas o commit incial já que os outros foram desfeitos](https://res.cloudinary.com/jesstemporal/image/upload/v1642202652/git-reset/git-reset-fig-7_ymvagr.png)
+![captura de tela mostrando o histórico de commits mostrando apenas o commit inicial já que os outros foram desfeitos](https://res.cloudinary.com/jesstemporal/image/upload/v1642202652/git-reset/git-reset-fig-7_ymvagr.png)
 
 Antes de terminar a colinha eu quero deixar uma recomendação: é uma boa prática evitar desfazer commits que você já tenha feito _push_ para evitar de causar problemas de _detached_ `HEAD` para outras pessoas trabalhando junto com você.
 
