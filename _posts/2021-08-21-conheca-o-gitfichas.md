@@ -32,7 +32,7 @@ Com o objetivo de melhorar a vida de quem usa Git, eu comecei o [GitFichas](http
 <i>GitFicha número 008 falando sobre o git add -p</i>
 </center>
 
-As fichas são imagens que explicam comandos ou conceitos que eu uso diariamente no Git e ainda trás dicas pouco conhecidas ou utilizadas, mas que quando bem aplicadas são uma mão na roda.
+As fichas são imagens que explicam comandos ou conceitos que eu uso diariamente no Git e ainda trazem dicas pouco conhecidas ou utilizadas, mas que quando bem aplicadas são uma mão na roda.
 
 Toda semana saem uma ficha nova na quarta-feira.
 
