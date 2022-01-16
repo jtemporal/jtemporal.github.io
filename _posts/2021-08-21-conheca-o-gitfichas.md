@@ -3,7 +3,8 @@ layout: post
 date: 2021-08-21T12:44:33.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
-lang: en
+lang: "pt"
+translated: "/introducing-gitfichas"
 title: Conheça o GitFichas!
 description: Projeto novo no ar!
 tags:
@@ -15,7 +16,6 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
 - criando-pastas-vazias-no-github-com-o-gitkeep
-translated: ''
 
 ---
 Eu comecei um novo projeto, e decidi vir aqui te contar tudo sobre ele! 👀
@@ -34,7 +34,7 @@ Com o objetivo de melhorar a vida de quem usa Git, eu comecei o [GitFichas](http
 
 As fichas são imagens que explicam comandos ou conceitos que eu uso diariamente no Git e ainda trazem dicas pouco conhecidas ou utilizadas, mas que quando bem aplicadas são uma mão na roda.
 
-Toda semana saem uma ficha nova na quarta-feira.
+Toda semana sai uma ficha nova na quarta-feira.
 
 Eu publico as fichas no meu perfil no [Twitter](http://twitter.com/jesstemporal) e no [LinkedIn](https://www.linkedin.com/in/jessicatemporal/), mas você pode aproveitar e seguir o [GitFichas no Instagram](https://instagram.com/gitfichas) ou se inscrever no canal do [GitFichas no Telegram](https://t.me/gitfichas).
 
