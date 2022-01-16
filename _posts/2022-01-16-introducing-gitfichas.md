@@ -24,8 +24,6 @@ This is not a problem, especially if you are starting your journey with versioni
 
 In order to improve the lives of those who use Git, I started [GitFichas](https://gitfichas.com/). GitFichas is nothing more than a site that aggregates Git study cards, in its original form, it was intend as a friendly resource in Portuguese, and now it officially has its version in English. Each card is made to be the simplest possible way so anyone can understand each command or concept.
 
-Com o objetivo de melhorar a vida de quem usa Git, eu comecei o . O GitFichas nada mais é do que um site que agrega fichas de estudo sobre Git, tudo em bom português e da forma mais simples possível para que qualquer pessoa possa entender melhor cada comando ou conceito.
-
 [![GitFicha explaining how to interactively with command git add -p](https://gitfichas.com/assets/img/projects/en/008/thumbnail.jpg)](https://gitfichas.com/en/008?utm_source=blog)
 
 <center>
