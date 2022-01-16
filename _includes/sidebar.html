@@ -15,9 +15,20 @@
           {% endif %}
         </div>
 
+        {% if page.author_note %}
+        <div class="mt10 recent">
+          {% if page.lang == "en" %}
+          <h3>Author Note</h3>
+          {% else %}
+          <h3>Nota da autora</h3>
+          {% endif %}
+          <p><a href='{{ page.author_note_link }}'>{{ page.author_note }}</a></p>
+        </div>
+        {% endif %}
+
         {% if page.layout == "post" %}
         <div class="mt10 recent">
-            <h2>Recent articles</h2>
+            <h3>Recent articles</h3>
              <ul>
                 {% for post in site.related_posts limit:3 %}
 

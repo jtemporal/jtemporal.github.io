@@ -12,6 +12,8 @@ tags:
 - git
 related: false
 posts_list: ""
+author_note: This blog post was adapted to English by Debora Azevedo.
+author_note_link: professoradeboraazevedo@gmail.com
 
 ---
 I started a new project, and I want to tell you all about it! 👀
