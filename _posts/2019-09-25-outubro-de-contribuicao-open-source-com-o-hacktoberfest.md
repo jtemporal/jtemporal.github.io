@@ -5,6 +5,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/
 comments: true
 title: 'Outubro de contribuição open-source com o #Hacktoberfest'
 description: 'Vem conhecer as regras do #Hacktoberfest para 2019!'
+type: post
 tags:
 - português
 - git

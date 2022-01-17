@@ -5,6 +5,7 @@ date: 2021-04-21T19:48:25.000-03:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 comments: true
 description: A step-by-step guide to create an instance (Droplet) at Digital Ocean
+type: post
 tags:
 - droplet
 - ssh

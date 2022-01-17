@@ -5,6 +5,7 @@ date: 2021-07-02T09:20:03.000-03:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png"
 comments: true
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
+type: post
 tags:
 - english
 - jwts in python

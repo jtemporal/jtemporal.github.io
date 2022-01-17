@@ -4,6 +4,7 @@ title: 'Indo além no Schematics: Personalizando nossos modelos e validações'
 date: 2019-02-13 02:00:00 +0000
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
+type: post
 tags:
 - medium
 

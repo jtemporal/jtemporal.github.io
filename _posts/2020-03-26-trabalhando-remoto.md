@@ -8,6 +8,7 @@ description: Dicas que sigo quando estou trabalhando remoto para que você que e
   se adaptando
 lang: "pt"
 translated: "/working-remotely"
+type: post
 tags:
 - dicas de trabalho
 - trabalho remoto

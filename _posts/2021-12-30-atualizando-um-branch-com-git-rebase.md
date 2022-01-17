@@ -5,6 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/c
 comments: true
 title: Atualizando um branch com git rebase
 description: Veja como usar git rebase para trazer commits mais recentes para o branch atual
+type: post
 tags:
 - git
 - português

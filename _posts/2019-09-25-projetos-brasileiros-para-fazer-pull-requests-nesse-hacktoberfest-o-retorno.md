@@ -3,6 +3,7 @@ title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest o ret
 layout: post
 date: 2019-09-25T09:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+type: post
 tags:
 - pull request
 - pull requests

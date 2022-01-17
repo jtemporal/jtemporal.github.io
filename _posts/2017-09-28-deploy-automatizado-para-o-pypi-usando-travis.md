@@ -2,11 +2,12 @@
 layout: post
 title: Deploy automatizado para o PyPI usando Travis-CI
 date: 2017-09-28 00:00:00 -0300
+type: post
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
 tags:
 - medium
-- 'Python '
+- python
 - pip
 - python
 - pip install

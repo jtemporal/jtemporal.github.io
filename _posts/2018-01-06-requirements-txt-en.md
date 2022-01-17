@@ -5,6 +5,7 @@ date: 2018-01-06 08:00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 lang: "en"
 translated: "/requirements-txt"
+type: post
 tags:
 - protip
 - python

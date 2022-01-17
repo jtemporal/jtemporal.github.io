@@ -6,6 +6,7 @@ comments: true
 lang: pt_BR
 title: 5 Dicas Para Fazer o Seu Pull Request Brilhar ✨
 description: Dicas de ouro para fazer uma contribuição open-source de sucesso
+type: post
 tags:
 - pull request
 - git

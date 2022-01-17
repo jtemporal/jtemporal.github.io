@@ -8,7 +8,6 @@ img: "/images/profilepicgh.jpeg"
 
 
     <div class="row pack">
-
         {% for post in paginator.posts %}
             <div class="col-md-4 card">
                 <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
@@ -53,6 +52,7 @@ img: "/images/profilepicgh.jpeg"
         {% endif %}
 
     </div>
+    
     <div class="col-md-4">  </div>
 </div>
 </div>

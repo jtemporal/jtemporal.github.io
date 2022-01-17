@@ -2,6 +2,7 @@
 layout: post
 title: Comunidade Python e Rio de Janeiro
 date: 2017-05-10 00:00:00 +0000
+type: post
 tags:
 - português
 - python

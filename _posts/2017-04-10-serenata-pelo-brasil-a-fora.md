@@ -2,6 +2,7 @@
 layout: post
 title: Serenata pelo Brasil a fora
 date: 2017-04-10 00:00:00 -0300
+type: post
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
 tags:

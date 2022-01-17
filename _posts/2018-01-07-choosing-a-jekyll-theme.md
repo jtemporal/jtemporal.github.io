@@ -5,6 +5,7 @@ date: 2018-01-07 08:00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 lang: "en"
 translated: "/temas-jekyll"
+type: post
 tags:
 - english
 - theme

@@ -6,6 +6,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 lang: "en"
 translated: "/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
+type: post
 tags:
 - pyladies
 - women in stem

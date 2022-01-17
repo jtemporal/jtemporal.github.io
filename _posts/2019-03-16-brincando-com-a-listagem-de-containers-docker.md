@@ -4,11 +4,12 @@ title: Brincando com a listagem de containers Docker
 date: 2019-03-16T03:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 comments: true
+type: post
 lang: pt
 translated: "/playing-with-dockers-container-listing"
 tags:
 - colinha
-- 'docker '
+- docker
 - containers
 description: Aprenda a filtrar e formatar a listagem de containers Docker
 description: Aprenda a turbinar a listagem de containers do Docker

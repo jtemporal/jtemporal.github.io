@@ -5,6 +5,7 @@ date: 2021-05-21 18:44:37 -0300
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png"
 comments: true
 description: Get to know more about the changes in this release of the framework
+type: post
 tags:
 - english
 - python

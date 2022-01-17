@@ -7,6 +7,7 @@ title: Working remotely
 description: Tips I use when I'm working remotely for you that are adapting yourself
 lang: en
 translated: "/trabalhando-remoto"
+type: post
 tags:
 - english
 - work tips

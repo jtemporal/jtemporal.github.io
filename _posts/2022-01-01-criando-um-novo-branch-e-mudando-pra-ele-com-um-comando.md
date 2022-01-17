@@ -5,6 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/c
 comments: true
 title: Criando um novo branch e mudando pra ele com apenas um comando
 description: Veja como usar git checkout e git switch para criar um branch e automaticamente mudar para ele
+type: post
 tags:
 - git
 - português

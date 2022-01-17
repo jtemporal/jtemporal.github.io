@@ -3,6 +3,7 @@ title: "Formatando código Go usando o próprio Go pra isso"
 layout: post
 date: '2018-03-19 05:00:00'
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+type: post
 tags:
 - colinha
 - go

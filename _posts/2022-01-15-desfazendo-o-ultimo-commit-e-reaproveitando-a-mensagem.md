@@ -5,6 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/c
 comments: true
 title: Desfazendo o último commit e mantendo as alterações para um próximo commit
 description: Desfaça o último commit com git reset usando --soft e reutilize a mensagem com o ORIG_HEAD
+type: post
 tags:
 - git
 - português

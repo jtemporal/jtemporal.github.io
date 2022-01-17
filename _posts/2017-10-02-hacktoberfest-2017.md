@@ -3,6 +3,7 @@ layout: post
 title: Ajude algum projeto, ganhe uma camiseta e dê o primeiro passo no mundo do código
   aberto
 date: 2017-10-02 00:00:00 +0000
+type: post
 tags:
 - github
 - git
