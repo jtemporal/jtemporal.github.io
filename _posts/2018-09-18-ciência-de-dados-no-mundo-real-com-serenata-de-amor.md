@@ -5,6 +5,7 @@ title: Ciência de dados no mundo real com Serenata de Amor
 date: 2018-09-18 00:00:00 -0300
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 description: DevConf 2018
+hidden: true
 
 ---
 ### Vídeo

@@ -5,6 +5,7 @@ title: "II Workshop Tecnologia para Transparência"
 date: 2017-08-29
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
+hidden: true
 ---
 
 ![Foto](/images/workshop-tech-para-transparencia/foto.jpg)

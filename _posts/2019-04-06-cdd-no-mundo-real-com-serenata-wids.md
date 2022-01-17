@@ -1,6 +1,7 @@
 ---
 layout: post
 type: talk
+hidden: true
 title: Ciência de dados pela democracia
 date: 2019-04-06 00:00:00 -0300
 img: "/palestra.png"

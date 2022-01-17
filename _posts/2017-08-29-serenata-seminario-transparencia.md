@@ -5,6 +5,7 @@ title: "9º Seminário Catarinense de Transparência e Controle"
 date: 2017-08-29
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
+hidden: true
 ---
 
 ![Foto Tony, Jess e De Bona](https://cdn-images-1.medium.com/max/1600/1*LjwvQHIFNA1tC-LLv_BpdA.jpeg)

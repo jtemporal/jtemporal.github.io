@@ -5,6 +5,7 @@ title: "4º Pyladies Floripa"
 date: 2017-04-27
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
+hidden: true
 ---
 
 ![eu palestrando no encontro das pyladies floripa](https://scontent.fcgh15-1.fna.fbcdn.net/v/t1.0-9/18156926_1122086034564651_2410968029734643763_n.jpg?oh=ad14e2ae743fcdc080e9379acaed26fb&oe=5AA911A2)

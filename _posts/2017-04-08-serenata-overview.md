@@ -5,6 +5,7 @@ title: Hackathon da Saúde
 date: 2017-04-07
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: true
+hidden: true
 ---
 
 [Hackathon da Saúde](http://fullstackers.com.br/2017-hackathon-saude/)
