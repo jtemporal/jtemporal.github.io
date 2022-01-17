@@ -5,6 +5,7 @@ title: "Meetup - Mecanismos de prevenção e combate a corrupção"
 date: 2017-05-18
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
+hidden: true
 ---
 
 ### Evento
