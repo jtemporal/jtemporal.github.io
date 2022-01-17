@@ -1,6 +1,7 @@
 ---
 layout: post
 type: talk
+hidden: true
 title: Tips for Writing Great Technical Content
 date: 2021-09-17 15:30:00 -0300
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png"

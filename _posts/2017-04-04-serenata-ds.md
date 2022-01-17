@@ -5,6 +5,7 @@ title: Cloud Girls Meetup
 date: 2017-04-04
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
+hidden: true
 ---
 
 ![o time](/images/serenata-ds/o-time.jpg)
