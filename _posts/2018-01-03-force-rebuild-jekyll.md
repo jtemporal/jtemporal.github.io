@@ -12,6 +12,7 @@ tags:
 - github
 - português
 comments: true
+type: post
 description: Como usar Git para forçar o build de um site que usa GitHub Pages
 related: true
 posts_list:

@@ -5,6 +5,7 @@ date: 2017-12-29T10:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 lang: "en"
 translated: "/pyenv-inicio"
+type: post
 tags:
 - english
 - versions

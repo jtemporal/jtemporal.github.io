@@ -4,6 +4,7 @@ title: Copying files into a container
 date: 2019-04-03T14:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 comments: true
+type: post
 lang: en
 translated: "/copiando-arquivos-para-dentro-do-container"
 tags:

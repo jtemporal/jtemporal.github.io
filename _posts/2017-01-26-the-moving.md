@@ -2,6 +2,7 @@
 layout: post
 title: The moving
 date: 2017-01-26 00:00:00 +0000
+type: post
 tags:
 - personal
 - love

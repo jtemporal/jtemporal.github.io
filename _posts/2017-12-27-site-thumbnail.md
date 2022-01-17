@@ -2,6 +2,7 @@
 title: "Adicione cores ao compartilhar seu site"
 layout: post
 date: '2017-12-27 10:00:00'
+type: post
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 tags:
 - colinha

@@ -5,6 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/c
 comments: true
 title: Desfazendo os últimos commits usando git reset
 description: Veja como usar o comando git reset para desfazer os commits recentes
+type: post
 tags:
 - git
 - português

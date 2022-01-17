@@ -5,6 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/c
 comments: true
 title: Corrigindo a origem de um branch com git rebase
 description: Veja como usar git rebase para corrigir a origem de um branch
+type: post
 tags:
 - git
 - português

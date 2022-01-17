@@ -5,6 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/c
 comments: true
 title: Criando pastas vazias no GitHub com o .gitkeep
 description: Entenda pra que serve e como usar o arquivo .gitkeep
+type: post
 tags:
 - git
 - português

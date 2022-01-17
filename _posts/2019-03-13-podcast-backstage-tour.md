@@ -4,6 +4,7 @@ title: Podcast backstage tour
 date: 2019-03-13T12:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
+type: post
 tags:
 - tools
 - english

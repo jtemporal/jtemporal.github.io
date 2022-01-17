@@ -7,6 +7,7 @@ lang: "pt"
 translated: "/introducing-gitfichas"
 title: Conheça o GitFichas!
 description: Projeto novo no ar!
+type: post
 tags:
 - portugues
 - português

@@ -5,6 +5,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 date: 2018-01-07T10:00:00.000+00:00
 lang: "en"
 translated: "/do-tema-ao-ar"
+type: post
 tags:
 - tutorial
 - jekyll

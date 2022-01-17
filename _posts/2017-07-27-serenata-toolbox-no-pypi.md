@@ -4,9 +4,10 @@ title: Serenata Toolbox no PyPI
 date: 2017-07-27 00:00:00 -0300
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
+type: post
 tags:
 - medium
-- 'Python '
+- python
 - pip
 - python
 - pip install

@@ -7,6 +7,7 @@ tags:
 - português
 comments: true
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
+type: post
 
 ---
 Eu tenho uma mania de achar que andei em círculos o ano inteiro e acabei no mesmo lugar que estava em dezembro do ano passado. Então assim como no ano passado decidi fazer uma retrospectiva rápida das coisas que aconteceram esse ano… Ano passado eu viajei bastante e esse ano eu quis ter mais equilíbrio na vida, conseguir focar em projetos mais perto de mim e em mim mesma. Então assim como no ano passado, vamos brincar de retrospectiva. A brincadeira é a seguinte:

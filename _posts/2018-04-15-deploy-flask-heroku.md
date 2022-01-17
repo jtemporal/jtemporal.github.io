@@ -5,6 +5,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 date: 2018-04-15T00:00:00.000+00:00
 lang: pt
 translated: "/deploy-flask-heroku-en"
+type: post
 tags:
 - tutorial
 - python

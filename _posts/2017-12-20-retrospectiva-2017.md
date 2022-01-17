@@ -2,6 +2,7 @@
 title: 'Retrospectiva 2017: Um momento de reflexão'
 layout: post
 date: '2017-12-20 10:00:00'
+type: post
 tags:
 - pessoal
 - português

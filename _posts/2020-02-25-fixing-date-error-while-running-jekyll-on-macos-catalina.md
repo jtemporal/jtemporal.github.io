@@ -7,6 +7,7 @@ description: This pro tip explains how to fix the "Invalid date" error you may s
   on macOS Catalina
 date: 2020-02-25 07:00:00 -0300
 lang: en_US
+type: post
 tags:
 - error
 - Catalina
