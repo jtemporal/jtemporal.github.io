@@ -10,8 +10,8 @@ description: "Your new best friend: git study cards!"
 tags:
 - english
 - git
-related: false
 type: post
+related: false
 posts_list: ""
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: professoradeboraazevedo@gmail.com
