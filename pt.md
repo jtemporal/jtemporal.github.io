@@ -9,7 +9,7 @@ lang: pt_BR
 
 
 <div class="row pack">
-{% assign posts = site.posts | where: "page.type", "post" %}
+{% assign posts = site.posts | where: "post.type", "post" %}
 {% for post in posts %}
 {% if post.tags contains "português" or page.lang == "pt" or post.lang == "pt" %}
 <div class="col-md-4 card">
