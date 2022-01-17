@@ -8,7 +8,7 @@ img: "/images/profilepicgh.jpeg"
 
 
     <div class="row pack">
-        {% assign posts = site.posts | where: "type", "post" %}
+        {% assign posts = paginator.posts | where: "type", "post" %}
         {% for post in posts %}
             <div class="col-md-4 card">
                 <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
@@ -22,7 +22,7 @@ img: "/images/profilepicgh.jpeg"
           {% endfor %}
 
     </div>
-<!—-
+
 <div class="row">
     <div class="col-md-4">  </div>
     <div class="col-md-6">
@@ -56,5 +56,4 @@ img: "/images/profilepicgh.jpeg"
     
     <div class="col-md-4">  </div>
 </div>
-—->
 </div>
