@@ -8,8 +8,8 @@ img: "/images/profilepicgh.jpeg"
 
 
     <div class="row pack">
-
-        {% for post in paginator.posts %}
+        {% assign posts = paginator.posts | where: "type", "post" %}
+        {% for post in posts %}
             <div class="col-md-4 card">
                 <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
                 <div class="panel panel-default">
