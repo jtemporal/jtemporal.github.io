@@ -2,12 +2,12 @@
 layout: post
 title: Como Lidar com JWTs em Python
 date: 2021-07-02T09:20:03.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 comments: true
 description: Aprenda a criar, analisar e verificar seus JWTs em Python usando PyJWT
 type: post
 lang: pt
-
+translated: "/how-to-handle-jwts-in-python"
 tags:
 - portugues
 - jwts em python

@@ -6,6 +6,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
 type: post
+lang: en
+translated: "/como-lidar-com-jwts-em-python"
 tags:
 - english
 - jwts in python
