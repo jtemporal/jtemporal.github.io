@@ -16,7 +16,7 @@ related: true
 posts_list:
 - ferramentas-para-qualquer-vaga-em-ti
 - trabalhando-remoto
-- em-quem-voce-pensa-quando-te-pedem-uma-indição
+- em-quem-voce-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o
 ---
 
 Você pode estar pensando em trocar de emprego ou de área e pode estar se perguntando *“Como eu melhoro o meu perfil na rede mais utilizada por recrutadores?”* e aí você possivelmente já pode ter ouvido coisas como *“mantenha o seu currículo atualizado”* e *“crie um portfólio”* principalmente em TI.
