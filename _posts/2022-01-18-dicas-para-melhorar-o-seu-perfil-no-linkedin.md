@@ -16,9 +16,10 @@ related: true
 posts_list:
 - ferramentas-para-qualquer-vaga-em-ti
 - trabalhando-remoto
-- em-quem-voce-pensa-quando-te-pedem-uma-indicação
+- em-quem-voce-pensa-quando-te-pedem-uma-indição
 ---
-Você pode estar pensando em trocar de emprego ou de área e pode estar se perguntando *“Como eu melhoro o meu perfil na rede mais utilizada por recrutadores?”* e aí você possilvemente já pode ter ouvido coisas como *“mantenha o seu currículo atualizado”* e *“crie um portfólio”* principalmente em TI.
+
+Você pode estar pensando em trocar de emprego ou de área e pode estar se perguntando *“Como eu melhoro o meu perfil na rede mais utilizada por recrutadores?”* e aí você possivelmente já pode ter ouvido coisas como *“mantenha o seu currículo atualizado”* e *“crie um portfólio”* principalmente em TI.
 
 Eu consigo dar mais conselhos sobre como melhorar o perfil se souber melhor quem é você e o que você faz, mas as dicas a seguir você consegue seguir sozinha ou sozinho, mesmo sem que a gente se conheça então vamos lá.
 
