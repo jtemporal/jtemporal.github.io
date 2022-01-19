@@ -75,7 +75,7 @@ Se você tiver mudando de área ou de cargo, essa tarefa de descrever o que voc�
 
 Na série *“Quem tem medo de virar cientista de dados?”*, eu, [Leticia Portella](http://leportella.com/) e [Gustavo Coelho](https://twitter.com/gusrabbit), falamos das principais dúvidas sobre pessoas querendo trocar de carreira para a ciência de dados. Cobrimos a fase do [*“Será que eu vou conseguir?”*](https://medium.com/databootcamp/quem-tem-medo-de-virar-cientista-de-dados-1-3-148ae98a01dd), que sempre vem seguida da fase do [*“Vale a pena mesmo começar a trabalhar numa área totalmente nova para mim?”*](https://medium.com/pizzadedados/quem-tem-medo-de-virar-cientista-de-dados-e0a32f45af1a), e que finaliza com [*“Por que vão querer me contratar?”*](https://medium.com/pizzadedados/quem-tem-medo-de-virar-cientista-de-dados-3-3-f46b118ae12a#1926).
 
-Hoje depois, depois de alguns anos que escrevemos os textos da série, me dei conta que embora o foco fosse ciência de dados, os conselhos ali servem para todo mundo. E esses conselhos são válidos principalmente no que eu chamo do jogo das habilidades.
+Hoje, depois de alguns anos que escrevemos os textos da série, me dei conta que embora o foco fosse ciência de dados, os conselhos ali servem para todo mundo. E esses conselhos são válidos principalmente no que eu chamo do jogo das habilidades.
 
 Nesse caso, cabe tanto relacionar o que você faz hoje com as habilidades esperadas para o cargo futuro de forma sútil, quanto mostrar que mesmo não desempenhando o cargo futuro você tem parte das habilidades esperadas. Então, além de descrever o que faz, lembre-se de mencionar aquele curso, aquela tecnologia que você usou e que serão usados nos próximos cargos.
 
