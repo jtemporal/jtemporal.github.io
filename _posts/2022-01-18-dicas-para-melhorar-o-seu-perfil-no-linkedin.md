@@ -99,7 +99,6 @@ Pra finalizar, se você estiver na dúvida se essas coisas que você leu aqui te
 > Essas dicas de LinkedIn da Jess são PERFEITAS <3
 Ela me deu essas dicas quando tava pensando em trocar de empresa e pensando fazer uns processos seletivos só pra treinar.
 Resultado: um dia depois de começar a atualizar o LinkedIn, recebi um convite pra fazer um processo seletivo. Como queria treinar, aceitei, amei a empresa e tô lá até agora <3
-
 <small>
 <i>Ana Dulce, Desenvolvedora Python Back-end | Tembici</i>
 </small>
