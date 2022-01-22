@@ -98,20 +98,20 @@ Antes de terminar a colinha eu quero deixar uma recomendação: é uma boa prát
 
 Abaixo você encontra [GitFichas pra te ajudar a lembrar desses comandos e atalhos](https://gitfichas.com):
 
-{% assign ficha_url = "https://gitfichas.com/projects/013" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/013/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/013?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878672/gitfichas/pt/013/full_tznrem.jpg" %}
 {% assign ficha_title = "GitFicha #013" %}
 {% assign ficha_description = "O que é o HEAD" %}
 {% include ficha.html %}
 
-{% assign ficha_url = "https://gitfichas.com/projects/036" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/036/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/036?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878677/gitfichas/pt/036/full_mstasz.jpg" %}
 {% assign ficha_title = "GitFicha #036" %}
 {% assign ficha_description = "git reset HEAD~3" %}
 {% include ficha.html %}
 
-{% assign ficha_url = "https://gitfichas.com/projects/037" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/037/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/037?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878677/gitfichas/pt/037/full_uakvoe.jpg" %}
 {% assign ficha_title = "GitFicha #036" %}
 {% assign ficha_description = "git reset HEAD^" %}
 {% include ficha.html %}

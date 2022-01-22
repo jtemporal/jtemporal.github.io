@@ -77,8 +77,8 @@ Com isso agora você sabe alterar ou corrigir a origem de um branch, caso queira
 
 Abaixo você pode ver uma ficha que pode te ajudar a lembrar do comando `git rebase --onto`:
 
-{% assign ficha_url = "https://gitfichas.com/projects/028" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/028/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/028?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878675/gitfichas/pt/028/full_agybxd.jpg" %}
 {% assign ficha_title = "GitFicha #028" %}
 {% assign ficha_description = "git rebase --onto" %}
 {% include ficha.html %}

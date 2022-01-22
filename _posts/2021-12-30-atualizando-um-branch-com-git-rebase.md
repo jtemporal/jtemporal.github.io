@@ -71,8 +71,8 @@ Agora você sabe atualizar um branch usando o rebase, caso queira mais detalhes 
 
 Abaixo você pode ver uma ficha que pode te ajudar a lembrar do comando `git rebase` para atualizar um branch:
 
-{% assign ficha_url = "https://gitfichas.com/projects/027" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/027/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/027?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878675/gitfichas/pt/027/full_eqj0ec.jpg" %}
 {% assign ficha_title = "GitFicha #027" %}
 {% assign ficha_description = "git rebase" %}
 {% include ficha.html %}

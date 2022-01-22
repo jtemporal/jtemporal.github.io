@@ -25,9 +25,9 @@ Há algum tempo eu tenho ajudado qualquer pessoa que precise de ajuda com Git. P
 
 Isso não é um problema, principalmente se você está começando a sua jornada com versionamento, no entanto, não entender os comandos pode te levar a enrascadas com o Git (conflitos eu estou olhando pra vocês). E por mais que o Git nos ajude no processo de desenvolvimento a rastrear alterações, conflitos e _detached heads_ são coisas chatas de resolver, principalmente se você não entende o que precisa fazer não é mesmo?
 
-Com o objetivo de melhorar a vida de quem usa Git, eu comecei o [GitFichas](https://gitfichas.com/). O GitFichas nada mais é do que um site que agrega fichas de estudo sobre Git, tudo em bom português e da forma mais simples possível para que qualquer pessoa possa entender melhor cada comando ou conceito.
+Com o objetivo de melhorar a vida de quem usa Git, eu comecei o [GitFichas](https://gitfichas.com/?utm_source=blog). O GitFichas nada mais é do que um site que agrega fichas de estudo sobre Git, tudo em bom português e da forma mais simples possível para que qualquer pessoa possa entender melhor cada comando ou conceito.
 
-[![GitFicha explicando como adicionar interativamente partes de alterações em commits com o comando git add -p](https://gitfichas.com/assets/img/projects/008/thumbnail.jpg)](https://gitfichas.com/projects/008?utm_source=blog)
+[![GitFicha explicando como adicionar interativamente partes de alterações em commits com o comando git add -p](https://res.cloudinary.com/jesstemporal/image/upload/v1642878671/gitfichas/pt/008/full_dtc6zn.jpg)](https://gitfichas.com/projects/008?utm_source=blog)
 
 <center>
 <i>GitFicha número 008 falando sobre o git add -p</i>

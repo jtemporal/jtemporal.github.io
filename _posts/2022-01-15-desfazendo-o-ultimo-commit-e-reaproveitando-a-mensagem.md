@@ -76,14 +76,14 @@ Por fim, se você quiser editar a mensagem, você deve usar a flag `-c` no lugar
 
 ## GitFichas
 
-{% assign ficha_url = "https://gitfichas.com/projects/038" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/038/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/038?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642881912/gitfichas/pt/038/full_rpeam6.jpg" %}
 {% assign ficha_title = "GitFicha #038" %}
 {% assign ficha_description = "git reset HEAD^ --soft" %}
 {% include ficha.html %}
 
-{% assign ficha_url = "https://gitfichas.com/projects/039" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/039/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/039?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878678/gitfichas/pt/039/full_y7qwus.jpg" %}
 {% assign ficha_title = "GitFicha #039" %}
 {% assign ficha_description = "git commit -C ORIG_HEAD" %}
 {% include ficha.html %}

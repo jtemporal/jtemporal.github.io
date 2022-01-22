@@ -68,14 +68,14 @@ Também com resultado semelhante ao que vimos anteriormente:
 
 Abaixo você encontra [duas GitFichas pra te ajudar a lembrar desses atalhos](https://gitfichas.com):
 
-{% assign ficha_url = "https://gitfichas.com/projects/014" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/014/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/014?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878672/gitfichas/pt/014/full_wkqgez.jpg" %}
 {% assign ficha_title = "GitFicha #014" %}
 {% assign ficha_description = "git checkout -b nome" %}
 {% include ficha.html %}
 
-{% assign ficha_url = "https://gitfichas.com/projects/035" %}
-{% assign ficha_img = "https://gitfichas.com/assets/img/projects/035/full.jpg" %}
+{% assign ficha_url = "https://gitfichas.com/projects/035?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878677/gitfichas/pt/035/full_uz9o0d.jpg" %}
 {% assign ficha_title = "GitFicha #035" %}
 {% assign ficha_description = "git switch -c nome" %}
 {% include ficha.html %}
