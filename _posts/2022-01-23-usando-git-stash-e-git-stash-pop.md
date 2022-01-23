@@ -33,7 +33,7 @@ Pilhas, são um conceito comum em programação, e isso é importante para enten
 
 ## Guardando trabalho em progresso com stash
 
-Então vamos dizer que você está trabalhando no branch `tarefa` que corresponde a implementação de uma _feature_ qualquer, mas agora você precisa voltar para o branch `main` e resolver um problema muito importante, por questões de simplicidade não vamos focar na resolução de problemas. Esse é o estador corrente do seu trabalho:
+Então vamos dizer que você está trabalhando no branch `tarefa` que corresponde a implementação de uma _feature_ qualquer, mas agora você precisa voltar para o branch `main` e resolver um problema muito importante, por questões de simplicidade não vamos focar na resolução de problemas. Esse é o estado corrente do seu trabalho:
 
 ![imagem do terminal mostrando que há modificações em um arquivo](https://res.cloudinary.com/jesstemporal/image/upload/v1642978865/git-stash/git-status-trabalho-em-adamento_xueuh5.png)
 
