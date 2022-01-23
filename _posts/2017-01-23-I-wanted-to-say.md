@@ -30,10 +30,10 @@ I believe that’s called **writer’s block**. Yep. I was supposed to talk abou
 and what I like to do I simply couldn’t. Go figure. So I took a deep breath.
 Walked around the room a little. Took another deep breath. Drank some water.
 
-![shake things up gif](http://4.bp.blogspot.com/-9gV5Yxlif3g/VK1iroR71dI/AAAAAAAAF9U/TZMkH8Go3Yw/s1600/hiro%2Band%2Btasdahi%2B7.gif)
+![shake things up gif](https://4.bp.blogspot.com/-9gV5Yxlif3g/VK1iroR71dI/AAAAAAAAF9U/TZMkH8Go3Yw/s1600/hiro%2Band%2Btasdahi%2B7.gif)
 
 
-![new angle gif](http://3.bp.blogspot.com/-GG0l7cBjiAI/VK1lHeRZORI/AAAAAAAAF9g/3m7DRkTseyw/s1600/hiro%2Band%2Btasdahi%2B8.gif)
+![new angle gif](https://3.bp.blogspot.com/-GG0l7cBjiAI/VK1lHeRZORI/AAAAAAAAF9g/3m7DRkTseyw/s1600/hiro%2Band%2Btasdahi%2B8.gif)
 
 And then, like magic, the words came. Little did I know that the white box had
 a 1024 character limit and I ended up writing 2782 oops. Well, after putting my

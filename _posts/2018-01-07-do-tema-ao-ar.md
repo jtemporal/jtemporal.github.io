@@ -36,7 +36,7 @@ Numa [colinha eu falei sobre como usar Jekyll](http://jtemporal.com/temas-jekyll
 
 Vá até o [Jekyll Themes](http://jekyllthemes.org/) e escolha um tema. Eu escolhi pra hoje o [Fresh](http://jekyllthemes.org/themes/fresh/). Fresh é tema de um blog, com algumas páginas extras como "Sobre" e "Contato". Além disso ele é responsivo, considerando que muito conteudo hoje é consumido pelos smartphones e tablets por aí essa é uma capacidade que queremos. Dá uma olhada na Demo do Fresh:
 
-![fresh demo](http://github.com/artemsheludko/fresh/blob/master/assets/img/fresh.gif?raw=true)
+![fresh demo](https://github.com/artemsheludko/fresh/blob/master/assets/img/fresh.gif?raw=true)
 
 ## Preparando o ambiente
 
