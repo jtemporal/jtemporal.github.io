@@ -34,10 +34,10 @@ deveria falar de mim e do que eu gosto de fazer, mas eu não conseguia. Vai ente
 essas coisas, né? Então, eu dei respirei fundo. Andei um pouco pelo quarto.
 Respirei fundo mais uma vez. Ainda usei esse meio tempo para beber uma água.
 
-![shake things up gif](http://4.bp.blogspot.com/-9gV5Yxlif3g/VK1iroR71dI/AAAAAAAAF9U/TZMkH8Go3Yw/s1600/hiro%2Band%2Btasdahi%2B7.gif)
+![shake things up gif](https://4.bp.blogspot.com/-9gV5Yxlif3g/VK1iroR71dI/AAAAAAAAF9U/TZMkH8Go3Yw/s1600/hiro%2Band%2Btasdahi%2B7.gif)
 
 
-![new angle gif](http://3.bp.blogspot.com/-GG0l7cBjiAI/VK1lHeRZORI/AAAAAAAAF9g/3m7DRkTseyw/s1600/hiro%2Band%2Btasdahi%2B8.gif)
+![new angle gif](https://3.bp.blogspot.com/-GG0l7cBjiAI/VK1lHeRZORI/AAAAAAAAF9g/3m7DRkTseyw/s1600/hiro%2Band%2Btasdahi%2B8.gif)
 
 E então, como mágica, as palavras surgiram. Mal sabia eu que aquela caixa tinha
 apenas 1024 caracteres, e eu acabei escrevendo 2782. Oops. Depois de colocar meu
