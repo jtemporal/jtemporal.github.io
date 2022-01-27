@@ -11,13 +11,15 @@ tags:
 - português
 - colinha
 related: true
+lang: pt
+translated: creating-a-new-branch-and-switching-to-it-with-only-one-command
 posts_list:
 - resolvendo-conflitos
 - corrigindo-a-origem-de-um-branch-com-git-rebase
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 
 ---
-Toda vez que você cria um branch novo no Git você precisa mudar para esse branch antes de faz um commit. Nessa colinha eu vou te mostrar o meu atalho favorito para criar um branch e mudar para ele tudo ao mesmo tempo.
+Toda vez que você cria um branch novo no Git você precisa mudar para esse branch antes de fazer um commit. Nessa colinha eu vou te mostrar o meu atalho favorito para criar um branch e mudar para ele tudo ao mesmo tempo.
 
 ## Formas tradicionais de criar um branch
 
@@ -44,13 +46,13 @@ Também visível na imagem abaixo:
 
 ## Atalhos para criar branches e trocar de branch ao mesmo tempo
 
-Não tem nada errado com essas duas sequências de comandos mostrados anteriormente, mas existem dois atalhos para obter o mesmo resultado usando apenas um comando. O primeiro usando o `git checkout` seguido da _flag_ `-b`:
+Não tem nada errado com essas duas sequências de comandos mostradas anteriormente, mas existem dois atalhos para obter o mesmo resultado usando apenas um comando. O primeiro usando o `git checkout` seguido da _flag_ `-b`:
 
 ```console
 git checkout -b ramo-3
 ```
 
-Que você pode ver o resultado semelhante aquele mostrado no primeiro exemplo dessa colinha:
+Que você pode ver o resultado semelhante àquele mostrado no primeiro exemplo dessa colinha:
 
 ![imagem mostrando o resultado do comando git checkout -b ramo-3](https://res.cloudinary.com/jesstemporal/image/upload/v1641056638/git-atalhos/criando-e-mudando-de-branch-fig-3_gg7i9l.png)
 
