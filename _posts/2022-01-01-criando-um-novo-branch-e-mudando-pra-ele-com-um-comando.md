@@ -12,7 +12,7 @@ tags:
 - colinha
 related: true
 lang: pt
-translated: creating-a-new-branch-and-switching-to-it-with-only-one-command
+translated: "/creating-a-new-branch-and-switching-to-it-with-only-one-command"
 posts_list:
 - resolvendo-conflitos
 - corrigindo-a-origem-de-um-branch-com-git-rebase
