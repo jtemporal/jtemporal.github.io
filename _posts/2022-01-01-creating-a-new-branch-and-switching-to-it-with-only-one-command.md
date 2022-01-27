@@ -63,7 +63,7 @@ git switch -c branch-4
 
 Also with a similar result to what we saw previously:
 
-![image showing the result of the command git switch -c branch-4](https://res.cloudinary.com/jesstemporal/image/upload/v1641056638/git-atalhos/criando-e-mudando-de-branch-fig-4_uolxpk.png)
+![image showing the result of the command git switch -c branch-4](https://res.cloudinary.com/jesstemporal/image/upload/v1643317261/git-atalhos/git-switch-c-fig4_xqijaw.png)
 
 ## GitFichas
 
