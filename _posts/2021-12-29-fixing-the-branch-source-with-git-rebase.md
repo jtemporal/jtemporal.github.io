@@ -10,6 +10,8 @@ tags:
 - git
 - english
 - protip
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: professoradeboraazevedo@gmail.com
 related: false
 posts_list:
 - solving-conflitos
