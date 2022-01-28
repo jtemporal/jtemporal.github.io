@@ -10,6 +10,8 @@ tags:
 - git
 - português
 - colinha
+lang: pt
+translated: "/updating-a-branch-with-git-rebase"
 related: true
 posts_list:
 - resolvendo-conflitos
@@ -17,9 +19,9 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 
 ---
-O comando `git rebase` pode se usado para fazer vários ajustes de histórico, desde reescrever a árvore de commits, reescrevendo assim o histórico, até mesmo empurrar commits para um ponto mais a frente como se o branch fosse criado no futuro.
+O comando `git rebase` pode ser usado para fazer vários ajustes de histórico, desde reescrever a árvore de commits, reescrevendo assim o histórico, até mesmo empurrar commits para um ponto mais a frente como se o branch fosse criado no futuro.
 
-Nesse blog post vou te mostrar como usar `git rebase` pra atualizar um branch.
+Nessa colinha vou te mostrar como usar `git rebase` pra atualizar um branch.
 
 ## Criando um histórico de exemplo
 
