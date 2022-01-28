@@ -6,6 +6,8 @@ comments: true
 title: Corrigindo a origem de um branch com git rebase
 description: Veja como usar git rebase para corrigir a origem de um branch
 type: post
+lang: pt
+translated: "/fixing-the-branch-source-with-git-rebase"
 tags:
 - git
 - português

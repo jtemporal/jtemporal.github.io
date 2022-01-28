@@ -6,6 +6,8 @@ comments: true
 title: Fixing the branch source with git rebase
 description: Understand how to use git rebase para to fix the brach source
 type: post
+lang: en
+translated: "/corrigindo-a-origem-de-um-branch-com-git-rebase"
 tags:
 - git
 - english
