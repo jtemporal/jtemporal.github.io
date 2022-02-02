@@ -31,32 +31,31 @@ The conflict symbolizes that two or more changes happened to the same chunk of a
 
 ## How a conflict is formed
 
-In the image below we have a diagram that I have affectionately nicknamed the “anatomy of a conflict” that shows the steps until a conflict is formed. It is worth mentioning that usually, during the project development cycle, changes are greater and sometimes in greater quantity.
+In the image below we have a diagram that I have affectionately nicknamed the “conflict anatomy”. It shows the steps until a conflict is formed. It is worth mentioning that usually, during the project development cycle, changes are more significant and sometimes in greater quantity.
 
-######## TK IMAGE
-![anatomia de um conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640379728/anatomia-de-um-conflito_ixpolc.png)
+![drawing showing the conflict anatomy](https://res.cloudinary.com/jesstemporal/image/upload/v1643815916/git-conflict-resolution/conflict-anatomy_u7em32.jpg)
 
 **0 -** In our project we have a `README.md` that was added by the initial commit in the repository. After creating this file, two changes need to be made to add some more information to the same file and two people will make this change;
 
 **1 -** Each person then created a branch from `main` to work on their changes, these new branches were created more or less at the same time, that is, they have the same starting point;
 
-**2 -** For some time each person works on their branch implementing their change, which in this case is adding the line "person x was here!" in the `README.md` file where x is the person's id;
+**2 -** For some time each person works on their branch implementing their change, in this case, each person is adding the line "Person x was here." in the `README.md` file where `x` is the person's id;
 
 **3 -** Person 1 makes a pull request and has this pull request approved and also merged into `main`;
 
 **4 -** Person 2, on the other hand, makes the pull request to `main`, but this pull request **cannot** be merged because it has conflicts.
 
-## Forming a conflict on purpose
+## Creating a conflict on purpose
 
-To demonstrate how this looks, I created a repository with a scenario similar to the one described in the previous section that [you can find here](https://github.com/jtemporal/example-conflict). The initial file was created and the two branches, one for each person, were also created from `main`, see:
+To demonstrate how this looks, I created a repository with a scenario similar to the one described in the previous section that [you can find here](https://github.com/jtemporal/example-conflict). The initial file and the two branches, one for each person, were created from `main`, see:
 
 ![image showing the initial page from the repository previously described](https://res.cloudinary.com/jesstemporal/image/upload/v1643764598/git-conflict-resolution/example-repository-page-fig2_a5lkkj.png)
 
-Then I made the changes for each person, in the branch `person1` I added the description _"Person 1 was here!"_ in the last line of `README.md` and similarly I did the same process for the branch `person2`. So I opened both pull requests:
+Then I made the changes for each person. In the branch `person1` I added the description _"Person 1 was here!"_ in the last line of `README.md` and similarly I did the same process for the branch `person2`. So I opened both pull requests:
 
 ![image showing two open pull requests on github](https://res.cloudinary.com/jesstemporal/image/upload/v1643764614/git-conflict-resolution/list-of-pull-requests-fig3_tq96wf.png)
 
-I reviewed and merged `person1`'s PR:
+I reviewed and merged the `person1`'s PR:
 
 ![image showing the merged pull request](https://res.cloudinary.com/jesstemporal/image/upload/v1643764630/git-conflict-resolution/merged-pull-request-fig4_wjb0n9.png)
 
@@ -64,7 +63,7 @@ And then I went back to `person2`'s PR and I could see the indication that the p
 
 ![image showing person 2 pull request with the conflict message on GitHub](https://res.cloudinary.com/jesstemporal/image/upload/v1643764659/git-conflict-resolution/pull-request-with-a-conflict-fig5_s26wre.png)
 
-And now with a brand new conflict in hand, it's time to solve it.
+And now with a brand new conflict in our hands, it's time to resolve it.
 
 ## Resolving a conflict in Git
 
@@ -81,20 +80,20 @@ This will bring the conflict to your local machine giving you a warning that the
 
 ![image showing the result of the git pull command displaying the conflict message](https://res.cloudinary.com/jesstemporal/image/upload/v1643765012/git-conflict-resolution/git-pull-with-conflict-message-fig6_tjmlsx.png)
 
-If you open `README.md` in a code editor you will realize the presence of markers indicated by successive greater than signs (`>`), less than signs (`>`) and equal signs (`=`), here is an example of the conflict shown in Vim:
+If you open `README.md` in a code editor, you will notice that are markers indicated by successive greater than signs (`>`), less than signs (`>`) and equal signs (`=`), here is an example of the conflict shown in Vim:
 
 ![image showing the conflict on VIM editor](https://res.cloudinary.com/jesstemporal/image/upload/v1643765013/git-conflict-resolution/conflict-displayed-on-vim-fig7_ewxhxf.png)
 
-It is also possible that you use VS Code that shows the conflict in a more friendly way as it visually marks, with different colors, each change of different origin and still gives you options on how to resolve the conflict by accepting part of the changes, or both, or none of them:
+It is also possible that you use VS Code that shows the conflict in a more friendly way as it visually marks, with different colors, each change of different source and still gives you options on how to resolve the conflict by accepting part of the changes, or both, or none of them:
 
 ![image showing the conflict on VS Code with the friendlier markings](https://res.cloudinary.com/jesstemporal/image/upload/v1643765144/git-conflict-resolution/conflict-displayed-in-vs-code-fig8_pyts3e.png)
 
-To understand what each button presented by VS Code means, let's dissect this representation format a little. A conflict can be divided into two parts:
+To understand what each button presented by VS Code means, let's dissect this representation format. A conflict can be divided into two parts:
 
 1. **Our changes:** those on the current branch also called current changes;
 1. **Others' changes:** Those we brought to the local machine by doing `git pull` also called incoming changes.
 
-In this format, each block is delimited by a greater or lesser sign up to the block of repeated equal signs, so for example in this case we have the following blocks:
+In this format, each block is delimited by a greater or lesser sign up to the block of repeated equal signs, so for example in this case we have the following blocks.
 
 The one with current changes:
 
@@ -127,7 +126,7 @@ Now you can add this staging file with the following command:
 git add README.md
 ```
 
-And commit the changes the way you prefer. Note that when committing, if you use editors to write the commit message, it is possible that this message comes pre-populated as in the image below:
+And commit the changes in your preferred way. Note that when committing, if you use editors to write the commit message, it is possible that this message comes pre-populated as in the image below:
 
 ![image showing the de commit message pre-filled in vim](https://res.cloudinary.com/jesstemporal/image/upload/v1643765548/git-conflict-resolution/automatic-commit-message-after-fixing-conflict-fig11_havtpt.png)
 
@@ -137,7 +136,6 @@ You can customize the message or leave it as is, and when you're done committing
 
 Now if you reload the pull request page you should see that the conflict is resolved, check it out:
 
-####### TK IMAGE
 ![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](https://res.cloudinary.com/jesstemporal/image/upload/v1643765641/git-conflict-resolution/updated-pull-request-without-conflict-after-latest-commit-fig13_jrunmz.png)
 
 And we can finally merge this pull request! Victory! 🎉🎉
