@@ -11,6 +11,8 @@ tags:
 - tutorial
 - português
 - portugues
+lang: pt
+translated: "/solving-conflicts"
 related: true
 posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep
@@ -24,7 +26,7 @@ Caso você já saiba o que são conflitos e queira apenas ver a lista de passos 
 
 ## O que é um conflito em git
 
-Quando um projeto tem várias pessoas trabalhando ao mesmo tempo, é possível que duas pessoas pessoas precisem fazer alterações no mesmo pedaço de um arquivo. Quando mais de uma pessoa altera o mesmo pedaço de um arquivo em branches diferentes é nesse momento que os conflitos aparecem.
+Quando um projeto tem várias pessoas trabalhando ao mesmo tempo, é possível que duas pessoas precisem fazer alterações no mesmo pedaço de um arquivo. Quando mais de uma pessoa altera o mesmo pedaço de um arquivo em branches diferentes é nesse momento que os conflitos aparecem.
 
 O conflito simboliza que duas ou mais alterações aconteceram no mesmo pedaço de um arquivo e o git não sabe qual das alterações manter.
 
@@ -46,7 +48,7 @@ Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia
 
 ## Formando um conflito na prática
 
-Para demonstrar como isso se apresenta, eu criei um repositório com um cenário parecido ao descrito na sessão anterior [que você pode encontrar aqui](https://github.com/jtemporal/exemplo-conflito/branches). O arquivo inicial foi criado e as duas branches, uma para cada pessoa, também já foram criadas a partir da `main`, veja:
+Para demonstrar como isso se apresenta, eu criei um repositório com um cenário parecido ao descrito na seção anterior [que você pode encontrar aqui](https://github.com/jtemporal/exemplo-conflito/branches). O arquivo inicial foi criado e as duas branches, uma para cada pessoa, também já foram criadas a partir da `main`, veja:
 
 ![imagem mostrando o estado inicial do repositório como descrito anteriormente](https://res.cloudinary.com/jesstemporal/image/upload/v1640385396/resolucao-de-conflito-git/resolucao-de-conflito-fig-1_h7tkoc.png)
 
@@ -54,11 +56,11 @@ Em seguida fiz as alterações para cada pessoa, no branch `pessoa1` adicionei a
 
 ![imagem mostrando os dois pull requests abertos no github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-2_bqyfl6.png)
 
-Revisei o merge no pull request `pessoa1`:
+Revisei e dei o merge no pull request da `pessoa1`:
 
 ![imagem mostrando o pull request feito merge](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-3_oy9bss.png)
 
-E então voltei para o PR da `pessoa2` e pude notar a indicação de que o pull request contém um conflito, veja:
+E então voltei para o PR da `pessoa2` e pude notar a indicação de que o pull request continha um conflito, veja:
 
 ![imagem mostrando o pull request de pessoa 2 com a mensagem de conflito do github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-4_c55lad.png)
 
@@ -70,8 +72,10 @@ Antes de começar é importante notar que este tipo de conflito é possível res
 
 A primeira coisa importante é decidir em qual branch resolver o conflito, uma regra que geralmente funciona é resolver os conflitos no branch que apresenta as alterações, neste caso, o branch em questão é o `pessoa2`, com isso você deve atualizar o seu repositório local, e este branch em particular com os ajustes da main, para isso faça:
 
-    git checkout pessoa2
-    git pull origin main
+```console
+git checkout pessoa2
+git pull origin main
+```
 
 Isso irá trazer o conflito para a sua máquina te dando um aviso informando que existem conflitos, que você deve resolver o conflito e fazer um commit com o resultado:
 
@@ -81,7 +85,7 @@ Se você abrir o `README.md` num editor de código irá notar a presença de mar
 
 ![imagem mostrando o conflito no editor vim com as marcações mais simples](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-6_zqutjm.png)
 
-Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te da opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
+Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te d'a' opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
 
 ![imagem mostrando o conflito no editor VS Code com as marcações mais bem definidas](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-7_wesv8q.png)
 
@@ -90,21 +94,25 @@ Para entender o que cada botão apresentado pelo VS Code quer dizer, vamos disse
 1. **As nossas alterações:** aquelas que estão no branch corrente também chamadas de alterações atuais (_current change_);
 2. **As alterações dos outros:** aquelas que trouxemos para a máquina local ao fazer `git pull` também chamadas de alterações que estão chegando ou de entrada (_incoming changes_).
 
-Nesse formato, cada bloco é delimitado por um sinal de maior ou menor até o bloco de sinais de igual repetidos, então por exemplo nesse caso temos os seguintes blocos:
+Nesse formato, cada bloco é delimitado por um sinal de maior ou menor até o bloco de sinais de igual repetidos, então por exemplo nesse caso temos os seguintes blocos.
 
 Aquele com as alterações atuais:
 
-    <<<<<<< HEAD
-    Pessoa 2 esteve aqui!
-    =======
+```console
+<<<<<<< HEAD
+Pessoa 2 esteve aqui!
+=======
+```
 
 E aquele com as alterações que estão chegando:
 
-    =======
-    Pessoa 1 esteve aqui!
-    >>>>>>> 3c20251a794ec572e2c3202017d843e2d8769843
+```console
+=======
+Pessoa 1 esteve aqui!
+>>>>>>> 3c20251a794ec572e2c3202017d843e2d8769843
+```
 
-Como queremos deixar ambas alterações podemos apenas apagar as linhas com os marcadores salvar o arquivo, se você estiver usando editores mais simples. No VS Code podemos apertar em _"Accept both changes"_ e continuar com os comandos a seguir. Após aceitar todas as mudanças, manualmente ou usando os botões no VS Code, você deve ter um arquivo assim:
+Como queremos deixar ambas alterações, podemos apenas apagar as linhas com os marcadores salvar o arquivo, se você estiver usando editores mais simples. No VS Code podemos apertar em _"Accept both changes"_ e continuar com os comandos a seguir. Após aceitar todas as mudanças, manualmente ou usando os botões no VS Code, você deve ter um arquivo assim:
 
 ![imagem mostrando o resultado esperado de aceitar ambos blocos de alterações](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-8_ps9lz7.png)
 
@@ -114,7 +122,9 @@ Lembre-se de salvar o arquivo. Em seguida volte para o terminal, se você rodar 
 
 Agora você pode adicionar esse arquivo em staging com o seguinte comando:
 
-    git add README.md
+```console
+git add README.md
+```
 
 E fazer o commit das alterações da forma que preferir. Note que ao fazer o commit, se você usar editores para escrever a mensagem de commit, é possível que essa mensagem já venha pré-preenchida como na imagem abaixo:
 

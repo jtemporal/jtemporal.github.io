@@ -6,6 +6,8 @@ comments: true
 title: Corrigindo a origem de um branch com git rebase
 description: Veja como usar git rebase para corrigir a origem de um branch
 type: post
+lang: pt
+translated: "/fixing-the-branch-source-with-git-rebase"
 tags:
 - git
 - português
@@ -17,21 +19,21 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 
 ---
-O comando `git rebase` pode se usado para fazer vários ajustes de histórico, desde reescrever a árvore de commits, reescrevendo assim o histórico, até mesmo empurrar commits para um ponto mais a frente como se o branch fosse criado no futuro.
+O comando `git rebase` pode ser usado para fazer vários ajustes de histórico, desde reescrever a árvore de commits, reescrevendo assim o histórico, até mesmo empurrar commits para um ponto mais a frente como se o branch fosse criado no futuro.
 
-Nesse blog post vou te mostrar como usar `git rebase` pra corrigir a origem de um determinado branch.
+Nessa colinha vou te mostrar como usar `git rebase` pra corrigir a origem de um determinado branch.
 
 ## Criando uma branch a partir de um branch incorreto
 
 Suponha que você tem duas tarefas para fazer nas próximas semanas e que você quer trabalhar em cada tarefa em uma branch diferente.
 
-Então para trabalhar na tarefa 1 você cria uma branch com esse nome a partir da main.
+Então para trabalhar na tarefa 1 você cria uma branch com esse nome a partir do `main`.
 
 ![imagem mostrando o resultado de criar o ramo tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-1_lidxjj.png)
 
 Digamos, que durante a sua implementação você cansou de mexer com aquele problema e decidiu que seria uma boa ideia mudar um pouco de contexto e iniciar a tarefa 2.
 
-Para isso você precisa criar um novo branch também a partir da `main`, no entanto, sem se dar conta você acabou criando o seu branch a partir do branch `tarefa-1`:
+Para isso você precisa criar um novo branch também a partir do `main`, no entanto, sem se dar conta você acabou criando o seu branch a partir do branch `tarefa-1`:
 
 ![imagem mostrando o resultado de criar o ramo tarefa-2 a partir do ramo tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-2_p7p989.png)
 

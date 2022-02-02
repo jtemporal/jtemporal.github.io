@@ -12,8 +12,11 @@ tags:
 - git
 - english
 - protip
-related: false
-posts_list: ""
+related: true
+posts_list:
+- solving-conflicts
+- introducing-gitfichas
+- updating-a-branch-with-git-rebase
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: professoradeboraazevedo@gmail.com
 
