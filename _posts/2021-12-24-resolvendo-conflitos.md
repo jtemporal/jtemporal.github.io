@@ -54,7 +54,7 @@ Em seguida fiz as alterações para cada pessoa, no branch `pessoa1` adicionei a
 
 ![imagem mostrando os dois pull requests abertos no github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-2_bqyfl6.png)
 
-Revisei o merge no pull request `pessoa1`:
+Revisei e dei o merge no pull request `pessoa1`:
 
 ![imagem mostrando o pull request feito merge](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-3_oy9bss.png)
 
