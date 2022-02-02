@@ -14,9 +14,9 @@ tags:
 - protip
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: professoradeboraazevedo@gmail.com
-related: false
+related: true
 posts_list:
-- solving-conflitos
+- solving-conflicts
 - introducing-gitfichas
 - updating-a-branch-with-git-rebase
 
