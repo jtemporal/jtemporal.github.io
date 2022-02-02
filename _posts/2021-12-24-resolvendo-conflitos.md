@@ -11,6 +11,8 @@ tags:
 - tutorial
 - português
 - portugues
+lang: pt
+translated: "/solving-conflicts"
 related: true
 posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep

@@ -19,7 +19,6 @@ posts_list:
 - solving-conflicts
 - fixing-the-branch-source-with-git-rebase
 - introducing-gitfichas
-- updating-a-branch-with-git-rebase
 
 ---
 The command `git rebase` can be used to make various history adjustments, from rewriting the commit tree (and by doing that rewriting the history) to even pushing commits forward as if the branch were created in the future.

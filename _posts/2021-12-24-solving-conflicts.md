@@ -17,6 +17,8 @@ posts_list:
 - introducing-gitfichas
 - fixing-the-branch-source-with-git-rebase
 - updating-a-branch-with-git-rebase
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: professoradeboraazevedo@gmail.com
 
 ---
 Resolving conflicts can be an arduous and complicated task when it comes to git projects. In this article you will learn a foolproof step-by-step guide to resolving conflicts.
