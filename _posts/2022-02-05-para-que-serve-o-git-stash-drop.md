@@ -56,7 +56,7 @@ Em seguida, você pode conferir novamente a listagem de stashes:
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/projects/044" %}
-{% assign ficha_img = "" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1644068607/gitfichas/pt/045/full_enaicn.jpg" %}
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash drop" %}
 {% include ficha.html %}
