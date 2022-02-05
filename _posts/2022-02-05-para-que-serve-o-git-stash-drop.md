@@ -37,21 +37,21 @@ E até aí tudo bem, mas o que acontece quando você armazena mudanças por outr
 
 Stashes antigos podem ser fonte de muita dor de cabeça, _sim conflitos, eu estou falando de vocês_, então é importante manter a lista de stashes sempre em dia. Suponha que atualmente você tem a lista a seguir de stashes:
 
-tk imagem lista  de stashes 
+![imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png)
 
 Você quer se livrar do stash de número `0` que contém a criação do `arquivo-2.txt`. Para isso rode o comando a seguir:
 
 ```console
-git stash drop stash@{0} https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png
+git stash drop stash@{0}
 ```
 
 Você deverá ver uma mensagem informando que o stash foi removido:
 
-tk resultado git stash drop https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/resultado-git-stash-drop-fig2_kzdkkj.png
+![imagem mostrando o resultado do comando git stash drop](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/resultado-git-stash-drop-fig2_kzdkkj.png)
 
 Em seguida, você pode conferir novamente a listagem de stashes:
 
-tk resultado git stash list só com um stash https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/listagem-stashes-pos-dropfig3_j0h1gp.png
+![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o drop de um dos stashes anteriores](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/listagem-stashes-pos-dropfig3_j0h1gp.png)
 
 ## GitFichas
 
