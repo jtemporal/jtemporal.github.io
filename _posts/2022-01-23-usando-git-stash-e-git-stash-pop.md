@@ -104,7 +104,7 @@ E agora você já sabe usar `git stash`. 🎉
 {% assign ficha_url = "https://gitfichas.com/projects/043" %}
 {% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964759/gitfichas/pt/043/full_uuuiaz.jpg" %}
 {% assign ficha_title = "GitFicha #043" %}
-{% assign ficha_description = "git stash pop" %}
+{% assign ficha_description = "git stash list" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/projects/044" %}
