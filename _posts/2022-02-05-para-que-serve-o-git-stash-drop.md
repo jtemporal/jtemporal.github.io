@@ -55,13 +55,13 @@ Em seguida, você pode conferir novamente a listagem de stashes:
 
 ## GitFichas
 
-{% assign ficha_url = "https://gitfichas.com/projects/044" %}
+{% assign ficha_url = "https://gitfichas.com/projects/045?utm_source=blog" %}
 {% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1644068607/gitfichas/pt/045/full_enaicn.jpg" %}
-{% assign ficha_title = "GitFicha #044" %}
+{% assign ficha_title = "GitFicha #045" %}
 {% assign ficha_description = "git stash drop" %}
 {% include ficha.html %}
 
-{% assign ficha_url = "https://gitfichas.com/projects/043" %}
+{% assign ficha_url = "https://gitfichas.com/projects/043?utm_source=blog" %}
 {% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964759/gitfichas/pt/043/full_uuuiaz.jpg" %}
 {% assign ficha_title = "GitFicha #043" %}
 {% assign ficha_description = "git stash list" %}
