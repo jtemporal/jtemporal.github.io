@@ -53,6 +53,8 @@ Em seguida, você pode conferir novamente a listagem de stashes:
 
 ![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o drop de um dos stashes anteriores](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/listagem-stashes-pos-dropfig3_j0h1gp.png)
 
+Vale salientar que assim como o [`git stash pop`](https://jtemporal.com/usando-git-stash-e-git-stash-pop), se você não passar o nome do stash para o comando `git stash drop` ele vai remover o stash mais recente da pilha.
+
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/projects/045?utm_source=blog" %}
