@@ -82,5 +82,3 @@ O importante é que agora você entende a diferença entre um e outro e não pre
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash pop" %}
 {% include ficha.html %}
-
-Espero que esses comandos te ajudem a interromper o trabalho feito e voltar a trabalhar nas mudanças.
