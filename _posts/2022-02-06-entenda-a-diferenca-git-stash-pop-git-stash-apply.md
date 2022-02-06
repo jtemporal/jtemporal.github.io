@@ -25,7 +25,7 @@ Nessa colinha você vai ver quando usar um e quando usar o outro. 😉
 
 O `apply` aplica as mudanças de um stash no seu diretório de trabalho e mantém a entrada na lista de stashes. Por exemplo, considere que você tem a seguinte pilha de stashes:
 
-[imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png)
+![imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png)
 
 E você quer aplicar as mudanças do primeiro stash o `stash@{0}`. Para isso, rode o comando:
 
