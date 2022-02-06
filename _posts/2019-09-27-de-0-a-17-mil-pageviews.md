@@ -49,7 +49,7 @@ Eu gostei, e ainda gosto muito do Moon. Acho ele um tema bem feito e, durante os
 
 Eu desenvolvi uma habilidade e descobri uma vontade de escrever sobre conteúdos técnicos que eu não sabia que tinha, afinal de contas eu nunca quis ser escritora, redação nunca foi meu forte na escola e, apesar de ser uma aluna aplicada e me esforçar bastante para escrever textos descentes quando necessário, não achava aquilo ali fácil.
 
-<center><img src="http://giphygifs.s3.amazonaws.com/media/5BI679ybkAhJm/giphy.gif"><br><a href="http://giphygifs.s3.amazonaws.com/media/5BI679ybkAhJm/giphy.gif">Fonte</a></center>
+<center><img src="https://giphygifs.s3.amazonaws.com/media/5BI679ybkAhJm/giphy.gif"><br><a href="https://giphygifs.s3.amazonaws.com/media/5BI679ybkAhJm/giphy.gif">Fonte</a></center>
 
 Bem, durante esses dois anos escrevi bastante, estudei mais ainda e aprendi inúmeras coisas. Uma dessas coisas foi como colocar uma _tag_ para acompanhar os acessos ao meu site usando o [Google Analytics](https://marketingplatform.google.com/about/analytics/). Se você nunca ouviu falar de Google Analytics, tudo bem, por agora basta saber que é um conjunto de ferramentas do Google para acompanhar como seus clientes fazem nas soluções web. E uma das coisas que dá pra fazer justamente é acompanhar o comportamento de quem usa o seu site. Depois de começar a seguir altos e baixos em acessos, assisti meu site ter cerca de 8 mil acessos no mês. E tudo bem... eu não esperava ter nem 8 acessos que dirá 8 mil 😂
 
@@ -83,7 +83,7 @@ Por fim, chegou a hora de colocar o site no ar. Esse passo também foi bem tranq
 
 Depois de trocar de tema, como uma pessoa viciada em dados, eu continuei a assistir meu _analytics_ de perto, isso é... menos no mês que esqueci de colocar a _tag_ de rastreamento no site novo hehe
 
-<center><img src="http://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif"><br><a href="http://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif">Fonte</a></center>
+<center><img src="https://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif"><br><a href="https://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif">Fonte</a></center>
 
 Depois de perceber que estava sem a _tag_ e corrigir esse pequeno erro, voltamos à programação normal de assistir o _analytics_. E no mês de Agosto bati um recorde! Cheguei a mais de 17mil acessos!
 
