@@ -10,9 +10,9 @@ tags:
 - git
 - português
 - colinha
-related: false
+related: true
 posts_list:
-- usando-git-stash-e-git-stash-pop
+- do-tema-ao-ar
 - para-que-serve-o-git-stash-drop
 - resolvendo-conflitos
 
