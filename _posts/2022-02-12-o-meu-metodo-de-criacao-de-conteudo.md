@@ -110,7 +110,7 @@ Eu escrevi os tópicos no formato das perguntas que eu faria para entender a jus
 
 Se esse blog post do CDN fosse em um formato de tutorial (que ele não é hoje) ele provavelmente ainda teria uma seção de fechamento para rever os conceitos aprendidos  ou para ressaltar pontos principais.
 
-Escrever esses tópicos me ajuda a definir a estrutura inicial do texto e também a quebrar a tarefa que escrever um artigo, ao invés de pensar em escrever um artigo por completo, você pode começar com apenas uma seção, fazer uma pausa, ir para outra e assim sucessivamente.
+Escrever esses tópicos me ajuda a definir a estrutura inicial do texto e também a quebrar a tarefa que é escrever um artigo. Ao invés de pensar em escrever um artigo por completo, eu pode começo com apenas uma seção, posso fazer uma pausa, ir para outra e assim sucessivamente.
 
 Depois de escrever os tópicos das seções mais importantes, eu listo também em formato de tópicos, os assuntos que vou abordar em cada seção. Pensar em tópicos antes de escrever o texto por completo pode ajudar também a encontrar falhas de estruturação e facilitar a adaptação antes de ter retrabalho para reescrever seções por completo, assim eu facilito a minha vida caso precise fazer alguma alteração maior logo de cara.
 
