@@ -35,7 +35,7 @@ Os projetos continuam separados pela linguagem principal pra facilitar as buscas
 
 Happy Hacking!
 
-***
+---
 
 {% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
 {% for group in grouped %}
@@ -56,6 +56,6 @@ Happy Hacking!
 </div>
 {%endfor%}
 
-***
+---
 
 {%endfor%}

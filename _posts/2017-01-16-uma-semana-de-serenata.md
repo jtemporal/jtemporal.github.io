@@ -23,7 +23,7 @@ Por causa desse projeto e dessa participação algumas pessoas vieram falar comi
 
 E foi isso que me deu a ideia de escrever esse post pra contar um pouquinho sobre como que foi essa semana…
 
-***
+---
 
 Pra continuar lendo esse artigo e saber mais como foi isso de participar de um time maravilhoso lá para a revista do Serenata de Amor 👇
 

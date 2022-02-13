@@ -18,7 +18,7 @@ I also believe people mistake aha moments as something that happens out of nowhe
 
 Something just clicks, and things start falling into place. Before I can tell you about my aha moments, you need to know me a little bit.
 
-***
+---
 
 To keep reading this article, click on the button below 👇
 

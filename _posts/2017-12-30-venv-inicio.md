@@ -22,11 +22,11 @@ description: Aprenda a criar ambientes virtuais Python usando o módulo venv
 description: Aprenda a criar ambientes virtuais Python usando o módulo venv
 
 ---
-***
+---
 
 Author note: You [can read this post in English](https://jtemporal.com/python-virtual-environments-venv/).
 
-***
+---
 
 Depois de aprender que [Python](https://www.python.org/) possui várias versões e [aprender a instalar mais de uma delas com o pyenv](http://jtemporal.com/pyenv-inicio/), a colinha de hoje mostra um próximo passo: utilizar o [venv](https://docs.python.org/3/library/venv.html) para criar ambientes virtuais com o Python 3.
 
@@ -69,7 +69,7 @@ Uma das vantagens de ter um módulo desses embutido na linguagem é não precisa
 
 E agora só fazer `pip install` e começar com os códigos ☺️
 
-***
+---
 
 ## Links
 

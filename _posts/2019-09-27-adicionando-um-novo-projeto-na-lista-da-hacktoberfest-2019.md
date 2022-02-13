@@ -22,9 +22,9 @@ posts_list:
 - resolvendo-conflitos
 
 ---
-***
+---
 Nota da autora: As instruções a seguir foram criadas em 2019, mas a forma de atualizar a lista de projetos se manteve desde então. Então mesmo que você queira atualizar a lista desse ano os passos são os mesmo 😉
-***
+---
 
 A lista de projetos brasileiros para contribuir nesse Hacktoberfest de 2019 é gerada automáticamente usando algumas mágicas do Liquid <!--como eu explico nesse outro artigo-->. Então, vamos ver como podemos adicionar um novo projeto nessa lista por meio de um _pull request_?
 
@@ -113,7 +113,7 @@ Depois de preencher todos os campos necessários presentes no nosso arquivo, bas
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/hacktober_2019/hacktober_2019_passo_7.gif" alt="Gif mostrando o passo a passo descrito acima"/>
 </center>
 
-***
+---
 
 ## Possíveis problemas
 
@@ -137,7 +137,7 @@ Nesse caso é mais fácil de resolver, basta colocar no campo `description` o co
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/hacktober_2019/hacktober_2019_no_description.gif" alt="Gif mostrando o passo a passo descrito acima num repositorio de teste"/>
 </center>
 
-***
+---
 
 <h2 id="revisao">Revisão dos passos</h2>
 
@@ -149,6 +149,6 @@ Então pra aquela galera que só precisa de uma explicação mais concisa aqui v
 
 Aguarde a revisão e aprovação!
 
-***
+---
 
 Se você quiser fazer um PR e não tem projeto em mente, [dá uma olhada nessa lista aqui](https://github.com/jtemporal/jtemporal.github.io/labels/hacktoberfest).

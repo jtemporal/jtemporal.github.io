@@ -15,11 +15,11 @@ tags:
 description: Aprenda a copiar arquivos para dentro do container Docker
 
 ---
-***
+---
 
 Read [this post in English](https://jtemporal.com/copying-files-into-a-container/).
 
-***
+---
 
 Às vezes volumes não funcionam e a gente precisa copiar coisas para dentro do container. É sério! Você deve estar se perguntando, "_como uma tecnologia que todo mundo usa, não funciona?!"_
 
@@ -90,6 +90,6 @@ Uma coisa muito importante de lembrar, containers foram feitos para serem efême
 
 Outro motivo que um amigo me ensinou recentemente a favor de copiar os dados para dentro do container é que manter volumes atualizados quando seu container faz muitos processos de leitura e escrita é extremamente custoso. Então, se você tem um arquivo grande que não muda, como um arquivo de dados, ou um processo que faz muita leitura e escrita, como um servidor rails, vale a pena considerar entre copiar os arquivos para dentro do container ou até mesmo fazer uma imagem ja com esses arquivos. Lembre-se sempre de pesar os pontos a favor e os pontos contra volumes na próxima vez que for usar containers.
 
-***
+---
 
 Por hoje é só pessoal. Xêro!

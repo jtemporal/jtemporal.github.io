@@ -45,7 +45,7 @@ Além de dar os primeiros passos nessa onda de contribuições, aprender com o f
 
 Então, pra te ajudar nessa linda missão de fazer seus quatro _pull requests_, [aqui tem uma lista linda de projetos que são mantidos ou foram criados por pessoas desse Brasilzão](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-o-retorno/). Essa lista é pra ser colaborativa! Passa lá pra ver mais detalhes de como isso vai funcionar.
 
-***
+---
 
 ## Links úteis
 

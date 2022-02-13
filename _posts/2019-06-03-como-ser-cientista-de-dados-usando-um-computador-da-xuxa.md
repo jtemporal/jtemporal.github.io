@@ -130,7 +130,7 @@ Depois de colocar seu Jupyter para rodar na nuvem, e acessá-lo usando o túnel,
 
 Agora vai lá e conquiste a nuvem você também! Xêro.
 
-***
+---
 
 ### Dicas
 

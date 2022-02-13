@@ -19,11 +19,11 @@ tags:
 description: Let's learn to copy files into a container without using volumes
 
 ---
-***
+---
 
 Se preferir [leia esse texto em Português](https://jtemporal.com/copiando-arquivos-para-dentro-do-container/).
 
-***
+---
 
 Sometimes volumes do not work and you have to copy things into the container. Really! You must be wondering, _"how does a technology that everyone uses, doesn’t work?!”_.
 
@@ -94,6 +94,6 @@ One very important thing to remember, containers are meant to be ephemeral, so m
 
 Another reason a friend recently taught me in favor of copying the data into the container is that keeping volumes up-to-date when your container does a lot of reading and writing is extremely costly. So if you have a large file that does not change, like a data file, or a process that does a lot of reading and writing, like a rails server, it's worth considering whether to copy the files into the container or even make an image already with these files. Always remember to weigh the points in favor and points against volumes the next time you use containers.
 
-***
+---
 
 That's all folks! xoxo

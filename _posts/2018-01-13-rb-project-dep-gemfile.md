@@ -18,11 +18,11 @@ comments: true
 description: Today's pro-tip teaches you what to do when you don't have a Gemfile
 
 ---
-***
+---
 
 Author note: [Leia este artigo em Português](https://jtemporal.com/gemfile/).
 
-***
+---
 
 After [teaching how to get your website online](https://jtemporal.com/do-tema-ao-ar/) (in Portuguese) using [Jekyll](https://jekyllrb.com). I'm going to use today's pro-tip to answer a question somebody asked me: _"My theme doesn't have a Gemfile, now what?"_
 
@@ -94,7 +94,7 @@ Then you can do the following:
 
 All is set, and you enjoy your project 😉
 
-***
+---
 
 ## Links
 

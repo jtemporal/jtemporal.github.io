@@ -21,11 +21,11 @@ description: Como foi ajustar um site Pelican para servir uma página pronta fei
 ---
 Ano passado aconteceu a primeira edição do PyLadies BR Conf lá em Natal no Rio Grande do Norte. A edição desse ano vai acontecer na cidade de São Paulo e, com o início dos preparativos para a segunda edição, precisamos mover o site da edição passada para um novo lugar. Aqui vou contar a história de como isso aconteceu.
 
-***
+---
 
 **Nota da autora:** Se você não tiver interesse na jornada que culminou em ter o site no ar, [a receita de bolo com os comandos para chegar nesse resultado pode ser encontrada aqui](https://jtemporal.com/transformando-um-site-jekyll-em-uma-pagina-de-um-site-pelican/). 😉
 
-***
+---
 
 ## Contexto
 

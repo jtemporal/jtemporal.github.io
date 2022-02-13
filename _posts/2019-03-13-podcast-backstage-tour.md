@@ -14,11 +14,11 @@ tags:
 description: See how Pizza was born and get inspired to create your podcast
 
 ---
-***
+---
 
 Se preferir [leia esse artigo em português](https://medium.com/pizzadedados/backstage-de-um-podcast-465f02c2a7e5).
 
-***
+---
 
 After a year of [Pizza de Dados](https://pizzadedados.com/en/), I'll tell you what it's like to have a podcast.
 
@@ -136,7 +136,7 @@ After all of this process is done, finally comes new episode release day. Rememb
 
 So on the agreed release date, one of the 3 pizzaiolos would go to GitHub and create a pull request on the website project to finally air the new chapter. Pull request accepted, GitHub takes care of updating the site and officializing the release of the latest episode.
 
-***
+---
 
 ## Final considerations
 
@@ -148,6 +148,6 @@ Oh, and one last thing, during this natural evolution process, we also launched 
 
 I would also like to thank all the listeners and friends who have been following and supporting Pizza. And for you who want to start your own podcast: I hope this post helps to clarify some of the ideas and how-tos.
 
-***
+---
 
 Hugs and welcome to the podsphere.

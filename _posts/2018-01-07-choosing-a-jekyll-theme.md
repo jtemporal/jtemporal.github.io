@@ -17,11 +17,11 @@ comments: true
 description: Chose a theme and start blog without fuss
 
 ---
-***
+---
 
 _Author note:_ [Leia este artigo em Português.](https://jtemporal.com/temas-jekyll/)
 
-***
+---
 
 I think most developers who decide to start a blog find themselves in a dilemma: I know HTML and CSS, and I can make my blog, it is going to be super light and fast… And so begins the descent into the rabbit hole. Three months later, the blog may be ready, but nothing was published. So today's pro-tip goes to you who wants to put content out there and doesn't want to get caught up in code decisions at first.
 
@@ -35,4 +35,4 @@ Once you have released your site, you can start making improvements and modifyin
 
 So, have you chosen your theme?
 
-***
+---

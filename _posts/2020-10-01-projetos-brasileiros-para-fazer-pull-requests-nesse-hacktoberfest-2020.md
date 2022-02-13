@@ -62,7 +62,7 @@ Mais informações no [site oficial (em inglês)](https://hacktoberfest.digitalo
 
 Happy Hacking!
 
-***
+---
 
 {% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
 {% for group in grouped %}
@@ -83,6 +83,6 @@ Happy Hacking!
 </div>
 {%endfor%}
 
-***
+---
 
 {%endfor%}

@@ -21,11 +21,11 @@ description: Comandos para colocar uma página dentro de um site Pelican
 ---
 No post [_“Movendo um site construído com Jekyll para dentro de um site construído com Pelican”_](https://jtemporal.com/movendo-um-site-construido-com-jekyll-para-dentro-de-um-site-construido-com-pelican/) eu contei a jornada que foi mover o site do PyLadies BR Conf para dentro do site do PyLadies Brasil. Aqui vai o passo a passo final com comandos que usei tudo isso.
 
-***
+---
 
 **Nota da autora:** Aqui ensino o passo a passo para novas edições do PyLadies BR Conf, mas os comandos podem ser ajustados para fazer a mesma coisa com outros sites.
 
-***
+---
 
 ## Ingredientes
 
@@ -71,7 +71,7 @@ e confira se consegue acessar o site da conferência em: [https://localhost:8000
 
 Faça os _commits_ das alterações e abra o _pull request_ 😉
 
-***
+---
 
 Você pode ver o [_pull request_ que eu fiz para a primeira edição aqui](https://github.com/pyladies-brazil/br-pyladies-pelican/pull/237).
 

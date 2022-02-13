@@ -20,13 +20,13 @@ description: You know qualified women. Why not appoint them?
 ---
 #### You know qualified women. Why not appoint them?
 
-***
+---
 
 Author note: [Leia este artigo em Português clicando aqui](https://code.likeagirl.io/em-quem-voc%C3%AA-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o-b15e047b7759).
 
 This article was originally posted in Portuguese at the Code Like a Girl blog linked above.
 
-***
+---
 
 <center>
 <img src="https://miro.medium.com/max/3000/1*hPWHuOBEBoxpvAfqqo0bLw.jpeg" alt="PyLadies at PythonBrasil 12">
