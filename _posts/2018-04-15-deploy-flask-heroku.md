@@ -19,11 +19,11 @@ tags:
 comments: true
 
 ---
-\***
+\---
 
 Author note: You can [read this post in English here](https://jtemporal.com/deploy-flask-heroku-en/).
 
-\***
+\---
 
 Quer aprender a fazer deploy @? Vem que eu te ensino!
 
@@ -56,14 +56,14 @@ Pra esse tutorial eu fiz uma API em um microframework Python chamado [Flask](htt
 
 Ela terá apenas um _endpoint_ definido pelo `/`. Esse _endpoint_ poderá dar duas respostas dependendo da requisição que você faça. São eles:
 
-***
+---
 
 | Requisição | Resultado |
 | :---: | :---: |
 | GET sem cabeçalhos (headers) extras | Não entre em pânico! |
 | GET com Authorization 42 | a resposta para a vida, o universo e tudo mais |
 
-***
+---
 
 O código pra fazer isso fica pequeninho, dá uma olhada:
 
@@ -311,7 +311,7 @@ Agora se alguém falar _"Faz um deploy ae!"_ você já sabe como ;)
 
 _Ps.: Se tiver dúvidas ou comenta ali em baixo ou me manda mensagem que eu tento responder, sem crise as DMs tão sempre abertas ;)_
 
-***
+---
 
 ## Links
 

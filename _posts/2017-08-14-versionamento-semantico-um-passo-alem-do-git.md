@@ -22,7 +22,7 @@ tags:
 
 Pacotes, sejam eles escritos em Python, Ruby ou JavaScript, além de terem seu código versionado por sistema como o git, _podem_ possuir mais um nível de controle de versão: o **versionamento semântico**.
 
-***
+---
 
 Pra continuar lendo esse artigo e saber como funciona o versionamento semântico, corre lá para a revista do Serenata de Amor 👇
 

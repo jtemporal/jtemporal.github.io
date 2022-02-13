@@ -87,7 +87,7 @@ Tanto na versão `2.7.12` quando na versão `3.6.4` Python grita `ModuleNotFound
 
 Massa né? Preparar, apontar, instalar pacotes diferentes em cada versão do Python 😜
 
-***
+---
 
 ## Links
 

@@ -20,11 +20,10 @@ description: Learn to get your website up and running using the terminal, jekyll
   other tools.
 
 ---
-***
 
+---
 _Author note:_ [Siga esse tutorial em Português.](https://jtemporal.com/do-tema-ao-ar/)
-
-***
+---
 
 In a [pro tip, I talked about how using Jekyll](https://jtemporal.com/choosing-a-jekyll-theme/) is an excellent idea to get your site online. In this tutorial, we will deploy a website using GitHub, Jekyll, and the terminal.
 
@@ -313,7 +312,7 @@ Just access the site link in the blue notification, and that should take you to 
 
 _And now what?_ Well, now you can start writing other posts and committing them. Every commit/pull request to master will _automagically_ execute the site build and deploy steps. Happy blogging! 🎉
 
-***
+---
 
 ## Links and Considerations
 

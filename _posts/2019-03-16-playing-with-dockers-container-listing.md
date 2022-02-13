@@ -19,11 +19,11 @@ tags:
 description: Learn to list and filter containers from the list
 
 ---
-\***
+\---
 
 Author note: [Read this article in English](https://jtemporal.com/playing-with-dockers-container-listing)
 
-\***
+\---
 
 If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:
 
@@ -79,6 +79,6 @@ Will give me a result like this:
         CONTAINER ID        IMAGE                          NAMES
         11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
 
-***
+---
 
 Cool Huh? So have you listed your containers today?

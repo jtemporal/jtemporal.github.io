@@ -15,7 +15,7 @@ tags:
 ---
 Mas só se você levantar o bumbum do sofá e começar a fazer sua parte
 
-***
+---
 
 Usualmente cientistas de dados querem resolver problemas ou responder perguntas. Seja para encontrar a cura do câncer ou para combater a corrupção, dados passam por uma sequência parecida de passos antes de se tornarem parte da solução.
 
@@ -111,7 +111,7 @@ Explicou [Ana Schwendler ](https://medium.com/u/a84fab589b6c)num [post sobre a v
 
 Depois das análises iniciais surgiram as hipóteses a serem estudadas e validadas, importante lembrar aqui, embora cientistas tenham uma forte indicação de hipóteses válidas com base em suas análises inicias, isso não quer dizer que as hipóteses sempre serão válidas, certo? Ter isso em mente sempre ao trabalhar com dados é importante pois os dados podem provar que estamos errados. É importante ser humilde e reconhecer isso ao invés de manipular os dados para que eles mostrem o que queremos.
 
-***
+---
 
 #### Eu, robô
 
@@ -131,7 +131,7 @@ Mas não é só isso, a Rosie também tem uma conta no Twitter, veja o que a Jou
 
 Até a Rosie existir (e tuitar) muito dos nossos achados ficavam “presos” à pessoas que já estavam interessadas no assunto como jornalistas e pessoas que trabalham com dados abertos. Mas ao chegar no Twitter, a Rosie popularizou os achados que antes estavam nas mãos de poucos.
 
-***
+---
 
 E aí? Bora salvar o mundo? Eu já coloquei minhas braçadeiras!
 

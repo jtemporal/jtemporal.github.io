@@ -16,7 +16,7 @@ A arte de contar observações
 
 Aprenda o que são e como calcular frequências.
 
-***
+---
 
 Pra continuar lendo esse artigo e aprender a calcular frequências, vai lá para a revista do Pizza 👇
 

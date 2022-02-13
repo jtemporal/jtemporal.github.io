@@ -90,7 +90,7 @@ Now you don't have to go to the office anymore. There's no commute time anymore,
 
 Finally, remember to keep safe, avoid crowds, and wash your hands frequently. Let's try to maintain the minimum sanity in this challenging time, shall we? And if you need a company for a virtual coffee, send me a hello or that friend or friend and try to make a _videoconference_. Human beings like to live in society, so we let's support each other even at a distance 😉
 
-***
+---
 
 ### Extra tips and readings
 

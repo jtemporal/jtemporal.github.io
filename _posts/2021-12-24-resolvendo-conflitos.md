@@ -156,7 +156,7 @@ Aqui está a lista simples de todos os comandos e passos para resolver conflitos
 
 Espero que esse artigo te ajude a resolver os conflitos de git que você encontrar daqui pra frente. 😉
 
-***
+---
 
 ## Leitura extra
 

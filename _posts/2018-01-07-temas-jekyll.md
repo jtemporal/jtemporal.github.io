@@ -16,11 +16,11 @@ comments: true
 description: Escolhendo um tema para o seu blog e começando a postar sem demora
 
 ---
-***
+---
 
 _Nota da autora:_ [Read this post in English.](https://jtemporal.com/choosing-a-jekyll-theme/)
 
-***
+---
 
 Acho que a maioria dos desenvolvedores que decidem começar um blog encontra-se no dilema: _Agora eu sei HTML e CSS e vou fazer o meu blog, ele vai ser super leve e acessível..._ e por aí começa a descida pela toca do coelho. Passados três meses o blog pode até estar pronto mas nada ainda foi publicado. Então a colinha de hoje vai pra você que quer colocar conteúdo na nuvem e não se apegar num primeiro momento nas decisões de código.
 
@@ -34,4 +34,4 @@ Depois de ter colocado no ar você pode começar a fazer melhorias e/ou alterar 
 
 E aí, já escolheu o seu tema?
 
-***
+---

@@ -20,11 +20,11 @@ comments: true
 description: Learn how to deploy a Flask API to Heroku, using Heroku CLI and Git
 
 ---
-***
+---
 
 Nota da autora: Você pode [ler esse artigo em Português se preferir](https://jtemporal.com/deploy-flask-heroku/).
 
-***
+---
 
 Deploys, where do they live? What do they eat? If you want to learn how to deploy something to Heroku you came to the right place!
 
@@ -53,14 +53,14 @@ For this tutorial I made an API with the Python microframework called [Flask](ht
 
 The API will only have one endpoint defined by `/` route. This endpoint can give two responses depending on the request you make. They are as follows:
 
-***
+---
 
 | Request | Response |
 | :---: | :---: |
 | GET without extra headers | Don't panic! |
 | GET with Authorization 42 | the answer to life, the universe and everything |
 
-***
+---
 
 The code to do this is short and straight forward, take a look:
 
@@ -325,7 +325,7 @@ Now if someone says _"Deploy the API!"_ you already know how to do it 😉
 
 _PS.: If you have questions or comments, leave them below or send me a message I promise to try to answer, the DMs that are always open_
 
-***
+---
 
 ## Links
 

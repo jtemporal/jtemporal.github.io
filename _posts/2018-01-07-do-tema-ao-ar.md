@@ -24,11 +24,11 @@ posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep
 
 ---
-***
+---
 
 Nota da autora: [Read this tutorial in English](https://jtemporal.com/publishing-a-website-with-jekyll/).
 
-***
+---
 
 Numa [colinha eu falei sobre como usar Jekyll](http://jtemporal.com/temas-jekyll/) é uma boa ideia para ter o seu site no ar vamos ao exemplo prático usando o terminal. O objetivo aqui é ter um site no ar, então vamos lá.
 
@@ -312,7 +312,7 @@ E o resultado será algo parecido com:
 
 E agora? Bem agora você pode começar a escrever outros posts e ir commitando eles. Todo commit/pull request para a master vai automagicamente executar os passos de build do site e deploy. Happy blogging!
 
-***
+---
 
 ## Links e considerações
 

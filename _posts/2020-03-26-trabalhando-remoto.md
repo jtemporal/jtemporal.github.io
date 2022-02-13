@@ -89,7 +89,7 @@ Agora você não tem mais que ir para o escritório e isso vai ter dar um tempin
 
 Por fim lembre-se de manter a segurança, evitar aglomerações e lavar bem as mãos com frequência. Vamos tentar manter o mínimo de sanidade nessa época difícil... E se você estiver precisando de companhia pra um cafézinho virtual manda um alô pra mim ou pra aquela amiga ou amigo e tenta fazer uma _videoconf_. Seres humanos gostam de viver em sociedade, então vamos nos apoiar mesmo que à distância 😉
 
-***
+---
 
 ### Dicas e leituras extras
 

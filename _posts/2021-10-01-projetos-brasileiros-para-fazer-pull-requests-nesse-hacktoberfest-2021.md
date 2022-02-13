@@ -76,7 +76,7 @@ Por último, nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilh
 
 Happy Hacking! 🎉
 
-***
+---
 
 {% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
 {% for group in grouped %}
@@ -97,6 +97,6 @@ Happy Hacking! 🎉
 </div>
 {%endfor%}
 
-***
+---
 
 {%endfor%}

@@ -79,4 +79,5 @@ Massa né? Partiu aprender outras linguagens  😜
 - [Se quiser ver o Cesar explicando tudo isso em vídeo dá uma olhada nesse post do grupo de estudos de Go](https://gopher.pro.br/post/hangout-hasprefix/)
 
 ## Agradecimentos
+
 Principalmente ao Cesar que pacientemente tem me ensinado Go.

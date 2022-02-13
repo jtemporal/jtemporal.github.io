@@ -21,7 +21,7 @@ description: Aprenda a calcular a quantidade ótima de clusters para o KMeans us
 ---
 Um dos métodos mais famosinhos pra achar agrupamentos em dados de forma não supervisionada é utilizando o KMeans. Mas e quando você não tem ideia de quantos clusters seus dados possam formar, como faz?
 
-***
+---
 
 Pra continuar lendo esse tutorial, vai lá para a revista do Pizza 👇
 

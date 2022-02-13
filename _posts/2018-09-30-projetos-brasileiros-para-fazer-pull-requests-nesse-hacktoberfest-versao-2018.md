@@ -24,7 +24,7 @@ Novamente temos regrinhas:
 1. Ser um projeto criado/desenvolvido por brasileiras(os);
 1. Ter pelo menos uma issue aberta.
 
-***
+---
 
 Pra ver projetos Brasileiros para contribuir clica aqui nesse botão 👇
 

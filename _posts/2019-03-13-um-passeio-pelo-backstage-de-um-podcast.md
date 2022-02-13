@@ -22,7 +22,7 @@ E a minha resposta é sempre a mesma: _Eu te mostro como fizemos com o Pizza e s
 
 É um assunto tão recorrente que eu decidi escrever sobre e te inspirar a transformar o seu podcast em realidade \\o/
 
-***
+---
 
 
 Pra continuar lendo esse artigo cheião de dicas vai lá para a revista do Pizza 👇

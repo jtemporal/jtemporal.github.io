@@ -36,7 +36,7 @@ Eu tenho uma mania de achar que andei em círculos o ano inteiro e acabei no mes
 15. **Notebooks de volta ao ar com ajuda de um amigo**: ao fazer a transição para Open Knowledge Foundation, uma coisa que aconteceu foi que os notebooks da Serenata viraram uma tag dentro do GitHub dificultando o acesso a eles (já que para vê-los era necessário baixar e descompactar um arquivo .zip), para mim uma característica fundamentais da Serenata era a possibilidade de ser fonte de conhecimento em análise de dados através da disponibilização dos notebooks, então eu e o [Rodolfo Viana](http://twitter.com/rodolfoviana/) que estávamos sentindo saudade dos notebooks, com a ajuda do Cuducos, colocamos os [notebooks de volta no ar num repositório só pra eles](http://github.com/okfn-brasil/notebooks/) 🎉🎉 e estamos mantendo esse projeto, então se quiser mandar mais contribuições estamos lá para ajudar 😉
 16. **Mudei de emprego**: Ano novo vida nova de fato, fechei mais um ciclo de trabalho dessa vez, digo xau pra Nuveo, a jornada foi incrível, mas chegou ao fim. E voltando oficialmente a ser cientista de dados, digo olá para a Globo!!! Aahh e vou ser colega de trabalho do Rodolfo!!! Vai ser top!
 
-***
+---
 
 Um ano de muitas emoções e por esse ano é só! Vamos ver ano que vem como vai ser…
 

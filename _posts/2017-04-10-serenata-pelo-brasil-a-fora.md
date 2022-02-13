@@ -20,7 +20,7 @@ Durante o mês de março, estivemos presentes em vários eventos espalhados pelo
 
 Março foi o quinto mês de trabalho da [Operação Serenata de Amor](https://serenata.ai). E além de todos os nossos esforços em data science e programação com a implementação de novos classificadores, coleta de novos dados e validação novas hipóteses — tudo isso feito em conjunto com uma linda comunidade de código aberto no GitHub — também tivemos a honra de participar de vários eventos.
 
-***
+---
 
 Pra continuar lendo esse artigo e saber mais como foi o mês de março no Serenata corre lá para a revista do Serenata de Amor 👇
 
