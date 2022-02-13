@@ -20,4 +20,4 @@ Pra galera que assim como eu precisa escrever e testar código Go no Windows, vo
 
 Pra continuar lendo sobre isso e aprender a instalar e configurar o Go no Windows clica aqui nesse botão 👇
 
-[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/test-after-deploy/instalando-go-no-windows-7abed1db7546)
+[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png){: style="display: block; margin-left: auto; margin-right: auto;"}](https://medium.com/test-after-deploy/instalando-go-no-windows-7abed1db7546)
