@@ -4,7 +4,7 @@ date: 2022-02-12T09:00:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
 title: Meu processo de criação de conteúdo
-description: Vou te contar como eu organizo todo texto, video, palestra e podcast que eu faço
+description: Vou te contar como eu organizo todo texto, vídeo, palestra e podcast que eu faço
 type: post
 tags:
 - git
