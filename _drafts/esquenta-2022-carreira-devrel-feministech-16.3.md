@@ -14,10 +14,8 @@ tags:
 lang: pt
 
 ---
-Quer saber o que é DevRel? O que quer dizer Developer Relations, Developer Advocacy ou Evangelism?
+Quer saber o que é DevRel? O que quer dizer Developer Relations, Developer Advocacy ou Evangelism? E entender como eu vim parar nesse mundo novo?
 
-
-
-Você confere tudo lá no canal do FechaTag ou apertando o play ali em baixo 👇
+Você confere tudo lá no esquenta da temporada nova do Feministech Podcast ou apertando o play ali em baixo 👇
 
 <iframe src="https://anchor.fm/feministech/embed/episodes/Esquenta-2022---Carreira-Devrel-com-Jess-Temporal---Episdio-16-3-e1enl4q/a-a747dcb" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
