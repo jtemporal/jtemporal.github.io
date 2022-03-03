@@ -19,6 +19,6 @@ Quer saber o que é DevRel? O que quer dizer Developer Relations, Developer Advo
 
 Você confere tudo lá no esquenta da temporada nova do Feministech Podcast ou apertando o play ali em baixo 👇
 
+<br>
 <center>
-<iframe src="https://anchor.fm/feministech/embed/episodes/Esquenta-2022---Carreira-Devrel-com-Jess-Temporal---Episdio-16-3-e1enl4q/a-a747dcb" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-</center>
+<iframe src="https://anchor.fm/feministech/embed/episodes/Esquenta-2022---Carreira-Devrel-com-Jess-Temporal---Episdio-16-3-e1enl4q/a-a747dcb" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> </center>
