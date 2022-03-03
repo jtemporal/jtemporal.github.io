@@ -11,10 +11,13 @@ tags:
 - portugues
 - pt_br
 - pt_BR
+lang: pt
 
 ---
-Um papo com o [Montanha](https://twitter.com/femontanha), onde conversamos sobre a minha carreira, como foram estudos de faculdade, minhaa migração para ciência de dados com Python, meu relacionamento com a comunidade, diversos projetos paralelos e claro um pouco também dos meus hobbies como tricô!
+Quer saber o que é DevRel? O que quer dizer Developer Relations, Developer Advocacy ou Evangelism?
+
+
 
 Você confere tudo lá no canal do FechaTag ou apertando o play ali em baixo 👇
 
-<iframe width="100%" height="415" src="https://www.youtube-nocookie.com/embed/M6guSKTP92U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://anchor.fm/feministech/embed/episodes/Esquenta-2022---Carreira-Devrel-com-Jess-Temporal---Episdio-16-3-e1enl4q/a-a747dcb" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
