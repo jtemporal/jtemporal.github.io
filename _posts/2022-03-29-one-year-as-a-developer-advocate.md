@@ -185,7 +185,7 @@ Time-boxing is fundamental to make sure that I test things, know when to ask for
 
 One constant question in DevRel, no matter what company you work for, is *"How do we measure success?"* And that is sometimes hard to answer. So having a basic understanding of data is important.
 
-For example, I lead the Zero Index Developer Newsletter. It comes out once a month, and it contains curated content for developers — by the way, [you can sign up for it here](https://info.auth0.com/devrel-event-zeroindex-subscribe.html?utm_source=event&utm_medium=signupform&utm_campaing=devrel&utm_content=jesspersonalblog). You could say that one definition of success would be delivering the newsletter to more and more developers, but the way I see it is much more than that.
+For example, I lead the Zero Index Developer Newsletter. It comes out once a month, and it contains curated content for developers — by the way, [you can sign up for it here](https://info.auth0.com/devrel-event-zeroindex-subscribe.html?utm_source=event&utm_medium=signupform&utm_campaing=devrel&utm_content=jesstpersonalblog). You could say that one definition of success would be delivering the newsletter to more and more developers, but the way I see it is much more than that.
 
 We want to reach more developers, sure, we also want to provide relevant information. So how would you do that if you don't understand how to measure it? You probably would partner up with the data people in the company, right?
 
