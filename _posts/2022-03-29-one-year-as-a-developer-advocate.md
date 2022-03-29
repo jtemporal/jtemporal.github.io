@@ -11,7 +11,7 @@ tags:
 - developer advocate
 - developer relations
 - developer advocacy
-description: Curious how the move from data science to developer relations/advocacy was? Read this one 😉
+description: Curious about how the move from data science to developer relations/advocacy was? Read this one 😉
 
 ---
 
