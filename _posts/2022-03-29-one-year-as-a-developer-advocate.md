@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First year as a Developer Advocate
+title: First year as a Developer Advocate 🥑
 date: 2022-03-29T09:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
