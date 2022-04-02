@@ -2,17 +2,17 @@
 layout: post
 title: "Primeiro ano sendo uma Developer Advocate \U0001F951"
 date: 2022-03-29T09:00:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
 type: post
 tags:
 - devrel
-- english
 - developer advocate
 - developer relations
 - developer advocacy
-description: "Curious about how the move from data science to developer relations/advocacy
-  was? Read this one \U0001F609"
+- português
+description: "Tem curiosidade sobre como foi a mudança de carreira entre ciência de
+  dados para developer relations/advocacy? Nesse post eu conto tudo \U0001F609"
 
 ---
 Before doing DevRel for a living, I used to pay the bills by being a data scientist. Today I can say that I successfully switched from being a Data Scientist to be a *Developer Advocate* for a whole year! 🎉
