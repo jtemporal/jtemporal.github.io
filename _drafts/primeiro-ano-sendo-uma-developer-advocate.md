@@ -15,19 +15,18 @@ description: "Tem curiosidade sobre como foi a mudança de carreira entre ciênc
   dados para developer relations/advocacy? Nesse post eu conto tudo \U0001F609"
 
 ---
-Before doing DevRel for a living, I used to pay the bills by being a data scientist. Today I can say that I successfully switched from being a Data Scientist to be a *Developer Advocate* for a whole year! 🎉
+Antes de trabalhar com DevRel, eu pagava as contas sendo uma cientista de dados. Hoje eu posso dizer que troquei a ciência de dados para trabalhar em _developer relations_ com sucesso já que atingi a marca de 1 um ano trabalhando como *Developer Advocate*! 🎉
 
 <center><img style="max-width: 70%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/166827422_515510042769353_3494362086546822067_n_ih6nui.jpg">
 <br>  <br>
-<i>Me on the first day of work March, 2021</i>
+<i>Eu no primeiro dia de trabalho oficial em Março de 2021</i>
 </center>
 
+Por isso achei que seria interessante escrever sobre os aprendizados desse ano e compartilhar isso com você que está lendo. Um pequeno aviso: esse texto é um pouco longo, então sente-se confortavelmente. 😉
 
-So I thought I share the learnings from this year with you. Also, full disclaimer, this will be a long one, so sit comfortably. 😉
+## O que eu costumava fazer antes de ser contratada como uma Developer Advocate
 
-## What I used to do before being hired as Developer Advocate
-
-A little history before we dive into the learnings since you may not know me or what I used to work with.
+Um pouquinho de história antes de mergulhar nos aprendizados já que talvez você não me conheça ou saiba com o que eu trabalhava antes.
 
 So a long time ago, I used to work as a data scientist. On the first job I ever had, I actually gave over 13 talks about the open-source civic tech project I was working on at the time called Serenata, including one talk in Taiwan and all of that in just one year. The project relied on us, the devs and data scientists, to spread the word about it so it could thrive.
 
