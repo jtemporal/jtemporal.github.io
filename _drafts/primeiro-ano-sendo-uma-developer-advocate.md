@@ -28,11 +28,11 @@ Por isso achei que seria interessante escrever sobre os aprendizados desse ano e
 
 Um pouquinho de história antes de mergulhar nos aprendizados já que talvez você não me conheça ou saiba com o que eu trabalhava antes.
 
-So a long time ago, I used to work as a data scientist. On the first job I ever had, I actually gave over 13 talks about the open-source civic tech project I was working on at the time called Serenata, including one talk in Taiwan and all of that in just one year. The project relied on us, the devs and data scientists, to spread the word about it so it could thrive.
+Então, há muito tempo, eu costumava trabalhar como cientista de dados. No primeiro emprego que tive, eu cheguei a apresentar mais de 13 palestras sobre o projeto em que eu trabalhava, chamado de Serenata, incluindo uma palestra em Taiwan, tudo em menos de um ano. O Serenata, é um projeto de tecnologia cívica e de código aberto que dependia de nós, pessoas desenvolvedoras e cientistas de dados, para espalhar a palavra sobre ele para que ele pudesse prosperar.
 
 <center><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/31909575_955979771244859_4044473679331983360_n_fnyxvf.jpg">
 <br>  <br>
-<i>Me presenting about Rosie, Serenata's AI, on a Meetup back in 2017</i>
+<i>Eu apresentando sobre Rosie, AI do Serenata, num Meetup lá em 2017</i>
 </center>
 
 Besides talking at a number events and meeting many people, we would also create a lot of technical content to make the project more accessible to those without the technical knowledge to read and understand code. You can check out [the page of the project right here](https://serenata.ai/en/).
