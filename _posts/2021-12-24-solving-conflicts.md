@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solving conflicts
+title: Solving conflicts in Git
 date: 2021-12-24T18:55:59.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
