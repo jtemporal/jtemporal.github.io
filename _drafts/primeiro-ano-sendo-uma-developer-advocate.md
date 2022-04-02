@@ -35,13 +35,13 @@ Então, há muito tempo, eu costumava trabalhar como cientista de dados. No prim
 <i>Eu apresentando sobre Rosie, AI do Serenata, num Meetup lá em 2017</i>
 </center>
 
-Besides talking at a number events and meeting many people, we would also create a lot of technical content to make the project more accessible to those without the technical knowledge to read and understand code. You can check out [the page of the project right here](https://serenata.ai/en/).
+Além de apresentar palestras em vários eventos e conhecer muitas pessoas, também criamos muito conteúdo técnico para tornar o projeto mais acessível para quem não tem o conhecimento para ler e entender código. Você [pode conferir a página do projeto aqui](https://serenata.ai/).
 
-Around the same time, I even created, with friends, a podcast about data science in Portuguese called [Pizza de Dados](http://pizzadedados.com/en/). Sharing knowledge in various formats became a passion. I love to give talks, do workshops, and just talk to people and help in any way I can.
+Mais ou menos na mesma época eu também criei com amigos o [Pizza de Dados](http://pizzadedados.com/), o primeiro e mais querido podcast sobre ciência de dados do Brasil. Compartilhar conhecimento em vários formatos virou uma paixão. Eu amo dar palestras, ministrar tutoriais, e só falar com pessoas e ajudá-las da forma que eu puder.
 
-Turns out that this is a huge part of being a developer advocate. I just didn’t know it at the time. Notice this was around 2017, now it is 2021, and developer relations is still pretty new in Brazil, so imagine how it was back then.
+Acontece que isso tudo é grande parte de ser uma _developer advocate_. Eu só não sabia disso naquela época. Veja bem, isso foi por volta de 2017, nós estamos agora em 2022, e _developer relations_ ainda é algo muito novo no Brasil, então imagina como não era lá em 2017.
 
-## What is Developer Relations or Developer Advocacy?
+## O que é Developer Relations ou Developer Advocacy?
 
 I think the first question I get asked when I say I’m a  developer advocate is *“developer what?”*. People usually don’t get it. Developer advocacy is so new here that it doesn’t even have a name for it in Portuguese. So it isn’t surprising when people don’t get what I do by just stating my job title. What also happens is that they feel like they understand what it is once I explain it. Based on my community work some people usually are aware of, I get the *"oh yeah, it suits you"* comments.
 
