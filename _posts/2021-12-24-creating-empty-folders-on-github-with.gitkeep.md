@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-12-24T12:34:20.000-02:00
-image: ''
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
 title: Creating empty folders on GitHub with .gitkeep
 description: Understand how to use .gitkeep
@@ -20,6 +20,7 @@ translated: "/criando-pastas-vazias-no-github-com-o-gitkeep"
 translator: true
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: professoradeboraazevedo@gmail.com
+image2: ''
 
 ---
 Sometimes you need to put an empty folder in your project on GitHub, but traditionally git doesn't track empty folders, and then the question pops up: _“how to make an empty folder appear on GitHub if git doesn't allow it?”_

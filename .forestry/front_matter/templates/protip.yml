@@ -22,9 +22,10 @@ fields:
   name: date
   label: date
 - type: file
-  name: image
-  label: image
+  name: image2
+  label: image2
   default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+  hidden: true
 - name: lang
   type: select
   default: []
@@ -80,10 +81,16 @@ fields:
   name: comments
   label: comments
   default: true
+- name: image
+  type: text
+  config:
+    required: false
+  label: image
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 pages:
 - _posts/2017-12-30-python-virtual-environments-venv.md
 - _posts/2018-01-07-choosing-a-jekyll-theme.md
 - _posts/2019-03-16-playing-with-dockers-container-listing.md
 - _posts/2019-04-03-copying-files-into-a-container.md
 - _posts/2020-02-25-fixing-date-error-while-running-jekyll-on-macos-catalina.md
-- _posts/creating-empty-folders-on-github-with.gitkeep.md
+- _posts/2021-12-24-creating-empty-folders-on-github-with.gitkeep.md
