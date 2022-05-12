@@ -10,13 +10,13 @@ tags:
 - git
 - english
 - pro tip
-related: false
+related: true
 posts_list:
+- solving-conflicts
+- introducing-gitfichas
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-- resolvendo-conflitos
-- conheca-o-gitfichas
 lang: en
-translated: ''
+translated: criando-pastas-vazias-no-github-com-o-gitkeep
 
 ---
 Sometimes you need to put an empty folder in your project on GitHub, but traditionally git doesn't track empty folders, and then the question pops up: _“how to make an empty folder appear on GitHub if git doesn't allow it?”_
@@ -27,12 +27,12 @@ This happened to me a few years ago on the project I was working on: one of the 
 
 By placing this file in an empty folder, it ensures that git will add this folder to your versioning system and because it is a hidden file, it makes it easier to maintain the folder structure without getting in the way of using the folder for other purposes.
 
-Na imagem a baixo você um projeto chamado `exemplo-pastas` que já possui um arquivo `README.md` que já foi commitado e sem alterações acompanhadas pelo git, em seguida eu crio uma nova pasta chamada `diretorio1` e ao fazer novamente o `git status` o git segue informando que não há mudanças no projeto.
+In the image below you have a project called `exemplo-pastas` that already has a `README.md` file that has already been committed and there are no changes tracked by git, then I create a new folder called `diretorio1` and when running `git status` again git continues to inform that there are no changes to the project.
 
 ![exemplo 1](https://res.cloudinary.com/jesstemporal/image/upload/v1640360211/gitkeep-exemplo-fig-1_tsvwqh.png)
 
-Agora se criarmos o arquivo `.gitkeep` dentro do `diretorio1` o git mostra que há a existência de um diretório a ser adicionado, veja:
+Now if we create the file `.gitkeep` inside `diretorio1`, git shows that there is a directory to be added, see:
 
 ![exemplo 2](https://res.cloudinary.com/jesstemporal/image/upload/v1640360212/gitkeep-exemplo-fig-2_etwfco.png)
 
-Com isso você consegue ver o funcionamento do `.gitkeep` e caso queira ver na prática esse exemplo está disponível [nesse repositório do GitHub](https://github.com/jtemporal/exemplo-pastas).
+With this you can see how `.gitkeep` works and if you want to see it in practice, [this example is available in this GitHub repository](https://github.com/jtemporal/exemplo-pastas).
