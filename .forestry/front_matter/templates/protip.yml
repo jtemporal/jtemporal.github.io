@@ -47,6 +47,35 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: translator
+  type: boolean
+  label: translator
+  default: false
+- name: author_note
+  type: text
+  config:
+    required: false
+  label: author_note
+  default: 'This blog post was adapted for English by '
+  showOnly:
+    field: translator
+    value: true
+- name: author_note_link
+  type: select
+  default: professoradeboraazevedo@gmail.com
+  config:
+    required: false
+    options:
+    - professoradeboraazevedo@gmail.com
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author_note_link
+  showOnly:
+    field: translator
+    value: true
 - type: boolean
   name: comments
   label: comments
