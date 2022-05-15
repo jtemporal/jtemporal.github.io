@@ -22,7 +22,7 @@ posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep
 - resolvendo-conflitos
 - conheca-o-gitfichas
-translated: ''
+translated: "/5-tips-to-make-your-pull-request-shine"
 translator: false
 author_note_link: ''
 author_note: ''
