@@ -47,9 +47,9 @@ It is ideal to keep the main branch clean of changes this way you can keep it up
 
 ## Link the pull request to an issue
 
-Existem hoje 9 palavras-chave para relacionar o seu _pull request_ com uma _issue_ (se ela existir). Isso mesmo, nove! Usar essas palavras ao fazer o _pull request_ vai facilitar a vida de quem mantém o projeto, pois essas palavras fecham a issue correspondente ao rolar o merge do _pull request_, e também vai ajudar pessoas que estejam interessadas em contribuir pois elas podem ver o _pull request_ em andamento evitando que duas pessoas façam trabalho duplicado.
+There are now, 9 keywords to link your pull request to an issue (if one exists). That's right, nine! Using these words when making the pull request will make the life of those who maintain the project easier, since these words close the corresponding issue when the pull request is merged, and will also help people who are interested in contributing as they can see the pull request in progress, preventing two people from doing duplicate work.
 
-Então essa é a lista de palavras:
+This is the list of words:
 
 1. close
 2. closes
@@ -61,28 +61,28 @@ Então essa é a lista de palavras:
 8. resolve
 9. resolved
 
-Essas palavras podem ser usadas em dois lugares:
+Any of these words can be used in two places:
 
-1. No **título** do _pull request_;
-2. Ou na **descrição** do _pull request_.
+1. In the pull request's **title**;
+2. In the pull request's **description**.
 
-Você deve usá-las da seguinte forma para resolver uma _issue_:
+You should use them as follows to resolve an issue:
 
 ```txt
 fixes #42
 ```
 
-Ou da forma a seguir para resolver mais de um _issue_:
+Or as follows to resolve more than one issue:
 
 ```txt
 fixes #42, fixes #44
 ```
 
-Caso o seu _pull request_, não resolva uma issue por completo, você ainda deve mencionar o número da issue que tem relação com o seu _pull request_ pois isso vai fazer que o seu _pull request_ apareça na issue como uma menção, mas nesse caso não deve usar as palavras acima.
+If your pull request does not _fully_ resolve an issue, you should still _mention_ the issue number (by using the hashtag symbol) that is related to your pull request as this will make your pull request appear in the issue as a mention, but in this case you should not use the words above.
 
-Como uma pessoa que mantem alguns projetos, me faz muito feliz ver essas palavras sendo usadas nos _pull requests_. Você pode ler mais sobre isso [nessa documentação do próprio GitHub sobre o assunto](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests0).
+As a person who maintains some projects, it makes me very happy to see these words being used in pull requests. You can read more about all of this [in GitHub's documentation on the subject](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue).
 
-## Dê contexto para quem vai revisar
+## Give context to reviewers
 
 Muitas vezes as pessoas que mantêm projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um _bug_ por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
 
