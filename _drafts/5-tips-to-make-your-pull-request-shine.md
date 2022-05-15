@@ -84,13 +84,13 @@ As a person who maintains some projects, it makes me very happy to see these wor
 
 ## Give context to reviewers
 
-Muitas vezes as pessoas que mantêm projetos, assim como as pessoas que contribuem com projetos, fazem isso no seu tempo livre, ou seja, esse não é o trabalho delas. Então é nosso dever facilitar a contribuição, tanto ao escrever issues bem descritas se você estiver relatando um _bug_ por exemplo, como descrever bem o _pull request_ que você está fazendo. Vamos focar no _pull request_ que é o foco deste artigo.
+Often people who maintain projects, as well as people who contribute to projects, do so in their spare time, that's not their job. So it's our duty to facilitate the contribution, both by writing well-described issues if you're reporting a bug for example, and by well-describing the pull request you're making. Let's focus on the pull request that is the main topic of this article.
 
-Hoje em dia é muito comum encontrar projetos que tenham um [template/modelo de _pull request_](https://docs.github.com/pt/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), esse template busca padronizar as perguntas necessárias para a revisão daquele _pull request_ e a geração de _changelogs_. Então foque no que você precisa preencher e lembre-se que é possível usar o _markdown_ para estilizar o conteúdo da descrição e facilitar a leitura das pessoas que revisam as contribuições.
+Nowadays it is very common to find projects that have a [pull request template/model](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), this template seeks to standardize the questions needed to review that pull request and generate changelogs. So focus on what you need to fill in and remember that you can use markdown to style the content of the description and make it easier for people reviewing contributions to read.
 
-Embora hoje em dia vários repositórios tenham templates de _pull request_, pode ser que você está contribuindo para um projeto que não tem um desses, então aqui vai um lista de tópicos para você incluir na descrição do seu _pull request:_
+Although nowadays many repositories have pull request templates, it could be the case that you are contributing to a project that doesn't have one of these, so here is a list of topics for you to include in your pull request description:
 
-1. **Qual o objetivo desse pull request?**
+1. **What is the goal of this pull request?**
 
    Aqui coloque aquela informação de qual _issue_ (se ela existir) se relaciona com esse _pull request_.
 2. **Quais alterações foram feitas para atingir esse objetivo?**
