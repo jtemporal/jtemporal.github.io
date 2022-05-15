@@ -106,4 +106,5 @@ fields:
     field: translator
     value: true
 pages:
+- _posts/2017-05-10-comunidade-python-rio.md
 - _posts/2018-12-30-retrospectiva-2018.md

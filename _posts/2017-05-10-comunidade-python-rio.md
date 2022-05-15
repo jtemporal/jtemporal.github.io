@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Comunidade Python e Rio de Janeiro
-date: 2017-05-10 00:00:00 +0000
+date: 2017-05-10T00:00:00.000+00:00
 type: post
 tags:
 - português
@@ -11,7 +11,15 @@ tags:
 - eventos
 - pessoal
 comments: true
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+description: Sobre fazer parte de uma comunidade
+lang: en
+translator: false
+related: false
+posts_list: []
+translated: ''
+author_note_link: ''
+author_note: ''
 
 ---
 ### Uma história de amor
