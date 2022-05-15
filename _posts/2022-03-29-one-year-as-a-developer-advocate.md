@@ -14,8 +14,8 @@ tags:
 description: "Curious about how the move from data science to developer relations/advocacy
   was? Read this one \U0001F609"
 lang: en
-author_note_link: professoradeboraazevedo@gmail.com
-author_note: This blog post was adapted for English by [inserir tradutora].
+author_note_link: ""
+author_note: ""
 translated: ''
 translator: false
 
