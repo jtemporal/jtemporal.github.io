@@ -37,9 +37,9 @@ fields:
   default: now
 - name: lang
   type: select
-  default: pt
+  default: ''
   config:
-    required: true
+    required: false
     options:
     - pt
     - en
