@@ -16,7 +16,10 @@ posts_list:
 - resolvendo-conflitos
 - conheca-o-gitfichas
 lang: pt
-translated: ''
+translated: "/creating-empty-folders-on-github-with.gitkeep"
+translator: false
+author_note_link: ''
+author_note: ''
 
 ---
 Às vezes você precisa colocar uma pasta vazia no seu projeto no GitHub, mas tradicionalmente o git não faz acompanhamento de pastas vazias, e aí cai a dúvida: _"como fazer uma pasta vazia aparecer no GitHub se o git não deixa?"_
