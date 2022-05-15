@@ -3,11 +3,33 @@ label: pessoal2022
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
+- name: type
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - post
+    - talk
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+- type: text
+  name: title
+  label: title
+- name: image
+  type: text
+  config:
+    required: false
+  label: image
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
 - type: datetime
   name: date
   label: date
@@ -17,9 +39,64 @@ fields:
 - type: boolean
   name: comments
   label: comments
-- type: file
-  name: image
-  label: image
-- type: text
-  name: type
-  label: type
+- name: related
+  type: boolean
+  label: related
+- name: posts_list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: posts_list
+  showOnly:
+    field: related
+    value: true
+- name: lang
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - pt
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lang
+- name: translated
+  type: text
+  config:
+    required: false
+  label: translated
+  description: "/"
+- name: translator
+  type: boolean
+  label: translator
+- name: author_note_link
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - professoradeboraazevedo@gmail.com
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author_note_link
+  showOnly:
+    field: translator
+    value: true
+- name: author_note
+  type: text
+  config:
+    required: false
+  label: author_note
+  description: This blog post was adapted for English by [name].
+  showOnly:
+    field: translator
+    value: true
