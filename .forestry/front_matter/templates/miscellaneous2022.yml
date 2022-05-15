@@ -58,6 +58,7 @@ fields:
   label: author_note_link
   showOnly:
     field: translator
+    value: true
 - name: author_note
   type: text
   config:
