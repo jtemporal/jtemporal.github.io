@@ -15,6 +15,10 @@ tags:
 - português
 description: "Tem curiosidade sobre como foi a mudança de carreira entre ciência de
   dados para developer relations/advocacy? Nesse post eu conto tudo \U0001F609"
+author_note_link: professoradeboraazevedo@gmail.com
+author_note: This blog post was adapted for English by [insira tradutora].
+type2: post
+translator: false
 
 ---
 Antes de trabalhar com DevRel, eu pagava as contas sendo uma cientista de dados. Hoje eu posso dizer que troquei a ciência de dados para trabalhar em _developer relations_ com sucesso já que atingi a marca de 1 um ano trabalhando como *Developer Advocate*! 🎉

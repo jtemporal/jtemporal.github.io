@@ -94,6 +94,5 @@ fields:
   label: comments
   hidden: true
   default: true
-- type: text
-  name: type2
-  label: type
+pages:
+- _posts/primeiro-ano-sendo-uma-developer-advocate.md
