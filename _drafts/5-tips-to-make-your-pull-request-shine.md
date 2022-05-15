@@ -92,27 +92,25 @@ Although nowadays many repositories have pull request templates, it could be the
 
 1. **What is the goal of this pull request?**
 
-   Aqui coloque aquela informação de qual _issue_ (se ela existir) se relaciona com esse _pull request_.
-2. **Quais alterações foram feitas para atingir esse objetivo?**
+   Here you put that information of which issue (if it exists) is related to this pull request.
+2. **What changes were made to achieve this goal?**
 
-   Alterações de código, documentação, mudanças de fluxo de dados e afins devem vir aqui. Use os seus _commits_ para relembrar o que você mudou.
-3. **Como testar se essas mudanças realmente funcionam?**
+   Code changes, documentation, data flow changes, and alike should come here. Use your commits to remember what you changed.
+3. **How to test if these changes really work?**
 
-   Aqui pode usar prints se for algo visual, por exemplo, ou exemplos de uso do pedaço de código novo.
-4. **Possíveis melhorias e outras anotações**
+   Here you can use prints if it's something visual, for example, or examples of using the new piece of code.
+4. **Possible improvements and other notes**
 
-   Uma lista de coisas que poderiam ser melhoradas, mas que não são o foco do _pull request_, ou que você não sabe como resolver e precisa de ajuda.
+   A list of things that could be improved, but that are not the focus of the pull request, or that you don't know how to solve and need help.
 
-Esses quatro pontos, vão garantir que a pessoa revisando vai ter todas informações que ela precisa para revisar o _pull request_ no momento que a revisão for acontecer.
+These four points will ensure that the person reviewing will have most if not all the information they need to review the pull request at the time the review takes place.
 
 ## Aguarde as sugestões
 
-Depois de fazer a sua contribuição a pessoa revisora pode ter sugestões de melhoria ou ajustes necessários para garantir a padronização da base de código. Essas sugestões podem pedir que você mude parte de código, implemente testes ou ajuste a documentação.
+After making your contribution, the reviewer may have suggestions for improvement or necessary adjustments to ensure the standardization of the code base. These suggestions might ask you to change part of the code, implement tests, or adjust the documentation.
 
-De um modo geral elas vêm para ajudar o seu _pull request_ melhorar e para que a sua contribuição seja aceita. O processo de revisão é sempre um momento de aprendizado então é importante ter a mente aberta para receber sugestões e caso necessário acatá-las.
+Generally speaking, they come to help your pull request improve and to get your contribution accepted. The review process is always a learning moment, so it is important to have an open mind to receive suggestions and, if necessary, accept them.
 
-## Recapitulando
+## Recap
 
-Contribuir com _open-source_ é ótimo pois pode ajudar todas as pessoas que usam aquele projeto. E durante o hacktoberfest, por exemplo, é um ótimo momento para exercitar essa habilidade, então não deixe de seguir as dicas que você viu aqui para ter ainda mais sucesso no seus _pull requests._
-
-Ah e último recadinho, se você estiver procurando por [projetos brasileiros para contribuir aqui está a lista de 2021](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-2021/).
+Contributing to open-source is great because it can help all the people who use that project. And during hacktoberfest, for example, is a great time to exercise this skill, so be sure to follow the tips you've seen here to be even more successful with your pull requests.
