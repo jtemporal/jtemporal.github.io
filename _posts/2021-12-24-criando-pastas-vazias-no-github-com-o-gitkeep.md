@@ -15,7 +15,7 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
 - conheca-o-gitfichas
-lang: en
+lang: pt
 translated: ''
 
 ---
