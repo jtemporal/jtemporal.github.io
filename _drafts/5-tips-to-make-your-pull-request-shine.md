@@ -16,9 +16,9 @@ tags:
 - hacktoberfest
 related: true
 posts_list:
-- criando-pastas-vazias-no-github-com-o-gitkeep
-- resolvendo-conflitos
-- conheca-o-gitfichas
+- creating-empty-folders-on-github-with-gitkeep
+- solving-conflicts
+- introducing-gitfichas
 translated: "/5-dicas-para-fazer-o-seu-pull-request-brilhar"
 translator: true
 author_note_link: professoradeboraazevedo@gmail.com
