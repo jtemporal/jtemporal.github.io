@@ -3,9 +3,9 @@ layout: post
 date: 2021-10-05T22:15:06.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
-lang: pt
+lang: en
 title: 5 Tips to Make Your Pull Request Shine ✨
-description: Dicas de ouro para fazer uma contribuição open-source de sucesso
+description: Top tops to make your open-source contribution a success
 type: post
 tags:
 - pull request
