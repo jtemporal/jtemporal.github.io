@@ -57,7 +57,7 @@ fields:
   label: translator
 - name: author_note_link
   type: select
-  default: professoradeboraazevedo@gmail.com
+  default: ''
   config:
     required: false
     options:
@@ -79,7 +79,8 @@ fields:
   showOnly:
     field: translator
     value: true
-  default: This blog post was adapted for English by [insira tradutora].
+  default: ''
+  description: This blog post was adapted for English by [insira tradutora].
 - type: list
   name: tags
   label: tags
