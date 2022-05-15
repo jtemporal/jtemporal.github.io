@@ -103,3 +103,5 @@ fields:
   label: comments
   hidden: true
   default: true
+pages:
+- _posts/2022-03-29-one-year-as-a-developer-advocate.md

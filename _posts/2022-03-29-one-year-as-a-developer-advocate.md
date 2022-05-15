@@ -1,8 +1,8 @@
 ---
 layout: post
-title: First year as a Developer Advocate 🥑
+title: "First year as a Developer Advocate \U0001F951"
 date: 2022-03-29T09:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 comments: true
 type: post
 tags:
@@ -11,10 +11,15 @@ tags:
 - developer advocate
 - developer relations
 - developer advocacy
-description: Curious about how the move from data science to developer relations/advocacy was? Read this one 😉
+description: "Curious about how the move from data science to developer relations/advocacy
+  was? Read this one \U0001F609"
+lang: en
+author_note_link: professoradeboraazevedo@gmail.com
+author_note: This blog post was adapted for English by [inserir tradutora].
+translated: ''
+translator: false
 
 ---
-
 Before doing DevRel for a living, I used to pay the bills by being a data scientist. Today I can say that I successfully switched from being a Data Scientist to be a *Developer Advocate* for a whole year! 🎉
 
 <center><img style="max-width: 70%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/166827422_515510042769353_3494362086546822067_n_ih6nui.jpg">
