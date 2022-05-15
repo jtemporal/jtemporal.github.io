@@ -17,7 +17,6 @@ description: "Tem curiosidade sobre como foi a mudança de carreira entre ciênc
   dados para developer relations/advocacy? Nesse post eu conto tudo \U0001F609"
 author_note_link: ""
 author_note: ""
-type2: post
 translator: false
 
 ---
