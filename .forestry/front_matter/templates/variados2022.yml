@@ -1,0 +1,34 @@
+---
+label: variados2022
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: boolean
+  name: comments
+  label: comments
+- type: text
+  name: type
+  label: type
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: translated
+  label: translated
+- type: list
+  name: tags
+  label: tags
+- type: textarea
+  name: description
+  label: description
