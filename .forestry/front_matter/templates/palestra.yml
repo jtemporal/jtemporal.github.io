@@ -53,6 +53,7 @@ fields:
   label: tags
 pages:
 - _posts/2018-09-18-ciência-de-dados-no-mundo-real-com-serenata-de-amor.md
+- _posts/2019-02-21-vamos-falar-sobre-jwt.md
 - _posts/2019-04-06-cdd-no-mundo-real-com-serenata-wids.md
 - _posts/2021-04-15-my-first-avocadolabs-live-o.md
 - _posts/2021-07-17-tutorial-introducao-aos-modulos-de-analise-de-dados.md
@@ -66,4 +67,3 @@ pages:
 - _posts/2021-09-08-braincast-423.md
 - _posts/2021-09-17-tips-for-writing-great-technical-content.md
 - _posts/2021-10-12-viajando-por-o-uma-api-segura-com-flask.md
-- _posts/vamos-falar-sobre-jwt.md
