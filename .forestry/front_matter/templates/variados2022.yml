@@ -5,30 +5,95 @@ fields:
 - type: text
   name: layout
   label: layout
+- name: type
+  type: select
+  default: post
+  config:
+    required: true
+    options:
+    - post
+    - talk
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
 - type: text
   name: title
   label: title
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: description
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
-- type: file
-  name: image
-  label: image
-- type: boolean
-  name: comments
-  label: comments
-- type: text
-  name: type
-  label: type
-- type: text
-  name: lang
+  config:
+    required: true
+  default: now
+- name: lang
+  type: select
+  default: pt
+  config:
+    required: true
+    options:
+    - pt
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: lang
 - type: text
   name: translated
   label: translated
+- name: translator
+  type: boolean
+  label: translator
+- name: author_note_link
+  type: select
+  default: professoradeboraazevedo@gmail.com
+  config:
+    required: false
+    options:
+    - professoradeboraazevedo@gmail.com
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author_note_link
+  showOnly:
+    field: translator
+    value: true
+- name: author_note
+  type: text
+  config:
+    required: false
+  label: author_note
+  showOnly:
+    field: translator
+    value: true
+  default: This blog post was adapted for English by [insira tradutora].
 - type: list
   name: tags
   label: tags
-- type: textarea
-  name: description
-  label: description
+- name: image
+  type: text
+  config:
+    required: true
+  label: image
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+- type: boolean
+  name: comments
+  label: comments
+  hidden: true
+  default: true
+- type: text
+  name: type2
+  label: type
