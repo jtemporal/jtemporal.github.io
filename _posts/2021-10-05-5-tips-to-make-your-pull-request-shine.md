@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/m
 comments: true
 lang: en
 title: 5 Tips to Make Your Pull Request Shine ✨
-description: Top tops to make your open-source contribution a success
+description: Top tips to make your open-source contribution a success
 type: post
 tags:
 - english
