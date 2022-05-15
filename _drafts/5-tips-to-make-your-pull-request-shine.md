@@ -8,24 +8,21 @@ title: 5 Tips to Make Your Pull Request Shine ✨
 description: Top tops to make your open-source contribution a success
 type: post
 tags:
+- english
 - pull request
 - git
 - open source
 - open-source
-- contribuição
-- hacktoberfest2021
 - hacktoberfest
-- portugues
-- português
 related: true
 posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep
 - resolvendo-conflitos
 - conheca-o-gitfichas
-translated: ''
-translator: false
-author_note_link: ''
-author_note: ''
+translated: "/5-dicas-para-fazer-o-seu-pull-request-brilhar"
+translator: true
+author_note_link: professoradeboraazevedo@gmail.com
+author_note: This blog post was adapted for English by Débora Azevedo.
 
 ---
 Outubro é mês de hacktoberfest e esse deve ser o mês em que nós nos esforçamos mais para contribuir com _open-source_ e ajudar a mais pessoas contribuírem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨brilhar ✨. Vamos lá!
