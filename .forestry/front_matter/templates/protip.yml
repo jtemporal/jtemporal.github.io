@@ -83,6 +83,16 @@ fields:
     required: false
   label: image
   default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+- name: related
+  type: boolean
+  label: related
+- name: posts_list
+  type: list
+  config:
+    use_select: false
+    min: 3
+    max: 3
+  label: posts_list
 pages:
 - _posts/2017-12-30-python-virtual-environments-venv.md
 - _posts/2018-01-07-choosing-a-jekyll-theme.md
