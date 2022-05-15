@@ -105,7 +105,7 @@ Although nowadays many repositories have pull request templates, it could be the
 
 These four points will ensure that the person reviewing will have most if not all the information they need to review the pull request at the time the review takes place.
 
-## Aguarde as sugestões
+## Wait for suggestions
 
 After making your contribution, the reviewer may have suggestions for improvement or necessary adjustments to ensure the standardization of the code base. These suggestions might ask you to change part of the code, implement tests, or adjust the documentation.
 
