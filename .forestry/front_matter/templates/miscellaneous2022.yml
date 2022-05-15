@@ -41,6 +41,8 @@ fields:
 - name: translator
   type: boolean
   label: translator
+  showOnly:
+    field: translator
 - name: author_note_link
   type: select
   default: professoradeboraazevedo@gmail.com
