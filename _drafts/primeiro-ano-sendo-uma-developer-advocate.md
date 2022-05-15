@@ -15,8 +15,8 @@ tags:
 - português
 description: "Tem curiosidade sobre como foi a mudança de carreira entre ciência de
   dados para developer relations/advocacy? Nesse post eu conto tudo \U0001F609"
-author_note_link: professoradeboraazevedo@gmail.com
-author_note: This blog post was adapted for English by [insira tradutora].
+author_note_link: ""
+author_note: ""
 type2: post
 translator: false
 
