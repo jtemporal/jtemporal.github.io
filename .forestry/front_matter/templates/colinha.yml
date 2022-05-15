@@ -1,5 +1,5 @@
 ---
-label: colinha
+label: colinha2022
 hide_body: false
 display_field: title
 fields:
@@ -28,11 +28,6 @@ fields:
   default: now
   config:
     required: true
-- name: image
-  label: capa do artigo
-  type: file
-  hidden: false
-  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 - name: tags
   type: list
   config:
@@ -40,11 +35,6 @@ fields:
     min: 
     max: 
   label: Tags
-- name: comments
-  label: comentários
-  type: boolean
-  hidden: false
-  default: true
 - name: lang
   type: select
   default: pt
@@ -78,6 +68,17 @@ fields:
   showOnly:
     field: related
     value: true
+- name: image
+  type: text
+  config:
+    required: true
+  label: image
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+- name: comments
+  label: comentários
+  type: boolean
+  hidden: true
+  default: true
 pages:
 - _posts/2017-12-29-pyenv-inicio.md
 - _posts/2017-12-30-venv-inicio.md
