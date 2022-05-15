@@ -100,3 +100,5 @@ fields:
   showOnly:
     field: translator
     value: true
+pages:
+- _posts/2018-12-30-retrospectiva-2018.md
