@@ -28,13 +28,6 @@ fields:
   default: now
   config:
     required: true
-- name: tags
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Tags
 - name: lang
   type: select
   default: pt
@@ -54,6 +47,31 @@ fields:
   config:
     required: false
   label: translated
+- name: translator
+  type: boolean
+  label: translator
+- name: author_note_link
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - professoradeboraazevedo@gmail.com
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author_note_link
+  showOnly:
+    field: translator
+- name: author_note
+  type: text
+  config:
+    required: false
+  label: author_note
+  showOnly:
+    field: translator
 - name: related
   type: boolean
   label: related
@@ -79,6 +97,13 @@ fields:
   type: boolean
   hidden: true
   default: true
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Tags
 pages:
 - _posts/2017-12-29-pyenv-inicio.md
 - _posts/2017-12-30-venv-inicio.md
