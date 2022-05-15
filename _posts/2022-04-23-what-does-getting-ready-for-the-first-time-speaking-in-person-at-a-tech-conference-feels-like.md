@@ -3,7 +3,7 @@ layout: post
 title: What does getting ready for the first time speaking in person at a tech conference
   feels like
 date: 2022-04-23T22:33:34.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
 tags:
 - pessoal
 - English
