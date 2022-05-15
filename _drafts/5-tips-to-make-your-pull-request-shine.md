@@ -37,15 +37,15 @@ Now you might be asking yourself _“What do I do if the project doesn't have a 
 
 ## Use branches in your fork
 
-Ao fazer um _fork_ de um projeto para contribuir, é muito comum cairmos no erro de fazer alterações no _branch_ principal e submeter o _pull request_.
+When forking a project to make a contribution, it is very common to make the mistake of making changes to the main branch and submitting the pull request.
 
-Evite.
+Avoid doing that.
 
-Por mais que você só planeje fazer apenas um _pull request_, pode ser que a inspiração role e você queira fazer um segundo _pull request_ e aí você já comprometeu o seu branch principal com alterações do primeiro _pull request_ e, qualquer contribuição a partir desse ponto vai conter as alterações do primeiro _pull request_.
+As much as you only plan on making just one pull request, you may be struck by inspiration and you may want to make a second pull request and then you've already compromised your main branch with changes from the first pull request, and any contribution from that point forward will contain the changes from the first pull request.
 
-Então o ideal é manter o branch principal limpo de alterações até para que você possa mantê-lo atualizado com o _branch_ principal do repositório de origem. Então crie o bom hábito de separar suas contribuições em branches novas.
+It is ideal to keep the main branch clean of changes this way you can keep it up to date with the main branch of the source repository. So make a good habit of separating your contributions into new branches.
 
-## Relacione o pull request com uma issue
+## Link the pull request to an issue
 
 Existem hoje 9 palavras-chave para relacionar o seu _pull request_ com uma _issue_ (se ela existir). Isso mesmo, nove! Usar essas palavras ao fazer o _pull request_ vai facilitar a vida de quem mantém o projeto, pois essas palavras fecham a issue correspondente ao rolar o merge do _pull request_, e também vai ajudar pessoas que estejam interessadas em contribuir pois elas podem ver o _pull request_ em andamento evitando que duas pessoas façam trabalho duplicado.
 
