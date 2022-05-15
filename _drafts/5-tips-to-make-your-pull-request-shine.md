@@ -25,17 +25,17 @@ author_note_link: professoradeboraazevedo@gmail.com
 author_note: This blog post was adapted for English by Débora Azevedo.
 
 ---
-Outubro é mês de hacktoberfest e esse deve ser o mês em que nós nos esforçamos mais para contribuir com _open-source_ e ajudar a mais pessoas contribuírem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨brilhar ✨. Vamos lá!
+October is hacktoberfest month and this should be the month where we put the most effort into contributing to open-source and helping more people contribute. So in this article you will learn five 5 golden tips to make your pull request ✨shine ✨. Let’s go!
 
-## Siga o guia de contribuição do projeto
+## Follow the project's contribution guide
 
 A maioria dos projetos _open-source_ tem um conjunto de regras ou padrões que você deve seguir para contribuir, coisas como manter cobertura de testes, criar _branches_ seguindo um certo padrão de nomeação, qual a língua oficial do projeto e de seus _commits_ e até mesmo regras sobre intervalo de tempo com inatividade no qual passado esse períodos o _pull requests_ sem atividade será fechado.
 
-Seguir o guia do projeto vai garantir um bom caminho para ter um _pull request_ bem sucedido logo do começo, esse guia é geralmente encontrado no arquivo `CONTRIBUTING.md` nos projetos do GitHub mas por vezes as regras também podem estar descritas no arquivo `README.md`.
+Following the project's contribution guide will ensure a good path to having a successful pull request right from the start. Such guide is usually found in the `CONTRIBUTING.md` file on GitHub projects but sometimes the rules can also be described in the `README.md` file.
 
-Agora você pode estar se perguntando _“O que eu faço se o projeto não tiver um guia de contribuição?”_ e essa situação é bem comum. Então caso não exista um guia de contribuição o que eu faço geralmente é olhar alguns commits do histórico de commits para ver como eles são feitos e outros pull requests que foram feitos antes do meu para tentar seguir o mesmo formato.
+Now you might be asking yourself _“What do I do if the project doesn't have a contribution guide?”_ and this situation is quite common. So if there is no contribution guide what I usually do is look at some commits from the commit history to see how they are made and other pull requests that were made before mine to try to follow the same format.
 
-## Use branches no seu fork
+## Use branches in your fork
 
 Ao fazer um _fork_ de um projeto para contribuir, é muito comum cairmos no erro de fazer alterações no _branch_ principal e submeter o _pull request_.
 
