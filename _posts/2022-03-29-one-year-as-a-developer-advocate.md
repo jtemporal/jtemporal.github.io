@@ -40,7 +40,7 @@ Besides talking at a number events and meeting many people, we would also create
 
 Around the same time, I even created, with friends, a podcast about data science in Portuguese called [Pizza de Dados](http://pizzadedados.com/en/). Sharing knowledge in various formats became a passion. I love to give talks, do workshops, and just talk to people and help in any way I can.
 
-Turns out that this is a huge part of being a developer advocate. I just didn’t know it at the time. Notice this was around 2017, now it is 2021, and developer relations is still pretty new in Brazil, so imagine how it was back then.
+Turns out that this is a huge part of being a developer advocate. I just didn’t know it at the time. Notice this was around 2017, now it is 2022, and developer relations is still pretty new in Brazil, so imagine how it was back then.
 
 ## What is Developer Relations or Developer Advocacy?
 

@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Primeiro ano sendo uma Developer Advocate \U0001F951"
-date: 2022-03-29T09:00:00.000+00:00
+date: 2022-03-29T09:01:00.000+00:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
 type: post
+lang: pt
+translated: "/one-year-as-a-developer-advocate"
 tags:
 - devrel
 - developer advocate
@@ -43,51 +45,55 @@ Acontece que isso tudo é grande parte de ser uma _developer advocate_. Eu só n
 
 ## O que é Developer Relations ou Developer Advocacy?
 
-I think the first question I get asked when I say I’m a  developer advocate is *“developer what?”*. People usually don’t get it. Developer advocacy is so new here that it doesn’t even have a name for it in Portuguese. So it isn’t surprising when people don’t get what I do by just stating my job title. What also happens is that they feel like they understand what it is once I explain it. Based on my community work some people usually are aware of, I get the *"oh yeah, it suits you"* comments.
+Acho que a primeira pergunta que me fazem quando digo que sou uma *developer advocate* é *“developer o quê?”*. As pessoas geralmente não entendem logo de cara. *Developer advocacy* é algo tão novo que nem tem nome um nome oficial em Português, se vê sendo chamado de Evangelismo às vezes.
 
-If you also don't understand what DevRel is, here's the short description: I make friends with developers to help them understand complex topics and work more efficiently. Now, there are many ways you achieve that, I do it by giving talks, creating blog posts, videos, podcasts, etc.
+Por isso não me surpreende quando as pessoas não entendem o que eu faço apenas dizendo o nome do meu cargo, mas com certa frequência rola um entendimento quando eu explico o que eu faço. Sempre rola um *"ah, sim, combina com você"*, especialmente se a pessoa conhece a minha participação nas comunidades de tecnologia.
 
-You may be wondering why I say I *make friends* though, am I right? Well, that’s because people tend to ask *their friends* for help, and that is my utmost goal, be someone anyone can reach out to and ask for help, especially when coding is involved.
+Se você não sabe o que é DevRel, aqui está a breve descrição: Faço amizade com pessoas que desenvolvem para ajudá-las a entender tópicos complexos e trabalhar com mais eficiência. Agora, existem muitas maneiras de você alcançar esse objetivo, eu faço isso dando palestras, escrevendo artigos em blogs, vídeos, podcasts, etc.
 
-Talks, written tutorials, workshops, podcasts, videos, and so on are only part of the process of being an advocate. The part people usually see. There's also the other part, the part where you have to do reporting on events and initiatives you worked on. You have to test out new features and provide feedback internally. You document processes internally and help structure ways to help the business succeed. And all of that while you spend some or most of your time traveling to reach developers where they are.
+Você pode estar se perguntando por que eu digo que eu *faço amizade*, certo? Bem, eu gosto de descrever dessa maneira porque as pessoas tendem a pedir ajuda a *seus amigos e amigas*, e esse é o meu objetivo maior, ser alguém que qualquer pessoa pode pedir ajuda, especialmente quando se fala de criar software.
 
-Developer relations is a complicated topic if you think about it. You have to have a lot of skills: technical, communication, and interpersonal skills, also business sense, be data-driven while still being an active participant of any tech community and putting people first. This reminds me of this tweet:
+Palestras, tutoriais escritos, workshops, podcasts, vídeos e assim por diante são apenas uma parte do processo de ser uma developer advocate. A parte que as pessoas costumam ver. Há também a outra parte, a parte em que você tem que fazer relatórios sobre eventos e iniciativas em que trabalhou. Você precisa testar novos recursos e fornecer feedback internamente. Você documenta os processos e ajuda a estruturar as formas de ajudar o negócio a ter sucesso. E tudo isso enquanto você passa parte ou a maior parte do seu tempo viajando para encontrar com as pessoas desenvolvedoras onde elas estiverem.
+
+As relações com o desenvolvedor são um tópico complicado se você pensar sobre isso. Você precisa ter muitas habilidades: habilidades técnicas, de comunicação e interpessoais, também senso de negócios, ser orientado a dados e ainda ser um participante ativo de qualquer comunidade de tecnologia e colocar as pessoas em primeiro lugar. Isso me lembra esse tweet:
 
 <center>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Developer advocacy is simple. You just need skills in engineering, marketing, business development, product management, content creation, and be a skilled communicator, both written and verbal. After that, the job really takes care of itself.</p>&mdash; Sean Falconer (@seanfalconer) <a href="https://twitter.com/seanfalconer/status/1489618627359698952?ref_src=twsrc%5Etfw">February 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
-If you are considering what skills to improve to become a DevRel, think of the ones I mention in this post and try to develop them along the way. Turns out that most of these skills can be used no matter what job you have, and if you start working on them earlier, it will make your path to become a DevRel a lot easier. 😉  
+_Tradução livre: Developer advocacy é simples. Você só precisa de habilidades de engenharia, marketing, desenvolvimento de negócios, gerenciamento de produto, criação de conteúdo e ser uma pessoa habilidosa em comunicação, tanto na forma escrita, quanto na fala. Depois disso, o trabalho meio que rola sozinho._
 
-## And how did I decide DevRel was my thing?
+Se você estiver considerando o quais habilidades melhorar para se tornar DevRel, pense nas habilidades que mencionei nesse artigo e tente desenvolvê-las no seu dia-a-dia. Acontece que a maioria dessas habilidades são úteis independentemente do seu papel e, quanto mais cedo você começar, mais fácil será a sua jornada para se tornar uma DevRel. 😉  
 
-Other than talking at many events and meeting a lot of people while working at Serenata, I would also create a lot of technical content seeking to make the project more accessible to those without the technical knowledge to read and understand code.
+## Como eu decidi que DevRel era o que eu queria?
 
-After moving on from Serenata, I made sure I was active in the Python community, no matter where I worked. In my spare time, I gave talks whenever possible, maintained my blog, and kept recording episodes for the Pizza de Dados podcast.
+Além de palestrar em diversos eventos e conhecer várias pessoas enquanto eu trabalhava no Serenata, Eu também criei muito conteúdo técnico sempre buscando fazer o projeto ser mais acessível para as pessoas que não tinham um conhecimento técnico para entender o código.
+
+Depois de sair do Serenata, eu fiz questão de participar ativamente na comunidade Python não importando onde eu estivesse trabalhando. Sempre que pude, dei palestras no meu tempo livro, mantive o meu blog e continuei gravando o Pizza de Dados.
 
 <center><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648590752/231808710_2879851062263859_1016560339918884759_n_ufsr1n.jpg">
 <br>  <br>
-<i>Me, Lele Portella and Ceci Vieira on a live stream</i>
+<i>Eu, Lele Portella e Ceci Vieira numa live stream</i>
 </center>
 
-Long story short, some day I decided to change my day job to have more knowledge sharing instead of it just being a spare-time effort. Luckily around the same time, Auth0 was hiring a new developer advocate. So, I decided it was time to give it a chance.
+Em resumo, chegou um dia em que eu decidi que queria mudar o meu trabalho para que ele incluísse mais atividades de compartilhamento de conhecimento ao invés de só fazer isso no meu tempo livre. Com um pouco de sorte, na mesma época, a Auth0 estava tentando contratar uma pessoa _developer advocate_. Foi nesse momento que decidi agarrar a minha chance.
 
-Before the hiring process started, I did what I usually do: research. I researched what DevRel was, and guess what? [Sam Julien](http://twitter.com/samjulien), at the time, head of DevRel at Auth0, had an ebook called *[“Getting Started in Developer Relations”](https://learn.samjulien.com/getting-started-in-developer-relations),* which I read in two days, and that’s when I had that *a-ha moment:* I did this before... and *loved* it!
+Antes de começar o processo seletivo, eu fiz o que eu sempre faço: pesquisa. Pesquisei mais a fundo o que queria dizer "ser DevRel" e aí numas sessões de pesquisa achei um ebook escrito por [Sam Julien](http://twitter.com/samjulien), naquela época, Head de DevRel na Auth0. O ebook chamava *[“Getting Started in Developer Relations”](https://learn.samjulien.com/getting-started-in-developer-relations),* e eu devorei o livro em menos de dois dias. Foi nessa hora que _caiu a ficha_: Eu já fiz isso antes... E eu _amei_ fazer isso!
 
-## How is the day of a Dev Advocate?
+## Como é o dia de uma Dev Advocate?
 
-Instead of speaking of my day, I’ll talk about my week as it draws a fuller picture of what one might do daily as a DevRel.
+No lugar de falar sobre o meu dia, eu vou falar da minha semana por que eu acho que isso vai ilustrar melhor o que uma pessoa pode fazer na posição de DevRel.
 
 <table style=" width: 90%; margin-left: 5%; margin-right: 5%; text-align: left;">
   <thead>
     <tr style="text-align: left;">
-      <th>Day of the week</th>
-      <th>Activities</th>
+      <th>Dia da semana</th>
+      <th>Atividades</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Monday</td>
+      <td>Segunda</td>
       <td>
         • Go through the collaboration requests<br>
         • Check in with ambassadors questions<br>
@@ -95,45 +101,45 @@ Instead of speaking of my day, I’ll talk about my week as it draws a fuller pi
       </td>  
     </tr>
     <tr style="background-color: #f3f3f3;">
-      <td>Tuesday</td>
+      <td>Terça</td>
       <td>
-        • Attend the 1:1 meeting with my direct manager<br>
-        • Attend the 1:1 meeting with a colleague from another team about a new initiative<br>
-        • Give a talk at an event<br>
-        • Prepare a draft of a talk for a CFP I need to submit by the end of the week
+        • Participar da reunião 1:1 com meu gerente direto<br>
+        • Participar da reunião 1:1 com um colega de outro time sobre uma iniciativa nova<br>
+        • Apresentar uma palestra num evento<br>
+        • Preparar o rascunho de uma palestra para uma chamada que acaba no fim da semana
       </td>
     </tr>
     <tr>
-      <td>Wednesday</td>
+      <td>Quarta</td>
       <td>
-        • Attend the team weekly meeting<br>
-        • Write documentation for a new process<br>
-        • Draft video outline for the new video I need to record<br>
-        • Review the work of a localization specialist
+        • Participar da reunião semanal do time<br>
+        • Documentar um processo novo<br>
+        • Escrever o rascunho de um novo vídeo que eu vou gravar<br>
+        • Revisar o trabalho da especialista de localização
       </td>
     </tr>
     <tr style="background-color: #f3f3f3;">
-      <td>Thursday</td>
+      <td>Quinta</td>
       <td>
-        • Data analysis on the results for the newsletter that came out last week<br>
-        • Draft blog post that will accompany the video<br>
-        • Draft the sample code for the video and blog post
+        • Fazer análise de dados da newsletter enviada semana passada<br>
+        • Rascunhar um blog post que vai acompanhar o vídeo<br>
+        • Rascunhar uma amostra de código que vai ser usada no video e no blog post
       </td>
     </tr>
     <tr>
-      <td>Friday</td>
+      <td>Sexta</td>
       <td>        
-        • Attend the company all hands meeting<br>
-        • Attend the team weekly happy hour<br>
-        • Review the blog post of a colleague
+        • Participar da reunião semanal de alinhamento e novidades da empresa<br>
+        • Participar do happy hour semanal com os colegas de time<br>
+        • Revisar um blog post de um colega
       </td>
     </tr>
   </tbody>
 </table>
 
-You might do all of that in a week and have a very different schedule for next week, especially when traveling to attend in-person events. You might even squeeze in some community work during your week or work on personal projects.
+Você pode fazer tudo que eu listei na semana acima e ainda ter uma agenda completamente diferente para semana seguinte, especialmente se você estiver viajando para participar de um evento pessoalmente. Você ainda pode arrumar tempo para ajudar a comunidade em algo ou trabalhar em algum projeto pessoal.
 
-One thing I can guarantee, even if this may seem repetitive — it is always about sharing knowledge and helping someone out — there’s never a dull moment.
+Uma coisa eu garanto, isso tudo pode até parecer repetitivo - tudo que você faz é sempre sobre compartilhar conhecimento ou ajudar alguém -  One thing I can guarantee, even if this may seem repetitive —, mas nunca tem um momento sem graça.
 
 ## Where does the DevRel team land in an organization?
 
