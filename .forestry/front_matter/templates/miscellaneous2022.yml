@@ -12,37 +12,32 @@ fields:
   label: title
   config:
     required: true
+- type: text
+  name: description
+  label: description
 - type: datetime
   name: date
   label: date
-- name: type
+- name: lang
   type: select
-  default: post
+  default: []
   config:
     required: true
     options:
-    - post
-    - talk
+    - en
+    - pt
     source:
       type: simple
       section: 
       file: 
       path: 
-  label: type
-- type: file
-  name: image
-  label: image
-- type: boolean
-  name: comments
-  label: comments
-  hidden: true
-  default: true
-- type: list
-  name: tags
-  label: tags
-- type: text
-  name: description
-  label: description
+  label: lang
+- name: translated
+  type: text
+  config:
+    required: false
+  label: translated
+  description: 'Translated piece. Pattern: /&lt;path&gt;'
 - name: translator
   type: boolean
   label: translator
@@ -70,3 +65,38 @@ fields:
     field: translator
     value: true
   default: This blog post was adapted for English by [inserir tradutora].
+- type: list
+  name: tags
+  label: tags
+- name: type
+  type: select
+  default: post
+  config:
+    required: true
+    options:
+    - post
+    - talk
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+- name: image
+  type: select
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+  config:
+    required: false
+    options:
+    - https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: image
+- type: boolean
+  name: comments
+  label: comments
+  hidden: true
+  default: true
