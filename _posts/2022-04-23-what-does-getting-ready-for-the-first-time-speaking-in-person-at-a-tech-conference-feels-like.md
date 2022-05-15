@@ -2,16 +2,18 @@
 layout: post
 title: What does getting ready for the first time speaking in person at a tech conference
   feels like
-date: 2022-04-23 22:33:34 -0300
+date: 2022-04-23T22:33:34.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
 tags:
 - pessoal
 - English
 comments: true
 description: And why should you get back on the road
+lang: en
+translator: false
+related: false
 
 ---
-
 If nothing else, sharing knowledge is a joyful experience. Think of the first time you learned to do something. Really learned. Didn’t it feel amazing? Didn’t you want to tell everyone and see their reactions when they saw that cool thing?
 
 I know I did. This is the same feeling I have in mind when I’m creating a new piece of content, be it a blog post, a video, a podcast episode, or a new talk. It is always the same. I want to share this cool thing with anyone that will listen.
