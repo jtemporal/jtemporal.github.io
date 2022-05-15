@@ -21,11 +21,6 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: file
-  name: image2
-  label: image2
-  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-  hidden: true
 - name: lang
   type: select
   default: []
@@ -81,6 +76,7 @@ fields:
   name: comments
   label: comments
   default: true
+  hidden: true
 - name: image
   type: text
   config:
