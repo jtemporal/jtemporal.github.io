@@ -28,7 +28,7 @@ author_note_link: ''
 author_note: ''
 
 ---
-Outubro é mês de hacktoberfest e esse deve ser o mês em que nós nos esforçamos mais para contribuir com _open-source_ e ajudar a mais pessoas contribuírem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨brilhar ✨. Vamos lá!
+Outubro é mês de hacktoberfest e esse deve ser o mês em que nós nos esforçamos mais para contribuir com _open-source_ e ajudar a mais pessoas contribuírem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨ brilhar ✨. Vamos lá!
 
 ## Siga o guia de contribuição do projeto
 
