@@ -4,7 +4,7 @@ type: talk
 title: Let's talk about JWT
 date: 2022-04-30 00:00:00 -0300
 lang: en
-image: ''
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png
 tags:
 - portugues
 description: Want to understand JWTs? Especially how to deal with them in python?
