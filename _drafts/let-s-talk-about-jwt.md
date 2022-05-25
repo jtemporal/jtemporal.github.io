@@ -9,6 +9,11 @@ tags:
 - portugues
 description: Want to understand JWTs? Especially how to deal with them in python?
   Here's a talk for you
+related: true
+posts_list:
+- how-to-handle-jwts-in-python
+- solving-conflicts
+- introducing-gitfichas
 
 ---
 First talk at PyCon US was amazing. If you missed it or need a recap, here it is:
