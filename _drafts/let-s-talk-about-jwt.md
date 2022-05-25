@@ -2,12 +2,13 @@
 layout: post
 type: talk
 title: Let's talk about JWT
-date: 2019-02-21T03:00:00.000+00:00
-lang: pt
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png
+date: 2022-04-30 00:00:00 -0300
+lang: en
+image: ''
 tags:
 - portugues
-description: Quer entender JWTs? Se liga nessa palestra
+description: Want to understand JWTs? Especially how to deal with them in python?
+  Here's a talk for you
 
 ---
 Você consegue conferir a palestra na íntegra aqui:
