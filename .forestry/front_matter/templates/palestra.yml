@@ -42,15 +42,17 @@ fields:
       file: 
       path: 
   label: lang
-- name: image
-  label: Img
-  type: file
-  hidden: false
-  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png
 - name: tags
   type: tag_list
   default: []
   label: tags
+- name: image
+  type: text
+  config:
+    required: true
+  label: image
+  default: ''
+  hidden: false
 pages:
 - _posts/2018-09-18-ciência-de-dados-no-mundo-real-com-serenata-de-amor.md
 - _posts/2019-02-21-vamos-falar-sobre-jwt.md
