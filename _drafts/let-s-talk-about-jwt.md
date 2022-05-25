@@ -11,6 +11,6 @@ description: Want to understand JWTs? Especially how to deal with them in python
   Here's a talk for you
 
 ---
-Você consegue conferir a palestra na íntegra aqui:
+First talk at PyCon US was amazing. If you missed it or need a recap, here it is:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rG_2ApMMT1A?start=923" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JyvJYkbzBNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
