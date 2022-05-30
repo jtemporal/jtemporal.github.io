@@ -57,7 +57,7 @@ Agora vamos refazer o commit no lugar certo e reaproveitar a mensagem.
 
 ## Reaproveitando a mensagem de commit
 
-Agora que você já desfez, o commit e tem as alterações em staging, pode criar o novo branch e mudar pra ele, eu falei do [comando anterior nesta outra colinha](https://jtemporal.com/criando-um-novo-branch-e-mudando-pra-ele-com-um-comando/) caso você queria conferir:
+Agora que você já desfez o commit e tem as alterações em staging, pode criar o novo branch e mudar pra ele, eu falei do [comando anterior nesta outra colinha](https://jtemporal.com/criando-um-novo-branch-e-mudando-pra-ele-com-um-comando/) caso você queira conferir:
 
 ```console
 git switch -c add-arquivos-novos
