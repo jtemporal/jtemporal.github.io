@@ -23,7 +23,7 @@ Existem algumas formas de interromper o trabalho, incluindo fazer commits. A min
 
 ## O que é o stash
 
-Stash pode ser visto com um empacotamento das mudanças atuais, que ainda não foram feitas o commit, que fica salva localmente no seu computador numa pilha. Cada pacote de mudanças é chamado de stash.
+Stash pode ser visto com um empacotamento das mudanças atuais, que ainda não foram feitas o commit, que fica salvo localmente no seu computador numa pilha. Cada pacote de mudanças é chamado de stash.
 
 Quando um stash é criado, o seu diretório volta a um _estado limpo_, ou seja, sem mudanças nos arquivos que são acompanhados pelo Git. Isso também quer dizer que arquivos novos, que ainda não foram adicionados em um commit, não são adicionados em stash.
 
