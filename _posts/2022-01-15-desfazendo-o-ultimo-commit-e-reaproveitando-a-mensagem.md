@@ -4,7 +4,8 @@ date: 2022-01-15T11:25:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
 title: Desfazendo o último commit e mantendo as alterações para um próximo commit
-description: Desfaça o último commit com git reset usando --soft e reutilize a mensagem com o ORIG_HEAD
+description: Desfaça o último commit com git reset usando --soft e reutilize a mensagem
+  com o ORIG_HEAD
 type: post
 tags:
 - git
@@ -29,7 +30,7 @@ Com esses dois comandos no seu repertório de comandos Git você será muito mai
 Eu falei sobre o comando [`git reset` nesta outra colinha](https://jtemporal.com/desfazendo-um-ou-mais-commits), em resumo ele é um comando que permite retornar à um estado anterior. O uso mais básico deste comando é usá-lo para desfazer um ou mais commits dos mais recentes. Com isso, vamos supor que você está na seguinte situação (curiosamente eu passei por isso na última sexta):
 
 1. Você fez um commit no branch incorreto;
-2. Ainda não enviou esse novo commit para o *remote;*
+2. Ainda não enviou esse novo commit para o _remote;_
 3. Você quer desfazer esse commit e refazer-lo no branch correto.
 
 Para exemplificar eu tenho aqui um histórico de um projeto em que temos dois commits: o commit inicial no branch `main` (`d815be`) e o segundo commit (`5e8ae2`) adicionando o `arquivo-1.txt` que deveria ser em outro branch, veja:
@@ -40,7 +41,7 @@ Agora chegou a hora de desfazer o nosso commit incorreto.
 
 ## Desfazendo o último commit de forma soft
 
-Dado esse cenário, o primeiro passo é usar o comando `git reset`. Talvez você não saiba que existe uma *flag* que ao desfazer um commit com o `git reset` permite que você mantenha as alterações do commit em staging e a mensagem de commit guardada numa variável especial que vou te mostrar jájá, essa *flag* é a `--soft`.
+Dado esse cenário, o primeiro passo é usar o comando `git reset`. Talvez você não saiba que existe uma _flag_ que ao desfazer um commit com o `git reset` permite que você mantenha as alterações do commit em staging e a mensagem de commit guardada numa variável especial que vou te mostrar jájá, essa _flag_ é a `--soft`.
 
 Então podemos montar o nosso comando assim:
 
@@ -48,7 +49,7 @@ Então podemos montar o nosso comando assim:
 git reset HEAD^ --soft
 ```
 
-A flag `--soft` indica que você quer desfazer o commit de forma mais sutil, ou seja, mantendo as alterações. Ao executar esse comando, você não receberá nenhuma mensagem, mas as alterações estão em *staging*, o que você pode conferido com o comando `git status`  e o resultado é o seguinte: 
+A flag `--soft` indica que você quer desfazer o commit de forma mais sutil, ou seja, mantendo as alterações. Ao executar esse comando, você não receberá nenhuma mensagem, mas as alterações estão em _staging_, o que você pode conferir com o comando `git status`  e o resultado é o seguinte:
 
 ![captura de tela mostrando o resultado do comando git reset HEAD^ --soft](https://res.cloudinary.com/jesstemporal/image/upload/v1642213678/git-reset/git-reset-fig-9_xbmaen.png)
 
@@ -70,7 +71,7 @@ git commit -C ORIG_HEAD
 
 Essa flag `-C`  quer dizer literalmente "reutilizar mensagem", e esse é o resultado:
 
-![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG_HEAD](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
+![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
 
 Por fim, se você quiser editar a mensagem, você deve usar a flag `-c` no lugar da flag atual, isso vai te dar a oportunidade de ajustar a mensagem anterior antes de terminar o commit.
 
