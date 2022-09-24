@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solving conflicts
+title: Solving conflicts in Git
 date: 2021-12-24T18:55:59.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
@@ -19,6 +19,7 @@ posts_list:
 - updating-a-branch-with-git-rebase
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: professoradeboraazevedo@gmail.com
+translator: true
 
 ---
 Resolving conflicts can be an arduous and complicated task when it comes to git projects. In this article you will learn a foolproof step-by-step guide to resolving conflicts.

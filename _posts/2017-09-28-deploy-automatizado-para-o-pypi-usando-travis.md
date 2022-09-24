@@ -30,7 +30,7 @@ Como o Travis pode te ajudar a automatizar o lançamento de novas versões de um
 
 Pessoas que escrevem bons códigos normalmente seguem a filosofia DRY (_“don’t repeat yourself”_ ou não se repita). Além de fazer isso em código, muitas fazem o mesmo para tarefas que vão ter que ser repetidas com certa frequência: subir uma nova máquina virtual, configurar o ambiente de trabalho ou até mesmo o _deploy_ de novas versões de código. Evitar repetições e automatizar processos se torna algo muito presente no nosso trabalho diário principalmente por ser uma das essências da computação.
 
-***
+---
 
 Pra continuar lendo esse artigo e saber como funciona o deploy automatizado do Serenata Toolbox usando o Travis, corre lá para a revista do Serenata de Amor 👇
 

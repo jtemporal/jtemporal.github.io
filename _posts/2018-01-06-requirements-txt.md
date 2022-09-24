@@ -17,11 +17,11 @@ tags:
 comments: true
 
 ---
-***
+---
 
 Author note: You can [read this post in English here](https://jtemporal.com/requirements-txt-en/).
 
-***
+---
 
 Depois de uma conversa longa outro dia sobre dependências e reprodutibilidade de ambientes, decidi fazer essa colinha pra falar de um arquivo muito frequente nos projetos [Python](http://python.org/) que vejo por aí: o `requirements.txt`.
 
@@ -67,7 +67,7 @@ O comando `pip freeze` lista no terminal os pacotes Python instalados no seu amb
 
 Massa né? Agora é só criar arquivos de dependências para todos projetos 😜
 
-***
+---
 
 ## Links
 

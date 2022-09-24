@@ -11,7 +11,7 @@ tags:
 ---
 Não basta definir modelos e usar as validações que vem de fábrica, às vezes precisamos expandir essas validações para casos específicos do nosso domínio. Vamos ver como fazer isso nesse tutorial.
 
-***
+---
 
 Pra continuar lendo esse tutorial, vai lá para a revista do Pizza 👇
 

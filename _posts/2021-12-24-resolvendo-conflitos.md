@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resolvendo conflitos
+title: Resolvendo conflitos em Git
 date: 2021-12-24T18:55:59.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
@@ -156,7 +156,7 @@ Aqui está a lista simples de todos os comandos e passos para resolver conflitos
 
 Espero que esse artigo te ajude a resolver os conflitos de git que você encontrar daqui pra frente. 😉
 
-***
+---
 
 ## Leitura extra
 

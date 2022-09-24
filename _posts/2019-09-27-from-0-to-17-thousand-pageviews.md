@@ -22,11 +22,11 @@ tags:
 - english
 
 ---
-***
+---
 
 _Author note:_ Você pode ler [este artigo em Português](https://jtemporal.com/de-0-a-17-mil-pageviews/).
 
-***
+---
 
 The first website I got online was a Django based one. It was on a workshop of the academic week of my undergraduate course Biomedical Informatics taught by Ribeirão Preto's Python community. It was the first time I saw how to use Python, and it was my first deploy ever, with Heroku and all, but this is a story for another time.
 

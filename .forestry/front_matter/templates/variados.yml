@@ -25,11 +25,6 @@ fields:
   type: datetime
   hidden: false
   default: now
-- name: image
-  label: capa
-  type: file
-  hidden: false
-  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 - name: lang
   type: select
   default: pt
@@ -78,6 +73,12 @@ fields:
   type: boolean
   hidden: false
   default: true
+- name: image
+  type: text
+  config:
+    required: false
+  label: image
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 pages:
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
@@ -91,4 +92,3 @@ pages:
 - _posts/2020-03-26-trabalhando-remoto.md
 - _posts/2020-03-26-working-remotely.md
 - _posts/2021-08-21-conheca-o-gitfichas.md
-- _posts/2021-10-05-5-dicas-para-fazer-o-seu-pull-request-brilhar.md

@@ -26,11 +26,11 @@ tags:
 description: Learn to calculate the optimal cluster number using the elbow method
 
 ---
-***
+---
 
 Leia [esse texto em Português](https://medium.com/pizzadedados/kmeans-e-metodo-do-cotovelo-94ded9fdf3a9) na Revista do Pizza.
 
-***
+---
 
 One of the most famous methods to find clusters in data in an unsupervised way is using KMeans. But what do we do when we have absolutely no idea how many clusters the data is going to form? We can't just guess.
 
@@ -38,11 +38,11 @@ Discovering the number of clusters is a challenge especially when we are dealing
 
 The idea is pretty basic: define the optimal amount of clusters that can be found even though we don't know the answer in advance. Seems like magic, doesn't it? But I promise you it isn't.
 
-***
+---
 
 The code that I'm going to use from now on [can be found in this GitHub repository](https://github.com/jtemporal/kmeans_e_cotovelo).
 
-***
+---
 
 So to begin, we need data! We will use [the Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). There's a genre of flowers called Iris, it is a group of around 300 flower species with different petal and sepal sizes. Biological curiosity aside, the dataset is used to demonstrate how machine learning  and clustering algorithms work a lot. I mean A LOT!
 
@@ -196,7 +196,7 @@ Is also worth mentioning that the elbow method isn't the only way to infer the o
 
 xoxo and good clusterization.
 
-***
+---
 
 ## Extra reading
 

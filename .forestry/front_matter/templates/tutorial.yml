@@ -1,6 +1,7 @@
 ---
-label: Tutorial
+label: tutorial2022
 hide_body: false
+display_field: title
 fields:
 - name: layout
   label: Layout
@@ -28,9 +29,10 @@ fields:
   config:
     required: true
 - name: image
-  label: Img
-  type: file
-  hidden: false
+  type: text
+  config:
+    required: false
+  label: image
   default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 - name: lang
   type: select
@@ -51,6 +53,34 @@ fields:
   config:
     required: false
   label: translated
+- name: translator
+  type: boolean
+  label: translator
+- name: author_note
+  type: text
+  config:
+    required: false
+  label: author_note
+  description: This blog post was adapted for English by [name].
+  showOnly:
+    field: translator
+    value: true
+- name: author_note_link
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - professoradeboraazevedo@gmail.com
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author_note_link
+  showOnly:
+    field: translator
+    value: true
 - name: tags
   type: list
   config:
@@ -88,5 +118,6 @@ pages:
 - _posts/2021-04-21-creating-vm-droplet-digital-ocean.md
 - _posts/2021-05-31-configuring-and-accessing-your-droplet-via-ssh.md
 - _posts/2021-12-24-resolvendo-conflitos.md
+- _posts/2021-12-24-solving-conflicts.md
 - _posts/como-gerar-conteudo-automaticamente-usando-collections-no-jekyll.md
 - _posts/criando-a-sua-maquina-na-nuvem-com-digital-ocean.md

@@ -1,5 +1,5 @@
 ---
-label: Pessoal
+label: personal2022
 hide_body: false
 fields:
 - name: layout
@@ -22,11 +22,20 @@ fields:
   type: datetime
   hidden: false
   default: now
-- name: image
-  label: Capa
-  type: file
-  hidden: false
-  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+- name: lang
+  type: select
+  default: pt
+  config:
+    required: true
+    options:
+    - en
+    - pt
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lang
 - name: tags
   label: Tags
   type: tag_list
@@ -36,8 +45,20 @@ fields:
 - name: comments
   label: Comments
   type: boolean
-  hidden: false
+  hidden: true
   default: true
+- name: translator
+  type: boolean
+  label: translator
+- name: related
+  type: boolean
+  label: related
+- name: image
+  type: text
+  config:
+    required: false
+  label: image
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
 pages:
 - _posts/2016-10-13-its-alive.md
 - _posts/2017-01-23-I-wanted-to-say.md
@@ -45,4 +66,4 @@ pages:
 - _posts/2017-01-26-the-moving.md
 - _posts/2017-02-02-virou-purpurina.md
 - _posts/2017-02-09-meu-medo-de-formularios.md
-- _posts/2017-05-10-comunidade-python-rio.md
+- _posts/2022-04-23-what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like.md

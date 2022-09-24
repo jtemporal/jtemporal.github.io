@@ -42,17 +42,33 @@ fields:
       file: 
       path: 
   label: lang
-- name: image
-  label: Img
-  type: file
-  hidden: false
-  default: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png
 - name: tags
   type: tag_list
   default: []
   label: tags
+- name: image
+  type: text
+  config:
+    required: true
+  label: image
+  default: ''
+  hidden: false
+- name: related
+  type: boolean
+  label: Related
+- name: posts_list
+  type: list
+  config:
+    use_select: false
+    min: 3
+    max: 3
+  label: posts_list
+  showOnly:
+    field: related
+    value: true
 pages:
 - _posts/2018-09-18-ciência-de-dados-no-mundo-real-com-serenata-de-amor.md
+- _posts/2019-02-21-vamos-falar-sobre-jwt.md
 - _posts/2019-04-06-cdd-no-mundo-real-com-serenata-wids.md
 - _posts/2021-04-15-my-first-avocadolabs-live-o.md
 - _posts/2021-07-17-tutorial-introducao-aos-modulos-de-analise-de-dados.md
@@ -60,8 +76,10 @@ pages:
 - _posts/2021-08-04-live-stream-como-montar-tua-palestra-para-python-brasil.md
 - _posts/2021-08-04-podcast-raphacast-second-season.md
 - _posts/2021-08-24-traveling-through-a-secure-api-with-python-and-auth0.md
+- _posts/2021-08-30-esquenta-2022-carreira-devrel-feministech-16.3.md
 - _posts/2021-08-30-fechatag-40.md
 - _posts/2021-08-30-universo-python.md
 - _posts/2021-09-08-braincast-423.md
 - _posts/2021-09-17-tips-for-writing-great-technical-content.md
 - _posts/2021-10-12-viajando-por-o-uma-api-segura-com-flask.md
+- _posts/2022-04-30-let-s-talk-about-jwt.md

@@ -17,11 +17,11 @@ tags:
 comments: true
 ---
 
-***
+---
 
 Nota da autora: Você pode [ler esse artigo em Português se preferir](https://jtemporal.com/requirements-txt/).
 
-***
+---
 
 After a long conversation the other day about dependencies and environments reproducibility, I decided to make this post to talk about a very common file in [Python](http://python.org/) projects that I see all around: the `requirements.txt`.
 
@@ -67,7 +67,7 @@ The command `pip freeze` lists the Python packages installed in your environment
 
 Awesome right? Now just create dependency files for all projects 😜
 
-***
+---
 
 ## Links
 

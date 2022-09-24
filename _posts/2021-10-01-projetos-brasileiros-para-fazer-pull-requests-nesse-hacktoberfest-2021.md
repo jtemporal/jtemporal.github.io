@@ -76,7 +76,7 @@ Por último, nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilh
 
 Happy Hacking! 🎉
 
-***
+---
 
 {% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
 {% for group in grouped %}
@@ -85,7 +85,7 @@ Happy Hacking! 🎉
 <div class="github-project-share">
 <a style="text-decoration: none;" href="{{ item.repo }}">
 {% assign project_info = item.relative_path |  remove: ".md" | remove: ".yml" | split: "/"  %}
-{% assign project = project_info\[2\] | replace: "+", "/" %}
+{% assign project = project_info[2] | replace: "+", "/" %}
 <div class="github-project-share-card ">
 <img src="{{ item.image }}" alt="" />
 <h4>{{ project }}</h4>
@@ -97,6 +97,6 @@ Happy Hacking! 🎉
 </div>
 {%endfor%}
 
-***
+---
 
 {%endfor%}

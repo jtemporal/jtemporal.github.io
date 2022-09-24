@@ -85,6 +85,6 @@ Once you click the "Create Droplet" button, you'll see your new droplet on the l
 
 Congratulations! You did it! You created your droplet successfully!
 
-***
+---
 
 [In this next post I talk about how to configure the Droplet so you can actually use it with SSH and all](https://jtemporal.com/configuring-and-accessing-your-droplet-via-ssh/), check it out 😉

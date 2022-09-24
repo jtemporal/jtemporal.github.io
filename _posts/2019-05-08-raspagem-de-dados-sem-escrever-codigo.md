@@ -26,7 +26,7 @@ Isso mesmo: existem alguns tipos de dados que conseguimos raspar sem precisar da
 * Seu navegador favorito;
 * Um site para coletar informação.
 
-***
+---
 
 Pra continuar lendo esse tutorial, vai lá para a revista do Pizza 👇
 

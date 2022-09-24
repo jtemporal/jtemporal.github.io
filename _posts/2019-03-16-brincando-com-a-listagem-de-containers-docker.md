@@ -16,11 +16,11 @@ description: Aprenda a turbinar a listagem de containers do Docker
 
 ---
 
-\***
+\---
 
 Nota da autora: [Read this article in English](https://jtemporal.com/playing-with-dockers-container-listing)
 
-\***
+\---
 
 Se você usa Docker, provavelmente o terceiro comando que aprendeu foi listar eles, mas você sabe que dá pra tunar a listagem de containers?
 
@@ -78,6 +78,6 @@ Que me da um resultado assim:
         CONTAINER ID        IMAGE                          NAMES
         11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
 
-***
+---
 
 Legal né? E aí, você já listou os seus containers hoje?
