@@ -98,9 +98,9 @@ No lugar de falar sobre o meu dia, eu vou falar da minha semana por que eu acho 
     <tr>
       <td>Segunda</td>
       <td>
-        • Go through the collaboration requests<br>
-        • Check in with ambassadors questions<br>
-        • Practice a talk I’m giving the following day and make sure that no adjustments are required
+        • Fazer a triagem dos pedidos de colaboracao<br>
+        • Conferir as perguntas de pessoas embaixadoras<br>
+        • Praticar uma palestra que vou apresentar no dia seguinte e garantir que ajustes não são necessarios
       </td>  
     </tr>
     <tr style="background-color: #f3f3f3;">
@@ -144,13 +144,13 @@ Você pode fazer tudo que eu listei na semana acima e ainda ter uma agenda compl
 
 Uma coisa eu garanto, isso tudo pode até parecer repetitivo - tudo que você faz é sempre sobre compartilhar conhecimento ou ajudar alguém -  One thing I can guarantee, even if this may seem repetitive —, mas nunca tem um momento sem graça.
 
-## Where does the DevRel team land in an organization?
+## Onde on time de DevRel se encontra em uma organizacao?
 
-From what I’ve seen, there are three main locations in an organization for placing a developer relations team:
+Pelo que andei vendo, existem tres locais para encontrar o time de developer relations dentro de uma empresa:
 
-- Engineering: as part of the software engineering team
-- Marketing: as part of the developer marketing organization
-- Product: as part of the product development
+- Engenharia: como parte do time de engenharia de software
+- Marketing: como parte da organizacao de marketing
+- Produto: como parte de desenvolvimento de produto
 
 Where you find the team usually speaks to how the developer relations team is seen by other peers in the organization: Whether it is a technical role and if it is compensated as such. In Auth0's case, the DevRel team is under the Developer Marketing umbrella, and it is seen as a technical role.
 
