@@ -5,8 +5,15 @@ date: 2022-05-28T03:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 comments: true
 description: Learn how to create an .well-know endpoint with the identity proof for Keybase
+lang: en
+author_note_link: ""
+author_note: ""
+translator: false
 tags:
 - tutorial
+- english
+
+
 
 ---
 How to add an identity proof to your Jekyll blog
