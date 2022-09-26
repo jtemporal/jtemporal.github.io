@@ -2,7 +2,7 @@
 layout: post
 title: How to create a new collection in MongoDB by joining two collections
 date: 2022-09-24T10:33:34.000-03:00
-image: image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 tags:
 - tutorial
 - English
