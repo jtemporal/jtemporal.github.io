@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: Let's talk about JWT
 date: 2022-04-30 00:00:00 -0300
+hidden: true
 lang: en
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png
 tags:
