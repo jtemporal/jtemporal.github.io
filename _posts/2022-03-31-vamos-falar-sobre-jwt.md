@@ -1,6 +1,7 @@
 ---
 layout: post
 type: talk
+hidden: true
 title: Vamos falar sobre JWT
 date: 2022-03-31 00:00:00 -0300
 lang: pt
