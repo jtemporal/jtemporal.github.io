@@ -1,6 +1,6 @@
 ---
-repo: https://github.com/Rocketseat/unform
-image: https://raw.githubusercontent.com/Rocketseat/unform/master/.github/assets/logo.png
+repo: https://github.com/unform/unform
+image: https://avatars.githubusercontent.com/u/69817179?sv=4&size=200
 description: ReactJS form library to create uncontrolled form structures with nested fields, validations and much more!
 principal_language: TypeScript
 ---
