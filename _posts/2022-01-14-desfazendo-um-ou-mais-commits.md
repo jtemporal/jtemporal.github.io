@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-01-14T22:00:00.000-02:00
+date: 2022-01-14T10:00:00.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
 title: Desfazendo os últimos commits usando git reset
