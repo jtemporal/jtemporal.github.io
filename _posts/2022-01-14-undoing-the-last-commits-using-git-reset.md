@@ -15,6 +15,10 @@ posts_list:
 - solving-conflicts
 - desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 - 5-tips-to-make-your-pull-request-shine
+lang: en
+translated: "/desfazendo-um-ou-mais-commits"
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: professoradeboraazevedo@gmail.com
 
 ---
 Since everything we do in git can be done in countless different ways, there are a few ways to get rid of commits. The most common way to undo one or more recent commits is using the command `git reset` that you'll see in this pro tip.
