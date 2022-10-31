@@ -33,14 +33,14 @@ Packing is an acquired skill. The more you do, the better you get at it. I like 
 No matter how long or short the trip, I usually travel with a carry-on suitcase and a backpack. This requires me to be very intentional about what I take with me. Here's how I divide my things between the suitcase and the backpack:
 
 1. In the backpack, I take:
-   a. *All my electronics:* gimbal, iPad, work computer, noise-canceling headphones, camera, power bank, and chargers
-   b. *All liquids:* Medicine, lotions, hair products
-   c. A sweater or hoodie, an extra pair of underwear, and a t-shirt
-   d. Passport, currency, jewelry, and cards
-   e. An empty water bottle
+   1. *All my electronics:* gimbal, iPad, work computer, noise-canceling headphones, camera, power bank, and chargers
+   2. *All liquids:* Medicine, lotions, hair products
+   3. A sweater or hoodie, an extra pair of underwear, and a t-shirt
+   4. Passport, currency, jewelry, and cards
+   5. An empty water bottle
 2. In the carry-on goes:
-   a. *All my clothing:* cardigans, underwear, a hairdryer bonnet for the curls;
-   b. *Anything that doesn't have a battery:* tripods, swag, selfie stick, and flip-flops.
+   1. *All my clothing:* cardigans, underwear, a hairdryer bonnet for the curls;
+   2. *Anything that doesn't have a battery:* tripods, swag, selfie stick, and flip-flops.
 
 ### Before the airport
 
