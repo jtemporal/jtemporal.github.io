@@ -93,12 +93,12 @@ For me takes about 5 days to completely adjust to a new timezone. That's just ho
 
 In short, here's what you need to keep in mind:
 
-1. Check-in online if you can;
-1. Pack like you mean it;
-1. Find a phone plan that works for you; eSIM is a great thing;
-1. Be prepared to take your shoes off;
-1. Noise-canceling headphones are REALLY helpful;
-1. Check how to get around the city before you actually get there;
-1. Jet-Lag is real. Respect your body.
+1. 🎟️ Check-in online if you can;
+2. 🧳 Pack like you mean it;
+3. 📱 Find a phone plan that works for you; eSIM is a great thing;
+4. 👟 Be prepared to take your shoes off;
+5. 🎧 Noise-canceling headphones are REALLY helpful;
+7. 🗺️ Check how to get around the city before you actually get there;
+8. 😴 Jet-Lag is real. Respect your body.
 
 Before you go, I'd like to leave you with one bonus tip: take more pictures than you think you need. I always arrive home feeling like I could use more pictures or videos, even if I don't post them.
