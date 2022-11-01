@@ -73,7 +73,7 @@ git commit -C ORIG_HEAD
 
 Essa flag `-C`  quer dizer literalmente "reutilizar mensagem", e esse é o resultado:
 
-![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
+![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG_HEAD](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
 
 Por fim, se você quiser editar a mensagem, você deve usar a flag `-c` no lugar da flag atual, isso vai te dar a oportunidade de ajustar a mensagem anterior antes de terminar o commit.
 
