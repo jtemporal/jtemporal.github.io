@@ -15,6 +15,8 @@ posts_list:
 - usando-git-stash-e-git-stash-pop
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
+lang: pt
+translated: "/why-the-git-stash-drop-is-useful"
 
 ---
 Tá precisando limpar a lista de stashes e não sabe como? Não se preocupe, nessa colinha você vai aprender a "jogar fora" stashes que não precisa mais usando o comando `git stash drop`. 😉
