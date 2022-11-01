@@ -67,7 +67,7 @@ Buses in Berlin can be a nightmare, but trains and trams work really well. Googl
 
 ## 4. If you need to be connected at all times: eSIM is the way to go
 
-If you need to be connected while away, buy and configure an eSIM before you go. I use an eSIM from Airalo. Airalo has a plethora of packages and works in a lot of countries. Because it is right there on your phone is easier than buying a new SIM every time, lowering the decision burden. Since they are digital, using an eSIM also generates less trash.
+If you need to be connected while away, buy and configure an eSIM before you go. I [use an eSIM from Airalo](https://ref.airalo.com/a1bF). Airalo has a plethora of packages and works in a lot of countries. Because it is right there on your phone is easier than buying a new SIM every time, lowering the decision burden. Since they are digital, using an eSIM also generates less trash.
 
 Another good thing, the data or mobile plan you pick may expire, but the eSIM itself doesn't, so you only have to set up the eSIM once. I bought one global data eSIM that I can add more data to it whenever I need to travel again.
 
