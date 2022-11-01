@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2022-01-23T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
 title: Using git stash and git stash pop
 description: Understand how to use git stash and git stash pop for real
