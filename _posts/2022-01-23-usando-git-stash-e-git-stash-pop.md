@@ -15,6 +15,8 @@ posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
+lang: pt
+translated: "/using-git-stash-and-git-stash-pop"
 
 ---
 Mudar de branches durante o meio de trabalho é algo que acontece com certa frequência, por exemplo, para resolver um bug fazendo um _"hotfix"_ em um outro branch enquanto você está desenvolvendo uma tarefa.

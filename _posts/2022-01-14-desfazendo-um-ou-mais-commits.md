@@ -15,6 +15,8 @@ posts_list:
 - resolvendo-conflitos
 - desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
+lang: pt
+translated: "/undoing-the-last-commits-using-git-reset"
 
 ---
 Como tudo que fazemos em git pode ser feito de inúmeras formas diferentes, existem alguns jeitos de se livrar de commits, a forma mais comum de desfazer um ou mais commits recentes é usando o comando `git reset` que vou te mostrar nessa colinha.
@@ -111,7 +113,7 @@ Abaixo você encontra [GitFichas pra te ajudar a lembrar desses comandos e atalh
 
 {% assign ficha_url = "https://gitfichas.com/projects/037?utm_source=blog" %}
 {% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878677/gitfichas/pt/037/full_uakvoe.jpg" %}
-{% assign ficha_title = "GitFicha #036" %}
+{% assign ficha_title = "GitFicha #037" %}
 {% assign ficha_description = "git reset HEAD^" %}
 {% include ficha.html %}
 

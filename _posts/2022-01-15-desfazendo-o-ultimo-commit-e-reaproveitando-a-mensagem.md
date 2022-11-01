@@ -16,6 +16,8 @@ posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
+lang: pt
+translated: "/undoing-the-last-commit-and-reusing-the-message"
 
 ---
 Desfazer e refazer commits faz parte do dia-a-dia, então é importante entender os comandos que podem ajudar a gente nesse caminho. Nessa colinha eu vou te ensinar a fazer duas coisas:
@@ -71,7 +73,7 @@ git commit -C ORIG_HEAD
 
 Essa flag `-C`  quer dizer literalmente "reutilizar mensagem", e esse é o resultado:
 
-![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
+![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG_HEAD](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
 
 Por fim, se você quiser editar a mensagem, você deve usar a flag `-c` no lugar da flag atual, isso vai te dar a oportunidade de ajustar a mensagem anterior antes de terminar o commit.
 
