@@ -2,7 +2,7 @@
 layout: post
 title: "7 useful tips for traveling with ease ✈️"
 date: 2022-10-31T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 comments: true
 type: post
 lang: en
