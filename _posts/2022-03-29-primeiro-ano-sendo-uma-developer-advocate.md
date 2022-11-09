@@ -15,8 +15,8 @@ tags:
 - português
 description: "Tem curiosidade sobre como foi a mudança de carreira entre ciência de
   dados para developer relations/advocacy? Nesse post eu conto tudo \U0001F609"
-author_note_link: ""
-author_note: ""
+author_note_link: "https://jtemporal.com/one-year-as-a-developer-advocate"
+author_note: "You can read this blog post in english too."
 translator: false
 
 ---

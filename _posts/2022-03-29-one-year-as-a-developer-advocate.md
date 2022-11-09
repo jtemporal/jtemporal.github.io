@@ -14,9 +14,9 @@ tags:
 description: "Curious about how the move from data science to developer relations/advocacy
   was? Read this one \U0001F609"
 lang: en
-author_note_link: ""
-author_note: ""
-translated: ''
+author_note_link: "https://jtemporal.com/primeiro-ano-sendo-uma-developer-advocate/"
+author_note: "Você pode ler esse artigo em Português"
+translated: '/primeiro-ano-sendo-uma-developer-advocate/'
 translator: false
 
 ---
