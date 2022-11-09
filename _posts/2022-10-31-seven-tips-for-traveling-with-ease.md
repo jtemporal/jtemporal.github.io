@@ -13,9 +13,10 @@ tags:
 - developer advocacy
 - english
 description: "The tips that helped me get through over 15 airports in seven countries in a timely manner in the past year"
-author_note_link: ""
-author_note: ""
+author_note_link: "https://jtemporal.com/sete-dicas-para-viajar-com-tranquilidade/"
+author_note: "Você pode ler esse artigo em Português"
 translator: false
+translated: "/sete-dicas-para-viajar-com-tranquilidade"
 
 ---
 Traveling can be daunting, especially if you have never felt comfortable doing it before. Here you can find my personal take on things that helped me get through over 15 airports in seven countries in a timely manner in the past year.
