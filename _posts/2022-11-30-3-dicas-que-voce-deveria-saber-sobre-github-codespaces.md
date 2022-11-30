@@ -22,7 +22,7 @@ Eu gosto muito de personalizar meu terminal para que ele mostre as coisas que eu
 
 Também é comum armazenar tais arquivos dentro de um repositório no GitHub com o nome `dotfiles`, por exemplo aqui está a minha [coleção de arquivos dotfiles](http://github.com/jtemporal/dotfiles). Para ativar o uso desses arquivos no seu Codespaces, clique na sua foto no canto superior direito e escolha *Settings* no menu que apareceu.
 
-![Imagem mostrando a seção de Settings no menu do perfil no GitHub](https://res.cloudinary.com/jesstemporal/image/upload/v1669837358/codespaces/github-menu-selected-option-settings_yq0gpb.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 70%;"}
+![Imagem mostrando a seção de Settings no menu do perfil no GitHub](https://res.cloudinary.com/jesstemporal/image/upload/v1669837358/codespaces/github-menu-selected-option-settings_yq0gpb.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 30%;"}
 
 Uma vez no painel de configurações encontre a opção *Codespaces* no menu lateral esquerdo na seção *Code, planning, and automation* e clique nela.
 
