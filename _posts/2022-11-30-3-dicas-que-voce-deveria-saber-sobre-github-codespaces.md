@@ -63,4 +63,4 @@ Essas são três dicas mais rápidas de implementar que eu consigo pensar, em ce
 
 - Configure dotfiles para personalizar a sua experiência;
 - Conheça o painel de gerenciamento do Codespaces;
-- Aprenda a usar o git na interface do VS Code.
+- Aprenda a usar a integração do GitHub na interface do VS Code.
