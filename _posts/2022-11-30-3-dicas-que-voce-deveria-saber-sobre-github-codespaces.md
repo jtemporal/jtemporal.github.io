@@ -28,19 +28,13 @@ Uma vez no painel de configurações encontre a opção *Codespaces* no menu lat
 
 ![Imagem mostrando a seção de Codespaces no menu da esquerda na página de Settings](https://res.cloudinary.com/jesstemporal/image/upload/v1669837358/codespaces/codespaces-lefthand-side-menu-in-settings_czk5sy.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
-Imagem mostrando a seção de Codespaces no menu da esquerda na página de Settings
-
 Isso vai te levar para a página de configuração do Codespaces e logo aparece a primeira seção chamada *Dotfiles.*
 
 ![Seção de configuração de Dotfiles no Settings antes de usar dotfiles](https://res.cloudinary.com/jesstemporal/image/upload/v1669837358/codespaces/dotfiles-section-on-codespaces-settings_omptlu.jpg)
 
-Seção de configuração de Dotfiles no Settings antes de usar dotfiles
-
 Agora clique na caixa de seleção para instalar os dotfiles automaticamente nos Codespaces e, caso você tenha um repositório chamado `dotfiles` o GitHub irá identificar o seu repositório correspondente e usá-lo aqui. 
 
 ![Seção de configuração de Dotfiles no Settings após ativar o uso de dotfiles](https://res.cloudinary.com/jesstemporal/image/upload/v1669837358/codespaces/dotfiles-section-on-codespaces-settings-configured_mcdp4d.jpg)
-
-Seção de configuração de Dotfiles no Settings após ativar o uso de dotfiles
 
 Tenha em mente que você pode alterar para um outro repositório caso queira. Por fim, é bom salientar duas coisas:
 
@@ -53,8 +47,6 @@ Agora que você tem 60h gratuitas por mês para brincar com o Codespaces você s
 
 ![Lista de Codespaces no seu perfil](https://res.cloudinary.com/jesstemporal/image/upload/v1669837358/codespaces/github-codespaces-dashboard_lbbvhv.jpg)
 
-Lista de Codespaces no seu perfil
-
 Para facilitar o seu trabalho existe uma página que você consegue ver todos os Codespaces que você tem e o status de cada um como visto na imagem acima, basta acessar [github.com/codespaces](http://github.com/codespaces). Eu ainda recomendo você criar o hábito de fazer isso regularmente para ajudar a manter a sua cota gratuita livre.
 
 ## Aprenda a usar o GitHub na interface do VS Code
@@ -62,8 +54,6 @@ Para facilitar o seu trabalho existe uma página que você consegue ver todos os
 Por fim a parte que pode demandar mais tempo: usar a integração do GitHub na interface do VS Code. Existe uma extensão do VS Code chamada [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) que te permite basicamente fazer coisas como revisar pull requests e interagir com issues diretamente no VS Code.
 
 ![Imagem mostrando a integração de github com codespaces com um pull request de exemplo](https://res.cloudinary.com/jesstemporal/image/upload/v1669838059/codespaces/github-vscode-extension-in-action_wnsiub.jpg)
-
-Imagem mostrando a integração de github com codespaces com um pull request de exemplo
 
 Isso vai te trazer uma grande agilidade no seu processo de revisão de pull requests por que você nem precisa ficar trocando de aba ou sair do seu Codespace para interagir.
 
