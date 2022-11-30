@@ -2,7 +2,7 @@
 layout: post
 title: "3 dicas que você precisa saber sobre GitHub Codespaces"
 date: 2022-11-30T15:00:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
 type: post
 lang: pt
