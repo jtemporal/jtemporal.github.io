@@ -14,7 +14,7 @@ lang: pt
 translator: false
 
 ---
-Em 2018](https://jtemporal.com/retrospectiva-2018/) e [em 2017](https://jtemporal.com/retrospectiva-2017/) eu fiz retrospectivas públicas e, por algum motivo, não senti necessidade de fazer isso em entre 2019 e 2021, possivelmente por que dois desses anos foram de pandemia e eu tava só tentando sobreviver? Sim. 2022 chegou e com ele a reabertura do mundo. Esse ano tanta coisa aconteceu que acho que vale a pena a reflexão.
+[Em 2018](https://jtemporal.com/retrospectiva-2018/) e [em 2017](https://jtemporal.com/retrospectiva-2017/) eu fiz retrospectivas públicas e, por algum motivo, não senti necessidade de fazer isso em entre 2019 e 2021, possivelmente por que dois desses anos foram de pandemia e eu tava só tentando sobreviver? Sim. 2022 chegou e com ele a reabertura do mundo. Esse ano tanta coisa aconteceu que acho que vale a pena a reflexão.
 
 Vale salientar que a lista não tem uma ordem de importância.
 
@@ -28,4 +28,3 @@ Vale salientar que a lista não tem uma ordem de importância.
 8. **Vi neve pela primeira vez**: eu nunca tinha visto neve ao vivo antes, e esse ano consegui marcar essa atividade como feito. Ainda estou esperando a “neve de verdade” cair para que eu possa montar um boneco de neve e fazer um anjinho na neve, mas isso só deve rolar ano que vem.
 
 E por aí? Quais foram as coisas legais que rolaram no seu ano?
-
