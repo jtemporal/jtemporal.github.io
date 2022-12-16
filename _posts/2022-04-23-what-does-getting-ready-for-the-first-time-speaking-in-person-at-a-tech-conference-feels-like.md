@@ -12,6 +12,9 @@ description: And why should you get back on the road
 lang: en
 translator: false
 related: false
+author_note_link: "https://jtemporal.com/como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial"
+author_note: "Você pode ler esse artigo em Português"
+translated: "/como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial"
 
 ---
 If nothing else, sharing knowledge is a joyful experience. Think of the first time you learned to do something. Really learned. Didn’t it feel amazing? Didn’t you want to tell everyone and see their reactions when they saw that cool thing?
