@@ -4,6 +4,7 @@ layout: post
 date: '2017-10-02 00:00:00'
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 type: post
+lang: pt
 tags:
 - serenata
 - hacktoberfest

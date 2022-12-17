@@ -11,6 +11,7 @@ tags:
 - go
 - golang
 - português
+lang: pt
 comments: true
 ---
 

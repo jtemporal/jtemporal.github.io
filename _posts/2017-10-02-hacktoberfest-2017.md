@@ -4,6 +4,7 @@ title: Ajude algum projeto, ganhe uma camiseta e dê o primeiro passo no mundo d
   aberto
 date: 2017-10-02 00:00:00 +0000
 type: post
+lang: pt
 tags:
 - github
 - git

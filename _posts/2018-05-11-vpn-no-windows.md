@@ -14,6 +14,7 @@ tags:
 - proton vpn
 - protonvpn
 - português
+lang: pt
 comments: true
 ---
 

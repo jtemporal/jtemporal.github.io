@@ -14,6 +14,7 @@ tags:
 - python
 - português
 comments: true
+lang: pt
 ---
 
 A colinha de hoje mostra como pegar o começo de uma string tanto em Go como em Python sem usar expressões regulares 🎉

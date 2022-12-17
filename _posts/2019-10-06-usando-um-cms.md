@@ -4,6 +4,7 @@ title: Estou usando um CMS e você deveria usar um também!
 date: 2019-10-06 00:00:00 -0300
 img: "/colinha.png"
 type: post
+lang: pt
 comments: true
 tags:
 - português

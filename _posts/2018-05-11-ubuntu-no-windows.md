@@ -11,6 +11,7 @@ tags:
 - ubuntu
 - linux
 - português
+lang: pt
 comments: true
 ---
 

@@ -6,6 +6,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 comments: true
 description: A guide on how to configure your Droplet to access it via SSH
 type: post
+lang: en
 tags:
 - droplet
 - digital ocean

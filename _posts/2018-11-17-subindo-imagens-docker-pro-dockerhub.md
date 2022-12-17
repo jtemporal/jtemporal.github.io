@@ -4,6 +4,7 @@ layout: post
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 date: '2018-11-17 08:00:00'
 type: post
+lang: pt
 tags:
 - tutorial
 - docker hub

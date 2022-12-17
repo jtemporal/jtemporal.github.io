@@ -6,6 +6,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 comments: true
 description: Um framework para definir o que estudar e conseguir sua vaga em TI
 type: post
+lang: pt
 tags:
 - pivot table
 - tabela dinâmica

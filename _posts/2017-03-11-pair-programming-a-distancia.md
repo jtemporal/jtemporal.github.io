@@ -3,6 +3,7 @@ layout: post
 title: Uma história de Pair Programming a longa distância
 date: 2017-03-11 00:00:00 +0000
 type: post
+lang: pt
 tags:
 - português
 - tmux

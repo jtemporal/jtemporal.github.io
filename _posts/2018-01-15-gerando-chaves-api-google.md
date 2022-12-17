@@ -10,6 +10,7 @@ tags:
 - apis
 - api
 - português
+lang: pt
 comments: true
 ---
 

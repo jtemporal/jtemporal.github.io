@@ -13,7 +13,7 @@ tags:
 comments: true
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
 description: Sobre fazer parte de uma comunidade
-lang: en
+lang: pt
 translator: false
 related: false
 posts_list: []

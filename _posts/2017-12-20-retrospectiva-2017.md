@@ -6,6 +6,7 @@ type: post
 tags:
 - pessoal
 - português
+lang: pt
 comments: true
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
 

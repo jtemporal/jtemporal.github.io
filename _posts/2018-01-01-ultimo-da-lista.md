@@ -12,6 +12,7 @@ tags:
 - manipulação de listas
 - português
 comments: true
+lang: pt
 ---
 
 [Python](https://www.python.org/) é conhecida por facilitar a escrita de códigos bonitos e pequenos. A colinha de hoje é sobre como pegar o último elemento de uma lista usando essa linguagem \o/
