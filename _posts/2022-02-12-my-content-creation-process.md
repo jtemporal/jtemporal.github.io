@@ -17,118 +17,118 @@ author_note_link: professoradeboraazevedo@gmail.com
 translated: "/o-meu-metodo-de-criacao-de-conteudo"
 
 ---
-Eu tenho mantido um blog por alguns anos e, desde que, criar conteúdos passou a ser meu ganha pão, eu tenho pensado bastante sobre métodos de escrita.
+I've been blogging for a few years, and since creating content has become my bread and butter, I've been thinking a lot about writing methods.
 
-Assim como programar bem, escrever bem, requer prática e dedicação. Depois de um certo tempo escrevendo, você passa a ter um sistema, uma coleção de passos que você sempre segue e aí você começa a pensar em como otimizar meu trabalho para obter resultados  cada vez melhores e entregas de alto nível mais rápidas.
+Just like programming well, writing well takes practice and dedication. After some time writing, you have a system, a collection of steps that you always follow, and then you start thinking about how to optimize your work to get better results and faster high-level deliveries.
 
-Esse texto é uma reflexão que eu estou fazendo sobre o meu “método de escrita”, que vale salientar é o mesmo método que uso para qualquer conteúdo que eu faço como palestras, vídeos e podcasts. Além disso, eu quero te mostrar de forma prática como você pode passar a escrever.
+This text is a reflection I'm doing about my own "writing method", which is worth noting is the same method I use for any content I produce such as talks, videos, and podcasts. Besides, I want to show you in a practical way how you can start writing.
 
-## Por onde eu comecei
+## Where I started
 
-Bem, se você me acompanha pode saber que eu [não era a melhor aluna de português e redação na escola e eu nunca quis ser escritora](https://jtemporal.com/de-0-a-17-mil-pageviews/), mas o mundo dá voltas e cá estamos. Escrever virou um hábito, depois passou a ser um gosto e hoje, posso dizer, que eu adoro escrever.
+Well, if you follow me you may know that [I was not the best language and writing student in school and I never wanted to be a writer](https://jtemporal.com/from-0-to-17-thousand-pageviews/), but the world turns and here we are. Writing became a habit, later it became something I liked to do. Today, I can say that I love writing.
 
-Pra mim escrever é como eu organizo as minhas ideias, como eu entendo o mundo e os conceitos que eu estudo, como eu fixo informação. É parte tão integral do meu dia-a-dia de comunicação assíncrona que, se você tirar escrever de mim, eu provavelmente ficarei perdida.
+For me, writing is how I organize my ideas, how I understand the world and the concepts I study, and how I get information into my head. It's such a fundamental part of my day-to-day asynchronous communication that if you take the writing away from me, I'll probably be lost.
 
-Meu primeiro blog era um site que eu usava como caderno de notas, escolhi um tema e coloquei no ar. Ele era mais pra mim do que pra qualquer outra pessoa e, acima de tudo, o seu objetivo não era ser um blog. Ele era um site onde eu colocava anotações e aprendizados.
+My first blog was a website that I used as a notepad, I basically chose a theme and deployed it. It was more for me than for anyone else, and above all, its goal was not to be a blog. It was a website where I posted notes and learnings.
 
-Acredito que o foco do meu primeiro site não ser o conteúdo, tirou de mim toda a pressão que vem com *“e se as pessoas não lerem o que eu escrevo?”* ou *“e se as pessoas me julgarem?”* ou ainda *“e se eu cometer erros?”*, me dando tempo e um lugar seguro para praticar a escrita em si.
+I believe that not having content as the focus of my first website took off all the pressure that comes with *“what if people don’t read what I write?”* or *“what if people judge me?”* or even *“what if I make mistakes?”,* which gave me time and a safe place to practice writing itself.
 
-Como o processo de escrita era relativamente custoso, já que eu tinha que recriar os markdowns que geravam os posts manualmente, e no boom inicial do Medium, eu passei um tempo escrevendo por lá, justamente pela facilidade de escrever em qualquer lugar.
+As the writing process was relatively costly, since I had to recreate the markdowns that generated the posts manually, and with the initial boom of Medium, I spent some time writing there, especially because it was easy to write anywhere.
 
-Depois de um tempo o Medium começou a cobrar por leitura e bloquear pessoas com *paywall*. Foi então que eu decidi sair da plataforma e voltar a manter o conteúdo num lugar livre e que pessoas pudessem acessar sem pagar.
+After a while Medium started charging per reading and blocking people with a paywall. It was then that I decided to leave the platform and go back to keeping the content in a free place where people could access it without paying.
 
-Depois de mais de um ano escrevendo nesse site eu decidi transformá-lo em um blog *“content-first”*. Um blog de verdade onde o foco era o conteúdo e que fosse melhor para pessoas encontrarem o que elas estavam procurando. A primeira coisa que eu fiz foi trocar de tema e passar usar *cards* para dar ênfase no conteúdo.
+After more than a year of writing on this site, I decided to turn it into a *“content-first”* blog. A real blog where the focus was on content and that was better for people to find what they were looking for. The first thing I did was change the theme and also started using *cards* to emphasize the content.
 
-## A prática leva a perfeição
+## **Practice leads to perfection**
 
-Como falei antes, escrever é como programar, você precisa praticar diariamente, estudar, ler o material de outras pessoas para ver como elas enquadram seus assuntos, revisar o que fez e soltar para o mundo. Mas se você estiver começando agora isso pode parecer assustador e, muitas vezes, eu vejo pessoas focando nas coisas erradas.
+As I said before, writing is like programming, you need to practice daily, study, read other people's materials to see how they frame their subjects, review what you've done, and release it to the world. But if you're just starting out this can seem daunting and I often see people focusing on the wrong things.
 
-Eu tenho quatro dicas para te dar, duas delas são “teóricas” e as outras duas são práticas, todas essas são para quem tá começando a querer escrever, ou criar a prática. Coloquei “teóricas” entre aspas, porque elas se referem mais a uma forma de enxergar o hábito da escrita do que uma ação em si.
+I have four tips to give you, two of them are “theoretical” and the other two are practical, all of these are for those who are starting to grow that writing needs, or that want to practice. I say “theoretical” - in quotation marks - because they refer more to a way of looking at the habit of writing than the habit itself.
 
-**Dicas teóricas:**
+**Theoretical tips:**
 
-1. Evite a otimização precoce e foque em escrever;
-2. Tenha dois momentos diferentes: um para escrever e outro para editar;
+1. Avoid early optimization and focus on writing;
+2. Have two different moments: one for writing and another one for editing;
 
-**Dicas práticas:**
+**Practical tips:**
 
-1. Anote o objetivo do texto antes de começar a escrever o conteúdo;
-2. Depois do objetivo, escreva um esboço em tópicos;
+1. Write down the purpose of the text before starting to write the content;
+2. After writing the purpose, write a bulleted outline;
 
-Essas frases resumem bem cada dica, mas vamos passar por cada uma com mais carinho.
+These statements sum up each tip well, but let's go through each one more carefully.
 
-## Evite a otimização precoce e foque em escrever
+## Avoid early optimization and focus on writing
 
-Se o seu objetivo é escrever, esse não é o momento de desenvolver o seu próprio blog, às vezes você quer usar o blog como um momento de estudo para aprender como usar um gerador de páginas estáticas novo, ou aquele *framework* que tá dando o que falar, e eu entendo essa vontade, de verdade, mas se você quer escrever, talvez usar o blog como espaço de aprendizado de uma nova tecnologia não seja uma boa ideia.
+If your goal is writing, this is not the time to develop your own blog. Sometimes you want to use the blog as a study moment to learn how to use a new static page generator, or that framework that sets tongues wagging, and I understand that desire, really, but if you want to write, maybe using the blog as a space for learning a new technology is not a good idea.
 
-Nós, pessoas que desenvolvem, temos o péssimo hábito de querer implementar tudo do nosso jeito, de implementar uma versão melhor, mais completa, mais cheia de fru-fru, e esquecemos de focar no importante: *a entrega de valor*. Isso vale tanto, para código quanto para escrita de texto e, no caso do conteúdo, a entrega de valor é exatamente essa, *o conteúdo*.
+We, people who develop, have a bad habit of wanting to implement everything our way, of implementing a better, more complete, full-of-features version of something, and we forget to focus on what’s important: *delivering value*. This goes for both code and writing and, in the case of content, the delivery of value is exactly that, *the content*.
 
-Por exemplo, eu tenho usado muito o Notion para escrever rascunhos e outros projetos. Já vi outras pessoas também querem usar essa mesma ferramenta por que ela tem uma *feature* chamada *Databases*, que permite criar conteúdo de forma interconectada, mas será que você precisa mesmo usar databases agora? Talvez não, principalmente se você quer escrever.
+For example, I've been using Notion a lot for writing drafts and keeping track of other projects. I've seen other people also want to use this same tool because it has a feature called *Databases*, which allows you to create content in an interconnected way, but do you really need to use databases now? Maybe not, especially if you want to write.
 
-Você pode retrucar falando: *“Eu quero usar databases já para evitar retrabalho no futuro”*. E aí eu te falo mais: Se você estivesse escrevendo código, que um dia, talvez, precise usar uma base de dados, você iria pensar em escrever a integração com base de dados agora? Gosto de acreditar que não. No máximo você estruturaria seu código para facilitar a refatoração no futuro, não é mesmo? Então, aplique o mesmo pensamento à sua escrita, facilite o seu lado até onde der, mas não se prenda ao que você vai precisar no futuro.
+You can argue by saying: “I want to use databases now to avoid rework in the future”. And then I'll tell you more: If you were writing code, which one day, maybe, you need to use a database, would you think about writing the integration with a database now? I like to believe you wouldn’t. At most you would structure your code to make refactoring easier in the future, wouldn't you? So, apply the same thinking to your writing, make it easier on yourself as much as you can, but don’t get caught up on what you might need in the future.
 
-Se prender ao futuro te impede de focar no mais importante de entregar agora: criar a prática de escrever. Você pode escrever até no bloco de notas se você quiser, o importante é focar naquilo que você precisa de verdade.
+Holding on to the future prevents you from focusing on the most important thing to deliver now: creating the practice of writing. You can even write on a notepad if you want, the important thing is to focus on what you really need.
 
-## Escreva em um momento e edite em outro
+## Write in a moment, and edit in another
 
-Para estarmos na mesma página, acho importante definir o que eu encaro como edição. Para mim, editar é ato de remover coisas desnecessárias, ajustar parágrafos e frases para que façam mais sentido e corrigir erros de digitação. Todas as atividades que envolvem melhorar o que já foi escrito. Isso só é possível depois que você tem algo na página.
+To be on the same page, I think it's important to define what I see as editing. For me, editing is the act of removing unnecessary things, adjusting paragraphs and sentences to make more sense, and correcting typos. All activities that involve improving what has already been written. This is only possible after you have something on the page.
 
-Eu conheço pessoas que conseguem escrever e já irem editando o texto ao mesmo tempo. Isso não funciona para mim, eu preciso ter dois momentos separados, um para cada parte. Eu gosto de dizer que primeiro eu derrubo tudo que tô pensando na página e *depois* eu faço isso ficar bonito.
+I know people who can write and edit text at the same time. This doesn't work for me, I need to have two separate moments, one for each part. I like to say that first I drop everything I'm thinking about on the page and *then* I make it look nice.
 
-Todas as vezes que eu fiz os dois ao mesmo tempo, eu acabei desistindo de publicar o conteúdo ou até mesmo de terminar o artigo. Além disso, editar em um momento e escrever em outro, me ajuda a melhorar bastante os meus textos e terminar um texto num espaço mais curto de tempo. 
+Every time I did both things at the same time, I ended up giving up on publishing the content or even finishing the article. Besides, editing at one time and writing at another helps me to improve my content a lot and finish a piece in a shorter time span.
 
-Além de reduzir o tempo de criação de um artigo, fazer as coisas separadamente me ajuda também a chegar ao objetivo de todo conteúdo que eu faço: *publicá-los para que eles possam ajudar alguém*. Afinal, o texto existir apenas no meu computador não serve para nada além de ocupar espaço.
+In addition to reducing the time to create an article, doing things separately also helps me reach the goal of all the content I make: *publishing them so they can help someone else*. After all, the content existing only on my computer serves no purpose other than taking up space.
 
-Já que estamos falando de edição, se você chegar na minha casa e eu estiver editando um texto, você vai me encontrar lendo ele em voz alta. Ler em voz alta me força a ler o conteúdo devagar, encontrar falhas nas explicações que pareciam claras no momento da escrita se torna mais fácil, assim como encontrar erros de digitação. Leia os seus textos em voz alta antes de publicá-los, confie em mim.
+Since we're on the subject of editing, if you come to my house and I'm editing a text, you'll find me reading it out loud. Reading out loud forces me to read content slowly, so finding flaws in explanations that seemed clear at the time of writing becomes easier, as does finding typos. Read your texts aloud before publishing them, trust me.
 
-## Comece pelo objetivo e retorne a ele sempre que preciso
+## Start with the purpose and return to it whenever needed
 
-Às vezes, eu tenho um problema de foco: de tempos em tempos me ataca uma vontade de querer abordar mais de uma coisa no mesmo texto. Para vencer esse problema de foco eu sempre começo anotando a introdução do texto no formato de um objetivo a ser alcançado:
+Sometimes I have a problem with focusing: from time to time I feel like I want to cover more than one thing in the same piece of content. To overcome this focus problem I always start by writing down the text intro in the format of a goal to be achieved:
 
-1. Aprenda X conceito;
-2. Veja como implementar Y;
-3. Descubra como fazer Z.
+1. Learn concept X;
+2. See how to implement Y;
+3. Find out how to do Z.
 
-Obviamente embalado com mais algumas palavras de contextualização e num formato de *call-to-action* para atrair a atenção de quem lê. O objetivo serve, ao meu ver, principalmente para duas coisas: 
+Obviously, that comes wrapped with a few more words of context and in a call-to-action format to grab the reader's attention. The goal serves, in my view, mainly for two purposes:
 
-1. Do lado de quem lê: despertar interesse e dar clareza sobre o que vai ser abordado ou o problema a ser resolvido;
-2. Do lado de quem escreve: guiar a sua escrita e te manter na linha evitando desfocar daquilo que você se propôs a resolver no texto.
+1. On the side of the reader: spark interest and provide clarity about what will be addressed or the problem to be solved;
+2. On the side of the writer: guide your writing and keep you in line, avoiding blurring the lines of the problem you set out to solve in the text.
 
-Por isso, anotar o objetivo primeiro é de grande valia. Após terminar a escrita do rascunho, o primeiro *check* que eu faço é conferir se eu resolvi aquilo que eu propus no início do texto. Caso a resposta seja não, ou eu ajusto o texto para atingir o objetivo ou eu guardo a ideia inicial para um novo blog post e reescrevo a introdução para combinar com aquilo que eu realmente entreguei.
+Therefore, writing down the goal first is of great value. After finishing writing the draft, the first thing I do is check if I solved what I proposed at the beginning of the content. If the answer is no, either I adjust the content to achieve the goal or save the initial idea for a new blog post and rewrite the intro to match what I actually delivered.
 
-Uma revelação que me ocorreu também nesse processo é que os meus melhores artigos tem como objetivo uma pergunta muito clara a ser respondida. É uma verdade que, se você não puder pagar ferramentas ou fazer pesquisas para otimizar o seu texto, a melhor otimização que você pode fazer é responder *apenas uma* pergunta por artigo. Ao fazer isso, tanto quem lê quanto o Google, vão entender o que aquele artigo propõe.
+A revelation that also occurred to me in this process is that my best articles aim at a very clear question to be answered. It's true that if you can't afford tools or research to optimize your text, the best optimization you can do is answer *just one* question per article. By doing this, both readers and Google will understand what that article proposes.
 
-## Escreva um esboço em tópicos
+## **Write an outline in topics**
 
-Depois de escrever o foco do artigo, eu sempre tento organizar as minhas ideias, então eu anoto o que preciso escrever sem falta no formato de tópicos. Digamos que esses tópicos são a receita mínima, mas sem detalhes, que garante que eu respondi a pergunta inicial.
+After writing the main point of the article, I always try to organize my ideas, so I write down what I need to c without fail in topics. Let's say these topics are the minimal recipe, but with no details, which ensures I've answered the initial question.
 
-Geralmente, esses tópicos definem as seções do texto e muitas vezes eles viram os títulos e subtítulos de determinadas seções. Por exemplo, eu estou trabalhando em um material que fala sobre o uso de um CDN no [GitFichas](https://gitfichas.com/).
+These topics usually define the sections of the text and they often become the headings and subheadings of certain sections. For example, I'm working on a material that talks about using a CDN in [GitFichas](https://gitfichas.com/en?utm_source=blog).
 
-Eu escrevi os tópicos no formato das perguntas que eu faria para entender a justificativa de usar uma nova ferramenta num projeto. Comecei com o motivo de usar um CDN, passando pelo o que é e a sua relação com a velocidade de carregamento de uma página. Em seguida, eu pensei em falar sobre qual serviço eu escolhi como CDN. Depois conto como eu subi e organizei as imagens no CDN e finalizei com a parte de atualização de posts para usar as imagens de lá.
+I wrote the topics in the format of the questions I would ask to understand the reason for using a new tool in a project. I started with the reason for using a CDN, going through what it is and its relationship to the speed of a page load. Next, I thought I'd talk about which service I chose as a CDN. Then I'd tell you how I uploaded and organized the images on the CDN and finished with the update of the posts section to use the images from the CDN.
 
-![índice contendo os títulos das seções do artigo sobre CDN](https://res.cloudinary.com/jesstemporal/image/upload/v1644678859/tabela-de-conteudo-com-o-blog-post-sobre-usar-um-cdn_d3fyha.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"} 
+![Index containing the sectio titles of an article about CDN in portuguese](https://res.cloudinary.com/jesstemporal/image/upload/v1644678859/tabela-de-conteudo-com-o-blog-post-sobre-usar-um-cdn_d3fyha.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"} 
 
-Se esse blog post do CDN fosse em um formato de tutorial (que ele não é hoje) ele provavelmente ainda teria uma seção de fechamento para rever os conceitos aprendidos  ou para ressaltar pontos principais.
+If this CDN blog post were in a tutorial format (which it is not today) it would likely still have a closing section to review concepts learned or to highlight key points.
 
-Escrever esses tópicos me ajuda a definir a estrutura inicial do texto e também a quebrar a tarefa que é escrever um artigo. Ao invés de pensar em escrever um artigo por completo, eu pode começo com apenas uma seção, posso fazer uma pausa, ir para outra e assim sucessivamente.
+Writing these topics helps me to define the initial structure of the text and also to break down the task of writing an article. Rather than thinking about writing an entire article, I might start with just one section, pause, move on to another, and so on.
 
-Depois de escrever os tópicos das seções mais importantes, eu listo também em formato de tópicos, os assuntos que vou abordar em cada seção. Pensar em tópicos antes de escrever o texto por completo pode ajudar também a encontrar falhas de estruturação e facilitar a adaptação antes de ter retrabalho para reescrever seções por completo, assim eu facilito a minha vida caso precise fazer alguma alteração maior logo de cara.
+After writing the topics of the most important sections, I also list in bullet points format the topics I will cover in each section. Thinking about topics before writing the entire text can also help to find structure flaws and facilitate adaptation before having to completely rewrite sections, so I make my life easier in case I need to make any major changes right away.
 
-## Conclusão
+## Conclusion
 
-É importante lembrar que esse é o meu processo e ele funciona muito bem para mim embora tenha levado uns três anos pra eu ficar realmente feliz com ele.
+It's important to remember that this is my process and it works really well for me although it took me about three years to get really happy with it.
 
-Eu estou te contando que isso demorou uns três anos, não para te desestimular, mas para te garantir que, se encontrar esse método estiver demorando para você, tudo bem.
+I'm telling you that it took about three years, not to put you off, but to reassure you that if finding your method is taking a while, that's okay.
 
-O mais importante é você encontrar o que funciona para você, o seu processo, no seu ritmo.
+The most important thing is that you find what works for you, your process, at your own pace.
 
-## Recapitulando
+## Recap
 
-Pra finalizar, eu aposto que você quer um resumo de tudo que você acabou de ler, não é mesmo? Aqui estão os pontos principais:
+Finally, I bet you want a summary of everything you just read, right? Here are the main points:
 
-1. Evite a otimização precoce e foque em escrever;
-2. Tenha dois momentos diferentes: um para escrever e outro para editar;
-3. Anote o objetivo do texto antes de começar a escrever o conteúdo;
-4. Escreva um esboço em tópicos.
+1. Avoid early optimization and focus on writing;
+2. Have two different moments: one for writing and another for editing;
+3. Write down the purpose of the text before starting to write the content;
+4. Write an outline.
 
-Para finalizar, tente colocar em prática, pelo menos, uma das coisas que você aprendeu com esse texto o quanto antes, enquanto a memória está recente, assim a probabilidade de você fixar esse novo jeito de pensar é maior.
+Finally, try to put into practice at least one of the things you learned from this text as soon as possible, while your memory is fresh, chances are that will incorporate this new way of thinking faster if you do so.
