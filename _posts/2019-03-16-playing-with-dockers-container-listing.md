@@ -7,6 +7,8 @@ comments: true
 type: post
 lang: en
 translated: "/brincando-com-a-listagem-de-containers-docker"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/brincando-com-a-listagem-de-containers-docker"
 tags:
 - english
 - docker
@@ -19,12 +21,6 @@ tags:
 description: Learn to list and filter containers from the list
 
 ---
-\---
-
-Author note: [Read this article in English](https://jtemporal.com/playing-with-dockers-container-listing)
-
-\---
-
 If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:
 
 1. List filtering;

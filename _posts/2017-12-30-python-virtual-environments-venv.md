@@ -5,6 +5,8 @@ date: 2017-12-30 00:00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 lang: "en"
 translated: "/venv-inicio"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/venv-inicio"
 type: post
 tags:
 - english

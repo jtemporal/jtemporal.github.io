@@ -3,6 +3,7 @@ layout: post
 title: Esfarelou, virou purpurina
 date: 2017-02-02 00:00:00 +0000
 type: post
+lang: pt
 tags:
 - pessoal
 - poesia

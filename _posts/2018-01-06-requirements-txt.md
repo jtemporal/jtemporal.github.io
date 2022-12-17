@@ -5,6 +5,8 @@ date: 2018-01-06T08:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 lang: "pt"
 translated: "/requirements-txt-en"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/requirements-txt-en"
 type: post
 tags:
 - colinha

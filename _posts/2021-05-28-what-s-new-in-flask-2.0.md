@@ -6,6 +6,7 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 description: Get to know more about the changes in this release of the framework
 type: post
+lang: en
 tags:
 - english
 - python

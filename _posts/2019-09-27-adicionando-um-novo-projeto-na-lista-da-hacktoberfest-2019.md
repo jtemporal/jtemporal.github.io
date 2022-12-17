@@ -4,6 +4,7 @@ title: 'Adicionando um novo projeto na lista da #Hacktoberfest'
 date: 2019-09-29T11:00:00.000+00:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 type: post
+lang: pt
 tags:
 - pull request
 - open source

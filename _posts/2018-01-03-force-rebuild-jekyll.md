@@ -19,7 +19,7 @@ posts_list:
 - conheca-o-gitfichas
 - resolvendo-conflitos
 - do-tema-ao-ar
-
+lang: pt
 ---
 Seja por um CSS quebrado ou por uma mudança que parece não ter tido efeito, às vezes é necessário forçar o rebuild de um site [Jekyll](https://jekyllrb.com/) hospedado no GitHub. A colinha de hoje explica uma forma de fazer isso.
 

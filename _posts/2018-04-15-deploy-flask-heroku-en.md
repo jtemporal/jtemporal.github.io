@@ -5,6 +5,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 date: 2018-04-15 01:00:00 +0000
 lang: en
 translated: "/deploy-flask-heroku"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/deploy-flask-heroku"
 type: post
 tags:
 - tutorial
@@ -20,12 +22,6 @@ comments: true
 description: Learn how to deploy a Flask API to Heroku, using Heroku CLI and Git
 
 ---
----
-
-Nota da autora: Você pode [ler esse artigo em Português se preferir](https://jtemporal.com/deploy-flask-heroku/).
-
----
-
 Deploys, where do they live? What do they eat? If you want to learn how to deploy something to Heroku you came to the right place!
 
 ## What you will learn in this tutorial

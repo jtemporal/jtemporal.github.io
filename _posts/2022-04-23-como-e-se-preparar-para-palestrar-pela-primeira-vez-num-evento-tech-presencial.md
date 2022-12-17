@@ -13,7 +13,7 @@ description: E por que você deveria por o pé na estrada
 lang: pt
 translator: true
 author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translated: "/what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like"
 related: false
 

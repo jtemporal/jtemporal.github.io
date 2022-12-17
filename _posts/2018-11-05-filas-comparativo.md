@@ -3,6 +3,7 @@ title: Filas e mensagens pra que te quero
 layout: post
 date: '2018-11-05 00:00:00'
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+lang: pt
 tags:
 - queue
 - mensagens

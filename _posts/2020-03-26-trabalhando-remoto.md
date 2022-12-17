@@ -8,6 +8,8 @@ description: Dicas que sigo quando estou trabalhando remoto para que você que e
   se adaptando
 lang: "pt"
 translated: "/working-remotely"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/working-remotely"
 type: post
 tags:
 - dicas de trabalho

@@ -7,21 +7,15 @@ comments: true
 type: post
 lang: pt
 translated: "/playing-with-dockers-container-listing"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/playing-with-dockers-container-listing"
 tags:
 - colinha
 - docker
 - containers
 description: Aprenda a filtrar e formatar a listagem de containers Docker
-description: Aprenda a turbinar a listagem de containers do Docker
 
 ---
-
-\---
-
-Nota da autora: [Read this article in English](https://jtemporal.com/playing-with-dockers-container-listing)
-
-\---
-
 Se você usa Docker, provavelmente o terceiro comando que aprendeu foi listar eles, mas você sabe que dá pra tunar a listagem de containers?
 
 Pois bem, a colinha de hoje é para mostrar dois truques que eu uso muito:

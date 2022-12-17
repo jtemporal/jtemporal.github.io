@@ -11,6 +11,7 @@ tags:
 - serenata
 - data science
 - ciencia de dados
+lang: pt
 
 ---
 Mas só se você levantar o bumbum do sofá e começar a fazer sua parte

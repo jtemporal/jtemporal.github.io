@@ -11,7 +11,7 @@ fields:
   config:
     maxSize: 250
   label: image
-  default: "/images/profilepicgh.jpeg"
+  default: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 pages:
 - _includes/read-time.html
 - index.html

@@ -19,7 +19,7 @@ posts_list:
 lang: en
 translated: "/desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem"
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 Undoing and redoing commits is part of everyday life, so it's important to understand the commands that can help us along the way. In this pro tip I will teach you how to do two things:

@@ -7,6 +7,8 @@ comments: true
 type: post
 lang: en
 translated: "/kmeans-e-cotovelo"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/kmeans-e-cotovelo"
 tags:
 - tutorial
 - data science

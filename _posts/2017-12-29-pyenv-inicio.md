@@ -5,6 +5,8 @@ date: 2017-12-29T10:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 lang: "pt"
 translated: "/python-and-its-versions"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/python-and-its-versions"
 type: post
 tags:
 - colinha

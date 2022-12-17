@@ -18,7 +18,7 @@ posts_list:
 - fixing-the-branch-source-with-git-rebase
 - updating-a-branch-with-git-rebase
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translator: true
 
 ---

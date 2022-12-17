@@ -4,6 +4,7 @@ title: Movendo um site construído com Jekyll para dentro de um site construído
 date: 2019-04-28T03:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 type: post
+lang: pt
 tags:
 - jekyll
 - pelican

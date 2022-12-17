@@ -3,6 +3,7 @@ title: A Lei de Benford e a beleza dos números
 layout: post
 date: 2017-11-23 00:00:00 +0000
 type: post
+lang: pt
 tags:
 - data science
 - ciencia de dados

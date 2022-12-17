@@ -2,8 +2,9 @@
 layout: post
 title: Estou usando um CMS e você deveria usar um também!
 date: 2019-10-06 00:00:00 -0300
-img: "/colinha.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 type: post
+lang: pt
 comments: true
 tags:
 - português
@@ -12,9 +13,7 @@ tags:
 - blogging
 - cms
 - colinha
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
-description: Com um gerenciador de conteúdo para sites estáticos tem me ajudado a
-  escrever mais
+description: Com um gerenciador de conteúdo para sites estáticos tem me ajudado a escrever mais
 
 ---
 Essa colinha é mais um dica pra você que tem um site estático ou que está querendo migrar seu blog de ferramentas como medium.
