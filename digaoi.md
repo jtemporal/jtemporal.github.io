@@ -3,7 +3,8 @@ layout: page
 title: Contato
 image: /images/logo.png
 permalink: /digaoi/
-lang: pt_BR
+lang: pt
+translated: /contact
 
 ---
 
