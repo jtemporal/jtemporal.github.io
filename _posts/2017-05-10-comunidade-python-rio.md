@@ -16,10 +16,6 @@ description: Sobre fazer parte de uma comunidade
 lang: pt
 translator: false
 related: false
-posts_list: []
-translated: ''
-author_note_link: ''
-author_note: ''
 
 ---
 ### Uma história de amor

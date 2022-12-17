@@ -10,7 +10,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/p
 type: post
 related: false
 posts_list: []
-lang: ''
+lang: pt
 translated: ''
 translator: false
 author_note_link: ''
