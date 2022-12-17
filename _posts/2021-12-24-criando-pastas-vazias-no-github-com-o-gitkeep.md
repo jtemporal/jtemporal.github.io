@@ -16,7 +16,7 @@ posts_list:
 - resolvendo-conflitos
 - conheca-o-gitfichas
 lang: pt
-translated: "/creating-empty-folders-on-github-with.gitkeep"
+translated: "/creating-empty-folders-on-github-with-gitkeep"
 translator: false
 
 ---
