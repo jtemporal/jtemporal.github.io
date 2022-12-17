@@ -10,7 +10,6 @@ tags:
 - portugues
 description: Quer entender JWTs? Se liga nessa palestra
 related: false
-posts_list: []
 
 ---
 Você consegue conferir a palestra na íntegra aqui:
