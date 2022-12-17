@@ -13,9 +13,7 @@ tags:
 - blogging
 - cms
 - colinha
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
-description: Com um gerenciador de conteúdo para sites estáticos tem me ajudado a
-  escrever mais
+description: Com um gerenciador de conteúdo para sites estáticos tem me ajudado a escrever mais
 
 ---
 Essa colinha é mais um dica pra você que tem um site estático ou que está querendo migrar seu blog de ferramentas como medium.
