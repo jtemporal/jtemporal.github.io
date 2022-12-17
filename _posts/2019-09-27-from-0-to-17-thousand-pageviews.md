@@ -8,6 +8,8 @@ description: How a theme exchange impacted the number of hits on my blog
 type: post
 lang: en
 translated: "/de-0-a-17-mil-pageviews"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/de-0-a-17-mil-pageviews"
 tags:
 - static site
 - google analytics

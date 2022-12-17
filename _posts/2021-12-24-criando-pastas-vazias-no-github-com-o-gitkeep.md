@@ -17,6 +17,8 @@ posts_list:
 - conheca-o-gitfichas
 lang: pt
 translated: "/creating-empty-folders-on-github-with-gitkeep"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/creating-empty-folders-on-github-with-gitkeep"
 translator: false
 
 ---

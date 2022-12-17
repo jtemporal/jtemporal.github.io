@@ -5,6 +5,8 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/m
 comments: true
 lang: en
 translated: "/conheca-o-gitfichas"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/conheca-o-gitfichas"
 title: Introducing GitFichas!
 description: "Your new best friend: git study cards!"
 tags:

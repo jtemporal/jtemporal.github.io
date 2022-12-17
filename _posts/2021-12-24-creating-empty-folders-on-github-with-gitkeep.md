@@ -17,6 +17,8 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 lang: en
 translated: "/criando-pastas-vazias-no-github-com-o-gitkeep"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/criando-pastas-vazias-no-github-com-o-gitkeep"
 translator: true
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess

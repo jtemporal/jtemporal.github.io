@@ -7,6 +7,8 @@ comments: true
 type: post
 lang: "pt"
 translated: "/who-do-you-think-of-when-asked-for-a-referral"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
 tags:
 - medium
 - python
@@ -15,12 +17,6 @@ tags:
 description: Você conhece mulheres qualificadas. Por que não indicá-las?
 
 ---
----
-
-Nota da autora: [Read this post in English](https://jtemporal.com/who-do-you-think-of-when-asked-for-a-referral/).
-
----
-
 Você conhece mulheres qualificadas. Por que não indicá-las?
 
 Dei várias palestras ao longo deste ano e se tornou comum as pessoas me chamarem para combinar outras palestras, ser mentora em hackathons, organizar eventos e afins. Algumas vezes minha agenda não me permite aceitar os convites como eu gostaria e então essas pessoas me fazem a fatídica pergunta: _Me indica alguém?_

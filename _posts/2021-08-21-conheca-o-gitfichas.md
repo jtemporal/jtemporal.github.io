@@ -5,6 +5,8 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/v
 comments: true
 lang: "pt"
 translated: "/introducing-gitfichas"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/introducing-gitfichas"
 title: Conheça o GitFichas!
 description: Projeto novo no ar!
 type: post

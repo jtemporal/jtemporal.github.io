@@ -7,6 +7,8 @@ comments: true
 type: post
 lang: pt
 translated: "/kmeans-and-elbow-method"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/kmeans-and-elbow-method"
 tags:
 - medium
 - kmeans

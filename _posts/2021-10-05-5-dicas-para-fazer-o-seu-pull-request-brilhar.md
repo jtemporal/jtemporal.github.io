@@ -24,6 +24,8 @@ posts_list:
 - conheca-o-gitfichas
 translated: "/5-tips-to-make-your-pull-request-shine"
 translator: false
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/5-tips-to-make-your-pull-request-shine"
 
 ---
 Outubro é mês de hacktoberfest e esse deve ser o mês em que nós nos esforçamos mais para contribuir com _open-source_ e ajudar a mais pessoas contribuírem. Então nesse artigo você vai aprender cinco 5 dicas de ouro para fazer o seu _pull request_ ✨ brilhar ✨. Vamos lá!
