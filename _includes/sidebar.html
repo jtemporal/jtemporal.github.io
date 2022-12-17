@@ -39,9 +39,11 @@
                   {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
                   {% for post in site.posts %}
                     {% if post.url == related_post_url %}
-                    <li>
-                      <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                    </li>
+                    <ul>
+                      <li>
+                        <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                      </li>
+                    </ul>
                     {% endif %}
                   {% endfor %}
                 {% endfor %}
@@ -54,12 +56,12 @@
                 <h2>Artigos recentes</h2>
               {% endif %}
               <ul>
-                  {% for post in site.related_posts limit:3 %}
-                    <li>
-                      <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                    </li>
-                  {% endfor %}
-                </ul>
+                {% for post in site.related_posts limit:3 %}
+                  <li>
+                    <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                  </li>
+                {% endfor %}
+              </ul>
             </div>
           {% endif %}
         {% endif %}
