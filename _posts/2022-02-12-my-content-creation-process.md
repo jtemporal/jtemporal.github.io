@@ -1,21 +1,20 @@
 ---
 layout: post
 date: 2022-02-12T09:00:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 comments: true
-title: Meu processo de criação de conteúdo
-description: Vou te contar como eu organizo todo texto, vídeo, palestra e podcast que eu faço
+title: My content creation process
+description: Let me share with you how I organize all articles, videos, talks, and podcasts I create and maybe help you with your own creation process
 type: post
 tags:
-- git
-- português
-- colinha
+- english
+- pro tip
 related: false
-lang: pt
-author_note_link: "https://jtemporal.com/my-content-creation-process"
-author_note: "You can read this blog post in English here"
-translator: false
-translated: "/my-content-creation-process"
+lang: en
+translator: true
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: professoradeboraazevedo@gmail.com
+translated: "/o-meu-metodo-de-criacao-de-conteudo"
 
 ---
 Eu tenho mantido um blog por alguns anos e, desde que, criar conteúdos passou a ser meu ganha pão, eu tenho pensado bastante sobre métodos de escrita.
