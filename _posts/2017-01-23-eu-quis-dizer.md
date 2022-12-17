@@ -5,6 +5,8 @@ date: 2017-01-23 00:00:00 +0000
 lang: "pt"
 type: post
 translated: "/I-wanted-to-say"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/I-wanted-to-say"
 tags:
 - pessoal
 - python
