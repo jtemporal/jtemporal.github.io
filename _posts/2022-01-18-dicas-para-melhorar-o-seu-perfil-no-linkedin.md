@@ -2,7 +2,7 @@
 layout: post
 title: Dicas para melhorar o seu perfil no LinkedIn
 date: 2022-01-18T20:00:00.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png" 
 comments: true
 lang: pt
 description: Dicas práticas para melhorar o seu perfil no LinkedIn em menos de 30 minutos
@@ -13,6 +13,10 @@ tags:
 - português
 - linkedin
 related: true
+translated: "/tips-to-improve-your-linkedin-profile"
+author_note_link: "https://jtemporal.com/tips-to-improve-your-linkedin-profile"
+author_note: "You can read this blog post in English here"
+translator: false
 posts_list:
 - ferramentas-para-qualquer-vaga-em-ti
 - trabalhando-remoto
