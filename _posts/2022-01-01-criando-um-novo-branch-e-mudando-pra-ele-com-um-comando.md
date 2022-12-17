@@ -13,6 +13,8 @@ tags:
 related: true
 lang: pt
 translated: "/creating-a-new-branch-and-switching-to-it-with-only-one-command"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/creating-a-new-branch-and-switching-to-it-with-only-one-command"
 posts_list:
 - resolvendo-conflitos
 - corrigindo-a-origem-de-um-branch-com-git-rebase
