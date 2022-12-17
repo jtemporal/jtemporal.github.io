@@ -28,22 +28,24 @@
 
         {% if page.layout == "post" %}
           {% if page.related %}
-            {% if post.lang == "en" or page.lang  == "en" or post.tags contains "english" %}
-              <h2>Related Articles</h2>
-            {% else %}
-              <h2>Artigos relacionados</h2>
-            {% endif %}
-              {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
-              {% for related_post in related_post_list %}
-                {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
-                {% for post in site.posts %}
-                  {% if post.url == related_post_url %}
-                  <li>
-                    <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                  </li>
-                  {% endif %}
+            <div class="mt10 recent">
+              {% if post.lang == "en" or page.lang  == "en" or post.tags contains "english" %}
+                <h2>Related Articles</h2>
+              {% else %}
+                <h2>Artigos relacionados</h2>
+              {% endif %}
+                {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
+                {% for related_post in related_post_list %}
+                  {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
+                  {% for post in site.posts %}
+                    {% if post.url == related_post_url %}
+                    <li>
+                      <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                    </li>
+                    {% endif %}
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
+            </div>
           {% else %}
             <div class="mt10 recent">
               {% if post.lang == "en" or page.lang  == "en" or post.tags contains "english" %}
@@ -58,7 +60,7 @@
                     </li>
                   {% endfor %}
                 </ul>
-          </div>
+            </div>
           {% endif %}
         {% endif %}
         <br>
