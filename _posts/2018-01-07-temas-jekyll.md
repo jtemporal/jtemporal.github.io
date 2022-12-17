@@ -5,6 +5,8 @@ date: 2018-01-07 08:00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
 lang: "pt"
 translated: "/choosing-a-jekyll-theme"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/choosing-a-jekyll-theme"
 type: post
 tags:
 - colinha
@@ -14,11 +16,6 @@ tags:
 - português
 comments: true
 description: Escolhendo um tema para o seu blog e começando a postar sem demora
-
----
----
-
-_Nota da autora:_ [Read this post in English.](https://jtemporal.com/choosing-a-jekyll-theme/)
 
 ---
 

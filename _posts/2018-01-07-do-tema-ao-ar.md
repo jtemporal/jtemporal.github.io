@@ -5,6 +5,8 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/t
 date: 2018-01-07T10:00:00.000+00:00
 lang: "pt"
 translated: "/publishing-a-website-with-jekyll"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/publishing-a-website-with-jekyll"
 type: post
 tags:
 - tutorial
@@ -22,11 +24,6 @@ posts_list:
 - force-rebuild-jekyll
 - resolvendo-conflitos
 - criando-pastas-vazias-no-github-com-o-gitkeep
-
----
----
-
-Nota da autora: [Read this tutorial in English](https://jtemporal.com/publishing-a-website-with-jekyll/).
 
 ---
 
