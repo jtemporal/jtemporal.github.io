@@ -3,7 +3,8 @@ layout: page
 title: Sobre
 image: "/images/logo.png"
 permalink: "/sobre/"
-lang: pt_BR
+lang: pt
+translated: "/about"
 
 ---
 Me tornei uma entusiasta de tecnologia e ciência de dados durante a faculdade de Informática Biomédica quando aprendi a buscar informações em dados de sequenciamento genético de câncer e células-tronco usando R.
