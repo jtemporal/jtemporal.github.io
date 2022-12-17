@@ -3,7 +3,8 @@ layout: page
 title: About
 image: "/images/logo.png"
 permalink: "/about/"
-lang: en_US
+lang: en
+translated: "/sobre"
 
 ---
 I became a software development and data science enthusiast during Biomedical Informatics undergraduate when I learned to seek information in cancer and stem cells sequencing data using R. Still, in college, I joined the local Python community and did a brief internship as a back-end developer using Python and Django. After that, I went back to analyzing data for a [research project in which I used the Natural Language Processing library NLTK to process tweets](https://jtemporal.com/jessie).
