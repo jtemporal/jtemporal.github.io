@@ -3,7 +3,8 @@ layout: default
 title: Português
 image: /images/logo.png
 permalink: "/pt/"
-lang: pt_BR
+lang: pt
+translated: "/en"
 
 ---
 
