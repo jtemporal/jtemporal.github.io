@@ -61,7 +61,7 @@ fields:
   config:
     required: false
     options:
-    - professoradeboraazevedo@gmail.com
+    - https://deboraazevedo.github.io/?utm_source=blogdajess
     source:
       type: simple
       section: 

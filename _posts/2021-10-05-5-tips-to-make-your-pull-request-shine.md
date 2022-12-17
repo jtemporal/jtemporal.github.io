@@ -21,7 +21,7 @@ posts_list:
 - introducing-gitfichas
 translated: "/5-dicas-para-fazer-o-seu-pull-request-brilhar"
 translator: true
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 author_note: This blog post was adapted for English by Débora Azevedo.
 
 ---

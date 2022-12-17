@@ -18,7 +18,7 @@ posts_list:
 lang: en
 translated: "/usando-git-stash-e-git-stash-pop"
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 Switching branches during the middle of work is something that happens quite often, for example, when *”hotfixing”* a bug in another branch while you’re implementing a task.

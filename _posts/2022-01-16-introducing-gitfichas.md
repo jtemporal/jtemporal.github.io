@@ -14,7 +14,7 @@ type: post
 related: false
 posts_list: ""
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 I started a new project, and I want to tell you all about it! 👀

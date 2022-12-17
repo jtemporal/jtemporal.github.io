@@ -18,7 +18,7 @@ posts_list:
 lang: en
 translated: "/para-que-serve-o-git-stash-drop"
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 Need to clear the stash list and don't know how? Don't worry, in this pro tip you will learn how to “throw away” stashes that you no longer need using the command  `git stash drop`. 😉

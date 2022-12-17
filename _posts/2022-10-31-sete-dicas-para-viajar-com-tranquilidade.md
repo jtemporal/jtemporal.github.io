@@ -16,7 +16,7 @@ tags:
 description: "As dicas que me ajudaram a passar por mais de 15 aeroportos rapidamente durante o último ano"
 translator: true
 author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translated: "/seven-tips-for-traveling-with-ease"
 
 ---

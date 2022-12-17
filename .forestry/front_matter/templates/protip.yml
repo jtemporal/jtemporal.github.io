@@ -58,11 +58,11 @@ fields:
     value: true
 - name: author_note_link
   type: select
-  default: professoradeboraazevedo@gmail.com
+  default: https://deboraazevedo.github.io/?utm_source=blogdajess
   config:
     required: false
     options:
-    - professoradeboraazevedo@gmail.com
+    - https://deboraazevedo.github.io/?utm_source=blogdajess
     source:
       type: simple
       section: 

@@ -19,7 +19,7 @@ lang: en
 translated: "/criando-pastas-vazias-no-github-com-o-gitkeep"
 translator: true
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 image2: ''
 
 ---
