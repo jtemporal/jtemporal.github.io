@@ -12,7 +12,6 @@ tags:
 - docker
 - containers
 description: Aprenda a filtrar e formatar a listagem de containers Docker
-description: Aprenda a turbinar a listagem de containers do Docker
 
 ---
 
