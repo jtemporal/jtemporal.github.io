@@ -2,6 +2,7 @@
 layout: post
 type: talk
 title: Hackathon da Saúde
+description: Hackathon da Saúde
 date: 2017-04-07
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: true

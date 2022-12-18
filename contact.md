@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Get in touch
+description: Get in touch
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: /contact/
 lang: en
