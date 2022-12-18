@@ -10,7 +10,7 @@ tags:
 - english
 comments: true
 lang: en
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png"
 
 ---
 ### A letter to my friends
