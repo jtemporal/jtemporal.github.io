@@ -4,7 +4,7 @@ title: Talks
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/talks/"
 lang: en_US
-
+translated: /palestras
 ---
 {% if post.lang == "en_US" or page.lang  == "en_US" or page.lang  == "en" or post.tags contains "english" %}
 # Talks, podcasts and streams
