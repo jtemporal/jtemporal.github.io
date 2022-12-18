@@ -2,6 +2,7 @@
 layout: post
 type: talk
 title: "Workshop Mineração de Dados e Inteligência Artificial"
+description: "Workshop Mineração de Dados e Inteligência Artificial"
 date: 2017-04-20
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
