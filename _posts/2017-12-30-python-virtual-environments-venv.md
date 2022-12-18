@@ -24,11 +24,6 @@ comments: true
 description: Learn how to create virtual environments using Python's module venv
 
 ---
----
-
-Nota da autora: Se preferir leia [esse texto em Português](https://jtemporal.com/venv-inicio/).
-
----
 
 After learning that [Python](https://www.python.org/) has several versions, and after learning [how to install any of them using pyenv](https://jtemporal.com/python-and-its-versions/), today's tip teaches you the next step: how to use [venv](https://docs.python.org/3/library/venv.html) to create virtual environments with Python 3.
 
