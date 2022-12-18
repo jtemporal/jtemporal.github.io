@@ -3,7 +3,7 @@ layout: default
 title: English
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/en/"
-lang: en
+lang: en_US
 translated: "/pt"
 
 ---
@@ -11,7 +11,7 @@ translated: "/pt"
 <div class="row pack">
 {% assign posts = site.posts | where: "type", "post" %}
 {% for post in posts %}
-{% if post.lang == "en_US" or post.lang == "en" or page.lang == "en" or post.tags contains "english" or post.tags contains "English" %}
+{% if post.lang == "en" %}
 <div class="col-md-4 card">
   <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
     <div class="panel panel-default">

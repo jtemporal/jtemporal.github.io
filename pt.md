@@ -3,7 +3,7 @@ layout: default
 title: Português
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/pt/"
-lang: pt
+lang: pt_BR
 translated: "/en"
 
 ---
@@ -12,7 +12,7 @@ translated: "/en"
 <div class="row pack">
 {% assign posts = site.posts | where: "type", "post" %}
 {% for post in posts %}
-{% if post.tags contains "português" or page.lang == "pt" or post.lang == "pt" %}
+{% if post.lang == "pt" %}
 <div class="col-md-4 card">
 <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
 <div class="panel panel-default">
