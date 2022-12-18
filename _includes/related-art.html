@@ -8,28 +8,7 @@
   {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
   {% for post in site.posts %}
     {% if post.url == related_post_url %}
-      <div class="col-sm-4 card-recent">
-        <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
-          <div class="panel panel-default">
-            {% include images-logic.html %}
-            <div class="panel-body">
-              <h3 class="panel-title pull-left">{{ post.title }}</h3>
-              <br>
-              <span class="post-meta pull-left">
-                <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-              </span>
-            </div>
-
-            <div class="panel-body">
-              {% if post.description %}
-                <small>{{ post.description }}</small>
-              {% else %}
-                <small>{{ post.excerpt | strip_html | strip_newlines | truncate: 70 }}</small>
-              {% endif %}
-            </div>
-          </div>
-        </a>
-      </div>
+      {{ include end-of-post-articles-cards.html }}
     {% endif %}
   {% endfor %}
 {% endfor %}
