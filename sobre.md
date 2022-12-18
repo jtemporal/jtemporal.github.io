@@ -3,7 +3,7 @@ layout: page
 title: Sobre
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/sobre/"
-lang: pt
+lang: pt_BR
 translated: "/about"
 
 ---
