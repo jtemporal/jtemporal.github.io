@@ -4,7 +4,7 @@ type: talk
 title: "Serenata de Amor: Machine Learning Meetup"
 description: "Serenata de Amor: Machine Learning Meetup"
 date: 2017-03-09
-talk: true
+hideden: true
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
 comments: false
 ---
