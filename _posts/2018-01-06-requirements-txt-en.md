@@ -19,12 +19,6 @@ tags:
 comments: true
 ---
 
----
-
-Nota da autora: Você pode [ler esse artigo em Português se preferir](https://jtemporal.com/requirements-txt/).
-
----
-
 After a long conversation the other day about dependencies and environments reproducibility, I decided to make this post to talk about a very common file in [Python](http://python.org/) projects that I see all around: the `requirements.txt`.
 
 A common step in setting up Python development environments is to install dependencies. This step is often performed as follows:

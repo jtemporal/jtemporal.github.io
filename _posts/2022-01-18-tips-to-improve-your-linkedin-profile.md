@@ -15,7 +15,7 @@ tags:
 related: false
 translator: true
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translated: "/dicas-para-melhorar-o-seu-perfil-no-linkedin"
 
 ---
