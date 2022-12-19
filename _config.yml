@@ -7,6 +7,7 @@
 
 # Site settings
 title: Jessica Temporal
+tagline: Posts about python, data science, git, open source and more 😉
 email: hello@jtemporal.com
 description: > # this means to ignore newlines until "baseurl:"
   Sr. Dev Advocate 🥑 • 🎙 Podcaster @pizzadedados • Creator of @gitfichas • GitHub ⭐️ • cross stitch & knitter • 🇧🇷 & 🇨🇦 • she/her •
@@ -48,6 +49,7 @@ twitter:
   username: jesstemporal
   card: summary_large_image
 github: https://github.com/jtemporal
+
 
 # Collections
 collections:
