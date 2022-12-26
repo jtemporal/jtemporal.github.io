@@ -19,7 +19,7 @@ tags:
 ---
 If you were following the "[Publishing your own website with Jekyll](https://jtemporal.com/publishing-a-website-with-jekyll/)" on macOS Catalina, after running `bundle install` and `bundle exec jekyll serve` you may have run into this error:
 
-![](/images/invalid_date_macos_catalina.png)
+![image showing the invalid date error on the terminal](/images/invalid_date_macos_catalina.png)
 
 The solution is quite simple although it may not be trivial if it is your first time doing this. In this pro-tip, I'll show you how to fix this error so you can continue blogging 😉
 
@@ -44,6 +44,6 @@ Now all you have to do is reinstall everything and run the Jekyll server:
 
 And you should see something like this on your terminal:
 
-![](/images/Screen Shot 2020-02-25 at 13.21.24.png)
+![terminal message after fix](/images/Screen Shot 2020-02-25 at 13.21.24.png)
 
 And now you are good to go! Happy blogging 🎉

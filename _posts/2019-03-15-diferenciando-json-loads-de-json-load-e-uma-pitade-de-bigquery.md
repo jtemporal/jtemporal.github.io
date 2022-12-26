@@ -40,15 +40,15 @@ Dentre os vários métodos, existem dois que são o foco dessa colinha de hoje `
 
 Mas antes de começar, vamos pegar alguns dados. Esses dias eu tava dando uma olhada no [BigQuery](https://cloud.google.com/bigquery/), que entre muitas coisas legais que a ferramenta permite fazer, também da acesso a uma enormidade de dados públicos. Dentre eles dados do GitHub. Muitos desses dados estão disponíveis via API do próprio GitHub, mas se quiser aprender a mexer no BigQuery, eles já disponibilizam os dados lá dentro pra gente:
 
-![](/images/bq-github.png)
+![imagem mostrando o dataset do github no bq](/images/bq-github.png)
 
 Muito fofo né? Dá pra ver pela imagem acima que o conjunto de dados `github_repos` contém 9 tabelas. Dentre elas uma tabela chamada `languages`:
 
-![](/images/bq-github-languages.png)
+![imagem mostrando a tabela de linguagens do github no bq](/images/bq-github-languages.png)
 
 Essa tabela embora grande tem poucas colunas, apenas 4 para ser mais exata:
 
-![](/images/bq-github-languages-schema.png)
+![imagem mostrando o schema da tabela de linguagens do github no bq](/images/bq-github-languages-schema.png)
 
 Com o BigQuery é possível exportar dados para a sua conta do Google Drive. E foi isso que eu fiz, primeiro eu selecionei 100 observacoes da tabela usando a consulta SQL abaixo:
 
@@ -56,7 +56,7 @@ Com o BigQuery é possível exportar dados para a sua conta do Google Drive. E f
 
 E após a _query_ ter sido executada eu cliquei na telinha do próprio BigQuery para exportar os resultados. Ao exportar esses dados o BigQuery cria uma pasta no seu Drive:
 
-![](/images/2019-03-15 19.16.34.png)
+![imagem mostrando os dados exportados](/images/2019-03-15 19.16.34.png)
 
 E dentro dessa pasta um arquivo com o mesmo nome de extensão `.json`. Eu baixei esse arquivo e renomeei ele para `bq-github-languages.json` só para ser um nome mais indicativo do dado que ele contém.
 
@@ -86,7 +86,7 @@ E tudo bem, mas essa ação traz o seguinte resultado: no lugar de ter uma lista
 
 Eu costumava confundir muito o funcionamento dos dois métodos. Até que, recentemente, algo clicou. Quando você tem _strings_, você deve usar `.loads()`. Você pode usar a dica que vem do próprio nome: `s` de _string_.
 
-![](https://media.giphy.com/media/IWOTlIqnWzTFe/giphy.gif)
+![gif](https://media.giphy.com/media/IWOTlIqnWzTFe/giphy.gif)
 
 Aí depois de ler o arquivo linha a linha com o `.readlines()` você pode passar item a item da sua lista de _strings_ e transformar ela num dicionário:
 

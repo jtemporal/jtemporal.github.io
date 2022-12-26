@@ -45,27 +45,27 @@ Eu gosto de encarar o primeiro passo como a **coleta de dados**, esses dados tem
 
 Para começar abra o LinkedIn, abaixo você a minha página inicial. Ao centro, você vê a caixa para começar um novo post e o comecinho de um post do [Data Bootcamp](https://databootcamp.com.br/) que foi curtido por pessoas na minha rede. A esquerda você vê o meu perfil com algumas estatísticas, a direita sugestões de tópicos para seguir, mas o nosso foco vai ser na barra superior.
 
-![](/images/vagas_01.JPG)
+![vagas 01](/images/vagas_01.JPG)
 
 É na barra de mais acima da página que você encontra o campo de busca do LinkedIn, é nessa parte onde você deve inserir os termos de busca como por exemplo empresas que você tem interesse, tópicos/hashtags sobre assuntos para você acompanhar, ofertas de vagas disponíveis e pessoas para se conectar, tente me achar por exemplo, digite “Jessica Temporal” e aperte enter para ver se eu apareço na lista de pessoas sugeridas.
 
-![](/images/vagas_02.JPG)
+![vagas 02](/images/vagas_02.JPG)
 
 Outra parte interessante é a aba de “Jobs”. Nessa aba você tem uma pesquisa específica para vagas anunciadas na plataforma. Você pode fazer uma pesquisa tão ampla ou tão específica quanto queira, vamos ver como fazer isto a seguir. Além disso, também é possível criar notificações para uma busca, assim, novas vagas que surgirem com os filtros escolhidos chegam para você por e-mail.
 
-![](/images/vagas_03.JPG)
+![vagas 03](/images/vagas_03.JPG)
 
 Agora que você já conhece um pouco da interface vamos fazer a primeira busca, suponha que você quer ser cientista de dados, mas quer trabalhar na cidade de São Paulo. Na primeira caixa você deve preencher o cargo ou termo de pesquisa (não clique nas opções da lista que vai aparecer ainda) e na segunda caixa digite a cidade de interesse e clique em "Search" ou "Buscar" se o seu LinkedIn estiver em Português.
 
-![](/images/vagas_04.JPG)
+![vagas 04](/images/vagas_04.JPG)
 
 Ao clicar em buscar, a página irá recarregar e mostrar uma lista de vagas para aquela região, veja:
 
-![](/images/vagas_05.JPG)
+![vagas 05](/images/vagas_05.JPG)
 
 E se você notar, logo abaixo da barra de pesquisa, temos filtros. São esses filtros que vamos usar para achar dez vagas de cientista de dados para tentar responder a nossa pergunta inicial.
 
-![](/images/vagas_06.JPG)
+![vagas 06](/images/vagas_06.JPG)
 
 A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use o filtro "Company" ou "Empresa", e vou selecionar algumas empresas, aqui selecionei apenas algumas empresas Brasileiras e depois de selecionar todas as que tenho interesse cliquei em "Show results" ou "Mostrar resultado":
 
@@ -73,7 +73,7 @@ A primeira coisa que vou fazer vai ser escolher algumas empresas, para isso use 
 
 Depois de recarregar a página você vai ver uma lista filtrada de cargos disponíveis:
 
-![](/images/vagas_08.JPG)
+![vagas 08](/images/vagas_08.JPG)
 
 Cada vaga possui pelo menos 3 elementos:
 
@@ -110,7 +110,7 @@ Agora que você já tem uma coleção de vagas, chegou a hora de arregaçar as m
 
 Para isso eu criei uma planilha onde colei as descrições das seções de requisitos de cada vaga que achei interessante. Eu coloquei uma coluna para cada informação: Título da vaga, empresa de onde peguei a vaga, os requisitos, as habilidades que são consideradas um diferencial e por fim o link da vaga. E organizando assim fica mais fácil do que passear entre 10 abas no navegador 😉
 
-![](/images/vagas_12.JPG)
+![vagas 12](/images/vagas_12.JPG)
 
 Essa é a minha base de informações, mas concorda que ainda não está fácil de visualizar as as habilidades mais importantes? Então vamos estruturar nossos dados. Para isso eu criei uma nova aba na minha planilha e fui manualmente criando uma coluna para cada empresa e transformando o texto em uma lista de habilidades, por exemplo, a vaga da Stone abaixo:
 
@@ -132,19 +132,19 @@ Depois de transformar a descrição das vagas num dado colunar eu recomendo que 
 
 Agora para contar tudo isso nós vamos fazer uma tabela dinâmica ou _pivot table_. Para facilitar a criação dessa tabela, eu colei numa nova aba da planilha todas as habilidades de cada das empresas em uma única coluna, que chamei de “Habilidades” e fiquei com uma coluna de 99 linhas com repetições, veja as últimas linhas da minha coluna resultante:
 
-![](/images/vagas_15.JPG)
+![vagas 15](/images/vagas_15.JPG)
 
 Tendo feito isso você conseguirá criar uma tabela que vai apresentar a frequência de cada habilidade ou ferramenta no nosso conjunto de vagas. Para criar uma tabela dinâmica no Google Sheets você deve selecionar “Tabela dinâmica” no menu “Dados”:  
-![](/images/vagas_16.JPG)
+![vagas 16](/images/vagas_16.JPG)
 
 Ao clicar em tabela dinâmica vai aparecer a janelinha abaixo na sua planilha, onde você pode ajustar o intervalo de dados, no meu caso, eu estou escolhendo todas as linhas da coluna A da aba “Habilidades” para criar a minha tabela. Eu também selecionei “inserir em nova página” para criar a tabela numa nova aba da planilha e evitar a sobrescrita da minha resultante.  
-![](/images/vagas_17.JPG)
+![vagas 17](/images/vagas_17.JPG)
 
 E ao clicar em “Criar”, como esperado, uma nova aba aparece:  
-![](/images/vagas_18.JPG)
+![vagas 18](/images/vagas_18.JPG)
 
 Note que a nossa tabela ainda está em branco. Isso acontece porque nós precisamos configurar os dados a serem calculados. Então clique numa célula da tabela para que o menu de edição da tabela dinâmica apareça:  
-![](/images/vagas_19.JPG)
+![vagas 19](/images/vagas_19.JPG)
 
 Agora a primeira coisa que vamos fazer vai ser adicionar os termos disponíveis na minha aba de Habilidades como entradas da tabela dinâmica, para isso clique no adicionar da seção “Linhas” e selecione “Habilidades”:
 
@@ -164,7 +164,7 @@ Pronto! Agora você tem uma lista das habilidades que precisa desenvolver e ferr
 
 De acordo com o nosso pequeno conjunto de dados de 10 vagas de empresas Brasileiras que contratam a cientistas de dados, essas são as 15 ferramentas que você precisa ter no no seu currículo.
 
-![](/images/vagas_23.JPG)
+![vagas 23](/images/vagas_23.JPG)
 
 ## Recapitulando
 
