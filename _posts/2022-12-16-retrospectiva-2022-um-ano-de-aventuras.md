@@ -11,7 +11,10 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/p
 type: post
 related: false
 lang: pt
+author_note_link: "https://jtemporal.com/my-year-in-review-2022-year-of-adventures"
+author_note: "You can read this blog post in English"
 translator: false
+translated: "/my-year-in-review-2022-year-of-adventures"
 
 ---
 [Em 2018](https://jtemporal.com/retrospectiva-2018/) e [em 2017](https://jtemporal.com/retrospectiva-2017/) eu fiz retrospectivas públicas e, por algum motivo, não senti necessidade de fazer isso em entre 2019 e 2021, possivelmente por que dois desses anos foram de pandemia e eu tava só tentando sobreviver? Sim. 2022 chegou e com ele a reabertura do mundo. Esse ano tanta coisa aconteceu que acho que vale a pena a reflexão.
