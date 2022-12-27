@@ -8,6 +8,8 @@ description: Dicas que sigo quando estou trabalhando remoto para que você que e
   se adaptando
 lang: "pt"
 translated: "/working-remotely"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/working-remotely"
 type: post
 tags:
 - dicas de trabalho
@@ -57,10 +59,10 @@ Uma coisa nesses anos notei é que temos, em geral, uma comunicação por texto 
 
 Por isso, e especialmente nesse momento, é uma ótima oportunidade para usar as ferramentas de videoconferência que existem por aí. A maioria das empresas já possuem ferramentas padrão para isso, mas vou deixar aqui algumas dicas caso esse seja um mundo totalmente novo para você:
 
-* [Zoom.us](zoom.us): Aplicativo de videoconferência, na versão gratuita suporta chamadas com mais de duas pessoas durante 40 minutos, na versão paga a duração das chamadas é ilimitada;
-* [hangouts.google.com](hangouts.google.com): aplicativo web de videoconferência do Google, basta ter uma conta do Google para gerar as salas de videoconferência e enviar o link de convite para qualquer pessoa com limitação de 10 participantes por chamada;
-* [Whereby.com](Whereby.com) (antigo appear.in): aplicativo web de videoconferência você pode criar a sua própria sala e bloquear ou permitir a entrada de novas pessoas, limitado a 4 pessoas por chamada na versão gratuita;
-* [Discordapp.com](Discordapp.com): aplicativo de conferência por voz, você pode criar o seu canal e permitir a entrada de quantas pessoas quiser, muito usado para jogos, consome pouca banda e não possui limitações de pessoas nos canais de voz.
+* [Zoom.us](https://zoom.us): Aplicativo de videoconferência, na versão gratuita suporta chamadas com mais de duas pessoas durante 40 minutos, na versão paga a duração das chamadas é ilimitada;
+* [hangouts.google.com](https://hangouts.google.com): aplicativo web de videoconferência do Google, basta ter uma conta do Google para gerar as salas de videoconferência e enviar o link de convite para qualquer pessoa com limitação de 10 participantes por chamada;
+* [Whereby.com](https://Whereby.com) (antigo appear.in): aplicativo web de videoconferência você pode criar a sua própria sala e bloquear ou permitir a entrada de novas pessoas, limitado a 4 pessoas por chamada na versão gratuita;
+* [Discordapp.com](https://Discordapp.com): aplicativo de conferência por voz, você pode criar o seu canal e permitir a entrada de quantas pessoas quiser, muito usado para jogos, consome pouca banda e não possui limitações de pessoas nos canais de voz.
 
 Mas lembre-se de registrar o que foi conversado por texto para as demais pessoas interessadas. Nesses momentos de formalização de conversas eu tento seguir três passos:
 
@@ -94,7 +96,7 @@ Por fim lembre-se de manter a segurança, evitar aglomerações e lavar bem as m
 ### Dicas e leituras extras
 
 * [O post feito pelo Coxa do JusBrasil, uma empresa que tem trabalho remoto e escritório silencioso com várias dicas e ideias](https://danielmurta.jusbrasil.com.br/artigos/824228394/voce-nao-precisa-ter-medo-de-trabalhar-de-casa-ou-a-distancia);
-* [Toggl: Ferramenta gratuita de contagem de tempo com cronometro para Pomodoro incluído](toggl.com/);
+* [Toggl: Ferramenta gratuita de contagem de tempo com cronometro para Pomodoro incluído](https://toggl.com/);
 * [Materiais da Officeless sobre trabalho remoto](https://www.officeless.cc/materiais).
 
 PS.: se souber algum material legal em Português manda que eu adiciono aqui 🙂

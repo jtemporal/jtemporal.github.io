@@ -5,6 +5,8 @@ date: 2018-01-07 08:00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 lang: "en"
 translated: "/temas-jekyll"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/temas-jekyll"
 type: post
 tags:
 - english
@@ -15,11 +17,6 @@ tags:
 - ruby
 comments: true
 description: Chose a theme and start blog without fuss
-
----
----
-
-_Author note:_ [Leia este artigo em Português.](https://jtemporal.com/temas-jekyll/)
 
 ---
 

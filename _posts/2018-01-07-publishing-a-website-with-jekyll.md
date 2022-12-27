@@ -5,6 +5,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 date: 2018-01-07T10:00:00.000+00:00
 lang: "en"
 translated: "/do-tema-ao-ar"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/do-tema-ao-ar"
 type: post
 tags:
 - tutorial
@@ -19,10 +21,6 @@ comments: true
 description: Learn to get your website up and running using the terminal, jekyll and
   other tools.
 
----
-
----
-_Author note:_ [Siga esse tutorial em Português.](https://jtemporal.com/do-tema-ao-ar/)
 ---
 
 In a [pro tip, I talked about how using Jekyll](https://jtemporal.com/choosing-a-jekyll-theme/) is an excellent idea to get your site online. In this tutorial, we will deploy a website using GitHub, Jekyll, and the terminal.

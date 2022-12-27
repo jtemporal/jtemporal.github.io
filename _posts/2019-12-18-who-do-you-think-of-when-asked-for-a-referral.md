@@ -6,6 +6,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 lang: "en"
 translated: "/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
 type: post
 tags:
 - pyladies

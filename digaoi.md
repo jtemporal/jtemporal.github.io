@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Contato
-image: /images/logo.png
+description: Contato
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: /digaoi/
-lang: pt_BR
+lang: pt
+translated: /contact
 
 ---
 

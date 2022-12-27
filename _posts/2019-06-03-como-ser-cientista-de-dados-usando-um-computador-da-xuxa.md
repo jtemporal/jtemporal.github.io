@@ -4,6 +4,7 @@ title: Como ser Cientista de Dados usando um computador da Xuxa?
 date: 2019-06-03 09:00:00 -0300
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 type: post
+lang: pt
 tags:
 - tutorial
 - jupyter
@@ -113,11 +114,11 @@ Em termos não técnicos, o _port forwarding_ funciona como um portal.
 
 Se você cria um portal para algum lugar consegue ver o que está acontecendo nesse lugar. Também é assim que a gente consegue estabelecer um canal de comunicação e saber o que está rolando no servidor, criando um túnel (portal) que liga a porta `8080` da minha máquina local a porta `8888` do servidor:
 
-![](https://cdn-images-1.medium.com/max/1200/1*J-HKcdqv-XcnH8eit8M7PQ.png)
+![imagem mostrando o tunel no terminal](https://cdn-images-1.medium.com/max/1200/1*J-HKcdqv-XcnH8eit8M7PQ.png)
 
 Com isso você consegue abrir no navegador do seu computador e acessar o `https://localhost:8080` para ver seus notebooks:
 
-![](https://cdn-images-1.medium.com/max/1200/1*zCgW_BhKtuxDiMNSNPix7A.png)
+![imagem do navegador em local host](https://cdn-images-1.medium.com/max/1200/1*zCgW_BhKtuxDiMNSNPix7A.png)
 
 ### Finalmente
 

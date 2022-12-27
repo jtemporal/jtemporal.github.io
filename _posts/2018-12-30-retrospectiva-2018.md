@@ -9,7 +9,6 @@ comments: true
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
 type: post
 related: false
-posts_list: []
 lang: pt
 translator: false
 

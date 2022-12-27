@@ -18,7 +18,7 @@ posts_list:
 - introducing-gitfichas
 - updating-a-branch-with-git-rebase
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 Every time you create a new branch in Git you need to switch to that branch before committing. In this pro tip I'll show you my favorite shortcut to create a branch and switch to it, all at the same time.

@@ -1,10 +1,13 @@
 ---
 title: 'Python project dependencies: requirements.txt'
+description: "Learn about the requirements.txt file"
 layout: post
 date: 2018-01-06 08:00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 lang: "en"
 translated: "/requirements-txt"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/requirements-txt"
 type: post
 tags:
 - protip
@@ -15,12 +18,6 @@ tags:
 - versions
 - english
 comments: true
----
-
----
-
-Nota da autora: Você pode [ler esse artigo em Português se preferir](https://jtemporal.com/requirements-txt/).
-
 ---
 
 After a long conversation the other day about dependencies and environments reproducibility, I decided to make this post to talk about a very common file in [Python](http://python.org/) projects that I see all around: the `requirements.txt`.

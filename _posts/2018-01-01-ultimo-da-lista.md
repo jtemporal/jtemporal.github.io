@@ -1,5 +1,6 @@
 ---
 title: "O último da lista com Python"
+description: Como pegar o último item de uma lista em Python
 layout: post
 date: '2018-01-01 10:00:00'
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
@@ -12,6 +13,7 @@ tags:
 - manipulação de listas
 - português
 comments: true
+lang: pt
 ---
 
 [Python](https://www.python.org/) é conhecida por facilitar a escrita de códigos bonitos e pequenos. A colinha de hoje é sobre como pegar o último elemento de uma lista usando essa linguagem \o/
@@ -63,7 +65,7 @@ Massa né? Agora é só usar índice negativo nos seus códigos também  😉
 ----
 ## Links
 - Para mais detalhes do slice de strings olhe essa [Introdução informal de Python em inglês](https://docs.python.org/3.6/tutorial/introduction.html)
-- Referência ao caso especial de índices negativos [no método `__getitem__` na documentação do Python](ttps://docs.python.org/3/reference/datamodel.html#object.__getitem__)
+- Referência ao caso especial de índices negativos [no método `__getitem__` na documentação do Python](https://docs.python.org/3/reference/datamodel.html#object.__getitem__)
 
 ## Agradecimentos
 Mário Sérgio, Diego Ponciano e Paulo Haddad por alguns dos links nesse post!

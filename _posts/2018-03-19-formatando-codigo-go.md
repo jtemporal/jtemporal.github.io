@@ -11,6 +11,7 @@ tags:
 - golang
 - formatação
 - português
+lang: pt
 comments: true
 ---
 

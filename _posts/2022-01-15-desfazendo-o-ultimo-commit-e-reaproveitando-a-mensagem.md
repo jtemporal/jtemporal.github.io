@@ -18,6 +18,8 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 lang: pt
 translated: "/undoing-the-last-commit-and-reusing-the-message"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/undoing-the-last-commit-and-reusing-the-message"
 
 ---
 Desfazer e refazer commits faz parte do dia-a-dia, então é importante entender os comandos que podem ajudar a gente nesse caminho. Nessa colinha eu vou te ensinar a fazer duas coisas:

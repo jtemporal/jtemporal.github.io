@@ -7,6 +7,8 @@ comments: true
 type: post
 lang: en
 translated: "/kmeans-e-cotovelo"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/kmeans-e-cotovelo"
 tags:
 - tutorial
 - data science
@@ -59,7 +61,7 @@ This dataset is so widely used that data science libraries usually have it built
 
 Glancing at the first 5 rows of our dataset you might ask me: _"But Jess, the answers were are seeking is right there in the_ `_species_` _column, weren't we going to do unsupervised clustering?"_
 
-![](https://cdn-images-1.medium.com/max/800/1*rLqNbyrHGZs7NpE6dBl3qg.png "dataset.head") <center><br><i>First 5 rows of the Iris dataset, the result of the `iris.head()` command</i></center>
+![table showing the first 5 rows of the dataset](https://cdn-images-1.medium.com/max/800/1*rLqNbyrHGZs7NpE6dBl3qg.png "dataset.head") <center><br><i>First 5 rows of the Iris dataset, the result of the `iris.head()` command</i></center>
 
 Okay, yes! We have the answers in our dataset but for the purpose of this tutorial, we are going to forget that we already know the species of our samples and we are going to try to group them using KMeans.
 
@@ -99,7 +101,7 @@ Now that you are aware of all that, let's look at our data: we have only 4 dimen
 
 When we use the function written above to calculate the within clusters sum-of-squares for our Iris dataset and plot the result, we find a plot like this:
 
-![](https://cdn-images-1.medium.com/max/800/1*BeBON5cT5jXuTvXRJ8GhTw.png)
+![plot showing all data points from a0 to a18](https://cdn-images-1.medium.com/max/800/1*BeBON5cT5jXuTvXRJ8GhTw.png)
 
 <center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares</small></i></center>
 
@@ -119,13 +121,13 @@ It turns out that the point that indicates the balance between greater homogenei
 
 Don't be scared, in this case, _P0_ is our `a0` and _P1_ is our `a18`:
 
-![](https://cdn-images-1.medium.com/max/800/1*5VTBI6T5c7De-GtKTBaNNA.png)
+![plot showing the "elbow" with a0 and a18](https://cdn-images-1.medium.com/max/800/1*5VTBI6T5c7De-GtKTBaNNA.png)
 
 <center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares, the green line is the base line to calculate the distance</small></i></center>
 
 and the pair `(x,y)` represents the coordinates of any point that we might want to calculate the distance to the line. Let's look at our elbow plot one more time:
 
-![](https://cdn-images-1.medium.com/max/800/1*5AILcLRFN7UzhLCKw6MaYQ.png)
+![plot showing the "elbow" with a0, a1 and a18](https://cdn-images-1.medium.com/max/800/1*5AILcLRFN7UzhLCKw6MaYQ.png)
 
 <center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares, the green line is the base line to calculate the distance</small></i></center>
 
@@ -135,7 +137,7 @@ Suppose we want to calculate the distance between the point `a1` and the line th
 
 Substituting the values above into the distance formula we have the following:
 
-![](https://cdn-images-1.medium.com/max/1200/1*DYmZL126BCy2xJNPVtoTbg.png)
+![formula with values substituted](https://cdn-images-1.medium.com/max/1200/1*DYmZL126BCy2xJNPVtoTbg.png)
 
 <center><br><img src="https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png" style="max-width: 75%;"/></center>
 
@@ -174,13 +176,13 @@ The method `optimal_number_of_clusters()` takes a list containing the within clu
 
 After clustering the data we should take a look at the statistical description of each cluster:
 
-![](https://cdn-images-1.medium.com/max/1200/1*6b4p4aw1EMAp00xlEsFpfA.png)
+![dataset first 5 lines after clustering](https://cdn-images-1.medium.com/max/1200/1*6b4p4aw1EMAp00xlEsFpfA.png)
 
 <center><small><i>Statistical description grouped by cluster</i></small></center>
 
 Not bad if compared to the statistical description of the original data that I show below, right?
 
-![](https://cdn-images-1.medium.com/max/1200/1*6LLgj9Jgz44Z7rZegS9V_w.png)
+![dataset first five lines from the orginal data](https://cdn-images-1.medium.com/max/1200/1*6LLgj9Jgz44Z7rZegS9V_w.png)
 
 <center><small><i>Statistical description grouped by species</i></small></center>
 
@@ -188,7 +190,7 @@ Not bad if compared to the statistical description of the original data that I s
 
 Obviously, no clustering will be 100% accurate especially when we have clusters that present very similar characteristics. I particularly like the visual version of a good clusterization. Let's put two petal features in the plot and color the points based on the cluster each sample was given and also based on the species they belong to:
 
-![](https://cdn-images-1.medium.com/max/800/1*Rnz35jPaqoARWQYZir_5iQ.png)
+![clustering plot](https://cdn-images-1.medium.com/max/800/1*Rnz35jPaqoARWQYZir_5iQ.png)
 
 We can see in the plot those 12 observations that "migrated" in classification could easily be a part of any of the two clusters.
 

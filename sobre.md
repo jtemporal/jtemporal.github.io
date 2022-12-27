@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Sobre
-image: "/images/logo.png"
+description: Sobre
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/sobre/"
 lang: pt_BR
+translated: "/about"
 
 ---
 Me tornei uma entusiasta de tecnologia e ciência de dados durante a faculdade de Informática Biomédica quando aprendi a buscar informações em dados de sequenciamento genético de câncer e células-tronco usando R.

@@ -2,16 +2,12 @@
         <div class="post-img">
           {% if page.image %}
             {% if page.image contains "http" %}
-              <img width="100%" src="{{page.image}}" alt="{{post.title}}">
+              <img width="100%" style="border-radius: 3%;" src="{{page.image}}" alt="{{page.title}}">
             {% else %}
-              {% if page.layout == "page" %}
-                <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
-              {% else %}
-                <img width="100%" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
-              {% endif %}
+              <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
             {% endif %}
           {% else %}
-            <img width="100%" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{page.title}}">
+            <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{page.title}}">
           {% endif %}
         </div>
 
@@ -27,18 +23,43 @@
         {% endif %}
 
         {% if page.layout == "post" %}
-        <div class="mt10 recent">
-            <h3>Recent articles</h3>
-             <ul>
-                {% for post in site.related_posts limit:3 %}
-
+          {% if page.related %}
+            <div class="mt10 recent">
+              {% if post.lang == "en" or page.lang == "en_US" %}
+                <h2>Related Articles</h2>
+              {% else %}
+                <h2>Artigos relacionados</h2>
+              {% endif %}
+                {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
+                {% for related_post in related_post_list %}
+                  {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
+                  {% for post in site.posts %}
+                    {% if post.url == related_post_url %}
+                    <ul>
                       <li>
-                      <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                        <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
                       </li>
-
+                    </ul>
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+            </div>
+          {% else %}
+            <div class="mt10 recent">
+              {% if post.lang == "en" or page.lang  == "en_US" %}
+                <h2>Recent Articles</h2>
+              {% else %}
+                <h2>Artigos recentes</h2>
+              {% endif %}
+              <ul>
+                {% for post in site.related_posts limit:3 %}
+                  <li>
+                    <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                  </li>
                 {% endfor %}
               </ul>
-        </div>
+            </div>
+          {% endif %}
         {% endif %}
         <br>
 </div>

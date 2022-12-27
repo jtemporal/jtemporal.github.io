@@ -4,6 +4,7 @@ title: Quem tem medo de virar cientista de dados (3/3)
 date: 2020-01-29 10:00:37 -0200
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 type: post
+lang: pt
 tags:
 - carreira de sucesso
 - conselho de carreira
@@ -11,8 +12,7 @@ tags:
 - medium
 - português
 comments: true
-description: Esse texto é a parte final da trilogia “Quem tem medo de virar cientista
-  de dados?"
+description: Esse texto é a parte final da trilogia “Quem tem medo de virar cientista de dados?"
 
 ---
 Esse texto é a parte final da trilogia “Quem tem medo de virar cientista de dados?”

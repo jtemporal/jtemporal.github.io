@@ -14,6 +14,7 @@ tags:
 - sql
 - dados
 - português
+lang: pt
 comments: true
 ---
 

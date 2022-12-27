@@ -7,10 +7,11 @@
 
 # Site settings
 title: Jessica Temporal
+tagline: Posts about python, data science, git, open source and more 😉
 email: hello@jtemporal.com
 description: > # this means to ignore newlines until "baseurl:"
   Sr. Dev Advocate 🥑 • 🎙 Podcaster @pizzadedados • Creator of @gitfichas • GitHub ⭐️ • cross stitch & knitter • 🇧🇷 & 🇨🇦 • she/her •
-  This is my personal blog, my opinions are my own.
+  Opinions are my own.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jtemporal.com" # the base hostname & protocol for your site
@@ -21,9 +22,10 @@ words_per_minute: 200
 
 #sidebar
 default-image: logo.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+favicon: https://res.cloudinary.com/jesstemporal/image/upload/v1671381240/favicon_p3m2nf.ico
+applefavicon: https://res.cloudinary.com/jesstemporal/image/upload/v1671381215/apple-touch-icon_ka9zbv.png
 
 #footer
-
 built-by: 
 
 copyright:
@@ -47,6 +49,7 @@ twitter:
   username: jesstemporal
   card: summary_large_image
 github: https://github.com/jtemporal
+
 
 # Collections
 collections:

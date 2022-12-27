@@ -10,11 +10,12 @@ tags:
 - git
 - português
 - colinha
-related: true
-posts_list:
-- do-tema-ao-ar
-- para-que-serve-o-git-stash-drop
-- resolvendo-conflitos
+related: false
+lang: pt
+author_note_link: "https://jtemporal.com/my-content-creation-process"
+author_note: "You can read this blog post in English here"
+translator: false
+translated: "/my-content-creation-process"
 
 ---
 Eu tenho mantido um blog por alguns anos e, desde que, criar conteúdos passou a ser meu ganha pão, eu tenho pensado bastante sobre métodos de escrita.

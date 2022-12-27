@@ -9,6 +9,5 @@ tags:
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 description: ''
 related: false
-posts_list: []
 
 ---

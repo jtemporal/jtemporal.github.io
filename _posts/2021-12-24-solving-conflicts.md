@@ -4,7 +4,7 @@ title: Solving conflicts in Git
 date: 2021-12-24T18:55:59.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
-description: Uma receita infalível para você entender e resolver conflitos sem medo
+description: A recipe to understand and fix conflicts in git
 type: post
 tags:
 - git
@@ -18,7 +18,7 @@ posts_list:
 - fixing-the-branch-source-with-git-rebase
 - updating-a-branch-with-git-rebase
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translator: true
 
 ---

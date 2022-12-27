@@ -14,6 +14,7 @@ tags:
 - github
 - chaves
 - português
+lang: pt
 comments: true
 ---
 

@@ -17,10 +17,11 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 lang: en
 translated: "/criando-pastas-vazias-no-github-com-o-gitkeep"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/criando-pastas-vazias-no-github-com-o-gitkeep"
 translator: true
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
-image2: ''
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 Sometimes you need to put an empty folder in your project on GitHub, but traditionally git doesn't track empty folders, and then the question pops up: _“how to make an empty folder appear on GitHub if git doesn't allow it?”_

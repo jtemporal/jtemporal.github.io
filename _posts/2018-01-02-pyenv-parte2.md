@@ -12,6 +12,7 @@ tags:
 - versões
 - português
 comments: true
+lang: pt
 
 ---
 A colinha de hoje é inspirada nesse tweet aqui:

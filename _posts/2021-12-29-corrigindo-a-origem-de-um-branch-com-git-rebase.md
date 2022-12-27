@@ -8,6 +8,8 @@ description: Veja como usar git rebase para corrigir a origem de um branch
 type: post
 lang: pt
 translated: "/fixing-the-branch-source-with-git-rebase"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/fixing-the-branch-source-with-git-rebase"
 tags:
 - git
 - português

@@ -5,6 +5,7 @@ date: 2019-03-13T12:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
 comments: true
 type: post
+lang: en
 tags:
 - tools
 - english
@@ -92,7 +93,7 @@ Google used to have a tool called Hangouts On Air, which is now part of YouTube.
 
 There are several types of calls on YouTube: public calls, which everyone subscribed to your channel will receive a notification when they start and can watch live; unlisted ones that people with a link can follow live if they wish, but channel subscribers will not receive notification (imagine a secret live conference); and private ones, which can be viewed by invitation only.
 
-![](/images/yt_call_creation.png)
+![tela de criacao de evento no youtube](/images/yt_call_creation.png)
 <br>
 <center><i><small>
 YouTube call creation screen

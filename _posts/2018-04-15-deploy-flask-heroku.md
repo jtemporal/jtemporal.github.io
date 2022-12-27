@@ -5,6 +5,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/
 date: 2018-04-15T00:00:00.000+00:00
 lang: pt
 translated: "/deploy-flask-heroku-en"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/deploy-flask-heroku-en"
 type: post
 tags:
 - tutorial
@@ -19,12 +21,6 @@ tags:
 comments: true
 
 ---
-\---
-
-Author note: You can [read this post in English here](https://jtemporal.com/deploy-flask-heroku-en/).
-
-\---
-
 Quer aprender a fazer deploy @? Vem que eu te ensino!
 
 ## O que você vai encontrar nesse tutorial

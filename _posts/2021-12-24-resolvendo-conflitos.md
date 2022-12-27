@@ -13,6 +13,8 @@ tags:
 - portugues
 lang: pt
 translated: "/solving-conflicts"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/solving-conflicts"
 related: true
 posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep

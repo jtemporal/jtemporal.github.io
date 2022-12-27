@@ -1,0 +1,17 @@
+<div class="row"> 
+  {% if page.lang == "en_US" %}
+    <h2>Talks, podcasts and streams</h2>
+  {% else %}
+    <h2>Palestras, podcasts e lives</h2>
+  {% endif %}
+</div>
+<br>
+<div class="row">
+  {% for post in site.posts %}
+    {% if post.type == "talk" %}
+    <ul style="list-style: none;">
+      <li><p>{{ post.date | date: "%b %-d, %Y" }} - <a href="{{ post.url | prepend: site.url}}">{{ post.title }}</a></p></li>
+    </ul>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -14,7 +14,7 @@ lang: en
 translated: "/atualizando-um-branch-com-git-rebase"
 related: true
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 posts_list:
 - solving-conflicts
 - fixing-the-branch-source-with-git-rebase

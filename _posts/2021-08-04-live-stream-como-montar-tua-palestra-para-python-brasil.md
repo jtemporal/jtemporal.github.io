@@ -11,7 +11,7 @@ tags:
 - english
 
 ---
-![](https://pbs.twimg.com/media/E7-BFLfXoAQwM_Y?format=jpg&name=medium "E7-BFLfXoAQwM_Y?format=jpg&name=medium")
+![eu, lele portella e ceci vieira](https://pbs.twimg.com/media/E7-BFLfXoAQwM_Y?format=jpg&name=medium "E7-BFLfXoAQwM_Y?format=jpg&name=medium")
 
 Live no canal do PyLadies Brasil sobre como montar uma palestra para a Python Brasil.
 

@@ -8,6 +8,8 @@ description: 'Como uma troca de temas impactou na quantidade de acessos do meu b
 type: post
 lang: pt
 translated: "/from-0-to-17-thousand-pageviews"
+author_note: "You can read this article in English"
+author_note_link: "https://jtemporal.com/from-0-to-17-thousand-pageviews"
 tags:
 - português
 - static site
@@ -21,11 +23,6 @@ tags:
 - git
 - github
 - jekyll
-
----
----
-
-_Nota da autora:_ Read [this post in English](https://jtemporal.com/from-0-to-17-thousand-pageviews/).
 
 ---
 

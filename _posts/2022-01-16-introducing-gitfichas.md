@@ -5,6 +5,8 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/m
 comments: true
 lang: en
 translated: "/conheca-o-gitfichas"
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/conheca-o-gitfichas"
 title: Introducing GitFichas!
 description: "Your new best friend: git study cards!"
 tags:
@@ -12,9 +14,8 @@ tags:
 - git
 type: post
 related: false
-posts_list: ""
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 I started a new project, and I want to tell you all about it! 👀

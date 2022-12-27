@@ -18,7 +18,7 @@ posts_list:
 lang: en
 translated: "/para-que-serve-o-git-stash-drop"
 author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: professoradeboraazevedo@gmail.com
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 
 ---
 Need to clear the stash list and don't know how? Don't worry, in this pro tip you will learn how to “throw away” stashes that you no longer need using the command  `git stash drop`. 😉
@@ -57,7 +57,7 @@ Then you can double check the stash listing:
 
 ![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o drop de um dos stashes anteriores](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/listagem-stashes-pos-dropfig3_j0h1gp.png)
 
-It's worth mentioning that just like [`git stash pop`](https://jtemporal.com/using-git-stash-and-git-stash-po), if you don't pass the stash name to the command `git stash drop`, it will remove the most recent stash from the stack.
+It's worth mentioning that just like [`git stash pop`](https://jtemporal.com/using-git-stash-and-git-stash-pop), if you don't pass the stash name to the command `git stash drop`, it will remove the most recent stash from the stack.
 
 ## GitFichas | GitStudyCards
 
