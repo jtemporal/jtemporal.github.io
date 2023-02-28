@@ -15,6 +15,10 @@ tags:
 - cloud
 - tutorial
 - english
+author_note_link: "https://jtemporal.com/configurar-e-acessar-sua-droplet-via-ssh"
+author_note: "Você pode ler este tutorial em Português"
+translator: false
+translated: "/configurar-e-acessar-sua-droplet-via-ssh"
 
 ---
 If you read my post on [how to create your machine on the cloud with Digital Ocean](https://jtemporal.com/creating-vm-droplet-digital-ocean/), now you have a brand new cloud machine, yay you! But you still need to configure the access so you can SSH into it.

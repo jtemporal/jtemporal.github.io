@@ -14,6 +14,10 @@ tags:
 - cloud
 - english
 - tutorial
+author_note_link: "https://jtemporal.com/criando-a-sua-maquina-na-nuvem-com-digital-ocean"
+author_note: "Você pode ler este tutorial em Português"
+translator: false
+translated: "/criando-a-sua-maquina-na-nuvem-com-digital-ocean"
 
 ---
 This post is a step-by-step on how to create a cloud instance on Digital Ocean.
