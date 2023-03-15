@@ -1,20 +1,18 @@
 ---
-title: "Adicione cores ao compartilhar seu site"
+title: "Add colors when sharing your website"
 layout: post
 date: '2017-12-27 10:00:00'
 type: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
 lang: en
 tags:
-- colinha
+- pro tip
 - web
 - web dev
-- desenvolvimento web
 - html
 - meta tags
 - share
-- compartilhamentos
-- português
+- english
 comments: true
 description: "How to add a thumbnail on your site"
 author_note_link: "https://jtemporal.com/site-thumbnail"
