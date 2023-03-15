@@ -24,36 +24,38 @@ translated: "/site-thumbnail"
 
 ---
 
-Você já notou que ao compartilhar um link na sua rede social favorita esses links carregam imagens para mostrar? Uma espécie de thumbnail do site?
+Have you ever noticed that when you share a link on your favorite social network, these links load images to show? A kind of website thumbnail?
 
-Pois bem, hoje é amplamente utilizada em várias redes sociais, mas quem começou essa brincadeira foi o Facebook que implementou um negócio chamado The [Open Graph protocol](http://ogp.me/). Os objetos dentro do face, são colocados num grafo social (social graph) e são conhecidos como "objetos ricos" (rich objects). Isso que dizer, em poucas palavras, que cada objeto tem uma coleção de características que acrescentam informções a esses objetos.
+Well, today it is widely used on several social networks, but it was Facebook who started this game by implementing something called The [Open Graph protocol](http://ogp.me/). Objects within Facebook are placed in a social graph and are known as "rich objects." This means, in short, that each object has a collection of characteristics that add information to these objects.
 
-E o Facebook queria que as páginas compartilhadas dentro dele pudessem carregar a mesma quantidade de informação e aí que entram meta tags. A ideia é usar meta tags para representar ricamente cada página da internet dentro de um grafo social.
+And Facebook wanted the pages shared within it to be able to load the same amount of information, and that's where meta tags come in. The idea is to use meta tags to richly represent each internet page within a social graph.
 
-Existem várias meta tags que podem ser utilizadas, mas na colinha de hoje vamos falar da `og:image`.
+There are several meta tags that can be used, but in today's pro tip, we will talk about the `og:image`.
 
-## O site do Pizza De Dados
+## Pizza De Dados website
 
-Esse semana passada, eu procurei deixar o site do [Pizza de Dados](http://podcast.datascience.pizza/) mais amigável aos olhos e uma das coisas que eu quis mudar foi acrescentar a meta tag com a nossa logo 🍕
+Last week, I tried to make the [Pizza de Dados](https://pizzadedados/en) website more visually appealing, and one of the things I wanted to change was to add the meta tag with our 🍕 logo.
 
-Antes ao compartilhar o site do Pizza tinhamos algo assim:
+Before, when sharing the Pizza website, we had something like this:
 
-![foto do compartilhamento do pizza no facebook antes da adição da meta tag](/images/og-image/antes-tag.png)
+![Photo of Pizza’s sharing on Facebook before adding the meta tag](/images/og-image/antes-tag.png)
 
-Nota como fica muito sem graça? Às vezes na tentativa de preencher as informações sobre a págica a rede social ainda pode acabar escolhendo uma imagem qualquer que exista na página e usá-la como "thumbnail".
+Do you notice how it looks very dull? Sometimes, in an attempt to fill in the information about the page, the social network may still end up choosing any image that exists on the page and using it as a "thumbnail".
 
-Então para alterar esse comportamento e adicionar um pouco de cor às nossas postagens seguindo o site oficial da OGP acrescentamos uma linha parecida com essa:
+So to change this behavior and add some color to our posts following the official OGP site, we need to add a line similar to this:
 
-~~~ html
+```html
 <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
-~~~
+```
 
-no head do site. E 🌈automagicamene🌈 ao compartilhar o site do Pizza temos:
+in the website head. And 🌈automagically🌈 when sharing the Pizza website, we have:
 
-![foto do compartilhamento do pizza no facebook antes da adição da meta tag](/images/og-image/depois-tag.png)
+![Photo of Pizza’s sharing on Facebook after adding the meta tag](/images/og-image/depois-tag.png)
 
-Tranquilo né? Agora é só usar no seu site tbm 😉
+Awesome, right? Now you can use it on your website too 😉.
 
-----
+---
+
 ## Links
-- O site oficial da [Open Graph protocol](http://ogp.me/)
+
+[Open Graph protocol](http://ogp.me/) official website.
