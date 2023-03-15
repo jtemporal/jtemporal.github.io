@@ -11,8 +11,7 @@ tags:
 - oauth
 - oidc
 - talk
-description: Want to understand JWTs? Especially how to deal with them in python?
-  Here's a talk for you
+description: Never again get confused about things like access tokens, client credentials, OpenID Connect, OAuth2.0, and more
 related: true
 posts_list:
 - how-to-handle-jwts-in-python
