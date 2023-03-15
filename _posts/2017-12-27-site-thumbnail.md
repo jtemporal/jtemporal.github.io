@@ -16,6 +16,11 @@ tags:
 - compartilhamentos
 - português
 comments: true
+description: "Como adicionar um thumbnail no seu site"
+author_note_link: "https://jtemporal.com/site-thumbnail-en"
+author_note: "You can read this article in English too"
+translator: false
+translated: "/site-thumbnail-en"
 ---
 
 Você já notou que ao compartilhar um link na sua rede social favorita esses links carregam imagens para mostrar? Uma espécie de thumbnail do site?
@@ -28,7 +33,7 @@ Existem várias meta tags que podem ser utilizadas, mas na colinha de hoje vamos
 
 ## O site do Pizza De Dados
 
-Esse semana passada, eu procurei deixar o site do [Pizza de Dados](http://podcast.datascience.pizza/) mais amigável aos olhos e uma das coisas que eu quis mudar foi acrescentar a meta tag com a nossa logo 🍕
+Essa semana passada, eu procurei deixar o site do [Pizza de Dados](https://pizzadedados/) mais amigável aos olhos e uma das coisas que eu quis mudar foi acrescentar a meta tag com a nossa logo 🍕
 
 Antes ao compartilhar o site do Pizza tinhamos algo assim:
 
