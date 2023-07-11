@@ -1,0 +1,38 @@
+
+<div class="book">
+  <div>
+    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/> 
+  </div>
+  <div>
+    <h3>O Grande Microlivro de Git</h3>
+    {% if page.bookdescription %}
+      <h4>{{ page.bookdescription }}</h4>
+    {% else %}
+      <h4>Um guia rápido de comandos que você usará diariamente</h4>
+    {% endif %}
+    <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
+    <p>Este microlivro é uma introdução aos conceitos e comandos fundamentais do Git, um sistema de controle de versão amplamente utilizado por pessoas desenvolvedoras de software.</p>
+    <p>Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.</p>
+    <a href="https://pay.hotmart.com/K84655198U"><button class="buy">Compre o eBook!</button></a>
+    <br><br>
+  </div>
+</div>
+
+<style>
+  .buy {
+    background-color: #E91E63;
+    color:white;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 100%;
+  }
+  .buy:hover { 
+    background-color: #d11b59;
+  }
+  .book {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 2fr));
+    grid-gap: 1rem;
+  }
+</style>
