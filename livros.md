@@ -2,7 +2,7 @@
 layout: default
 title: Livros
 description: Livros
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1689213340/livros/microlivro-banner_vcfsnw.png
 permalink: "/livros/"
 ---
 
