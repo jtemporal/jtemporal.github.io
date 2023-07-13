@@ -20,6 +20,9 @@ layout: default
       </div>
       {% if page.type != "talk" %}
         {% include signature.html %}
+        {% if page.bookbanner %}
+          {% include book-buy-banner.html %}
+        {% endif %}
       {% endif %}
     </article>
     <div class="row">

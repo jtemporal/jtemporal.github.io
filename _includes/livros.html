@@ -1,0 +1,46 @@
+<div class="book">
+  <div>
+    {% if page.bookdescription %}
+      <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/>
+    {% else %}
+      <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a> 
+    {% endif %}
+  </div>
+  <div>
+    {% if page.bookdescription %}
+      <h3>{{ page.title }}</h3>
+      <h4>{{ page.bookdescription }}</h4>
+    {% else %}
+      <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
+      <h4>Um guia rápido de comandos que você usará diariamente</h4>
+    {% endif %}
+    <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
+    <p>Este microlivro é uma introdução aos conceitos e comandos fundamentais do Git, um sistema de controle de versão amplamente utilizado por pessoas desenvolvedoras de software.</p>
+    <p>Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.</p>
+    {% if page.bookdescription %}
+      <a href="{{ site.books.microlivro }}"><button class="buy">Compre o eBook!</button></a>
+    {% else %}
+      <a href="{{ site.books.microlivro }}"><button class="buy">Compre o eBook!</button></a>
+      <a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
+    {% endif %}
+    <br><br>
+  </div>
+</div>
+
+<style>
+  .buy {
+    background-color: #E91E63;
+    color:white;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .buy:hover { 
+    background-color: #d11b59;
+  }
+  .book {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 2fr));
+    grid-gap: 1rem;
+  }
+</style>

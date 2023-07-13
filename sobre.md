@@ -24,4 +24,8 @@ Fui agraciada com o [Prêmio Dorneles Treméa\|Jean Ferri](https://python.org.br
 
 Além disso, continuo contribuindo e mantendo projetos de código aberto no GitHub, faço parte dos times de instrutores do [Data Bootcamp](https://databootcamp.com.br/team) e [LinkedIn Learning](https://www.linkedin.com/learning/instructors/jessica-temporal). Escrevo artigos técnicos sobre os mais diversos assuntos de tecnologia [no meu blog](https://jtemporal.com/), [na revista do Pizza](https://medium.com/pizzadedados) e crio fichas de estudo sobre git em Português no [GitFichas](https://gitfichas.com).
 
+### Entre em contato
+
+Você pode falar comigo [pelo Telegram aqui](https://t.me/jtemporal) ou se preferir [me mandar um e-mail aqui](mailto:hello@jtemporal.com).
+
 {% include signature.html %}
