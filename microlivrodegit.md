@@ -1,6 +1,7 @@
 ---
 layout: default
 title: O Grande Microlivro de Git
+description: Um guia rápido de comandos que você usará diariamente
 bookdescription: Um guia rápido de comandos que você usará diariamente
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1689213340/livros/microlivro-banner_vcfsnw.png
 permalink: "/microlivrodegit"
