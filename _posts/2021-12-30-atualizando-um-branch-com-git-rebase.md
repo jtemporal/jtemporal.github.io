@@ -3,6 +3,7 @@ layout: post
 date: 2021-12-30T12:34:20.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Atualizando um branch com git rebase
 description: Veja como usar git rebase para trazer commits mais recentes para o branch atual
 type: post

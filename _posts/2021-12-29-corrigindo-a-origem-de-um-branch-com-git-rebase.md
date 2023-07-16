@@ -3,6 +3,7 @@ layout: post
 date: 2021-12-29T12:34:20.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Corrigindo a origem de um branch com git rebase
 description: Veja como usar git rebase para corrigir a origem de um branch
 type: post

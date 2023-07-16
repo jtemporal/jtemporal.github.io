@@ -16,6 +16,7 @@ tags:
 - open source
 - português
 comments: true
+bookbanner: true
 description: 'Versão 2022 da lista de projetos brasileiros para fazer pull requests no #Hacktoberfest'
 related: true
 posts_list:

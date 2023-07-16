@@ -3,6 +3,7 @@ layout: post
 date: 2022-01-01T12:34:20.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Criando um novo branch e mudando pra ele com apenas um comando
 description: Veja como usar git checkout e git switch para criar um branch e automaticamente mudar para ele
 type: post

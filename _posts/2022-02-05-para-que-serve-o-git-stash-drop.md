@@ -3,6 +3,7 @@ layout: post
 date: 2022-02-05T11:25:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Aprenda para que serve o comando git stash drop
 description: Entenda quando usar o git stash drop e como ele funciona
 type: post

@@ -3,6 +3,7 @@ layout: post
 date: 2022-01-15T11:25:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Desfazendo o último commit e mantendo as alterações para um próximo commit
 description: Desfaça o último commit com git reset usando --soft e reutilize a mensagem
   com o ORIG_HEAD

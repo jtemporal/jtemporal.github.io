@@ -2,6 +2,7 @@
 title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest versão
   2018'
 layout: post
+bookbanner: true
 date: 2018-09-30 00:00:00 -0300
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
 type: post
