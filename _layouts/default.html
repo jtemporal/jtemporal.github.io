@@ -19,10 +19,36 @@ layout: compress
 
     {% include footer.html %}
     
+    <style>
 
+      .buy {
+          background-color: #E91E63;
+          color:white;
+          border-radius: 15px;
+          padding-left: 5%;
+          padding-right: 5%;
+      }
+      .buy:hover { 
+          background-color: #d11b59;
+      }
+      {% if page.layout == "default" %}
+        .book {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(20rem, 2fr));
+            grid-gap: 1rem;
+        }
+      {% else %}
+        .book {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(15rem, 2fr));
+            grid-gap: 1rem;
+        }
+      {% endif %}
+    </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}{{site.url}}/js/bootstrap.min.js"></script>
  {% if site.analytics %}{% include analytics.html %}{% endif %}
+
   </body>
 
 </html>
