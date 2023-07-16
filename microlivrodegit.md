@@ -46,8 +46,7 @@ permalink: "/microlivrodegit"
 
 1. Contribuindo com projetos
 
-{% include book-buy-banner.html %}
-
+<hr>
 
 ### Perguntas frequentes
 
