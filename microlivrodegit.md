@@ -49,7 +49,7 @@ permalink: "/microlivrodegit"
 
 <hr>
 
-### Perguntas frequentes
+<h3 id="faq"> Perguntas frequentes</h3>
 
 #### O que essa compra dá direito?
 
