@@ -3,6 +3,7 @@ layout: post
 date: 2022-01-23T11:25:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Usando git stash e git stash pop
 description: Entenda como usar git stash e git stash pop na prática
 type: post

@@ -12,7 +12,7 @@ tags:
 - portugues
 - pt
 description: "Dicas básicas para começar a usar em menos de 5 minutos"
-
+bookbanner: true
 ---
 GitHub Codespaces é uma ferramenta ótima para quem quer escrever código em qualquer lugar. Recentemente o GitHub anunciou que agora todas as contas tem uma cota gratuita de 60h mensais para usar o GitHub Codespaces, por isso escrevi essa colinha com as 3 dicas de ouro caso você queira passar a usar a ferramenta.
 

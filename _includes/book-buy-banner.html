@@ -1,18 +1,19 @@
 <hr>
 <div class="book">
   <div>
-    <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>      
+    <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>
   </div>
   <div>
     <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
     {% if page.layout == "post" %}
-      <p>Um guia rápido de comandos que você usará diariamente</p>
-      <a href="{{ site.books.microlivro }}"><button class="buy">Compre o eBook!</button></a>
-      <a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
+      <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroan</button></a>
+      <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
+      <br><a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
     {% else %}
       <h4>Um guia rápido de comandos que você usará diariamente</h4>
       <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
-      <a href="{{ site.books.microlivro }}"><button class="buy">Compre o eBook!</button></a>
+      <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroan</button></a>
+      <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
     {% endif %}
     <br><br>
   </div>
@@ -20,29 +21,3 @@
 
 <hr>
 
-<style>
-
-.buy {
-    background-color: #E91E63;
-    color:white;
-    border-radius: 15px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.buy:hover { 
-    background-color: #d11b59;
-}
-{% if page.layout == "default" %}
-  .book {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(20rem, 2fr));
-      grid-gap: 1rem;
-  }
-{% else %}
-  .book {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(15rem, 2fr));
-      grid-gap: 1rem;
-  }
-{% endif %}
-</style>

@@ -50,8 +50,15 @@ twitter:
   card: summary_large_image
 github: https://github.com/jtemporal
 
-books:
-  microlivro: https://jessicatemporal.gumroad.com/l/microlivrodegit
+livros:
+  microlivro:
+    gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
+    amazon: https://a.co/d/40z1YH6
+
+# boks:
+#   microbook:
+#     gumroad:
+#     amazon:
 
 # Collections
 collections:

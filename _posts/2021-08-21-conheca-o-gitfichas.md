@@ -3,6 +3,7 @@ layout: post
 date: 2021-08-21T12:44:33.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 comments: true
+bookbanner: true
 lang: "pt"
 translated: "/introducing-gitfichas"
 author_note: "You can read this article in English"

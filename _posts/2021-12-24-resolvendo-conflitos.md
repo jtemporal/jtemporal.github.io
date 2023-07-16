@@ -4,6 +4,7 @@ title: Resolvendo conflitos em Git
 date: 2021-12-24T18:55:59.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
+bookbanner: true
 description: Uma receita infalível para você entender e resolver conflitos sem medo
 type: post
 tags:

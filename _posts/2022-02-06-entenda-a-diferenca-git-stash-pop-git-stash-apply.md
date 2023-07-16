@@ -3,6 +3,7 @@ layout: post
 date: 2022-02-06T09:00:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 comments: true
+bookbanner: true
 title: Entenda a diferença entre git stash pop e git stash apply
 description: Apesar de parecidos em funcionamento eles tem uma diferença fundamental
 type: post
