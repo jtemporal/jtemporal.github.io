@@ -59,6 +59,10 @@ Uma cópia digital do livro e todas as suas atualizações.
 
 Ainda não! Por enquanto esse livro será oferecido 100% digitalmente.
 
+#### Consigo comprar o livro no pix?
+
+Sim! Manda um email para pixmicrolivro@jtemporal.com que mando as instruções.
+
 #### E se eu tiver outra pergunta ou comentários?
 
 É só me mandar um email para microlivrodegit@jtemporal.com 😉
