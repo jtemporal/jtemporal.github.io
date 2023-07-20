@@ -22,18 +22,20 @@
         </div>
         {% endif %}
 
+        <!--sidebar book announcement - only portuguese pages-->
+        {% if page.lang == "en" %}
+        {% else %}
+          <div class="mt10 recent">
+            <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>
+            <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
+            <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
+            <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroad</button></a>
+            <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
+            <a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
+          </div>
+        {% endif %}
+
         {% if page.layout == "post" %}
-          {% if post.lang == "en" or page.lang == "en_US" %}
-          {% else %}
-            <div class="mt10 recent">
-              <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>
-              <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
-              <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
-              <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroad</button></a>
-              <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
-              <a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
-            </div>
-          {% endif %}
           {% if page.related %}
             <div class="mt10 recent">
               {% if page.lang == "en" or page.lang == "en_US" %}
