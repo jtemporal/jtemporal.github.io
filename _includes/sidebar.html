@@ -36,7 +36,7 @@
           {% endif %}
           {% if page.related %}
             <div class="mt10 recent">
-              {% if post.lang == "en" or page.lang == "en_US" %}
+              {% if page.lang == "en" or page.lang == "en_US" %}
                 <h2>Related Articles</h2>
               {% else %}
                 <h2>Artigos relacionados</h2>
@@ -57,7 +57,7 @@
             </div>
           {% else %}
             <div class="mt10 recent">
-              {% if post.lang == "en" or page.lang  == "en_US" %}
+              {% if page.lang == "en" or page.lang  == "en_US" %}
                 <h2>Recent Articles</h2>
               {% else %}
                 <h2>Artigos recentes</h2>
