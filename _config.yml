@@ -62,7 +62,10 @@ livros:
 
 # Collections
 collections:
-  - hacktoberfest_projects
+  hacktoberfest_projects:
+    projects: true
+  books:
+      output: true
 
 # Sass style
 sass:
