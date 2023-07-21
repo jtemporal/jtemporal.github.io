@@ -1,14 +1,27 @@
 ---
+lang: pt
+book_page: true
+book_language: pt
+book_title: O Grande Microlivro de Git
+book_subtitle: um guia rápido de comandos que você usará diariamente
+book_description: |
+  E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?<br>
+  Este microlivro é uma introdução aos conceitos e comandos fundamentais do Git, um sistema de controle de versão amplamente utilizado por pessoas desenvolvedoras de software.<br>
+  Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.<br><br>
+book_cover_ipad: https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png
+book_cover_ipad_alt: Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad
+book_thumbnail_banner: https://res.cloudinary.com/jesstemporal/image/upload/v1689252896/livros/microlivro-banner_anjvbk.png
+permalink: /microlivrodegit/
+purchase_button: Compre na
+know_more_button: Saiba mais
+gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
+amazon: https://a.co/d/40z1YH6
+
 layout: default
-title: O Grande Microlivro de Git
-description: Um guia rápido de comandos que você usará diariamente
-bookdescription: Um guia rápido de comandos que você usará diariamente
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1689252896/livros/microlivro-banner_anjvbk.png
-lang: pt_BR
-permalink: "/microlivrodegit"
+
 ---
 
-{% include livros.html %}
+{% include books.html %}
 
 <hr>
 
