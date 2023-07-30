@@ -2,7 +2,7 @@
 lang: pt
 book_page: true
 book_language: pt
-book_title: O Grande Microlivro de Git
+title: O Grande Microlivro de Git
 book_subtitle: um guia rápido de comandos que você usará diariamente
 book_description: |
   E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?<br>
