@@ -71,7 +71,7 @@ A digital copy of the book and all it's future updates.
 
 #### Is there a hard copy of this microbook?
 
-Not yet! This book will be offered 100% digitally at the moment.
+Not yet! This book is offered 100% digitally at the moment.
 
 #### What if I have other questions or comments?
 
