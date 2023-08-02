@@ -5,7 +5,7 @@
     </div>
     <div>
       <h3>{{ page.title }}</h3>
-      <h4>{{ page.book_subtitle }}</h4>
+      <h4>{{ page.description }}</h4>
       {{ page.book_description }}
       <a href="{{ page.gumroad }}"><button class="buy">{{page.purchase_button}} Gumroad</button></a>
       <a href="{{ page.amazon }}"><button class="buy">{{page.purchase_button}} Amazon</button></a>
@@ -23,7 +23,7 @@
     </div>
     <div>
       <h3><a href="{{ item.permalink }}" style="text-decoration: none;">{{ item.title }}</a></h3>
-      <h4>{{ item.book_subtitle }}</h4>
+      <h4>{{ item.description }}</h4>
       {{ item.book_description }}
 
       <a href="{{ item.gumroad }}"><button class="buy">{{item.purchase_button}} Gumroad</button></a>
