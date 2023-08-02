@@ -7,8 +7,12 @@
       <h3>{{ page.title }}</h3>
       <h4>{{ page.description }}</h4>
       {{ page.book_description }}
+      {% if page.gumroad %}
       <a href="{{ page.gumroad }}"><button class="buy">{{page.purchase_button}} Gumroad</button></a>
+      {% endif %}
+      {% if page.amazon %}
       <a href="{{ page.amazon }}"><button class="buy">{{page.purchase_button}} Amazon</button></a>
+      {% endif %}
       <br><br>
     </div>
   </div>
@@ -25,9 +29,12 @@
       <h3><a href="{{ item.permalink }}" style="text-decoration: none;">{{ item.title }}</a></h3>
       <h4>{{ item.description }}</h4>
       {{ item.book_description }}
-
+      {% if item.gumroad %}
       <a href="{{ item.gumroad }}"><button class="buy">{{item.purchase_button}} Gumroad</button></a>
+      {% endif %}
+      {% if item.amazon %}
       <a href="{{ item.amazon }}"><button class="buy">{{item.purchase_button}} Amazon</button></a>
+      {% endif %}
       <a href="{{ item.permalink }}"><button class="buy">{{item.know_more_button}}</button></a>
       <br><br>
     </div>
