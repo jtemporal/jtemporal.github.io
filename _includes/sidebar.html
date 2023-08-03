@@ -23,14 +23,22 @@
         {% endif %}
 
         <!--sidebar book announcement - only portuguese pages-->
-        {% if page.lang == "en" %}
+        {% if page.lang == "en" or post.lang == "en" %}
+          <div class="mt10 recent">
+            <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1690996726/books/gitmicrobook-ipad-no-bg_kqhekh.png" alt="Book 'The Bit Git Microbook' Cover being displayed on an ipad"/></a>
+            <h3><a href="/microlivrodegit" style="text-decoration: none;">The Big Git Microbook</a></h3>
+            <p>What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?</p>
+            <a href="https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true"><button class="buy">Buy on Gumroad</button></a>
+            <!--<a href=""><button class="buy">Buy on Amazon</button></a>-->
+            <a href="/gitmicrobook"><button class="buy">Learn more</button></a>
+          </div>
         {% else %}
           <div class="mt10 recent">
             <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>
             <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
             <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
-            <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroad</button></a>
-            <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
+            <a href="https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true"><button class="buy">Compre na Gumroad</button></a>
+            <a href="https://a.co/d/40z1YH6"><button class="buy">Compre na Amazon</button></a>
             <a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
           </div>
         {% endif %}
