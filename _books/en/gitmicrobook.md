@@ -15,7 +15,9 @@ permalink: /gitmicrobook/
 purchase_button: Buy on
 know_more_button: Learn more
 gumroad: https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true
-
+amazon_stores: true
+amazon_us: https://www.amazon.com/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstempora0e-20&linkCode=ur2&linkId=efc4229f6b816609dfce4f185781d99a&camp=1789&creative=9325
+amazon_ca: https://www.amazon.ca/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstemporal-20&linkCode=ur2&linkId=a43754e8005ec700ba1f78e4b5c4a8fd&camp=15121&creative=330641
 translated: /microlivrodegit
 layout: default
 
