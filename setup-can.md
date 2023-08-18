@@ -14,14 +14,14 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 ## Desk
 
-- [Apple Mac Mini 2023](https://amzn.to/3sdZvcD)
+- [Apple Mac Mini 2023](https://amzn.to/3sdZvcD).
 - [NuPhy Air60 Wireless Mechanical Keyboard](https://nuphy.com/collections/keyboards/products/air60?variant=39620737663085) - I like small low-profile keyboards ¯\\\_(ツ)\_/¯.
-- [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands
-- [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk
-- [Dell Thunderbolt Dock](https://amzn.to/45c2l0h) - To connect almost all the things
-- [Dell U3421WE Ultrasharp](https://amzn.to/3sdgjAu) - Monitor
-- [Apple Airpods Max](https://amzn.to/45dZ1S7)
-- [Apple Airpods Second Gen](https://amzn.to/44jC2DT)
+- [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands.
+- [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
+- [Dell Thunderbolt Dock](https://amzn.to/45c2l0h) - To connect almost all the things.
+- [Dell U3421WE Ultrasharp](https://amzn.to/3sdgjAu) - Monitor.
+- [Apple Airpods Max](https://amzn.to/45dZ1S7).
+- [Apple Airpods Second Gen](https://amzn.to/44jC2DT).
 
 ## Recording or Streaming
 
@@ -34,7 +34,8 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Elgato Mic Arm LP](https://amzn.to/3E5azLu) - So my mic doesn't show up on camera.
 - [Shure MV7 USB Microphone](https://amzn.to/45xD5kU) - to get that crispy sound.
 - [Desview T3 Teleprompter](https://amzn.to/3YTWZod) - Because sometimes it is necessary.
-- [OBS Studio](https://obsproject.com)
+- [OBS Studio](https://obsproject.com).
+- [Dji OM 5](https://amzn.to/47DlKIT) - Gimbal stabilizer for phones.
 
 ## Coding
 
@@ -50,7 +51,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Grammarly](https://grammarly.com/) - My favourite English reviewer/editor/supervisor in one place.
 - [Notion](https://www.notion.so/) - Where I take all the notes and write all the things.
 - [Teleprompter App](https://apps.apple.com/br/app/teleprompter-premium/id1533078079)
-- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling
+- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling.
 
 ## Services
 
@@ -64,23 +65,24 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [American Tourister Carry-on](https://amzn.to/3DX1B38) - Perfect for trips of all sizes.
 - [MOFT Z Computer Stand](https://amzn.to/47DokP4) - Better ergonomic everywhere.
 - [TROND Power extension](https://amzn.to/45fzU1q) - Because power outlets in hotels can be a real joke.
-- [Packing list template](https://www.notion.so/Template-check-list-for-traveling-2f75c069edd8476aaa500ea1136dba8c?pvs=21) (on Notion)
-- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs
+- [Packing list template](https://www.notion.so/Template-check-list-for-traveling-2f75c069edd8476aaa500ea1136dba8c?pvs=21) (on Notion).
+- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs.
+- [Anker 521 Powerbank](https://amzn.to/3YEsJxo) - This little beast can charge 50% of my phone’s battery, it saved me a bunch.
 
 ## Storage
 
 - [SanDisk 1TB Extreme PRO SSD](https://amzn.to/47vvoO1) - For backing up things like podcast recordings.
-- [SanDisk 128GB Ultra Dual Drive USB](https://amzn.to/45p2OvW)
-- [SanDisk 512GB microSDXC](https://amzn.to/45dZ1S7) - For the Nintendo Switch
+- [SanDisk 128GB Ultra Dual Drive USB](https://amzn.to/45p2OvW).
+- [SanDisk 512GB microSDXC](https://amzn.to/45dZ1S7) - For the Nintendo Switch.
 
 ## Decor
 
 - Funkos
-    - [Kagome](https://amzn.to/45aw2i5)
-    - [Inuyasha](https://amzn.to/3sfgXgN)
-    - [Bulbasaur](https://amzn.to/45aw2i5)
-    - [Grogu](https://amzn.to/3KJL2LS)
-    - [The Mandalorian](https://amzn.to/3KFNuCP)
-- [LED Panel Pixoo](https://amzn.to/3qzuvmQ)
-- [Nanoleaf Shapes Hexagons](https://amzn.to/3sfhak5)
-- [Elgato Light Strip](https://amzn.to/3KMfi8G)
+    - [Kagome](https://amzn.to/45aw2i5).
+    - [Inuyasha](https://amzn.to/3sfgXgN).
+    - [Bulbasaur](https://amzn.to/45aw2i5).
+    - [Grogu](https://amzn.to/3KJL2LS).
+    - [The Mandalorian](https://amzn.to/3KFNuCP).
+- [LED Panel Pixoo](https://amzn.to/3qzuvmQ).
+- [Nanoleaf Shapes Hexagons](https://amzn.to/3sfhak5).
+- [Elgato Light Strip](https://amzn.to/3KMfi8G).
