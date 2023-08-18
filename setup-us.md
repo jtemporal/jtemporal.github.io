@@ -34,6 +34,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Shure MV7 USB Microphone](https://amzn.to/3QJ7ecJ) - to get that crispy sound.
 - [Desview T3 Teleprompter](https://amzn.to/3KJPcn1) - Because sometimes it is necessary.
 - [OBS Studio](https://obsproject.com)
+- [Dji OM 5](https://amzn.to/3E8GNFH) - Gimbal stabilizer for phones
 
 ## Coding
 
@@ -48,8 +49,8 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [1Password](https://1password.com/) - Passwords suck but having a manager help.
 - [Grammarly](https://grammarly.com/) - My favourite English reviewer/editor/supervisor in one place.
 - [Notion](https://www.notion.so/) - Where I take all the notes and write all the things.
-- [Teleprompter App](https://apps.apple.com/br/app/teleprompter-premium/id1533078079)
-- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling
+- [Teleprompter App](https://apps.apple.com/br/app/teleprompter-premium/id1533078079).
+- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling.
 
 ## Services
 
@@ -63,7 +64,8 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [MOFT Z Computer Stand](https://amzn.to/3QEQzHn) - Better ergonomic everywhere.
 - [TROND Power Station](https://amzn.to/3KLSDcR) - Because power outlets in hotels can be a real joke.
 - [Packing list template](https://www.notion.so/Template-check-list-for-traveling-2f75c069edd8476aaa500ea1136dba8c?pvs=21) (on Notion)
-- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs
+- [Airalo](https://ref.airalo.com/a1bF) - For eSIMs.
+- [Anker 521 Powerbank](https://amzn.to/45g9z3a) - This little beast can charge 50% of my phone's battery, it saved me a bunch.
 
 ## Storage
 
