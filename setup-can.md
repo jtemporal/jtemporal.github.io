@@ -16,6 +16,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 - [Apple Mac Mini 2023](https://amzn.to/3sdZvcD).
 - [NuPhy Air60 Wireless Mechanical Keyboard](https://nuphy.com/collections/keyboards/products/air60?variant=39620737663085) - I like small low-profile keyboards ¯\\\_(ツ)\_/¯.
+- [Logitech MX Keys Mini Keyboard](https://amzn.to/47FaFHp) - My secondary keyboard.
 - [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands.
 - [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
 - [Dell Thunderbolt Dock](https://amzn.to/45c2l0h) - To connect almost all the things.
