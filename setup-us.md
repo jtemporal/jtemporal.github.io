@@ -52,6 +52,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Teleprompter App](https://apps.apple.com/br/app/teleprompter-premium/id1533078079).
 - [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling.
 - [Procreate](https://procreate.com/) - For drawing (especially [GitFichas](https://gitfichas.com/en)).
+- [Notability](https://notability.com/) - For digital note taking.
 
 ## Services
 
