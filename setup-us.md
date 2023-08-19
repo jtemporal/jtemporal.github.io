@@ -15,12 +15,13 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 ## Desk
 
 - [NuPhy Air60 Wireless Mechanical Keyboard](https://amzn.to/3DWtfNL) - I like small keyboards ¯\\\_(ツ)\_/¯.
-- [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands
-- [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk
-- [Dell Thunderbolt Dock](https://amzn.to/3QLHe0i) - To connect almost all the things
-- [Dell U3421WE Ultrasharp](https://amzn.to/3KK3aW2) - Monitor
-- [Apple Airpods Max](https://amzn.to/44asLy1)
-- [Apple Airpods Second Gen](https://amzn.to/3E5qbP6)
+- [Logitech MX Keys Mini Keyboard](https://amzn.to/3P3dmeA) - My secondary keyboard.
+- [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands.
+- [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
+- [Dell Thunderbolt Dock](https://amzn.to/3QLHe0i) - To connect almost all the things.
+- [Dell U3421WE Ultrasharp](https://amzn.to/3KK3aW2) - Monitor.
+- [Apple Airpods Max](https://amzn.to/44asLy1).
+- [Apple Airpods Second Gen](https://amzn.to/3E5qbP6).
 
 ## Recording or Streaming
 
@@ -33,8 +34,8 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Elgato Mic Arm LP](https://amzn.to/3OMscoG) - So my mic doesn't show up on camera.
 - [Shure MV7 USB Microphone](https://amzn.to/3QJ7ecJ) - to get that crispy sound.
 - [Desview T3 Teleprompter](https://amzn.to/3KJPcn1) - Because sometimes it is necessary.
-- [OBS Studio](https://obsproject.com)
-- [Dji OM 5](https://amzn.to/3E8GNFH) - Gimbal stabilizer for phones
+- [OBS Studio](https://obsproject.com).
+- [Dji OM 5](https://amzn.to/3E8GNFH) - Gimbal stabilizer for phones.
 
 ## Coding
 
