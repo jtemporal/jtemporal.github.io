@@ -56,6 +56,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 - [Gumroad](https://app.gumroad.com/) - The platform I use to sell my books.
 - [Namecheap](http://namecheap.com/) - For all the domains.
+- [Canva](http://canva.com/) - For all imaging needs.
 
 ## Travel
 
