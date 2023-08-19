@@ -52,11 +52,15 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Notion](https://www.notion.so/) - Where I take all the notes and write all the things.
 - [Teleprompter App](https://apps.apple.com/br/app/teleprompter-premium/id1533078079).
 - [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling.
+- [Procreate](https://procreate.com/) - For drawing (especially [GitFichas](https://gitfichas.com/en)).
+- [Notability](https://notability.com/) - For digital note taking.
 
 ## Services
 
 - [Gumroad](https://app.gumroad.com/) - The platform I use to sell my books.
 - [Namecheap](http://namecheap.com/) - For all the domains.
+- [Canva](http://canva.com/) - For all imaging needs.
+- [Stickermule](https://www.stickermule.com/unlock?ref_id=4581960701&utm_medium=link&utm_source=invite) - For all stickers, keychains, buttons, and more.
 
 ## Travel
 
