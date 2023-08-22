@@ -8,7 +8,11 @@ tags:
 comments: true
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 type: post
-related: false
+related: true
+posts_list:
+- seven-tips-for-traveling-with-ease
+- my-year-in-review-2022-year-of-adventures
+- what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like
 lang: en
 
 ---
