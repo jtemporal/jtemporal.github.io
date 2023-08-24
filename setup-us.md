@@ -36,6 +36,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Desview T3 Teleprompter](https://amzn.to/3KJPcn1) - Because sometimes it is necessary.
 - [OBS Studio](https://obsproject.com).
 - [Dji OM 5](https://amzn.to/3E8GNFH) - Gimbal stabilizer for phones.
+- [DJI Mic](https://amzn.to/44mmD5N) - Wireless lavier mic and a whole kit for you to record from anywhere.
 
 ## Coding
 
