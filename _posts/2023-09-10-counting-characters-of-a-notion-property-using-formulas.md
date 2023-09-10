@@ -19,9 +19,9 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translated: "/contando-caracteres-de-uma-propriedade-no-notion-usando-formulas"
 ---
 
-In this pro tip I'm going to show you one of the features I've just learned: the use of formulas in the properties of a Notion document.
+In this pro tip I'm going to show you one of the features I've learned and have been using for a while: the use of formulas in the properties of a Notion document.
 
-## What are formulas on Notion
+## What are Notion Formulas?
 
 In addition to the many more traditional types of Notion properties such as an option selector or a list of categories (*tags*), it is also possible to extend properties features using formulas.
 
@@ -31,9 +31,9 @@ In addition to the many more traditional types of Notion properties such as an o
 
 The coolest part of these formulas is that once implemented, the result will be automatically updated if you make any changes to the property used in the formula.
 
-## Why use formulas on Notion
+## Why use formulas on Notion?
 
-I recently started using Notion as a task organization system for GitFichas using Databases.
+I recently started using Notion as a task organization system for GitFichas (git study cards) using Databases.
 
 As each card is followed up by a tweet, I also like to draft the tweets in the same interface to be able to pre-schedule the release of new cards. One of the problems of using Notion for this is that it lacks the character count that exists on Twitter interface, that's where Notion's formulas came into my life.
 
