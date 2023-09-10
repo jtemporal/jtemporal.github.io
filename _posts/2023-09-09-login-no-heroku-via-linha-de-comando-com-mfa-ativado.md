@@ -19,7 +19,7 @@ translator: false
 
 ---
 
-Digamos que você já sabe usar [a forma iterativa para fazer login no Heroku pelo terminal](login-no-heroku-do-github-codespaces), mas agora você ativou a autenticação multi fator (MFA) no seu perfil e um simples usuário e senha não vai ser o suficiente para login.
+Digamos que você já sabe usar [a forma iterativa para fazer login no Heroku pelo terminal](https://jtemporal.com/login-no-heroku-do-github-codespaces), mas agora você ativou a autenticação multi fator (MFA) no seu perfil e um simples usuário e senha não vai ser o suficiente para login.
 
 Nessa colinha você vai aprender a usar o modo iterativo com MFA.
 
