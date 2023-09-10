@@ -2,15 +2,14 @@
 layout: post
 title: " 3 tips you should know about GitHub Codespaces"
 date: 2022-11-30T15:10:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
 type: post
-lang: pt
 tags:
 - github codespaces
 - codespaces
-- portugues
-- pt
+- english
+- en
 description: "Basic tips you can use in less than 5 minutes"
 lang: en
 translator: true
