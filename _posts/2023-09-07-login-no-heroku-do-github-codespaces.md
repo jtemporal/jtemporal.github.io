@@ -12,7 +12,7 @@ tags:
 - git
 - github
 - portugues
-description: "Usando o Heroku CLI no GitHub Codespaces pra fazer login"
+description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador"
 translator: false
 
 ---
