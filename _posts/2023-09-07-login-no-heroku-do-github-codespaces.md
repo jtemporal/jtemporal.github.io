@@ -11,6 +11,8 @@ tags:
 - codespaces
 - git
 - github
+- heroku
+- authorização
 - portugues
 description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador"
 translator: false
