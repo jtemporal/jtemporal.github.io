@@ -13,7 +13,11 @@ tags:
 - manipulação de listas
 - português
 comments: true
+translator: false
 lang: pt
+author_note_link: "https://jtemporal.com/the-last-of-a-list-in-python"
+author_note: "You can read this blog post in English"
+translated: "/the-last-of-a-list-in-python"
 ---
 
 [Python](https://www.python.org/) é conhecida por facilitar a escrita de códigos bonitos e pequenos. A colinha de hoje é sobre como pegar o último elemento de uma lista usando essa linguagem \o/
@@ -30,7 +34,7 @@ print(ultimo)
 # 5
 ~~~
 
-Usar a função de tamanho `len()` para pegar o comprimeto da lista e subtrair `1` para obter o índice do último elemento daquela lista. E tudo bem! Isso funciona. Porém Python apresenta um jeito mais elegante de fazer isso, veja:
+Usar a função de tamanho `len()` para pegar o comprimento da lista e subtrair `1` para obter o índice do último elemento daquela lista. E tudo bem! Isso funciona. Porém Python apresenta um jeito mais elegante de fazer isso, veja:
 
 ~~~ python
 ultimo = lista[-1]
@@ -50,7 +54,7 @@ De uma forma mais simples o [Raymond Hettinger](https://twitter.com/raymondh) ex
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center>
 
-A implementação de fato é mais complexa que essa, mas o que acontece em linhas gerais: o método `__getitem__` é invocado quando fazemos a chamada `lista[-1]` recebendo a própria lista (`self`) e o índice negativo (`i`) então soma esse índice com o tamanho da lista e retornando o valor do indice atualizado. Curiosamente é o mesmo que fiz no primeiro exemplo porém já vem implementado de fábrica.
+A implementação de fato é mais complexa que essa, mas o que acontece em linhas gerais: o método `__getitem__` é invocado quando fazemos a chamada `lista[-1]` recebendo a própria lista (`self`) e o índice negativo (`i`) então soma esse índice com o tamanho da lista e retornando o valor do índice atualizado. Curiosamente é o mesmo que fiz no primeiro exemplo porém já vem implementado de fábrica.
 
 E detalhe, o mesmo pode ser feito para strings!
 
@@ -63,6 +67,7 @@ print(palavra[-1])
 Massa né? Agora é só usar índice negativo nos seus códigos também  😉
 
 ----
+
 ## Links
 - Para mais detalhes do slice de strings olhe essa [Introdução informal de Python em inglês](https://docs.python.org/3.6/tutorial/introduction.html)
 - Referência ao caso especial de índices negativos [no método `__getitem__` na documentação do Python](https://docs.python.org/3/reference/datamodel.html#object.__getitem__)

@@ -12,12 +12,12 @@ tags:
 - portugues
 description: "Uma introdução sobre os superpoderes das propriedades das Databases"
 translator: false
-author_note_link: "https://jtemporal.com/2023-09-10-counting-characters-of-a-notion-property-using-formulas"
+author_note_link: "https://jtemporal.com/counting-characters-of-a-notion-property-using-formulas"
 author_note: "You can read this blog post in English"
 translated: "/counting-characters-of-a-notion-property-using-formulas"
 ---
 
-Nessa colinha eu vou te mostrar umas das funcionalidades que acabei de aprender: o uso de fórmulas nas propriedades de um documento do Notion.
+Nessa colinha eu vou te mostrar umas das funcionalidades que aprendi pouco tempo atrás: o uso de fórmulas nas propriedades de um documento do Notion.
 
 ## O que são fórmulas no Notion
 

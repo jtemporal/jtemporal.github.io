@@ -2,7 +2,7 @@
 layout: post
 title: "How to count characters of a property on Notion easily using formulas"
 date: 2023-09-10T15:10:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
 type: post
 tags:
