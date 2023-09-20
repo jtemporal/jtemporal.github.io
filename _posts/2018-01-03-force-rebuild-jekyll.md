@@ -20,6 +20,10 @@ posts_list:
 - resolvendo-conflitos
 - do-tema-ao-ar
 lang: pt
+translated: "/force-rebuild-jekyll"
+translator: false
+author_note_link: "https://jtemporal.com/force-rebuild-jekyll"
+author_note: "You can read this blog post in English"
 ---
 Seja por um CSS quebrado ou por uma mudança que parece não ter tido efeito, às vezes é necessário forçar o rebuild de um site [Jekyll](https://jekyllrb.com/) hospedado no GitHub. A colinha de hoje explica uma forma de fazer isso.
 
@@ -27,7 +31,7 @@ O GitHub possui um "serviço" para servir páginas a partir de repositórios cha
 
 Isso é possível pois o GitHub Pages usa o Jekyll, um gerador de site estático open source, para fazer o build de sites. Entre outras facilidades que não vou falar hoje, um ponto extremamente positivo de usar essas duas ferramentas para colocar o seu site no ar é que você não precisa "subir" para o GitHub um build do seu site toda vez que quiser publicar uma mudança, o próprio GitHub se encarrega do build para você.
 
-Porém algumas vezes é ncessário rodar o processo de build novamente e como esse processo acontece nos servidores do GitHub que nós não temos acesso, precisamos de outras formas de forçar o build.
+Porém algumas vezes é necessário rodar o processo de build novamente e como esse processo acontece nos servidores do GitHub que nós não temos acesso, precisamos de outras formas de forçar o build.
 
 Uma delas e a que eu uso hoje em dia é fazer um commit "vazio", ou seja, um commit que não carrega mudanças em arquivo algum do seu diretório.
 
