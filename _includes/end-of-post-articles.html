@@ -1,5 +1,5 @@
 {% if page.related %}
-  {% if post.lang == "en" or page.lang  == "en_US" %}
+  {% if page.lang == "en" %}
     <h2>Related Articles</h2>
   {% else %}
     <h2>Artigos relacionados</h2>
@@ -17,7 +17,7 @@
   {% endfor %}
 
 {% else %}
-  {% if post.lang == "en" or page.lang  == "en_US" %}
+  {% if page.lang == "en" %}
     <h2>Recent Articles</h2>
   {% else %}
     <h2>Artigos recentes</h2>
