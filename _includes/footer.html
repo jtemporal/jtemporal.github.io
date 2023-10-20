@@ -2,8 +2,12 @@
     <div class="container">
         <div class="row p20">
             {% if site.copyright.name %}
+                 {% if post.lang == "en" or page.lang == "en_US" or page.lang  == "en" %}
                 <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a></div>
-            {% endif %}
+                {% else %}
+                <div class="col-md-4 text-center mt25">Todos os direitos reservados a <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a></div>
+                {% endif %}
+           {% endif %}
 
             <div class="col-md-4 text-center mt25" >
                 {% if site.built-by %}
