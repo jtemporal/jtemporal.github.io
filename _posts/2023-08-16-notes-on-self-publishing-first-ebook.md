@@ -18,7 +18,7 @@ I once wrote [about my content creation process](https://jtemporal.com/my-conten
 
 ## Writing that didn’t work
 
-Writing itself was hard. I never wrote something so long and I gotta say this isn’t as long as it could be. [“The Great Git Microbook”](http://jtemporal.com/gitmicrobook/) was actually a breath of fresh air as I was writing another longer book (still to be published) and got stuck with the dreaded “writer’s block”.
+Writing itself was hard. I never wrote something so long and I gotta say this isn’t as long as it could be. [“The Big Git Microbook”](http://jtemporal.com/gitmicrobook/) was actually a breath of fresh air as I was writing another longer book (still to be published) and got stuck with the dreaded “writer’s block”.
 
 So this July, tired of not finishing any of the two books I was writing, I decided to finish one of them, after all, a book sitting in my computer somewhere isn’t helping anyone. I strongly believe in learn by doing, so this was also a learning opportunity since I used this book as an experiment of sorts.
 
