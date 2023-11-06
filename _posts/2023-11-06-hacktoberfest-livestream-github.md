@@ -16,7 +16,7 @@ related: true
 posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
-- resolvendo-conflitos
+- renomeando-arquivos-no-git-do-jeito-certo
 
 ---
 
