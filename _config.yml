@@ -50,10 +50,25 @@ twitter:
   card: summary_large_image
 github: https://github.com/jtemporal
 
-# boks:
-#   microbook:
-#     gumroad:
-#     amazon:
+banner_books:
+  en:
+    book:
+      title: "The Big Git Microbook"
+      subtitle: "A quick guide to commands you will use daily"
+      page: "/gitmicrobook"
+      cover: "https://res.cloudinary.com/jesstemporal/image/upload/v1690996726/books/gitmicrobook-ipad-no-bg_kqhekh.png"
+      short_description: "What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?"
+      gumroad: https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true
+      amazon: https://www.amazon.com/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstempora0e-20&linkCode=ur2&linkId=efc4229f6b816609dfce4f185781d99a&camp=1789&creative=9325
+  pt:
+    book:
+      title: "O Grande Microlivro de Git"
+      subtitle: "Um guia rápido para comandos que você usará diariamente"
+      page: /microlivrodegit
+      cover: https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png
+      short_description: "E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?"
+      gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
+      amazon: https://amzn.to/3SETpx4
 
 # Collections
 collections:
