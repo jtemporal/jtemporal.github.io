@@ -20,7 +20,7 @@ layout: default
       </div>
       {% if page.type != "talk" %}
         {% include signature.html %}
-        {% if page.bookbanner %}
+        {% if page.bookbanner or post.bookbanner %}
           {% include book-buy-banner.html %}
         {% endif %}
       {% endif %}
