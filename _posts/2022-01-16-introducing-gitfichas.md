@@ -4,6 +4,7 @@ date: 2022-01-16T12:44:33.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 comments: true
 lang: en
+bookbanner: true
 translated: "/conheca-o-gitfichas"
 author_note: "Você pode ler esse artigo em Português"
 author_note_link: "https://jtemporal.com/conheca-o-gitfichas"

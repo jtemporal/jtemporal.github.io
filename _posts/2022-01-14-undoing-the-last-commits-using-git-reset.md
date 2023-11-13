@@ -3,6 +3,7 @@ layout: post
 date: 2022-01-14T10:00:00.000-03:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
+bookbanner: true
 title: Undoing the last commits using git reset
 description: Learn how to use the git reset command to undo most recent commits
 type: post

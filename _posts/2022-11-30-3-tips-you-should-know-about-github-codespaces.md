@@ -13,6 +13,7 @@ tags:
 description: "Basic tips you can use in less than 5 minutes"
 lang: en
 translator: true
+bookbanner: true
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 translated: "/3-dicas-que-voce-deveria-saber-sobre-github-codespaces"

@@ -15,6 +15,7 @@ tags:
 - authorização
 - portugues
 description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador e com MFA ativado"
+bookbanner: true
 translator: false
 
 ---

@@ -14,6 +14,7 @@ tags:
 - heroku
 - authorização
 - portugues
+bookbanner: true
 description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador"
 translator: false
 

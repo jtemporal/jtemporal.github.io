@@ -11,6 +11,7 @@ tags:
 - git
 - português
 - colinha
+bookbanner: true
 related: true
 posts_list:
 - resolvendo-conflitos

@@ -3,6 +3,7 @@ layout: post
 date: 2022-01-15T11:25:00.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
+bookbanner: true
 title: Undoing the last commit and keeping the changes for a next commit
 description: Undo the last commit with git reset using --soft and reuse the message
   with ORIG_HEAD

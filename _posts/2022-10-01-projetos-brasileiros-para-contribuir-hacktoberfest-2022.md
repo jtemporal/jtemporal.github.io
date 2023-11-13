@@ -4,6 +4,7 @@ layout: post
 date: 2022-10-01T05:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 type: post
+bookbanner: true
 lang: pt
 tags:
 - pull request

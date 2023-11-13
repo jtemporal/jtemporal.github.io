@@ -3,6 +3,7 @@ layout: post
 date: 2021-12-24T12:34:20.000-02:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
+bookbanner: true
 title: Creating empty folders on GitHub with .gitkeep
 description: Understand how to use .gitkeep
 type: post

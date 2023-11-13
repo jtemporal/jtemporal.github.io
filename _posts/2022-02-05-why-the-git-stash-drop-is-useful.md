@@ -10,6 +10,7 @@ tags:
 - git
 - english
 - pro tip
+bookbanner: true
 related: true
 posts_list:
 - using-git-stash-and-git-stash-pop

@@ -8,6 +8,7 @@ tags:
 comments: true
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 type: post
+bookbanner: true
 related: true
 posts_list:
 - seven-tips-for-traveling-with-ease

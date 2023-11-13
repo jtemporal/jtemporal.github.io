@@ -3,6 +3,7 @@ title: Using empty commits to rebuild GitHub Pages websites
 layout: post
 date: 2023-09-20T10:10:00.000+00:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+bookbanner: true
 tags:
 - pro tip
 - jekyll

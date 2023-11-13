@@ -17,6 +17,7 @@ posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 lang: pt
+bookbanner: true
 translated: "/why-the-git-stash-drop-is-useful"
 author_note: "You can read this article in English"
 author_note_link: "https://jtemporal.com/why-the-git-stash-drop-is-useful"

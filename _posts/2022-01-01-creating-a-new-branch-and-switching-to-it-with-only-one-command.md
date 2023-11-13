@@ -7,6 +7,7 @@ title: Creating a new branch and switching to it with just one command
 description: See how to use git checkout and git switch to create a branch and switch to it with just one command
 type: post
 lang: en
+bookbanner: true
 translated: "/criando-um-novo-branch-e-mudando-pra-ele-com-um-comando"
 tags:
 - git
