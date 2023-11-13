@@ -1,3 +1,17 @@
+{% assign lang = page.lang == "en" or post.lang == "en" ? "en" : "pt" %}
+{% if lang == "en" %}
+  {% assign knw_btn = "Learn more" %}
+  {% assign buy = "Buy on" %}
+  {% assign recent_articles_title = "Recent Articles" %}
+  {% assign related_articles_title = "Related Articles" %}
+  {% assign author_note_title = "Author Note" %}
+{% else %}
+  {% assign knw_btn = "Saiba mais" %}
+  {% assign buy = "Compre na" %}
+  {% assign recent_articles_title = "Artigos recentes" %}
+  {% assign related_articles_title = "Artigos relacionados" %}
+  {% assign author_note_title = "Nota da autora" %}
+{% endif %}
 <div class="col-md-4 mt20">
         <div class="post-img">
           {% if page.image %}
@@ -13,45 +27,24 @@
 
         {% if page.author_note %}
         <div class="mt10 recent">
-          {% if page.lang == "en" %}
-          <h3>Author Note</h3>
-          {% else %}
-          <h3>Nota da autora</h3>
-          {% endif %}
+          <h3>{{author_note_title}}</h3>
           <p><a href='{{ page.author_note_link }}'>{{ page.author_note }}</a></p>
         </div>
         {% endif %}
 
-        <!--sidebar book announcement - only portuguese pages-->
-        {% if page.lang == "en" or post.lang == "en" %}
-          <div class="mt10 recent">
-            <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1690996726/books/gitmicrobook-ipad-no-bg_kqhekh.png" alt="Book 'The Bit Git Microbook' Cover being displayed on an ipad"/></a>
-            <h3><a href="/microlivrodegit" style="text-decoration: none;">The Big Git Microbook</a></h3>
-            <p>What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?</p>
-            <a href="https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true"><button class="buy">Buy on Gumroad</button></a>
-            <a href="https://www.amazon.com/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstempora0e-20&linkCode=ur2&linkId=efc4229f6b816609dfce4f185781d99a&camp=1789&creative=9325"><button class="buy">{{item.purchase_button}} Amazon 🇺🇸</button></a>
-            <a href="https://www.amazon.ca/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstemporal-20&linkCode=ur2&linkId=a43754e8005ec700ba1f78e4b5c4a8fd&camp=15121&creative=330641"><button class="buy">{{item.purchase_button}} Amazon 🇨🇦</button></a>
-            <a href="/gitmicrobook"><button class="buy">Learn more</button></a>
-          </div>
-        {% else %}
-          <div class="mt10 recent">
-            <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>
-            <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
-            <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
-            <a href="https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true"><button class="buy">Compre na Gumroad</button></a>
-            <a href="https://a.co/d/40z1YH6"><button class="buy">Compre na Amazon</button></a>
-            <a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
-          </div>
-        {% endif %}
-
+        <!--sidebar book announcement-->
+        <div class="mt10 recent">
+          <a href="{{site.banner_books[lang].book.page}}"><img src="{{ site.banner_books[lang].book.cover }}" alt="Book '{{ site.books[lang].book.title }}' Cover being displayed on an ipad"/></a>
+          <h3><a href="{{site.banner_books[lang].book.page}}" style="text-decoration: none;">{{ site.banner_books[lang].book.title }}</a></h3>
+          <p>{{ site.banner_books[lang].book.short_description }}</p>
+          <a href="{{site.banner_books[lang].book.gumroad}}"><button class="buy">{{buy}} Gumroad</button></a>
+          <a href="{{site.banner_books[lang].book.amazon}}"><button class="buy">{{buy}} Amazon</button></a>
+          <br><a href="{{site.banner_books[lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
+        </div>
         {% if page.layout == "post" %}
           {% if page.related %}
             <div class="mt10 recent">
-              {% if page.lang == "en" or page.lang == "en_US" %}
-                <h2>Related Articles</h2>
-              {% else %}
-                <h2>Artigos relacionados</h2>
-              {% endif %}
+                <h2>{{related_articles_title}}</h2>
                 {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
                 {% for related_post in related_post_list %}
                   {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
@@ -68,11 +61,7 @@
             </div>
           {% else %}
             <div class="mt10 recent">
-              {% if page.lang == "en" or page.lang  == "en_US" %}
-                <h2>Recent Articles</h2>
-              {% else %}
-                <h2>Artigos recentes</h2>
-              {% endif %}
+              <h2>{{recent_articles_title}}</h2>
               <ul>
                 {% for post in site.related_posts limit:3 %}
                   <li>
