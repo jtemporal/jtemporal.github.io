@@ -15,7 +15,7 @@ permalink: /microlivrodegit/
 purchase_button: Compre na
 know_more_button: Saiba mais
 gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
-amazon: https://a.co/d/40z1YH6
+amazon: https://amzn.to/3SETpx4
 translated: /gitmicrobook
 layout: default
 
