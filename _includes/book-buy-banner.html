@@ -1,23 +1,27 @@
+{% assign lang = page.lang == "en" or post.lang == "en" ? "en" : "pt" %}
+{% if lang == "en" %}
+  {% assign knw_btn = "Learn more" %}
+  {% assign buy = "Buy on" %}
+{% else %}
+  {% assign knw_btn = "Saiba mais" %}
+  {% assign buy = "Compre na" %}
+{% endif %}
 <hr>
 <div class="book">
   <div>
-    <a href="/microlivrodegit"><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png" alt="Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad"/></a>
+    <a href="{{site.banner_books[lang].book.page}}"><img src="{{site.banner_books[lang].book.cover}}" alt="{{ site.banner_books[lang].book.title }}"/></a>
   </div>
   <div>
-    <h3><a href="/microlivrodegit" style="text-decoration: none;">O grande microlivro de Git</a></h3>
+    <h3><a href="{{site.banner_books[lang].book.page}}" style="text-decoration: none;">{{site.banner_books[lang].book.title}}</a></h3>
     {% if page.layout == "post" %}
-      <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroan</button></a>
-      <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
-      <br><a href="/microlivrodegit"><button class="buy">Saiba mais</button></a>
+      <a href="{{site.banner_books[lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
     {% else %}
-      <h4>Um guia rápido de comandos que você usará diariamente</h4>
-      <p>E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?</p>
-      <a href="{{ site.livros.microlivro.gumroad }}"><button class="buy">Compre na Gumroan</button></a>
-      <a href="{{ site.livros.microlivro.amazon }}"><button class="buy">Compre na Amazon</button></a>
+      <h4>{{site.banner_books[lang].book.subtitle}}</h4>
+      <p>{{site.banner_books[lang].book.short_description}}</p>
     {% endif %}
+      <br><a href="{{ site.banner_books[lang].book.gumroad }}"><button class="buy">{{buy}} Gumroad</button></a>
+    <a href="{{ site.banner_books[lang].book.amazon }}"><button class="buy">{{ buy }} Amazon</button></a>
     <br><br>
   </div>
 </div>
-
 <hr>
-
