@@ -7,7 +7,8 @@ description: a quick guide to commands you will use daily
 book_description: |
   What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?<br>
   This microbook is an introduction to the fundamental concepts and commands of Git, a version control system widely used by software developers.<br>
-  Throughout this book, you will have the chance to practice concepts and commands through real-world examples.<br><br>
+  Throughout this book, you will have the chance to practice concepts and commands through real-world examples.<br>
+  Black Friday - Cyber Monday Weekend discount code (only on Gumroad): <b>LN83V5D</b>.<br><br>
 book_cover_ipad: https://res.cloudinary.com/jesstemporal/image/upload/v1690996726/books/gitmicrobook-ipad-no-bg_kqhekh.png
 book_cover_ipad_alt: Cover from 'The Big Git Microbook' being shown in an iPad
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1690996804/books/git-microbook-banner_wvbnqz.png
