@@ -7,7 +7,8 @@ description: um guia rápido de comandos que você usará diariamente
 book_description: |
   E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?<br>
   Este microlivro é uma introdução aos conceitos e comandos fundamentais do Git, um sistema de controle de versão amplamente utilizado por pessoas desenvolvedoras de software.<br>
-  Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.<br><br>
+  Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.<br>
+  Promoção de Black Friday - Cyber Monday código de desconto (somente na Gumroad): <b>LN83V5D</b>.<br><br>
 book_cover_ipad: https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png
 book_cover_ipad_alt: Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1689252896/livros/microlivro-banner_anjvbk.png
