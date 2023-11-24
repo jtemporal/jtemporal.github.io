@@ -70,10 +70,6 @@ layout: default
 
 Yes! Throughout the *whole* Black Friday - Cyber Monday Weekend you get a 45% discount using the code **LN83V5D**. Only on Gumroad, apply the code at checkout.
 
-#### What's included in the purchase?
-
-A digital copy of the book and all it's future updates.
-
 #### Is there a hard copy of this microbook?
 
 Yes! The paperback version of the book is available through Amazon.
