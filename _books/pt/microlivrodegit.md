@@ -65,6 +65,10 @@ layout: default
 
 <h3 id="faq"> Perguntas frequentes</h3>
 
+#### Tem desconto na Black Friday?
+
+Sim! Durante todo o final de semana da Black Friday - Cyber Monday você tem 45% de desconto usando o código **LN83V5D**. Apenas na Gumroad.
+
 #### O que essa compra dá direito?
 
 Uma cópia digital do livro e todas as suas atualizações.
