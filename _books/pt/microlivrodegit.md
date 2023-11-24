@@ -69,10 +69,6 @@ layout: default
 
 Sim! Durante todo o final de semana da Black Friday - Cyber Monday você tem 45% de desconto usando o código **LN83V5D**. Apenas na Gumroad.
 
-#### O que essa compra dá direito?
-
-Uma cópia digital do livro e todas as suas atualizações.
-
 #### Existe uma versão física disponível?
 
 Ainda não! Por enquanto esse livro será oferecido 100% digitalmente.
