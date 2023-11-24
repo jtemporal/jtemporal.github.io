@@ -76,7 +76,7 @@ A digital copy of the book and all it's future updates.
 
 #### Is there a hard copy of this microbook?
 
-Not yet! This book is offered 100% digitally at the moment.
+Yes! The paperback version of the book is available through Amazon.
 
 #### What if I have other questions or comments?
 
