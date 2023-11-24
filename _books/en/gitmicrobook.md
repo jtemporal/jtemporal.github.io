@@ -66,6 +66,10 @@ layout: default
 
 <h3 id="faq">FAQ</h3>
 
+#### Is there a Black Friday deal?
+
+Yes! Throughout the *whole* Black Friday - Cyber Monday Weekend you get a 45% discount using the code **LN83V5D**. Only on Gumroad, apply the code at checkout.
+
 #### What's included in the purchase?
 
 A digital copy of the book and all it's future updates.
