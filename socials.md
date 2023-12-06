@@ -8,7 +8,7 @@ lang: en
 translated: "/socials"
 
 ---
-
+<div>
 <a href="https://twitter.com/jesstemporal"><button class="social-btn">Twitter</button></a>
 
 <a href="https://linkedin.com/in/jessicatemporal/"><button class="social-btn">LinkedIn</button></a>
@@ -17,3 +17,15 @@ translated: "/socials"
 
 <a href="
 https://www.youtube.com/%2540jesstemporal"><button class="social-btn">YouTube</button></a>
+
+<a href="
+https://mastodon.online/@jesstemporal"><button class="social-btn">Mastodon</button></a>
+
+<a href="
+https://bsky.app/profile/jesstemporal.bsky.social"><button class="social-btn">Bluesky</button></a>
+
+<a href="
+https://github.com/jtemporal"><button class="social-btn">GitHub</button></a>
+
+<a href="
+https://dev.to/jesstemporal"><button class="social-btn">dev.to</button></a>
