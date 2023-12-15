@@ -16,6 +16,9 @@ tags:
 - english
 description: "Getting comfortable with a new skill requires effort, here's what I learned so far on editing and recording videos"
 translator: false
+translated: "/sete-licoes-que-aprendi-gravando-e-editando-videos-curtos"
+author_note_link: "https://jtemporal.com/sete-licoes-que-aprendi-gravando-e-editando-videos-curtos"
+author_note: "Você pode ler esse artigo em Português"
 
 ---
 
