@@ -65,7 +65,7 @@ layout: default
 
 <h3 id="faq"> Perguntas frequentes</h3>
 
-## Tem desconto na Black Friday?
+#### Tem desconto na Black Friday?
 
 Sim! Durante todo o final ano (até dia 2 de Janeiro) você tem 30% de desconto usando o código **QMJNMT3**. Apenas na Gumroad.
 

@@ -66,7 +66,7 @@ layout: default
 
 <h3 id="faq">FAQ</h3>
 
-## Is there an end of year deal?
+#### Is there an end of year deal?
 
 Yes! Throughout the *whole* end of year (until Jan 2nd) you get a 30% discount using the code **QMJNMT3**. Only on Gumroad, apply the code at checkout.
 
