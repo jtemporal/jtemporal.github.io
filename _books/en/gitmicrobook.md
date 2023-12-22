@@ -7,7 +7,8 @@ description: a quick guide to commands you will use daily
 book_description: |
   What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?<br>
   This microbook is an introduction to the fundamental concepts and commands of Git, a version control system widely used by software developers.<br>
-  Throughout this book, you will have the chance to practice concepts and commands through real-world examples.<br><br>
+  Throughout this book, you will have the chance to practice concepts and commands through real-world examples.<br>
+  End of Year Sale discount code (only on Gumroad): <b>QMJNMT3</b>.<br><br>
 book_cover_ipad: https://res.cloudinary.com/jesstemporal/image/upload/v1690996726/books/gitmicrobook-ipad-no-bg_kqhekh.png
 book_cover_ipad_alt: Cover from 'The Big Git Microbook' being shown in an iPad
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1690996804/books/git-microbook-banner_wvbnqz.png
@@ -65,13 +66,13 @@ layout: default
 
 <h3 id="faq">FAQ</h3>
 
-#### What's included in the purchase?
+## Is there an end of year deal?
 
-A digital copy of the book and all it's future updates.
+Yes! Throughout the *whole* end of year (until Jan 2nd) you get a 30% discount using the code **QMJNMT3**. Only on Gumroad, apply the code at checkout.
 
 #### Is there a hard copy of this microbook?
 
-Yes! The paperback version of the book is available through Amazon.
+Yes! The paperback version of the book is [available through Amazon](https://amzn.to/3v3TVL6).
 
 #### What if I have other questions or comments?
 
