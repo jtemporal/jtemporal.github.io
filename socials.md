@@ -16,7 +16,7 @@ translated: "/socials"
 <a href="https://twitch.tv/jesstemporal/"><button class="social-btn">Twitch</button></a>
 
 <a href="
-https://www.youtube.com/%2540jesstemporal"><button class="social-btn">YouTube</button></a>
+https://www.youtube.com/@jesstemporal"><button class="social-btn">YouTube</button></a>
 
 <a href="
 https://mastodon.online/@jesstemporal"><button class="social-btn">Mastodon</button></a>
