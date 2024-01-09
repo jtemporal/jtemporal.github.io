@@ -33,3 +33,9 @@ If you are tired of getting confused by all of these concepts, this talk is for 
 [Slides](/slides/gowiththeflow/).
 
 [Code](https://github.com/jtemporal/gowiththeflow/).
+
+You can watch it below:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IkInFbgI1QU?si=nwXRvlorJww1uvf1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
