@@ -11,6 +11,10 @@ tags:
 - english
 - tutorial
 lang: en
+translator: false
+author_note_link: "https://jtemporal.com/dicas-para-migrar-de-flask-para-fastapi-e-vice-versa"
+author_note: "Você pode ler esse artigo em Português"
+translated: "/dicas-para-migrar-de-flask-para-fastapi-e-vice-versa"
 
 ---
 
