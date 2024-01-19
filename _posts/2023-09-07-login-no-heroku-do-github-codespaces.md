@@ -17,6 +17,9 @@ tags:
 bookbanner: true
 description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador"
 translator: false
+translated: "/login-to-heroku-from-github-codespaces"
+author_note_link: "https://jtemporal.com/login-to-heroku-from-github-codespaces"
+author_note: "You can read this article in English"
 
 ---
 
