@@ -19,6 +19,17 @@ translated: "/ultimo-da-lista"
 
 [Python](https://www.python.org/) is known for making it easy to write beautiful, small code. Today's pro tip is about how to get the last element of a list using this language \o/
 
+You can watch below or continue reading:
+
+<center>
+<iframe width="315px" height="560"
+src="https://www.youtube.com/embed/VyJzt_HmTlk"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+</center>
+
 Coming from other languages like Java or C to Python, it's normal to bring a bit of an accent to your codes and want to do something more or less like this to get the last element of a list:
 
 ```python
