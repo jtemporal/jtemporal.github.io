@@ -18,6 +18,10 @@ posts_list:
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 lang: pt
+translator: false
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/renaming-files-in-git-the-right-way"
+translated: "/renaming-files-in-git-the-right-way"
 
 ---
 

@@ -17,6 +17,11 @@ tags:
 description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador e com MFA ativado"
 bookbanner: true
 translator: false
+author_note: "Você pode ler esse artigo em Português"
+author_note_link: "https://jtemporal.com/login-on-heroku-via-cli-with-mfa"
+translated: "/login-on-heroku-via-cli-with-mfa"
+
+
 
 ---
 
