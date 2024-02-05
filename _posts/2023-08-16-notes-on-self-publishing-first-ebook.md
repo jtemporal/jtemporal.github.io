@@ -12,6 +12,10 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/p
 type: post
 related: false
 lang: en
+translator: false
+author_note_link: "https://jtemporal.com/notas-sobre-publicar-meu-primeiro-ebook"
+author_note: "Você pode ler esse artigo em Português"
+translated: "/notas-sobre-publicar-meu-primeiro-ebook"
 
 ---
 I once wrote [about my content creation process](https://jtemporal.com/my-content-creation-process/) and I still follow the things I wrote in there but now, going through the publishing process of my first ebook “The Big Git Microbook”, I can say I learned a few new things. Read through to understand learn about my adventure in self-publishing first ebook.
