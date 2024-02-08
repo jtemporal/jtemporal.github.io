@@ -1,20 +1,21 @@
 ---
 layout: post
-title: "Login no Heroku via linha de comando com MFA ativado"
+title: "Login on Heroku via CLI with MFA enabled"
 date: 2023-12-04T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 comments: true
 type: post
-lang: pt
+lang: en
 tags:
 - github codespaces
 - codespaces
 - git
 - github
 - heroku
-- authorização
-- portugues
-description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador e com MFA ativado"
+- auth
+- authorization
+- english
+description: "Using Heroku CLI on GitHub Codespaces and logging in without a browser even with MFA enabled"
 bookbanner: true
 translator: true
 author_note: This blog post was adapted for English by Debora Azevedo.
