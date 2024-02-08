@@ -25,7 +25,7 @@ translated: "/login-no-heroku-via-linha-de-comando-com-mfa-ativado"
 ---
 
 
-Let's say you already know how to use the iterative way to log in to Heroku via the terminal (TK LINK), but now you've activated multi-factor authentication (MFA) on your profile and a simple username and password won't be enough to log in.
+Let's say you already know how to use the iterative way [to log in to Heroku via the terminal](https://jtemporal.com/login-to-heroku-from-github-codespaces/), but now you've activated multi-factor authentication (MFA) on your profile and a simple username and password won't be enough to log in.
 
 In this pro-tip you will learn how to use iterative mode with MFA.
 
