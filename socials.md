@@ -30,6 +30,9 @@ https://github.com/jtemporal"><button class="social-btn">GitHub</button></a>
 <a href="
 https://dev.to/jesstemporal"><button class="social-btn">dev.to</button></a>
 
+<a href="
+https://discord.gg/vaXEEXEswD"><button class="social-btn">Discord</button></a>
+
 <style>
     .social-btn {
           background-color: white;
