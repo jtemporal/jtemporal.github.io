@@ -16,6 +16,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 - [NuPhy Air60 Wireless Mechanical Keyboard](https://amzn.to/3DWtfNL) - I like small keyboards ¯\\\_(ツ)\_/¯.
 - [Logitech MX Keys Mini Keyboard](https://amzn.to/3P3dmeA) - My secondary keyboard.
+- [Apple Magic Keyboard with Touch ID](https://amzn.to/4emtQsP) - Using for work because of touch ID
 - [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands.
 - [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
 - [Dell Thunderbolt Dock](https://amzn.to/3QLHe0i) - To connect almost all the things.
@@ -25,9 +26,9 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 ## Recording or Streaming
 
-- [Canon EOS REBEL SL3 with 50mm lens](https://amzn.to/47yBnBA) - Best camera + lens combo in my humble opinion.
-- [Elgato Camlink](https://amzn.to/3YCNJnY) - Capture card to use DSLR cameras as webcams.
+- [Insta360 Link](https://amzn.to/3VEyk74) - Best webcam!
 - [Elgato Key Light](https://amzn.to/3sfA8Hd) - I have two of these, (pro-tip my husband has 2 of the [Elgato Key Light Air](https://amzn.to/3Ox3CI8), they work really well).
+- [Elgato Key Light Mini](https://amzn.to/4bWRACb) - Be using this to record video on the go.
 - [Stream Deck XL](https://amzn.to/3DYZwU7) - Everything to control at the press of a button.
 - [Elgato Green Screen Collapsible](https://amzn.to/3L7ZQEn) - For the days your background is messy.
 - [Elgato Wave Panel](https://amzn.to/3OGsU6v) - To avoid echoes.
@@ -90,3 +91,8 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [LED Panel Pixoo](https://amzn.to/3s6UQsH)
 - [Nanoleaf Shapes Hexagons](https://amzn.to/3s6UVN1)
 - [Elgato Light Strip](https://amzn.to/3E2nWfM)
+
+## Retired tech
+
+- [Canon EOS REBEL SL3 with 50mm lens](https://amzn.to/47yBnBA) - Best camera + lens combo in my humble opinion.
+- [Elgato Camlink](https://amzn.to/3YCNJnY) - Capture card to use DSLR cameras as webcams.
