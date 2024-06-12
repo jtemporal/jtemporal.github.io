@@ -21,8 +21,8 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
 - [Dell Thunderbolt Dock](https://amzn.to/3QLHe0i) - To connect almost all the things.
 - [Dell U3421WE Ultrasharp](https://amzn.to/3KK3aW2) - Monitor.
-- [Apple Airpods Max](https://amzn.to/44asLy1).
-- [Apple Airpods Second Gen](https://amzn.to/3E5qbP6).
+- [Apple Airpods Pro (2nd Gen)](https://amzn.to/45kiNfG) - these taken over even the max on my daily use.
+
 
 ## Recording or Streaming
 
@@ -96,3 +96,5 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 - [Canon EOS REBEL SL3 with 50mm lens](https://amzn.to/47yBnBA) - Best camera + lens combo in my humble opinion.
 - [Elgato Camlink](https://amzn.to/3YCNJnY) - Capture card to use DSLR cameras as webcams.
+- [Apple Airpods Max](https://amzn.to/44asLy1). - I still use this while traveling but I'm looking for new over the ear headphones/
+- [Apple Airpods Second Gen](https://amzn.to/3E5qbP6). - New Airpods Pro are ruling now
