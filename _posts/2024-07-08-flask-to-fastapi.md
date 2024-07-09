@@ -1,17 +1,16 @@
 ---
 layout: post
 type: talk
-title: [Tutorial] Migrating a Web Application from Flask to FastAPI
+title: Tutorial - Migrating a Web Application from Flask to FastAPI
 date: 2024-07-09 00:00:00 -0300
 hidden: true
 lang: en
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 tags:
 - english
 - flask
 - fastapi
 - talk
-- tutorial
 - webapp
 description: Avoiding Pitfalls
 related: true
