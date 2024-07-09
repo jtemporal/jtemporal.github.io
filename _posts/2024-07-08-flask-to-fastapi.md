@@ -30,7 +30,7 @@ After this tutorial, you will feel confident to start your stack migrations betw
 
 This tutorial was made for EuroPython 2024.
 
-[Slides](/slides/flask-to-fastai/).
+[Slides](/slides/flask-to-fastapi/).
 
 [Code](https://github.com/jtemporal/flask-to-fastapi/).
 
