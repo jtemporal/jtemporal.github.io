@@ -15,9 +15,9 @@ tags:
 description: Avoiding Pitfalls
 related: true
 posts_list:
+- tips-on-migrating-from-flask-to-fastapi-and-vice-versa
 - how-to-handle-jwts-in-python
 - solving-conflicts
-- introducing-gitfichas
 
 ---
 Have you ever had to migrate code from one stack to another? Migrating stacks on an application can be a daunting task. The secret is to keep changes to a small size and watch out for blind copy-and-paste.
