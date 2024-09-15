@@ -41,6 +41,7 @@ paginate_path: /page:num/
 # Tracker
 analytics: UA-89599031-1
 tagmanager: GTM-KKCR3VG
+posthog: phc_TJ8wDQtZEO0sAotAYkJLOeQmEnDU3JByJXQL8hJGDdJ
 
 # Comments
 
