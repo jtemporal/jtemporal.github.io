@@ -7,8 +7,7 @@ description: um guia rápido de comandos que você usará diariamente
 book_description: |
   E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?<br>
   Este microlivro é uma introdução aos conceitos e comandos fundamentais do Git, um sistema de controle de versão amplamente utilizado por pessoas desenvolvedoras de software.<br>
-  Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.<br>
-  Promoção de Fim de Ano código de desconto (somente na Gumroad): <b>QMJNMT3</b>.<br><br>
+  Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.<br><br>
 book_cover_ipad: https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png
 book_cover_ipad_alt: Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1689252896/livros/microlivro-banner_anjvbk.png
@@ -64,10 +63,6 @@ layout: default
 <hr>
 
 <h3 id="faq"> Perguntas frequentes</h3>
-
-#### Tem desconto na Black Friday?
-
-Sim! Durante todo o final ano (até dia 2 de Janeiro) você tem 30% de desconto usando o código **QMJNMT3**. Apenas na Gumroad.
 
 #### O que essa compra dá direito?
 
