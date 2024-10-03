@@ -75,8 +75,23 @@ Happy Hacking! 🎉
 ---
 
 {% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
+
+## Acesso rápido por linguagem
+
+<ul>
 {% for group in grouped %}
-<h2> {{ group.name }} </h2>
+  {% if group.name == "Variados" %}
+    <li><a href="#{{ group.name }}">{{ group.name }}</a> - Repositórios sem linguagem específica ex.: blogs, documentações e dicionários</li>
+  {% else %}
+    <li><a href="#{{ group.name }}">{{ group.name }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+---
+
+{% for group in grouped %}
+<h2 id="{{ group.name }}">{{ group.name }}</h2>
 {% for item in group.items %}
 <div class="github-project-share">
 <a style="text-decoration: none;" href="{{ item.repo }}">
