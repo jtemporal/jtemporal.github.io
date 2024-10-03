@@ -43,7 +43,7 @@ As regras para adicionar projetos nessa lista:
 
 ## Prêmios
 
-Esse ano a Hacktoberfest terá camiseta, se o seu objetivo é ganhar camisetas esse evento não é para você. Os prêmios serão virtuais no formato de badges Holopin.
+Esse ano a Hacktoberfest **não** terá camiseta, se o seu objetivo é ganhar camisetas esse evento não é para você. Os prêmios serão virtuais no formato de badges Holopin.
 
 ## Adicionando projetos nessa lista
 
