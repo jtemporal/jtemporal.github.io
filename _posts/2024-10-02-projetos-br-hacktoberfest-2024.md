@@ -28,7 +28,7 @@ posts_list:
 
 Ontem começou Outubro e mais uma vez o mês inteirinho de celebração de open source! A festa que todo entusiasta e pessoas mantenedoras de open source espera está aqui é hora de  #Hacktoberfest.
 
-Por aqui você encontrar desde 2017 essa lista curada especialmente para te te ajudar a encontrar projetos brasileiros para contribuir!
+Por aqui você confere desde 2017 essa lista curada especialmente para te ajudar a encontrar projetos brasileiros para contribuir!
 
 ## Regras para entrar nessa lista
 
@@ -64,11 +64,11 @@ Relembrando que para tornar seu PR válido para a hacktoberfest você precisa te
 
 ## Mais informações
 
-Mais informações no [site oficial (em inglês)](https://hacktoberfest.com/).
+Mais informações no [site oficial (em inglês)](https://hacktoberfest.com/).
 
 Meu livro [“O grande Microlivro de Git” está com desconto 30% na Gumroad](https://jessicatemporal.gumroad.com/l/microlivrodegit/hacktoberfest) tanto em português quanto inglês. Se você preferir, [ele também está disponível na Amazon (sem desconto)](https://amzn.to/4erFcLU).
 
-Por último, nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilhar ✨](https://jtemporal.com/5-dicas-para-fazer-o-seu-pull-request-brilhar/) e pode ser útil.
+Por último, nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilhar ✨](https://jtemporal.com/5-dicas-para-fazer-o-seu-pull-request-brilhar/) e pode ser útil.
 
 Happy Hacking! 🎉
 
