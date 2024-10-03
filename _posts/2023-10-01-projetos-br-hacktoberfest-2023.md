@@ -26,6 +26,10 @@ posts_list:
 
 ---
 
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2024/).
+
+---
+
 Então Outubro chega mais uma vez para a alegria de devs e entusiastas open source do mundo todo, e com ele o evento mais esperado chega em sua décima edição: #Hacktoberfest.
 
 Desde 2017, essa lista vem pra te ajudar a fazer pull requests/merge requests e participar dessa festa que dura um mês completinho. Então aqui vai! Uma lista toda repleta de projetos brasileiros pra você contribuir nesse mês de Outubro!

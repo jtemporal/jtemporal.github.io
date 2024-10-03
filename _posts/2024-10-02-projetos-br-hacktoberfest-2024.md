@@ -30,7 +30,7 @@ Ontem começou Outubro e mais uma vez o mês inteirinho de celebração de open 
 
 Por aqui você encontrar desde 2017 essa lista curada especialmente para te te ajudar a encontrar projetos brasileiros para contribuir!
 
-# **Regras para entrar nessa lista**
+## Regras para entrar nessa lista
 
 As regras para adicionar projetos nessa lista:
 
@@ -39,19 +39,19 @@ As regras para adicionar projetos nessa lista:
 3. Ter pelo menos uma *issue* aberta;
 4. Ser um repositório válido, ou seja, não arquivado.
 
-# **Avisos para 2024**
+## Avisos para 2024
 
-# **Prêmios**
+## Prêmios
 
 Esse ano a Hacktoberfest terá camiseta, se o seu objetivo é ganhar camisetas esse evento não é para você. Os prêmios serão virtuais no formato de badges Holopin.
 
-# **Adicionando projetos nessa lista**
+## Adicionando projetos nessa lista
 
 Esse ano vamos manter a mesma forma de aumentar essa lista com mais projetos, como sempre, apenas abrindo um PR com o projeto. [As instruções de como adicionar projetos tão aqui](https://jtemporal.com/adicionando-um-novo-projeto-na-lista-da-hacktoberfest-2019/). Todo mundo segue ganhando <3.
 
 Os projetos continuam separados pela linguagem principal pra facilitar as buscas pra quem lê e também em ordem alfabética pela linguagem. 😉
 
-# **Qualidade > Quantidade**
+## Qualidade > Quantidade
 
 Assim como em anos anteriores, qualidade é o mais importante então se liga que dois PRs inválidos resultará em **desqualificação por período indeterminado**!
 
@@ -62,7 +62,7 @@ Relembrando que para tornar seu PR válido para a hacktoberfest você precisa te
 1. O PR precisa ser aberto em Outubro (entre os dias 1 e 31);
 2. O PR precisa acontecer num projeto que tem o tópico `hacktoberfest` **ou** ser marcado com o rótulo (*label*) `hacktoberfest-accepted` por um mantenedor **ou** ser aceito (*merged*) **ou** ser aprovado pelo processo de revisão (*review*).
 
-# **Mais informações**
+## Mais informações
 
 Mais informações no [site oficial (em inglês)](https://hacktoberfest.com/).
 
@@ -75,8 +75,23 @@ Happy Hacking! 🎉
 ---
 
 {% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
+
+## Acesso rápido por linguagem
+
+<ul>
 {% for group in grouped %}
-<h2> {{ group.name }} </h2>
+  {% if group.name == "Variados" %}
+    <li><a href="#{{ group.name }}">{{ group.name }}</a> - Repositórios sem linguagem específica ex.: blogs, documentações e dicionários</li>
+  {% else %}
+    <li><a href="#{{ group.name }}">{{ group.name }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+---
+
+{% for group in grouped %}
+<h2 id="{{ group.name }}">{{ group.name }}</h2>
 {% for item in group.items %}
 <div class="github-project-share">
 <a style="text-decoration: none;" href="{{ item.repo }}">
