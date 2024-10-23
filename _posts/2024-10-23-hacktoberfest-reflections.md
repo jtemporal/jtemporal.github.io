@@ -26,6 +26,8 @@ posts_list:
 
 *This is a submission for the [2024 Hacktoberfest Writing challenge](https://dev.to/challenges/hacktoberfest): Maintainer Experience*
 
+*[Also available on dev.to here](https://dev.to/jesstemporal/reflections-from-a-maintainer-and-contributor-during-hacktoberfest-550j).*
+
 ---
 
 Since 2016, I curate a list of [brazilian-maintained projects people can contribute to during hacktoberfest](http://jtemporal.com/projetos-br-hacktoberfest-2024/). The goal is to facilitate contributions from the brazilian dev community and also lower the entry barrier to the first open source contribution from Brazilians that might not speak english or don’t know where to start.
