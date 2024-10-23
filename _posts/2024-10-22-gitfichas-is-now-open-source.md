@@ -30,7 +30,7 @@ This means if you are looking for a project to contribute to you’ve found it! 
 
 ## What is GitFichas or GitStudyCards?
 
-GitFichas is a study card collection about git. It was first closed source and maintained solely by me, mainly due to the fact I would hand draw each of the cards.
+[GitFichas](https://gitfichas.com) is a collection of study cards about git. It was first closed source and maintained solely by me, mainly due to the fact I would hand draw each of the cards.
 
 After some time I even created fonts to facilitate the process but it still required me to grab my iPad and the Procreate app to turn my notes into an image.
 
