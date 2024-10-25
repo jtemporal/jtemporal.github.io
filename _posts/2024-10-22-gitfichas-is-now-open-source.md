@@ -23,6 +23,10 @@ posts_list:
 - solving-conflicts
 - 5-tips-to-make-your-pull-request-shine
 - introducing-gitfichas
+translator: false
+author_note_link: "https://jtemporal.com/gitfichas-agora-e-open-source"
+author_note: "Você pode ler esse artigo em Português"
+translated: "/gitfichas-agora-e-open-source"
 
 ---
 
