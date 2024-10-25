@@ -20,8 +20,8 @@ bookbanner: true
 description: 'Exciting news for anyone that deals with Git and might need a reminder or two about some commands 🤩'
 related: true
 posts_list:
-- resolvendo-conflitos
-- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- solving-conflicts
+- 5-tips-to-make-your-pull-request-shine
 - introducing-gitfichas
 
 ---
