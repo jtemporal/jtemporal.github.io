@@ -168,14 +168,14 @@ nt:
   title: "#051 git commit --allow-empty"
 ---
 
-{% include mermaid-graphs.html %}
+{% raw %}{% include mermaid-graphs.html %}{% endraw %}
 ```
 
 Note que foi necessário alterar as variáveis `title`, `subtitle`, `command`, `descriptors` e suas sub-variáveis, `info`, `number`. E adicionar `mermaid: true`.
 
 As demais variáveis `layout`, `translated`, `permalink`, `lang`, `pv` e sub-variáveis, `nt` e sub-variáveis, vão ser as existentes no arquivo original e não precisam de alteração.
 
-Por fim, é necessário substituir o conteúdo da ficha que vem depois do front-matter e colocar `{% include mermaid-graphs.html %}`. Essa linha vai garantir a apresentação da renderização do conteúdo que você acabou de preencher.
+Por fim, é necessário substituir o conteúdo da ficha que vem depois do front-matter e colocar {% raw %}`{% include mermaid-graphs.html %}`{% endraw %}. Essa linha vai garantir a apresentação da renderização do conteúdo que você acabou de preencher.
 
 Dicas na migração de fichas:
 
