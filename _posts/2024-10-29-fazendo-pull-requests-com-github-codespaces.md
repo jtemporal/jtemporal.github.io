@@ -19,6 +19,10 @@ posts_list:
 - resolvendo-conflitos
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - gitfichas-agora-e-open-source
+translator: false
+author_note_link: https://jtemporal.com/making-pull-requests-with-github-codespaces
+author_note: You can read this blog post in English
+translated: /making-pull-requests-with-github-codespaces
 
 ---
 
