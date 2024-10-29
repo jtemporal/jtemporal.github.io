@@ -1,7 +1,7 @@
 ---
-title: 'Aprenda a fazer pull requests para um projeto open source usando GitHub Codespaces'
+title: 'Fazendo pull requests com GitHub Codespaces e contribuindo com um projeto open source'
 layout: post
-date: 2024-10-25T05:00:00.000+00:00
+date: 2024-10-29T05:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 type: post
 lang: pt
