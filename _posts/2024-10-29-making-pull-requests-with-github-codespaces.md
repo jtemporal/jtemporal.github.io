@@ -27,7 +27,7 @@ translated: /fazendo-pull-requests-com-github-codespaces
 ---
 There are several ways to make pull requests. In this blog post, you will learn how to make a pull request in practice using GitHub Codespaces and making a pull request to GitFichas.
 
-## O GitFichas
+## GitFichas
 
 [GitFichas is now an open source project](https://jtemporal.com/gitfichas-is-now-open-source/) and is currently undergoing a migration that will bring several improvements. For this, every existing card needs to be migrated to the new format using [Mermaid](https://mermaid.js.org/). As the best way to learn is by practicing, this blog post will show you how to do everything in practice.
 
