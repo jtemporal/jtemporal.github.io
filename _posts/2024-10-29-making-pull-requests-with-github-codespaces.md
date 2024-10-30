@@ -1,16 +1,16 @@
 ---
 title: 'Learn to make pull requests using GitHub Codespaces and contribute to open source'
 layout: post
-date: 2024-10-25T05:00:00.000+00:00
+date: 2024-10-29T04:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 type: post
-lang: pt
+lang: en
 tags:
 - opensource
 - GitHub
 - Git
 - pull request
-- portugues
+- english
 comments: true
 bookbanner: true
 description: 'Fork, branch, pull request. Learn how to use GitHub Codespaces to make your contributions.'
