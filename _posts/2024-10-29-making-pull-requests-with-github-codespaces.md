@@ -16,15 +16,16 @@ bookbanner: true
 description: 'Fork, branch, pull request. Learn how to use GitHub Codespaces to make your contributions.'
 related: true
 posts_list:
-- resolvendo-conflitos
-- 5-dicas-para-fazer-o-seu-pull-request-brilhar
-- gitfichas-agora-e-open-source
+- solving-conflicts
+- 5-tips-to-make-your-pull-request-shine
+- gitfichas-is-now-open-source
 translator: false
 author_note_link: https://jtemporal.com/fazendo-pull-requests-com-github-codespaces
 author_note: Você pode ler esse artigo em Português
 translated: /fazendo-pull-requests-com-github-codespaces
 
 ---
+
 There are several ways to make pull requests. In this blog post, you will learn how to make a pull request in practice using GitHub Codespaces and making a pull request to GitFichas.
 
 ## GitFichas
