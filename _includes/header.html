@@ -3,6 +3,7 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+      
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -11,12 +12,12 @@
       </button>
       {% if post.lang == "en" or page.lang == "en_US" or page.lang  == "en" %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
-        {% assign options = "About,Books,Talks" | split: ',' %}
-        {% assign base = "about,books,talks" | split: ',' %}
+        {% assign options = "About,Books,Talks,CV,GitStudyCards" | split: ',' %}
+        {% assign base = "/about,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/en?utm_source=blog" | split: ',' %}
       {% else %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
-        {% assign options = "Sobre,Livros,Palestras" | split: ',' %}
-        {% assign base = "sobre,livros,talks" | split : ',' %}
+        {% assign options = "Sobre,Livros,Palestras,CV,GitFichas" | split: ',' %}
+        {% assign base = "/sobre,/livros,/talks,/EnJtResume.pdf,https://gitfichas.com/?utm_source=blog" | split : ',' %}
       {% endif %}
     </div>
 
@@ -25,7 +26,7 @@
       <ul class="nav navbar-nav navbar-right">
         {% for item in options %}
           {% assign idx = forloop.index0 %}
-          <li><a href="{{site.url}}{{site.baseurl}}/{{base[idx]}}/">{{item}}</a></li>
+          <li><a href="{{base[idx]}}">{{item}}</a></li>
         {% endfor %}
         {% if post.lang == "en" or page.lang == "en_US" or page.lang == "en" %}
           {% if page.translated %}
@@ -40,9 +41,6 @@
             <li><a href="{{site.url}}{{site.baseurl}}/en/"> 🇺🇸 </a></li>
           {% endif %}
         {% endif %}
-        <li><a href="{{site.url}}{{site.baseurl}}/EnJtResume.pdf">Curriculum</a></li>
-        <li><a href="https://gitfichas.com/?utm_source=blog">GitFichas</a></li>
-        
         <!--
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
