@@ -21,6 +21,22 @@
       {% endif %}
     </div>
 
+    <div class="nav navbar-nav navbar-right" >
+      {% if post.lang == "en" or page.lang == "en_US" or page.lang == "en" %}
+        {% if page.translated %}
+          <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇧🇷 </a></li>
+        {% else %}
+          <li><a href="{{site.url}}{{site.baseurl}}/pt/"> 🇧🇷 </a></li>
+        {% endif %}
+      {% else %}
+        {% if page.translated %}
+          <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇺🇸 </a></li>
+        {% else %}
+          <li><a href="{{site.url}}{{site.baseurl}}/en/"> 🇺🇸 </a></li>
+        {% endif %}
+      {% endif %}
+    </div>
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -28,20 +44,6 @@
           {% assign idx = forloop.index0 %}
           <li><a href="{{base[idx]}}">{{item}}</a></li>
         {% endfor %}
-        {% if post.lang == "en" or page.lang == "en_US" or page.lang == "en" %}
-          {% if page.translated %}
-            <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇧🇷 </a></li>
-          {% else %}
-            <li><a href="{{site.url}}{{site.baseurl}}/pt/"> 🇧🇷 </a></li>
-          {% endif %}
-        {% else %}
-          {% if page.translated %}
-            <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇺🇸 </a></li>
-          {% else %}
-            <li><a href="{{site.url}}{{site.baseurl}}/en/"> 🇺🇸 </a></li>
-          {% endif %}
-        {% endif %}
-        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
