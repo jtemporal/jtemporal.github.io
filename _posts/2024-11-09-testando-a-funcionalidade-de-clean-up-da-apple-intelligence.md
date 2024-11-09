@@ -15,9 +15,9 @@ bookbanner: true
 description: 'Remover objetos de fotos não é novidade, mas com certeza é divertido.'
 related: false
 translator: false
-author_note_link: "https://jtemporal.com/testando-a-funcionalidade-de-clean-up-da-apple-intelligence"
+author_note_link: "https://jtemporal.com/testing-apple-intelligence-s-clean-up-tool"
 author_note: You can read this article in English
-translated: /testando-a-funcionalidade-de-clean-up-da-apple-intelligence
+translated: /testing-apple-intelligence-s-clean-up-tool
 ---
 
 Estas duas fotos são a mesma foto.
