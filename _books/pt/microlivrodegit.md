@@ -75,7 +75,7 @@ Ainda não! Por enquanto esse livro será oferecido 100% digitalmente.
 
 #### Consigo comprar o livro no pix?
 
-Sim! Manda um email para pixmicrolivro@jtemporal.com que mando as instruções.
+Sim! Basta usar [esse formulário](https://jesstemporal.notion.site/12b9dd3e5b6c8064a573c00e8d39dc12).
 
 #### E se eu tiver outra pergunta ou comentários?
 
