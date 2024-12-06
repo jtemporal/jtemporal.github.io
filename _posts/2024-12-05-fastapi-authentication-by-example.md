@@ -1,6 +1,5 @@
 ---
 hidden: false
-layout: post
 date: 2024-12-05T04:00:00.000+00:00
 title: "FastAPI Authentication by Example"
 redirect_to:
@@ -11,11 +10,8 @@ tags:
 - fastapi
 - auth
 - english
-comments: true
-bookbanner: false
+
 description: 'Learn to integrate Auth0 with a FastAPI web app'
-related: false
-translator: false
 
 ---
 
