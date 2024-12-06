@@ -15,7 +15,7 @@ bookbanner: true
 description: 'Removing objects from pictures is nothing new but it sure is fun.'
 related: false
 translator: false
-author_note_linl: https://jtemporal.com/testando-a-funcionalidade-de-clean-up-da-apple-intelligence
+author_note_link: https://jtemporal.com/testando-a-funcionalidade-de-clean-up-da-apple-intelligence
 author_note: Você pode ler esse artigo em Português
 translated: /testando-a-funcionalidade-de-clean-up-da-apple-intelligence
 
