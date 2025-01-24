@@ -6,6 +6,7 @@ redirect_to:
   - https://auth0.com/blog/rag-and-access-control-where-do-you-start
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 lang: en
+type: post
 tags:
 - openai
 - auth
