@@ -1,5 +1,6 @@
 ---
 title: "Documentando a história com Sphinx"
+description: "Usando Sphinx para criar a documentação de dos processos de organizar um evento da comunidade"
 layout: post
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 date: '2017-10-30 10:00:00'
@@ -11,9 +12,14 @@ tags:
 - sphinx
 - readthedocs
 - read the docs
-- documentação
+- documentação 
 - português
 comments: true
+translator: false
+author_note_link: "https://jtemporal.com/documenting-history-with-sphinx"
+author_note: You can read this article in English
+translated: /documenting-history-with-sphinx
+
 ---
 
 Sabe aquelas documentações bonitas de bibliotecas que você encontra por aí? Por exemplo, a documentação do [Bottery](https://docs.bottery.io/en/latest/) ou a do [Flask](http://flask.pocoo.org/docs/0.12/)? Todas são construídas com uma biblioteca Python chamada [Sphinx](http://www.sphinx-doc.org/en/stable/#).
@@ -64,6 +70,7 @@ Ao final desse longo questionário que acabamos de responder, você vai encontra
 </center>
 
 ### build/
+
 Inicialmente vazia, mas quando rodarmos o comando de construção do site lá vai ficar cheio de coisa ;P
 
 ### source/
@@ -99,11 +106,15 @@ Outra coisa que você vai precisar é uma forma de visualizar essas páginas, cl
 
 E usando o navegador acessar o caminho `localhost:8000`. Rodando o processo a partir do root do projeto como fizemos você deve ver uma listagem de todos arquivos e diretórios no seu navegador:
 
+<center>
 <img src="https://i.imgur.com/cLzKN77.png" style="max-width: 60%;">
+</center>
 
 E aí é só seguir pelo caminho até a pasta onde estão os `.html`:
 
+<center>
 <img src="https://i.imgur.com/1XNPT8Q.png" style="max-width: 60%;">
+</center>
 
 Ao clicar em `html/`, por conter um arquivo `index.html`, seu navegador irá mostrar o resultado do `build` que fica mais ou menos assim usando o `index.rst` gerado de fábrica:
 
@@ -117,7 +128,7 @@ Ao clicar em `html/`, por conter um arquivo `index.html`, seu navegador irá mos
 
 ## Introdução de conteúdo \o/
 
-Todos esses passos até agora foram para preparar nosso projeto para chegar na parte que realmente queremos. Vamos começar criando uma página de conteúdo chamada i`pyconamazonia2017.rst` apenas com um título e criar a conexão entre ela e nosso `index.rst`, veja:
+Todos esses passos até agora foram para preparar nosso projeto para chegar na parte que realmente queremos. Vamos começar criando uma página de conteúdo chamada `pyconamazonia2017.rst` apenas com um título e criar a conexão entre ela e nosso `index.rst`, veja:
 
 <center>
 <script src="https://gist.github.com/jtemporal/8d6a0aea5efe3dd251e4787b876863df.js"></script>
