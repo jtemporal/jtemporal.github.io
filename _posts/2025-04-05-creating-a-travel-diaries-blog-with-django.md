@@ -18,14 +18,15 @@ related: false
 
 ---
 
-
 You started learning Django by creating a blog from the DG tutorial at a Django Girls event near you. This is the first python event you've been to and you fell in love with both the language and the community. Now you have your first application you want to learn how to do more and improve your skills.
 
 ![Image of the map in the Django Girls website showing all Django Girls events in a map](/images/travel-diaries-with-django/IMG_0680.jpeg)
 
-This blog post narrates the process of how implement an interactive map and how to embed map into Django website. You'll learn how to create relationships between tables through foreign keys. You’ll also learn how to filter objects in the database using the Django ORM and create specific pages to show the filtered objects.
+This blog post narrates the process of implementing an interactive map and how to embed said map into Django website. You'll learn how to create relationships between tables through foreign keys. You’ll also learn how to filter objects in the database using the Django ORM and create specific pages to show the filtered objects.
 
 *Note*: You can also skip ahead to the section *Storing Spacial Data* if you already have the blog from Django Girls tutorial.
+
+The code shown on this tutorial is also available [in this GitHub repository](https://github.com/jtemporal/django-travel-diaries).
 
 ## Putting together the Django Girls Tutorial blog
 
@@ -665,5 +666,7 @@ On the Django side you saw how to use foreign keys to link your posts to locatio
 I hope you had as much fun reading as I had writing this, if you read until here I'd love to hear/read your questions so [send me a message on Bluesky](https://bsky.app/profile/jesstemporal.com).
 
 Before you go if you want to think of next steps for you to stretch your skills I recommend you trying both saving the map once a new location is added this way you can just render the map as opposed to querying the the database every time `/map` is accessed and creating a 404 page in case some tries to access locations that don't exist.
+
+Once again, the code shown on this tutorial is also available [in this GitHub repository](https://github.com/jtemporal/django-travel-diaries).
 
 See ya on the next one.
