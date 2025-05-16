@@ -153,7 +153,7 @@ def session_clearing():
     # ... rest of your logic
 ```
 
-Meanwhile, in FastAPI the session is part of the `Request` object, you can access it by passing the request as part of the endpoint function, and then using it `request.session`, like so:
+Meanwhile, in FastAPI the session is part of the `Request` object and it is rewritable, so you can for example add the session from an identity provider for example... You can access the session by passing the request as part of the endpoint function, and then using it `request.session`, like so:
 
 ```python
 from fastapi import Request
@@ -162,7 +162,7 @@ from fastapi import Request
 
 @webapp_router.get("/profile")
 def profile(request: Request):
-    user_info = request.session['userinfo']
+    request.session = {"user": {"name": "sam",},}
 
     # ... rest of your profile endpoint logic
 ```
