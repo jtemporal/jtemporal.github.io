@@ -241,7 +241,7 @@ from fastapi.responses import RedirectResponse
 @webapp_router.get("/redirect-example", dependencies=[Depends(ProtectedEndpoint)])
 def redirect_example(request: Request):
 
-    return RedirectResponse(url=request.url_for("profile"))
+    return RedirectResponse(url=request.url_for("home"))
 ```
 
 ## Recap
