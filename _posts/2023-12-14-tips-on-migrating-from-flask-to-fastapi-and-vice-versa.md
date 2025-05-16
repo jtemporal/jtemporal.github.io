@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2023-12-14T19:00:00.000-05:00
+last_updated: 2025-05-16T19:00:00.000-05:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
 title: Tips on migrating from Flask to FastAPI and vice-versa
@@ -143,13 +144,13 @@ from flask import session
 
 # ... blueprint definition
 
-@auth_bp.route("/logout")
-def logout():
+@webapp_bp.route("clear-session-example")
+def session_clearing():
     """
-    Logs the user out of the session
+    example on how to clear a session, often used in logout endpoints
     """
     session.clear()
-    # ... rest of your logout code
+    # ... rest of your logic
 ```
 
 Meanwhile, in FastAPI the session is part of the `Request` object, you can access it by passing the request as part of the endpoint function, and then using it `request.session`, like so:
@@ -159,13 +160,11 @@ from fastapi import Request
 
 # ... router definition
 
-@auth_router.get("/logout")
-def logout(request: Request):
-    """
-    Logs the user out of the session
-    """
-    request.session.clear()
-    # ... rest of your logout code
+@webapp_router.get("/profile")
+def profile(request: Request):
+    user_info = request.session['userinfo']
+
+    # ... rest of your profile endpoint logic
 ```
 
 ## Modular applications: Blueprint and APIRouter
@@ -225,24 +224,24 @@ from flask import redirect, url_for
 
 # ... blueprint definition
 
-@auth_bp.route("/logout")
-def logout():
-    # ... your code
-    return redirect(url_for("webapp.home")
+@webapp_bp.route("/redirect-example")
+def redirect_example():
+
+    return redirect(url_for("webapp.home"))
 ```
 
 Meanwhile, in FastAPI the `url_for` is a method and comes from the `Request` class. You need to pass along the endpoint name, if that endpoint is part of your app, even if it is in another module, everything will work from there and there’s no need to pass the module name as well.
 
 ```python
 from fastapi import Request
-from fastapi import RedirectResponse
+from fastapi.responses import RedirectResponse
 
 # ... router definition
 
-@auth_router.get("/logout")
-def logout(request: Request):
-    # ... your logout code
-    return RedirectResponse(url=request.url_for("home"))
+@webapp_router.get("/redirect-example", dependencies=[Depends(ProtectedEndpoint)])
+def redirect_example(request: Request):
+
+    return RedirectResponse(url=request.url_for("profile"))
 ```
 
 ## Recap

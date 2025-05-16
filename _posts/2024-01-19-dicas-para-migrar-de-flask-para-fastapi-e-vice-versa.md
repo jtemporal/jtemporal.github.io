@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2024-01-19T10:00:00.000-05:00
+last_updated: 2025-05-16T19:00:00.000-05:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 comments: true
 title: Dicas para migrar uma aplicação de Flask para FastAPI e vice-versa
@@ -145,13 +146,13 @@ from flask import session
 
 # ... blueprint definition
 
-@auth_bp.route("/logout")
-def logout():
+@webapp_bp.route("clear-session-example")
+def session_clearing():
     """
-    Logs the user out of the session
+    example on how to clear a session, often used in logout endpoints
     """
     session.clear()
-    # ... rest of your logout code
+    # ... continuação da lógica
 ```
 
 Enquanto isso, no FastAPI, a sessão faz parte do objeto `Request`, você pode acessá-la passando a requisição como parte da função de endpoint e, em seguida, usando `request.session`, assim:
@@ -159,15 +160,12 @@ Enquanto isso, no FastAPI, a sessão faz parte do objeto `Request`, você pode a
 ```python
 from fastapi import Request
 
-# ... router definition
+# ... definição do router
 
-@auth_router.get("/logout")
-def logout(request: Request):
-    """
-    Logs the user out of the session
-    """
-    request.session.clear()
-    # ... rest of your logout code
+@webapp_router.get("/profile")
+def profile(request: Request):
+    user_info = request.session['userinfo']
+    # ... continução da lógica
 ```
 
 ## Aplicações modulares: Blueprint e APIRouter
@@ -225,26 +223,26 @@ Para usar `url_for` no Flask, você precisa importar a função da biblioteca `f
 ```python
 from flask import redirect, url_for
 
-# ... blueprint definition
+# ... definição da blueprint
 
-@auth_bp.route("/logout")
-def logout():
-    # ... your code
-    return redirect(url_for("webapp.home")
+@webapp_bp.route("/redirect-example")
+def redirect_example():
+
+    return redirect(url_for("webapp.home"))
 ```
 
 Enquanto isso, no FastAPI, o `url_for` é um método e vem da classe `Request`. Você precisa passar o nome do endpoint, se esse endpoint fizer parte da aplicação, mesmo que esteja em outro módulo, tudo funcionará a partir daí e não há necessidade de passar o nome do módulo como no Flask.
 
 ```python
 from fastapi import Request
-from fastapi import RedirectResponse
+from fastapi.responses import RedirectResponse
 
 # ... router definition
 
-@auth_router.get("/logout")
-def logout(request: Request):
-    # ... your logout code
-    return RedirectResponse(url=request.url_for("home"))
+@webapp_router.get("/redirect-example", dependencies=[Depends(ProtectedEndpoint)])
+def redirect_example(request: Request):
+
+    return RedirectResponse(url=request.url_for("profile"))
 ```
 
 ## Recapitulando
