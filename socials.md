@@ -25,7 +25,7 @@ https://www.tiktok.com/@jess.temporal"><button class="social-btn">TikTok</button
 https://mastodon.online/@jesstemporal"><button class="social-btn">Mastodon</button></a>
 
 <a href="
-https://bsky.app/profile/jesstemporal.bsky.social"><button class="social-btn">Bluesky</button></a>
+https://bsky.app/profile/jesstemporal.com"><button class="social-btn">Bluesky</button></a>
 
 <a href="
 https://github.com/jtemporal"><button class="social-btn">GitHub</button></a>
