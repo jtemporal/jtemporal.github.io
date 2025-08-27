@@ -83,7 +83,7 @@ sass:
   style: compressed
 
 # Include list
-include: [.well-known, EnJtResume.pdf, folium, llm.txt]
+include: [.well-known, EnJtResume.pdf, folium, llms.txt]
 
 # Ruby Gems
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
