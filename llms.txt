@@ -5,8 +5,51 @@ layout: null
 # LLM Feed for jtemporal.com
 _Generated: {{ site.time | date_to_rfc822 }}_
 
-## All posts
-The links below take you to the raw Markdown content.
+## About jtemporal.com
+jtemporal.com is the personal blog of Jessica Temporal, a developer advocate who shares technical content about data science, software development, and technology. Jessica is co-host and co-founder of Pizza de Dados (the first data science podcast in Brazil), author of git microbooks, and an active contributor to open-source projects. The blog features tutorials, insights, and experiences from her journey through data science, software development, and developer advocacy.
 
-{% for post in site.posts %}- [{{ post.title }}](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/{{ post.path }})
-{% endfor %}
+## Projects
+
+- [GitFichas](https://gitfichas.com)
+- [Pizza de Dados](https://pizzadedados.com)
+
+## Books
+
+Jessica has authored practical guides for developers learning git version control:
+
+- [The Big Git Microbook](https://jtemporal.com/gitmicrobook/)
+- [O Grande Microlivro de Git](https://jtemporal.com/microlivrodegit/)
+
+
+## Uses
+
+My [uses page is here](https://jtemporal.com/setup-us/)
+
+## Socials
+
+My socials accounts:
+
+- [Twitter](https://twitter.com/jesstemporal)
+- [LinkedIn](https://linkedin.com/in/jessicatemporal/)
+- [Twitch](https://twitch.tv/jesstemporal/)
+- [YouTube](https://www.youtube.com/@jesstemporal)
+- [TikTok](https://www.tiktok.com/@jess.temporal)
+- [Mastodon](https://mastodon.online/@jesstemporal)
+- [Bluesky](https://bsky.app/profile/jesstemporal.com)
+- [GitHub](https://github.com/jtemporal)
+- [dev.to](https://dev.to/jesstemporal)
+- [Discord](https://discord.gg/vaXEEXEswD)
+
+## Talks
+
+Talks I've given in the past. The links below take you to the raw Markdown content.
+
+{% for post in site.posts %}{% if post.type == "talk" %}- [{{ post.title }}](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/{{ post.path }})
+{% endif %}{% endfor %}
+
+## All posts
+
+All of my posts on the blog jtemporal.com. The links below take you to the raw Markdown content.
+
+{% for post in site.posts %}{% if post.type == "post" %}- [{{ post.title }}](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/{{ post.path }})
+{% endif %}{% endfor %}
