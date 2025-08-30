@@ -1,7 +1,6 @@
 # Jess Temporal's Blog & Portfolio
 
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue?logo=github)](https://jtemporal.com)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-NETLIFY-BADGE-ID/deploy-status)](https://app.netlify.com/sites/YOUR-NETLIFY-SITE/deploys)
 [![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-red?logo=jekyll)](https://jekyllrb.com/)
 
 Personal blog and portfolio website of Jessica Temporal - Sr. Dev Advocate, podcaster, and creator. Built with Jekyll and hosted on GitHub Pages.
