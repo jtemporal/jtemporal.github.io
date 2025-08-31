@@ -1,12 +1,12 @@
 ---
-layout: post
-title: Criando a sua máquina na nuvem com Digital Ocean
-date: 2021-04-21T19:48:25.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+author_note: You can read this article in English too
+author_note_link: https://jtemporal.com/creating-vm-droplet-digital-ocean/
 comments: true
+date: 2021-04-21 19:48:25-03:00
 description: Um passo-a-passo de como criar uma instância (Droplet) na Digital Ocean
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
+layout: post
 tags:
 - droplet
 - ssh
@@ -14,12 +14,14 @@ tags:
 - cloud
 - portugues
 - tutorial
-author_note_link: "https://jtemporal.com/creating-vm-droplet-digital-ocean/"
-author_note: "You can read this article in English too"
+title: Criando a sua máquina na nuvem com Digital Ocean
+translations:
+- lang: en
+  url: /creating-vm-droplet-digital-ocean
 translator: false
-translated: "/creating-vm-droplet-digital-ocean"
-
+type: post
 ---
+
 Este post é um passo-a-passo sobre como criar uma instância de nuvem na Digital Ocean.
 
 <center> <img alt="video da Michelle Obama dizendo 'Vamos Fazer isso!'" src="https://media.giphy.com/media/lRXMa7BOWsdcF3NxTA/giphy.gif"> <br>

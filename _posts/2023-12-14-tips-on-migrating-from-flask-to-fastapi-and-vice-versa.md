@@ -1,23 +1,26 @@
 ---
-layout: post
-date: 2023-12-14T19:00:00.000-05:00
-last_updated: 2025-05-16T19:00:00.000-05:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/dicas-para-migrar-de-flask-para-fastapi-e-vice-versa
 comments: true
-title: Tips on migrating from Flask to FastAPI and vice-versa
-description: Learn the differences between Flask and FastAPI when dealing with templates, routers, and static files
-type: post
+date: 2023-12-14 19:00:00-05:00
+description: Learn the differences between Flask and FastAPI when dealing with templates,
+  routers, and static files
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+lang: en
+last_updated: 2025-05-16 19:00:00-05:00
+layout: post
 tags:
 - python
 - english
 - tutorial
-lang: en
+title: Tips on migrating from Flask to FastAPI and vice-versa
+translations:
+- lang: pt
+  url: /dicas-para-migrar-de-flask-para-fastapi-e-vice-versa
 translator: false
-author_note_link: "https://jtemporal.com/dicas-para-migrar-de-flask-para-fastapi-e-vice-versa"
-author_note: "Você pode ler esse artigo em Português"
-translated: "/dicas-para-migrar-de-flask-para-fastapi-e-vice-versa"
-
+type: post
 ---
+
 
 Are you migrating from Flask to FastAPI and facing problems? In this blog post, you will learn about some of the issues that you may encounter when migrating a web application from Flask to FastAPI, as well as how to solve them.
 

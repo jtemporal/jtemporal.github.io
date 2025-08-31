@@ -1,14 +1,18 @@
 ---
-title: Colocando um site no ar com Jekyll
-layout: post
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
-date: 2018-01-07T10:00:00.000+00:00
-lang: "pt"
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/publishing-a-website-with-jekyll
 bookbanner: true
-translated: "/publishing-a-website-with-jekyll"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/publishing-a-website-with-jekyll"
-type: post
+comments: true
+date: 2018-01-07 10:00:00+00:00
+description: Aprenda a colocar o seu site no ar de graça usando o GitHub
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+lang: pt
+layout: post
+posts_list:
+- force-rebuild-jekyll
+- resolvendo-conflitos
+- criando-pastas-vazias-no-github-com-o-gitkeep
+related: true
 tags:
 - tutorial
 - jekyll
@@ -18,15 +22,13 @@ tags:
 - github pages
 - github
 - português
-comments: true
-description: Aprenda a colocar o seu site no ar de graça usando o GitHub
-related: true
-posts_list:
-- force-rebuild-jekyll
-- resolvendo-conflitos
-- criando-pastas-vazias-no-github-com-o-gitkeep
-
+title: Colocando um site no ar com Jekyll
+translations:
+- lang: en
+  url: /publishing-a-website-with-jekyll
+type: post
 ---
+
 
 Numa [colinha eu falei sobre como usar Jekyll](http://jtemporal.com/temas-jekyll/) é uma boa ideia para ter o seu site no ar vamos ao exemplo prático usando o terminal. O objetivo aqui é ter um site no ar, então vamos lá.
 

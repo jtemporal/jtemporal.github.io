@@ -1,12 +1,12 @@
 ---
-layout: post
-title: Configurar e acessar sua droplet via SSH
-date: 2021-05-31 00:00:00 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+author_note: You can read this article in English too
+author_note_link: https://jtemporal.com/configuring-and-accessing-your-droplet-via-ssh/
 comments: true
+date: 2021-05-31 00:00:00 -0300
 description: Um guia passo-a-passo para você configurar o acesso SSH da sua Droplet
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
+layout: post
 tags:
 - droplet
 - digital ocean
@@ -15,12 +15,14 @@ tags:
 - cloud
 - tutorial
 - portugues
-author_note_link: "https://jtemporal.com/configuring-and-accessing-your-droplet-via-ssh/"
-author_note: "You can read this article in English too"
+title: Configurar e acessar sua droplet via SSH
+translations:
+- lang: en
+  url: /configuring-and-accessing-your-droplet-via-ssh
 translator: false
-translated: "/configuring-and-accessing-your-droplet-via-ssh"
-
+type: post
 ---
+
 
 Se você leu meu tutorial sobre [como criar sua máquina na nuvem com o Digital Ocean](https://jtemporal.com/criando-a-sua-maquina-na-nuvem-com-digital-ocean/), agora você tem uma nova máquina na nuvem, yay você! Mas você ainda precisa configurar a máquina para poder acessaá-la via SSH.
 

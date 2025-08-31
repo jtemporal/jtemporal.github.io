@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2021-12-29T12:34:20.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/fixing-the-branch-source-with-git-rebase
 bookbanner: true
-title: Corrigindo a origem de um branch com git rebase
+comments: true
+date: 2021-12-29 12:34:20-02:00
 description: Veja como usar git rebase para corrigir a origem de um branch
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
-translated: "/fixing-the-branch-source-with-git-rebase"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/fixing-the-branch-source-with-git-rebase"
-tags:
-- git
-- português
-- colinha
-related: true
+layout: post
 posts_list:
 - resolvendo-conflitos
 - conheca-o-gitfichas
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Corrigindo a origem de um branch com git rebase
+translations:
+- lang: en
+  url: /fixing-the-branch-source-with-git-rebase
+type: post
 ---
+
 O comando `git rebase` pode ser usado para fazer vários ajustes de histórico, desde reescrever a árvore de commits, reescrevendo assim o histórico, até mesmo empurrar commits para um ponto mais a frente como se o branch fosse criado no futuro.
 
 Nessa colinha vou te mostrar como usar `git rebase` pra corrigir a origem de um determinado branch.

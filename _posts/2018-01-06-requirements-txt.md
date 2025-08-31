@@ -1,14 +1,12 @@
 ---
-title: 'Dependências de projetos Python: requirements.txt'
-description: "Aprenda sobre o arquivo requirements.txt"
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/requirements-txt-en
+comments: true
+date: 2018-01-06 08:00:00+00:00
+description: Aprenda sobre o arquivo requirements.txt
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
 layout: post
-date: 2018-01-06T08:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
-lang: "pt"
-translated: "/requirements-txt-en"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/requirements-txt-en"
-type: post
 tags:
 - colinha
 - python
@@ -17,9 +15,13 @@ tags:
 - versões
 - versoes
 - português
-comments: true
-
+title: 'Dependências de projetos Python: requirements.txt'
+translations:
+- lang: en
+  url: /requirements-txt-en
+type: post
 ---
+
 ---
 
 Author note: You can [read this post in English here](https://jtemporal.com/requirements-txt-en/).

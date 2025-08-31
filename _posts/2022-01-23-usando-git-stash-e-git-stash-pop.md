@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2022-01-23T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/using-git-stash-and-git-stash-pop
 bookbanner: true
-title: Usando git stash e git stash pop
+comments: true
+date: 2022-01-23 11:25:00-02:00
 description: Entenda como usar git stash e git stash pop na prática
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-lang: pt
-translated: "/using-git-stash-and-git-stash-pop"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/using-git-stash-and-git-stash-pop"
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Usando git stash e git stash pop
+translations:
+- lang: en
+  url: /using-git-stash-and-git-stash-pop
+type: post
 ---
+
 Mudar de branches durante o meio de trabalho é algo que acontece com certa frequência, por exemplo, para resolver um bug fazendo um _"hotfix"_ em um outro branch enquanto você está desenvolvendo uma tarefa.
 
 Existem algumas formas de interromper o trabalho, incluindo fazer commits. A minha forma favorita é usando os comandos `git stash` e `git stash pop`. Muitas pessoas confundem o funcionamento desses dois comandos, então vamos resolver isso. 😉

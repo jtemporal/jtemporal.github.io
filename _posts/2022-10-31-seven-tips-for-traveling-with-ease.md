@@ -1,24 +1,27 @@
 ---
-layout: post
-title: "7 useful tips for traveling with ease ✈️"
-date: 2022-10-31T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/sete-dicas-para-viajar-com-tranquilidade/
 comments: true
-type: post
+date: 2022-10-31 09:01:00+00:00
+description: The tips that helped me get through over 15 airports in seven countries
+  in a timely manner in the past year
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
+layout: post
 tags:
 - devrel
 - developer advocate
 - developer relations
 - developer advocacy
 - english
-description: "The tips that helped me get through over 15 airports in seven countries in a timely manner in the past year"
-author_note_link: "https://jtemporal.com/sete-dicas-para-viajar-com-tranquilidade/"
-author_note: "Você pode ler esse artigo em Português"
+title: 7 useful tips for traveling with ease ✈️
+translations:
+- lang: pt
+  url: /sete-dicas-para-viajar-com-tranquilidade
 translator: false
-translated: "/sete-dicas-para-viajar-com-tranquilidade"
-
+type: post
 ---
+
 Traveling can be daunting, especially if you have never felt comfortable doing it before. Here you can find my personal take on things that helped me get through over 15 airports in seven countries in a timely manner in the past year.
 
 All these tips I learned on the go and figuring out what worked for me helped me get to my destination faster without feeling "that should be a better way of doing this".

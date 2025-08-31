@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "7 dicas úteis para viajar com tranquilidade ✈️"
-date: 2022-10-31T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
-type: post
+date: 2022-10-31 09:01:00+00:00
+description: As dicas que me ajudaram a passar por mais de 15 aeroportos rapidamente
+  durante o último ano
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
+layout: post
 tags:
 - devrel
 - developer advocate
@@ -13,13 +15,14 @@ tags:
 - developer advocacy
 - portugues
 - pt
-description: "As dicas que me ajudaram a passar por mais de 15 aeroportos rapidamente durante o último ano"
+title: 7 dicas úteis para viajar com tranquilidade ✈️
+translations:
+- lang: en
+  url: /seven-tips-for-traveling-with-ease
 translator: true
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/seven-tips-for-traveling-with-ease"
-
+type: post
 ---
+
 Viajar pode ser assustador, especialmente se você nunca se sentiu confortável fazendo isso. Aqui você vai encontrar minha opinião pessoal sobre coisas que me ajudaram a passar por mais de 15 aeroportos em sete países em tempo hábil durante o ano passado.
 
 Todas essas dicas eu aprendi durante as viagens e descobrir o que funcionava para mim me ajudou a chegar ao meu destino mais rápido sem sentir “que deveria haver uma maneira melhor de fazer isso”.

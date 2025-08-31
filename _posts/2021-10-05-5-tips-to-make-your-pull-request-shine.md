@@ -1,13 +1,18 @@
 ---
-layout: post
-date: 2021-10-05T22:15:06.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
-comments: true
-lang: en
+author_note: This blog post was adapted for English by Débora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-title: 5 Tips to Make Your Pull Request Shine ✨
+comments: true
+date: 2021-10-05 22:15:06-03:00
 description: Top tips to make your open-source contribution a success
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+lang: en
+layout: post
+posts_list:
+- creating-empty-folders-on-github-with-gitkeep
+- solving-conflicts
+- introducing-gitfichas
+related: true
 tags:
 - english
 - pull request
@@ -15,17 +20,14 @@ tags:
 - open source
 - open-source
 - hacktoberfest
-related: true
-posts_list:
-- creating-empty-folders-on-github-with-gitkeep
-- solving-conflicts
-- introducing-gitfichas
-translated: "/5-dicas-para-fazer-o-seu-pull-request-brilhar"
+title: 5 Tips to Make Your Pull Request Shine ✨
+translations:
+- lang: pt
+  url: /5-dicas-para-fazer-o-seu-pull-request-brilhar
 translator: true
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-author_note: This blog post was adapted for English by Débora Azevedo.
-
+type: post
 ---
+
 October is hacktoberfest month and this should be the month where we put the most effort into contributing to open-source and helping more people contribute. So in this article you will learn five 5 golden tips to make your pull request ✨shine ✨. Let’s go!
 
 ## Follow the project's contribution guide

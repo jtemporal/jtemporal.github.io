@@ -1,28 +1,30 @@
 ---
-layout: post
-title: Solving conflicts in Git
-date: 2021-12-24T18:55:59.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
-comments: true
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
+comments: true
+date: 2021-12-24 18:55:59-02:00
 description: A recipe to understand and fix conflicts in git
-type: post
-tags:
-- git
-- tutorial
-- english
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
-translated: "/resolvendo-conflitos"
-related: true
+layout: post
 posts_list:
 - introducing-gitfichas
 - fixing-the-branch-source-with-git-rebase
 - updating-a-branch-with-git-rebase
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+related: true
+tags:
+- git
+- tutorial
+- english
+title: Solving conflicts in Git
+translations:
+- lang: pt
+  url: /resolvendo-conflitos
 translator: true
-
+type: post
 ---
+
 Resolving conflicts can be an arduous and complicated task when it comes to git projects. In this article you will learn a foolproof step-by-step guide to resolving conflicts.
 
 If you already know what conflicts are and just want to see the list of steps and commands to resolve a conflict, I [suggest you skip to the conclusion by clicking here](#wrapping-up).

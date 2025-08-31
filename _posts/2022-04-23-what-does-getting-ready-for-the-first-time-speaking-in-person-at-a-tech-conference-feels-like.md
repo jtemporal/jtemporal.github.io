@@ -1,22 +1,24 @@
 ---
-layout: post
-title: What does getting ready for the first time speaking in person at a tech conference
-  feels like
-date: 2022-04-23T22:33:34.000-03:00
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial
+comments: true
+date: 2022-04-23 22:33:34-03:00
+description: And why should you get back on the road
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+lang: en
+layout: post
+related: false
 tags:
 - pessoal
 - English
-comments: true
-description: And why should you get back on the road
-lang: en
+title: What does getting ready for the first time speaking in person at a tech conference
+  feels like
+translations:
+- lang: pt
+  url: /como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial
 translator: false
-related: false
-author_note_link: "https://jtemporal.com/como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial"
-author_note: "Você pode ler esse artigo em Português"
-translated: "/como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial"
-
 ---
+
 If nothing else, sharing knowledge is a joyful experience. Think of the first time you learned to do something. Really learned. Didn’t it feel amazing? Didn’t you want to tell everyone and see their reactions when they saw that cool thing?
 
 I know I did. This is the same feeling I have in mind when I’m creating a new piece of content, be it a blog post, a video, a podcast episode, or a new talk. It is always the same. I want to share this cool thing with anyone that will listen.

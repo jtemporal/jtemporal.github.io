@@ -1,24 +1,27 @@
 ---
-layout: post
-title: Tips to improve your LinkedIn profile
-date: 2022-01-18T20:00:00.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png" 
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
+date: 2022-01-18 20:00:00-03:00
+description: Hands-on tips for you to improve your LinkedIn profile in less than 30
+  minutes
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
-description: Hands-on tips for you to improve your LinkedIn profile in less than 30 minutes
-type: post
+layout: post
+related: false
 tags:
 - career
 - step by step
 - english
 - linkedin
-related: false
+title: Tips to improve your LinkedIn profile
+translations:
+- lang: pt
+  url: /dicas-para-melhorar-o-seu-perfil-no-linkedin
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/dicas-para-melhorar-o-seu-perfil-no-linkedin"
-
+type: post
 ---
+
 You might be thinking about switching jobs and you may be wondering “*How do I improve my profile on the networks most used by recruiters?*” and you may already havheard things like “*keep your resume up to date*” and “*create a portfolio*” specially in tech.
 
 I can give you more advice on how to improve your profile if I know better who you are and what you do, but with the tips below, you can do a few improvements by yourself, even if we don't know each other, so here we go.

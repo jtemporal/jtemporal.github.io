@@ -1,27 +1,30 @@
 ---
-layout: post
-date: 2021-12-30T12:34:20.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
-title: Updating a branch with git rebase
-description: See how to use git rebase to bring all the most recent commits to your current branch
-type: post
-tags:
-- git
-- português
-- colinha
-lang: en
-translated: "/atualizando-um-branch-com-git-rebase"
-related: true
-bookbanner: true
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
+comments: true
+date: 2021-12-30 12:34:20-02:00
+description: See how to use git rebase to bring all the most recent commits to your
+  current branch
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - fixing-the-branch-source-with-git-rebase
 - introducing-gitfichas
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Updating a branch with git rebase
+translations:
+- lang: pt
+  url: /atualizando-um-branch-com-git-rebase
+type: post
 ---
+
 The command `git rebase` can be used to make various history adjustments, from rewriting the commit tree (and by doing that rewriting the history) to even pushing commits forward as if the branch were created in the future.
 
 In this pro tip I will show you how to use `git rebase` to update a branch.

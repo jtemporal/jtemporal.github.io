@@ -1,24 +1,24 @@
 ---
-layout: post
-date: 2022-01-16T12:44:33.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
-comments: true
-lang: en
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-translated: "/conheca-o-gitfichas"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/conheca-o-gitfichas"
-title: Introducing GitFichas!
-description: "Your new best friend: git study cards!"
+comments: true
+date: 2022-01-16 12:44:33-03:00
+description: 'Your new best friend: git study cards!'
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+lang: en
+layout: post
+related: false
 tags:
 - english
 - git
+title: Introducing GitFichas!
+translations:
+- lang: pt
+  url: /conheca-o-gitfichas
 type: post
-related: false
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
 ---
+
 I started a new project, and I want to tell you all about it! 👀
 
 For some time now I've been helping anyone who needs help with Git. From what I've seen, most people use git commands on a daily basis without necessarily understanding them…

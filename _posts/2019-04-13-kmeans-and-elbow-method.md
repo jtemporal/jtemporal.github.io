@@ -1,14 +1,12 @@
 ---
-layout: post
-title: How to define the optimal number of clusters for KMeans
-date: 2019-04-13T03:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/kmeans-e-cotovelo
 comments: true
-type: post
+date: 2019-04-13 03:00:00+00:00
+description: Learn to calculate the optimal cluster number using the elbow method
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
-translated: "/kmeans-e-cotovelo"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/kmeans-e-cotovelo"
+layout: post
 tags:
 - tutorial
 - data science
@@ -25,9 +23,13 @@ tags:
 - analysis
 - nao supervisionado
 - english
-description: Learn to calculate the optimal cluster number using the elbow method
-
+title: How to define the optimal number of clusters for KMeans
+translations:
+- lang: pt
+  url: /kmeans-e-cotovelo
+type: post
 ---
+
 ---
 
 Leia [esse texto em Português](https://medium.com/pizzadedados/kmeans-e-metodo-do-cotovelo-94ded9fdf3a9) na Revista do Pizza.

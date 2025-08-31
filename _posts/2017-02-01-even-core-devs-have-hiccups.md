@@ -1,13 +1,11 @@
 ---
-title: "Even core devs have hiccups ¯\\_(ツ)_/¯"
-layout: post
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/ate-core-devs-tem-atrapalhos
+comments: true
 date: '2017-02-01 00:00:00'
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
-lang: "en"
-translated: "/ate-core-devs-tem-atrapalhos"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/ate-core-devs-tem-atrapalhos"
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+lang: en
+layout: post
 tags:
 - postgres
 - python
@@ -16,8 +14,13 @@ tags:
 - database
 - english
 - inglês
-comments: true
+title: Even core devs have hiccups ¯\_(ツ)_/¯
+translations:
+- lang: pt
+  url: /ate-core-devs-tem-atrapalhos
+type: post
 ---
+
 
 After a few months working on a open-source project sometimes I still find myself having trouble with some things. And that is okay! This time was with PostgreSQL.
 

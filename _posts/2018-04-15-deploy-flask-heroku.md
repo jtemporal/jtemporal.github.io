@@ -1,13 +1,11 @@
 ---
-title: Fazendo deploy de uma API para o Heroku
-layout: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
-date: 2018-04-15T00:00:00.000+00:00
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/deploy-flask-heroku-en
+comments: true
+date: 2018-04-15 00:00:00+00:00
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
-translated: "/deploy-flask-heroku-en"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/deploy-flask-heroku-en"
-type: post
+layout: post
 tags:
 - tutorial
 - python
@@ -18,9 +16,13 @@ tags:
 - web
 - servidor
 - português
-comments: true
-
+title: Fazendo deploy de uma API para o Heroku
+translations:
+- lang: en
+  url: /deploy-flask-heroku-en
+type: post
 ---
+
 Quer aprender a fazer deploy @? Vem que eu te ensino!
 
 ## O que você vai encontrar nesse tutorial

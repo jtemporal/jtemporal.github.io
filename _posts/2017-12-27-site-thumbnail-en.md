@@ -1,10 +1,12 @@
 ---
-title: "Add colors when sharing your website"
-layout: post
+author_note: Você pode ler este tutorial em Português
+author_note_link: https://jtemporal.com/site-thumbnail
+comments: true
 date: '2017-12-27 10:00:00'
-type: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
+description: How to add a thumbnail on your site
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
+layout: post
 tags:
 - pro tip
 - web
@@ -13,14 +15,14 @@ tags:
 - meta tags
 - share
 - english
-comments: true
-description: "How to add a thumbnail on your site"
-author_note_link: "https://jtemporal.com/site-thumbnail"
-author_note: "Você pode ler este tutorial em Português"
+title: Add colors when sharing your website
+translations:
+- lang: pt
+  url: /site-thumbnail
 translator: false
-translated: "/site-thumbnail"
-
+type: post
 ---
+
 
 Have you ever noticed that when you share a link on your favorite social network, these links load images to show? A kind of website thumbnail?
 

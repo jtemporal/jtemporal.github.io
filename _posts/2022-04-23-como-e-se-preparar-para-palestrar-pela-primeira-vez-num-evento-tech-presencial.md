@@ -1,23 +1,25 @@
 ---
-layout: post
-title: Como é se preparar para palestrar pela primeira vez num evento tech presencial
-date: 2022-04-23T22:34:34.000-03:00
+author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+comments: true
+date: 2022-04-23 22:34:34-03:00
+description: E por que você deveria por o pé na estrada
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+lang: pt
+layout: post
+related: false
 tags:
 - pessoal
 - português
 - portugues
 - pt
-comments: true
-description: E por que você deveria por o pé na estrada
-lang: pt
+title: Como é se preparar para palestrar pela primeira vez num evento tech presencial
+translations:
+- lang: en
+  url: /what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like
 translator: true
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like"
-related: false
-
 ---
+
 Se nada mais, compartilhar conhecimento é uma experiência feliz. Pense na primeira vez que você aprendeu a fazer algo. Que *realmente* aprendeu. Não foi incrível? Você não queria contar para todo mundo e ver a reação das pessoas quando vissem aquela coisa massa?
 
 Eu sei que sim. Esse é o mesmo sentimento que tenho em mente quando estou criando um novo conteúdo, seja um artigo pro blog, um vídeo, um episódio de podcast ou uma nova palestra. É sempre a mesma coisa. Eu quero compartilhar essa coisa legal com qualquer pessoa que queira ouvir.

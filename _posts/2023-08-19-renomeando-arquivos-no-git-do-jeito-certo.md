@@ -1,29 +1,31 @@
 ---
-layout: post
-date: 2023-08-19T11:25:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/renaming-files-in-git-the-right-way
+bookbanner: true
 comments: true
-bookbanner: true
-title: Renomeando arquivos no Git do jeito certo
-description: Chega de confusão na hora de ajustar o nome de um arquivo em projetos git
-type: post
-tags:
-- git
-- português
-- colinha
-bookbanner: true
-related: true
+date: 2023-08-19 11:25:00+00:00
+description: Chega de confusão na hora de ajustar o nome de um arquivo em projetos
+  git
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-lang: pt
+related: true
+tags:
+- git
+- português
+- colinha
+title: Renomeando arquivos no Git do jeito certo
+translations:
+- lang: en
+  url: /renaming-files-in-git-the-right-way
 translator: false
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/renaming-files-in-git-the-right-way"
-translated: "/renaming-files-in-git-the-right-way"
-
+type: post
 ---
+
 
 Você já tentou renomear um arquivo nos seus projetos e teve dificuldade adicionar o ajuste em um commit? Isso não acontece só com você. Nessa colinha você vai aprender a renomear os seus arquivos em projetos git da forma correta para evitar dores de cabeça.
 

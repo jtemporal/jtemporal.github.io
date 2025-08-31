@@ -1,18 +1,20 @@
 ---
-layout: post
-title: How to Handle JWTs in Python
-date: 2021-07-02T09:20:03.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png"
 comments: true
+date: 2021-07-02 09:20:03-03:00
 description: Learn how to create, parse and verify your JWTs in Python using PyJWT
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png
 lang: en
-translated: "/como-lidar-com-jwts-em-python"
+layout: post
 tags:
 - english
 - jwts in python
-
+title: How to Handle JWTs in Python
+translations:
+- lang: pt
+  url: /como-lidar-com-jwts-em-python
+type: post
 ---
+
 JSON Web Tokens, or JWTs for short, are all over the web. They can be used to track bits of information about a user in a very compact way and can be used in APIs for authorization purposes. This post will cover what JSON Web Tokens are and how to create JWTs in Python using the most popular JWT library: [PyJWT](http://pyjwt.readthedocs.io/). We are also going to see how you can sign and verify JWTs in Python using asymmetric algorithms.
 
 ---

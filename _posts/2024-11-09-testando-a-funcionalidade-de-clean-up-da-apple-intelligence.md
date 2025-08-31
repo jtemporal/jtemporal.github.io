@@ -1,24 +1,27 @@
 ---
-title: "Testando a Funcionalidade de Clean Up da Apple Intelligence"
-layout: post
-date: 2024-11-09T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
-type: post
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/testing-apple-intelligence-s-clean-up-tool
+bookbanner: true
+comments: true
+date: 2024-11-09 05:00:00+00:00
+description: Remover objetos de fotos não é novidade, mas com certeza é divertido.
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
+layout: post
+related: false
 tags:
 - IA
 - LLMs
 - edição de fotos
 - português
-comments: true
-bookbanner: true
-description: 'Remover objetos de fotos não é novidade, mas com certeza é divertido.'
-related: false
+title: Testando a Funcionalidade de Clean Up da Apple Intelligence
+translations:
+- lang: en
+  url: /testing-apple-intelligence-s-clean-up-tool
 translator: false
-author_note_link: "https://jtemporal.com/testing-apple-intelligence-s-clean-up-tool"
-author_note: You can read this article in English
-translated: /testing-apple-intelligence-s-clean-up-tool
+type: post
 ---
+
 
 Estas duas fotos são a mesma foto.
 

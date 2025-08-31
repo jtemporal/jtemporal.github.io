@@ -1,23 +1,26 @@
 ---
-layout: post
-date: 2022-02-12T09:00:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+author_note: You can read this blog post in English here
+author_note_link: https://jtemporal.com/my-content-creation-process
 comments: true
-title: Meu processo de criação de conteúdo
-description: Vou te contar como eu organizo todo texto, vídeo, palestra e podcast que eu faço
-type: post
+date: 2022-02-12 09:00:00-02:00
+description: Vou te contar como eu organizo todo texto, vídeo, palestra e podcast
+  que eu faço
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+lang: pt
+layout: post
+related: false
 tags:
 - git
 - português
 - colinha
-related: false
-lang: pt
-author_note_link: "https://jtemporal.com/my-content-creation-process"
-author_note: "You can read this blog post in English here"
+title: Meu processo de criação de conteúdo
+translations:
+- lang: en
+  url: /my-content-creation-process
 translator: false
-translated: "/my-content-creation-process"
-
+type: post
 ---
+
 Eu tenho mantido um blog por alguns anos e, desde que, criar conteúdos passou a ser meu ganha pão, eu tenho pensado bastante sobre métodos de escrita.
 
 Assim como programar bem, escrever bem, requer prática e dedicação. Depois de um certo tempo escrevendo, você passa a ter um sistema, uma coleção de passos que você sempre segue e aí você começa a pensar em como otimizar meu trabalho para obter resultados  cada vez melhores e entregas de alto nível mais rápidas.

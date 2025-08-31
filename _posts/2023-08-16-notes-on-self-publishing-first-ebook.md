@@ -1,23 +1,26 @@
 ---
-title: 'Notes on self-publishing my first ebook'
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/notas-sobre-publicar-meu-primeiro-ebook
+comments: true
+date: 2023-08-16 11:00:00+00:00
+description: Writing is hard, publishing is also hard, here's what I learned by doing
+  it the first time
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+lang: en
 layout: post
-date: 2023-08-16T11:00:00.000+00:00
-description: Writing is hard, publishing is also hard, here's what I learned by doing it the first time
+related: false
 tags:
 - personal
 - year in review
 - retrospective
-comments: true
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
-type: post
-related: false
-lang: en
+title: Notes on self-publishing my first ebook
+translations:
+- lang: pt
+  url: /notas-sobre-publicar-meu-primeiro-ebook
 translator: false
-author_note_link: "https://jtemporal.com/notas-sobre-publicar-meu-primeiro-ebook"
-author_note: "Você pode ler esse artigo em Português"
-translated: "/notas-sobre-publicar-meu-primeiro-ebook"
-
+type: post
 ---
+
 I once wrote [about my content creation process](https://jtemporal.com/my-content-creation-process/) and I still follow the things I wrote in there but now, going through the publishing process of my first ebook “The Big Git Microbook”, I can say I learned a few new things. Read through to understand learn about my adventure in self-publishing first ebook.
 
 ## Writing that didn’t work

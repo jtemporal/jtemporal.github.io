@@ -1,27 +1,31 @@
 ---
-layout: post
-title: Dicas para melhorar o seu perfil no LinkedIn
-date: 2022-01-18T20:00:00.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png" 
+author_note: You can read this blog post in English here
+author_note_link: https://jtemporal.com/tips-to-improve-your-linkedin-profile
 comments: true
+date: 2022-01-18 20:00:00-03:00
+description: Dicas práticas para melhorar o seu perfil no LinkedIn em menos de 30
+  minutos
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
-description: Dicas práticas para melhorar o seu perfil no LinkedIn em menos de 30 minutos
-type: post
+layout: post
+posts_list:
+- ferramentas-para-qualquer-vaga-em-ti
+- trabalhando-remoto
+- em-quem-voce-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o
+related: true
 tags:
 - emprego
 - passo a passo
 - português
 - linkedin
-related: true
-translated: "/tips-to-improve-your-linkedin-profile"
-author_note_link: "https://jtemporal.com/tips-to-improve-your-linkedin-profile"
-author_note: "You can read this blog post in English here"
+title: Dicas para melhorar o seu perfil no LinkedIn
+translations:
+- lang: en
+  url: /tips-to-improve-your-linkedin-profile
 translator: false
-posts_list:
-- ferramentas-para-qualquer-vaga-em-ti
-- trabalhando-remoto
-- em-quem-voce-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o
+type: post
 ---
+
 
 Você pode estar pensando em trocar de emprego ou de área e pode estar se perguntando *“Como eu melhoro o meu perfil na rede mais utilizada por recrutadores?”* e aí você possivelmente já pode ter ouvido coisas como *“mantenha o seu currículo atualizado”* e *“crie um portfólio”* principalmente em TI.
 

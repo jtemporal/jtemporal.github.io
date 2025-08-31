@@ -1,13 +1,13 @@
 ---
-title: Publishing your own website with Jekyll
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/do-tema-ao-ar
+comments: true
+date: 2018-01-07 10:00:00+00:00
+description: Learn to get your website up and running using the terminal, jekyll and
+  other tools.
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+lang: en
 layout: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
-date: 2018-01-07T10:00:00.000+00:00
-lang: "en"
-translated: "/do-tema-ao-ar"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/do-tema-ao-ar"
-type: post
 tags:
 - tutorial
 - jekyll
@@ -17,11 +17,13 @@ tags:
 - github pages
 - github
 - english
-comments: true
-description: Learn to get your website up and running using the terminal, jekyll and
-  other tools.
-
+title: Publishing your own website with Jekyll
+translations:
+- lang: pt
+  url: /do-tema-ao-ar
+type: post
 ---
+
 
 In a [pro tip, I talked about how using Jekyll](https://jtemporal.com/choosing-a-jekyll-theme/) is an excellent idea to get your site online. In this tutorial, we will deploy a website using GitHub, Jekyll, and the terminal.
 

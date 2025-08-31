@@ -1,15 +1,12 @@
 ---
-layout: post
-date: 2019-09-27T13:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/from-0-to-17-thousand-pageviews
 comments: true
-title: De 0 a 17 mil pageviews
-description: 'Como uma troca de temas impactou na quantidade de acessos do meu blog'
-type: post
+date: 2019-09-27 13:00:00+00:00
+description: Como uma troca de temas impactou na quantidade de acessos do meu blog
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
-translated: "/from-0-to-17-thousand-pageviews"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/from-0-to-17-thousand-pageviews"
+layout: post
 tags:
 - português
 - static site
@@ -23,8 +20,13 @@ tags:
 - git
 - github
 - jekyll
-
+title: De 0 a 17 mil pageviews
+translations:
+- lang: en
+  url: /from-0-to-17-thousand-pageviews
+type: post
 ---
+
 
 O primeiro website que eu coloquei no ar, era um site Django. Foi num tutorial da semana acadêmica do meu curso de graduação (Informática Biomédica) e foi ministrado pela comunidade Python de Ribeirão Preto. Foi a primeira vez que vi Python sendo usado de verdade e foi o meu primeiro _deploy_ com direito a Heroku e tudo, mas esse causo fica pra outro momento.
 

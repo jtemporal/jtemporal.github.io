@@ -1,10 +1,19 @@
 ---
-title: 'GitFichas agora é Open Source 🎉'
-layout: post
-date: 2024-10-25T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
-type: post
+author_note: You can read this blog post in English
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
+comments: true
+date: 2024-10-25 05:00:00+00:00
+description: Ótimas notícias pra quem mexe com Git e precisa de uma ajudinha de vez
+  em quando 🤩
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
+layout: post
+posts_list:
+- resolvendo-conflitos
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- conheca-o-gitfichas
+related: true
 tags:
 - pull request
 - pull requests
@@ -13,21 +22,14 @@ tags:
 - Git
 - open source
 - portugues
-comments: true
-bookbanner: true
-description: 'Ótimas notícias pra quem mexe com Git e precisa de uma ajudinha de vez em quando 🤩'
-related: true
-posts_list:
-- resolvendo-conflitos
-- 5-dicas-para-fazer-o-seu-pull-request-brilhar
-- conheca-o-gitfichas
+title: GitFichas agora é Open Source 🎉
+translations:
+- lang: en
+  url: /gitfichas-is-now-open-source
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-author_note: You can read this blog post in English
-translated: /gitfichas-is-now-open-source
-
+type: post
 ---
+
 
 Isso significa que se você está procurando um projeto para contribuir, você acabou de encontrar!
 

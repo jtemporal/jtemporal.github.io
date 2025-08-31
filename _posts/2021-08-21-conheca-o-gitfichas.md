@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2021-08-21T12:44:33.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/introducing-gitfichas
 bookbanner: true
-lang: "pt"
-translated: "/introducing-gitfichas"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/introducing-gitfichas"
-title: Conheça o GitFichas!
+comments: true
+date: 2021-08-21 12:44:33-03:00
 description: Projeto novo no ar!
-type: post
-tags:
-- portugues
-- português
-- git
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+lang: pt
+layout: post
 posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
 - criando-pastas-vazias-no-github-com-o-gitkeep
-
+related: true
+tags:
+- portugues
+- português
+- git
+title: Conheça o GitFichas!
+translations:
+- lang: en
+  url: /introducing-gitfichas
+type: post
 ---
+
 Eu comecei um novo projeto, e decidi vir aqui te contar tudo sobre ele! 👀
 
 Há algum tempo eu tenho ajudado qualquer pessoa que precise de ajuda com Git. Pelo que tenho visto, a maioria das pessoas usa os comandos git diariamente sem necessariamente entendê-los…

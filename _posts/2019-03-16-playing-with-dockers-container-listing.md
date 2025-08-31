@@ -1,14 +1,12 @@
 ---
-layout: post
-title: Playing with Docker’s container listing
-date: 2019-03-16T03:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/brincando-com-a-listagem-de-containers-docker
 comments: true
-type: post
+date: 2019-03-16 03:00:00+00:00
+description: Learn to list and filter containers from the list
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
-translated: "/brincando-com-a-listagem-de-containers-docker"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/brincando-com-a-listagem-de-containers-docker"
+layout: post
 tags:
 - english
 - docker
@@ -18,9 +16,13 @@ tags:
 - pro tip
 - docker ps
 - containers
-description: Learn to list and filter containers from the list
-
+title: Playing with Docker’s container listing
+translations:
+- lang: pt
+  url: /brincando-com-a-listagem-de-containers-docker
+type: post
 ---
+
 If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:
 
 1. List filtering;

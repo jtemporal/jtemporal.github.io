@@ -1,22 +1,25 @@
 ---
-layout: post
-date: 2022-02-12T09:00:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
-title: My content creation process
-description: Let me share with you how I organize all articles, videos, talks, and podcasts I create and maybe help you with your own creation process
-type: post
+date: 2022-02-12 09:00:00-02:00
+description: Let me share with you how I organize all articles, videos, talks, and
+  podcasts I create and maybe help you with your own creation process
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+lang: en
+layout: post
+related: false
 tags:
 - english
 - pro tip
-related: false
-lang: en
+title: My content creation process
+translations:
+- lang: pt
+  url: /o-meu-metodo-de-criacao-de-conteudo
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/o-meu-metodo-de-criacao-de-conteudo"
-
+type: post
 ---
+
 I've been blogging for a few years, and since creating content has become my bread and butter, I've been thinking a lot about writing methods.
 
 Just like programming well, writing well takes practice and dedication. After some time writing, you have a system, a collection of steps that you always follow, and then you start thinking about how to optimize your work to get better results and faster high-level deliveries.

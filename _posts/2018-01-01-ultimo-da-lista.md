@@ -1,10 +1,12 @@
 ---
-title: "O último da lista com Python"
-description: Como pegar o último item de uma lista em Python
-layout: post
+author_note: You can read this blog post in English
+author_note_link: https://jtemporal.com/the-last-of-a-list-in-python
+comments: true
 date: '2018-01-01 10:00:00'
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
-type: post
+description: Como pegar o último item de uma lista em Python
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 tags:
 - colinha
 - python
@@ -12,13 +14,14 @@ tags:
 - listas
 - manipulação de listas
 - português
-comments: true
+title: O último da lista com Python
+translations:
+- lang: en
+  url: /the-last-of-a-list-in-python
 translator: false
-lang: pt
-author_note_link: "https://jtemporal.com/the-last-of-a-list-in-python"
-author_note: "You can read this blog post in English"
-translated: "/the-last-of-a-list-in-python"
+type: post
 ---
+
 
 [Python](https://www.python.org/) é conhecida por facilitar a escrita de códigos bonitos e pequenos. A colinha de hoje é sobre como pegar o último elemento de uma lista usando essa linguagem \o/
 

@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2022-01-14T10:00:00.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-title: Undoing the last commits using git reset
+comments: true
+date: 2022-01-14 10:00:00-03:00
 description: Learn how to use the git reset command to undo most recent commits
-type: post
-tags:
-- git
-- english
-- pro_tip
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 - 5-tips-to-make-your-pull-request-shine
-lang: en
-translated: "/desfazendo-um-ou-mais-commits"
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
+related: true
+tags:
+- git
+- english
+- pro_tip
+title: Undoing the last commits using git reset
+translations:
+- lang: pt
+  url: /desfazendo-um-ou-mais-commits
+type: post
 ---
+
 Since everything we do in git can be done in countless different ways, there are a few ways to get rid of commits. The most common way to undo one or more recent commits is using the command `git reset` that you'll see in this pro tip.
 
 ## What is the HEAD?

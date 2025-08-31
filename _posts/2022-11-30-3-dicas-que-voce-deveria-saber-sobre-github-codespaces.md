@@ -1,23 +1,26 @@
 ---
-layout: post
-title: "3 dicas que você precisa saber sobre GitHub Codespaces"
-date: 2022-11-30T15:00:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+author_note: You can read this blog post in English
+author_note_link: https://jtemporal.com/3-tips-you-should-know-about-github-codespaces
+bookbanner: true
 comments: true
-type: post
+date: 2022-11-30 15:00:00+00:00
+description: Dicas básicas para começar a usar em menos de 5 minutos
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 tags:
 - github codespaces
 - codespaces
 - portugues
 - pt
-description: "Dicas básicas para começar a usar em menos de 5 minutos"
-bookbanner: true
-lang: pt
-author_note_link: "https://jtemporal.com/3-tips-you-should-know-about-github-codespaces"
-author_note: "You can read this blog post in English"
+title: 3 dicas que você precisa saber sobre GitHub Codespaces
+translations:
+- lang: en
+  url: /3-tips-you-should-know-about-github-codespaces
 translator: false
-translated: "/3-tips-you-should-know-about-github-codespaces"
+type: post
 ---
+
 GitHub Codespaces é uma ferramenta ótima para quem quer escrever código em qualquer lugar. Recentemente o GitHub anunciou que agora todas as contas tem uma cota gratuita de 60h mensais para usar o GitHub Codespaces, por isso escrevi essa colinha com as 3 dicas de ouro caso você queira passar a usar a ferramenta.
 
 ## Configure dotfiles para personalizar a sua experiência

@@ -1,15 +1,12 @@
 ---
-layout: post
-date: 2019-09-27T13:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/de-0-a-17-mil-pageviews
 comments: true
-title: From 0 to 17 thousand pageviews
+date: 2019-09-27 13:00:00+00:00
 description: How a theme exchange impacted the number of hits on my blog
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
-translated: "/de-0-a-17-mil-pageviews"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/de-0-a-17-mil-pageviews"
+layout: post
 tags:
 - static site
 - google analytics
@@ -22,8 +19,13 @@ tags:
 - github
 - jekyll
 - english
-
+title: From 0 to 17 thousand pageviews
+translations:
+- lang: pt
+  url: /de-0-a-17-mil-pageviews
+type: post
 ---
+
 ---
 
 _Author note:_ Você pode ler [este artigo em Português](https://jtemporal.com/de-0-a-17-mil-pageviews/).

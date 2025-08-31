@@ -1,11 +1,14 @@
 ---
-layout: post
-title: "Login on Heroku via CLI with MFA enabled"
-date: 2023-12-04T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
 comments: true
-type: post
+date: 2023-12-04 09:01:00+00:00
+description: Using Heroku CLI on GitHub Codespaces and logging in without a browser
+  even with MFA enabled
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
+layout: post
 tags:
 - github codespaces
 - codespaces
@@ -15,14 +18,14 @@ tags:
 - auth
 - authorization
 - english
-description: "Using Heroku CLI on GitHub Codespaces and logging in without a browser even with MFA enabled"
-bookbanner: true
+title: Login on Heroku via CLI with MFA enabled
+translations:
+- lang: pt
+  url: /login-no-heroku-via-linha-de-comando-com-mfa-ativado
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/login-no-heroku-via-linha-de-comando-com-mfa-ativado"
-
+type: post
 ---
+
 
 
 Let's say you already know how to use the iterative way [to log in to Heroku via the terminal](https://jtemporal.com/login-to-heroku-from-github-codespaces/), but now you've activated multi-factor authentication (MFA) on your profile and a simple username and password won't be enough to log in.

@@ -1,14 +1,12 @@
 ---
-layout: post
-title: Who do you think of when asked for a referral?
-date: 2019-12-18T07:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/em-quem-voce-pensa-quando-te-pedem-uma-indicação
 comments: true
-lang: "en"
-translated: "/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/em-quem-voce-pensa-quando-te-pedem-uma-indicação"
-type: post
+date: 2019-12-18 07:00:00+00:00
+description: You know qualified women. Why not appoint them?
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+lang: en
+layout: post
 tags:
 - pyladies
 - women in stem
@@ -16,10 +14,13 @@ tags:
 - Python
 - career
 - english
-
-description: You know qualified women. Why not appoint them?
-
+title: Who do you think of when asked for a referral?
+translations:
+- lang: pt
+  url: /em-quem-voce-pensa-quando-te-pedem-uma-indicação
+type: post
 ---
+
 #### You know qualified women. Why not appoint them?
 
 ---

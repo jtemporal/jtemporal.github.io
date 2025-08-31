@@ -1,10 +1,19 @@
 ---
-title: 'GitFichas is Now Open Source 🎉'
-layout: post
-date: 2024-10-22T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png"
-type: post
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/gitfichas-agora-e-open-source
+bookbanner: true
+comments: true
+date: 2024-10-22 05:00:00+00:00
+description: Exciting news for anyone that deals with Git and might need a reminder
+  or two about some commands 🤩
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
+layout: post
+posts_list:
+- solving-conflicts
+- 5-tips-to-make-your-pull-request-shine
+- introducing-gitfichas
+related: true
 tags:
 - pull request
 - pull requests
@@ -15,20 +24,14 @@ tags:
 - Git
 - open source
 - english
-comments: true
-bookbanner: true
-description: 'Exciting news for anyone that deals with Git and might need a reminder or two about some commands 🤩'
-related: true
-posts_list:
-- solving-conflicts
-- 5-tips-to-make-your-pull-request-shine
-- introducing-gitfichas
+title: GitFichas is Now Open Source 🎉
+translations:
+- lang: pt
+  url: /gitfichas-agora-e-open-source
 translator: false
-author_note_link: "https://jtemporal.com/gitfichas-agora-e-open-source"
-author_note: "Você pode ler esse artigo em Português"
-translated: "/gitfichas-agora-e-open-source"
-
+type: post
 ---
+
 
 This means if you are looking for a project to contribute to you’ve found it! And still in time for hacktoberfest too!
 

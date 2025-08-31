@@ -1,21 +1,23 @@
 ---
-layout: post
-title: O que 1024 caracteres não me deixaram falar
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/I-wanted-to-say
+comments: true
 date: 2017-01-23 00:00:00 +0000
-lang: "pt"
-type: post
-translated: "/I-wanted-to-say"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/I-wanted-to-say"
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+lang: pt
+layout: post
 tags:
 - pessoal
 - python
 - pycon
 - português
-comments: true
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
-
+title: O que 1024 caracteres não me deixaram falar
+translations:
+- lang: en
+  url: /I-wanted-to-say
+type: post
 ---
+
 Enquanto eu estava preenchendo o formulário de apoio financeiro da [PyCon](https://us.pycon.org/2017/),
 me deparei com a seguinte pergunta: **Your Involvement** ('Seu Envolvimentor'
 em tradução livre). Não era bem uma pergunta. Estava mais para um enunciado
