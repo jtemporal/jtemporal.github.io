@@ -5,3 +5,5 @@ _site/
 .env
 .vscode
 Gemfile.lock
+vendor
+.bundle
