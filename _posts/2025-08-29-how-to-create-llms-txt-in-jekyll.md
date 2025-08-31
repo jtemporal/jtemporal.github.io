@@ -20,6 +20,9 @@ posts_list:
 - publishing-a-website-with-jekyll
 - choosing-a-jekyll-theme
 - force-rebuild-jekyll-en
+translations:
+- lang: pt
+  url: /como-criar-um-arquivo-llms-txt-no-jekyll
 ---
 
 Have you ever wanted to make your blog content more accessible to AI systems and large language models? Or maybe you've wondered how to provide a clean, machine-readable version of your posts without the HTML clutter? 
