@@ -1,5 +1,6 @@
+{% include language-detection.html %}
 {% if page.related %}
-  {% if page.lang == "en" %}
+  {% if current_lang == "en" %}
     <h2>Related Articles</h2>
   {% else %}
     <h2>Artigos relacionados</h2>
@@ -17,7 +18,7 @@
   {% endfor %}
 
 {% else %}
-  {% if page.lang == "en" %}
+  {% if current_lang == "en" %}
     <h2>Recent Articles</h2>
   {% else %}
     <h2>Artigos recentes</h2>
