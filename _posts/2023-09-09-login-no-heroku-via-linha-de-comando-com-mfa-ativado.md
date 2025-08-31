@@ -1,11 +1,14 @@
 ---
-layout: post
-title: "Login no Heroku via linha de comando com MFA ativado"
-date: 2023-09-09T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/login-on-heroku-via-cli-with-mfa
+bookbanner: true
 comments: true
-type: post
+date: 2023-09-09 09:01:00+00:00
+description: Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador
+  e com MFA ativado
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
+layout: post
 tags:
 - github codespaces
 - codespaces
@@ -14,16 +17,14 @@ tags:
 - heroku
 - authorização
 - portugues
-description: "Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador e com MFA ativado"
-bookbanner: true
+title: Login no Heroku via linha de comando com MFA ativado
+translations:
+- lang: en
+  url: /login-on-heroku-via-cli-with-mfa
 translator: false
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/login-on-heroku-via-cli-with-mfa"
-translated: "/login-on-heroku-via-cli-with-mfa"
-
-
-
+type: post
 ---
+
 
 Digamos que você já sabe usar [a forma iterativa para fazer login no Heroku pelo terminal](https://jtemporal.com/login-no-heroku-do-github-codespaces), mas agora você ativou a autenticação multi fator (MFA) no seu perfil e um simples usuário e senha não vai ser o suficiente para login.
 

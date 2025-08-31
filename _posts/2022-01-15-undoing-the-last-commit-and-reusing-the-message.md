@@ -1,28 +1,30 @@
 ---
-layout: post
-date: 2022-01-15T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-title: Undoing the last commit and keeping the changes for a next commit
+comments: true
+date: 2022-01-15 11:25:00-02:00
 description: Undo the last commit with git reset using --soft and reuse the message
   with ORIG_HEAD
-type: post
-tags:
-- git
-- english
-- pro tip
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - undoing-the-last-commits-using-git-reset
 - 5-tips-to-make-your-pull-request-shine
-lang: en
-translated: "/desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem"
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
+related: true
+tags:
+- git
+- english
+- pro tip
+title: Undoing the last commit and keeping the changes for a next commit
+translations:
+- lang: pt
+  url: /desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
+type: post
 ---
+
 Undoing and redoing commits is part of everyday life, so it's important to understand the commands that can help us along the way. In this pro tip I will teach you how to do two things:
 
 1. Undo the last commit so you can keep the changes on *staging*;

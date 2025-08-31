@@ -1,10 +1,12 @@
 ---
-title: "Adicione cores ao compartilhar seu site"
-layout: post
+author_note: You can read this article in English too
+author_note_link: https://jtemporal.com/site-thumbnail-en
+comments: true
 date: '2017-12-27 10:00:00'
-type: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+description: Como adicionar um thumbnail no seu site
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
+layout: post
 tags:
 - colinha
 - web
@@ -15,13 +17,14 @@ tags:
 - share
 - compartilhamentos
 - português
-comments: true
-description: "Como adicionar um thumbnail no seu site"
-author_note_link: "https://jtemporal.com/site-thumbnail-en"
-author_note: "You can read this article in English too"
+title: Adicione cores ao compartilhar seu site
+translations:
+- lang: en
+  url: /site-thumbnail-en
 translator: false
-translated: "/site-thumbnail-en"
+type: post
 ---
+
 
 Você já notou que ao compartilhar um link na sua rede social favorita esses links carregam imagens para mostrar? Uma espécie de thumbnail do site?
 

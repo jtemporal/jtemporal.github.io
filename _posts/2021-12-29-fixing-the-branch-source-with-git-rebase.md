@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2021-12-29T12:40:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
-title: Fixing the branch source with git rebase
-bookbanner: true
-description: Understand how to use git rebase para to fix the brach source
-type: post
-lang: en
-translated: "/corrigindo-a-origem-de-um-branch-com-git-rebase"
-tags:
-- git
-- english
-- protip
 author_note: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-related: true
+bookbanner: true
+comments: true
+date: 2021-12-29 12:40:00-02:00
+description: Understand how to use git rebase para to fix the brach source
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - introducing-gitfichas
 - updating-a-branch-with-git-rebase
-
+related: true
+tags:
+- git
+- english
+- protip
+title: Fixing the branch source with git rebase
+translations:
+- lang: pt
+  url: /corrigindo-a-origem-de-um-branch-com-git-rebase
+type: post
 ---
+
 The command `git rebase` can be used to make various history adjustments, from rewriting the commit tree (and by doing that rewriting the history) to even pushing commits forward as if the branch were created in the future.
 
 In this pro tip I will show you how to use git rebase to fix the source of a given branch.

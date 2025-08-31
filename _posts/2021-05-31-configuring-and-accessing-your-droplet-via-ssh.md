@@ -1,12 +1,12 @@
 ---
-layout: post
-title: Configuring and accessing your droplet via SSH
-date: 2021-05-31 00:00:00 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+author_note: Você pode ler este tutorial em Português
+author_note_link: https://jtemporal.com/configurar-e-acessar-sua-droplet-via-ssh
 comments: true
+date: 2021-05-31 00:00:00 -0300
 description: A guide on how to configure your Droplet to access it via SSH
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
+layout: post
 tags:
 - droplet
 - digital ocean
@@ -15,12 +15,14 @@ tags:
 - cloud
 - tutorial
 - english
-author_note_link: "https://jtemporal.com/configurar-e-acessar-sua-droplet-via-ssh"
-author_note: "Você pode ler este tutorial em Português"
+title: Configuring and accessing your droplet via SSH
+translations:
+- lang: pt
+  url: /configurar-e-acessar-sua-droplet-via-ssh
 translator: false
-translated: "/configurar-e-acessar-sua-droplet-via-ssh"
-
+type: post
 ---
+
 If you read my post on [how to create your machine on the cloud with Digital Ocean](https://jtemporal.com/creating-vm-droplet-digital-ocean/), now you have a brand new cloud machine, yay you! But you still need to configure the access so you can SSH into it.
 
 To configure the SSH access, you'll have to log in to your machine using the root access for the first time. This may be a little tricky, and to do the first access, you'll need to set up a new password because every system comes with one predefined root user and password.

@@ -1,21 +1,23 @@
 ---
-layout: post
-title: Brincando com a listagem de containers Docker
-date: 2019-03-16T03:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/playing-with-dockers-container-listing
 comments: true
-type: post
+date: 2019-03-16 03:00:00+00:00
+description: Aprenda a filtrar e formatar a listagem de containers Docker
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
-translated: "/playing-with-dockers-container-listing"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/playing-with-dockers-container-listing"
+layout: post
 tags:
 - colinha
 - docker
 - containers
-description: Aprenda a filtrar e formatar a listagem de containers Docker
-
+title: Brincando com a listagem de containers Docker
+translations:
+- lang: en
+  url: /playing-with-dockers-container-listing
+type: post
 ---
+
 Se você usa Docker, provavelmente o terceiro comando que aprendeu foi listar eles, mas você sabe que dá pra tunar a listagem de containers?
 
 Pois bem, a colinha de hoje é para mostrar dois truques que eu uso muito:

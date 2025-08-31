@@ -1,23 +1,26 @@
 ---
-layout: post
-title: " 3 tips you should know about GitHub Codespaces"
-date: 2022-11-30T15:10:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
 comments: true
-type: post
+date: 2022-11-30 15:10:00+00:00
+description: Basic tips you can use in less than 5 minutes
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 tags:
 - github codespaces
 - codespaces
 - english
 - en
-description: "Basic tips you can use in less than 5 minutes"
-lang: en
+title: ' 3 tips you should know about GitHub Codespaces'
+translations:
+- lang: pt
+  url: /3-dicas-que-voce-deveria-saber-sobre-github-codespaces
 translator: true
-bookbanner: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/3-dicas-que-voce-deveria-saber-sobre-github-codespaces"
+type: post
 ---
+
 GitHub Codespaces is a great tool for anyone who wants to write code on the go. Recently, GitHub announced that now all accounts have a free monthly quota of 60 hours to use GitHub Codespaces, so I wrote this blog post with the 3 golden tips in case you want to start using the tool.
 
 ## Set up dotfiles to customize your experience

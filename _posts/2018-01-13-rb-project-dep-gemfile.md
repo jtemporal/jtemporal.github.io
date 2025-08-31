@@ -1,13 +1,12 @@
 ---
-title: 'Ruby Project Dependencies: Gemfile'
-layout: post
-date: 2018-01-13T07:59:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/gemfile
+comments: true
+date: 2018-01-13 07:59:00+00:00
+description: Today's pro-tip teaches you what to do when you don't have a Gemfile
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
-translated: "/gemfile"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/gemfile"
-type: post
+layout: post
 tags:
 - english
 - protip
@@ -16,10 +15,13 @@ tags:
 - ruby
 - gemfile
 - terminal
-comments: true
-description: Today's pro-tip teaches you what to do when you don't have a Gemfile
-
+title: 'Ruby Project Dependencies: Gemfile'
+translations:
+- lang: pt
+  url: /gemfile
+type: post
 ---
+
 ---
 
 Author note: [Leia este artigo em Português](https://jtemporal.com/gemfile/).

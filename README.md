@@ -28,10 +28,23 @@ This website features:
 ## Features
 
 - 📱 Responsive design
-- 🌍 Multi-language content (PT/EN)
+- 🌍 Multi-language content (PT/EN) with scalable architecture
 - 📖 Reading time estimation
 - 🎯 Project collection (Hacktoberfest)
 - 📝 Blog post pagination
+- 🔗 Language switcher with dropdown UI
+
+### Multi-Language System
+
+This site features a comprehensive multi-language system supporting Portuguese and English content, with infrastructure ready for additional languages like French. 
+
+**📚 Complete Documentation**: See [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md) for detailed information about:
+- System overview and architecture
+- Language configuration
+- Translation management
+- Adding new languages
+- Implementation examples
+- Troubleshooting guide
 
 ## Local Development
 
@@ -106,10 +119,15 @@ date: 2025-08-30
 image: "path/to/featured-image.jpg"
 tags: [tag1, tag2, tag3]
 lang: en  # or pt
+translations:  # Optional: for multi-language posts
+  - lang: pt
+    url: "/caminho-para-traducao-em-portugues"
 ---
 
 Your post content here...
 ```
+
+For more details about the translation system, see the [Multi-Language System Documentation](MULTI_LANGUAGE_SYSTEM.md).
 
 ## Collections
 

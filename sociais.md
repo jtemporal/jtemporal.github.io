@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Socials
-description: Socials
+title: Redes sociais
+description: Redes sociais
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
-permalink: "/socials/"
-lang: en
+permalink: "/sociais/"
+lang: pt
 translations:
-  - lang: pt
-    url: "/sociais"
+  - lang: en
+    url: "/socials"
 
 ---
 <div>

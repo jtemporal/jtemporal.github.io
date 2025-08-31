@@ -1,23 +1,26 @@
 ---
-layout: post
-title: "How to count characters of a property on Notion easily using formulas"
-date: 2023-09-10T15:10:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
-type: post
+date: 2023-09-10 15:10:00+00:00
+description: An introduction to the superpowers of database properties
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 tags:
 - Notion
 - Notion databases
 - Productivity
 - english
 - en
-description: "An introduction to the superpowers of database properties"
-lang: en
+title: How to count characters of a property on Notion easily using formulas
+translations:
+- lang: pt
+  url: /contando-caracteres-de-uma-propriedade-no-notion-usando-formulas
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/contando-caracteres-de-uma-propriedade-no-notion-usando-formulas"
+type: post
 ---
+
 
 In this pro tip I'm going to show you one of the features I've learned and have been using for a while: the use of formulas in the properties of a Notion document.
 

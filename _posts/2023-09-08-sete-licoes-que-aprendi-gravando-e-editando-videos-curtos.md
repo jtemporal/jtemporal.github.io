@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "7 lições que aprendi gravando e editando vídeos curtos"
-date: 2023-12-03T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
-type: post
+date: 2023-12-03 09:01:00+00:00
+description: Se sentir confortável com uma nova habilidade exige esforço. Esse posts
+  é uma reflexão sobre os aprendizados em relação a edição e gravação de vídeos
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
+layout: post
 tags:
 - devrel
 - developer advocate
@@ -14,13 +16,14 @@ tags:
 - git
 - github
 - english
-description: "Se sentir confortável com uma nova habilidade exige esforço. Esse posts é uma reflexão sobre os aprendizados em relação a edição e gravação de vídeos"
+title: 7 lições que aprendi gravando e editando vídeos curtos
+translations:
+- lang: en
+  url: /seven-lessons-learned-from-recording-and-editing-short-videos
 translator: true
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/seven-lessons-learned-from-recording-and-editing-short-videos"
-
+type: post
 ---
+
 Como *developer advocate*, eu queria ficar mais confortável com a gravação e edição de vídeos. Neste post, compartilho algumas das lições que aprendi com essa experiência. Continue lendo para descobrir o que aprendi e como isso pode te ajudar na criação de seu próprio conteúdo em vídeo!
 
 ## Por que gravar vídeos?

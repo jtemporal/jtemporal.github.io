@@ -1,22 +1,25 @@
 ---
-title: Notas sobre publicar meu primeiro e-book
+author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+comments: true
+date: 2024-02-04 10:00:00+00:00
+description: Escrever um livro é difícil, publicar também, aqui está o que aprendi
+  ao fazê-lo pela primeira vez
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+lang: pt
 layout: post
-date: 2024-02-04T10:00:00.000+00:00
-description: Escrever um livro é difícil, publicar também, aqui está o que aprendi ao fazê-lo pela primeira vez
+related: false
 tags:
 - pessoal
 - escrita
-comments: true
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
-type: post
-related: false
-lang: pt
+title: Notas sobre publicar meu primeiro e-book
+translations:
+- lang: en
+  url: /notes-on-self-publishing-first-ebook
 translator: true
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/notes-on-self-publishing-first-ebook"
-
+type: post
 ---
+
 
 Uma vez escrevi sobre [meu processo de criação de conteúdo](https://jtemporal.com/o-meu-metodo-de-criacao-de-conteudo/) e ainda sigo as coisas que escrevi lá, mas agora, passando pelo processo de publicação do meu primeiro e-book [“O Grande Microlivro de Git”](https://jtemporal.com/microlivrodegit/), posso dizer que aprendi algumas coisas novas. Continue lendo para conhecer a  minha aventura ao publicar meu primeiro e-book por conta própria.
 

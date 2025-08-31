@@ -1,6 +1,9 @@
+{% include language-detection.html %}
 <div class="row"> 
-  {% if page.lang == "en_US" %}
+  {% if current_lang == "en" %}
     <h2>Talks, podcasts and streams</h2>
+  {% elsif current_lang == "fr" %}
+    <h2>Conférences, podcasts et streams</h2>
   {% else %}
     <h2>Palestras, podcasts e lives</h2>
   {% endif %}

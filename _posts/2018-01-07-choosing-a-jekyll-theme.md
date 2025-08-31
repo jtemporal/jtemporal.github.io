@@ -1,13 +1,12 @@
 ---
-title: Choosing a Jekyll theme
-layout: post
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/temas-jekyll
+comments: true
 date: 2018-01-07 08:00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
-lang: "en"
-translated: "/temas-jekyll"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/temas-jekyll"
-type: post
+description: Chose a theme and start blog without fuss
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 tags:
 - english
 - theme
@@ -15,10 +14,13 @@ tags:
 - protip
 - jekyll
 - ruby
-comments: true
-description: Chose a theme and start blog without fuss
-
+title: Choosing a Jekyll theme
+translations:
+- lang: pt
+  url: /temas-jekyll
+type: post
 ---
+
 
 I think most developers who decide to start a blog find themselves in a dilemma: I know HTML and CSS, and I can make my blog, it is going to be super light and fast… And so begins the descent into the rabbit hole. Three months later, the blog may be ready, but nothing was published. So today's pro-tip goes to you who wants to put content out there and doesn't want to get caught up in code decisions at first.
 

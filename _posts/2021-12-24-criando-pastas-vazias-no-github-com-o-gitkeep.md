@@ -1,28 +1,30 @@
 ---
-layout: post
-date: 2021-12-24T12:34:20.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/creating-empty-folders-on-github-with-gitkeep
 bookbanner: true
-title: Criando pastas vazias no GitHub com o .gitkeep
+comments: true
+date: 2021-12-24 12:34:20-02:00
 description: Entenda pra que serve e como usar o arquivo .gitkeep
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos
 - conheca-o-gitfichas
-lang: pt
-translated: "/creating-empty-folders-on-github-with-gitkeep"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/creating-empty-folders-on-github-with-gitkeep"
+related: true
+tags:
+- git
+- português
+- colinha
+title: Criando pastas vazias no GitHub com o .gitkeep
+translations:
+- lang: en
+  url: /creating-empty-folders-on-github-with-gitkeep
 translator: false
-
+type: post
 ---
+
 Às vezes você precisa colocar uma pasta vazia no seu projeto no GitHub, mas tradicionalmente o git não faz acompanhamento de pastas vazias, e aí cai a dúvida: _"como fazer uma pasta vazia aparecer no GitHub se o git não deixa?"_
 
 Não se preocupe, nessa colinha você vai ver como fazer isso usando um arquivo especial chamado `.gitkeep`.

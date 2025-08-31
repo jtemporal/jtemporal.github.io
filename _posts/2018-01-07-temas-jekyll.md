@@ -1,23 +1,25 @@
 ---
-title: Escolhendo um tema Jekyll
-layout: post
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/choosing-a-jekyll-theme
+comments: true
 date: 2018-01-07 08:00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
-lang: "pt"
-translated: "/choosing-a-jekyll-theme"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/choosing-a-jekyll-theme"
-type: post
+description: Escolhendo um tema para o seu blog e começando a postar sem demora
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 tags:
 - colinha
 - jekyll
 - temas
 - ruby
 - português
-comments: true
-description: Escolhendo um tema para o seu blog e começando a postar sem demora
-
+title: Escolhendo um tema Jekyll
+translations:
+- lang: en
+  url: /choosing-a-jekyll-theme
+type: post
 ---
+
 
 Acho que a maioria dos desenvolvedores que decidem começar um blog encontra-se no dilema: _Agora eu sei HTML e CSS e vou fazer o meu blog, ele vai ser super leve e acessível..._ e por aí começa a descida pela toca do coelho. Passados três meses o blog pode até estar pronto mas nada ainda foi publicado. Então a colinha de hoje vai pra você que quer colocar conteúdo na nuvem e não se apegar num primeiro momento nas decisões de código.
 

@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2022-01-23T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
 comments: true
-title: Using git stash and git stash pop
+date: 2022-01-23 11:25:00-02:00
 description: Understand how to use git stash and git stash pop for real
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - undoing-the-last-commits-using-git-reset
 - 5-tips-to-make-your-pull-request-shine
-lang: en
-bookbanner: true
-translated: "/usando-git-stash-e-git-stash-pop"
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Using git stash and git stash pop
+translations:
+- lang: pt
+  url: /usando-git-stash-e-git-stash-pop
+type: post
 ---
+
 Switching branches during the middle of work is something that happens quite often, for example, when *”hotfixing”* a bug in another branch while you’re implementing a task.
 
 There are a few ways of stopping work, including making commits. My favorite way of doing that is using the commands `git stash` and `git stash pop`. Many people confuse how these two commands work, so let's solve that. 😉

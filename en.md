@@ -4,9 +4,10 @@ title: English
 description: English blog posts
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/en/"
-lang: en_US
-translated: "/pt"
-
+lang: en
+translations:
+  - lang: pt
+    url: "/pt"
 ---
 
 <div class="row pack">

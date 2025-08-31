@@ -1,11 +1,13 @@
 ---
-layout: post
-title: "7 Lessons I learned from recording and editing short videos"
-date: 2023-09-08T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/sete-licoes-que-aprendi-gravando-e-editando-videos-curtos
 comments: true
-type: post
+date: 2023-09-08 09:01:00+00:00
+description: Getting comfortable with a new skill requires effort, here's what I learned
+  so far on editing and recording videos
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
+layout: post
 tags:
 - devrel
 - developer advocate
@@ -14,13 +16,14 @@ tags:
 - git
 - github
 - english
-description: "Getting comfortable with a new skill requires effort, here's what I learned so far on editing and recording videos"
+title: 7 Lessons I learned from recording and editing short videos
+translations:
+- lang: pt
+  url: /sete-licoes-que-aprendi-gravando-e-editando-videos-curtos
 translator: false
-translated: "/sete-licoes-que-aprendi-gravando-e-editando-videos-curtos"
-author_note_link: "https://jtemporal.com/sete-licoes-que-aprendi-gravando-e-editando-videos-curtos"
-author_note: "Você pode ler esse artigo em Português"
-
+type: post
 ---
+
 
 As a developer advocate, I wanted to get more comfortable with recording and editing videos. In this post, I share some of the lessons I learned from this experience. Keep reading to find out what I learned and how it may help you with your own video content creation!
 

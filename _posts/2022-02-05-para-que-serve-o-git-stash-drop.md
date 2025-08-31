@@ -1,28 +1,29 @@
 ---
-layout: post
-date: 2022-02-05T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/why-the-git-stash-drop-is-useful
 bookbanner: true
-title: Aprenda para que serve o comando git stash drop
+comments: true
+date: 2022-02-05 11:25:00-02:00
 description: Entenda quando usar o git stash drop e como ele funciona
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 posts_list:
 - usando-git-stash-e-git-stash-pop
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
-lang: pt
-bookbanner: true
-translated: "/why-the-git-stash-drop-is-useful"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/why-the-git-stash-drop-is-useful"
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Aprenda para que serve o comando git stash drop
+translations:
+- lang: en
+  url: /why-the-git-stash-drop-is-useful
+type: post
 ---
+
 Tá precisando limpar a lista de stashes e não sabe como? Não se preocupe, nessa colinha você vai aprender a "jogar fora" stashes que não precisa mais usando o comando `git stash drop`. 😉
 
 ## O fluxo comum de uso do git stash

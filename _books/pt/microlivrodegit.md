@@ -16,7 +16,9 @@ purchase_button: Compre na
 know_more_button: Saiba mais
 gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
 amazon: https://amzn.to/3SETpx4
-translated: /gitmicrobook
+translations:
+  - lang: en
+    url: /gitmicrobook
 layout: default
 
 ---

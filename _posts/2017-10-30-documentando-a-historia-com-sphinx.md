@@ -1,26 +1,29 @@
 ---
-title: "Documentando a história com Sphinx"
-description: "Usando Sphinx para criar a documentação de dos processos de organizar um evento da comunidade"
-layout: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/documenting-history-with-sphinx
+comments: true
 date: '2017-10-30 10:00:00'
-type: post
+description: Usando Sphinx para criar a documentação de dos processos de organizar
+  um evento da comunidade
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
+layout: post
 tags:
 - tutorial
 - python
 - sphinx
 - readthedocs
 - read the docs
-- documentação 
+- documentação
 - português
-comments: true
+title: Documentando a história com Sphinx
+translations:
+- lang: en
+  url: /documenting-history-with-sphinx
 translator: false
-author_note_link: "https://jtemporal.com/documenting-history-with-sphinx"
-author_note: You can read this article in English
-translated: /documenting-history-with-sphinx
-
+type: post
 ---
+
 
 Sabe aquelas documentações bonitas de bibliotecas que você encontra por aí? Por exemplo, a documentação do [Bottery](https://docs.bottery.io/en/latest/) ou a do [Flask](http://flask.pocoo.org/docs/0.12/)? Todas são construídas com uma biblioteca Python chamada [Sphinx](http://www.sphinx-doc.org/en/stable/#).
 

@@ -1,27 +1,29 @@
 ---
-layout: post
-date: 2022-02-05T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
-title: Learn why the command git stash drop is useful
-description: Understand when to use git stash drop how it works
-type: post
-tags:
-- git
-- english
-- pro tip
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-related: true
+comments: true
+date: 2022-02-05 11:25:00-02:00
+description: Understand when to use git stash drop how it works
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - using-git-stash-and-git-stash-pop
 - solving-conflicts
 - undoing-the-last-commits-using-git-reset
-lang: en
-translated: "/para-que-serve-o-git-stash-drop"
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
+related: true
+tags:
+- git
+- english
+- pro tip
+title: Learn why the command git stash drop is useful
+translations:
+- lang: pt
+  url: /para-que-serve-o-git-stash-drop
+type: post
 ---
+
 Need to clear the stash list and don't know how? Don't worry, in this pro tip you will learn how to “throw away” stashes that you no longer need using the command  `git stash drop`. 😉
 
 ## The usual git stash workflow

@@ -1,30 +1,30 @@
 ---
-layout: post
-date: 2021-12-24T12:34:20.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-title: Creating empty folders on GitHub with .gitkeep
+comments: true
+date: 2021-12-24 12:34:20-02:00
 description: Understand how to use .gitkeep
-type: post
-tags:
-- git
-- english
-- pro tip
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - introducing-gitfichas
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-lang: en
-translated: "/criando-pastas-vazias-no-github-com-o-gitkeep"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/criando-pastas-vazias-no-github-com-o-gitkeep"
+related: true
+tags:
+- git
+- english
+- pro tip
+title: Creating empty folders on GitHub with .gitkeep
+translations:
+- lang: pt
+  url: /criando-pastas-vazias-no-github-com-o-gitkeep
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
+type: post
 ---
+
 Sometimes you need to put an empty folder in your project on GitHub, but traditionally git doesn't track empty folders, and then the question pops up: _“how to make an empty folder appear on GitHub if git doesn't allow it?”_
 
 Don't worry about it, you'll see on this pro tip how to do it using a special file called `.gitkeep`.

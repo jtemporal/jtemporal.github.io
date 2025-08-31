@@ -1,16 +1,13 @@
 ---
-layout: post
-date: 2020-03-26 11:55:46 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/working-remotely
 comments: true
-title: Trabalhando remoto
+date: 2020-03-26 11:55:46 -0300
 description: Dicas que sigo quando estou trabalhando remoto para que você que está
   se adaptando
-lang: "pt"
-translated: "/working-remotely"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/working-remotely"
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+lang: pt
+layout: post
 tags:
 - dicas de trabalho
 - trabalho remoto
@@ -18,8 +15,13 @@ tags:
 - covid
 - Corona Virus
 - português
-
+title: Trabalhando remoto
+translations:
+- lang: en
+  url: /working-remotely
+type: post
 ---
+
 Eu já trabalhei remotamente e presencialmente durante anos e posso dizer que criar novos hábitos e deixar para trás os antigos é a parte mais difícil de qualquer processo de adaptação. Infelizmente períodos de crise, como a pandemia que estamos vivendo agora, pedem que façamos mais esforços para continuarmos sendo pessoas producentes na medida do possível.
 
 <center>

@@ -1,23 +1,25 @@
 ---
-title: 'My year in review: 2022, a year of adventures'
-layout: post
-date: 2022-12-16T11:00:00.000+00:00
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+comments: true
+date: 2022-12-16 11:00:00+00:00
 description: A reflection on the events of the year
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+lang: en
+layout: post
+related: false
 tags:
 - personal
 - year in review
 - retrospective
-comments: true
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
-type: post
-related: false
-lang: en
+title: 'My year in review: 2022, a year of adventures'
+translations:
+- lang: pt
+  url: /retrospectiva-2022-um-ano-de-aventuras
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/retrospectiva-2022-um-ano-de-aventuras"
-
+type: post
 ---
+
 [In 2018](https://jtemporal.com/retrospectiva-2018/) and [2017](https://jtemporal.com/retrospectiva-2017/)  I wrote public retrospectives, and for some reason I didn't feel the need to do that in between 2019 and 2021, possibly because two of those years were pandemic years and I was just trying to survive? Yes. 2022 has arrived and with it the reopening of the world. So much has happened this year that I think it's worth reflecting on.
 
 Note that the list is not ranked in order of importance.

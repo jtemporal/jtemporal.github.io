@@ -1,27 +1,30 @@
 ---
-layout: post
-date: 2022-01-01T12:34:20.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/creating-a-new-branch-and-switching-to-it-with-only-one-command
 bookbanner: true
-title: Criando um novo branch e mudando pra ele com apenas um comando
-description: Veja como usar git checkout e git switch para criar um branch e automaticamente mudar para ele
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+comments: true
+date: 2022-01-01 12:34:20-02:00
+description: Veja como usar git checkout e git switch para criar um branch e automaticamente
+  mudar para ele
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
-translated: "/creating-a-new-branch-and-switching-to-it-with-only-one-command"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/creating-a-new-branch-and-switching-to-it-with-only-one-command"
+layout: post
 posts_list:
 - resolvendo-conflitos
 - corrigindo-a-origem-de-um-branch-com-git-rebase
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Criando um novo branch e mudando pra ele com apenas um comando
+translations:
+- lang: en
+  url: /creating-a-new-branch-and-switching-to-it-with-only-one-command
+type: post
 ---
+
 Toda vez que você cria um branch novo no Git você precisa mudar para esse branch antes de fazer um commit. Nessa colinha eu vou te mostrar o meu atalho favorito para criar um branch e mudar para ele tudo ao mesmo tempo.
 
 ## Formas tradicionais de criar um branch

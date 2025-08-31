@@ -1,21 +1,23 @@
 ---
-layout: post
-title: What I wanted to say but 1024 characters wouldn’t let me
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/eu-quis-dizer
+comments: true
 date: 2017-01-23 00:00:00 +0000
-lang: "en"
-translated: "/eu-quis-dizer"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/eu-quis-dizer"
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+lang: en
+layout: post
 tags:
 - personal
 - python
 - pycon
 - english
-comments: true
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png"
-
+title: What I wanted to say but 1024 characters wouldn’t let me
+translations:
+- lang: pt
+  url: /eu-quis-dizer
+type: post
 ---
+
 As I was filling out PyCon’s financial aid form, I came across the following
 question: **Your Involvement**. It wasn’t really a question it was more of a
 statement followed by a white text box and in smaller faded letters this description

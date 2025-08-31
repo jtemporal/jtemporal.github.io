@@ -1,29 +1,30 @@
 ---
-layout: post
-date: 2023-12-01T11:25:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
 comments: true
-bookbanner: true
-title: 'Renaming files in Git: the right way'
+date: 2023-12-01 11:25:00+00:00
 description: No more confusion caused by trying to rename a file in a git project
-type: post
-tags:
-- git
-- english
-- protip
-bookbanner: true
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts/
 - undoing-the-last-commits-using-git-reset
 - 5-tips-to-make-your-pull-request-shine
-lang: en
+related: true
+tags:
+- git
+- english
+- protip
+title: 'Renaming files in Git: the right way'
+translations:
+- lang: pt
+  url: /renomeando-arquivos-no-git-do-jeito-certo
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/renomeando-arquivos-no-git-do-jeito-certo"
-
+type: post
 ---
+
 
 Have you ever tried to rename a file in your projects and had a hard time adding the adjustment to a commit? This doesn't just happen to you. In this pro-tip you will learn how to rename your files in git projects correctly to avoid headaches.
 

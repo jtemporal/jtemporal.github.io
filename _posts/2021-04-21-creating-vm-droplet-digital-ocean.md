@@ -1,12 +1,12 @@
 ---
-layout: post
-title: Creating your machine on the cloud with Digital Ocean
-date: 2021-04-21T19:48:25.000-03:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+author_note: Você pode ler este tutorial em Português
+author_note_link: https://jtemporal.com/criando-a-sua-maquina-na-nuvem-com-digital-ocean
 comments: true
+date: 2021-04-21 19:48:25-03:00
 description: A step-by-step guide to create an instance (Droplet) at Digital Ocean
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
+layout: post
 tags:
 - droplet
 - ssh
@@ -14,12 +14,14 @@ tags:
 - cloud
 - english
 - tutorial
-author_note_link: "https://jtemporal.com/criando-a-sua-maquina-na-nuvem-com-digital-ocean"
-author_note: "Você pode ler este tutorial em Português"
+title: Creating your machine on the cloud with Digital Ocean
+translations:
+- lang: pt
+  url: /criando-a-sua-maquina-na-nuvem-com-digital-ocean
 translator: false
-translated: "/criando-a-sua-maquina-na-nuvem-com-digital-ocean"
-
+type: post
 ---
+
 This post is a step-by-step on how to create a cloud instance on Digital Ocean.
 
 <center> <img alt="video of michelle obama saying now let's get this done" src="https://media.giphy.com/media/lRXMa7BOWsdcF3NxTA/giphy.gif"> <br> </center>

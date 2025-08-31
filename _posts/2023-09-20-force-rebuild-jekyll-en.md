@@ -1,9 +1,18 @@
 ---
-title: Using empty commits to rebuild GitHub Pages websites
-layout: post
-date: 2023-09-20T10:10:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
+comments: true
+date: 2023-09-20 10:10:00+00:00
+description: How to use Git to force building a website hosted via GitHub Pages
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
+posts_list:
+- notes-on-self-publishing-first-ebook
+- solving-conflicts
+- login-no-heroku-do-github-codespaces
+related: true
 tags:
 - pro tip
 - jekyll
@@ -12,22 +21,14 @@ tags:
 - github pages
 - forcing rebuild with empty commits
 - english
-comments: true
-type: post
-description: How to use Git to force building a website hosted via GitHub Pages
-related: false
-lang: en
+title: Using empty commits to rebuild GitHub Pages websites
+translations:
+- lang: pt
+  url: /force-rebuild-jekyll
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/force-rebuild-jekyll"
-related: true
-posts_list:
-- notes-on-self-publishing-first-ebook
-- solving-conflicts
-- login-no-heroku-do-github-codespaces
-
+type: post
 ---
+
 
 Whether due to broken CSS or a change that seems to have had no effect, sometimes it is necessary to force a rebuild of a [Jekyll](https://jekyllrb.com/) website hosted on GitHub. Today's pro tip explains one way to do this.
 

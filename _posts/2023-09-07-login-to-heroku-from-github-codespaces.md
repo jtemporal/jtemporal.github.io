@@ -1,11 +1,14 @@
 ---
-layout: post
-title: "Login to Heroku from GitHub Codespaces"
-date: 2023-12-02T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
 comments: true
-type: post
+date: 2023-12-02 09:01:00+00:00
+description: Using the Heroku CLI on GitHub Codespaces to perform a "browserless"
+  login
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
+layout: post
 tags:
 - github codespaces
 - codespaces
@@ -14,14 +17,14 @@ tags:
 - heroku
 - authorization
 - english
-bookbanner: true
-description: Using the Heroku CLI on GitHub Codespaces to perform a "browserless" login
+title: Login to Heroku from GitHub Codespaces
+translations:
+- lang: pt
+  url: /login-no-heroku-do-github-codespaces
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/login-no-heroku-do-github-codespaces"
-
+type: post
 ---
+
 
 These days I was using GitHub CodeSpaces to deploy an application to Heroku and I came across a problem: _How do I login to Heroku given that I don't have access to a browser running on the same machine where I'm using the terminal?_
 

@@ -1,21 +1,24 @@
 ---
-layout: post
-title: "Contando carácteres de uma propriedade no Notion usando fórmulas"
-date: 2023-09-10T09:01:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+author_note: You can read this blog post in English
+author_note_link: https://jtemporal.com/counting-characters-of-a-notion-property-using-formulas
 comments: true
-type: post
+date: 2023-09-10 09:01:00+00:00
+description: Uma introdução sobre os superpoderes das propriedades das Databases
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
+layout: post
 tags:
 - Notion
 - Notion Databases
 - portugues
-description: "Uma introdução sobre os superpoderes das propriedades das Databases"
+title: Contando carácteres de uma propriedade no Notion usando fórmulas
+translations:
+- lang: en
+  url: /counting-characters-of-a-notion-property-using-formulas
 translator: false
-author_note_link: "https://jtemporal.com/counting-characters-of-a-notion-property-using-formulas"
-author_note: "You can read this blog post in English"
-translated: "/counting-characters-of-a-notion-property-using-formulas"
+type: post
 ---
+
 
 Nessa colinha eu vou te mostrar umas das funcionalidades que aprendi pouco tempo atrás: o uso de fórmulas nas propriedades de um documento do Notion.
 

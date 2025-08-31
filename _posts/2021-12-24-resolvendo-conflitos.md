@@ -1,28 +1,30 @@
 ---
-layout: post
-title: Resolvendo conflitos em Git
-date: 2021-12-24T18:55:59.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/solving-conflicts
 bookbanner: true
+comments: true
+date: 2021-12-24 18:55:59-02:00
 description: Uma receita infalível para você entender e resolver conflitos sem medo
-type: post
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+lang: pt
+layout: post
+posts_list:
+- criando-pastas-vazias-no-github-com-o-gitkeep
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- conheca-o-gitfichas
+related: true
 tags:
 - git
 - tutorial
 - português
 - portugues
-lang: pt
-translated: "/solving-conflicts"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/solving-conflicts"
-related: true
-posts_list:
-- criando-pastas-vazias-no-github-com-o-gitkeep
-- 5-dicas-para-fazer-o-seu-pull-request-brilhar
-- conheca-o-gitfichas
-
+title: Resolvendo conflitos em Git
+translations:
+- lang: en
+  url: /solving-conflicts
+type: post
 ---
+
 Resolver conflitos pode ser uma tarefa árdua e complicada quando se trata de projetos git. Nesse artigo você vai aprender um passo-a-passo infalível para resolver conflitos.
 
 Caso você já saiba o que são conflitos e queira apenas ver a lista de passos e comandos para resolver um conflito sugiro que [pule para a conclusão clicando aqui](#conclusao).

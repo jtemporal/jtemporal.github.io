@@ -1,30 +1,34 @@
 ---
-title: 'Fazendo pull requests com GitHub Codespaces e contribuindo com um projeto open source'
-layout: post
-date: 2024-10-29T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
-type: post
+author_note: You can read this blog post in English
+author_note_link: https://jtemporal.com/making-pull-requests-with-github-codespaces
+bookbanner: true
+comments: true
+date: 2024-10-29 05:00:00+00:00
+description: Fork, branch, pull request. Veja como usar GitHub Codespaces para fazer
+  suas contribuições.
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
+layout: post
+posts_list:
+- resolvendo-conflitos
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- gitfichas-agora-e-open-source
+related: true
 tags:
 - opensource
 - GitHub
 - Git
 - pull request
 - portugues
-comments: true
-bookbanner: true
-description: 'Fork, branch, pull request. Veja como usar GitHub Codespaces para fazer suas contribuições.'
-related: true
-posts_list:
-- resolvendo-conflitos
-- 5-dicas-para-fazer-o-seu-pull-request-brilhar
-- gitfichas-agora-e-open-source
+title: Fazendo pull requests com GitHub Codespaces e contribuindo com um projeto open
+  source
+translations:
+- lang: en
+  url: /making-pull-requests-with-github-codespaces
 translator: false
-author_note_link: https://jtemporal.com/making-pull-requests-with-github-codespaces
-author_note: You can read this blog post in English
-translated: /making-pull-requests-with-github-codespaces
-
+type: post
 ---
+
 
 Existem diversas formas de fazer pull requests. Nesse blog post você vai aprender a fazer um pull request na prática usando GitHub Codespaces e fazendo um pull request pro GitFichas.
 

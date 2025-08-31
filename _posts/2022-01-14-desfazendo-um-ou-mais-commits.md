@@ -1,25 +1,27 @@
 ---
-layout: post
-date: 2022-01-14T10:00:00.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
 bookbanner: true
-title: Desfazendo os últimos commits usando git reset
+comments: true
+date: 2022-01-14 10:00:00-03:00
 description: Veja como usar o comando git reset para desfazer os commits recentes
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 posts_list:
 - resolvendo-conflitos
 - desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-lang: pt
-translated: "/undoing-the-last-commits-using-git-reset"
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Desfazendo os últimos commits usando git reset
+translations:
+- lang: en
+  url: /undoing-the-last-commits-using-git-reset
+type: post
 ---
+
 Como tudo que fazemos em git pode ser feito de inúmeras formas diferentes, existem alguns jeitos de se livrar de commits, a forma mais comum de desfazer um ou mais commits recentes é usando o comando `git reset` que vou te mostrar nessa colinha.
 
 ## O que é o HEAD?

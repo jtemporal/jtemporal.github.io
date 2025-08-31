@@ -1,28 +1,30 @@
 ---
-layout: post
-date: 2022-01-15T11:25:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
-comments: true
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/undoing-the-last-commit-and-reusing-the-message
 bookbanner: true
-title: Desfazendo o último commit e mantendo as alterações para um próximo commit
+comments: true
+date: 2022-01-15 11:25:00-02:00
 description: Desfaça o último commit com git reset usando --soft e reutilize a mensagem
   com o ORIG_HEAD
-type: post
-tags:
-- git
-- português
-- colinha
-related: true
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
+layout: post
 posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-lang: pt
-translated: "/undoing-the-last-commit-and-reusing-the-message"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/undoing-the-last-commit-and-reusing-the-message"
-
+related: true
+tags:
+- git
+- português
+- colinha
+title: Desfazendo o último commit e mantendo as alterações para um próximo commit
+translations:
+- lang: en
+  url: /undoing-the-last-commit-and-reusing-the-message
+type: post
 ---
+
 Desfazer e refazer commits faz parte do dia-a-dia, então é importante entender os comandos que podem ajudar a gente nesse caminho. Nessa colinha eu vou te ensinar a fazer duas coisas:
 
 1. Desfazer o último commit de forma que você possa manter as alterações em _staging_;

@@ -1,13 +1,12 @@
 ---
-title: 'Ambientes virtuais Python: venv'
+author_note: You can read this article in English
+author_note_link: https://jtemporal.com/python-virtual-environments-venv
+comments: true
+date: 2017-12-30 00:00:00+00:00
+description: Aprenda a criar ambientes virtuais Python usando o módulo venv
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+lang: pt
 layout: post
-date: 2017-12-30T00:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
-lang: "pt"
-translated: "/python-virtual-environments-venv"
-author_note: "You can read this article in English"
-author_note_link: "https://jtemporal.com/python-virtual-environments-venv"
-type: post
 tags:
 - colinha
 - python
@@ -19,10 +18,13 @@ tags:
 - ambientes virtuais
 - virtualenv
 - português
-comments: true
-description: Aprenda a criar ambientes virtuais Python usando o módulo venv
-
+title: 'Ambientes virtuais Python: venv'
+translations:
+- lang: en
+  url: /python-virtual-environments-venv
+type: post
 ---
+
 
 Depois de aprender que [Python](https://www.python.org/) possui várias versões e [aprender a instalar mais de uma delas com o pyenv](http://jtemporal.com/pyenv-inicio/), a colinha de hoje mostra um próximo passo: utilizar o [venv](https://docs.python.org/3/library/venv.html) para criar ambientes virtuais com o Python 3.
 

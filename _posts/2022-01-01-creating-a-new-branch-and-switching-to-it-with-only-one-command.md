@@ -1,27 +1,30 @@
 ---
-layout: post
-date: 2022-01-01T12:34:20.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
-comments: true
-title: Creating a new branch and switching to it with just one command
-description: See how to use git checkout and git switch to create a branch and switch to it with just one command
-type: post
-lang: en
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
-translated: "/criando-um-novo-branch-e-mudando-pra-ele-com-um-comando"
-tags:
-- git
-- english
-- protip
-related: true
+comments: true
+date: 2022-01-01 12:34:20-02:00
+description: See how to use git checkout and git switch to create a branch and switch
+  to it with just one command
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 posts_list:
 - solving-conflicts
 - introducing-gitfichas
 - updating-a-branch-with-git-rebase
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-
+related: true
+tags:
+- git
+- english
+- protip
+title: Creating a new branch and switching to it with just one command
+translations:
+- lang: pt
+  url: /criando-um-novo-branch-e-mudando-pra-ele-com-um-comando
+type: post
 ---
+
 Every time you create a new branch in Git you need to switch to that branch before committing. In this pro tip I'll show you my favorite shortcut to create a branch and switch to it, all at the same time.
 
 ## Traditional ways to create a branch

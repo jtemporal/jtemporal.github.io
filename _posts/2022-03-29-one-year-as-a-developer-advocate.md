@@ -1,25 +1,27 @@
 ---
-layout: post
-title: "First year as a Developer Advocate \U0001F951"
-date: 2022-03-29T09:00:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/primeiro-ano-sendo-uma-developer-advocate/
 comments: true
-type: post
+date: 2022-03-29 09:00:00+00:00
+description: Curious about how the move from data science to developer relations/advocacy
+  was? Read this one 😉
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+lang: en
+layout: post
 tags:
 - devrel
 - english
 - developer advocate
 - developer relations
 - developer advocacy
-description: "Curious about how the move from data science to developer relations/advocacy
-  was? Read this one \U0001F609"
-lang: en
-author_note_link: "https://jtemporal.com/primeiro-ano-sendo-uma-developer-advocate/"
-author_note: "Você pode ler esse artigo em Português"
-translated: '/primeiro-ano-sendo-uma-developer-advocate/'
+title: First year as a Developer Advocate 🥑
+translations:
+- lang: pt
+  url: /primeiro-ano-sendo-uma-developer-advocate/
 translator: false
-
+type: post
 ---
+
 Before doing DevRel for a living, I used to pay the bills by being a data scientist. Today I can say that I successfully switched from being a Data Scientist to be a *Developer Advocate* for a whole year! 🎉
 
 <center><img style="max-width: 70%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/166827422_515510042769353_3494362086546822067_n_ih6nui.jpg">

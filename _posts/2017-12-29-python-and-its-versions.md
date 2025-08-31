@@ -1,23 +1,25 @@
 ---
-title: 'Python and its versions: pyenv'
+author_note: Você pode ler esse artigo em Português
+author_note_link: https://jtemporal.com/pyenv-inicio
+comments: true
+date: 2017-12-29 10:00:00+00:00
+description: Learn how to install manage Python versions using pyenv
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
 layout: post
-date: 2017-12-29T10:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
-lang: "en"
-translated: "/pyenv-inicio"
-author_note: "Você pode ler esse artigo em Português"
-author_note_link: "https://jtemporal.com/pyenv-inicio"
-type: post
 tags:
 - english
 - versions
 - protip
 - python
 - pyenv
-comments: true
-description: Learn how to install manage Python versions using pyenv
-
+title: 'Python and its versions: pyenv'
+translations:
+- lang: pt
+  url: /pyenv-inicio
+type: post
 ---
+
 ---
 
 _Author note:_ Você pode [ler este artigo em Português](https://jtemporal.com/pyenv-inicio/).

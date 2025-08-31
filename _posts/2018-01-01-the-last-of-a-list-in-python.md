@@ -1,21 +1,24 @@
 ---
-layout: post
-title: "The last of the list with Python"
-date: 2023-09-11T09:10:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
-type: post
+date: 2023-09-11 09:10:00+00:00
+description: How to get the last item of a list with Python
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+lang: en
+layout: post
 tags:
 - python
 - english
 - en
-description: "How to get the last item of a list with Python"
-lang: en
+title: The last of the list with Python
+translations:
+- lang: pt
+  url: /ultimo-da-lista
 translator: true
-author_note: This blog post was adapted for English by Debora Azevedo.
-author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
-translated: "/ultimo-da-lista"
+type: post
 ---
+
 
 [Python](https://www.python.org/) is known for making it easy to write beautiful, small code. Today's pro tip is about how to get the last element of a list using this language \o/
 
