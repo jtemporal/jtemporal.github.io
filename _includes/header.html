@@ -1,6 +1,9 @@
 <header class="site-header">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
+    <!-- Language detection logic -->
+    {% include language-detection.html %}
+    
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       
@@ -10,7 +13,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {% if post.lang == "en" or page.lang == "en_US" or page.lang  == "en" %}
+      
+      {% if current_lang == "en" %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
         {% assign options = "About,Books,Talks,CV,GitStudyCards" | split: ',' %}
         {% assign base = "/about,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/en?utm_source=blog" | split: ',' %}
@@ -21,21 +25,8 @@
       {% endif %}
     </div>
 
-    <div class="nav navbar-nav navbar-right" >
-      {% if post.lang == "en" or page.lang == "en_US" or page.lang == "en" %}
-        {% if page.translated %}
-          <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇧🇷 </a></li>
-        {% else %}
-          <li><a href="{{site.url}}{{site.baseurl}}/pt/"> 🇧🇷 </a></li>
-        {% endif %}
-      {% else %}
-        {% if page.translated %}
-          <li><a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}"> 🇺🇸 </a></li>
-        {% else %}
-          <li><a href="{{site.url}}{{site.baseurl}}/en/"> 🇺🇸 </a></li>
-        {% endif %}
-      {% endif %}
-    </div>
+    <!-- Language Switcher -->
+    {% include language-switcher-compact.html %}
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">

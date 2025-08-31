@@ -124,3 +124,117 @@ tr:hover {
 pre {
     position: relative !important;
 }
+
+/* Language Switcher Dropdown Styles */
+.language-switcher-dropdown {
+    margin-left: 15px;
+}
+
+.language-switcher-dropdown .dropdown-toggle {
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.language-switcher-dropdown .dropdown-toggle:hover {
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.language-switcher-dropdown .dropdown-menu {
+    min-width: 150px;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border: 1px solid #ccc;
+}
+
+.language-switcher-dropdown .dropdown-menu li a {
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.language-switcher-dropdown .dropdown-menu .current-language {
+    color: #333;
+    cursor: default;
+    background-color: #f5f5f5;
+}
+
+.language-switcher-dropdown .dropdown-menu .current-language:hover {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.language-switcher-dropdown .dropdown-menu .glyphicon-ok {
+    color: #1bacaf;
+    margin-right: 8px;
+}
+
+.language-switcher-dropdown .dropdown-menu .divider {
+    margin: 5px 0;
+}
+
+/* Compact Language Switcher */
+.language-switcher-compact {
+    margin-left: 10px;
+}
+
+.language-switcher-compact .dropdown-toggle {
+    padding: 15px 10px;
+    font-size: 16px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.language-switcher-compact .dropdown-toggle:hover {
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.language-switcher-compact .dropdown-menu {
+    min-width: 120px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+    border: 1px solid #ddd;
+    right: 0;
+    left: auto;
+}
+
+.language-switcher-compact .dropdown-menu li a {
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.language-switcher-compact .dropdown-menu .current-language {
+    color: #1bacaf;
+    font-weight: 500;
+    cursor: default;
+    background-color: #f8f9fa;
+}
+
+.language-switcher-compact .dropdown-menu .current-language:hover {
+    background-color: #f8f9fa;
+    color: #1bacaf;
+}
+
+@media (max-width: 767px) {
+    .language-switcher-dropdown, .language-switcher-compact {
+        margin: 0;
+    }
+    
+    .language-switcher-dropdown .dropdown-menu,
+    .language-switcher-compact .dropdown-menu {
+        position: relative;
+        float: none;
+        width: auto;
+        margin: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    
+    .language-switcher-dropdown .dropdown-menu .divider {
+        display: none;
+    }
+}

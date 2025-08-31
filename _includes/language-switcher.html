@@ -1,0 +1,56 @@
+{% comment %}
+  Enhanced Language Switcher Dropdown Menu Component
+  Usage: {% include language-switcher.html %}
+  Requires: language-detection.html to be included first
+{% endcomment %}
+
+<ul class="nav navbar-nav navbar-right">
+  <li class="dropdown language-switcher-dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      {% if current_lang == "en" %}
+        🇺🇸 EN <span class="caret"></span>
+      {% else %}
+        🇧🇷 PT <span class="caret"></span>
+      {% endif %}
+    </a>
+    <ul class="dropdown-menu">
+      {% if current_lang == "en" %}
+        <li class="active">
+          <a href="#" class="current-language">
+            <span class="glyphicon glyphicon-ok"></span> 🇺🇸 English
+          </a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          {% if page.translated %}
+            <a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}" title="Switch to Portuguese">
+              🇧🇷 Português
+            </a>
+          {% else %}
+            <a href="{{site.url}}{{site.baseurl}}/pt/" title="Switch to Portuguese">
+              🇧🇷 Português
+            </a>
+          {% endif %}
+        </li>
+      {% else %}
+        <li class="active">
+          <a href="#" class="current-language">
+            <span class="glyphicon glyphicon-ok"></span> 🇧🇷 Português
+          </a>
+        </li>
+        <li class="divider"></li>
+        <li>
+          {% if page.translated %}
+            <a href="{{ site.url }}{{site.baseurl}}{{ page.translated }}" title="Switch to English">
+              🇺🇸 English
+            </a>
+          {% else %}
+            <a href="{{site.url}}{{site.baseurl}}/en/" title="Switch to English">
+              🇺🇸 English
+            </a>
+          {% endif %}
+        </li>
+      {% endif %}
+    </ul>
+  </li>
+</ul>

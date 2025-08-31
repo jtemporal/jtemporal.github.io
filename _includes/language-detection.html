@@ -1,0 +1,11 @@
+{% comment %}
+  Language detection include file
+  This sets the current_lang variable to either "en" or "pt"
+  Usage: {% include language-detection.html %}
+  After inclusion, use {{ current_lang }} variable
+{% endcomment %}
+
+{% assign current_lang = "pt" %}
+{% if post.lang == "en" or page.lang == "en_US" or page.lang == "en" %}
+  {% assign current_lang = "en" %}
+{% endif %}
