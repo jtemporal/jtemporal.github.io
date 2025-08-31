@@ -6,6 +6,7 @@
 - Use specific and descriptive language
 - Prefer : to - for list of items with descriptions
 - Always remove trailing whitespace from files you edit
+- For new posts, if `author_note: true` include `author_note_text` and `author_note_link`, if they don't exist ask for that information and complete the blog post front matter
 
 ## Jekyll Development Guidelines
 
@@ -13,7 +14,6 @@
 - Use the development config (`_dev_config.yml`) for local development to avoid analytics tracking and use proper local URLs
 - When creating new blog posts, use the format `YYYY-MM-DD-post-title.md` in the `_posts/` directory
 - Include proper front matter with required fields: `layout`, `title`, `date`, `lang` (en/pt), and relevant `tags`
-- For bilingual posts, use the `translated` field to link between English and Portuguese versions
 - Use the `related` field and `posts_list` for suggesting related articles
 
 ## File Organization
@@ -37,9 +37,7 @@
 - Use `lang: en` or `lang: pt` in front matter for proper language tagging
 - Language configuration is centralized in `_config.yml` under the `languages` section
 - Each language must have: `flag`, `name`, `code`, `locale`, and `url` properties
-- Use `translations` array in front matter to link between language versions (e.g., `translations: - lang: pt url: "/sobre"`)
-- English posts should include `author_note` and `author_note_link` when Portuguese version exists
-- Portuguese posts should include `translator: false` and `translated` field linking to English version
+- For translated posts, use the `translations` field to link between English and Portuguese versions
 - Always include `language-detection.html` before using language-dependent content
 - Use the scalable language switcher component `language-switcher-multi.html` for navigation
 - Maintain consistency in tagging between language versions
