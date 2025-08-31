@@ -38,6 +38,24 @@ permalink: /:title/
 paginate: 30
 paginate_path: /page:num/
 
+# Multi-language configuration
+languages:
+  en:
+    flag: "🇺🇸"
+    name: "English"
+    code: "en"
+    locale: "en_US"
+    url: "/en/"
+  pt:
+    flag: "🇧🇷"
+    name: "Português" 
+    code: "pt"
+    locale: "pt_BR"
+    url: "/pt/"
+
+# Default language
+default_language: en
+
 # Tracker
 analytics: UA-89599031-1
 tagmanager: GTM-KKCR3VG

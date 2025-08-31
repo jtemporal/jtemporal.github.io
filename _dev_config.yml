@@ -7,53 +7,98 @@
 
 # Site settings
 title: Jessica Temporal
-email: jessicatemporal@gmail.com
+tagline: Posts about python, data science, git, open source and more 😉
+email: hello@jtemporal.com
 description: > # this means to ignore newlines until "baseurl:"
-  Data Scientist, Podcaster @ Pizza de Dados, Lecturer and Developer. my pronouns are she/her/hers.
-  This is my personal blog, my opinions are my own.
+  Sr. Dev Advocate 🥑 • 🎙 Podcaster @pizzadedados • Creator of @gitfichas • GitHub ⭐️ • cross stitch & knitter • 🇧🇷 & 🇨🇦 • she/her •
+  Opinions are my own.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://jtemporal.com" # the base hostname & protocol for your site
 
-#sidebar
-default-image: channel-cover.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
-
-reading_time:       true
+# reading time
+reading_time: true
 words_per_minute: 200
 
-#footer
+#sidebar
+default-image: logo.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+favicon: https://res.cloudinary.com/jesstemporal/image/upload/v1671381240/favicon_p3m2nf.ico
+applefavicon: https://res.cloudinary.com/jesstemporal/image/upload/v1671381215/apple-touch-icon_ka9zbv.png
 
-built-by: jtemporal
+#footer
+built-by: 
 
 copyright:
-   name: jtemporal
+   name: Jessica Temporal
    link: 'https://jtemporal.com'
 
 # Build settings
 markdown: kramdown
 permalink: /:title/
-paginate: 21
+paginate: 30
 paginate_path: /page:num/
+
+# Multi-language configuration
+languages:
+  en:
+    flag: "🇺🇸"
+    name: "English"
+    code: "en"
+    locale: "en_US"
+    url: "/en/"
+  pt:
+    flag: "🇧🇷"
+    name: "Português" 
+    code: "pt"
+    locale: "pt_BR"
+    url: "/pt/"
+
+# Default language
+default_language: en
 
 # Tracker
 analytics:
 tagmanager:
 
 #social
-twitter: http://twitter.com/jesstemporal
-github: http://github.com/jtemporal
-email: jessicatemporal@gmail.com
+twitter:
+  username: jesstemporal
+  card: summary_large_image
+github: https://github.com/jtemporal
+
+banner_books:
+  en:
+    book:
+      title: "The Big Git Microbook"
+      subtitle: "A quick guide to commands you will use daily"
+      page: "/gitmicrobook"
+      cover: "https://res.cloudinary.com/jesstemporal/image/upload/v1690996726/books/gitmicrobook-ipad-no-bg_kqhekh.png"
+      short_description: "What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?"
+      gumroad: https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true
+      amazon: https://www.amazon.com/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstempora0e-20&linkCode=ur2&linkId=efc4229f6b816609dfce4f185781d99a&camp=1789&creative=9325
+  pt:
+    book:
+      title: "O Grande Microlivro de Git"
+      subtitle: "Um guia rápido para comandos que você usará diariamente"
+      page: /microlivrodegit
+      cover: https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png
+      short_description: "E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?"
+      gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
+      amazon: https://amzn.to/3SETpx4
 
 # Collections
 collections:
-  - hacktoberfest_projects
+  hacktoberfest_projects:
+    projects: true
+  books:
+      output: true
 
 # Sass style
 sass:
   style: compressed
 
 # Include list
-include: [.well-known, EnJtResume.pdf, folium]
+include: [.well-known, EnJtResume.pdf, folium, llms.txt]
 
 # Ruby Gems
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
