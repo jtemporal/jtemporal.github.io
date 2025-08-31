@@ -125,6 +125,66 @@ pre {
     position: relative !important;
 }
 
+/* Multi-Language Switcher */
+.language-switcher-multi {
+    margin-left: 10px;
+}
+
+.language-switcher-multi .dropdown-toggle {
+    padding: 15px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 60px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.language-switcher-multi .dropdown-toggle:hover {
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+.language-switcher-multi .dropdown-menu {
+    min-width: 140px;
+    max-width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    border: 1px solid #ddd;
+    right: 0;
+    left: auto;
+    padding: 5px 0;
+}
+
+.language-switcher-multi .dropdown-menu li a {
+    padding: 8px 15px;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+}
+
+.language-switcher-multi .dropdown-menu li a:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.language-switcher-multi .dropdown-menu .current-language {
+    color: #1bacaf;
+    font-weight: 600;
+    cursor: default;
+    background-color: #f8f9fa;
+}
+
+.language-switcher-multi .dropdown-menu .current-language:hover {
+    background-color: #f8f9fa;
+    color: #1bacaf;
+}
+
+.language-switcher-multi .dropdown-menu .divider {
+    margin: 5px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
 /* Language Switcher Dropdown Styles */
 .language-switcher-dropdown {
     margin-left: 15px;
@@ -219,12 +279,13 @@ pre {
 }
 
 @media (max-width: 767px) {
-    .language-switcher-dropdown, .language-switcher-compact {
+    .language-switcher-dropdown, .language-switcher-compact, .language-switcher-multi {
         margin: 0;
     }
     
     .language-switcher-dropdown .dropdown-menu,
-    .language-switcher-compact .dropdown-menu {
+    .language-switcher-compact .dropdown-menu,
+    .language-switcher-multi .dropdown-menu {
         position: relative;
         float: none;
         width: auto;
@@ -232,9 +293,17 @@ pre {
         background-color: transparent;
         border: 0;
         box-shadow: none;
+        right: auto;
+        left: auto;
     }
     
-    .language-switcher-dropdown .dropdown-menu .divider {
+    .language-switcher-dropdown .dropdown-menu .divider,
+    .language-switcher-multi .dropdown-menu .divider {
         display: none;
+    }
+    
+    .language-switcher-multi .dropdown-toggle {
+        min-width: auto;
+        padding: 15px 10px;
     }
 }
