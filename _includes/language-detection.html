@@ -1,11 +1,42 @@
 {% comment %}
-  Language detection include file
-  This sets the current_lang variable to either "en" or "pt"
+  Enhanced Multi-Language Detection System
+  This sets the current_lang variable and provides language configuration
   Usage: {% include language-detection.html %}
-  After inclusion, use {{ current_lang }} variable
+  After inclusion, use:
+  - {{ current_lang }} - current language code (en, pt, fr, etc.)
+  - {{ current_lang_config }} - full language configuration object
+  - {{ available_languages }} - list of all available languages
 {% endcomment %}
 
-{% assign current_lang = "pt" %}
-{% if post.lang == "en" or page.lang == "en_US" or page.lang == "en" %}
-  {% assign current_lang = "en" %}
+{% comment %} Detect current language {% endcomment %}
+{% assign current_lang = site.default_language %}
+
+{% comment %} Check page/post language {% endcomment %}
+{% if page.lang %}
+  {% for lang_pair in site.languages %}
+    {% assign lang_code = lang_pair[0] %}
+    {% assign lang_config = lang_pair[1] %}
+    {% if page.lang == lang_code or page.lang == lang_config.locale %}
+      {% assign current_lang = lang_code %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
+
+{% comment %} Check post language {% endcomment %}
+{% if post.lang %}
+  {% for lang_pair in site.languages %}
+    {% assign lang_code = lang_pair[0] %}
+    {% assign lang_config = lang_pair[1] %}
+    {% if post.lang == lang_code or post.lang == lang_config.locale %}
+      {% assign current_lang = lang_code %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %} Set current language configuration {% endcomment %}
+{% assign current_lang_config = site.languages[current_lang] %}
+
+{% comment %} Create list of available languages {% endcomment %}
+{% assign available_languages = site.languages %}

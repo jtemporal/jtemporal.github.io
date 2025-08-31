@@ -18,6 +18,10 @@
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
         {% assign options = "About,Books,Talks,CV,GitStudyCards" | split: ',' %}
         {% assign base = "/about,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/en?utm_source=blog" | split: ',' %}
+      {% elsif current_lang == "fr" %}
+        <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/fr/">{{site.title}}</a>
+        {% assign options = "À propos,Livres,Conférences,CV,GitFichas" | split: ',' %}
+        {% assign base = "/a-propos,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/fr?utm_source=blog" | split: ',' %}
       {% else %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
         {% assign options = "Sobre,Livros,Palestras,CV,GitFichas" | split: ',' %}
@@ -26,7 +30,7 @@
     </div>
 
     <!-- Language Switcher -->
-    {% include language-switcher-compact.html %}
+    {% include language-switcher-multi.html %}
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">

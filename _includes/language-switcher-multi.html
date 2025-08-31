@@ -1,0 +1,72 @@
+{% comment %}
+  Scalable Multi-Language Switcher Component
+  Usage: {% include language-switcher-multi.html %}
+  Requires: language-detection.html to be included first
+  
+  Supports any number of languages defined in _config.yml
+  Shows current language and all available alternatives
+{% endcomment %}
+
+<ul class="nav navbar-nav navbar-right">
+  <li class="dropdown language-switcher-multi">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      {{ current_lang_config.flag }} {{ current_lang_config.code | upcase }} <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-right">
+      {% comment %} Current language at the top {% endcomment %}
+      <li class="active">
+        <a href="#" class="current-language">
+          {{ current_lang_config.flag }} {{ current_lang_config.name }} ✓
+        </a>
+      </li>
+      
+      {% comment %} Check if we have alternative languages {% endcomment %}
+      {% assign has_alternatives = false %}
+      {% for lang_pair in available_languages %}
+        {% assign lang_code = lang_pair[0] %}
+        {% if lang_code != current_lang %}
+          {% assign has_alternatives = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      
+      {% if has_alternatives %}
+        <li class="divider"></li>
+        
+        {% comment %} Show all alternative languages {% endcomment %}
+        {% for lang_pair in available_languages %}
+          {% assign alt_lang_code = lang_pair[0] %}
+          {% assign alt_lang_config = lang_pair[1] %}
+          
+          {% if alt_lang_code != current_lang %}
+            <li>
+              {% comment %} Check if page has specific translation {% endcomment %}
+              {% assign translation_url = nil %}
+              
+              {% comment %} Look for translations array in page front matter {% endcomment %}
+              {% if page.translations %}
+                {% for translation in page.translations %}
+                  {% if translation.lang == alt_lang_code %}
+                    {% assign translation_url = translation.url %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+              
+              {% comment %} If no specific translation, link to language homepage {% endcomment %}
+              {% if translation_url == nil %}
+                {% assign translation_url = alt_lang_config.url %}
+              {% endif %}
+              
+              <a href="{{ site.url }}{{ site.baseurl }}{{ translation_url }}" 
+                 title="Switch to {{ alt_lang_config.name }}"
+                 hreflang="{{ alt_lang_config.locale }}">
+                {{ alt_lang_config.flag }} {{ alt_lang_config.name }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </li>
+</ul>
