@@ -16,7 +16,7 @@ title: First year as a Developer Advocate 🥑
 translations:
 - lang: pt
   url: /primeiro-ano-sendo-uma-developer-advocate/
-translator: false
+author_note: false
 type: post
 ---
 

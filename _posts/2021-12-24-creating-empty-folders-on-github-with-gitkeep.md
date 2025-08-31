@@ -21,7 +21,7 @@ title: Creating empty folders on GitHub with .gitkeep
 translations:
 - lang: pt
   url: /criando-pastas-vazias-no-github-com-o-gitkeep
-translator: true
+author_note: true
 type: post
 ---
 

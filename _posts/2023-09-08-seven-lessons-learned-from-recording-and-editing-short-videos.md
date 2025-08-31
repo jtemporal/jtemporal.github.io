@@ -18,7 +18,7 @@ title: 7 Lessons I learned from recording and editing short videos
 translations:
 - lang: pt
   url: /sete-licoes-que-aprendi-gravando-e-editando-videos-curtos
-translator: false
+author_note: false
 type: post
 ---
 

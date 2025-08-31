@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2019-04-03 12:00:00+00:00
 description: Aprenda a copiar arquivos para dentro do container Docker

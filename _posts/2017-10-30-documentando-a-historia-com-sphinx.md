@@ -18,7 +18,7 @@ title: Documentando a história com Sphinx
 translations:
 - lang: en
   url: /documenting-history-with-sphinx
-translator: false
+author_note: false
 type: post
 ---
 

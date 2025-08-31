@@ -19,7 +19,7 @@ title: 7 dicas úteis para viajar com tranquilidade ✈️
 translations:
 - lang: en
   url: /seven-tips-for-traveling-with-ease
-translator: true
+author_note: true
 type: post
 ---
 

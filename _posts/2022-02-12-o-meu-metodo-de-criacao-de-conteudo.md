@@ -15,7 +15,7 @@ title: Meu processo de criação de conteúdo
 translations:
 - lang: en
   url: /my-content-creation-process
-translator: false
+author_note: false
 type: post
 ---
 

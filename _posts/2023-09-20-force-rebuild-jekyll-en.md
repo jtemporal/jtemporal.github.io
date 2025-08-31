@@ -25,7 +25,7 @@ title: Using empty commits to rebuild GitHub Pages websites
 translations:
 - lang: pt
   url: /force-rebuild-jekyll
-translator: true
+author_note: true
 type: post
 ---
 

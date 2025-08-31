@@ -19,7 +19,7 @@ title: Adicione cores ao compartilhar seu site
 translations:
 - lang: en
   url: /site-thumbnail-en
-translator: false
+author_note: false
 type: post
 ---
 

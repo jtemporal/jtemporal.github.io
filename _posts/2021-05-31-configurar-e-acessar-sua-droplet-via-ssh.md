@@ -17,7 +17,7 @@ title: Configurar e acessar sua droplet via SSH
 translations:
 - lang: en
   url: /configuring-and-accessing-your-droplet-via-ssh
-translator: false
+author_note: false
 type: post
 ---
 

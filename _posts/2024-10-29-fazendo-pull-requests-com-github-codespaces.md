@@ -23,7 +23,7 @@ title: Fazendo pull requests com GitHub Codespaces e contribuindo com um projeto
 translations:
 - lang: en
   url: /making-pull-requests-with-github-codespaces
-translator: false
+author_note: false
 type: post
 ---
 

@@ -14,7 +14,7 @@ title: What does getting ready for the first time speaking in person at a tech c
 translations:
 - lang: pt
   url: /como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial
-translator: false
+author_note: false
 ---
 
 If nothing else, sharing knowledge is a joyful experience. Think of the first time you learned to do something. Really learned. Didn’t it feel amazing? Didn’t you want to tell everyone and see their reactions when they saw that cool thing?

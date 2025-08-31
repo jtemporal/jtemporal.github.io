@@ -17,7 +17,7 @@ title: Add colors when sharing your website
 translations:
 - lang: pt
   url: /site-thumbnail
-translator: false
+author_note: false
 type: post
 ---
 

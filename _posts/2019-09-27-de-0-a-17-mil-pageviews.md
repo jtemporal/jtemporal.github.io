@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2019-09-27 13:00:00+00:00
 description: Como uma troca de temas impactou na quantidade de acessos do meu blog

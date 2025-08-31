@@ -20,7 +20,7 @@ title: 7 lições que aprendi gravando e editando vídeos curtos
 translations:
 - lang: en
   url: /seven-lessons-learned-from-recording-and-editing-short-videos
-translator: true
+author_note: true
 type: post
 ---
 

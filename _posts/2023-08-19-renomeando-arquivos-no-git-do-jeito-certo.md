@@ -20,7 +20,7 @@ title: Renomeando arquivos no Git do jeito certo
 translations:
 - lang: en
   url: /renaming-files-in-git-the-right-way
-translator: false
+author_note: false
 type: post
 ---
 

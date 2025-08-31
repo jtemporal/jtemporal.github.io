@@ -8,7 +8,7 @@ description: Learn how to create an .well-know endpoint with the identity proof 
 lang: en
 author_note_link: ""
 author_note_text: ""
-translator: false
+author_note: false
 tags:
 - tutorial
 - english

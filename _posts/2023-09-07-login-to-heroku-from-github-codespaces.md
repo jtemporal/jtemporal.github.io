@@ -21,7 +21,7 @@ title: Login to Heroku from GitHub Codespaces
 translations:
 - lang: pt
   url: /login-no-heroku-do-github-codespaces
-translator: true
+author_note: true
 type: post
 ---
 

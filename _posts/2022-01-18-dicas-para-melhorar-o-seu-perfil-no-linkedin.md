@@ -20,7 +20,7 @@ title: Dicas para melhorar o seu perfil no LinkedIn
 translations:
 - lang: en
   url: /tips-to-improve-your-linkedin-profile
-translator: false
+author_note: false
 type: post
 ---
 

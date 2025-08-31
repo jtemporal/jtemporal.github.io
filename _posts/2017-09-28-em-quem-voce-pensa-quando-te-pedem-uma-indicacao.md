@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2017-09-21 03:00:00+00:00
 description: Você conhece mulheres qualificadas. Por que não indicá-las?

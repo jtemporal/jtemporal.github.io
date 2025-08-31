@@ -13,7 +13,7 @@ title: 'Retrospectiva 2022: Um ano de aventuras'
 translations:
 - lang: en
   url: /my-year-in-review-2022-year-of-adventures
-translator: false
+author_note: false
 type: post
 ---
 

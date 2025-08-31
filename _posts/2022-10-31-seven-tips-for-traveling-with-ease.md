@@ -16,7 +16,7 @@ title: 7 useful tips for traveling with ease ✈️
 translations:
 - lang: pt
   url: /sete-dicas-para-viajar-com-tranquilidade
-translator: false
+author_note: false
 type: post
 ---
 

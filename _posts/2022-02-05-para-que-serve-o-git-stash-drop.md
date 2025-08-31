@@ -20,7 +20,7 @@ translations:
 - lang: en
   url: /why-the-git-stash-drop-is-useful
 type: post
-translator: false
+author_note: false
 ---
 
 Tá precisando limpar a lista de stashes e não sabe como? Não se preocupe, nessa colinha você vai aprender a "jogar fora" stashes que não precisa mais usando o comando `git stash drop`. 😉

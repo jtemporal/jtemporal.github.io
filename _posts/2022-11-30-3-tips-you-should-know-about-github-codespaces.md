@@ -17,7 +17,7 @@ title: ' 3 tips you should know about GitHub Codespaces'
 translations:
 - lang: pt
   url: /3-dicas-que-voce-deveria-saber-sobre-github-codespaces
-translator: true
+author_note: true
 type: post
 ---
 

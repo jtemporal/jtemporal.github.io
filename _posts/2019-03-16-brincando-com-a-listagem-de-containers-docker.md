@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2019-03-16 03:00:00+00:00
 description: Aprenda a filtrar e formatar a listagem de containers Docker

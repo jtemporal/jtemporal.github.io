@@ -16,7 +16,7 @@ title: Criando a sua máquina na nuvem com Digital Ocean
 translations:
 - lang: en
   url: /creating-vm-droplet-digital-ocean
-translator: false
+author_note: false
 type: post
 ---
 

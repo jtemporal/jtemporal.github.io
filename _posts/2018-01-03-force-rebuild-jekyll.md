@@ -22,7 +22,7 @@ title: Forçando o rebuild de sites Jekyll hospedados no GitHub
 translations:
 - lang: en
   url: /force-rebuild-jekyll
-translator: false
+author_note: false
 type: post
 ---
 

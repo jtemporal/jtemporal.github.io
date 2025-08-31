@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2019-12-18 07:00:00+00:00
 description: You know qualified women. Why not appoint them?

@@ -16,7 +16,7 @@ title: Notas sobre publicar meu primeiro e-book
 translations:
 - lang: en
   url: /notes-on-self-publishing-first-ebook
-translator: true
+author_note: true
 type: post
 ---
 

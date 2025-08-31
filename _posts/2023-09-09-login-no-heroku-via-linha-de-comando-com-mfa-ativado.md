@@ -19,7 +19,7 @@ title: Login no Heroku via linha de comando com MFA ativado
 translations:
 - lang: en
   url: /login-on-heroku-via-cli-with-mfa
-translator: false
+author_note: false
 type: post
 ---
 

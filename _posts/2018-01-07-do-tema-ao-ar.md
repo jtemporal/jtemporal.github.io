@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 bookbanner: true
 comments: true
 date: 2018-01-07 10:00:00+00:00

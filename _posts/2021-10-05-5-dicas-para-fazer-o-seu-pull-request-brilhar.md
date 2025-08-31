@@ -25,7 +25,7 @@ title: 5 Dicas Para Fazer o Seu Pull Request Brilhar ✨
 translations:
 - lang: en
   url: /5-tips-to-make-your-pull-request-shine
-translator: false
+author_note: false
 type: post
 ---
 

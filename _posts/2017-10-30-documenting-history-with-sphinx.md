@@ -19,7 +19,7 @@ title: Documenting history with Sphinx
 translations:
 - lang: pt
   url: /documentando-a-historia-com-sphinx
-translator: false
+author_note: false
 type: post
 ---
 

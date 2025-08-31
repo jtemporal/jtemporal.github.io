@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2018-01-13 07:59:00+00:00
 description: Today's pro-tip teaches you what to do when you don't have a Gemfile

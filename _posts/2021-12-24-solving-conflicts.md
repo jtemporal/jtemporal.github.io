@@ -21,7 +21,7 @@ title: Solving conflicts in Git
 translations:
 - lang: pt
   url: /resolvendo-conflitos
-translator: true
+author_note: true
 type: post
 ---
 

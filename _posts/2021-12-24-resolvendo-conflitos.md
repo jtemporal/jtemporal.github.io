@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00

@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2017-12-29 10:00:00+00:00
 description: Learn how to install manage Python versions using pyenv

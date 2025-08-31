@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2018-04-15 01:00:00 +0000
 description: Learn how to deploy a Flask API to Heroku, using Heroku CLI and Git

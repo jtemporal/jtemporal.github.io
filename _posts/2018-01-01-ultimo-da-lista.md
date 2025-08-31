@@ -16,7 +16,7 @@ title: O último da lista com Python
 translations:
 - lang: en
   url: /the-last-of-a-list-in-python
-translator: false
+author_note: false
 type: post
 ---
 

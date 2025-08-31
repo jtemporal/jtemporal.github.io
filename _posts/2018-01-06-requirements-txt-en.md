@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2018-01-06 08:00:00
 description: Learn about the requirements.txt file

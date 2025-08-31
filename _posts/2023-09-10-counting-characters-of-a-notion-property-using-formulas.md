@@ -17,7 +17,7 @@ title: How to count characters of a property on Notion easily using formulas
 translations:
 - lang: pt
   url: /contando-caracteres-de-uma-propriedade-no-notion-usando-formulas
-translator: true
+author_note: true
 type: post
 ---
 

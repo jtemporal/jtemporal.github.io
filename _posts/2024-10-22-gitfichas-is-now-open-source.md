@@ -26,7 +26,7 @@ title: GitFichas is Now Open Source 🎉
 translations:
 - lang: pt
   url: /gitfichas-agora-e-open-source
-translator: false
+author_note: false
 type: post
 ---
 

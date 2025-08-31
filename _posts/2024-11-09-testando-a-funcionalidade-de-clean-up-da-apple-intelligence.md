@@ -16,7 +16,7 @@ title: Testando a Funcionalidade de Clean Up da Apple Intelligence
 translations:
 - lang: en
   url: /testing-apple-intelligence-s-clean-up-tool
-translator: false
+author_note: false
 type: post
 ---
 

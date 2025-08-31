@@ -20,7 +20,7 @@ translations:
 - lang: en
   url: /using-git-stash-and-git-stash-pop
 type: post
-translator: false
+author_note: false
 ---
 
 Mudar de branches durante o meio de trabalho é algo que acontece com certa frequência, por exemplo, para resolver um bug fazendo um _"hotfix"_ em um outro branch enquanto você está desenvolvendo uma tarefa.

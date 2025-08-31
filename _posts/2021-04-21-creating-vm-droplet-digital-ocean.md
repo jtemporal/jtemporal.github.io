@@ -16,7 +16,7 @@ title: Creating your machine on the cloud with Digital Ocean
 translations:
 - lang: pt
   url: /criando-a-sua-maquina-na-nuvem-com-digital-ocean
-translator: false
+author_note: false
 type: post
 ---
 

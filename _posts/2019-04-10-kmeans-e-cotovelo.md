@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2019-04-10 03:00:00 +0000
 description: Aprenda a calcular a quantidade ótima de clusters para o KMeans usando

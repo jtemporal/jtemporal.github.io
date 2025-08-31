@@ -16,7 +16,7 @@ title: 'My year in review: 2022, a year of adventures'
 translations:
 - lang: pt
   url: /retrospectiva-2022-um-ano-de-aventuras
-translator: true
+author_note: true
 type: post
 ---
 

@@ -13,7 +13,7 @@ title: Contando carácteres de uma propriedade no Notion usando fórmulas
 translations:
 - lang: en
   url: /counting-characters-of-a-notion-property-using-formulas
-translator: false
+author_note: false
 type: post
 ---
 

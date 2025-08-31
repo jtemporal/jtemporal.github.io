@@ -1,5 +1,5 @@
 ---
-translator: false
+author_note: false
 comments: true
 date: 2017-12-30 00:00:00
 description: Learn how to create virtual environments using Python's module venv

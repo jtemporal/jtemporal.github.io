@@ -18,7 +18,7 @@ title: Login no Heroku a partir do GitHub Codespaces
 translations:
 - lang: en
   url: /login-to-heroku-from-github-codespaces
-translator: false
+author_note: false
 type: post
 ---
 

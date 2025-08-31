@@ -16,7 +16,7 @@ title: My content creation process
 translations:
 - lang: pt
   url: /o-meu-metodo-de-criacao-de-conteudo
-translator: true
+author_note: true
 type: post
 ---
 

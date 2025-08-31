@@ -14,7 +14,7 @@ tags:
 - english
 - tutorial
 description: 'Turn a blog into a searchable knowledge base for your AI assistant. Follow this step-by-step guide to build a local MCP server in Python'
-translator: false
+author_note: false
 
 ---
 

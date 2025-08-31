@@ -19,7 +19,7 @@ title: Criando pastas vazias no GitHub com o .gitkeep
 translations:
 - lang: en
   url: /creating-empty-folders-on-github-with-gitkeep
-translator: false
+author_note: false
 type: post
 ---
 

@@ -18,7 +18,7 @@ title: Tips to improve your LinkedIn profile
 translations:
 - lang: pt
   url: /dicas-para-melhorar-o-seu-perfil-no-linkedin
-translator: true
+author_note: true
 type: post
 ---
 

@@ -15,7 +15,7 @@ title: Dicas para migrar uma aplicação de Flask para FastAPI e vice-versa
 translations:
 - lang: en
   url: /tips-on-migrating-from-flask-to-fastapi-and-vice-versa
-translator: false
+author_note: false
 type: post
 ---
 

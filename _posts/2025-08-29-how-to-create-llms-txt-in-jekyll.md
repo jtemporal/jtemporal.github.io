@@ -15,7 +15,7 @@ comments: true
 bookbanner: true
 description: 'Learn how to automatically generate a llms.txt file in Jekyll'
 related: true
-translator: false
+author_note: false
 posts_list:
 - publishing-a-website-with-jekyll
 - choosing-a-jekyll-theme
