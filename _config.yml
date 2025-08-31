@@ -103,5 +103,8 @@ sass:
 # Include list
 include: [.well-known, EnJtResume.pdf, folium, llms.txt]
 
+# Exclude list - files and directories Jekyll should ignore
+exclude: [MULTI_LANGUAGE_SYSTEM.md]
+
 # Ruby Gems
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]
