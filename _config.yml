@@ -46,12 +46,24 @@ languages:
     code: "en"
     locale: "en_US"
     url: "/en/"
+    text:
+      know_more_button: "Learn more"
+      buy_button: "Buy on"
+      recent_articles_title: "Recent Articles"
+      related_articles_title: "Related Articles"
+      author_note_title: "Author Note"
   pt:
     flag: "🇧🇷"
     name: "Português" 
     code: "pt"
     locale: "pt_BR"
     url: "/pt/"
+    text:
+      know_more_button: "Saiba mais"
+      buy_button: "Compre na"
+      recent_articles_title: "Artigos recentes"
+      related_articles_title: "Artigos relacionados"
+      author_note_title: "Nota da autora"
 
 # Default language
 default_language: en
