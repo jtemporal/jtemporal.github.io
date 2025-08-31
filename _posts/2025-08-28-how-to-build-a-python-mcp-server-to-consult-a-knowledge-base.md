@@ -1,6 +1,6 @@
 ---
 hidden: false
-date: 2025-08-29T04:00:00.000+00:00
+date: 2025-08-28T04:00:00.000+00:00
 title: "How to Build a Python MCP Server to Consult a Knowledge Base"
 redirect_to:
   - https://auth0.com/blog/build-python-mcp-server-for-blog-search/
