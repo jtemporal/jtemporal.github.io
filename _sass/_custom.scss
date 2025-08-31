@@ -78,7 +78,7 @@ tr:hover {
     border-radius: 4px;
     padding: 4px 8px;
     font-size: 11px;
-    font-family: 'Courier New', monospace;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     cursor: pointer;
     transition: all 0.2s ease;
     z-index: 1000;
@@ -94,7 +94,7 @@ tr:hover {
 .copy-button:hover {
     background: rgba(31, 31, 31, 0.95);
     color: #ffffff;
-    border-color: #569cd6;
+    border-color: #1bacaf;
     opacity: 1;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -105,14 +105,14 @@ tr:hover {
 }
 
 .copy-button.copied {
-    background: rgba(75, 181, 67, 0.9);
+    background: rgba(27, 172, 175, 0.9);
     color: #ffffff;
-    border-color: #4bb543;
+    border-color: #1bacaf;
     opacity: 1;
 }
 
 .copy-button.copied:hover {
-    background: rgba(75, 181, 67, 0.95);
+    background: rgba(27, 172, 175, 0.95);
 }
 
 /* Ensure code containers can contain absolutely positioned elements */
