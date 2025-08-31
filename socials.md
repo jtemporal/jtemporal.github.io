@@ -37,26 +37,3 @@ https://dev.to/jesstemporal"><button class="social-btn">dev.to</button></a>
 
 <a href="
 https://discord.gg/vaXEEXEswD"><button class="social-btn">Discord</button></a>
-
-<style>
-    .social-btn {
-          background-color: white;
-          color:#383838;
-          border-radius: 8px;
-          height: 50px;
-          padding-left: 5%;
-          padding-right: 5%;
-          border: #ddd;
-          float: left;
-      }
-      .social-btn:hover {
-        background-color: #1bacaf;
-        color: 1px solid #ddd;
-        color: white;
-        
-      }
-      .social-btn:focus {
-        color: #1bacaf;
-        border-color: 1px solid #ddd;
-      }
-</style>
