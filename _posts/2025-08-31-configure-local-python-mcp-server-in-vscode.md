@@ -44,7 +44,7 @@ In that previous post, we built a Python MCP server that leverages SerpAPI for s
 
 If you want to learn more about tool calling checkout the video below or [this blog post](https://auth0.com/blog/genai-tool-calling-intro/).
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/r7wEinUG0ns" title="Empowering AI Automation Securely - Tool Calling in AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+<center><iframe width="100%" height="420" src="https://www.youtube.com/embed/r7wEinUG0ns" title="Empowering AI Automation Securely - Tool Calling in AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
 ## MCP Servers in VS Code
 
