@@ -1,5 +1,5 @@
 ---
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_text: Esse blog post foi traduzido para Português por Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-04-23 22:34:34-03:00

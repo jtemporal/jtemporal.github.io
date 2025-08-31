@@ -17,10 +17,10 @@
           {% endif %}
         </div>
 
-        {% if page.author_note and page.translator != false %}
+        {% if page.author_note_text and page.translator != false %}
         <div class="mt10 recent">
           <h3>{{author_note_title}}</h3>
-          <p><a href='{{ page.author_note_link }}'>{{ page.author_note }}</a></p>
+          <p><a href='{{ page.author_note_link }}'>{{ page.author_note_text }}</a></p>
         </div>
         {% endif %}
 
