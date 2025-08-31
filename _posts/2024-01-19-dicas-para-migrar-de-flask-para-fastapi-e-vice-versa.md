@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/tips-on-migrating-from-flask-to-fastapi-and-vice-versa
 comments: true
 date: 2024-01-19 10:00:00-05:00
 description: Aprenda as diferenças entre Flask e FastAPI ao lidar com templates, routers
@@ -17,7 +15,7 @@ title: Dicas para migrar uma aplicação de Flask para FastAPI e vice-versa
 translations:
 - lang: en
   url: /tips-on-migrating-from-flask-to-fastapi-and-vice-versa
-translator: false
+author_note: false
 type: post
 ---
 

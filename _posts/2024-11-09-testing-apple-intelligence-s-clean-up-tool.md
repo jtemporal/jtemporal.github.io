@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/testando-a-funcionalidade-de-clean-up-da-apple-intelligence
 bookbanner: true
 comments: true
 date: 2024-11-09 04:00:00+00:00
@@ -18,7 +16,7 @@ title: Testing Apple Intelligence's Clean Up Tool
 translations:
 - lang: pt
   url: /testando-a-funcionalidade-de-clean-up-da-apple-intelligence
-translator: false
+author_note: false
 type: post
 ---
 

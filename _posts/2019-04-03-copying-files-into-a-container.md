@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/copiando-arquivos-para-dentro-do-container
+author_note: false
 comments: true
 date: 2019-04-03 14:00:00+00:00
 description: Let's learn to copy files into a container without using volumes

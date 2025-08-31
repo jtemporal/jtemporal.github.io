@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/undoing-the-last-commit-and-reusing-the-message
+author_note: false
 bookbanner: true
 comments: true
 date: 2022-01-15 11:25:00-02:00

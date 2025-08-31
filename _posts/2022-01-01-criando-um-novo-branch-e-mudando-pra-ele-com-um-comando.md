@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/creating-a-new-branch-and-switching-to-it-with-only-one-command
+author_note: false
 bookbanner: true
 comments: true
 date: 2022-01-01 12:34:20-02:00

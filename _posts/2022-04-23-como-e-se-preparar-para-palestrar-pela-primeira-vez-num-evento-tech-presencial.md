@@ -1,5 +1,5 @@
 ---
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_text: Esse blog post foi traduzido para Português por Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-04-23 22:34:34-03:00
@@ -17,7 +17,7 @@ title: Como é se preparar para palestrar pela primeira vez num evento tech pres
 translations:
 - lang: en
   url: /what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like
-translator: true
+author_note: true
 ---
 
 Se nada mais, compartilhar conhecimento é uma experiência feliz. Pense na primeira vez que você aprendeu a fazer algo. Que *realmente* aprendeu. Não foi incrível? Você não queria contar para todo mundo e ver a reação das pessoas quando vissem aquela coisa massa?

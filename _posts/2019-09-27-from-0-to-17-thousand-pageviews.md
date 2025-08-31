@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/de-0-a-17-mil-pageviews
+author_note: false
 comments: true
 date: 2019-09-27 13:00:00+00:00
 description: How a theme exchange impacted the number of hits on my blog

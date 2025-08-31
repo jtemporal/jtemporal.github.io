@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/choosing-a-jekyll-theme
+author_note: false
 comments: true
 date: 2018-01-07 08:00:00
 description: Escolhendo um tema para o seu blog e começando a postar sem demora

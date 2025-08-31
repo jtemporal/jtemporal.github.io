@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/brincando-com-a-listagem-de-containers-docker
+author_note: false
 comments: true
 date: 2019-03-16 03:00:00+00:00
 description: Learn to list and filter containers from the list

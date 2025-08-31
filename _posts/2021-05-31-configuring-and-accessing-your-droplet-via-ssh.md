@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler este tutorial em Português
-author_note_link: https://jtemporal.com/configurar-e-acessar-sua-droplet-via-ssh
 comments: true
 date: 2021-05-31 00:00:00 -0300
 description: A guide on how to configure your Droplet to access it via SSH
@@ -19,7 +17,7 @@ title: Configuring and accessing your droplet via SSH
 translations:
 - lang: pt
   url: /configurar-e-acessar-sua-droplet-via-ssh
-translator: false
+author_note: false
 type: post
 ---
 

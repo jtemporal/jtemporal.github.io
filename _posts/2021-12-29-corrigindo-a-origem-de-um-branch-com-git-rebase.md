@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/fixing-the-branch-source-with-git-rebase
+author_note: false
 bookbanner: true
 comments: true
 date: 2021-12-29 12:34:20-02:00

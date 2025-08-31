@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/renaming-files-in-git-the-right-way
 bookbanner: true
 comments: true
 date: 2023-08-19 11:25:00+00:00
@@ -22,7 +20,7 @@ title: Renomeando arquivos no Git do jeito certo
 translations:
 - lang: en
   url: /renaming-files-in-git-the-right-way
-translator: false
+author_note: false
 type: post
 ---
 

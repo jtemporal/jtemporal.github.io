@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/my-year-in-review-2022-year-of-adventures
 comments: true
 date: 2022-12-16 11:00:00+00:00
 description: Uma reflexão sobre os acontecimentos do ano
@@ -15,7 +13,7 @@ title: 'Retrospectiva 2022: Um ano de aventuras'
 translations:
 - lang: en
   url: /my-year-in-review-2022-year-of-adventures
-translator: false
+author_note: false
 type: post
 ---
 

@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in english too.
-author_note_link: https://jtemporal.com/one-year-as-a-developer-advocate
 comments: true
 date: 2022-03-29 09:01:00+00:00
 description: Tem curiosidade sobre como foi a mudança de carreira entre ciência de
@@ -18,7 +16,7 @@ title: Primeiro ano sendo uma Developer Advocate 🥑
 translations:
 - lang: en
   url: /one-year-as-a-developer-advocate
-translator: false
+author_note: false
 type: post
 ---
 

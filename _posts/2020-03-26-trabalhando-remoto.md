@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/working-remotely
+author_note: false
 comments: true
 date: 2020-03-26 11:55:46 -0300
 description: Dicas que sigo quando estou trabalhando remoto para que você que está

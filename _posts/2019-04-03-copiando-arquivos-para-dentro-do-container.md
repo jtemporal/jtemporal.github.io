@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/copying-files-into-a-container
+author_note: false
 comments: true
 date: 2019-04-03 12:00:00+00:00
 description: Aprenda a copiar arquivos para dentro do container Docker

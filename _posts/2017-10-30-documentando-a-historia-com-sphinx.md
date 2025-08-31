@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/documenting-history-with-sphinx
 comments: true
 date: '2017-10-30 10:00:00'
 description: Usando Sphinx para criar a documentação de dos processos de organizar
@@ -20,7 +18,7 @@ title: Documentando a história com Sphinx
 translations:
 - lang: en
   url: /documenting-history-with-sphinx
-translator: false
+author_note: false
 type: post
 ---
 

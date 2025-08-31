@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
@@ -21,7 +21,7 @@ title: Login to Heroku from GitHub Codespaces
 translations:
 - lang: pt
   url: /login-no-heroku-do-github-codespaces
-translator: true
+author_note: true
 type: post
 ---
 

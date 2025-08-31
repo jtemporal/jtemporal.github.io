@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/updating-a-branch-with-git-rebase
+author_note: false
 bookbanner: true
 comments: true
 date: 2021-12-30 12:34:20-02:00

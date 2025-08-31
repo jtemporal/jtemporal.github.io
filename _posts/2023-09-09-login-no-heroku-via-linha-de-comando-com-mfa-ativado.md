@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/login-on-heroku-via-cli-with-mfa
 bookbanner: true
 comments: true
 date: 2023-09-09 09:01:00+00:00
@@ -21,7 +19,7 @@ title: Login no Heroku via linha de comando com MFA ativado
 translations:
 - lang: en
   url: /login-on-heroku-via-cli-with-mfa
-translator: false
+author_note: false
 type: post
 ---
 

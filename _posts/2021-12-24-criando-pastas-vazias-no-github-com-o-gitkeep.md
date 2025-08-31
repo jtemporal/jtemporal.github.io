@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/creating-empty-folders-on-github-with-gitkeep
 bookbanner: true
 comments: true
 date: 2021-12-24 12:34:20-02:00
@@ -21,7 +19,7 @@ title: Criando pastas vazias no GitHub com o .gitkeep
 translations:
 - lang: en
   url: /creating-empty-folders-on-github-with-gitkeep
-translator: false
+author_note: false
 type: post
 ---
 

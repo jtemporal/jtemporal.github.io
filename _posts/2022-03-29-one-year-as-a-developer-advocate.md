@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/primeiro-ano-sendo-uma-developer-advocate/
 comments: true
 date: 2022-03-29 09:00:00+00:00
 description: Curious about how the move from data science to developer relations/advocacy
@@ -18,7 +16,7 @@ title: First year as a Developer Advocate 🥑
 translations:
 - lang: pt
   url: /primeiro-ano-sendo-uma-developer-advocate/
-translator: false
+author_note: false
 type: post
 ---
 

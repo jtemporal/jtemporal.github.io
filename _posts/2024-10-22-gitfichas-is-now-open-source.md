@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/gitfichas-agora-e-open-source
 bookbanner: true
 comments: true
 date: 2024-10-22 05:00:00+00:00
@@ -28,7 +26,7 @@ title: GitFichas is Now Open Source 🎉
 translations:
 - lang: pt
   url: /gitfichas-agora-e-open-source
-translator: false
+author_note: false
 type: post
 ---
 

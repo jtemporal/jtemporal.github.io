@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/em-quem-voce-pensa-quando-te-pedem-uma-indicação
+author_note: false
 comments: true
 date: 2019-12-18 07:00:00+00:00
 description: You know qualified women. Why not appoint them?

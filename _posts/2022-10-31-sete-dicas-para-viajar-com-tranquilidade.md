@@ -1,5 +1,5 @@
 ---
-author_note: Esse blog post foi traduzido para Português por Debora Azevedo.
+author_note_text: Esse blog post foi traduzido para Português por Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-10-31 09:01:00+00:00
@@ -19,7 +19,7 @@ title: 7 dicas úteis para viajar com tranquilidade ✈️
 translations:
 - lang: en
   url: /seven-tips-for-traveling-with-ease
-translator: true
+author_note: true
 type: post
 ---
 

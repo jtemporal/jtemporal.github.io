@@ -7,8 +7,8 @@ comments: true
 description: Learn how to create an .well-know endpoint with the identity proof for Keybase
 lang: en
 author_note_link: ""
-author_note: ""
-translator: false
+author_note_text: ""
+author_note: false
 tags:
 - tutorial
 - english

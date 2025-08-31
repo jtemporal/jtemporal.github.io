@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/force-rebuild-jekyll
 comments: true
 date: 2018-01-03 10:00:00
 description: Como usar Git para forçar o build de um site que usa GitHub Pages
@@ -24,7 +22,7 @@ title: Forçando o rebuild de sites Jekyll hospedados no GitHub
 translations:
 - lang: en
   url: /force-rebuild-jekyll
-translator: false
+author_note: false
 type: post
 ---
 

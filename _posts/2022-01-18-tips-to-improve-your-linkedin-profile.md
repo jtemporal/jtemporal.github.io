@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-01-18 20:00:00-03:00
@@ -18,7 +18,7 @@ title: Tips to improve your LinkedIn profile
 translations:
 - lang: pt
   url: /dicas-para-melhorar-o-seu-perfil-no-linkedin
-translator: true
+author_note: true
 type: post
 ---
 

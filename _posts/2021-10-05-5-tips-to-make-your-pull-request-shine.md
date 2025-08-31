@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Débora Azevedo.
+author_note_text: This blog post was adapted for English by Débora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
@@ -24,7 +24,7 @@ title: 5 Tips to Make Your Pull Request Shine ✨
 translations:
 - lang: pt
   url: /5-dicas-para-fazer-o-seu-pull-request-brilhar
-translator: true
+author_note: true
 type: post
 ---
 

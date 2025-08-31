@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/introducing-gitfichas
 bookbanner: true
 comments: true
 date: 2021-08-21 12:44:33-03:00

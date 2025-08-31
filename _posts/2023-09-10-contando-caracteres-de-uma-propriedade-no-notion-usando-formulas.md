@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/counting-characters-of-a-notion-property-using-formulas
 comments: true
 date: 2023-09-10 09:01:00+00:00
 description: Uma introdução sobre os superpoderes das propriedades das Databases
@@ -15,7 +13,7 @@ title: Contando carácteres de uma propriedade no Notion usando fórmulas
 translations:
 - lang: en
   url: /counting-characters-of-a-notion-property-using-formulas
-translator: false
+author_note: false
 type: post
 ---
 

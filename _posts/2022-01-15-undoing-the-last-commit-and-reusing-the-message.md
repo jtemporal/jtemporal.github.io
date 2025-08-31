@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
@@ -23,6 +23,7 @@ translations:
 - lang: pt
   url: /desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 type: post
+author_note: true
 ---
 
 Undoing and redoing commits is part of everyday life, so it's important to understand the commands that can help us along the way. In this pro tip I will teach you how to do two things:

@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2023-09-10 15:10:00+00:00
@@ -17,7 +17,7 @@ title: How to count characters of a property on Notion easily using formulas
 translations:
 - lang: pt
   url: /contando-caracteres-de-uma-propriedade-no-notion-usando-formulas
-translator: true
+author_note: true
 type: post
 ---
 

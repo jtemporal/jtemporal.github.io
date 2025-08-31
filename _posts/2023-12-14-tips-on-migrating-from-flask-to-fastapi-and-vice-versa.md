@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/dicas-para-migrar-de-flask-para-fastapi-e-vice-versa
 comments: true
 date: 2023-12-14 19:00:00-05:00
 description: Learn the differences between Flask and FastAPI when dealing with templates,
@@ -17,7 +15,7 @@ title: Tips on migrating from Flask to FastAPI and vice-versa
 translations:
 - lang: pt
   url: /dicas-para-migrar-de-flask-para-fastapi-e-vice-versa
-translator: false
+author_note: false
 type: post
 ---
 

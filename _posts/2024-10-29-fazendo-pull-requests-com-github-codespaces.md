@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/making-pull-requests-with-github-codespaces
 bookbanner: true
 comments: true
 date: 2024-10-29 05:00:00+00:00
@@ -25,7 +23,7 @@ title: Fazendo pull requests com GitHub Codespaces e contribuindo com um projeto
 translations:
 - lang: en
   url: /making-pull-requests-with-github-codespaces
-translator: false
+author_note: false
 type: post
 ---
 

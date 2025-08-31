@@ -14,7 +14,7 @@ tags:
 comments: true
 description: Learn how to join two collections in MongoDB using aggregation
 lang: en
-translator: false
+author_note: false
 related: false
 
 ---

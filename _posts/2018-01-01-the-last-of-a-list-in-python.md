@@ -1,5 +1,6 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note: true
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2023-09-11 09:10:00+00:00
@@ -15,7 +16,7 @@ title: The last of the list with Python
 translations:
 - lang: pt
   url: /ultimo-da-lista
-translator: true
+author_note: true
 type: post
 ---
 

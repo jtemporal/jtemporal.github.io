@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/even-core-devs-have-hiccups
+author_note: false
 comments: true
 date: '2017-02-01 00:00:00'
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png

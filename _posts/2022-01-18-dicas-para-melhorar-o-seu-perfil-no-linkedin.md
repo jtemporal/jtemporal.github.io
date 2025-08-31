@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English here
-author_note_link: https://jtemporal.com/tips-to-improve-your-linkedin-profile
 comments: true
 date: 2022-01-18 20:00:00-03:00
 description: Dicas práticas para melhorar o seu perfil no LinkedIn em menos de 30
@@ -22,7 +20,7 @@ title: Dicas para melhorar o seu perfil no LinkedIn
 translations:
 - lang: en
   url: /tips-to-improve-your-linkedin-profile
-translator: false
+author_note: false
 type: post
 ---
 

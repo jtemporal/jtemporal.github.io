@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
@@ -22,7 +22,7 @@ title: Login on Heroku via CLI with MFA enabled
 translations:
 - lang: pt
   url: /login-no-heroku-via-linha-de-comando-com-mfa-ativado
-translator: true
+author_note: true
 type: post
 ---
 

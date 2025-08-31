@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/documentando-a-historia-com-sphinx/
 bookbanner: true
 comments: true
 date: '2017-10-30 11:00:00'
@@ -21,7 +19,7 @@ title: Documenting history with Sphinx
 translations:
 - lang: pt
   url: /documentando-a-historia-com-sphinx
-translator: false
+author_note: false
 type: post
 ---
 

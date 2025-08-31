@@ -1,5 +1,5 @@
 ---
-author_note: This blog post was adapted for English by Debora Azevedo.
+author_note_text: This blog post was adapted for English by Debora Azevedo.
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-12-16 11:00:00+00:00
@@ -16,7 +16,7 @@ title: 'My year in review: 2022, a year of adventures'
 translations:
 - lang: pt
   url: /retrospectiva-2022-um-ano-de-aventuras
-translator: true
+author_note: true
 type: post
 ---
 

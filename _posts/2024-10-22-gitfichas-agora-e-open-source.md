@@ -1,5 +1,5 @@
 ---
-author_note: You can read this blog post in English
+author_note_text: Esse blog post foi traduzido para Português por Debora Azevedo
 author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
@@ -26,7 +26,7 @@ title: GitFichas agora é Open Source 🎉
 translations:
 - lang: en
   url: /gitfichas-is-now-open-source
-translator: true
+author_note: true
 type: post
 ---
 
