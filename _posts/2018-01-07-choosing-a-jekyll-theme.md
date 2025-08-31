@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/temas-jekyll
+translator: false
 comments: true
 date: 2018-01-07 08:00:00
 description: Chose a theme and start blog without fuss

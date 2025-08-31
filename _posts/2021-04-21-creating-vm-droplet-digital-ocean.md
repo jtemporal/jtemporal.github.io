@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler este tutorial em Português
-author_note_link: https://jtemporal.com/criando-a-sua-maquina-na-nuvem-com-digital-ocean
 comments: true
 date: 2021-04-21 19:48:25-03:00
 description: A step-by-step guide to create an instance (Droplet) at Digital Ocean

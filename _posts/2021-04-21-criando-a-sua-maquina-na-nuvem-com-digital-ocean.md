@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English too
-author_note_link: https://jtemporal.com/creating-vm-droplet-digital-ocean/
 comments: true
 date: 2021-04-21 19:48:25-03:00
 description: Um passo-a-passo de como criar uma instância (Droplet) na Digital Ocean

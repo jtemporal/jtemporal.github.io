@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/why-the-git-stash-drop-is-useful
 bookbanner: true
 comments: true
 date: 2022-02-05 11:25:00-02:00
@@ -22,6 +20,7 @@ translations:
 - lang: en
   url: /why-the-git-stash-drop-is-useful
 type: post
+translator: false
 ---
 
 Tá precisando limpar a lista de stashes e não sabe como? Não se preocupe, nessa colinha você vai aprender a "jogar fora" stashes que não precisa mais usando o comando `git stash drop`. 😉

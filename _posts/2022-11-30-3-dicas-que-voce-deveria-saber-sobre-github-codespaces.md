@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/3-tips-you-should-know-about-github-codespaces
 bookbanner: true
 comments: true
 date: 2022-11-30 15:00:00+00:00

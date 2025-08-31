@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English too
-author_note_link: https://jtemporal.com/site-thumbnail-en
 comments: true
 date: '2017-12-27 10:00:00'
 description: Como adicionar um thumbnail no seu site

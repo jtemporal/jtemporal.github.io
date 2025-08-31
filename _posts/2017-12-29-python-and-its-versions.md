@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/pyenv-inicio
+translator: false
 comments: true
 date: 2017-12-29 10:00:00+00:00
 description: Learn how to install manage Python versions using pyenv

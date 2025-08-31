@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/testing-apple-intelligence-s-clean-up-tool
 bookbanner: true
 comments: true
 date: 2024-11-09 05:00:00+00:00

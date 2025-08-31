@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/login-to-heroku-from-github-codespaces
 bookbanner: true
 comments: true
 date: 2023-09-07 09:01:00+00:00

@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English here
-author_note_link: https://jtemporal.com/my-content-creation-process
 comments: true
 date: 2022-02-12 09:00:00-02:00
 description: Vou te contar como eu organizo todo texto, vídeo, palestra e podcast

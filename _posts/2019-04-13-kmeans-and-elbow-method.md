@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/kmeans-e-cotovelo
+translator: false
 comments: true
 date: 2019-04-13 03:00:00+00:00
 description: Learn to calculate the optimal cluster number using the elbow method

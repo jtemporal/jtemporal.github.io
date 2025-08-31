@@ -23,6 +23,7 @@ translations:
 - lang: pt
   url: /criando-um-novo-branch-e-mudando-pra-ele-com-um-comando
 type: post
+translator: true
 ---
 
 Every time you create a new branch in Git you need to switch to that branch before committing. In this pro tip I'll show you my favorite shortcut to create a branch and switch to it, all at the same time.

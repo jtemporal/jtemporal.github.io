@@ -20,6 +20,7 @@ posts_list:
 - publishing-a-website-with-jekyll
 - choosing-a-jekyll-theme
 - force-rebuild-jekyll-en
+translator: false
 ---
 
 MCP (Model Context Protocol) servers extend AI assistants with custom capabilities and resource access. While using an MCP server in Claude Desktop is fantastic for general research and content discovery, there's even more value in integrating these same tools directly into your development environment.

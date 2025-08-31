@@ -1,6 +1,4 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/5-tips-to-make-your-pull-request-shine
 bookbanner: true
 comments: true
 date: 2021-10-05 22:15:06-03:00

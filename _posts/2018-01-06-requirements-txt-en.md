@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/requirements-txt
+translator: false
 comments: true
 date: 2018-01-06 08:00:00
 description: Learn about the requirements.txt file

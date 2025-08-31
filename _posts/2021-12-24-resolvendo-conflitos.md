@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/solving-conflicts
+translator: false
 bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00

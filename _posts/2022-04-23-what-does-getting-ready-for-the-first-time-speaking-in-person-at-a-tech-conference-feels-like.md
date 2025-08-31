@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/como-e-se-preparar-para-palestrar-pela-primeira-vez-num-evento-tech-presencial
 comments: true
 date: 2022-04-23 22:33:34-03:00
 description: And why should you get back on the road

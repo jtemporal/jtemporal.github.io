@@ -22,6 +22,7 @@ translations:
 - lang: pt
   url: /desfazendo-um-ou-mais-commits
 type: post
+translator: true
 ---
 
 Since everything we do in git can be done in countless different ways, there are a few ways to get rid of commits. The most common way to undo one or more recent commits is using the command `git reset` that you'll see in this pro tip.

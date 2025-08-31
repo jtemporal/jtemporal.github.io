@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/em-quem-voce-pensa-quando-te-pedem-uma-indicação
+translator: false
 comments: true
 date: 2017-09-21 03:00:00+00:00
 description: Você conhece mulheres qualificadas. Por que não indicá-las?

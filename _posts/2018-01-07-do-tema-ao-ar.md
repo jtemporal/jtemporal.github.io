@@ -1,6 +1,5 @@
 ---
-author_note: You can read this article in English
-author_note_link: https://jtemporal.com/publishing-a-website-with-jekyll
+translator: false
 bookbanner: true
 comments: true
 date: 2018-01-07 10:00:00+00:00

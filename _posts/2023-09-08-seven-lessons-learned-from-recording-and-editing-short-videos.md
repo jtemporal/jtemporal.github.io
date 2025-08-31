@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/sete-licoes-que-aprendi-gravando-e-editando-videos-curtos
 comments: true
 date: 2023-09-08 09:01:00+00:00
 description: Getting comfortable with a new skill requires effort, here's what I learned

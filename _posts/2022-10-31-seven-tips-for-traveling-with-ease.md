@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/sete-dicas-para-viajar-com-tranquilidade/
 comments: true
 date: 2022-10-31 09:01:00+00:00
 description: The tips that helped me get through over 15 airports in seven countries

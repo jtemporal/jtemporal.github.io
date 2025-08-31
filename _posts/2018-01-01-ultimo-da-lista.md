@@ -1,6 +1,4 @@
 ---
-author_note: You can read this blog post in English
-author_note_link: https://jtemporal.com/the-last-of-a-list-in-python
 comments: true
 date: '2018-01-01 10:00:00'
 description: Como pegar o último item de uma lista em Python

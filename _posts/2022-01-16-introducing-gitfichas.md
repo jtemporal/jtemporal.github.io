@@ -17,6 +17,7 @@ translations:
 - lang: pt
   url: /conheca-o-gitfichas
 type: post
+translator: true
 ---
 
 I started a new project, and I want to tell you all about it! 👀

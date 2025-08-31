@@ -1,6 +1,4 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/notas-sobre-publicar-meu-primeiro-ebook
 comments: true
 date: 2023-08-16 11:00:00+00:00
 description: Writing is hard, publishing is also hard, here's what I learned by doing

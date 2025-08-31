@@ -1,6 +1,5 @@
 ---
-author_note: Você pode ler esse artigo em Português
-author_note_link: https://jtemporal.com/trabalhando-remoto
+translator: false
 comments: true
 date: 2020-03-26 11:50:00-03:00
 description: Tips I use when I'm working remotely for you that are adapting yourself
