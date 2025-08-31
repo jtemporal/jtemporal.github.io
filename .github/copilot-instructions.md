@@ -50,6 +50,25 @@
 - Sidebar content adapts based on detected language using conditional logic
 - All language-dependent includes should use the language detection system
 
+## Translation Guidelines
+
+- When creating Portuguese translations of English posts, maintain the author's consistent Portuguese terminology and writing style
+- Use conversational tone with direct address to the reader ("você") in Portuguese content
+- Key Portuguese terminology to use consistently:
+  - "arquivo" for file
+  - "sites estáticos" for static sites
+  - "conteúdo" for content
+  - "passo a passo" for step-by-step
+  - "configurar" for configure/setup
+  - "recapitulando" for recap sections
+- Don't translate technical terms like "large language models", build, and language specific words
+- Technical explanations should be followed by practical examples, matching the author's tutorial style
+- Never use "aqui está como" for "here's how" transitions
+- Update internal links to point to Portuguese versions when available (e.g., "do-tema-ao-ar" for blog posts )
+- Preserve all technical code examples and formatting while translating explanatory text
+- If asked to generate a translation for a given blog post remember to update the original blog post to contain the `translations` tag and create the link between the different language versions
+- Update `posts_list` to reference relevant Portuguese tutorials when creating translations
+
 ## Asset Management
 
 - Use Cloudinary URLs for images: `https://res.cloudinary.com/jesstemporal/image/upload/...`
