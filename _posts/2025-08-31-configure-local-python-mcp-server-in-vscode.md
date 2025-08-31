@@ -14,7 +14,7 @@ tags:
 - english
 comments: true
 bookbanner: true
-description: 'TODO: add description'
+description: 'Learn how to integrate a custom Python MCP server with VS Code to use it directly in your development environment.'
 related: true
 posts_list:
 - publishing-a-website-with-jekyll
@@ -53,13 +53,22 @@ The MCP extension for VS Code automatically detects configured servers and provi
 
 ![MCP servers section in VS Code Extensions tab](https://res.cloudinary.com/jesstemporal/image/upload/v1756654100/mcp/local-mcp-in-vscode/00-mcp-servers-list_iaj2yl.png)
 
+## Prerequisites
+
+Before we begin, make sure you have:
+
+- **Python 3.8+** installed on your system
+- **uv** package manager ([installation guide](https://docs.astral.sh/uv/getting-started/installation/))
+- **VS Code** with the GitHub Copilot extension enabled
+- **A SerpAPI key** for search functionality ([get one here](https://serpapi.com/))
+
 ## Set Up Your Local Server
 
 Before configuring the MCP server in VS Code, you'll need to set up the project locally. Here are the steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/blog-search-mcp-in-python.git
+   git clone https://github.com/jtemporal/blog-search-mcp-in-python.git
    cd blog-search-mcp-in-python
    ```
 
@@ -90,7 +99,9 @@ The first step is to choose the transport layer. For our local Python server, se
 
 ## Adding the Command to Run Your MCP
 
-Next, you'll need to specify the command that VS Code should use to start your MCP server. Since our server has external dependencies (SerpAPI), we need to include them in the command:
+Next, you'll need to specify the command that VS Code should use to start your MCP server. Since our server has external dependencies (SerpAPI), we need to include them in the command.
+
+**Note:** The exact path to `uv` may vary depending on your installation method. If you installed via pip, it might be in a different location. You can find your uv path by running `which uv` in your terminal.
 
 ```shell
 ~/.local/bin/uv run --with google-search-results --with mcp[cli] mcp run ~/path/to/repository/blog-search-mcp-in-python/src/server.py
@@ -194,6 +205,15 @@ Finally, the results are displayed in the chat just like any other tool interact
 ![Final MCP result displayed in VS Code chat](https://res.cloudinary.com/jesstemporal/image/upload/v1756654115/mcp/local-mcp-in-vscode/16-mcp-result-in-vscode_xqxubw.png)
 
 This seamless integration means you can search your blog, retrieve content, and incorporate it into your current work without ever leaving VS Code.
+
+## Security Considerations
+
+When running local MCP servers, keep these security best practices in mind:
+
+- **Workspace-level configuration**: Always choose workspace-level over global configuration to limit exposure
+- **Review dependencies**: Ensure you trust all packages and dependencies your MCP server uses
+- **Network access**: Be aware that MCP servers can make network requests (like our SerpAPI calls)
+- **File access**: MCP servers have access to files within their configured scope
 
 ## Learnings
 
