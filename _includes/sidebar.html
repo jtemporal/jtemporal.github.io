@@ -1,17 +1,9 @@
 {% include language-detection.html %}
-{% if current_lang == "en" %}
-  {% assign knw_btn = "Learn more" %}
-  {% assign buy = "Buy on" %}
-  {% assign recent_articles_title = "Recent Articles" %}
-  {% assign related_articles_title = "Related Articles" %}
-  {% assign author_note_title = "Author Note" %}
-{% else %}
-  {% assign knw_btn = "Saiba mais" %}
-  {% assign buy = "Compre na" %}
-  {% assign recent_articles_title = "Artigos recentes" %}
-  {% assign related_articles_title = "Artigos relacionados" %}
-  {% assign author_note_title = "Nota da autora" %}
-{% endif %}
+{% assign knw_btn = site.languages[current_lang].text.know_more_button %}
+{% assign buy = site.languages[current_lang].text.buy_button %}
+{% assign recent_articles_title = site.languages[current_lang].text.recent_articles_title %}
+{% assign related_articles_title = site.languages[current_lang].text.related_articles_title %}
+{% assign author_note_title = site.languages[current_lang].text.author_note_title %}
 <div class="col-md-4 mt20">
         <div class="post-img">
           {% if page.image %}
