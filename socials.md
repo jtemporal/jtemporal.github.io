@@ -5,7 +5,9 @@ description: Socials
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
 permalink: "/socials/"
 lang: en
-translated: "/socials"
+translations:
+  - lang: pt
+    url: "/sociais"
 
 ---
 <div>
