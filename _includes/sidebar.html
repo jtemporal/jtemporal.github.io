@@ -5,12 +5,6 @@
   {% assign recent_articles_title = "Recent Articles" %}
   {% assign related_articles_title = "Related Articles" %}
   {% assign author_note_title = "Author Note" %}
-{% elsif current_lang == "fr" %}
-  {% assign knw_btn = "En savoir plus" %}
-  {% assign buy = "Acheter sur" %}
-  {% assign recent_articles_title = "Articles récents" %}
-  {% assign related_articles_title = "Articles connexes" %}
-  {% assign author_note_title = "Note de l'auteure" %}
 {% else %}
   {% assign knw_btn = "Saiba mais" %}
   {% assign buy = "Compre na" %}
@@ -40,12 +34,12 @@
 
         <!--sidebar book announcement-->
         <div class="mt10 recent">
-          <a href="{{site.banner_books[lang].book.page}}"><img src="{{ site.banner_books[lang].book.cover }}" alt="Book '{{ site.books[lang].book.title }}' Cover being displayed on an ipad"/></a>
-          <h3><a href="{{site.banner_books[lang].book.page}}" style="text-decoration: none;">{{ site.banner_books[lang].book.title }}</a></h3>
-          <p>{{ site.banner_books[lang].book.short_description }}</p>
-          <a href="{{site.banner_books[lang].book.gumroad}}"><button class="buy">{{buy}} Gumroad</button></a>
-          <a href="{{site.banner_books[lang].book.amazon}}"><button class="buy">{{buy}} Amazon</button></a>
-          <br><a href="{{site.banner_books[lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
+          <a href="{{site.banner_books[current_lang].book.page}}"><img src="{{ site.banner_books[current_lang].book.cover }}" alt="Book '{{ site.books[current_lang].book.title }}' Cover being displayed on an ipad"/></a>
+          <h3><a href="{{site.banner_books[current_lang].book.page}}" style="text-decoration: none;">{{ site.banner_books[current_lang].book.title }}</a></h3>
+          <p>{{ site.banner_books[current_lang].book.short_description }}</p>
+          <a href="{{site.banner_books[current_lang].book.gumroad}}"><button class="buy">{{buy}} Gumroad</button></a>
+          <a href="{{site.banner_books[current_lang].book.amazon}}"><button class="buy">{{buy}} Amazon</button></a>
+          <br><a href="{{site.banner_books[current_lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
         </div>
         {% if page.layout == "post" %}
           {% if page.related %}
