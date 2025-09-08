@@ -64,10 +64,15 @@
 - Don't translate technical terms like "large language models", build, and language specific words
 - Technical explanations should be followed by practical examples, matching the author's tutorial style
 - Never use "aqui está como" for "here's how" transitions
-- Update internal links to point to Portuguese versions when available (e.g., "do-tema-ao-ar" for blog posts )
+- Update internal links to point to Portuguese versions when available (e.g., "/do-tema-ao-ar" for blog posts)
 - Preserve all technical code examples and formatting while translating explanatory text
-- If asked to generate a translation for a given blog post remember to update the original blog post to contain the `translations` tag and create the link between the different language versions
+- When asked to generate a translation for a given blog post:
+  - Always create a new file with the translated content instead of providing the translation in chat
+  - Use the translation URL format with a preceding slash and the filename without extension (e.g., "/filename-without-extension-and-without-date")
+  - Remember to update the original blog post to contain the `translations` tag and create the link between the different language versions
 - Update `posts_list` to reference relevant Portuguese tutorials when creating translations
+  - Make sure you find the correct Portuguese filename that matches the content of the English post
+  - This list should contain only 3 relevant posts and for each blog post it should be the name of file without the date and extension
 
 ## Asset Management
 
