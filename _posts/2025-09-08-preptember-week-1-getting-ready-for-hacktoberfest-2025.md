@@ -25,6 +25,8 @@ tags:
 title: "First weekend of preptember 2025"
 author_note: false
 type: post
+translations:
+  pt: "/primeiro-fim-de-semana-de-preptember-2025"
 ---
 
 Hacktoberfest is just around the corner, and over this weekend I decided to start my _preptember_ tasks. So this is the story of the week 1 of preptember.
@@ -35,7 +37,7 @@ For those new to the term, "Preptember" is the month before Hacktoberfest where 
 
 ## GitFichas and Preptember
 
-Since open-sourcing GitFichas and starting to use [Mermaid](https://mermaid.js.org/) to build new study cards, it had an issue with properly displaying content. The Mermaid charts would sometimes fail to render correctly in the browser, causing layout issues and making the cards hard to read. So this weekend the challenge was to fix that issue.
+Since [open-sourcing GitFichas](https://jtemporal.com/gitfichas-is-now-open-source/) and starting to use [Mermaid](https://mermaid.js.org/) to build new study cards, it had an issue with properly displaying content. The Mermaid charts would sometimes fail to render correctly in the browser, causing layout issues and making the cards hard to read. So this weekend the challenge was to fix that issue.
 
 The problem was that no matter which way I worked on the CSS for the card generation it still couldn't fix the issue. So it felt natural to start generating SVGs instead of rendering Mermaid charts on load. This approach pre-generates the diagrams as static SVG files, eliminating the client-side rendering issues entirely.
 
