@@ -69,7 +69,12 @@
 - When asked to generate a translation for a given blog post:
   - Always create a new file with the translated content instead of providing the translation in chat
   - Use the translation URL format with a preceding slash and the filename without extension (e.g., "/filename-without-extension-and-without-date")
-  - Remember to update the original blog post to contain the `translations` tag and create the link between the different language versions
+  - Remember to update both blog posts to contain the `translations` field using the correct format:
+    ```yaml
+    translations:
+      - url: "/translation-url"
+      lang: "language-code"
+    ```
 - Update `posts_list` to reference relevant Portuguese tutorials when creating translations
   - Make sure you find the correct Portuguese filename that matches the content of the English post
   - This list should contain only 3 relevant posts and for each blog post it should be the name of file without the date and extension
