@@ -73,7 +73,7 @@
     ```yaml
     translations:
       - url: "/translation-url"
-      lang: "language-code"
+        lang: "language-code"
     ```
 - Update `posts_list` to reference relevant Portuguese tutorials when creating translations
   - Make sure you find the correct Portuguese filename that matches the content of the English post
