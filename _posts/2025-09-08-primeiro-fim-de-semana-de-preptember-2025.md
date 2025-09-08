@@ -27,7 +27,7 @@ author_note: false
 type: post
 translations:
   - url: "/preptember-week-1-getting-ready-for-hacktoberfest-2025"
-  lang: "en"
+    lang: "en"
 ---
 
 O Hacktoberfest está chegando, e durante este fim de semana decidi começar minhas tarefas de _preptember_. Então essa é a história da semana 1 do preptember.

@@ -27,7 +27,7 @@ author_note: false
 type: post
 translations:
   - url: "/primeiro-fim-de-semana-de-preptember-2025"
-  lang: "pt"
+    lang: "pt"
 ---
 
 Hacktoberfest is just around the corner, and over this weekend I decided to start my _preptember_ tasks. So this is the story of the week 1 of preptember.
