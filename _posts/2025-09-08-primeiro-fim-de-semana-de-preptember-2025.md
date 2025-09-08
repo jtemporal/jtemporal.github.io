@@ -26,7 +26,7 @@ title: "Primeiro fim de semana de preptember 2025"
 author_note: false
 type: post
 translations:
-  en: "preptember-week-1-getting-ready-for-hacktoberfest-2025"
+  en: "/preptember-week-1-getting-ready-for-hacktoberfest-2025"
 ---
 
 O Hacktoberfest está chegando, e durante este fim de semana decidi começar minhas tarefas de _preptember_. Então essa é a história da semana 1 do preptember.
