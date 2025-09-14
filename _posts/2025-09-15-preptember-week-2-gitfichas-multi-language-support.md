@@ -52,6 +52,7 @@ This is the list of work done:
 - [PR #205](https://github.com/jtemporal/gitfichas/pull/205): This PR implemented the multi-language support and closed the issue above 🎉
 - [PR #207](https://github.com/jtemporal/gitfichas/pull/207): which updated the content from the contact page in both Portuguese and English;
 - [PR #206](https://github.com/jtemporal/gitfichas/pull/206): Fixed a minor error in logic introduced in a previous weekend PR for the in browser mermaid rendering.
+- [PR #208](https://github.com/jtemporal/gitfichas/pull/208): Tiny rendering adjustments
 
 Now story time...
 

@@ -52,6 +52,7 @@ Esta é a lista do trabalho feito nesse final de semana:
 - [PR #205](https://github.com/jtemporal/gitfichas/pull/205): Este PR implementou o suporte a múltiplos idiomas e fechou a issue acima 🎉
 - [PR #207](https://github.com/jtemporal/gitfichas/pull/207): que atualizou o conteúdo da página de contato em português e inglês;
 - [PR #206](https://github.com/jtemporal/gitfichas/pull/206): Corrigiu um pequeno erro de lógica introduzido em um PR de fim de semana anterior para a renderização mermaid no navegador.
+- [PR #208](https://github.com/jtemporal/gitfichas/pull/208): Ajustes de renderização de fichas
 
 Senta que lá vem história...
 
