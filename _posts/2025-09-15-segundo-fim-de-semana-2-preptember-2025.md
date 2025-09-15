@@ -82,7 +82,7 @@ Então definitivamente _sorri_ quando o [Copilot apontou que meu PR](https://git
 
 ![Screenshot of GitHub Copilot review comment identifying that the PR goes against project guidelines by adding support for languages other than Portuguese and English](https://res.cloudinary.com/jesstemporal/image/upload/v1757816734/copilot-review-identifies-pr-going-against-the-projects-guidelines_x0vmbw.png){: style="box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.57); border-radius: 8px;"}
 
-Esse comentário erviu como um lembrete bem colocado para não apenas atualizar a documentação (o que fiz [motivada por outro comentário similar](https://github.com/jtemporal/gitfichas/pull/205#discussion_r2347005149)) mas também as instruções do Copilot já que elas são usadas nas revisões além do chat no VS Code.
+Esse comentário serviu como um lembrete bem colocado para não apenas atualizar a documentação (o que fiz [motivada por outro comentário similar](https://github.com/jtemporal/gitfichas/pull/205#discussion_r2347005149)) mas também as instruções do Copilot já que elas são usadas nas revisões além do chat no VS Code.
 
 ## Próximos passos
 
