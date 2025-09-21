@@ -7,8 +7,8 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/m
 lang: en
 layout: post
 posts_list:
+- preptember-week-1-getting-ready-for-hacktoberfest-2025
 - solving-conflicts
-- introducing-gitfichas
 - gitfichas-is-now-open-source
 related: true
 tags:
