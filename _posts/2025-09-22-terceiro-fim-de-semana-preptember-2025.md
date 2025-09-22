@@ -22,7 +22,7 @@ tags:
 - Git
 - português
 - preptember
-title: "Terceiro fim de semana de preptember 2025: Esquemas de cores e melhorias para Copilot no GitFichas"
+title: "Terceiro fim de semana de preptember 2025: Cores e IA no GitFichas"
 author_note: false
 type: post
 translations:
