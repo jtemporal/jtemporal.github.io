@@ -80,7 +80,7 @@ Let me explain. So far GitFichas had only support for two spoken languages: Port
 
 So I definitely _smirked_ when [Copilot pointed out that my PR](https://github.com/jtemporal/gitfichas/pull/205#discussion_r2347005159) was going against the project's own guidelines for only supporting Portuguese and English.
 
-![Screenshot of GitHub Copilot review comment identifying that the PR goes against project guidelines by adding support for languages other than Portuguese and English](https://res.cloudinary.com/jesstemporal/image/upload/v1757816734/copilot-review-identifies-pr-going-against-the-projects-guidelines_x0vmbw.png){: style="box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.57); border-radius: 8px;"}
+![Screenshot of GitHub Copilot review comment identifying that the PR goes against project guidelines by adding support for languages other than Portuguese and English](https://res.cloudinary.com/jesstemporal/image/upload/v1757816734/copilot-review-identifies-pr-going-against-the-projects-guidelines_x0vmbw.png){: style="box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.57); border-radius: 8px; border: 1px solid #b6b6b6ff"}
 
 Anyways it served as a well-placed reminder to not only update the documentation (which I did [prompted by another similar comment](https://github.com/jtemporal/gitfichas/pull/205#discussion_r2347005149)) but also the Copilot instructions as they are used in the reviews.
 
