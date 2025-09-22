@@ -30,11 +30,9 @@ translations:
     lang: "pt"
 ---
 
-Weekend 3 of preptember is here and this one was a bit different from the previous weekends...
+Weekend 3 of preptember is here and this one was a bit different from the previous weekends... This weekend was packed with preparation for [Oktane](https://www.okta.com/oktane/) where I'll be presenting a workshop, so my time was more limited than usual. But I still managed to close an issue that was on the list. 🎉🎉
 
-**TLDR:** One PR implementing the 6 color schemes so cards can look a little bit different from each other, plus some improvements to the Copilot instructions for better AI-assisted contributions.
-
-This weekend was packed with preparation for [Oktane](https://www.okta.com/oktane/) where I'll be presenting a workshop, so my time was more limited than usual. But I still managed to close an issue that's on the list. 🎉🎉
+**TLDR:** One PR implementing 6 color schemes so cards can look a little bit different from each other, plus some improvements to the Copilot instructions for better AI-assisted contributions.
 
 ## Recap
 
@@ -61,17 +59,21 @@ The color scheme implementation brings back the visual variety that made the ori
 5. Purple and Pink
 6. Light Green
 
-The colors are automatically assigned based on the card number using the modulo operation, so each card gets a consistent appearance no matter how mant builds we have.
+The colors are automatically assigned based on the card number using the modulo operation, so each card gets a consistent appearance no matter how many builds we have.
 
-Each color scheme is made by a color pair so we can have sub and pretitles in a different color from the main title color like this:
+Each color scheme is made by a color pair so we can have subtitles and pretitles in a different color from the main title color like the ones below, at the top the original image based card, at the bottom the new Mermaid-powered card:
 
-TODO: add image
+<center>
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1758551570/gitfichas/IMG_0782_whaaw8.png" alt="at the top the original image based card, at the bottom the new Mermaid-powered card" style="box-shadow: 4px 4px 4px rgba(51,51,51,0.57); border-radius: 8px; max-width: 60%; border: 1px solid #b6b6b6ff; " />
+</center>
 
 Instead of the flat color from before:
 
-TODO: add image
+<center>
+<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1758551572/gitfichas/IMG_0778_qg1tqo.jpg" alt="Previous mermaid title color scheme with only one color" style="box-shadow: 4px 4px 4px rgba(51,51,51,0.57); border-radius: 8px; max-width: 60%; border: 1px solid #b6b6b6ff; " />
+</center>
 
-You can check all the pairings in this file.
+You can check all the [pairings in this file](https://github.com/jtemporal/gitfichas/blob/3a23f984df5d9536ac6176f8367cb872d79c1b07/_includes/mermaid-graphs.html#L11-L29). You also may have noticed that we now have the border on the title portion of the card now as well. 🎉
 
 ### Preparing for AI-assisted Hacktoberfest
 
@@ -101,16 +103,16 @@ GitFichas is almost ready for Hacktoberfest!
 
 Speaking of being busy, most of this weekend was spent preparing for my trip to Oktane, not only doing a final review and rehearsals of the workshop I'm presenting but also making sure the clothes are ready for packing and yes [I still follow my own traveling tips](https://jtemporal.com/seven-tips-for-traveling-with-ease/).
 
-It's always exciting to share knowledge with the community, even when it means less time for side projects. As a developer advocate I love meeting developers where they are and both speaking at conferences and open source work are important parts of giving back to the community for me.
+It's always exciting to share knowledge with the community, even when it means less time for side projects. As a developer advocate, I love meeting developers where they are and both speaking at conferences and open source work are important parts of giving back to the community for me.
 
 ## Join me
 
 As always, if you're planning to contribute to open source during Hacktoberfest, now's the time to start exploring projects and getting familiar with their contribution processes.
 
-Did you know that the registration for Hacktoberfest 2025 is already open? You can register now but it os worth reminding that the PRs will only count during the month of October. I'm already registered. 👇
+Did you know that the registration for Hacktoberfest 2025 is already open? You can register now but it is worth reminding that the pull requests will only count during the month of October. I'm already registered. 👇
 
 <center>
-<img alt="jtemporal hacktoberfest profile created" src="https://res.cloudinary.com/jesstemporal/image/upload/v1758493970/jtemporal-hacktoberfest-profile-created.png"  style="max-width: 60%" />
+<img alt="jtemporal hacktoberfest profile created" src="https://res.cloudinary.com/jesstemporal/image/upload/v1758493970/jtemporal-hacktoberfest-profile-created.png"  style="max-width: 60%; border-radius: 8px; box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.57);" />
 </center>
 
 
