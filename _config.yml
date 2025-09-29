@@ -105,6 +105,8 @@ banner_books:
 collections:
   books:
       output: true
+  hacktoberfest_projects_2019:
+    projects: true
   hacktoberfest_projects_2024:
     projects: true
   hacktoberfest_projects_2025:
