@@ -2,7 +2,7 @@
 bookbanner: true
 comments: true
 date: 2025-09-29T06:00:00+00:00
-description: Planos mudam e menos trabalho porque descansar também é importante 🎨
+description: Planos mudam e menos trabalho porque descansar também é importante
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: pt
 layout: post

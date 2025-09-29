@@ -2,7 +2,7 @@
 bookbanner: true
 comments: true
 date: 2025-09-29T04:00:00+00:00
-description: Plans change and less work because resting is also important 🎨
+description: Plans change and less work because resting is also important
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
 layout: post
