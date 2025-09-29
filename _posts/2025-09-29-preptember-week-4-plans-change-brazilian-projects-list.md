@@ -27,7 +27,7 @@ title: "Preptember 2025 week 4: Final week is here, plans change and that's fine
 author_note: false
 type: post
 translations:
-  - url: "/quarto-fim-de-semana-preptember-2025"
+  - url: "/quarto-e-ultimo-fds-de-preptember-2025"
     lang: "pt"
 ---
 
@@ -117,7 +117,7 @@ Now I had to pick a path and fix the problem of my own tired mind creation:
 
 If you read until now, you can probably guess what I did. 👀
 
-Yep, I picked number 2.
+Yep, I picked solution number 2.
 
 In my brain, the easy way to do this was to:
 
