@@ -107,6 +107,8 @@ collections:
       output: true
   hacktoberfest_projects_2024:
     projects: true
+  hacktoberfest_projects_2025:
+    projects: true
 
 # Sass style
 sass:
