@@ -100,10 +100,12 @@ banner_books:
 
 # Collections
 collections:
-  hacktoberfest_projects:
-    projects: true
   books:
       output: true
+  hacktoberfest_projects_2024:
+    projects: true
+  hacktoberfest_projects_2025:
+    projects: true
 
 # Sass style
 sass:

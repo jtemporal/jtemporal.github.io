@@ -74,7 +74,7 @@ Happy Hacking! 🎉
 
 ---
 
-{% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
+{% assign grouped = site.hacktoberfest_projects_2024 | group_by: "principal_language" %}
 
 ## Acesso rápido por linguagem
 
