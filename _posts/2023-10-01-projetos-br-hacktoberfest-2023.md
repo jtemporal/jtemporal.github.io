@@ -79,7 +79,7 @@ Happy Hacking! 🎉
 
 ---
 
-{% assign grouped = site.hacktoberfest_projects | group_by: "principal_language" %}
+{% assign grouped = site.hacktoberfest_projects_2023 | group_by: "principal_language" %}
 {% for group in grouped %}
 <h2> {{ group.name }} </h2>
 {% for item in group.items %}
