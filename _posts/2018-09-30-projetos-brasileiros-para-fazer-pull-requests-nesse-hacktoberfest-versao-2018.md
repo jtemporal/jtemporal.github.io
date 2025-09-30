@@ -16,6 +16,11 @@ tags:
 comments: true
 
 ---
+
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
+
+---
+
 Ano passado eu fiz [uma lista de projetos brasileiros que estavam precisando de uma mãozinha](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0) e que qualquer pessoa poderia fazer um pull request.
 
 Então esse ano vamos fazer isso de novo! Ebaaa!

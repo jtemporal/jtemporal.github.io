@@ -26,7 +26,7 @@ posts_list:
 
 ---
 
-[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2024/).
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: 'Projetos Brasileiros para contribuir nesse #Hacktoberfest 2024'
+title: 'Projetos Brasileiros para contribuir nesse #Hacktoberfest 2025'
 layout: post
-date: 2024-10-02T05:00:00.000+00:00
+date: 2025-09-30T05:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 type: post
 lang: pt
 tags:
 - pull request
 - pull requests
-- contribuitions
+- contribuições
 - open-source
 - hacktoberfest
 - GitHub
@@ -17,7 +17,7 @@ tags:
 - português
 comments: true
 bookbanner: true
-description: 'Versão 2024 da lista de projetos brasileiros para fazer pull requests no #Hacktoberfest'
+description: 'Versão 2025 da lista de projetos brasileiros para fazer pull requests na #Hacktoberfest'
 related: true
 posts_list:
 - adicionando-um-novo-projeto-na-lista-da-hacktoberfest-2019
@@ -26,11 +26,7 @@ posts_list:
 
 ---
 
-[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
-
----
-
-Ontem começou Outubro e mais uma vez o mês inteirinho de celebração de open source! A festa que todo entusiasta e pessoas mantenedoras de open source espera está aqui é hora de  #Hacktoberfest.
+O mês da festa que celebra open source no mundo todo está chegando e a #Hacktoberfest 2025 está aqui!
 
 Por aqui você confere desde 2017 essa lista curada especialmente para te ajudar a encontrar projetos brasileiros para contribuir!
 
@@ -39,21 +35,27 @@ Por aqui você confere desde 2017 essa lista curada especialmente para te ajudar
 As regras para adicionar projetos nessa lista:
 
 1. Ser um projeto criado/desenvolvido/mantido por pessoas brasileiras;
-2. Precisa ser um **projeto**, não pode ser uma organização, caso tenha mais de um projeto da organização precisa ser um PR por projeto com uma entrada por projeto;
+2. Precisa ser um **projeto**, não pode ser uma organização, caso tenha mais de um projeto da organização adicione uma entrada por projeto;
 3. Ter pelo menos uma *issue* aberta;
 4. Ser um repositório válido, ou seja, não arquivado.
 
-## Avisos para 2024
+## Avisos para 2025
+
+Antes de mais nada não esqueça de [se registrar para a Hacktoberfest aqui](https://hacktoberfest.com/).
 
 ## Prêmios
 
-Esse ano a Hacktoberfest **não** terá camiseta, se o seu objetivo é ganhar camisetas esse evento não é para você. Os prêmios serão virtuais no formato de badges Holopin.
+Mais uma vez a Hacktoberfest irá premiar seus participantes com prêmios virtuais no formato de badges Holopin. Você consegue ver [as minhas aqui](https://www.holopin.io/@jesstemporal#badges) por exemplo.
+
+Além disso, esse ano as pessoas podem fazer de 4 a 6 pull requests, quem completar 6 PRs vai ganhar uma customização a mais na sua badge.
+
+**Camisetas:** também teremos camisetas, porém serão apenas 10.000 camisetas para pessoas que completarem 6 PRs em projetos elegíveis. Também serão plantadas 10.000 árvores juntamente com as camisetas e uma badge correspondente.
 
 ## Adicionando projetos nessa lista
 
 Esse ano vamos manter a mesma forma de aumentar essa lista com mais projetos, como sempre, apenas abrindo um PR com o projeto. [As instruções de como adicionar projetos tão aqui](https://jtemporal.com/adicionando-um-novo-projeto-na-lista-da-hacktoberfest-2019/). Todo mundo segue ganhando <3.
 
-Os projetos continuam separados pela linguagem principal pra facilitar as buscas pra quem lê e também em ordem alfabética pela linguagem. 😉
+Os projetos continuam separados pela linguagem principal para facilitar as buscas e também em ordem alfabética pela linguagem. 😉
 
 ## Qualidade > Quantidade
 
@@ -70,15 +72,15 @@ Relembrando que para tornar seu PR válido para a hacktoberfest você precisa te
 
 Mais informações no [site oficial (em inglês)](https://hacktoberfest.com/).
 
-Meu livro [“O grande Microlivro de Git” está com desconto 30% na Gumroad](https://jessicatemporal.gumroad.com/l/microlivrodegit/hacktoberfest) tanto em português quanto inglês. Se você preferir, [ele também está disponível na Amazon (sem desconto)](https://amzn.to/4erFcLU).
+Você pode comprar a versão virtual do meu livro [“O grande Microlivro de Git” na Amazon, Gumroad ou no Pix](https://jtemporal.com/microlivrodegit/) tanto em português quanto inglês.
 
-Por último, nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilhar ✨](https://jtemporal.com/5-dicas-para-fazer-o-seu-pull-request-brilhar/) e pode ser útil.
+Nesse outro artigo tem [5 Dicas Para Fazer o Seu Pull Request Brilhar ✨](https://jtemporal.com/5-dicas-para-fazer-o-seu-pull-request-brilhar/) e por último confira o [GitFichas](https://gitfichas.com) para aprender ainda mais sobre Git (que também está aceitando pull requests, fica a dica).
 
 Happy Hacking! 🎉
 
 ---
 
-{% assign grouped = site.hacktoberfest_projects_2024 | group_by: "principal_language" %}
+{% assign grouped = site.hacktoberfest_projects_2025 | group_by: "principal_language" %}
 
 ## Acesso rápido por linguagem
 
