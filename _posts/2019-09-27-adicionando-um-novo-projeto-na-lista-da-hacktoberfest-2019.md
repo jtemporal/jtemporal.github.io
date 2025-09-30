@@ -2,6 +2,7 @@
 layout: post
 title: 'Adicionando um novo projeto na lista da #Hacktoberfest'
 date: 2019-09-29T11:00:00.000+00:00
+last_modified_at: 2025-09-30T03:00:00.000+00:00
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 type: post
 bookbanner: true
@@ -16,7 +17,7 @@ tags:
 - github
 - tutorial
 comments: true
-description: Vou te mostrar o passo a passo pra colocar um repo na lista de 2019
+description: Vou te mostrar o passo a passo pra colocar um repo na lista de projetos
 related: true
 posts_list:
 - dicas-para-fazer-o-seu-pull-request-brilhar
@@ -24,11 +25,16 @@ posts_list:
 - resolvendo-conflitos
 
 ---
----
-Nota da autora: As instruções a seguir foram criadas em 2019, mas a forma de atualizar a lista de projetos se manteve desde então. Então mesmo que você queira atualizar a lista desse ano os passos são os mesmo 😉
+
 ---
 
-A lista de projetos brasileiros para contribuir nesse Hacktoberfest de 2019 é gerada automáticamente usando algumas mágicas do Liquid <!--como eu explico nesse outro artigo-->. Então, vamos ver como podemos adicionar um novo projeto nessa lista por meio de um _pull request_?
+Nota da autora: As instruções a seguir foram criadas em 2019, mas a forma de atualizar a lista de projetos se manteve desde então. Então mesmo que você queira atualizar a lista desse ano os passos são os mesmos 😉
+
+Vale salientar que esse ano a lista agora tem uma pasta dedicada chamada `_hacktoberfest_projects_2025/`. O blog post foi atualizado para usar a nova pasta.
+
+---
+
+A lista de projetos brasileiros para contribuir nesse Hacktoberfest de 2025 é gerada automaticamente usando algumas mágicas do Liquid <!--como eu explico nesse outro artigo-->. Então, vamos ver como podemos adicionar um novo projeto nessa lista por meio de um _pull request_?
 
 <center>
 <img src="/images/showtime.gif" alt="Gif com o genio do alladin live action falando 'É hora do show!'"/>
@@ -66,17 +72,17 @@ Esse arquivo é o template de informações necessárias para mostrar corretamen
 
 ## Onde moram os projetos
 
-Ainda no repositório desse site, vá até a pasta `_hacktoberfest_projects/`, lá é onde moram os dados de todos os projetos que estão sendo mostrados na lista de 2019:
-
+Ainda no repositório desse site, vá até a pasta `_hacktoberfest_projects_2025/`, lá é onde moram os dados de todos os projetos que estão sendo mostrados na lista de 2025.
+<!-- 
 <center>
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/hacktober_2019/hacktober_2019_passo_3.gif" alt="Gif mostrando o passo a passo descrito acima"/>
-</center>
+</center> -->
 
-Na pasta `_hacktoberfest_projects/` temos muitas pastas, elas existem apenas como por questões organizacionais, cada pasta tem o nome de uma linguagem, e o projeto que você quer adicionar deve ser acrescentado na pasta correspondente à linguagem principal do projeto.
+Na pasta `_hacktoberfest_projects_2025/` temos muitas pastas, elas existem apenas por questões organizacionais, cada pasta tem o nome de uma linguagem, e o projeto que você quer adicionar deve ser acrescentado na pasta correspondente à linguagem principal do projeto.
 
 ## Escolhendo um projeto para adicionar
 
-Agora, numa nova página, abra o repósitorio que você quer adicionar na lista. Aqui vamos usar de exemplo o [Guia do Cientista de Dados das Galáxias](https://github.com/PizzaDeDados/datascience-pizza) (Guia).
+Agora, numa nova página, abra o repositório que você quer adicionar na lista. Aqui vamos usar de exemplo o [Guia do Cientista de Dados das Galáxias](https://github.com/PizzaDeDados/datascience-pizza) (Guia).
 
 <center>
 <img src="/images/repo-guia-github.png" alt="Imagem mostrando o repositório Guia do Cientista de Dados das Galáxias"/>
@@ -86,11 +92,13 @@ Agora, numa nova página, abra o repósitorio que você quer adicionar na lista.
 
 ## Criando um arquivo para o projeto
 
-O Guia é um projeto agnóstico de linguagem, afinal é apenas um grande conjunto de arquivos em markdown, sendo assim, vamos criar o arquivo do Guia na pasta  `Variados`. Novamente na página do site, navegue até pasta  `_hacktoberfest_projects/` e em seguida entre na pasta `Variados`. Para criar o arquivo clique em `Create new file`, em seguida cole o conteúdo que copiamos do arquivo `repo-owner+repo-name.md` no espaço de conteúdo, dê o nome do arquivo seguindo o padrão `<nome-do-dono-do-repo>+<nome-nome-do-repo>.md`. Veja:
+O Guia é um projeto agnóstico de linguagem, afinal é apenas um grande conjunto de arquivos em markdown, sendo assim, vamos criar o arquivo do Guia na pasta  `Variados`. Novamente na página do site, navegue até pasta  `_hacktoberfest_projects_2025/` e em seguida entre na pasta `Variados`. Para criar o arquivo clique em `Create new file`, em seguida cole o conteúdo que copiamos do arquivo `repo-owner+repo-name.md` no espaço de conteúdo, dê o nome do arquivo seguindo o padrão `<nome-do-dono-do-repo>+<nome-nome-do-repo>.md`.
+
+<!-- Veja:
 
 <center>
 <img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/hacktober_2019/hacktober_2019_passo_5.gif" alt="Gif mostrando o passo a passo descrito acima"/>
-</center>
+</center> -->
 
 ## Preenchendo as informações
 
@@ -145,7 +153,7 @@ Nesse caso é mais fácil de resolver, basta colocar no campo `description` o co
 
 Então pra aquela galera que só precisa de uma explicação mais concisa aqui vai! São só três passos!
 
-1. Crie um arquivo na pasta correspondente à linguagem principal do projeto que você quer adicionar, use o template disponível aqui e não se esqueça de nomear o arquivo seguindo a convenção `<nome-do-dono-do-repo>+<nome-nome-do-repo>.md`;
+1. Crie um arquivo na pasta correspondente à linguagem principal do projeto que você quer adicionar, use o [template disponível aqui](https://github.com/jtemporal/jtemporal.github.io/blob/main/.github/repo-owner%2Brepo-name.md) e não se esqueça de nomear o arquivo seguindo a convenção `<nome-perfil>+<nome-nome-do-repo>.md`;
 2. Preencha os campos com as informações do projeto que você quer adicionar;
 3. Abra o PR.
 
