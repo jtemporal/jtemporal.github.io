@@ -20,6 +20,11 @@ comments: true
 description: 'Versão 2021 da lista de projetos brasileiros para contribuir no #Hacktoberfest'
 
 ---
+
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
+
+---
+
 Outubro chegou e com ele chegou o #Hacktoberfest, todo ano tenho feito (às vezes com ajuda das amizades valeu demais [@anaschwendler](https://twitter.com/anaschwendler)) a lista para que você possa contribuir durante o #Hacktoberfest.
 
 E é chegado o momento da lista para esse ano! Então aqui vai! Uma lista toda repleta de projetos pra você contribuir nesse mês de Outubro!

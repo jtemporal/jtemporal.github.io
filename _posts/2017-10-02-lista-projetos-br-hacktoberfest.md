@@ -15,6 +15,10 @@ tags:
 comments: true
 ---
 
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
+
+---
+
 Se não sabe ainda o que é o Hacktoberfest [da uma olhadinha nesse outro post que explico o que é e como participar](https://jtemporal.com/hacktoberfest-2017/). Pra quem já sabe e não faz ideia de quais projetos contribuir, aqui tem uma lista de alguns projetos que valem a pena dar uma mão ;)
 
 ---

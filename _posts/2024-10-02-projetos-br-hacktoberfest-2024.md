@@ -26,6 +26,10 @@ posts_list:
 
 ---
 
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
+
+---
+
 Ontem começou Outubro e mais uma vez o mês inteirinho de celebração de open source! A festa que todo entusiasta e pessoas mantenedoras de open source espera está aqui é hora de  #Hacktoberfest.
 
 Por aqui você confere desde 2017 essa lista curada especialmente para te ajudar a encontrar projetos brasileiros para contribuir!

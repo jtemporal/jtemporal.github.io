@@ -19,6 +19,11 @@ comments: true
 description: 'Versão 2020 da lista de projetos brasileiros para contribuir no #Hacktoberfest'
 
 ---
+
+[Edição atual da lista disponível aqui](https://jtemporal.com/projetos-br-hacktoberfest-2025/).
+
+---
+
 Depois dos sucessos das listas [de 2017](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0), [de 2018](https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411) e [de 2019](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-o-retorno/), esse é o QUARTO ano que estou fazendo a lista/curadoria de projetos brasileiros para contribuir no #Hacktoberfest (esse ano invadido pela [@anaschwendler](https://twitter.com/anaschwendler)!!!!)
 
 Então aqui vai! Uma lista toda repleta de projetos pra você contribuir nesse mês de Outubro!
