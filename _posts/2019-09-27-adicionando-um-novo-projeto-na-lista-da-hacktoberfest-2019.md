@@ -73,10 +73,6 @@ Esse arquivo é o template de informações necessárias para mostrar corretamen
 ## Onde moram os projetos
 
 Ainda no repositório desse site, vá até a pasta `_hacktoberfest_projects_2025/`, lá é onde moram os dados de todos os projetos que estão sendo mostrados na lista de 2025.
-<!-- 
-<center>
-<img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/hacktober_2019/hacktober_2019_passo_3.gif" alt="Gif mostrando o passo a passo descrito acima"/>
-</center> -->
 
 Na pasta `_hacktoberfest_projects_2025/` temos muitas pastas, elas existem apenas por questões organizacionais, cada pasta tem o nome de uma linguagem, e o projeto que você quer adicionar deve ser acrescentado na pasta correspondente à linguagem principal do projeto.
 
@@ -93,12 +89,6 @@ Agora, numa nova página, abra o repositório que você quer adicionar na lista.
 ## Criando um arquivo para o projeto
 
 O Guia é um projeto agnóstico de linguagem, afinal é apenas um grande conjunto de arquivos em markdown, sendo assim, vamos criar o arquivo do Guia na pasta  `Variados`. Novamente na página do site, navegue até pasta  `_hacktoberfest_projects_2025/` e em seguida entre na pasta `Variados`. Para criar o arquivo clique em `Create new file`, em seguida cole o conteúdo que copiamos do arquivo `repo-owner+repo-name.md` no espaço de conteúdo, dê o nome do arquivo seguindo o padrão `<nome-do-dono-do-repo>+<nome-nome-do-repo>.md`.
-
-<!-- Veja:
-
-<center>
-<img src="https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/main/images/hacktober_2019/hacktober_2019_passo_5.gif" alt="Gif mostrando o passo a passo descrito acima"/>
-</center> -->
 
 ## Preenchendo as informações
 
