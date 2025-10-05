@@ -28,7 +28,7 @@ title: "Hacktoberfest 2025: Diário de Campo, Semana 1"
 author_note: false
 type: post
 translations:
-  - url: "/field-notes-hacktoberfest-2025-week-1"
+  - url: "/hacktoberfest-2025-week-1"
     lang: "en"
 ---
 
