@@ -1,7 +1,4 @@
 
-{% assign knw_btn = site.languages[current_lang].text.know_more_button %}
-{% assign buy = site.languages[current_lang].text.buy_button %}
-
 {% assign author_note_title = site.languages[current_lang].text.author_note_title %}
 <div class="col-md-4 mt20">
         <div class="post-img">
@@ -23,20 +20,9 @@
         </div>
         {% endif %}
 
-        {% include language-detection.html %}
-
         {% if page.layout == "post" %}
           {% include related-articles-widget.html %}
-
-          <!--sidebar book announcement-->
-          <div class="mt10 recent">
-            <a href="{{site.banner_books[current_lang].book.page}}"><img src="{{ site.banner_books[current_lang].book.cover }}" alt="Book '{{ site.books[current_lang].book.title }}' Cover being displayed on an ipad"/></a>
-            <h3><a href="{{site.banner_books[current_lang].book.page}}" style="text-decoration: none;">{{ site.banner_books[current_lang].book.title }}</a></h3>
-            <p>{{ site.banner_books[current_lang].book.short_description }}</p>
-            <a href="{{site.banner_books[current_lang].book.gumroad}}"><button class="buy">{{buy}} Gumroad</button></a>
-            <a href="{{site.banner_books[current_lang].book.amazon}}"><button class="buy">{{buy}} Amazon</button></a>
-            <br><a href="{{site.banner_books[current_lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
-          </div>
+          {% include book-widget.html %}
         {% endif %}
         <br>
 </div>
