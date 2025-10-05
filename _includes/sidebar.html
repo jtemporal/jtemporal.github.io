@@ -16,6 +16,9 @@
         {% endif %}
 
         {% if page.layout == "post" %}
+          {% if page.series %}
+            {% include series-widget.html %}
+          {% endif %}
           {% include related-articles-widget.html %}
           {% include book-widget.html %}
         {% endif %}
