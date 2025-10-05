@@ -8,7 +8,7 @@ lang: en
 layout: post
 posts_list:
 - solving-conflicts
-- introducing-gitfichas
+- 5-tips-to-make-your-pull-request-shine
 - gitfichas-is-now-open-source
 related: true
 series: "Preptember 2025 Weekly"

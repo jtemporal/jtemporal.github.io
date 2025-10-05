@@ -7,9 +7,9 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/m
 lang: en
 layout: post
 posts_list:
-- preptember-week-3-gitfichas-color-schemes
-- preptember-week-2-gitfichas-multi-language-support
-- preptember-week-1-getting-ready-for-hacktoberfest-2025
+- solving-conflicts
+- 5-tips-to-make-your-pull-request-shine
+- gitfichas-is-now-open-source
 related: true
 series: "Preptember 2025 Weekly"
 series_order: 4
