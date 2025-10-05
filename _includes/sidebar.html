@@ -1,8 +1,7 @@
-{% include language-detection.html %}
+
 {% assign knw_btn = site.languages[current_lang].text.know_more_button %}
 {% assign buy = site.languages[current_lang].text.buy_button %}
-{% assign recent_articles_title = site.languages[current_lang].text.recent_articles_title %}
-{% assign related_articles_title = site.languages[current_lang].text.related_articles_title %}
+
 {% assign author_note_title = site.languages[current_lang].text.author_note_title %}
 <div class="col-md-4 mt20">
         <div class="post-img">
@@ -24,45 +23,20 @@
         </div>
         {% endif %}
 
-        <!--sidebar book announcement-->
-        <div class="mt10 recent">
-          <a href="{{site.banner_books[current_lang].book.page}}"><img src="{{ site.banner_books[current_lang].book.cover }}" alt="Book '{{ site.books[current_lang].book.title }}' Cover being displayed on an ipad"/></a>
-          <h3><a href="{{site.banner_books[current_lang].book.page}}" style="text-decoration: none;">{{ site.banner_books[current_lang].book.title }}</a></h3>
-          <p>{{ site.banner_books[current_lang].book.short_description }}</p>
-          <a href="{{site.banner_books[current_lang].book.gumroad}}"><button class="buy">{{buy}} Gumroad</button></a>
-          <a href="{{site.banner_books[current_lang].book.amazon}}"><button class="buy">{{buy}} Amazon</button></a>
-          <br><a href="{{site.banner_books[current_lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
-        </div>
+        {% include language-detection.html %}
+
         {% if page.layout == "post" %}
-          {% if page.related %}
-            <div class="mt10 recent">
-                <h2>{{related_articles_title}}</h2>
-                {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
-                {% for related_post in related_post_list %}
-                  {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
-                  {% for post in site.posts %}
-                    {% if post.url == related_post_url %}
-                    <ul>
-                      <li>
-                        <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                      </li>
-                    </ul>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-            </div>
-          {% else %}
-            <div class="mt10 recent">
-              <h2>{{recent_articles_title}}</h2>
-              <ul>
-                {% for post in site.related_posts limit:3 %}
-                  <li>
-                    <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          {% endif %}
+          {% include related-articles-widget.html %}
+
+          <!--sidebar book announcement-->
+          <div class="mt10 recent">
+            <a href="{{site.banner_books[current_lang].book.page}}"><img src="{{ site.banner_books[current_lang].book.cover }}" alt="Book '{{ site.books[current_lang].book.title }}' Cover being displayed on an ipad"/></a>
+            <h3><a href="{{site.banner_books[current_lang].book.page}}" style="text-decoration: none;">{{ site.banner_books[current_lang].book.title }}</a></h3>
+            <p>{{ site.banner_books[current_lang].book.short_description }}</p>
+            <a href="{{site.banner_books[current_lang].book.gumroad}}"><button class="buy">{{buy}} Gumroad</button></a>
+            <a href="{{site.banner_books[current_lang].book.amazon}}"><button class="buy">{{buy}} Amazon</button></a>
+            <br><a href="{{site.banner_books[current_lang].book.page}}"><button class="buy">{{knw_btn}}</button></a>
+          </div>
         {% endif %}
         <br>
 </div>
