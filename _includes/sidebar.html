@@ -1,26 +1,26 @@
 <div class="col-md-4 mt20">
-        <div class="post-img">
-          {% if page.image %}
-            {% if page.image contains "http" %}
-              <img width="100%" style="border-radius: 3%;" src="{{page.image}}" alt="{{page.title}}">
-            {% else %}
-              <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
-            {% endif %}
-          {% else %}
-            <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{page.title}}">
-          {% endif %}
-        </div>
+  <div class="post-img">
+    {% if page.image %}
+      {% if page.image contains "http" %}
+        <img width="100%" style="border-radius: 3%;" src="{{page.image}}" alt="{{page.title}}">
+      {% else %}
+        <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{page.image}}" alt="{{page.title}}">
+      {% endif %}
+    {% else %}
+      <img width="100%" style="border-radius: 3%;" src="{{site.baseurl}}{{site.url}}{{site.default-image}}" alt="{{page.title}}">
+    {% endif %}
+  </div>
 
-        {% if page.author_note == true %}
-          {% include author-note-widget.html %}
-        {% endif %}
+  {% if page.author_note == true %}
+    {% include author-note-widget.html %}
+  {% endif %}
 
-        {% if page.layout == "post" %}
-          {% if page.series %}
-            {% include series-widget.html %}
-          {% endif %}
-          {% include related-articles-widget.html %}
-          {% include book-widget.html %}
-        {% endif %}
-        <br>
+  {% if page.layout == "post" %}
+    {% if page.series %}
+      {% include series-widget.html %}
+    {% endif %}
+    {% include related-articles-widget.html %}
+    {% include book-widget.html %}
+  {% endif %}
+  <br>
 </div>
