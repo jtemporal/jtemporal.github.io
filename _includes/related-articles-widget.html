@@ -1,0 +1,32 @@
+{% include language-detection.html %}
+{% assign recent_articles_title = site.languages[current_lang].text.recent_articles_title %}
+{% assign related_articles_title = site.languages[current_lang].text.related_articles_title %}
+{% if page.related %}
+<div class="mt10 recent">
+    <h2>{{related_articles_title}}</h2>
+    {% assign related_post_list = page.posts_list | join: ',' | split: ','  %}
+    {% for related_post in related_post_list %}
+        {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
+        {% for post in site.posts %}
+        {% if post.url == related_post_url %}
+        <ul>
+            <li>
+            <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+            </li>
+        </ul>
+        {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+{% else %}
+<div class="mt10 recent">
+    <h2>{{recent_articles_title}}</h2>
+    <ul>
+    {% for post in site.posts limit:3 %}
+        <li>
+        <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}

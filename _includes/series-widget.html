@@ -1,0 +1,22 @@
+{% include language-detection.html %}
+{% assign series_posts = site.posts | where: "series", page.series | sort: "series_order" %}
+{% if series_posts.size > 1 %}
+    <div class="mt10 recent">
+    {% if current_lang == "en" %}
+        <h4>📚 Series: {{ page.series }}</h4>
+    {% else %}
+        <h4>📚 Série: {{ page.series }}</h4>
+    {% endif %}
+    <ol>
+        {% for post in series_posts %}
+        <li>
+            {% if post.url == page.url %}
+            <p><strong>{{ post.title }}</strong></p>
+            {% else %}
+            <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></p>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ol>
+    </div>
+{% endif %}
