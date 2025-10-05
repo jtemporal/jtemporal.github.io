@@ -11,6 +11,8 @@ posts_list:
 - preptember-week-1-getting-ready-for-hacktoberfest-2025
 - solving-conflicts
 related: true
+series: "Preptember 2025 Weekly"
+series_order: 3
 tags:
 - pull request
 - pull requests

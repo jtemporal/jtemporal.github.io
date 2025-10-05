@@ -11,6 +11,8 @@ posts_list:
 - introducing-gitfichas
 - gitfichas-is-now-open-source
 related: true
+series: "Preptember 2025 Weekly"
+series_order: 1
 tags:
 - pull request
 - pull requests
