@@ -8,8 +8,8 @@ lang: pt
 layout: post
 posts_list:
 - resolvendo-conflitos
-- gitfichas-pt
-- gitfichas-open-source
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- gitfichas-agora-e-open-source
 related: true
 tags:
 - pull request

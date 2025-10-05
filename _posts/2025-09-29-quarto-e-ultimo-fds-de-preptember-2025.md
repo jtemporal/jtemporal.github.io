@@ -7,9 +7,9 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/v
 lang: pt
 layout: post
 posts_list:
-- preptember-semana-3-esquemas-de-cores-gitfichas
-- preptember-semana-2-suporte-multi-idioma-gitfichas
-- preptember-semana-1-preparando-para-hacktoberfest-2025
+- resolvendo-conflitos
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- gitfichas-agora-e-open-source
 related: true
 tags:
 - hacktoberfest
