@@ -7,9 +7,9 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/v
 lang: pt
 layout: post
 posts_list:
-- segundo-fim-de-semana-2-preptember-2025
-- primeiro-fim-de-semana-de-preptember-2025
 - resolvendo-conflitos
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- gitfichas-agora-e-open-source
 related: true
 tags:
 - open source

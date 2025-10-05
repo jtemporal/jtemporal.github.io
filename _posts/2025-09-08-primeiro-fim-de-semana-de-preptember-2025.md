@@ -8,7 +8,7 @@ lang: pt
 layout: post
 posts_list:
 - resolvendo-conflitos
-- conheca-o-gitfichas
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - gitfichas-agora-e-open-source
 related: true
 tags:
