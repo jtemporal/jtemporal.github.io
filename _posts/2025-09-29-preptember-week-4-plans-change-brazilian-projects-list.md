@@ -11,6 +11,8 @@ posts_list:
 - preptember-week-2-gitfichas-multi-language-support
 - preptember-week-1-getting-ready-for-hacktoberfest-2025
 related: true
+series: "Preptember 2025 Weekly"
+series_order: 4
 tags:
 - hacktoberfest
 - ai

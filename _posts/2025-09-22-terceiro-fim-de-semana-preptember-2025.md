@@ -11,6 +11,8 @@ posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - gitfichas-agora-e-open-source
 related: true
+series: "Preptember 2025"
+series_order: 3
 tags:
 - open source
 - hacktoberfest

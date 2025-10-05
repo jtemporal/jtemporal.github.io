@@ -11,6 +11,8 @@ posts_list:
 - solving-conflicts
 - gitfichas-is-now-open-source
 related: true
+series: "Preptember 2025 Weekly"
+series_order: 2
 tags:
 - pull request
 - pull requests
