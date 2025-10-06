@@ -38,7 +38,7 @@ Nesta série de posts vou fazer um resumão das estatísticas de contribuições
 
 ## GitFichas
 
-Nesta primeira meia-semana de outubro, o GitFichas recebeu 42 pull requests:
+Nesta primeira meia-semana de outubro, o [GitFichas recebeu 42 pull requests](https://github.com/jtemporal/gitfichas):
 
 - **26 PRs feitos pela comunidade**
   - 18 merged
