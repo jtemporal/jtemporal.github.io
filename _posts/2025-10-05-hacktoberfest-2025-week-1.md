@@ -38,7 +38,7 @@ For this series of posts we will overview some stats for contributions I receive
 
 ## GitFichas
 
-In this first half week of October GitFichas received 42 pull requests! Here's the breakdown:
+In this first half week of October [GitFichas received 42 pull requests](https://github.com/jtemporal/gitfichas)! Here's the breakdown:
 
 - **26 PRs made by the community**
   - 18 merged
