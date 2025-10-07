@@ -61,7 +61,7 @@ Entre revisar os PRs recebidos e fazer outros para manter a saúde do GitFichas 
 
 Ainda adicionei 2 novos projetos na lista de projetos brasileiros: [uvicorn](https://github.com/jtemporal/jtemporal.github.io/pull/325) e [starlette](https://github.com/jtemporal/jtemporal.github.io/pull/324) ambos mantidos pelo [Marcelo Trylesinski](https://github.com/Kludex).
 
-E finalmente implementei o widget de séries de posts aqui no blog para que você possa ver posts que fazem parte de uma série como a do Preptember e esta que começa agora.
+E finalmente implementei o [widget de séries de posts aqui no blog](https://github.com/jtemporal/jtemporal.github.io/pull/327) para que você possa ver posts que fazem parte de uma série como a do Preptember e esta que começa agora.
 
 ---
 
