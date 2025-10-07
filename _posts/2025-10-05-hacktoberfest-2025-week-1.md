@@ -61,7 +61,7 @@ Between reviewing the PRs and making other ones to keep the health of GitFichas 
 
 I still added 2 new projects on the brazilian projects list: [uvicorn](https://github.com/jtemporal/jtemporal.github.io/pull/325) and [starlette](https://github.com/jtemporal/jtemporal.github.io/pull/324) both maintained by [Marcelo Trylesinski](https://github.com/Kludex).
 
-And finally implemented the series widget here on the blog so you can see related posts that are part of a series like the one from Preptember and this one.
+And finally implemented the [series widget here on the blog](https://github.com/jtemporal/jtemporal.github.io/pull/327) so you can see related posts that are part of a series like the one from Preptember and this one.
 
 ---
 
