@@ -1,6 +1,6 @@
 ---
 repo: https://github.com/cuducos/yaml.nvim
-image: https://github.com/cuducos/yaml.nvim/blob/main/doc/demo.gif?raw=true
+image: https://avatars.githubusercontent.com/u/4732915?v=4
 description: YAML toolkit for Neovim users
 principal_language: Lua
 
