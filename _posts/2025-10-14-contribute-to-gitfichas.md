@@ -20,7 +20,7 @@ tags:
 - pull requests
 title: "Contribute to GitFichas"
 translations:
-  - url: "/to add"
+  - url: "/contribua-com-o-gitfichas"
     lang: "pt"
 ---
 
