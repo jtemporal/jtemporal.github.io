@@ -61,6 +61,12 @@ Embora as issues tenham aumentado em número, também fechamos várias delas. Se
 
 ---
 
+Essa semana eu também fui mostrar o [GitFichas na Open Source Friday Brasil lá no canal do YouTube do GitHub](https://www.youtube.com/live/GnFsorph358?si=sJ8BEpgLIfvduFN0), deixei várias dicas sobre usar AI para projetos, acho que vale a pena assistir:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GnFsorph358?si=KErUnHnjdRSysBVp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 Segunda-feira é feriado para mim, então espero fazer algumas contribuições eu mesma já que não consegui fazer tantas quanto queria durante a semana.
 
 É isso pra semana 2! Fiquem ligados para a atualização da próxima semana sobre o Hacktoberfest 2025. 🎃
