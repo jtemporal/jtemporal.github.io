@@ -9,6 +9,10 @@ layout: post
 series: "Hacktoberfest 2025 Weekly"
 series_order: 2
 related: true
+posts_list:
+- solving-conflicts
+- 5-tips-to-make-your-pull-request-shine
+- gitfichas-is-now-open-source
 tags:
 - hacktoberfest
 - ai

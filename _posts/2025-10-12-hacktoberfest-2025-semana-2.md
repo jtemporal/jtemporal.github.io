@@ -9,6 +9,10 @@ layout: post
 series: "Hacktoberfest 2025"
 series_order: 2
 related: true
+posts_list:
+- resolvendo-conflitos
+- 5-dicas-para-fazer-o-seu-pull-request-brilhar
+- gitfichas-agora-e-open-source
 tags:
 - hacktoberfest
 - ai
