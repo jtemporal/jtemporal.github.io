@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-05T05:00:00+00:00
 description: Um resumo cobrindo contribuições do GitFichas em estatísticas de pull requests
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
 layout: post
 posts_list:
