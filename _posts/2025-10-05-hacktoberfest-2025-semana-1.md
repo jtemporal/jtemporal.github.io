@@ -7,9 +7,9 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/v
 lang: pt
 layout: post
 posts_list:
-- solving-conflicts
+- resolvendo-conflitos
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
-- gitfichas-is-now-open-source
+- gitfichas-agora-e-open-source/
 related: true
 series: "Hacktoberfest 2025"
 series_order: 1
