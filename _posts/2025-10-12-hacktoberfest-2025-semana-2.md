@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-12T05:00:00+00:00
 description: Recapitulando a semana 2 - TL;DR 54 PRs essa semana!
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
 layout: post
 series: "Hacktoberfest 2025"
