@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-29T04:00:00+00:00
 description: Plans change and less work because resting is also important
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/preptember.jpg
 lang: en
 layout: post
 posts_list:

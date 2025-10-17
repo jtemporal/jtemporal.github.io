@@ -2,7 +2,7 @@
 title: 'Projetos Brasileiros para contribuir nesse #Hacktoberfest 2022'
 layout: post
 date: 2022-10-01T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg"
 type: post
 bookbanner: true
 lang: pt

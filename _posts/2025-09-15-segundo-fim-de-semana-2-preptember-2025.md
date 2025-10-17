@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-15T05:00:00+00:00
 description: Uma grande vitória para localização 🚀
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/preptember.jpg
 lang: pt
 layout: post
 posts_list:
