@@ -2,7 +2,7 @@
 title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest 2021'
 layout: post
 date: 2021-10-01T09:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
+image: "https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png"
 type: post
 bookbanner: true
 lang: pt

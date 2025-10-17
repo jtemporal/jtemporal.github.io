@@ -6,7 +6,7 @@ comments: true
 date: 2024-10-25 05:00:00+00:00
 description: Ótimas notícias pra quem mexe com Git e precisa de uma ajudinha de vez
   em quando 🤩
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
 lang: pt
 layout: post
 posts_list:

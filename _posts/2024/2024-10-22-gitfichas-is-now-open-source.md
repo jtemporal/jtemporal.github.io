@@ -4,7 +4,7 @@ comments: true
 date: 2024-10-22 05:00:00+00:00
 description: Exciting news for anyone that deals with Git and might need a reminder
   or two about some commands 🤩
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
 lang: en
 layout: post
 posts_list:

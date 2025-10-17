@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2021-10-05 22:15:06-03:00
 description: Dicas de ouro para fazer uma contribuição open-source de sucesso
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
 lang: pt
 layout: post
 posts_list:

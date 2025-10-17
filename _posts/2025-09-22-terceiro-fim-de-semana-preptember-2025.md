@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-22T05:00:00+00:00
 description: Fim de semana corrido mas agora temos 6 esquemas de cores diferentes no GitFichas 🎨
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
 lang: pt
 layout: post
 posts_list:
