@@ -1,5 +1,6 @@
 ---
 layout: post
+type: post
 bookbanner: true
 comments: true
 date: 2025-10-14T04:00:00+00:00
