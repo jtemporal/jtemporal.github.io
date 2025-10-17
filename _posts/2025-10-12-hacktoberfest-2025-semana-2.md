@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-12T05:00:00+00:00
 description: Recapitulando a semana 2 - TL;DR 54 PRs essa semana!
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg
 lang: pt
 layout: post
 type: post
