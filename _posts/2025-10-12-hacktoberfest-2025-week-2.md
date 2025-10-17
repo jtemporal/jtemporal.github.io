@@ -6,6 +6,7 @@ description: A week 2 recap - TLDR 54 PRs this week!
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
 layout: post
+type: post
 series: "Hacktoberfest 2025 Weekly"
 series_order: 2
 related: true

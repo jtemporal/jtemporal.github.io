@@ -6,6 +6,7 @@ description: Recapitulando a semana 2 - TL;DR 54 PRs essa semana!
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
 layout: post
+type: post
 series: "Hacktoberfest 2025"
 series_order: 2
 related: true
