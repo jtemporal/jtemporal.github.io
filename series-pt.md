@@ -52,7 +52,7 @@ translations:
         </div>
     </article>
 </div>
-<div class="col-md-4">
-    {% include sidebar.html %}
-</div>
+
+{% include sidebar.html %}
+
 </div>
