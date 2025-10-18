@@ -1,0 +1,25 @@
+[build]
+  publish = "_site"
+  command = "bundle exec jekyll build"
+
+[build.environment]
+  RUBY_VERSION = "3.1.0"
+  NODE_VERSION = "18"
+
+# Deploy from main branch to production
+[context.production]
+  command = "bundle exec jekyll build"
+
+# Deploy previews for pull requests  
+[context.deploy-preview]
+  command = "bundle exec jekyll build --config _dev_config.yml"
+
+# Branch deploys (if you want to test other branches)
+[context.branch-deploy]
+  command = "bundle exec jekyll build --config _dev_config.yml"
+
+# Handle Jekyll's clean URLs
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
