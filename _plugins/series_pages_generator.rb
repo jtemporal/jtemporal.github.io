@@ -38,6 +38,8 @@ module Jekyll
       self.data['series'] = series
       self.data['lang'] = lang
       self.data['title'] = lang == 'en' ? "Series: #{series}" : "Série: #{series}"
+      self.data['image'] = lang == 'en' ? "https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series_sd7fdp.jpg" : "https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series-pt_pcoiep.jpg"
+      self.data['bookbanner'] = true
       self.data['permalink'] = "/#{@dir}/#{Jekyll::Utils.slugify(series)}/"
     end
   end
