@@ -11,3 +11,9 @@ gem "sass-embedded", "~> 1.69.0"
 
 # Required for Jekyll 4.x
 gem "webrick", "~> 1.7"
+
+# Required for Ruby 3.4+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"

@@ -170,3 +170,25 @@ footer {
 article.post {
     margin-bottom: 5em;
 }
+
+.series-post-item {
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 0px 10px 10px 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease;
+}
+
+.series-post-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.series-post-item h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.series-post-item h3 a:hover {
+    color: #1bacaf;
+}

@@ -20,7 +20,10 @@
       {% include series-widget.html %}
     {% endif %}
     {% include related-articles-widget.html %}
-    {% include book-widget.html %}
+  {% endif %}
+  
+  {% if page.bookbanner == true %}
+  {% include book-widget.html %}
   {% endif %}
   <br>
 </div>

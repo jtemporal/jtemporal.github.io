@@ -1,11 +1,12 @@
 {% include language-detection.html %}
-{% assign series_posts = site.posts | where: "series", page.series | sort: "series_order" %}
+{% assign series_posts = site.posts | where: "series", page.series | where: "lang", page.lang | sort: "series_order" %}
 {% if series_posts.size > 1 %}
+    {% assign series_path = page.lang == "en" ? "series" : "series-" | append: page.lang %}
     <div class="mt10 recent">
     {% if current_lang == "en" %}
-        <h4>📚 Series: {{ page.series }}</h4>
+        <h4>📚 <a href="/{{ series_path }}/{{ page.series | slugify }}/">Series: {{ page.series }}</a></h4>
     {% else %}
-        <h4>📚 Série: {{ page.series }}</h4>
+        <h4>📚 <a href="/{{ series_path }}/{{ page.series | slugify }}/">Série: {{ page.series }}</a></h4>
     {% endif %}
     <ol>
         {% for post in series_posts %}
