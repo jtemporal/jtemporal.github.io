@@ -1,5 +1,6 @@
 ---
 layout: default
+bookbanner: true
 title: All Series
 description: Browse all blog post series
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series_sd7fdp.jpg
