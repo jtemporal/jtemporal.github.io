@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% include language-detection.html %}
+
+<div class="row">
+<div class="col-md-8">
+    <article class="post">
+        <header class="post-header">
+            {% if current_lang == "en" %}
+                <h1 class="post-title">Series: {{ page.series }}</h1>
+            {% else %}
+                <h1 class="post-title">Série: {{ page.series }}</h1>
+            {% endif %}
+        </header>
+
+        <div class="post-content">
+            {% assign page_lang = page.lang | default: "en" %}
+            {% assign series_posts = site.posts | where: "series", page.series | where: "lang", page_lang | sort: "series_order" %}
+            
+            {% if current_lang == "en" %}
+                <p>This series contains {{ series_posts.size }} posts:</p>
+            {% else %}
+                <p>Esta série contém {{ series_posts.size }} posts:</p>
+            {% endif %}
+
+            <div class="series-posts">
+                {% for post in series_posts %}
+                <div class="series-post-item">
+                    <h3><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h3>
+                    {% if post.description %}
+                        <p>{{ post.description }}</p>
+                    {% else %}
+                        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+                    {% endif %}
+                    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                </div>
+                {% unless forloop.last %}<hr>{% endunless %}
+                {% endfor %}
+            </div>
+        </div>
+    </article>
+</div>
+<div class="col-md-4">
+    {% include sidebar.html %}
+</div>
+</div>
