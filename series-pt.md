@@ -17,11 +17,7 @@ translations:
 <div class="col-md-8">
     <article class="post">
         <header class="post-header">
-            {% if current_lang == "en" %}
-                <h1 class="post-title">All Series</h1>
-            {% else %}
-                <h1 class="post-title">Todas as Séries</h1>
-            {% endif %}
+            <h1 class="post-title">Todas as Séries</h1>
         </header>
 
         <div class="post-content">
