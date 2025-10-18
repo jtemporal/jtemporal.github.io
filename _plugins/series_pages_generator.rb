@@ -41,6 +41,36 @@ module Jekyll
       self.data['image'] = lang == 'en' ? "https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series_sd7fdp.jpg" : "https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series-pt_pcoiep.jpg"
       self.data['bookbanner'] = true
       self.data['permalink'] = "/#{@dir}/#{Jekyll::Utils.slugify(series)}/"
+      
+      # Add translation information
+      translations = get_translation(series, lang)
+      if translations
+        self.data['translations'] = translations
+      end
+    end
+    
+    private
+    
+    def get_translation(series, lang)
+      series_data = @site.data['localization']['series_translations'] || []
+      
+      # Find the series group that contains this series in the current language
+      series_group = series_data.find { |group| group[lang] == series }
+      return nil unless series_group
+      
+      # Return translations for all other languages
+      translations = []
+      series_group.each do |translation_lang, translation_series|
+        next if translation_lang == lang # Skip current language
+        
+        translation_dir = translation_lang == 'en' ? "series" : "series-#{translation_lang}"
+        translations << {
+          'lang' => translation_lang,
+          'url' => "/#{translation_dir}/#{Jekyll::Utils.slugify(translation_series)}/"
+        }
+      end
+      
+      translations.empty? ? nil : translations
     end
   end
 end
