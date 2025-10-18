@@ -7,11 +7,7 @@ layout: default
 <div class="col-md-8">
     <article class="post">
         <header class="post-header">
-            {% if current_lang == "en" %}
-                <h1 class="post-title">Series: {{ page.series }}</h1>
-            {% else %}
-                <h1 class="post-title">Série: {{ page.series }}</h1>
-            {% endif %}
+            <h1 class="post-title">{{ page.series }}</h1>
         </header>
 
         <div class="post-content">
