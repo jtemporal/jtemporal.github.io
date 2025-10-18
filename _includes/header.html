@@ -16,16 +16,16 @@
       
       {% if current_lang == "en" %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/en/">{{site.title}}</a>
-        {% assign options = "About,Books,Talks,CV,GitStudyCards" | split: ',' %}
-        {% assign base = "/about,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/en?utm_source=blog" | split: ',' %}
+        {% assign options = "About,Books,Series,Talks,CV,GitStudyCards" | split: ',' %}
+        {% assign base = "/about,/books,/series,/talks,/EnJtResume.pdf,https://gitfichas.com/en?utm_source=blog" | split: ',' %}
       {% elsif current_lang == "fr" %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/fr/">{{site.title}}</a>
         {% assign options = "À propos,Livres,Conférences,CV,GitFichas" | split: ',' %}
         {% assign base = "/a-propos,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/fr?utm_source=blog" | split: ',' %}
       {% else %}
         <a class="navbar-brand" href="{{site.url}}{{site.baseurl}}/">{{site.title}}</a>
-        {% assign options = "Sobre,Livros,Palestras,CV,GitFichas" | split: ',' %}
-        {% assign base = "/sobre,/livros,/talks,/EnJtResume.pdf,https://gitfichas.com/?utm_source=blog" | split : ',' %}
+        {% assign options = "Sobre,Livros,Séries,Palestras,CV,GitFichas" | split: ',' %}
+        {% assign base = "/sobre,/livros,/series-pt,/talks,/EnJtResume.pdf,https://gitfichas.com/?utm_source=blog" | split : ',' %}
       {% endif %}
     </div>
 
