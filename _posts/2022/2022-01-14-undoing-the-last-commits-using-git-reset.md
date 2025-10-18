@@ -8,6 +8,8 @@ description: Learn how to use the git reset command to undo most recent commits
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Git Pro Tips"
+series_order: 6
 posts_list:
 - solving-conflicts
 - desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem

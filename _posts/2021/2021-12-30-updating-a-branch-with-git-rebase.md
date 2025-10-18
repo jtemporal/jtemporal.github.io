@@ -10,6 +10,8 @@ description: See how to use git rebase to bring all the most recent commits to y
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Git Pro Tips"
+series_order: 4
 posts_list:
 - solving-conflicts
 - fixing-the-branch-source-with-git-rebase

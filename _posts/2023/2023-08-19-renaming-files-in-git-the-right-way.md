@@ -8,6 +8,8 @@ description: No more confusion caused by trying to rename a file in a git projec
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Git Pro Tips"
+series_order: 10
 posts_list:
 - solving-conflicts/
 - undoing-the-last-commits-using-git-reset

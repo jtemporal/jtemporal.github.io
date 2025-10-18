@@ -9,6 +9,8 @@ description: Undo the last commit with git reset using --soft and reuse the mess
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Git Pro Tips"
+series_order: 7
 posts_list:
 - solving-conflicts
 - undoing-the-last-commits-using-git-reset

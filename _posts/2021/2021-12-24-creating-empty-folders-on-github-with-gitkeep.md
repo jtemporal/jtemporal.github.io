@@ -8,6 +8,8 @@ description: Understand how to use .gitkeep
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Git Pro Tips"
+series_order: 2
 posts_list:
 - solving-conflicts
 - introducing-gitfichas

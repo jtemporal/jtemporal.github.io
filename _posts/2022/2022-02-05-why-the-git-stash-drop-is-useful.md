@@ -13,6 +13,8 @@ posts_list:
 - solving-conflicts
 - undoing-the-last-commits-using-git-reset
 related: true
+series: "Git Pro Tips"
+series_order: 9
 tags:
 - git
 - english

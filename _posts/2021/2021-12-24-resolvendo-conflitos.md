@@ -7,6 +7,8 @@ description: Uma receita infalível para você entender e resolver conflitos sem
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 1
 posts_list:
 - criando-pastas-vazias-no-github-com-o-gitkeep
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar

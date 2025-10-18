@@ -14,6 +14,10 @@ series_translations:
   - en: "MCP Mastery"
     pt: "Dominando MCP"
 
+  # Git tutorials and tips series
+  - en: "Git Pro Tips"
+    pt: "Dicas de Git"
+
 # Future localization settings can be added here:
 # menu_translations:
 # error_messages:

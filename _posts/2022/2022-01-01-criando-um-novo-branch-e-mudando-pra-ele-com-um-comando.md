@@ -8,6 +8,8 @@ description: Veja como usar git checkout e git switch para criar um branch e aut
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 5
 posts_list:
 - resolvendo-conflitos
 - corrigindo-a-origem-de-um-branch-com-git-rebase

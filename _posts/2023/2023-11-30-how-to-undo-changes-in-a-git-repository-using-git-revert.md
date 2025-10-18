@@ -11,6 +11,8 @@ tags:
 - english
 - pro tip
 bookbanner: true
+series: "Git Pro Tips"
+series_order: 11
 related: true
 posts_list:
 - using-git-stash-and-git-stash-pop

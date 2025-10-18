@@ -8,6 +8,8 @@ description: Veja como usar git rebase para trazer commits mais recentes para o 
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 4
 posts_list:
 - resolvendo-conflitos
 - corrigindo-a-origem-de-um-branch-com-git-rebase
