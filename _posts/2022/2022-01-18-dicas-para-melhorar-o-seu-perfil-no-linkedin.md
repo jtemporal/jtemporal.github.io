@@ -6,6 +6,8 @@ description: Dicas práticas para melhorar o seu perfil no LinkedIn em menos de 
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
 layout: post
+series: "Carreira em Tech"
+series_order: 7
 posts_list:
 - ferramentas-para-qualquer-vaga-em-ti
 - trabalhando-remoto

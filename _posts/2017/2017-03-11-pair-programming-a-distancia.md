@@ -4,6 +4,8 @@ title: Uma história de Pair Programming a longa distância
 date: 2017-03-11 00:00:00 +0000
 type: post
 lang: pt
+series: "Carreira em Tech"
+series_order: 2
 tags:
 - português
 - tmux

@@ -6,6 +6,8 @@ description: Tem curiosidade sobre como foi a mudança de carreira entre ciênci
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
 lang: pt
 layout: post
+series: "Carreira em Tech"
+series_order: 8
 tags:
 - devrel
 - developer advocate

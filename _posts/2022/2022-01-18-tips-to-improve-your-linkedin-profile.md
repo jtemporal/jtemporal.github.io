@@ -8,6 +8,8 @@ description: Hands-on tips for you to improve your LinkedIn profile in less than
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
 layout: post
+series: "Career in Tech"
+series_order: 3
 related: false
 tags:
 - career

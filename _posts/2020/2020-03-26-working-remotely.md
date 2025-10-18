@@ -6,6 +6,8 @@ description: Tips I use when I'm working remotely for you that are adapting your
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
 layout: post
+series: "Career in Tech"
+series_order: 2
 related: false
 tags:
 - english
