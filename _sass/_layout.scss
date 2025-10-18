@@ -51,6 +51,7 @@ img {
 }
 .post-meta {
     color: $grey-color;
+    font-size: 12px;
 }
 
 .panel {
@@ -147,7 +148,14 @@ footer {
 }
 
 .post-title {
-    line-height: 2;
+    line-height: 1;
+}
+
+.post-subtitle {
+    line-height: 1;
+    color: $grey-color;
+    margin: 0 0 15px 0;
+    font-size: 25px;
 }
 
 .index-anchor {

@@ -1,5 +1,5 @@
 <div class="panel-body">
-  <h3 class="panel-title pull-left">{{ post.title }}</h3><br><span class="post-meta pull-left"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+  <h3 class="panel-title pull-left">{{ post.title }}{% if post.subtitle %}: {{ post.subtitle }}{% endif %}</h3><br><span class="post-meta pull-left"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
 </div>
 
 <div class="panel-body">
