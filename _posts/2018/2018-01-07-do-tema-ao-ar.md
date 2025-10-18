@@ -7,6 +7,8 @@ description: Aprenda a colocar o seu site no ar de graça usando o GitHub
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: pt
 layout: post
+series: "Dominando Jekyll e GitHub Pages"
+series_order: 1
 posts_list:
 - force-rebuild-jekyll
 - resolvendo-conflitos

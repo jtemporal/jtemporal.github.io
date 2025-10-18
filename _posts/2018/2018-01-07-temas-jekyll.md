@@ -6,6 +6,8 @@ description: Escolhendo um tema para o seu blog e começando a postar sem demora
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dominando Jekyll e GitHub Pages"
+series_order: 2
 tags:
 - colinha
 - jekyll

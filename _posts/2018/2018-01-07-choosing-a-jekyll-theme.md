@@ -6,6 +6,8 @@ description: Chose a theme and start blog without fuss
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Jekyll & GitHub Pages Mastery"
+series_order: 2
 tags:
 - english
 - theme
