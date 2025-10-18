@@ -5,6 +5,8 @@ date: 2025-08-31T04:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 type: post
 lang: en
+series: "MCP Mastery"
+series_order: 3
 tags:
 - ai
 - ai agents

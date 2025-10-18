@@ -7,6 +7,8 @@ redirect_to:
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 lang: en
 type: post
+series: "MCP Mastery"
+series_order: 1
 tags:
 - python
 - mcp

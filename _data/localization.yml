@@ -10,6 +10,10 @@ series_translations:
   - en: "Preptember 2025 Weekly"
     pt: "Preptember 2025"
 
+  # MCP (Model Context Protocol) series
+  - en: "MCP Mastery"
+    pt: "Dominando MCP"
+
 # Future localization settings can be added here:
 # menu_translations:
 # error_messages:
