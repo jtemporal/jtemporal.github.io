@@ -26,15 +26,21 @@ translations:
             {% if all_series.size > 0 %}
                 {% for series in all_series %}
                     {% assign series_posts = site.posts | where: "series", series | where: "lang", "pt" | sort: "series_order" %}
+                    {% assign series_description = "" %}
+                    {% for desc in site.data.localization.series_descriptions %}
+                        {% if desc.pt == series %}
+                            {% assign series_description = desc.description %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+
                     <div class="series-summary">
                         <h3><a href="/series-pt/{{ series | slugify }}/">{{ series }}</a></h3>
-                        {% if current_lang == "en" %}
-                            <p>{{ series_posts.size }} posts in this series</p>
-                        {% else %}
-                            <p>{{ series_posts.size }} posts nesta série</p>
-                        {% endif %}
+                        <p>{{ series_posts.size }} posts nesta série</p>
                         
-                        {% if series_posts.first.description %}
+                        {% if series_description != "" %}
+                            <p><em>{{ series_description }}</em></p>
+                        {% elsif series_posts.first.description %}
                             <p><em>{{ series_posts.first.description }}</em></p>
                         {% else %}
                             <p><em>{{ series_posts.first.excerpt | strip_html | strip_newlines | truncate: 100 }}</em></p>
