@@ -2,7 +2,7 @@
 layout: default
 title: All Series
 description: Browse all blog post series
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
+image: https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series_sd7fdp.jpg
 permalink: "/series/"
 lang: en
 translations:
