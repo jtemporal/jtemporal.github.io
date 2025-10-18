@@ -26,6 +26,45 @@ series_translations:
   - en: "Career in Tech"
     pt: "Carreira em Tech"
 
+# Series descriptions mapping
+# Format: series name by language with description text
+series_descriptions:
+  - en: "Hacktoberfest 2025 Weekly"
+    description: "Weekly updates about Hacktoberfest 2025 on GitFichas and other projects."
+
+  - pt: "Hacktoberfest 2025"
+    description: "Atualizações semanais sobre Hacktoberfest 2025 no GitFichas e outros projetos."
+
+  - en: "Preptember 2025 Weekly"
+    description: "Pre-Hacktoberfest preparation posts."
+
+  - pt: "Preptember 2025"
+    description: "Posts sobre a preparação para Hacktoberfest 2025."
+
+  - en: "MCP Mastery"
+    description: "All you need to know about Model Context Protocol (MCP)."
+
+  - pt: "Dominando MCP"
+    description: "Tudo o que você precisa saber sobre Model Context Protocol (MCP)."
+
+  - en: "Git Pro Tips"
+    description: "All about Git covering: conflicts, branches, rebase, and GitHub workflows."
+
+  - pt: "Dicas de Git"
+    description: "Tudo sobre Git cobrindo: conflitos, branches, rebase e fluxos GitHub."
+
+  - en: "Jekyll & GitHub Pages Mastery"
+    description: "Creating and maintaining Jekyll sites on GitHub Pages."
+
+  - pt: "Dominando Jekyll e GitHub Pages"
+    description: "Criando e mantendo sites Jekyll no GitHub Pages."
+
+  - en: "Career in Tech"
+    description: "All about careers in tech."
+
+  - pt: "Carreira em Tech"
+    description: "Tudo sobre carreira em tecnologia."
+
 # Future localization settings can be added here:
 # menu_translations:
 # error_messages:
