@@ -5,6 +5,8 @@ date: 2025-08-31T10:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
 type: post
 lang: pt
+series: "Dominando Jekyll e GitHub Pages"
+series_order: 7
 tags:
 - ia
 - agentes de ia

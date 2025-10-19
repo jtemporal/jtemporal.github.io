@@ -6,6 +6,8 @@ description: Curious about how the move from data science to developer relations
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
 layout: post
+series: "Career in Tech"
+series_order: 4
 tags:
 - devrel
 - english

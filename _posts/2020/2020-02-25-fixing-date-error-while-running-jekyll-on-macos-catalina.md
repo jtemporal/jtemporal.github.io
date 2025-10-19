@@ -8,6 +8,8 @@ description: This pro tip explains how to fix the "Invalid date" error you may s
 date: 2020-02-25 07:00:00 -0300
 lang: en
 type: post
+series: "Jekyll & GitHub Pages Mastery"
+series_order: 4
 tags:
 - error
 - Catalina

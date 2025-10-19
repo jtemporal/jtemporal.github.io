@@ -11,6 +11,8 @@ posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits
 related: true
+series: "Dicas de Git"
+series_order: 9
 tags:
 - git
 - português

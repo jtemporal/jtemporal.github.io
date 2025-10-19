@@ -8,6 +8,8 @@ description: How to use Git to force building a website hosted via GitHub Pages
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
 lang: en
 layout: post
+series: "Jekyll & GitHub Pages Mastery"
+series_order: 5
 posts_list:
 - notes-on-self-publishing-first-ebook
 - solving-conflicts

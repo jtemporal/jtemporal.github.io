@@ -7,6 +7,8 @@ description: Chega de confusão na hora de ajustar o nome de um arquivo em proje
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 11
 posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits

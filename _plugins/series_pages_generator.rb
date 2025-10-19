@@ -42,6 +42,12 @@ module Jekyll
       self.data['bookbanner'] = true
       self.data['permalink'] = "/#{@dir}/#{Jekyll::Utils.slugify(series)}/"
       
+      # Add series description
+      description = get_series_description(series, lang)
+      if description
+        self.data['series_description'] = description
+      end
+
       # Add translation information
       translations = get_translation(series, lang)
       if translations
@@ -50,7 +56,17 @@ module Jekyll
     end
     
     private
-    
+
+    def get_series_description(series, lang)
+      descriptions_data = @site.data['localization']['series_descriptions'] || []
+
+      # Find the description entry for this series in the current language
+      description_entry = descriptions_data.find { |entry| entry[lang] == series }
+      return nil unless description_entry
+
+      description_entry['description']
+    end
+
     def get_translation(series, lang)
       series_data = @site.data['localization']['series_translations'] || []
       

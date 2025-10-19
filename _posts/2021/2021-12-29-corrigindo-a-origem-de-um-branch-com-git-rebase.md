@@ -7,6 +7,8 @@ description: Veja como usar git rebase para corrigir a origem de um branch
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 3
 posts_list:
 - resolvendo-conflitos
 - conheca-o-gitfichas

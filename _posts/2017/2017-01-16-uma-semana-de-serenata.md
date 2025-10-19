@@ -6,6 +6,8 @@ image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/
 comments: true
 lang: pt
 type: post
+series: "Carreira em Tech"
+series_order: 1
 tags:
 - medium
 - serenata de amor

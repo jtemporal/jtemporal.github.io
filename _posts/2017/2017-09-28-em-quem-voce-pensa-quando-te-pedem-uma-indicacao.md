@@ -6,6 +6,8 @@ description: Você conhece mulheres qualificadas. Por que não indicá-las?
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png
 lang: pt
 layout: post
+series: "Carreira em Tech"
+series_order: 3
 tags:
 - medium
 - python

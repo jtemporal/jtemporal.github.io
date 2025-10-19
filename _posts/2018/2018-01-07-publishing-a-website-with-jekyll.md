@@ -7,6 +7,8 @@ description: Learn to get your website up and running using the terminal, jekyll
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
 layout: post
+series: "Jekyll & GitHub Pages Mastery"
+series_order: 1
 tags:
 - tutorial
 - jekyll

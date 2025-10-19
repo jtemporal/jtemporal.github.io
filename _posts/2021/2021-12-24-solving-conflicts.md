@@ -8,6 +8,8 @@ description: A recipe to understand and fix conflicts in git
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
 lang: en
 layout: post
+series: "Git Pro Tips"
+series_order: 1
 posts_list:
 - introducing-gitfichas
 - fixing-the-branch-source-with-git-rebase

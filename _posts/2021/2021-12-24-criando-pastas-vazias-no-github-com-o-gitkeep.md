@@ -6,6 +6,8 @@ description: Entenda pra que serve e como usar o arquivo .gitkeep
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 2
 posts_list:
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 - resolvendo-conflitos

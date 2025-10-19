@@ -11,6 +11,8 @@ posts_list:
 - desfazendo-o-ultimo-commit-e-reaproveitando-a-mensagem
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 related: true
+series: "Dicas de Git"
+series_order: 6
 tags:
 - git
 - português

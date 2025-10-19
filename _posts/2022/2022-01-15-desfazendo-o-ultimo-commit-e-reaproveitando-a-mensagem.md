@@ -8,6 +8,8 @@ description: Desfaça o último commit com git reset usando --soft e reutilize a
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
 lang: pt
 layout: post
+series: "Dicas de Git"
+series_order: 7
 posts_list:
 - resolvendo-conflitos
 - desfazendo-um-ou-mais-commits

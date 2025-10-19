@@ -7,6 +7,9 @@ bookbanner: true
 title: Entenda a diferença entre git stash pop e git stash apply
 description: Apesar de parecidos em funcionamento eles tem uma diferença fundamental
 type: post
+lang: pt
+series: "Dicas de Git"
+series_order: 10
 tags:
 - git
 - português

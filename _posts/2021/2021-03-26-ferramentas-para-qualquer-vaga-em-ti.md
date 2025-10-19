@@ -7,6 +7,8 @@ comments: true
 description: Um framework para definir o que estudar e conseguir sua vaga em TI
 type: post
 lang: pt
+series: "Carreira em Tech"
+series_order: 6
 tags:
 - pivot table
 - tabela dinâmica

@@ -5,6 +5,8 @@ date: 2019-04-28T03:00:00.000+00:00
 image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"
 type: post
 lang: pt
+series: "Dominando Jekyll e GitHub Pages"
+series_order: 5
 tags:
 - jekyll
 - pelican

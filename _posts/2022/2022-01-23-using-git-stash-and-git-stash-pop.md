@@ -13,6 +13,8 @@ posts_list:
 - undoing-the-last-commits-using-git-reset
 - 5-tips-to-make-your-pull-request-shine
 related: true
+series: "Git Pro Tips"
+series_order: 8
 tags:
 - git
 - português

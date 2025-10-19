@@ -11,6 +11,8 @@ posts_list:
 - desfazendo-um-ou-mais-commits
 - 5-dicas-para-fazer-o-seu-pull-request-brilhar
 related: true
+series: "Dicas de Git"
+series_order: 8
 tags:
 - git
 - português

@@ -6,6 +6,8 @@ description: You know qualified women. Why not appoint them?
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
 lang: en
 layout: post
+series: "Career in Tech"
+series_order: 1
 tags:
 - pyladies
 - women in stem
