@@ -3,7 +3,7 @@ layout: post
 type: post
 bookbanner: true
 comments: true
-date: 2025-10-18T13:00:00+00:00
+date: 2025-10-19T14:00:00+00:00
 description: How I used Copilot to adjust my blog covers over my morning cup of coffee
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
 lang: en
