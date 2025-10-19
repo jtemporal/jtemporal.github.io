@@ -3,7 +3,7 @@ layout: post
 type: post
 bookbanner: true
 comments: true
-date: 2025-10-19T13:00:00+00:00
+date: 2025-10-19T04:00:00+00:00
 description: Como usei o Copilot para ajustar as capas do blog durante o café da manhã
 image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
 lang: pt
