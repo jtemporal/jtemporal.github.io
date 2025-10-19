@@ -67,9 +67,11 @@ After creating, exporting the new cover, and uploading it to the CDN, the writer
 
 The writer [opened an issue with the ingredients and the instructions to defeat _the ick_](https://github.com/jtemporal/jtemporal.github.io/issues/350): Change cover image on open source related posts to the new cover image. And gave everything to the trusty robot by assigning it to GitHub Copilot.
 
+<img alt="GitHub Copilot's initial pull request description showing it will work on the issue and update the PR with progress" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/01-initial-pr-description-by-copilot_e129m8.jpg" class="img-post"/>
+
 When you assign an issue to your trusty robot, it will start to work right away [creating a draft PR](https://github.com/jtemporal/jtemporal.github.io/pull/351), saying that it is going to work on the issue and that it will update the PR while it progresses.
 
-<img alt="GitHub Copilot's initial pull request description showing it will work on the issue and update the PR with progress" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/01-initial-pr-description-by-copilot_e129m8.jpg" class="img-post"/>
+<img alt="The writer using her phone to quickly fix the tiny bug with GitHub Mobile" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760850297/images/writer-on-the-phone-fixing-the-tiny-bug_qhikku.png" class="img-post">
 
 A few minutes later, Copilot updated the PR with a checklist of the steps it would take to make the proposed changes. It read like a neat spell scroll, with steps listed line by line.
 
@@ -129,6 +131,8 @@ To avoid anymore problems this time around, the writer also looked at the work w
 <img alt="GitHub Copilot session view showing the real-time progress as it processes the cover image adjustments task" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/06-copilot-working-on-the-adjustments_ymbpse.jpg" class="img-post"/>
 
 Viewing a session gives you a window to the little robot's thinking. It let's you observe all the steps the trusty robot is making while they are happening.
+
+<img alt="The writer carefully monitoring and checking on Copilot's progress as it works on the task" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760850610/images/writer-checking-on-copilots-work_yg1q6o.png" class="img-post"/>
 
 ## The happy ending
 

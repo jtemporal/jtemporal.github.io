@@ -67,9 +67,11 @@ Depois de criar, exportar a nova capa e fazer upload para o CDN, a escritora tin
 
 A escritora [abriu uma issue com os ingredientes e as instruções para derrotar _o rancinho_](https://github.com/jtemporal/jtemporal.github.io/issues/350): Mudar a imagem de capa nos posts relacionados a open source para a nova imagem de capa. E deu tudo para o robô confiável atribuindo ao GitHub Copilot.
 
+<img alt="Descrição inicial do pull request do GitHub Copilot mostrando que vai trabalhar na issue e atualizar o PR com o progresso" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/01-initial-pr-description-by-copilot_e129m8.jpg" class="img-post"/>
+
 Quando você atribui uma issue ao seu robô, ele vai começar a trabalhar imediatamente [criando um PR em rascunho](https://github.com/jtemporal/jtemporal.github.io/pull/351), dizendo que vai trabalhar na issue e que vai atualizar o PR conforme progridir.
 
-<img alt="Descrição inicial do pull request do GitHub Copilot mostrando que vai trabalhar na issue e atualizar o PR com o progresso" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/01-initial-pr-description-by-copilot_e129m8.jpg" class="img-post"/>
+<img alt="A escritora no telefone corrigindo o pequeno bug" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760850297/images/writer-on-the-phone-fixing-the-tiny-bug_qhikku.png" class="img-post">
 
 Alguns minutos depois, o Copilot atualizou o PR com uma lista de verificação dos passos que tomaria para fazer as mudanças propostas. Parecia um pergaminho dos antigos organizado, com os passos listados linha por linha.
 
@@ -129,6 +131,8 @@ Para evitar mais problemas desta vez, a escritora também olhou o trabalho enqua
 <img alt="Visualização da sessão do GitHub Copilot mostrando o progresso em tempo real enquanto processa a tarefa de ajustes das imagens de capa" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/06-copilot-working-on-the-adjustments_ymbpse.jpg" class="img-post"/>
 
 Visualizar uma sessão te dá uma janela para o pensamento do pequeno robô e te permite observar todos os passos que o robôzinho está fazendo enquanto eles estão acontecendo.
+
+<img alt="A escritora verificando o trabalho do Copilot" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760850610/images/writer-checking-on-copilots-work_yg1q6o.png" class="img-post"/>
 
 ## O final feliz
 
