@@ -27,11 +27,11 @@ translations:
 
 Era uma vez numa manhã de sexta-feira que com café na mão a escritora olhou para o seu blog e encontrou um pequeno bug escondido entre os posts.
 
-Entre misturar PRs e capturar posts, a escritora havia criado o bug sem perceber, mas este não é o conto daquele bug.
+<img alt="a escritora e o robô" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846392/images/writer-finds-a-bug_ezpypk.png" class="img-post">
 
-Este conto é sobre uma mudança feita depois que o bug foi resolvido quando a escritora e seu fiel ajudante robô começaram sua missão...
+Entre misturar posts e capturar PRs, um bug havia sido criado sem a escritora perceber.
 
-<img alt="a escritora e o robô" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760840438/images/d6c6f5ddfb37b17e9827ab325e47f4232e291922e544a112edb6fa1b695e6b54_ezpypk.png" class="img-post">
+Mas este não é o conto daquele bug, este conto é sobre uma mudança feita depois que o bug foi resolvido quando a escritora e seu fiel ajudante robô começaram sua missão...
 
 ## Algo acordou o monstro do *rancinho*
 
@@ -43,9 +43,13 @@ Percebendo o problema, a escritora rapidamente se desfez desse pequeno bug com o
 
 Enquanto revisava a prévia do pull request, algo mais pareceu estranho. As imagens de capa tinham começado a parecer _genéricas demais_ para o que a escritora vinha publicando recentemente sobre Preptember e Hacktoberfest.
 
+<img alt="Um pequeno monstro fofo representando o bebê rancinho - uma pequena sensação de insatisfação com o design" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846473/images/baby-ick_xdh29w.png" class="img-post">
+
 Todos os posts diziam "variados" (_miscellaneous_) e o resultado foi que a escritora encontrou um bebê *rancinho* pelas capas que amou por tanto tempo.
 
 O rancinho é um monstro terrível que faz toda escritora (e desenvolvedora) querer mudar seu site. Se deixado sozinho, o rancinho sempre cresce e se torna um monstro terrível que só é derrotado por uma _refatoração completa do site_.
+
+<img alt="Um monstro grande e intimidador representando o rancinho totalmente crescido que exige refatorações completas do site" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846545/images/the-ick-fully-grown_c8gvp3.png" class="img-post">
 
 Enquanto o café começava a despertar o cérebro da escritora, uma ideia surgiu:
 
@@ -59,6 +63,8 @@ A escritora normalmente alterna entre algumas capas e uma capa dizendo "open sou
 
 Depois de criar, exportar a nova capa e fazer upload para o CDN, a escritora tinha todos os ingredientes para preparar um novo feitiço.
 
+<img alt="A escritora preparando ingredientes mágicos e componentes do feitiço para derrotar o monstro rancinho" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846884/images/the-writer-ready-for-the-spell_qrip6v.png" class="img-post">
+
 A escritora [abriu uma issue com os ingredientes e as instruções para derrotar _o rancinho_](https://github.com/jtemporal/jtemporal.github.io/issues/350): Mudar a imagem de capa nos posts relacionados a open source para a nova imagem de capa. E deu tudo para o robô confiável atribuindo ao GitHub Copilot.
 
 Quando você atribui uma issue ao seu robô, ele vai começar a trabalhar imediatamente [criando um PR em rascunho](https://github.com/jtemporal/jtemporal.github.io/pull/351), dizendo que vai trabalhar na issue e que vai atualizar o PR conforme progridir.
@@ -70,6 +76,8 @@ Alguns minutos depois, o Copilot atualizou o PR com uma lista de verificação d
 <img alt="Descrição atualizada do pull request do GitHub Copilot com uma lista detalhada de verificação dos passos para implementar as mudanças" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753384/images/02-copilot-update-description-with-checklist_djg4z1.jpg" class="img-post" style="max-width: 50%"/>
 
 A escritora ficou realmente surpresa ao descobrir que 27 posts sobre open source existiam. Tanto que a escritora pensou que o robô cometeu um erro e coletou os posts errados para atualizar a capa.
+
+<img alt="O robô prestativo descobrindo e coletando posts antigos do blog do arquivo" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760847177/images/robot-found-posts_awnswf.png" class="img-post">
 
 Mal sabia a escritora, que o robô encontrou posts de muito tempo atrás...
 
@@ -88,6 +96,8 @@ Foi assim que a escritora confirmou que realmente 27 posts eram sobre open sourc
 
 A escritora podia sentir o feitiço funcionando e ficou muito animada para ver a prévia dos posts com a nova capa!
 
+<img alt="A escritora mostrando animação e expectativa enquanto espera para ver as capas atualizadas do blog" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760849469/images/the-writer-excited-for-the-updates_swlzvs.png" class="img-post"/>
+
 Mas a animação não durou muito...
 
 ## O *rancinho* ataca novamente
@@ -102,7 +112,9 @@ Quando a página carregou, a felicidade da escritora durou pouco e foi mais ou m
 
 <img alt="Página inicial do blog mostrando vários posts todos usando a mesma imagem de capa 'open source', criando monotonia visual" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760753420/images/04-all-covers-with-open-source-ick_s0j7pt.jpg" class="img-post"/>
 
-A escritora rapidamente percebeu que esse bebê *rancinho* era forte e estava lutando para ficar por ali.
+A escritora rapidamente percebeu que esse bebê *rancinho* era forte e estava pronto para lutar.
+
+<img alt="O bebê monstro rancinho agora mais forte e pronto para a batalha, mostrando determinação" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760847721/images/tiny-ick-ready-to-fight_hzbfmi.png" class="img-post">
 
 Temendo que o rancinho saísse de controle muito em breve, a escritora criou duas novas capas para adicionar ao feitiço: uma para Hacktoberfest e uma para posts de Preptember.
 
@@ -129,6 +141,8 @@ Desta vez o rancinho parecia distante e fraco. A variedade ajuda a manter o ranc
 Tomando café, corrigindo bugs, e vendo o Copilot trabalhar deu à escritora esperança para um futuro sem rancinho.
 
 Quando a xícara de café estava vazia, o pull request havia sido mergeado e o feitiço tinha criado raízes: Os posts do Hacktoberfest agora têm sua própria capa, os de Preptember têm a deles, e o resto do conteúdo de open source tem uma nova cara.
+
+<img alt="A escritora comemorando feliz com o robô após derrotar com sucesso o monstro rancinho" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760848861/images/happy-ending-happy-writer_x6xzud.png" class="img-post">
 
 O *rancinho* se foi, substituído por capas que realmente representam sobre o que os posts recentes falam.
 
