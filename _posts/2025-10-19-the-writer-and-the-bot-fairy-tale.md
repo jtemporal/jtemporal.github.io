@@ -148,7 +148,7 @@ By the time of the second cup of coffee, the pull request was merged and the spe
 
 <img alt="The writer celebrating happily with the robot after successfully defeating the ick monster" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760848861/images/fairy-tale/happy-ending-happy-writer_x6xzud.png" class="img-post">
 
-The *ick* is gone, replaced by covers that actually represent the recent posts are about.
+The *ick* is gone, replaced by covers that actually represent what the recent posts are about.
 
 Sometimes the smallest changes make the biggest difference. Sometimes, all it takes is a cup of coffee, a robot assistant, and a little bit of magic.
 
