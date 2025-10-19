@@ -27,7 +27,7 @@ translations:
 
 Once upon a Friday morning, coffee in hand, the writer peered into the blog and found a tiny bug hiding between the posts.
 
-<img alt="the writer and the robot" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846392/images/writer-finds-a-bug_ezpypk.png" class="img-post">
+<img alt="The writer and the robot looking at the little bug" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846392/images/writer-finds-a-bug_ezpypk.png" class="img-post">
 
 Between mixing posts and capturing PRs, a bug had been created without the writer realizing it.
 

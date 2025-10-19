@@ -27,7 +27,7 @@ translations:
 
 Era uma vez numa manhã de sexta-feira que com café na mão a escritora olhou para o seu blog e encontrou um pequeno bug escondido entre os posts.
 
-<img alt="a escritora e o robô" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846392/images/writer-finds-a-bug_ezpypk.png" class="img-post">
+<img alt="A escritora e o robô olhando o pequeno bug" src="https://res.cloudinary.com/jesstemporal/image/upload/v1760846392/images/writer-finds-a-bug_ezpypk.png" class="img-post">
 
 Entre misturar posts e capturar PRs, um bug havia sido criado sem a escritora perceber.
 
