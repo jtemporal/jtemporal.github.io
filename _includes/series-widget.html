@@ -4,9 +4,9 @@
     {% assign series_path = page.lang == "en" ? "series" : "series-" | append: page.lang %}
     <div class="mt10 recent">
     {% if current_lang == "en" %}
-        <h4>📚 <a href="/{{ series_path }}/{{ page.series | slugify }}/">Series: {{ page.series }}</a></h4>
+        <h4>📚 <a href="/series/{{ page.series | slugify }}/">Series: {{ page.series }}</a></h4>
     {% else %}
-        <h4>📚 <a href="/{{ series_path }}/{{ page.series | slugify }}/">Série: {{ page.series }}</a></h4>
+        <h4>📚 <a href="/series-pt/{{ page.series | slugify }}/">Série: {{ page.series }}</a></h4>
     {% endif %}
     <ol>
         {% for post in series_posts %}
