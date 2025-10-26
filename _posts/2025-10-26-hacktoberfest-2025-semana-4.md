@@ -7,7 +7,7 @@ image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/h
 lang: pt
 layout: post
 type: post
-series: "Hacktoberfest 2025 Weekly"
+series: "Hacktoberfest 2025"
 series_order: 4
 related: true
 posts_list:
