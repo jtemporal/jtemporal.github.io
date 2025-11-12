@@ -3,7 +3,7 @@ comments: true
 date: 2022-03-29 09:00:00+00:00
 description: Curious about how the move from data science to developer relations/advocacy
   was? Read this one 😉
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: /images/covers/miscellaneous.webp
 lang: en
 layout: post
 series: "Career in Tech"
@@ -24,7 +24,7 @@ type: post
 
 Before doing DevRel for a living, I used to pay the bills by being a data scientist. Today I can say that I successfully switched from being a Data Scientist to be a *Developer Advocate* for a whole year! 🎉
 
-<center><img style="max-width: 70%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/166827422_515510042769353_3494362086546822067_n_ih6nui.jpg">
+<center><img style="max-width: 70%;" src="/images/166827422_515510042769353_3494362086546822067_n.webp">
 <br>  <br>
 <i>Me on the first day of work March, 2021</i>
 </center>
@@ -38,7 +38,7 @@ A little history before we dive into the learnings since you may not know me or 
 
 So a long time ago, I used to work as a data scientist. On the first job I ever had, I actually gave over 13 talks about the open-source civic tech project I was working on at the time called Serenata, including one talk in Taiwan and all of that in just one year. The project relied on us, the devs and data scientists, to spread the word about it so it could thrive.
 
-<center><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/31909575_955979771244859_4044473679331983360_n_fnyxvf.jpg">
+<center><img style="max-width: 60%;" src="/images/31909575_955979771244859_4044473679331983360_n.webp">
 <br>  <br>
 <i>Me presenting about Rosie, Serenata's AI, on a Meetup back in 2017</i>
 </center>
@@ -73,7 +73,7 @@ Other than talking at many events and meeting a lot of people while working at S
 
 After moving on from Serenata, I made sure I was active in the Python community, no matter where I worked. In my spare time, I gave talks whenever possible, maintained my blog, and kept recording episodes for the Pizza de Dados podcast.
 
-<center><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648590752/231808710_2879851062263859_1016560339918884759_n_ufsr1n.jpg">
+<center><img style="max-width: 60%;" src="/images/231808710_2879851062263859_1016560339918884759_n.webp">
 <br>  <br>
 <i>Me, Lele Portella and Ceci Vieira on a live stream</i>
 </center>
@@ -236,7 +236,7 @@ Even in my team, this is not the case to all of the dev advocates, some of us co
 
 The thing is, my goal isn't *to code* but to teach people how to implement things on their applications. Eventually, I have to code. After all, it is a product for developers that I’m driving adoption, but more than coding, you have to understand how to build an application *to help others* do so.
 
-<center><a href="https://youtu.be/X1BrOOHFwGc"><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648591605/jess-at-devday2021_nbe12e.png"></a>
+<center><a href="https://youtu.be/X1BrOOHFwGc"><img style="max-width: 60%;" src="/images/jess-at-devday2021.webp"></a>
 <br>  <br>
 <i>Me presenting my first talk ever about Auth0 on 2021's Developer Day, <a href="https://youtu.be/X1BrOOHFwGc">click here for the video</a></i>
 </center>

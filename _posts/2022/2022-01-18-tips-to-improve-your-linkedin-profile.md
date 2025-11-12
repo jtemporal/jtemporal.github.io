@@ -5,7 +5,7 @@ comments: true
 date: 2022-01-18 20:00:00-03:00
 description: Hands-on tips for you to improve your LinkedIn profile in less than 30
   minutes
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: en
 layout: post
 series: "Career in Tech"

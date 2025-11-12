@@ -2,7 +2,7 @@
 comments: true
 date: 2021-05-31 00:00:00 -0300
 description: Um guia passo-a-passo para você configurar o acesso SSH da sua Droplet
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 layout: post
 tags:

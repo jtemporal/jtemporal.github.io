@@ -2,7 +2,7 @@
 title: 'Reflections from a maintainer and contributor during Hacktoberfest - is open source struggling?'
 layout: post
 date: 2024-10-23T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png"
+image: "/images/covers/personal.webp"
 type: post
 lang: en
 tags:

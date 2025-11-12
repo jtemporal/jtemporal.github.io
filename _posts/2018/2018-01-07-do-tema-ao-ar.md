@@ -4,7 +4,7 @@ bookbanner: true
 comments: true
 date: 2018-01-07 10:00:00+00:00
 description: Aprenda a colocar o seu site no ar de graça usando o GitHub
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 layout: post
 series: "Dominando Jekyll e GitHub Pages"

@@ -2,7 +2,7 @@
 title: 'Configurando um servidor MCP Python local no VS Code'
 layout: post
 date: 2025-09-07T04:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 type: post
 lang: pt
 series: "Dominando MCP"
@@ -32,7 +32,7 @@ Servidores MCP (Model Context Protocol) estendem assistentes de IA com capacidad
 
 Como escrevo meus posts de blog em Markdown e os gerencio através do GitHub, ter o servidor MCP disponível direto no VS Code significa que posso buscar por conteúdo relacionado, verificar referências e manter consistência sem sair do meu editor.
 
-![Fluxograma do servidor MCP para busca no blog](https://res.cloudinary.com/jesstemporal/image/upload/v1756653714/mcp/flowchart-mcp-server-blog-search_jgthx2.png){: style="max-width:80%;display: block; margin-left: auto; margin-right: auto;"}
+![Fluxograma do servidor MCP para busca no blog](/images/mcp/flowchart-mcp-server-blog-search.webp){: style="max-width:80%;display: block; margin-left: auto; margin-right: auto;"}
 
 Então vamos também configurar nosso MCP em uma IDE para melhorar nosso processo de escrita e edição.
 
@@ -57,7 +57,7 @@ Se você navegar até a aba Extensions no VS Code, verá uma seção dedicada pa
 
 A extensão MCP para VS Code detecta automaticamente servidores configurados e fornece uma interface perfeita para interagir com eles através do GitHub Copilot Chat. Isso significa que você pode acessar suas ferramentas customizadas sem sair do seu editor, tornando seu fluxo de trabalho mais eficiente e integrado.
 
-![Seção de servidores MCP na aba Extensions do VS Code](https://res.cloudinary.com/jesstemporal/image/upload/v1756654100/mcp/local-mcp-in-vscode/00-mcp-servers-list_iaj2yl.png)
+![Seção de servidores MCP na aba Extensions do VS Code](/images/mcp/local-mcp-in-vscode/00-mcp-servers-list.webp)
 
 ## Pré-requisitos
 
@@ -97,11 +97,11 @@ Uma vez que seu servidor esteja funcionando localmente, você tem tudo que preci
 
 Para adicionar seu servidor MCP ao VS Code, pressione `Cmd+Shift+P` (Mac) ou `Ctrl+Shift+P` (Windows/Linux) para abrir a paleta de comandos, então digite "MCP" e selecione "MCP: Add Server" da lista. Isso abrirá o assistente de configuração MCP.
 
-![Iniciando configuração do servidor MCP no VS Code](https://res.cloudinary.com/jesstemporal/image/upload/v1756654101/mcp/local-mcp-in-vscode/01-mcp-install-in-vscode_wrf88n.png)
+![Iniciando configuração do servidor MCP no VS Code](/images/mcp/local-mcp-in-vscode/01-mcp-install-in-vscode.webp)
 
 O primeiro passo é escolher a camada de transporte. Para nosso servidor Python local, selecione "stdio" como método de transporte. Isso permite que o VS Code se comunique com seu servidor através de fluxos de entrada/saída padrão.
 
-![Selecionando a camada de transporte stdio](https://res.cloudinary.com/jesstemporal/image/upload/v1756654101/mcp/local-mcp-in-vscode/02-pick-the-transport-layer_ki7uyb.png)
+![Selecionando a camada de transporte stdio](/images/mcp/local-mcp-in-vscode/02-pick-the-transport-layer.webp)
 
 ## Adicionando o comando para executar seu MCP
 
@@ -115,21 +115,21 @@ Em seguida, você precisará especificar o comando que o VS Code deve usar para 
 
 Certifique-se de substituir `~/caminho/para/repositorio/blog-search-mcp-in-python/` pelo caminho real para seu repositório clonado.
 
-![Inserindo o comando para executar seu servidor MCP](https://res.cloudinary.com/jesstemporal/image/upload/v1756654102/mcp/local-mcp-in-vscode/03-command-to-run-your-mcp_vebdjp.png)
+![Inserindo o comando para executar seu servidor MCP](/images/mcp/local-mcp-in-vscode/03-command-to-run-your-mcp.webp)
 
 Após inserir o comando, dê ao seu servidor MCP um nome descritivo que ajudará você a identificá-lo na interface do VS Code.
 
-![Fornecendo um nome para seu servidor MCP](https://res.cloudinary.com/jesstemporal/image/upload/v1756654103/mcp/local-mcp-in-vscode/04-give-the-name-to-your-mcp_a5bfor.png)
+![Fornecendo um nome para seu servidor MCP](/images/mcp/local-mcp-in-vscode/04-give-the-name-to-your-mcp.webp)
 
 ## Definir onde a configuração deve ser aplicada
 
 O VS Code perguntará onde salvar a configuração MCP. Você pode escolher entre aplicá-la globalmente (para todos os workspaces) ou apenas para o workspace atual.
 
-![Escolhendo entre configuração workspace e global](https://res.cloudinary.com/jesstemporal/image/upload/v1756654103/mcp/local-mcp-in-vscode/05-choose-workspace_o8l1fd.png)
+![Escolhendo entre configuração workspace e global](/images/mcp/local-mcp-in-vscode/05-choose-workspace.webp)
 
 Seguindo o princípio do menor privilégio, é recomendado escolher "Workspace" ao invés de "Global". Isso mantém a configuração limitada ao seu projeto atual e previne potenciais conflitos com outros projetos.
 
-![Confiando nos autores do servidor MCP](https://res.cloudinary.com/jesstemporal/image/upload/v1756654104/mcp/local-mcp-in-vscode/06-trust-the-authors_wjchkw.png)
+![Confiando nos autores do servidor MCP](/images/mcp/local-mcp-in-vscode/06-trust-the-authors.webp)
 
 Isso criará uma pasta `.vscode/` se ela não existir no seu repositório, e criará um arquivo `mcp.json` correspondente com a configuração. Deve ficar parecido com isso:
 
@@ -159,36 +159,36 @@ Isso criará uma pasta `.vscode/` se ela não existir no seu repositório, e cri
 
 Uma vez configurado, você não apenas verá o arquivo de configuração, mas o VS Code também mostrará um menu inline dentro do arquivo. Isso fornece acesso rápido às operações comuns do servidor MCP.
 
-![Ações do servidor MCP disponíveis no arquivo de configuração](https://res.cloudinary.com/jesstemporal/image/upload/v1756654106/mcp/local-mcp-in-vscode/08-mcp-server-actions_tlsnad.png)
+![Ações do servidor MCP disponíveis no arquivo de configuração](/images/mcp/local-mcp-in-vscode/08-mcp-server-actions.webp)
 
 Se você selecionar o botão `More...` no menu inline, verá opções adicionais em um menu de diálogo que fornece operações mais avançadas para gerenciar seu servidor MCP.
 
-![Opções adicionais do servidor MCP no menu de diálogo](https://res.cloudinary.com/jesstemporal/image/upload/v1756654106/mcp/local-mcp-in-vscode/09-mcp-server-more-options_o3bfyk.png)
+![Opções adicionais do servidor MCP no menu de diálogo](/images/mcp/local-mcp-in-vscode/09-mcp-server-more-options.webp)
 
 ## Dicas de debugging
 
 Se você selecionar "Show output" do menu do servidor MCP, será levado para a saída de log no painel inferior da janela do VS Code. Isso é inestimável para fazer debugging de problemas com seu servidor MCP.
 
-![Saída de log do servidor MCP para debugging](https://res.cloudinary.com/jesstemporal/image/upload/v1756654107/mcp/local-mcp-in-vscode/10-mcp-server-log_kmlbwf.png)
+![Saída de log do servidor MCP para debugging](/images/mcp/local-mcp-in-vscode/10-mcp-server-log.webp)
 
 Os logs mostrarão informações detalhadas sobre inicialização do servidor, chamadas de ferramentas e quaisquer erros que ocorram. Isso é particularmente útil quando desenvolvendo ou fazendo troubleshooting do seu servidor MCP.
 
 Se você configurar seu servidor incorretamente (por exemplo, se esquecer parte das flags `--with` no comando), verá uma mensagem de erro diretamente na interface do arquivo de configuração:
 
-![Mensagem de erro quando servidor MCP está mal configurado](https://res.cloudinary.com/jesstemporal/image/upload/v1756654109/mcp/local-mcp-in-vscode/11-mcp-error-menu_aig1ea.png)
+![Mensagem de erro quando servidor MCP está mal configurado](/images/mcp/local-mcp-in-vscode/11-mcp-error-menu.webp)
 
 Essas mensagens de erro inline facilitam identificar e corrigir problemas de configuração sem ter que procurar através de arquivos de log.
 
 Dito isso, se você não souber qual é o erro, também pode acessar os arquivos de log indo para o painel inferior na aba Output e selecionando o nome do servidor no menu dropdown:
 
-![Acessando logs do servidor MCP através do painel de output](https://res.cloudinary.com/jesstemporal/image/upload/v1756654110/mcp/local-mcp-in-vscode/12-mcp-log-through-lower-panel_jhnole.png)
+![Acessando logs do servidor MCP através do painel de output](/images/mcp/local-mcp-in-vscode/12-mcp-log-through-lower-panel.webp)
 
 
 ## Encontrando seu servidor MCP
 
 Agora volte para a aba Extensions e você deve ver seu servidor MCP listado na seção de servidores MCP assim:
 
-![Seu servidor MCP listado na aba Extensions](https://res.cloudinary.com/jesstemporal/image/upload/v1756654112/mcp/local-mcp-in-vscode/13-list-of-mcp-servers_gc2dc3.png)
+![Seu servidor MCP listado na aba Extensions](/images/mcp/local-mcp-in-vscode/13-list-of-mcp-servers.webp)
 
 A partir daqui, você pode investigar os detalhes do servidor, ver suas ferramentas disponíveis e até ajustar sua configuração se necessário. Isso fornece uma localização centralizada para gerenciar todos os seus servidores MCP dentro do VS Code.
 
@@ -196,19 +196,19 @@ A partir daqui, você pode investigar os detalhes do servidor, ver suas ferramen
 
 Todo esse trabalho de configuração é ótimo, mas o objetivo real é poder buscar conteúdo do seu blog em um cenário de chat direto no VS Code. Vamos colocar nosso servidor MCP para trabalhar fazendo uma busca através do GitHub Copilot Chat:
 
-![Primeira chamada de ferramenta mostrando intenção de busca](https://res.cloudinary.com/jesstemporal/image/upload/v1756654112/mcp/local-mcp-in-vscode/14-tool-call_zxqe2n.png)
+![Primeira chamada de ferramenta mostrando intenção de busca](/images/mcp/local-mcp-in-vscode/14-tool-call.webp)
 
 A interface mostra a ferramenta que está pretendendo chamar (`search_posts`) bem como os parâmetros de entrada—neste caso, o tópico sobre o qual queremos encontrar posts do blog. Essa transparência ajuda você a entender exatamente o que a IA está fazendo em seu nome.
 
 Agora tem um truque legal: normalmente você teria que pedir pelo conteúdo depois de obter os resultados da primeira chamada de ferramenta, mas se você estiver usando o GitHub Copilot no [modo agente](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode), o agente é realmente inteligente o suficiente para oferecer a execução de ferramentas adicionais para obter o conteúdo completo:
 
-![Chamada de ferramenta secundária para obter conteúdo completo](https://res.cloudinary.com/jesstemporal/image/upload/v1756654115/mcp/local-mcp-in-vscode/15-secondary-tool-call_a7yfxf.png)
+![Chamada de ferramenta secundária para obter conteúdo completo](/images/mcp/local-mcp-in-vscode/15-secondary-tool-call.webp)
 
 Desta vez mostra a função `get_post_content` sendo chamada, com a descrição docstring e os parâmetros de entrada para recuperar o conteúdo específico.
 
 Finalmente, os resultados são exibidos no chat como qualquer outra interação de ferramenta seria:
 
-![Resultado MCP final exibido no chat do VS Code](https://res.cloudinary.com/jesstemporal/image/upload/v1756654115/mcp/local-mcp-in-vscode/16-mcp-result-in-vscode_xqxubw.png)
+![Resultado MCP final exibido no chat do VS Code](/images/mcp/local-mcp-in-vscode/16-mcp-result-in-vscode.webp)
 
 Essa integração perfeita significa que você pode buscar seu blog, recuperar conteúdo e incorporá-lo ao seu trabalho atual sem nunca sair do VS Code.
 

@@ -4,7 +4,7 @@ title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest vers�
 layout: post
 bookbanner: true
 date: 2018-09-30 00:00:00 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 type: post
 lang: pt
 tags:
@@ -37,6 +37,6 @@ Pra ver projetos Brasileiros para contribuir clica aqui nesse botão 👇
 
 <center>
 <a href="https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411">
-  <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png">
+  <img src="/images/clique-aqui-para-ler.webp">
   </a>
 </center>

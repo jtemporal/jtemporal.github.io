@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2021-12-24 12:34:20-02:00
 description: Understand how to use .gitkeep
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -37,10 +37,10 @@ By placing this file in an empty folder, it ensures that git will add this folde
 
 In the image below you have a project called `exemplo-pastas` that already has a `README.md` file that has already been committed and there are no changes tracked by git, then I create a new folder called `diretorio1` and when running `git status` again git continues to inform that there are no changes to the project.
 
-![exemplo 1](https://res.cloudinary.com/jesstemporal/image/upload/v1640360211/gitkeep-exemplo-fig-1_tsvwqh.png)
+![exemplo 1](/images/gitkeep-exemplo-fig-1.webp)
 
 Now if we create the file `.gitkeep` inside `diretorio1`, git shows that there is a directory to be added, see:
 
-![exemplo 2](https://res.cloudinary.com/jesstemporal/image/upload/v1640360212/gitkeep-exemplo-fig-2_etwfco.png)
+![exemplo 2](/images/gitkeep-exemplo-fig-2.webp)
 
 With this you can see how `.gitkeep` works and if you want to see it in practice, [this example is available in this GitHub repository](https://github.com/jtemporal/exemplo-pastas).

@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2017-12-30 00:00:00
 description: Learn how to create virtual environments using Python's module venv
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:

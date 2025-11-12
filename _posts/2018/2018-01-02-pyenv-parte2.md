@@ -2,7 +2,7 @@
 title: 'Python e suas versões: pyenv parte 2'
 layout: post
 date: 2018-01-02 10:00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+image: "/images/covers/colinha.webp"
 type: post
 tags:
 - colinha

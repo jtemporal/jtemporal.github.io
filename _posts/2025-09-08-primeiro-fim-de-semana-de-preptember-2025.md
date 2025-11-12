@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-08T05:00:00+00:00
 description: Neste fim de semana o GitFichas ganhou uma reforma e alguns bugs foram corrigidos 🚀
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/preptember.jpg
+image: /images/covers/preptember.webp
 lang: pt
 layout: post
 posts_list:

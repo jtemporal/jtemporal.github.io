@@ -2,7 +2,7 @@
 author_note: false
 comments: true
 date: 2017-01-23 00:00:00 +0000
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+image: /images/covers/pessoal.webp
 lang: pt
 layout: post
 tags:

@@ -4,7 +4,7 @@ comments: true
 date: 2020-03-26 11:55:46 -0300
 description: Dicas que sigo quando estou trabalhando remoto para que você que está
   se adaptando
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 series: "Carreira em Tech"

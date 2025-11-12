@@ -5,7 +5,7 @@ title: We need to talk about R
 date: 2015-11-18 00:00:00 -0300
 hidden: true
 lang: pt
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/talk_ycoaee.png
+image: /images/covers/talk.webp
 tags:
 - portugues
 - português

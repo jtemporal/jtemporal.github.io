@@ -4,7 +4,7 @@ bookbanner: true
 comments: true
 date: 2021-12-29 12:34:20-02:00
 description: Veja como usar git rebase para corrigir a origem de um branch
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 series: "Dicas de Git"
@@ -35,21 +35,21 @@ Suponha que você tem duas tarefas para fazer nas próximas semanas e que você 
 
 Então para trabalhar na tarefa 1 você cria uma branch com esse nome a partir do `main`.
 
-![imagem mostrando o resultado de criar o ramo tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-1_lidxjj.png)
+![imagem mostrando o resultado de criar o ramo tarefa-1](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-1.webp)
 
 Digamos, que durante a sua implementação você cansou de mexer com aquele problema e decidiu que seria uma boa ideia mudar um pouco de contexto e iniciar a tarefa 2.
 
 Para isso você precisa criar um novo branch também a partir do `main`, no entanto, sem se dar conta você acabou criando o seu branch a partir do branch `tarefa-1`:
 
-![imagem mostrando o resultado de criar o ramo tarefa-2 a partir do ramo tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-2_p7p989.png)
+![imagem mostrando o resultado de criar o ramo tarefa-2 a partir do ramo tarefa-1](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-2.webp)
 
 E aí, começou a trabalhar e só se deu conta do erro mais tarde. Depois de fazer um commit no `tarefa-2` o seu histórico parece algo assim:
 
-![desenho mostrando o ramo tarefa-2 com dependente do ramo tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1640805546/git-rebase-ajustar-origem/git-rebase-origem-fig-3_pmml6j.jpg)
+![desenho mostrando o ramo tarefa-2 com dependente do ramo tarefa-1](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-3.webp)
 
 Se você analisar o grafo do seu histórico pode ver que ele mostra que o commit mais recente (`99247c`) no branch `tarefa-2` depende do commit feito no branch `tarefa-1` (`5873c2`):
 
-![imagem mostrando o resultado do comando git log --graph em tarefa-2 mostrando o histórico dependente do ramo tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1640805546/git-rebase-ajustar-origem/git-rebase-origem-fig-4_cokmgg.png)
+![imagem mostrando o resultado do comando git log --graph em tarefa-2 mostrando o histórico dependente do ramo tarefa-1](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-4.webp)
 
 Então precisamos corrigir isso.
 
@@ -65,15 +65,15 @@ git rebase --onto main tarefa-1 tarefa-2
 
 O resultado deverá ser semelhante a imagem abaixo:
 
-![resultado do comando git rebase --onto main tarefa-1 tarefa-2](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-5_h8fq1z.png)
+![resultado do comando git rebase --onto main tarefa-1 tarefa-2](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-5.webp)
 
 Agora, tendo executado o comando acima, o seu histórico passa a ser o que deveria ser desde o princípio:
 
-![desenho mostrando o ramo tarefa-2 com dependente do ramo main](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-6_dgwv21.jpg)
+![desenho mostrando o ramo tarefa-2 com dependente do ramo main](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-6.webp)
 
 E se você conferir novamente o grafo do histórico, verá que apenas vemos os commits referentes a tarefa 2 no branch correspondente:
 
-![imagem com o resultado do comando git log --graph mostrando o ramo tarefa-2 com histórico corrigido](https://res.cloudinary.com/jesstemporal/image/upload/v1640805545/git-rebase-ajustar-origem/git-rebase-origem-fig-7_feft7i.png)
+![imagem com o resultado do comando git log --graph mostrando o ramo tarefa-2 com histórico corrigido](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-7.webp)
 
 Três coisas são importantes de notar:
 

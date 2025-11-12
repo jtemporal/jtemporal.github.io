@@ -4,7 +4,7 @@ type: talk
 title: Cloud Girls Meetup
 description: Cloud Girls Meetup
 date: 2017-04-04
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
+image: "/images/covers/palestra.webp"
 comments: false
 hidden: true
 ---

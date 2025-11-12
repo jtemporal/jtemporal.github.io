@@ -6,7 +6,7 @@ comments: true
 date: 2022-01-01 12:34:20-02:00
 description: See how to use git checkout and git switch to create a branch and switch
   to it with just one command
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -40,7 +40,7 @@ git checkout branch-1
 ```
 As you can see in the image below:
 
-![image showing the result of the commands git branch and git checkout](https://res.cloudinary.com/jesstemporal/image/upload/v1643316044/git-atalhos/git-chekout-branch-fig1_wtfkds.png)
+![image showing the result of the commands git branch and git checkout](/images/git-atalhos/git-chekout-branch-fig1.webp)
 
 Or even with the following sequence:
 
@@ -51,7 +51,7 @@ git switch branch-2
 
 Also visible in the image bellow:
 
-![image showing the result of the commands git branch and git switch](https://res.cloudinary.com/jesstemporal/image/upload/v1643316044/git-atalhos/git-switch-branch-fig2_ipahho.png)
+![image showing the result of the commands git branch and git switch](/images/git-atalhos/git-switch-branch-fig2.webp)
 
 ## Shortcuts to create branches and switch branches at the same time
 
@@ -63,7 +63,7 @@ git checkout -b branch-3
 
 You can see the similar result to the one shown in the first example of this blog post:
 
-![image showing the result of the command git checkout -b branch-3](https://res.cloudinary.com/jesstemporal/image/upload/v1643317261/git-atalhos/git-checkout-b-fig3_qengsz.png)
+![image showing the result of the command git checkout -b branch-3](/images/git-atalhos/git-checkout-b-fig3.webp)
 
 And if you prefer using the command `git switch` we have the following shortcut using the `-c` flag:
 
@@ -73,7 +73,7 @@ git switch -c branch-4
 
 Also with a similar result to what we saw previously:
 
-![image showing the result of the command git switch -c branch-4](https://res.cloudinary.com/jesstemporal/image/upload/v1643317261/git-atalhos/git-switch-c-fig4_xqijaw.png)
+![image showing the result of the command git switch -c branch-4](/images/git-atalhos/git-switch-c-fig4.webp)
 
 ## GitFichas
 

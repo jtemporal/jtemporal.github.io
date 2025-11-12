@@ -2,7 +2,7 @@
 title: 'Projetos Brasileiros para contribuir nesse #Hacktoberfest 2024'
 layout: post
 date: 2024-10-02T05:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg"
+image: "/images/covers/hacktoberfest.webp"
 type: post
 lang: pt
 tags:

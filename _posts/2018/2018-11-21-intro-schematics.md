@@ -2,7 +2,7 @@
 title: "Introdução ao Schematics: um guia para validar dados de um JSON"
 layout: post
 date: '2018-11-20 00:00:00'
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 type: post
 lang: pt
 tags:
@@ -25,4 +25,4 @@ Quando esses dados vem de uma API no formato textual de um JSON, nosso _software
 
 Pra fazer o tutorial sobre o Schematics clica aqui nesse botão 👇
 
-[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png){: style="display: block; margin-left: auto; margin-right: auto;"}](https://medium.com/databootcamp/introducao-ao-schematics-a62ce5b83667)
+[![clique aqui para ler](/images/clique-aqui-para-ler.webp){: style="display: block; margin-left: auto; margin-right: auto;"}](https://medium.com/databootcamp/introducao-ao-schematics-a62ce5b83667)

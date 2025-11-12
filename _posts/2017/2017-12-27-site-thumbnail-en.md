@@ -2,7 +2,7 @@
 comments: true
 date: '2017-12-27 10:00:00'
 description: How to add a thumbnail on your site
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:

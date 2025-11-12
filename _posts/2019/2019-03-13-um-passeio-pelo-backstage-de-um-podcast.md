@@ -2,7 +2,7 @@
 layout: post
 title: Um passeio pelo backstage de um podcast
 date: 2019-03-13 12:00:00 +0000
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 comments: true
 type: post
 lang: pt
@@ -30,6 +30,6 @@ Pra continuar lendo esse artigo cheião de dicas vai lá para a revista do Pizza
 
 <center>
   <a href="https://medium.com/pizzadedados/backstage-de-um-podcast-465f02c2a7e5">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" atl="botao de clique aqui para ler"/>
+    <img src="/images/clique-aqui-para-ler.webp" atl="botao de clique aqui para ler"/>
   </a>
   </center>

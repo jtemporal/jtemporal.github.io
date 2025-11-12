@@ -4,7 +4,7 @@ comments: true
 date: 2024-10-29 04:00:00+00:00
 description: Fork, branch, pull request. Learn how to use GitHub Codespaces to make
   your contributions.
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: en
 layout: post
 posts_list:
@@ -67,7 +67,7 @@ You already have the project to contribute to, and you've taken a look at the co
 
 Here, I will use card `#050` in English. The migration of this card is noted [in issue #116](https://github.com/jtemporal/gitfichas/issues/116).
 
-![issue 116 gitfichas repo](https://res.cloudinary.com/jesstemporal/image/upload/v1730124452/images/contributing-to-gitfichas/issue-116-gitfichas-repo.jpg)
+![issue 116 gitfichas repo](/images/contributing-to-gitfichas/issue-116-gitfichas-repo.webp)
 
 With the issue chosen, we can start working. The steps are:
 
@@ -82,11 +82,11 @@ With the issue chosen, we can start working. The steps are:
 
 Create a fork of the repository in your account, [you can click this link here](https://github.com/jtemporal/gitfichas/fork) or in the GitHub interface on the repository, click the “Fork” button.
 
-![Fork button int the github interface](https://res.cloudinary.com/jesstemporal/image/upload/v1730124453/images/contributing-to-gitfichas/fork-button.jpg)
+![Fork button int the github interface](/images/contributing-to-gitfichas/fork-button.webp)
 
 Remember to click “Create” on the next page to create your fork.
 
-![Form for creating a fork](https://res.cloudinary.com/jesstemporal/image/upload/v1730124453/images/contributing-to-gitfichas/create-fork-form.jpg)
+![Form for creating a fork](/images/contributing-to-gitfichas/create-fork-form.webp)
 
 This will create a copy of the original repository in your account, allowing you to make your contributions since a fork in your account will give you full editing powers.
 
@@ -96,7 +96,7 @@ After forking the repository, it's always important to create new branches, one 
 
 The name of your branch should follow what is described in the [repository's contribution guide](https://github.com/jtemporal/gitfichas/blob/main/CONTRIBUTING.md). In the case of GitFichas, the pattern to follow is `<username>-<issue or description>`.
 
-![creating a branch in the github interface](https://res.cloudinary.com/jesstemporal/image/upload/v1730124452/images/contributing-to-gitfichas/create-branch.jpg)
+![creating a branch in the github interface](/images/contributing-to-gitfichas/create-branch.webp)
 
 Since our issue is `#116` and my username is `jesstemporal`, the branch name will be `jesstemporal-fix-116`.
 
@@ -108,11 +108,11 @@ Codespaces are great because you can get a complete development environment in j
 
 Click on `<> Code` and in the `Codespaces` tab, click the creation button as shown in the image below.
 
-![Window with the codespaces creation](https://res.cloudinary.com/jesstemporal/image/upload/v1730124453/images/contributing-to-gitfichas/window-create-new-codespaces.jpg)
+![Window with the codespaces creation](/images/contributing-to-gitfichas/window-create-new-codespaces.webp)
 
 This should open a new tab in your browser. Creating a new Codespace may take a few seconds, but once it's ready for use, you should see something similar to the screen below.
 
-![New github codespaces on gitfichas fork](https://res.cloudinary.com/jesstemporal/image/upload/v1730129546/images/contributing-to-gitfichas/new-github-codespaces-on-gitfichas-fork.jpg)
+![New github codespaces on gitfichas fork](/images/contributing-to-gitfichas/new-github-codespaces-on-gitfichas-fork.webp)
 
 It's time to make the changes.
 
@@ -120,13 +120,13 @@ It's time to make the changes.
 
 Since we are editing card `#050` in English, it is located in `en/_posts/2023-08-04-050.md`. When you open the file, you will be able to see the current content of the card and start making the changes.
 
-![GitHub Codespaces with GitFicha 050 file open](https://res.cloudinary.com/jesstemporal/image/upload/v1730124452/images/contributing-to-gitfichas/github-codespaces-ficha-050-open.jpg)
+![GitHub Codespaces with GitFicha 050 file open](/images/contributing-to-gitfichas/github-codespaces-ficha-050-open.webp)
 
 The easiest way to know what changes to make is to look at what exists in the current card and copy the content from the page gradually, following the examples in the contribution guide.
 
 Card `#050` appears on the page as follows:
 
-![GitFicha 050](https://res.cloudinary.com/jesstemporal/image/upload/v1730124452/images/contributing-to-gitfichas/gitficha-050.jpg)
+![GitFicha 050](/images/contributing-to-gitfichas/gitficha-050.webp)
 
 ### Composition of a card
 
@@ -142,7 +142,7 @@ Let's understand what makes up a card:
     2. Parts: All the information after the command, in this case, `remote` and `branch`;
 4. Information: the final part that adds more information about a command.
 
-![GitFichas anatomy](https://res.cloudinary.com/jesstemporal/image/upload/v1730124453/images/contributing-to-gitfichas/git-study-card-anatomy.jpg)
+![GitFichas anatomy](/images/contributing-to-gitfichas/git-study-card-anatomy.webp)
 
 ## Filling in the new content
 
@@ -206,11 +206,11 @@ This command will build the site and allow you to check the adjustments you just
 
 When the site is running, a pop-up will appear in the lower-left corner of your Codespaces asking if you want to open the site preview.
 
-![open in browser pop up](https://res.cloudinary.com/jesstemporal/image/upload/v1730124453/images/contributing-to-gitfichas/open-in-browser-pop-up.jpg)
+![open in browser pop up](/images/contributing-to-gitfichas/open-in-browser-pop-up.webp)
 
 Click `Open in Browser` to open a new tab with the site running in your Codespace. Navigate to the card you modified to see the changes.
 
-![after changes build](https://res.cloudinary.com/jesstemporal/image/upload/v1730124452/images/contributing-to-gitfichas/after-changes-build.jpg)
+![after changes build](/images/contributing-to-gitfichas/after-changes-build.webp)
 
 After confirming that the card is rendering correctly and the information is readable, you can proceed with your pull request.
 
@@ -246,17 +246,17 @@ git push -u origin jtemporal-fix-116
 
 When the push is completed, a link to create the pull request will appear in the terminal itself.
 
-![Result of git push and sending the code to the remote](https://res.cloudinary.com/jesstemporal/image/upload/v1730152601/images/contributing-to-gitfichas/result-of-git-push.jpg)
+![Result of git push and sending the code to the remote](/images/contributing-to-gitfichas/result-of-git-push.webp)
 
 Click on it and then click "Yes" on the pop-up that asks if you want to open the pull request within Codespaces using the pull requests and issues extension.
 
-![pull request pop up using the extension in codespaces](https://res.cloudinary.com/jesstemporal/image/upload/v1730152755/images/contributing-to-gitfichas/pull-request-pop-up-using-the-extension-in-codespaces.jpg)
+![pull request pop up using the extension in codespaces](/images/contributing-to-gitfichas/pull-request-pop-up-using-the-extension-in-codespaces.webp)
 
 ### Open the pull request and wait
 
 This will open a left sidebar where you can adjust the pull request information as shown in the image below.
 
-![opening pull request from codespaces](https://res.cloudinary.com/jesstemporal/image/upload/v1730153285/images/contributing-to-gitfichas/opening-pull-request-from-codespaces.jpg)
+![opening pull request from codespaces](/images/contributing-to-gitfichas/opening-pull-request-from-codespaces.webp)
 
 You can, for example, add a description of the changes and [connect your pull request to the issue it resolves using magic words](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue). Now you just have to wait for the review and merge. 🎉 🎉 🎉
 
@@ -264,7 +264,7 @@ You can, for example, add a description of the changes and [connect your pull re
 
 Now this part does not depend only on you. After submitting your pull request, the person or people who maintain the project need to review your contribution. From now on, things happen on the original repository page where the pull request exists.
 
-![Pull request 187 on gitfichas](https://res.cloudinary.com/jesstemporal/image/upload/v1730153494/images/contributing-to-gitfichas/pull-request-187-on-gitfichas.jpg)
+![Pull request 187 on gitfichas](/images/contributing-to-gitfichas/pull-request-187-on-gitfichas.webp)
 
 As a final check, you can use the "Deploy Preview" to see the changes you made this time in the preview generated by Netlify. It should not be different from what you saw when running the site earlier, but it is always good to double-check.
 

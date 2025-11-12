@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2019-12-18 07:00:00+00:00
 description: You know qualified women. Why not appoint them?
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: /images/covers/miscellaneous.webp
 lang: en
 layout: post
 series: "Career in Tech"

@@ -5,7 +5,7 @@ hidden: true
 title: Vamos falar sobre JWT
 date: 2022-03-31 00:00:00 -0300
 lang: pt
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png
+image: /images/covers/palestra.webp
 tags:
 - portugues
 description: Quer entender JWTs? Se liga nessa palestra

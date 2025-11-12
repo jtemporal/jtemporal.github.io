@@ -2,7 +2,7 @@
 layout: post
 title: Uma semana de Serenata de Amor
 date: 2017-01-16 00:00:00 -0200
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 comments: true
 lang: pt
 type: post
@@ -32,6 +32,6 @@ Pra continuar lendo esse artigo e saber mais como foi isso de participar de um t
 
 <center>
   <a href="https://medium.com/serenata/uma-semana-de-serenata-de-amor-f65febeb981d">
-  <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
+  <img src="/images/clique-aqui-para-ler.webp" />
   </a>
 </center>

@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-29T06:00:00+00:00
 description: Planos mudam e menos trabalho porque descansar também é importante
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/preptember.jpg
+image: /images/covers/preptember.webp
 lang: pt
 layout: post
 posts_list:
@@ -101,7 +101,7 @@ Eu copiei a lista original para a pasta `_hacktoberfest_projects_2025` e para ev
 O pequeno problema disso: quando a pasta original de projetos não existia mais, o Jekyll não deu nenhum erro porém as versões anteriores da lista começaram a mostrar conteúdo vazio. Deveria haver uma lista de projetos antes da assinatura na imagem abaixo por exemplo.
 
 <center>
-<img alt="Screenshot mostrando a página com conteúdo da lista de projetos faltando, mostrando apenas a assinatura na parte inferior" src="https://res.cloudinary.com/jesstemporal/image/upload/v1759181171/broken-build-with-missing-content.png" style="box-shadow: 4px 4px 4px rgba(51,51,51,0.57); border-radius: 8px; max-width: 80%; border: 1px solid #b6b6b6ff;" />
+<img alt="Screenshot mostrando a página com conteúdo da lista de projetos faltando, mostrando apenas a assinatura na parte inferior" src="/images/broken-build-with-missing-content.webp" style="box-shadow: 4px 4px 4px rgba(51,51,51,0.57); border-radius: 8px; max-width: 80%; border: 1px solid #b6b6b6ff;" />
 </center>
 
 Então o **[PR #309](https://github.com/jtemporal/jtemporal.github.io/pull/309)** silenciosamente quebrou a produção já que eu, é claro, fiz merge do PR esquecendo dos anos anteriores.
@@ -127,7 +127,7 @@ Na minha cabeça, a forma fácil de fazer isso era:
 Fácil né? O desafio se tornou encontrar um commit para cada período no qual eu pudesse "pular" para copiar a pasta. Então entrei na [lista de commits](https://github.com/jtemporal/jtemporal.github.io/commits/main) no GitHub e usei o botão de data para filtrar os commits:
 
 <center>
-<img alt="Página de commits do GitHub mostrando interface de filtragem baseada em data para buscar commits dentro de períodos específicos" src="https://res.cloudinary.com/jesstemporal/image/upload/v1759181171/commits-search-based-on-date-on-github.png" style="max-width: 80%;" />
+<img alt="Página de commits do GitHub mostrando interface de filtragem baseada em data para buscar commits dentro de períodos específicos" src="/images/commits-search-based-on-date-on-github.webp" style="max-width: 80%;" />
 </center>
 
 De lá escolhi um commit e pulei para ele:

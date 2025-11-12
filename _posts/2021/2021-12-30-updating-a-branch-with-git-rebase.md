@@ -7,7 +7,7 @@ comments: true
 date: 2021-12-30 12:34:20-02:00
 description: See how to use git rebase to bring all the most recent commits to your
   current branch
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -36,15 +36,15 @@ In this pro tip I will show you how to use `git rebase` to update a branch.
 
 Suppose you have a project and you were working on a task on the branch `task-2`, meanwhile someone else was working on the branch `task-1` that was merged into `main` and thus making the branch `main` more up-to-date as shown in the drawing below:
 
-![drawing showing the current history state](https://res.cloudinary.com/jesstemporal/image/upload/v1643385730/git-rebase-ajustar-origem/branches-before-rebase_c489n4.jpg)
+![drawing showing the current history state](/images/git-rebase-ajustar-origem/branches-before-rebase.webp)
 
 Similarly, the history graph should look like the image below:
 
-![image showing the main branch history](https://res.cloudinary.com/jesstemporal/image/upload/v1643384524/git-rebase-ajustar-origem/branch-main-merged-fig8_n2eqqq.png)
+![image showing the main branch history](/images/git-rebase-ajustar-origem/branch-main-merged-fig8.webp)
 
 Knowing that `main` is more up-to-date than your branch `task-2` and following the good practice of always working with the most up-to-date project, you decide it's time to update your working branch, which has the current history looking like this:
 
-![image showing the result of git log --graph command showing the branch task-2 with outdated history](https://res.cloudinary.com/jesstemporal/image/upload/v1643382297/git-rebase-ajustar-origem/git-log-graph-correct-branch-fig7_ikzqld.png)
+![image showing the result of git log --graph command showing the branch task-2 with outdated history](/images/git-rebase-ajustar-origem/git-log-graph-correct-branch-fig7.webp)
 
 ## Updating the current branch
 
@@ -59,7 +59,7 @@ git rebase main
 
 By running these commands you will see in your terminal the message  saying that the update was done successfully *“Successfully rebased and updated refs/heads/task-2.”* as you can see in the following image:
 
-![imagem com o resultado dos comandos anteriores](https://res.cloudinary.com/jesstemporal/image/upload/v1643385014/git-rebase-ajustar-origem/git-rebase-branch-fig9_hdqtcm.png)
+![imagem com o resultado dos comandos anteriores](/images/git-rebase-ajustar-origem/git-rebase-branch-fig9.webp)
 
 The second way is **independent of the current branch**, this format is a shortcut for the two previous commands, just use rebase, pass the source branch of the changes followed by the target branch:
 
@@ -69,11 +69,11 @@ git rebase main task-2
 
 This command should also show the same message as the previous image. Regardless of the way you choose to use rebase, your history should look something like the drawing below:
 
-![desenho do histórico atualizado após o git rebase](https://res.cloudinary.com/jesstemporal/image/upload/v1643385730/git-rebase-ajustar-origem/branches-after-rebase_silptx.jpg)
+![desenho do histórico atualizado após o git rebase](/images/git-rebase-ajustar-origem/branches-after-rebase.webp)
 
 And the history graph should look like this:
 
-![grafo de histórico após atualizar o ramo task-2 com o rebase](https://res.cloudinary.com/jesstemporal/image/upload/v1643385265/git-rebase-ajustar-origem/updated-history-after-git-reabse-fig10_wmpoha.png)
+![grafo de histórico após atualizar o ramo task-2 com o rebase](/images/git-rebase-ajustar-origem/updated-history-after-git-reabse-fig10.webp)
 
 ## Wrapping up
 

@@ -3,7 +3,7 @@ comments: true
 date: 2023-08-16 11:00:00+00:00
 description: Writing is hard, publishing is also hard, here's what I learned by doing
   it the first time
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+image: /images/covers/personal.webp
 lang: en
 layout: post
 related: false

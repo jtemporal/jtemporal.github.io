@@ -6,7 +6,7 @@ bookbanner: true
 comments: true
 date: 2021-12-29 12:40:00-02:00
 description: Understand how to use git rebase para to fix the brach source
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -37,21 +37,21 @@ Suppose you have two tasks to do in the next few weeks and you want to work on e
 
 So to work on task #1 you create a branch with that name from `main`.
 
-![image showing the result of creating the branch task-1](https://res.cloudinary.com/jesstemporal/image/upload/v1643381405/git-rebase-ajustar-origem/git-checkout-fig1_qd3kkn.png)
+![image showing the result of creating the branch task-1](/images/git-rebase-ajustar-origem/git-checkout-fig1.webp)
 
 Let's say that during your implementation you got tired of messing with that problem and decided that it would be a good idea to change the context for a bit and start working on task 2.
 
 For that you need to create a new branch also from `main`, however, without realizing it you ended up creating your branch from branch `task-1`:
 
-![image showing the result of creating the branch task-2 from task-1](https://res.cloudinary.com/jesstemporal/image/upload/v1643382296/git-rebase-ajustar-origem/git-switch-fig2_ugve35.png)
+![image showing the result of creating the branch task-2 from task-1](/images/git-rebase-ajustar-origem/git-switch-fig2.webp)
 
 And then, you started working and only realized the mistake later. After you commit to `task-2` your history looks something like this:
 
-![drawing showing that the branch task-2 depends on the branch task-1](https://res.cloudinary.com/jesstemporal/image/upload/v1643382763/git-rebase-ajustar-origem/rebase-fixing-source-fig3_yjr1zx.jpg)
+![drawing showing that the branch task-2 depends on the branch task-1](/images/git-rebase-ajustar-origem/rebase-fixing-source-fig3.webp)
 
 If you look at your history graph you'll see that it shows that the most recent commit (`1078aa`) on the branch `task-2` depends on the commit made on the branch `task-1` (`a7f89a`):
 
-![image showing the result of command git log --graph on branch tarefa-2 showing the history dependant of the branch tarefa-1](https://res.cloudinary.com/jesstemporal/image/upload/v1643382297/git-rebase-ajustar-origem/git-log-graph-worng-branch-fig4_bsmw1u.png)
+![image showing the result of command git log --graph on branch tarefa-2 showing the history dependant of the branch tarefa-1](/images/git-rebase-ajustar-origem/git-log-graph-worng-branch-fig4.webp)
 
 So we need to fix this.
 
@@ -67,15 +67,15 @@ git rebase --onto main task-1 task-2
 
 The result should look similar to the image below:
 
-![image showing the result of the command git rebase --onto main tarefa-1 task-2](https://res.cloudinary.com/jesstemporal/image/upload/v1643382296/git-rebase-ajustar-origem/git-rebase-onto-main-task1-task2-fig5_lenp6j.png)
+![image showing the result of the command git rebase --onto main tarefa-1 task-2](/images/git-rebase-ajustar-origem/git-rebase-onto-main-task1-task2-fig5.webp)
 
 Now, having run the above command, your history becomes what it should have been from the beginning:
 
-![drawing showing the branch task-2 as dependant of the branch main](https://res.cloudinary.com/jesstemporal/image/upload/v1643382763/git-rebase-ajustar-origem/rebase-fixed-source-fig6_shwva2.jpg)
+![drawing showing the branch task-2 as dependant of the branch main](/images/git-rebase-ajustar-origem/rebase-fixed-source-fig6.webp)
 
 And if you check the history graph again, you'll see that we only see the commits from task 2 in the corresponding branch:
 
-![image showing the result of the command git log --graph showing the branch task-2 with the correct history](https://res.cloudinary.com/jesstemporal/image/upload/v1643382297/git-rebase-ajustar-origem/git-log-graph-correct-branch-fig7_ikzqld.png)
+![image showing the result of the command git log --graph showing the branch task-2 with the correct history](/images/git-rebase-ajustar-origem/git-log-graph-correct-branch-fig7.webp)
 
 Three important things to notice:
 

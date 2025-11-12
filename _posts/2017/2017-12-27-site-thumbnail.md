@@ -2,7 +2,7 @@
 comments: true
 date: '2017-12-27 10:00:00'
 description: Como adicionar um thumbnail no seu site
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 tags:

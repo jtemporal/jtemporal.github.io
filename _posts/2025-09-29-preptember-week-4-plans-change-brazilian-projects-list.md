@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-29T04:00:00+00:00
 description: Plans change and less work because resting is also important
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/preptember.jpg
+image: /images/covers/preptember.webp
 lang: en
 layout: post
 posts_list:
@@ -103,7 +103,7 @@ Then I copied the original list into a `_hacktoberfest_projects_2025` folder and
 The issue being: when the original projects folder no longer existed, Jekyll gave out zero errors and then previous versions of the list started to show empty content. There should be a list of projects before the signature on the image below.
 
 <center>
-<img alt="Screenshot showing the page with missing project list content, showing only the signature at the bottom" src="https://res.cloudinary.com/jesstemporal/image/upload/v1759181171/broken-build-with-missing-content.png" style="box-shadow: 4px 4px 4px rgba(51,51,51,0.57); border-radius: 8px; max-width: 80%; border: 1px solid #b6b6b6ff;" />
+<img alt="Screenshot showing the page with missing project list content, showing only the signature at the bottom" src="/images/broken-build-with-missing-content.webp" style="box-shadow: 4px 4px 4px rgba(51,51,51,0.57); border-radius: 8px; max-width: 80%; border: 1px solid #b6b6b6ff;" />
 </center>
 
 So **[PR #309](https://github.com/jtemporal/jtemporal.github.io/pull/309)** silently broke production since I, of course, merged the PR forgetting about the past years.
@@ -129,7 +129,7 @@ In my brain, the easy way to do this was to:
 Easy enough... The challenge became finding a commit in that period of time I could "jump into" to copy the folder from. So I got into the [commits list](https://github.com/jtemporal/jtemporal.github.io/commits/main) in GitHub and then used the date button to filter out the dates like this:
 
 <center>
-<img alt="GitHub commits page showing date-based filtering interface to search for commits within specific time periods" src="https://res.cloudinary.com/jesstemporal/image/upload/v1759181171/commits-search-based-on-date-on-github.png" style="max-width: 80%;" />
+<img alt="GitHub commits page showing date-based filtering interface to search for commits within specific time periods" src="/images/commits-search-based-on-date-on-github.webp" style="max-width: 80%;" />
 </center>
 
 From there I picked a commit and jumped into it:

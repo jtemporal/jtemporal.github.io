@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2022-02-05 11:25:00-02:00
 description: Understand when to use git stash drop how it works
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 posts_list:
@@ -46,7 +46,7 @@ So far so good, but what happens when you store changes for another reason, like
 
 Old stashes can be a source of a lot of headache, *yes conflicts, I'm talking about you*, so it's important to keep your stash list up to date. Suppose you currently have the following stash list:
 
-![Image showing the stash list as output of the command git stash list with two stashes in the list](https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png)
+![Image showing the stash list as output of the command git stash list with two stashes in the list](/images/git-stash/listagem-stashes-fig1.webp)
 
 You want to get rid of stash number `0` which contains the creation of `arquivo-2.txt`. To do this, run the following command:
 
@@ -56,11 +56,11 @@ git stash drop stash@{0}
 
 You should see a message informing the stash has been removed:
 
-![Image showing the output of the command git stash drop ](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/resultado-git-stash-drop-fig2_kzdkkj.png)
+![Image showing the output of the command git stash drop ](/images/git-stash/resultado-git-stash-drop-fig2.webp)
 
 Then you can double check the stash listing:
 
-![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o drop de um dos stashes anteriores](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/listagem-stashes-pos-dropfig3_j0h1gp.png)
+![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o drop de um dos stashes anteriores](/images/git-stash/listagem-stashes-pos-dropfig3.webp)
 
 It's worth mentioning that just like [`git stash pop`](https://jtemporal.com/using-git-stash-and-git-stash-pop), if you don't pass the stash name to the command `git stash drop`, it will remove the most recent stash from the stack.
 

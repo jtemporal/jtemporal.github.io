@@ -4,7 +4,7 @@ type: talk
 title: "4º Pyladies Floripa"
 description: "4º Pyladies Floripa"
 date: 2017-04-27
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"
+image: "/images/covers/palestra.webp"
 comments: false
 hidden: true
 ---

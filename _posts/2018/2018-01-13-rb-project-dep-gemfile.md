@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2018-01-13 07:59:00+00:00
 description: Today's pro-tip teaches you what to do when you don't have a Gemfile
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Jekyll & GitHub Pages Mastery"

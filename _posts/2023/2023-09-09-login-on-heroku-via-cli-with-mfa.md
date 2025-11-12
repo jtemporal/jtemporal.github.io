@@ -6,7 +6,7 @@ comments: true
 date: 2023-12-04 09:01:00+00:00
 description: Using Heroku CLI on GitHub Codespaces and logging in without a browser
   even with MFA enabled
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:
@@ -46,7 +46,7 @@ This feature is extremely useful when you are trying to log in to Heroku from a 
 
 With MFA (multi-factor authentication) activated, just  username and password won’t be enough as can be seen in the image above.
 
-![Result of trying an interactive login and failing due to MFA enabled](https://res.cloudinary.com/jesstemporal/image/upload/v1694306510/heroku-login-cli-credentials-not-enough-mfa-enabled_aye1lw.png)
+![Result of trying an interactive login and failing due to MFA enabled](/images/heroku-login-cli-credentials-not-enough-mfa-enabled.webp)
 
 To follow up with the login process in these cases, an authorization token must be generated.
 
@@ -56,17 +56,17 @@ Log in to your Heroku dashboard and click on your photo, then select "Account Se
 
 If you have never used Heroku authorization tokens before, this section will be empty, I already have some tokens as you can see in the image below.
 
-![Tokens listed in the Authorizations section](https://res.cloudinary.com/jesstemporal/image/upload/v1694307511/heroku-lists-of-authorization-tokens_tli8dd.png)
+![Tokens listed in the Authorizations section](/images/heroku-lists-of-authorization-tokens.webp)
 
 
 Then click on ”Create Authorization”. A side menu will appear as you can see in the image below.
 
-![Side menu to create a new authorization token](https://res.cloudinary.com/jesstemporal/image/upload/v1694307588/lateral-menu-for-creating-new-authorization-token.png)
+![Side menu to create a new authorization token](/images/lateral-menu-for-creating-new-authorization-token.webp)
 
 
 To create a new token, just give it a description and click on the “Create” button. In my case, I intend to use this token for a GitHub Codespaces, so I named it "Codespaces".
 
-![Side menu after creating the new token showing this token](https://res.cloudinary.com/jesstemporal/image/upload/v1694307686/heroku-authorization-token-created-successfully.png)
+![Side menu after creating the new token showing this token](/images/heroku-authorization-token-created-successfully.webp)
 
 Once created, the token will be shown on the screen so you can copy it. Oh and don't worry, although I'm showing this token here (which you should never do) it no longer exists so no one can impersonate me.
 
@@ -76,7 +76,7 @@ Note that, optionally, it is possible to give an “expiration date” or better
 
 Remember to copy the token, now to log in, just use the token instead of your password when logging in. Run the command `heroku login -i` again and pass your username and token as can be seen
 
-![Image showing a successful login using authorization token](https://res.cloudinary.com/jesstemporal/image/upload/v1694308188/successful-login-with-authorization-token-heroku.png)
+![Image showing a successful login using authorization token](/images/successful-login-with-authorization-token-heroku.webp)
 
 Now just follow the traditional flow of using Heroku.
 

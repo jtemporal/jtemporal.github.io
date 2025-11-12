@@ -2,7 +2,7 @@
 layout: post
 title: Quem tem medo de virar cientista de dados (3/3)
 date: 2020-01-29 10:00:37 -0200
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 type: post
 lang: pt
 series: "Carreira em Tech"
@@ -35,6 +35,6 @@ Para continuar lendo, clica nesse botão aqui em baixo 👇
 
 <center>
 <a href="https://medium.com/pizzadedados/quem-tem-medo-de-virar-cientista-de-dados-3-3-f46b118ae12a#1926">
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png"/>
+<img src="/images/clique-aqui-para-ler.webp"/>
 </a>
 </center>

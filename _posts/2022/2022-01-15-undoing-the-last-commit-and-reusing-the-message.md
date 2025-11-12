@@ -6,7 +6,7 @@ comments: true
 date: 2022-01-15 11:25:00-02:00
 description: Undo the last commit with git reset using --soft and reuse the message
   with ORIG_HEAD
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -45,7 +45,7 @@ I talked about the command [`git reset` in this other pro tip](https://jtemporal
 
 As an example, I have here a history of a project in which there are two commits: the initial commit on the `main` branch (`d815be`) and the second commit (`5e8ae2`) adding `arquivo-1.txt` that should be on another branch, see:
 
-![Screenshot showing the Git history in the terminal with two commits](https://res.cloudinary.com/jesstemporal/image/upload/v1642213678/git-reset/git-reset-fig-8_vr3e1u.png)
+![Screenshot showing the Git history in the terminal with two commits](/images/git-reset/git-reset-fig-8.webp)
 
 Now it’s time to undo our wrong commit.
 
@@ -61,7 +61,7 @@ git reset HEAD^ --soft
 
 The flag `--soft` indicates that you want to undo the commit subtly, in other words, keeping the changes. When running this command, you will not get any message, but the changes are on *staging*, which you can check with the command `git status`, and the result is as follows:
 
-![Screenshot showing the output of the command git reset HEAD^ --soft](https://res.cloudinary.com/jesstemporal/image/upload/v1642213678/git-reset/git-reset-fig-9_xbmaen.png)
+![Screenshot showing the output of the command git reset HEAD^ --soft](/images/git-reset/git-reset-fig-9.webp)
 
 Now let's redo the commit in the right place and reuse the message.
 
@@ -81,7 +81,7 @@ git commit -C ORIG_HEAD
 
 This flag `-C` literally means “reuse message”, and this is the result:
 
-![Screenshot showing the output of the commands git switch -c add-arquivos-novos followed by git commit -C ORIG_HEAD](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
+![Screenshot showing the output of the commands git switch -c add-arquivos-novos followed by git commit -C ORIG_HEAD](/images/git-reset/git-reset-fig-10.webp)
 
 Finally, if you want to edit the message, you should use the flag `-c` in place of the current flag. This will give you the opportunity to adjust the previous message before finishing the commit.
 

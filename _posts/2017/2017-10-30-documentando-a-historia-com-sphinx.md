@@ -3,7 +3,7 @@ comments: true
 date: '2017-10-30 10:00:00'
 description: Usando Sphinx para criar a documentação de dos processos de organizar
   um evento da comunidade
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 layout: post
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: 'Versionamento semântico: um passo além do Git'
 date: 2017-08-14 00:00:00 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 comments: true
 type: post
 lang: pt
@@ -30,7 +30,7 @@ Pra continuar lendo esse artigo e saber como funciona o versionamento semântico
 <center>
 <a href="https://medium.com/serenata/versionamento-sem%C3%A2ntico-um-passo-al%C3%A9m-do-git-53e466d0f21a">
 
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
+<img src="/images/clique-aqui-para-ler.webp" />
 
 </a>
 </center>

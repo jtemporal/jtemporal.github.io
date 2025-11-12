@@ -4,7 +4,7 @@ date: 2025-06-26T04:00:00.000+00:00
 title: "Model Context Protocol (MCP) Spec Updates from June 2025: One Small Step for a Spec, One Giant Leap for Security"
 redirect_to:
   - https://auth0.com/blog/mcp-specs-update-all-about-auth/
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png"
+image: "/images/covers/pro_tip.webp"
 lang: en
 type: post
 series: "MCP Mastery"

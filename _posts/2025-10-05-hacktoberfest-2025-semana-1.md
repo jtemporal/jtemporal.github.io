@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-05T05:00:00+00:00
 description: Um resumo cobrindo contribuições do GitFichas em estatísticas de pull requests
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg
+image: /images/covers/hacktoberfest.webp
 lang: pt
 layout: post
 posts_list:
@@ -47,13 +47,13 @@ Nesta primeira meia-semana de outubro, o [GitFichas recebeu 42 pull requests](ht
 
 Esse é o detalhamento das contribuições:
 
-![Gráfico de barras empilhadas mostrando a distribuição de tipos de pull request para o GitFichas durante a semana 1 do Hacktoberfest 2025, exibindo contribuições da comunidade vs contribuições da autora](https://res.cloudinary.com/jesstemporal/image/upload/v1759705587/pr-type-distribution-week-1-hacktoberfest_aikjtb.png)
+![Gráfico de barras empilhadas mostrando a distribuição de tipos de pull request para o GitFichas durante a semana 1 do Hacktoberfest 2025, exibindo contribuições da comunidade vs contribuições da autora](/images/pr-type-distribution-week-1-hacktoberfest.webp)
 
 Minhas contribuições (16 PRs) focaram em melhorar a documentação ou fazer correções baseadas nos PRs recebidos. Notei que algum tipo de diferença de sistema operacional está rolando e para alguns contribuidores a geração de SVG tem truncado o texto independente de onde estão as quebras de linha.
 
 O GitFichas também tem um projeto do GitHub que você pode acompanhar o andamento caso tenha curiosidade [o projeto está aqui](https://github.com/users/jtemporal/projects/1). A parte interessante é a [página de insights](https://github.com/users/jtemporal/projects/1/insights) onde você pode ver alguns gráficos como o abaixo.
 
-![Gráfico burn-up mostrando o progresso do projeto GitFichas até 5 de outubro de 2025, rastreando tarefas completas ao longo do tempo](https://res.cloudinary.com/jesstemporal/image/upload/v1759705587/burn-up-up-to-oct-4th_czxxdy.png)
+![Gráfico burn-up mostrando o progresso do projeto GitFichas até 5 de outubro de 2025, rastreando tarefas completas ao longo do tempo](/images/burn-up-up-to-oct-4th.webp)
 
 ## Outros projetos
 

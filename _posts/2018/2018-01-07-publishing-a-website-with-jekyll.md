@@ -4,7 +4,7 @@ comments: true
 date: 2018-01-07 10:00:00+00:00
 description: Learn to get your website up and running using the terminal, jekyll and
   other tools.
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: en
 layout: post
 series: "Jekyll & GitHub Pages Mastery"

@@ -4,7 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-04-23 22:34:34-03:00
 description: E por que você deveria por o pé na estrada
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+image: /images/covers/pessoal.webp
 lang: pt
 layout: post
 related: false

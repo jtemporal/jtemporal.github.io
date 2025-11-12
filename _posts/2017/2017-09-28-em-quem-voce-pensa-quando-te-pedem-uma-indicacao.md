@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2017-09-21 03:00:00+00:00
 description: Você conhece mulheres qualificadas. Por que não indicá-las?
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png
+image: /images/covers/click-2.webp
 lang: pt
 layout: post
 series: "Carreira em Tech"
@@ -31,7 +31,7 @@ Pra continuar lendo esse artigo corre lá para a revista do Code Like a Girl �
 <center>
 <a href="https://code.likeagirl.io/em-quem-voc%C3%AA-pensa-quando-te-pedem-uma-indica%C3%A7%C3%A3o-b15e047b7759">
 
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
+<img src="/images/clique-aqui-para-ler.webp" />
 
 </a>
 </center>

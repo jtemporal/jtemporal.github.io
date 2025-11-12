@@ -2,7 +2,7 @@
 layout: post
 title: Transformando um site feito em Jekyll em uma página de um site feito em Pelican
 date: 2019-04-28T03:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 type: post
 lang: pt
 series: "Dominando Jekyll e GitHub Pages"

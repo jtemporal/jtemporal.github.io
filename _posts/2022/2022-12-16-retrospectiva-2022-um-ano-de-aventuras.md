@@ -2,7 +2,7 @@
 comments: true
 date: 2022-12-16 11:00:00+00:00
 description: Uma reflexão sobre os acontecimentos do ano
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+image: /images/covers/pessoal.webp
 lang: pt
 layout: post
 related: false

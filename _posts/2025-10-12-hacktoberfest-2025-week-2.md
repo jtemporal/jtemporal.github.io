@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-12T04:00:00+00:00
 description: A week 2 recap - TLDR 54 PRs this week!
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg
+image: /images/covers/hacktoberfest.webp
 lang: en
 layout: post
 type: post
@@ -40,7 +40,7 @@ This is the first full week of October [GitFichas received 54 pull requests](htt
 
 Here's the breakdown of the contributions:
 
-![Stacked bar chart showing pull request type distribution for GitFichas during Hacktoberfest 2025 week 2, displaying community contributions vs author contributions](https://res.cloudinary.com/jesstemporal/image/upload/v1760289195/pr-type-distribution-week-2-hacktoberfest_p4o6ac.jpg)
+![Stacked bar chart showing pull request type distribution for GitFichas during Hacktoberfest 2025 week 2, displaying community contributions vs author contributions](/images/pr-type-distribution-week-2-hacktoberfest.webp)
 
 This week I had very little available time to focus on PRs during the week and you can see on the above chart that most contributions were made by the community across the board.
 
@@ -48,13 +48,13 @@ While analyzing the [insights charts](https://github.com/users/jtemporal/project
 
 This week unfortunately I had limited time to work on PRs myself due to some changing priorities at work. So instead of making the corrections myself I opened issues for every correction. This would allow me to track changes to make on the weekend and to give a chance to the community to work on them as well. The result from this change in behavior on my end can be seen in the distribution chart below:
 
-![Stacked bar chart showing closed issues distribution between week 1 and week 2 of Hacktoberfest 2025 for GitFichas project](https://res.cloudinary.com/jesstemporal/image/upload/v1760289749/closed-issues-distribution-w1-w2_tzkjjd.jpg)
+![Stacked bar chart showing closed issues distribution between week 1 and week 2 of Hacktoberfest 2025 for GitFichas project](/images/closed-issues-distribution-w1-w2.webp)
 
 If you look at the first chart in the blog post you'll also see that the community made most of the PRs this week.
 
 Speaking of closing issues, here's the burn up for this past week until October 11th:
 
-![Burn-up chart showing GitFichas project progress up to October 12th, 2025, tracking completed tasks over time](https://res.cloudinary.com/jesstemporal/image/upload/v1760289059/burn-up-up-to-oct-11th_uf3rah.jpg)
+![Burn-up chart showing GitFichas project progress up to October 12th, 2025, tracking completed tasks over time](/images/burn-up-up-to-oct-11th.webp)
 
 While issues increased in numbers, we also closed a bunch of them. If the rhythm continues like this, it is likely that we'll have most issues closed at the end of the month. 🎉
 

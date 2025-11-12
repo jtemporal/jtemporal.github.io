@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2021-12-24 12:34:20-02:00
 description: Entenda pra que serve e como usar o arquivo .gitkeep
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 series: "Dicas de Git"
@@ -35,10 +35,10 @@ Ao colocar este arquivo numa pasta vazia, ele garante que o git vá adicionar es
 
 Na imagem abaixo você vê um projeto chamado `exemplo-pastas` que já possui um arquivo `README.md` que já foi commitado e sem alterações acompanhadas pelo git, em seguida eu crio uma nova pasta chamada `diretorio1` e ao fazer novamente o `git status` o git segue informando que não há mudanças no projeto.
 
-![exemplo 1](https://res.cloudinary.com/jesstemporal/image/upload/v1640360211/gitkeep-exemplo-fig-1_tsvwqh.png)
+![exemplo 1](/images/gitkeep-exemplo-fig-1.webp)
 
 Agora se criarmos o arquivo `.gitkeep` dentro do `diretorio1` o git mostra que há a existência de um diretório a ser adicionado, veja:
 
-![exemplo 2](https://res.cloudinary.com/jesstemporal/image/upload/v1640360212/gitkeep-exemplo-fig-2_etwfco.png)
+![exemplo 2](/images/gitkeep-exemplo-fig-2.webp)
 
 Com isso você consegue ver o funcionamento do `.gitkeep` e caso queira ver na prática esse exemplo está disponível [nesse repositório do GitHub](https://github.com/jtemporal/exemplo-pastas).

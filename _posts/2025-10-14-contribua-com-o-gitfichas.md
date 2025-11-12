@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2025-10-14T04:00:00+00:00
 description: Mais de 90 issues esperando por você
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760702982/covers/opensource_p4btht.png
+image: /images/covers/opensource.webp
 lang: pt
 posts_list:
 - resolvendo-conflitos

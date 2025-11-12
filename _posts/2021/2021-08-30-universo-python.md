@@ -4,7 +4,7 @@ type: talk
 hidden: true
 title: Universo Python
 date: 2020-11-24 11:00:00 -0200
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/podcast_xah39p.png"
+image: "/images/covers/podcast.webp"
 description: Parte do esquenta para o DoWhile2020 Rocketseat
 tags:
 - português

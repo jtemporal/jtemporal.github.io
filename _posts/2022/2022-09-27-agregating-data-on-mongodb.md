@@ -2,7 +2,7 @@
 layout: post
 title: How to create a new collection in MongoDB by joining two collections
 date: 2022-09-27T05:00:00.000-03:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 tags:
 - tutorial
 - English
@@ -31,7 +31,7 @@ You’ll be using the sample data from MongoDB to learn how to do an aggregation
 
 In Mongo, a dataset is called a *collection*; think of it as a special spreadsheet. Whereas the records in a spreadsheet are lines, in MongoDB, a record is called a *document*. You’ll use the collection `sample_mflix` that contains movies, comments, users, etc.
 
-![Sample data information from MongoDB](https://res.cloudinary.com/jesstemporal/image/upload/v1664032162/mongodb/sample-data-mongodb-mflix_em8syi.jpg)
+![Sample data information from MongoDB](/images/mongodb/sample-data-mongodb-mflix.webp)
 
 ## Make a basic filter
 
@@ -39,7 +39,7 @@ Your objective is to create a collection containing all the comments each movie 
 
 Start by going into the project’s database. My project is called “Project 0” and has the “Example” database comprising three databases and 15 collections.
 
-![project details in the mongo database](https://res.cloudinary.com/jesstemporal/image/upload/v1664226998/mongodb/02-my-project-details-in-mongodb_cpd7a5.jpg)
+![project details in the mongo database](/images/mongodb/02-my-project-details-in-mongodb.webp)
 
 Each project has a set of tabs, one of which is the “Collections” tab, where you can see the databases and the documents in each collection, as shown in the image above. From within the Collections tab, you can see the data and make simple queries if you want.
 
@@ -49,7 +49,7 @@ Each project has a set of tabs, one of which is the “Collections” tab, where
 
 For example, the query above shows every document with a date value later than August 18th, 2002.
 
-![simple filter result](https://res.cloudinary.com/jesstemporal/image/upload/v1664227018/mongodb/03-simple-filter-query-mongodb_udymc0.jpg)
+![simple filter result](/images/mongodb/03-simple-filter-query-mongodb.webp)
 
 Using queries like that is great to see the preliminary results of the collection you are trying to build. But to actually create the collection, we need to use *aggregations*.
 
@@ -57,7 +57,7 @@ Using queries like that is great to see the preliminary results of the collectio
 
 Aggregations are one way you can build collections inside MongoDB, and there’s a tab for that, as shown in the image below.
 
-![Aggregation tab on the collection](https://res.cloudinary.com/jesstemporal/image/upload/v1664227026/mongodb/04-aggregation-tab-for-mflix-comments_qvghve.png)
+![Aggregation tab on the collection](/images/mongodb/04-aggregation-tab-for-mflix-comments.webp)
 
 To see the Aggregation tab, you need to click on the collection you want to investigate or use as the basis for your new collection. On the aggregation tab, you’ll see the pipeline builder. A pipeline is a set of steps; each step is called a stage; each stage does one thing and one thing only. You will do three stages:
 
@@ -71,7 +71,7 @@ To avoid dealing with unnecessary data, that is, data outside of your interest d
 
 On the drop-down menu for the first stage, select the `$match` operator; this operator will allow you to filter the records based on the date. Note that once you select the operator, Mongo will auto-populate the editable field with the standard structure for that operator.
 
-![First stage: $match operator selection](https://res.cloudinary.com/jesstemporal/image/upload/v1664230618/mongodb/05-match-operator-pre-filled-on-aggregation-stage_ddkexu.png)
+![First stage: $match operator selection](/images/mongodb/05-match-operator-pre-filled-on-aggregation-stage.webp)
  
 Now you need to add the following code in the query section there:
 
@@ -79,7 +79,7 @@ Now you need to add the following code in the query section there:
 
 Once that is done, you’ll see that the sample result will start displaying.
 
-![first stage $match operator sample results](https://res.cloudinary.com/jesstemporal/image/upload/v1664230861/mongodb/06-preliminary-results-match-operator_ltitcl.png)
+![first stage $match operator sample results](/images/mongodb/06-preliminary-results-match-operator.webp)
 
 Now let’s break down each step of that operation, shall we?
 
@@ -94,13 +94,13 @@ This operator result will be *all the documents between August 1st and August 31
 
 You’ll notice that the comments don’t have the movie information, but the movie identification number (ID) is present, as shown in the image below.
 
-![One comment document without the movie information](https://res.cloudinary.com/jesstemporal/image/upload/v1664230868/mongodb/07-one-comment-record-from-mongodb_qv98s8.jpg)
+![One comment document without the movie information](/images/mongodb/07-one-comment-record-from-mongodb.webp)
 
 Including the movie information in the filtered comments you just got from the first stage is the second step of our aggregation. Click the “Add stage” button below the first stage to start working on adding the movie information to the collection using the `$lookup` operator.
 
 The `$lookup` operator does a “left outer join”. Think of it as a “filtered join”. Based on the collection on the “left” (comments), select the documents on the “right” (movies) that match a given field in both, in this case, the movie id. This way, we don’t have to care about removing movies without comments, but all comments from the time window.
 
-![pre-filled lookup stage](https://res.cloudinary.com/jesstemporal/image/upload/v1664230905/mongodb/08-lookup-stage-added-pre-filled_q6kdg1.png)
+![pre-filled lookup stage](/images/mongodb/08-lookup-stage-added-pre-filled.webp)
 
 On the drop-down menu for the second stage, select the `$lookup` operator, as shown in the image above. Once again, Mongo will pre-fill the operator sample code, and you can update the code section with the code below.
 
@@ -116,7 +116,7 @@ Once more, let’s break down each step of that operation:
 
 And you should see the results show up like in the image below.
 
-![New stage with the $lookup operator premliminary results](https://res.cloudinary.com/jesstemporal/image/upload/v1664233089/mongodb/09-preliminary-results-lookup-operator_evgamh.png)
+![New stage with the $lookup operator premliminary results](/images/mongodb/09-preliminary-results-lookup-operator.webp)
 
 All the data manipulation is done. Time to save the results and actually create your new collection.
 
@@ -124,7 +124,7 @@ All the data manipulation is done. Time to save the results and actually create 
 
 Once again, click the “Add stage” button to create a stage that outputs the result into a new collection, and on the drop-down menu for the third stage, select the `$out` operator.
 
-![New stage with the $out operator pre-filled](https://res.cloudinary.com/jesstemporal/image/upload/v1664233091/mongodb/10-pre-filled-out-operator_fdm7eo.png)
+![New stage with the $out operator pre-filled](/images/mongodb/10-pre-filled-out-operator.webp)
 
 Now update the code in the code field in the out section with the code below.
 
@@ -137,15 +137,15 @@ Let’s break down this part.
 
 After filling out the new collection’s name, you should click the “Save documents” button.
 
-![Out operator filled with the correct code](https://res.cloudinary.com/jesstemporal/image/upload/v1664233827/mongodb/11-out-operator-with-save-documents-button_zousvw.png)
+![Out operator filled with the correct code](/images/mongodb/11-out-operator-with-save-documents-button.webp)
 
 Once the collection is created (it might take a few seconds), you’ll see a message stating that documents were persisted in the collection and a “Go to collection” link that you should click.
 
-![Documents persisted note](https://res.cloudinary.com/jesstemporal/image/upload/v1664233828/mongodb/12-out-operator-saved-documents_afzssm.png)
+![Documents persisted note](/images/mongodb/12-out-operator-saved-documents.webp)
 
 Clicking the “Go to collection” link will open a new tab. If you do not want to see another tab, refresh the page, and you’ll see the `augustmoviecomments` show up on the left-hand side menu.
 
-![New collection details](https://res.cloudinary.com/jesstemporal/image/upload/v1664235178/mongodb/13-final-collection-result_xv262x.png)
+![New collection details](/images/mongodb/13-final-collection-result.webp)
 
 Now that your collection is ready, you can see the collection analytics data, like how many activities were logged and how much space that takes into our storage.
 

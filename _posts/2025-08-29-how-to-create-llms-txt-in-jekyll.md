@@ -2,7 +2,7 @@
 title: 'How to create an llms.txt file in Jekyll and GitHub Pages'
 layout: post
 date: 2025-08-29T04:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 type: post
 lang: en
 series: "Jekyll & GitHub Pages Mastery"
@@ -84,7 +84,7 @@ Some things to pay attention:
 
 Here's what the generated file looks like on my site:
 
-![Screenshot of llms.txt output showing the generated list of blog posts with links to raw Markdown files](https://res.cloudinary.com/jesstemporal/image/upload/v1756477506/llms-txt-jtemporal.png)
+![Screenshot of llms.txt output showing the generated list of blog posts with links to raw Markdown files](/images/llms-txt-jtemporal.webp)
 
 ## Add to _config.yml
 

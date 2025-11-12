@@ -3,7 +3,7 @@ comments: true
 date: 2023-09-08 09:01:00+00:00
 description: Getting comfortable with a new skill requires effort, here's what I learned
   so far on editing and recording videos
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: /images/covers/miscellaneous.webp
 lang: en
 layout: post
 tags:
@@ -43,7 +43,7 @@ Although writing and reading are my preferred ways to learn, some developers pre
 
 But for that to be true I need to  1) record the videos and 2) edit them. Maybe in the future, I’ll have a team to edit it for me. While that’s not my reality today, editing I shall learn.
 
-![A photo of my TikTok profile, showing the first 2 videos](https://res.cloudinary.com/jesstemporal/image/upload/v1694285944/tiktok-jess-temporal-profile-showing-the-first-two-videos.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
+![A photo of my TikTok profile, showing the first 2 videos](/images/tiktok-jess-temporal-profile-showing-the-first-two-videos.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
 
 ## Lesson 1: 60 seconds videos are a challenge
 
@@ -76,7 +76,7 @@ I hope to learn a few other things soon too like removing the background if I us
 
 I’m editing stuff on iMovie. 👀 don’t judge me okay? I’m new at this.
 
-![editing videos on imovie](https://res.cloudinary.com/jesstemporal/image/upload/v1694286049/imovie-editing-tiktoks_cff1zz.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
+![editing videos on imovie](/images/imovie-editing-tiktoks.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
 
 Right now I know exactly one shortcut: the one for splitting the video. I wish I knew more shortcuts as I know they will probably make editing faster, I also know that muscle memory will come with time.
 
@@ -86,7 +86,7 @@ As well as making fewer mistakes or knowing exactly how to edit something before
 
 The iPhone 14 for example “bites” into the top of the video on TikTok and if the dynamic island is on is even worse.
 
-![image showing the video in two different displays from tiktok](https://res.cloudinary.com/jesstemporal/image/upload/v1694300413/different-displays-of-same-content_wx0hwk.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
+![image showing the video in two different displays from tiktok](/images/different-displays-of-same-content.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
 
 A friend also showed me a screenshot on his phone that there was a bar below that would cover a portion of the video (mainly my face now) so accounting for that will be good to avoid having information in a portion that won’t show up.
 

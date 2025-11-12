@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2023-12-01 11:25:00+00:00
 description: No more confusion caused by trying to rename a file in a git project
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -34,7 +34,7 @@ Have you ever tried to rename a file in your projects and had a hard time adding
 
 Let's say you decided to rename a file and, for simplicity's sake, you decide to do it in the folder interface itself (or using the `mv` command in the terminal). After that you want to commit the name change and when you run the command `git status` you come across this situation:
 
-![Git status showing the file was deleted and another created](https://res.cloudinary.com/jesstemporal/image/upload/v1692470010/images/git-mv/001-renamed-file-deleted-git-status_shmq3h.png)
+![Git status showing the file was deleted and another created](/images/git-mv/001-renamed-file-deleted-git-status.webp)
 
 If you rename the file without using Git, Git “gets lost” and thinks that the original file was deleted and a new file was created as shown in the image above. Because of this behavior, you end up having to do two steps to commit the name change:
 
@@ -45,7 +45,7 @@ To make matters worse, it is not possible to add a “deleted” file without ex
 
 Let's say you persevered, added the deleted file and added the new file and once again you run  `git status`, and then git finally understands that it was a change in the file name, like so:
 
-![Git status showing the file was actually renamed](https://res.cloudinary.com/jesstemporal/image/upload/v1692470010/images/git-mv/002-renamed-file-git-status_lley9v.png)
+![Git status showing the file was actually renamed](/images/git-mv/002-renamed-file-git-status.webp)
 
 This is a relatively painless solution if you don't need to do this often, but there is a better way.
 

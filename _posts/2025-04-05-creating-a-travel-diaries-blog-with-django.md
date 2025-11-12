@@ -2,7 +2,7 @@
 title: 'Creating a Travel Diary With Django'
 layout: post
 date: 2025-04-05T04:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 type: post
 lang: en
 tags:

@@ -2,7 +2,7 @@
 comments: true
 date: 2018-01-03 10:00:00
 description: Como usar Git para forçar o build de um site que usa GitHub Pages
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 series: "Dominando Jekyll e GitHub Pages"

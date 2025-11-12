@@ -2,7 +2,7 @@
 layout: post
 title: A ciência de dados pode salvar um país
 date: 2019-11-23T13:11:42.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 comments: true
 description: Mas só se você levantar o bumbum do sofá e começar a fazer sua parte
 type: post

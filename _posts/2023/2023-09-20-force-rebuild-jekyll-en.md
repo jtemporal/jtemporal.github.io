@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2023-09-20 10:10:00+00:00
 description: How to use Git to force building a website hosted via GitHub Pages
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Jekyll & GitHub Pages Mastery"

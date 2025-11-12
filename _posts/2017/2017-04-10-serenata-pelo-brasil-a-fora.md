@@ -3,7 +3,7 @@ layout: post
 title: Serenata pelo Brasil a fora
 date: 2017-04-10 00:00:00 -0300
 type: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 comments: true
 lang: pt
 tags:
@@ -28,7 +28,7 @@ Pra continuar lendo esse artigo e saber mais como foi o mês de março no Serena
 <center>
 <a href="https://medium.com/serenata/serenata-pelo-brasil-a-fora-5823cc0d9736">
 
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
+<img src="/images/clique-aqui-para-ler.webp" />
 
 </a>
 </center>

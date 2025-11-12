@@ -2,7 +2,7 @@
 comments: true
 date: 2021-04-21 19:48:25-03:00
 description: Um passo-a-passo de como criar uma instância (Droplet) na Digital Ocean
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 layout: post
 tags:

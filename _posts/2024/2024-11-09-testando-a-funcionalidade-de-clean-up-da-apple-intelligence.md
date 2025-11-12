@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2024-11-09 05:00:00+00:00
 description: Remover objetos de fotos não é novidade, mas com certeza é divertido.
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 layout: post
 related: false
@@ -24,8 +24,8 @@ type: post
 Estas duas fotos são a mesma foto.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/initial-photo-with-items-to-be-removed.jpg" width="48%" alt="Foto inicial da mesa">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163837/apple-intelligence/clean-up/final-photo-with-all-items-removed-from-desk.jpg" width="48%" alt="Foto final da mesa 'limpa'">
+    <img src="/images/apple-intelligence/clean-up/initial-photo-with-items-to-be-removed.webp" width="48%" alt="Foto inicial da mesa">
+    <img src="/images/apple-intelligence/clean-up/final-photo-with-all-items-removed-from-desk.webp" width="48%" alt="Foto final da mesa 'limpa'">
 </div><br>
 
 Não acredita em mim? Eu sei, eu sei. À primeira vista, você pode pensar "*uma foto é uma mesa com coisas de crochê e a outra é uma mesa vazia, não tem como serem a mesma foto*", mas a sua curiosidade pode começar a te incomodar e você passa a notar algumas coisas estranhas na segunda foto. Algumas sombras esquisitas e algumas linhas muito retas, quase retas demais, nos veios da madeira.
@@ -63,8 +63,8 @@ Para as pessoas curiosas de plantão, aqui estão minhas especificações: Estou
 Comecei pelo celular. Organizei as coisas na mesa, tirei a foto e sentei no sofá com o telefone na mão para remover o primeiro objeto.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/initial-photo-with-items-to-be-removed.jpg" width="48%" alt="Foto inicial com itens a serem removidos">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/photo-with-first-item-removed-from-desk.jpg" width="48%" alt="Foto com primeiro item removido da mesa">
+    <img src="/images/apple-intelligence/clean-up/initial-photo-with-items-to-be-removed.webp" width="48%" alt="Foto inicial com itens a serem removidos">
+    <img src="/images/apple-intelligence/clean-up/photo-with-first-item-removed-from-desk.webp" width="48%" alt="Foto com primeiro item removido da mesa">
 </div><br>
 
 Consegue notar a diferença? Olhe para o canto inferior direito. Parecia mágica quando, após um simples círculo, o objeto simplesmente desapareceu.
@@ -72,8 +72,8 @@ Consegue notar a diferença? Olhe para o canto inferior direito. Parecia mágica
 Salvei a edição, dupliquei a foto e parti para o segundo objeto: era hora de remover meu pequeno canivete no canto inferior esquerdo. Demorou um pouco mais que o primeiro para desaparecer, mas foi. No entanto, deixou uma "sombra", então tive que circular a sombra também e esperar um pouco para que ela também sumisse.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/photo-with-first-item-removed-from-desk.jpg" width="48%" alt="Foto com primeiro item removido da mesa">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/photo-with-first-and-second-item-removed-from-desk.jpg" width="48%" alt="Foto com primeiro e segundo item removidos da mesa">
+    <img src="/images/apple-intelligence/clean-up/photo-with-first-item-removed-from-desk.webp" width="48%" alt="Foto com primeiro item removido da mesa">
+    <img src="/images/apple-intelligence/clean-up/photo-with-first-and-second-item-removed-from-desk.webp" width="48%" alt="Foto com primeiro e segundo item removidos da mesa">
 </div>
 
 Depois de duplicar a nova foto, o iPhone já estava oficialmente quente e começou a travar durante o processo de edição, então mudei para o iPad para continuar com a diversão.
@@ -104,8 +104,8 @@ E quanto à temperatura, o iPad só ficou morno, mas sempre que eu chegava perto
 Depois que todos os objetos, exceto um, foram removidos individualmente, eu tinha um último desafio: remover o maior item de toda a foto: O livro de crochê e terminar com uma mesa vazia.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/book-last-item-to-be-removed-from-desk.jpg" width="48%" alt="Book as last item to be removed from desk">
-    <img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163837/apple-intelligence/clean-up/final-photo-with-all-items-removed-from-desk.jpg" width="48%" alt="Final 'clean desk' photo">
+    <img src="/images/apple-intelligence/clean-up/book-last-item-to-be-removed-from-desk.webp" width="48%" alt="Book as last item to be removed from desk">
+    <img src="/images/apple-intelligence/clean-up/final-photo-with-all-items-removed-from-desk.webp" width="48%" alt="Final 'clean desk' photo">
 </div>
 
 Mas o que parecia uma coisa simples depois de tudo que já tinha feito acabou sendo o momento em que as coisas estranhas começaram a acontecer. Eu me pergunto... *Será que a Apple Intelligence, como qualquer outro modelo de IA, alucina?*
@@ -119,7 +119,7 @@ Como não sei se podemos qualificar se a Apple Intelligence estava tendo uma alu
 As duas primeiras tentativas de remover o livro não foram bem sucedidas. A ferramenta de limpeza parou de remover coisas completamente e começou a "borrar" as coisas em vez de remover objetos.
 
 <center>
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/first-fail-item-not-removed-but-blurred.jpg" width="45%" alt="Tentativa falha de remover item mostrando resultado borrado">
+<img src="/images/apple-intelligence/clean-up/first-fail-item-not-removed-but-blurred.webp" width="45%" alt="Tentativa falha de remover item mostrando resultado borrado">
 </center>
 
 Depois de algumas tentativas fracassadas, uma delas você pode ver neste vídeo abaixo, eu finalmente consegui fazer o que queria e o livro foi removido. Note que isso exigiu um trabalho extra da minha parte, já que circular não estava tendo o resultado esperado.
@@ -135,7 +135,7 @@ Eu queria que houvesse uma maneira de dizer à ferramenta que ela fez a coisa er
 Ainda no espectro dos comportamentos estranhos, quando tentei pintar sobre a parte onde muitas das edições foram feitas anteriormente, apareceu o "recorte" dos objetos que haviam sido removidos previamente.
 
 <center>
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1731163836/apple-intelligence/clean-up/quirky-behavior-with-phantom-items.jpg" width="45%" alt="Comportamento estranho mostrando itens fantasmas que foram removidos anteriormente">
+<img src="/images/apple-intelligence/clean-up/quirky-behavior-with-phantom-items.webp" width="45%" alt="Comportamento estranho mostrando itens fantasmas que foram removidos anteriormente">
 </center>
 
 No final, deu tudo certo e consegui as fotos que você viu no início.

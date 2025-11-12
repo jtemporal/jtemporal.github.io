@@ -5,7 +5,7 @@ comments: true
 date: 2022-10-31 09:01:00+00:00
 description: As dicas que me ajudaram a passar por mais de 15 aeroportos rapidamente
   durante o último ano
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 tags:

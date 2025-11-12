@@ -2,7 +2,7 @@
 layout: post
 title: Serenata Toolbox no PyPI
 date: 2017-07-27 00:00:00 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 comments: true
 type: post
 lang: pt
@@ -28,7 +28,7 @@ Pra continuar lendo esse artigo e saber como foi colocar a Serenata Toolbox no P
 <center>
 <a href="https://medium.com/serenata/serenata-toolbox-no-pypi-2713e3dd4d42">
 
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
+<img src="/images/clique-aqui-para-ler.webp" />
 
 </a>
 </center>
