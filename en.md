@@ -2,7 +2,7 @@
 layout: default
 title: English
 description: English blog posts
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
+image: /images/logo.webp
 permalink: "/en/"
 lang: en
 translations:

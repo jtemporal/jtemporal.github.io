@@ -2,7 +2,7 @@
 layout: default
 title: Talks
 description: Talks
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
+image: /images/logo.webp
 permalink: "/talks/"
 lang: en
 translations:

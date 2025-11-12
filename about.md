@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: About
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
+image: /images/logo.webp
 permalink: "/about/"
 lang: en
 translations:

@@ -3,7 +3,7 @@ layout: default
 bookbanner: true
 title: Todas as Séries
 description: Navegue por todas as séries de posts do blog
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760808926/covers/series-pt_pcoiep.jpg
+image: /images/covers/series-pt.webp
 permalink: "/series-pt/"
 lang: pt
 translations:

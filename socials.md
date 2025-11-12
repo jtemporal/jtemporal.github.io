@@ -2,7 +2,7 @@
 layout: page
 title: Socials
 description: Socials
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1671312046/logo_mh5fv4.png
+image: /images/logo.webp
 permalink: "/socials/"
 lang: en
 translations:
