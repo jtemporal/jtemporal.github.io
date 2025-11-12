@@ -2,7 +2,7 @@
 layout: post
 title: How to add an identity proof to your Jekyll blog
 date: 2022-05-28T03:00:00.000+00:00
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 comments: true
 description: Learn how to create an .well-know endpoint with the identity proof for Keybase
 lang: en

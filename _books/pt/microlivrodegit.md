@@ -8,9 +8,9 @@ book_description: |
   E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?<br>
   Este microlivro é uma introdução aos conceitos e comandos fundamentais do Git, um sistema de controle de versão amplamente utilizado por pessoas desenvolvedoras de software.<br>
   Ao longo do livro, você terá a oportunidade de praticar os conceitos e comandos por meio de exemplos do mundo real.<br><br>
-book_cover_ipad: https://res.cloudinary.com/jesstemporal/image/upload/v1689030772/livros/microlivro-de-git-ipad_qympi3.png
+book_cover_ipad: /images/livros/microlivro-de-git-ipad.webp
 book_cover_ipad_alt: Capa do 'O Grande Micro Livro de Git' sendo mostrada num ipad
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1689252896/livros/microlivro-banner_anjvbk.png
+image: /images/livros/microlivro-banner.webp
 permalink: /microlivrodegit/
 purchase_button: Compre na
 know_more_button: Saiba mais
