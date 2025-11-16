@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2017-12-30 00:00:00+00:00
 description: Aprenda a criar ambientes virtuais Python usando o módulo venv
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 tags:

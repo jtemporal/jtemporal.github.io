@@ -81,7 +81,12 @@
 
 ## Asset Management
 
-- Use Cloudinary URLs for images: `https://res.cloudinary.com/jesstemporal/image/upload/...`
+- All images are now hosted locally in the `/images/` directory for optimal performance and cost savings
+- When adding new images:
+  - Place original images (JPG/PNG) in the appropriate `/images/` subdirectory
+  - Always run the image optimizer: `python scripts/image_optmizer.py` to convert to WebP format
+  - Use WebP versions in content with paths like `/images/subfolder/image.webp`
 - Include `image` field in front matter for featured images
 - Ensure proper alt text for accessibility
 - Use consistent cover images from the covers collection when no specific image is available
+- Images are cached for 90 days via Netlify headers for optimal performance

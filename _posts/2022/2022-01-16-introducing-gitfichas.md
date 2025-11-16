@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2022-01-16 12:44:33-03:00
 description: 'Your new best friend: git study cards!'
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: /images/covers/miscellaneous.webp
 lang: en
 layout: post
 related: false

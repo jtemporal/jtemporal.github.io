@@ -6,7 +6,7 @@ description: Here’s where you can find a list of mine
 tags:
 - pro tip
 comments: true
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 type: post
 bookbanner: true
 related: true
@@ -20,7 +20,7 @@ lang: en
 
 I heard this question a few times, so I decided to make a list.
 
-![A photo of my desk at night, you can see the computer monitor, computer, keyboard, mouse and other things like the ones in the lists of this post.](https://res.cloudinary.com/jesstemporal/image/upload/v1692452184/images/IMG_0098_hahgho.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 70%; border-radius: 10px"}
+![A photo of my desk at night, you can see the computer monitor, computer, keyboard, mouse and other things like the ones in the lists of this post.](/images/IMG_0098.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 70%; border-radius: 10px"}
 
 In case you are building your own setup or trying to improve the one you already got, actually seeing how others do theirs might help.
 

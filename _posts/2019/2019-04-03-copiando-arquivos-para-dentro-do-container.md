@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2019-04-03 12:00:00+00:00
 description: Aprenda a copiar arquivos para dentro do container Docker
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 tags:

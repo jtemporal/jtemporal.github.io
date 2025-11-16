@@ -4,7 +4,7 @@ comments: true
 date: 2023-08-19 11:25:00+00:00
 description: Chega de confusão na hora de ajustar o nome de um arquivo em projetos
   git
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 series: "Dicas de Git"
@@ -33,7 +33,7 @@ Você já tentou renomear um arquivo nos seus projetos e teve dificuldade adicio
 
 Vamos dizer que você decidiu renomear um arquivo e, por questão de simplicidade você decide fazer isso na interface de pasta mesmo (ou usando o comando `mv` no terminal). Depois disso você quer fazer o commit da alteração de nomes e ao rodar o `git status` você se depara com essa situação:
 
-![imagem mostrando o arquivo deletado e um arquivo novo criado](https://res.cloudinary.com/jesstemporal/image/upload/v1692470010/images/git-mv/001-renamed-file-deleted-git-status_shmq3h.png)
+![imagem mostrando o arquivo deletado e um arquivo novo criado](/images/git-mv/001-renamed-file-deleted-git-status.webp)
 
 Se você renomeia o arquivo sem usar o Git, o Git “se perde” e acha que o arquivo original foi apagado e um arquivo novo foi criado como mostrado na imagem acima. Por causa desse comportamento, você acaba tendo que obrigatoriamente fazer dois passos para commitar a alteração no nome:
 
@@ -44,7 +44,7 @@ Para piorar, não é possível adicionar um arquivo “deletado” sem usar expl
 
 Vamos dizer que você perseverou, adicionou o arquivo deletado e adicionou o arquivo novo e mais uma vez você roda um `git status`, e ai o git entende que foi uma alteração no nome do arquivo, veja:
 
-![imagem mostrando o resultado de git status após adicionar o arquivo e o git entendendo que o arquivo foi nomeado](https://res.cloudinary.com/jesstemporal/image/upload/v1692470010/images/git-mv/002-renamed-file-git-status_lley9v.png)
+![imagem mostrando o resultado de git status após adicionar o arquivo e o git entendendo que o arquivo foi nomeado](/images/git-mv/002-renamed-file-git-status.webp)
 
 Essa é uma solução relativamente tranquila se você não precisa fazer isso com frequência, mas existe uma solução melhor.
 

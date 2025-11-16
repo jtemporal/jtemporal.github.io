@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2022-02-06T09:00:00.000-02:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 comments: true
 bookbanner: true
 title: Entenda a diferença entre git stash pop e git stash apply
@@ -29,7 +29,7 @@ Nessa colinha você vai ver quando usar um e quando usar o outro. 😉
 
 O `apply` aplica as mudanças de um stash no seu diretório de trabalho e mantém a entrada na lista de stashes. Por exemplo, considere que você tem a seguinte pilha de stashes:
 
-![imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png)
+![imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](/images/git-stash/listagem-stashes-fig1.webp)
 
 E você quer aplicar as mudanças do primeiro stash o `stash@{0}`. Para isso, rode o comando:
 
@@ -39,11 +39,11 @@ git stash apply
 
 O resultado esperado é encontrar as mudanças guardadas naquele stash no seu branch local:
 
-![imagem mostrando o resultado do comando git stash apply com as mudanças presentes](https://res.cloudinary.com/jesstemporal/image/upload/v1644149476/git-stash/resultado-git-stash-apply-fig2_uh5afz.png)
+![imagem mostrando o resultado do comando git stash apply com as mudanças presentes](/images/git-stash/resultado-git-stash-apply-fig2.webp)
 
 E também encontrar aquelas mudanças ao listar os stashes:
 
-[imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](https://res.cloudinary.com/jesstemporal/image/upload/v1644068422/git-stash/listagem-stashes-fig1_uiizzc.png)
+[imagem mostrando a lista de stashes como resultado do comando git stash list com dois stashes na lista](/images/git-stash/listagem-stashes-fig1.webp)
 
 Note que o `apply` assim como o `drop` e o `pop` sem passar um índice irá usar a stash mais recente da pilha.
 
@@ -59,11 +59,11 @@ git stash pop
 
 O resultado esperado é encontrar as mudanças guardadas naquele stash no seu branch local, assim como no `apply`:
 
-![imagem mostrando o resultado do comando git stash pop com as mudanças presentes](https://res.cloudinary.com/jesstemporal/image/upload/v1644149726/git-stash/resultado-git-stash-pop-fig3_aucayk.png)
+![imagem mostrando o resultado do comando git stash pop com as mudanças presentes](/images/git-stash/resultado-git-stash-pop-fig3.webp)
 
 E, diferentemente do `apply`, ele já mostra que o stash correspondente foi removido da lista na mensagem de resultado. Se você rodar o `git stash list` não vai encontrar mais aquele stash na lista:
 
-![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o pop do stash mais recente](https://res.cloudinary.com/jesstemporal/image/upload/v1644068420/git-stash/listagem-stashes-pos-dropfig3_j0h1gp.png)
+![imagem mostrando a lista de stashes só com um stash como resultado de ter feito o pop do stash mais recente](/images/git-stash/listagem-stashes-pos-dropfig3.webp)
 
 ## Quando usar apply e quando usar pop
 

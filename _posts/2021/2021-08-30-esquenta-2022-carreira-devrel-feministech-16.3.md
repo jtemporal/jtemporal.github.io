@@ -4,7 +4,7 @@ type: talk
 hidden: true
 title: 'Esquenta 2022 - Carreira: DevRel - Feministech 16.3'
 date: 2022-02-28 10:00:00 -0300
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/podcast_xah39p.png
+image: /images/covers/podcast.webp
 description: "Senior Developer Advocate na Auth0, entenda como eu cheguei em DevRel
   e o que uma pessoa nessa área faz \U0001F609"
 tags:

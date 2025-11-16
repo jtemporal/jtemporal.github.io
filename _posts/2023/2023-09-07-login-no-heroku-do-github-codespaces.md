@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2023-09-07 09:01:00+00:00
 description: Usando o Heroku CLI no GitHub Codespaces e fazendo login sem navegador
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 tags:
@@ -37,15 +37,15 @@ heroku login
 
 Esse comando vai te dar uma página para que você possa abrir no navegador e fazer o login. Normalmente você vê essa página aqui:
 
-![Página de login da heroku](https://res.cloudinary.com/jesstemporal/image/upload/v1694298910/heroku-login-page_sjnn6v.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
+![Página de login da heroku](/images/heroku-login-page.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
 
 Ao clicar em login, você pode entrar na sua conta com o seu método tradicional como usuário e senha por exemplo, e então o seu terminal vai mostrar que você fez login com sucesso.
 
-![Imagem mostrando o login bem sucedido no terminal com ajuda do navegador](https://res.cloudinary.com/jesstemporal/image/upload/v1694298869/heroku-successful-login-in-terminal_re304s.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
+![Imagem mostrando o login bem sucedido no terminal com ajuda do navegador](/images/heroku-successful-login-in-terminal.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
 
 Meio mágico como isso acontece né mesmo? Porém se você esta usando o GitHub Codespaces, você não tem um navegador para visualizar essa página de login, e se você tentar abrir aquela mesma página pelo método tradicional de copiar a URL e colocar ela no seu navegador, você vai encontrar uma página dizendo a mensagem de “IP mismatch”.
 
-![Imagem mostrando IP mismatch](https://res.cloudinary.com/jesstemporal/image/upload/v1694297874/ip-mismatch-after-heroku-login_poxcig.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
+![Imagem mostrando IP mismatch](/images/ip-mismatch-after-heroku-login.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
 
 E agora? O segredo é usar a forma iterativa de login na linha de comando.
 
@@ -59,7 +59,7 @@ heroku login -i
 
 Após rodar o comando acima, você vai ver o pedido usuário e senha como pode ser observado na imagem abaixo:
 
-![Imagem mostrando o pedido de usuário e senha](https://res.cloudinary.com/jesstemporal/image/upload/v1694299186/heroku-login-cli-credentials-requested_jfes5u.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
+![Imagem mostrando o pedido de usuário e senha](/images/heroku-login-cli-credentials-requested.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;"}
 
 Depois de colocar os seus dados e efetuar o seu login, você poderá seguir com o seu uso do Heroku via CLI.
 

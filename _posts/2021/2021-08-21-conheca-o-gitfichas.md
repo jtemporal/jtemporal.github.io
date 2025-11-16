@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2021-08-21 12:44:33-03:00
 description: Projeto novo no ar!
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 posts_list:

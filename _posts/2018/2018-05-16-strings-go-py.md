@@ -1,7 +1,7 @@
 ---
 title: "Pegando o começo de uma string com Go ou Python"
 layout: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"
+image: "/images/covers/colinha.webp"
 date: '2018-05-16 05:00:00'
 type: post
 tags:

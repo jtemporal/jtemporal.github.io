@@ -3,7 +3,7 @@ comments: true
 date: 2022-10-31 09:01:00+00:00
 description: The tips that helped me get through over 15 airports in seven countries
   in a timely manner in the past year
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: /images/covers/miscellaneous.webp
 lang: en
 layout: post
 tags:

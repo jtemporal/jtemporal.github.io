@@ -4,7 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2023-09-10 15:10:00+00:00
 description: An introduction to the superpowers of database properties
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:
@@ -28,7 +28,7 @@ In this pro tip I'm going to show you one of the features I've learned and have 
 
 In addition to the many more traditional types of Notion properties such as an option selector or a list of categories (*tags*), it is also possible to extend properties features using formulas.
 
-![Image showing some properties of a document on Notion](https://res.cloudinary.com/jesstemporal/image/upload/v1668779237/notion/properties-blog-post-notion_z7mluh.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
+![Image showing some properties of a document on Notion](/images/notion/properties-blog-post-notion.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
 [Notion's formulas](https://www.notion.so/help/formulas) allow you to make calculations or perform functions based on other properties from that document.
 
@@ -44,15 +44,15 @@ As each card is followed up by a tweet, I also like to draft the tweets in the s
 
 I have a property called “Tweet” in the database that I use to keep track of [GitFichas](https://gitfichas.com/?utm_source=blog). It is in this property that I draft the tweet for each new card.
 
-![Image showing the document containing a drafted git study card with the tweet property](https://res.cloudinary.com/jesstemporal/image/upload/v1671234408/notion/document-properties-notion_rihyt1.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
+![Image showing the document containing a drafted git study card with the tweet property](/images/notion/document-properties-notion.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
 
 Notice in the image above that the character count is missing so let's add it. First click on “Add a property” to add a new property and choose the type “∑ Formula” from the menu. Then you will see the property edit menu, like this:
 
-![Image showing a property's edit menu](https://res.cloudinary.com/jesstemporal/image/upload/v1671234549/notion/notion-formula-property-edit-menu_fcvz52.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
+![Image showing a property's edit menu](/images/notion/notion-formula-property-edit-menu.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
 You can give the property a name, something like “Tweet Size” by editing the field with the default value “Formula”. Then click on “Edit” to see the way of writing the formula itself.
 
-![Formula writing menu](https://res.cloudinary.com/jesstemporal/image/upload/v1671234769/notion/notion-formula-property-function-length_ou0m3i.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
+![Formula writing menu](/images/notion/notion-formula-property-function-length.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
 In this menu you can either compose your formula by writing or selecting between functions, constants, operators and properties. To count characters you can write:
 
@@ -62,7 +62,7 @@ length(prop("Tweet"))
 
 Click Save and exit the menu then you will see your new property with the corresponding character count.
 
-![Image showing the document containing the draft of a git study card with the property "tweet” and the formula property](https://res.cloudinary.com/jesstemporal/image/upload/v1671236101/notion/documento-ficha-properties-notion-with-formula_tfznyg.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
+![Image showing the document containing the draft of a git study card with the property "tweet” and the formula property](/images/notion/documento-ficha-properties-notion-with-formula.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
 
 I'll leave it to you to play with changing the text and seeing the resulting value of the formula update automatically. 😉
 

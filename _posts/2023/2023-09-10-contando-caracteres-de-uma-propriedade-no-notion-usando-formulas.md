@@ -2,7 +2,7 @@
 comments: true
 date: 2023-09-10 09:01:00+00:00
 description: Uma introdução sobre os superpoderes das propriedades das Databases
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 tags:
@@ -24,7 +24,7 @@ Nessa colinha eu vou te mostrar umas das funcionalidades que aprendi pouco tempo
 
 Além dos diversos tipos mais tradicionais de propriedades do Notion como um seletor de opções ou uma lista de categorias (*tags*), também possível extender as funcionalidades das propriedades usando fórmulas.
 
-![Imagem mostrando propriedades de um documento no Notion](https://res.cloudinary.com/jesstemporal/image/upload/v1668779237/notion/properties-blog-post-notion_z7mluh.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
+![Imagem mostrando propriedades de um documento no Notion](/images/notion/properties-blog-post-notion.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
 [As fórmulas do Notion](https://www.notion.so/help/formulas) te permite fazer cálculos ou executar funções com base em outras propriedades daquele documento.
 
@@ -40,15 +40,15 @@ Como cada ficha é acompanhada de um tweet eu gosto também de rascunhar os twee
 
 Eu tenho uma propriedade chamada *“Tweet”* na base de dados que uso para fazer o acompanhamento do [GitFichas](https://gitfichas.com/?utm_source=blog). É nessa propriedade que rascunho o tweet de cada nova ficha.
 
-![Imagem mostrando o documento contendo o rascunho de uma gitficha com a propriedade tweet](https://res.cloudinary.com/jesstemporal/image/upload/v1671234408/notion/document-properties-notion_rihyt1.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
+![Imagem mostrando o documento contendo o rascunho de uma gitficha com a propriedade tweet](/images/notion/document-properties-notion.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
 
 Note na imagem acima que falta a contagem de carácteres então vamos adicioná-la. Primeiro clique em “*Add a property*” para adicionar uma propriedade nova e escolha o tipo “*∑ Formula*” no menu. Então você verá o menu de edição da propriedade, assim:
 
-![Imagem mostrando o menu de edição de uma propriedade](https://res.cloudinary.com/jesstemporal/image/upload/v1671234549/notion/notion-formula-property-edit-menu_fcvz52.jpg){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
+![Imagem mostrando o menu de edição de uma propriedade](/images/notion/notion-formula-property-edit-menu.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
 Você pode dar um nome pra a propriedade, algo como *“Tweet Size”* editando o campo com o valor padrão “*Formula*”. Depois clique em “*Edit*” para ver o modo de escrita da fórmula em si.
 
-![Menu de escrita da fórmula](https://res.cloudinary.com/jesstemporal/image/upload/v1671234769/notion/notion-formula-property-function-length_ou0m3i.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
+![Menu de escrita da fórmula](/images/notion/notion-formula-property-function-length.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"}
 
 Nesse menu você pode tanto compor a sua fórmula escrevendo quanto selecionando entre funções, constantes, operadores e propriedades. Para fazer a contagem de carácteres você pode escrever:
 
@@ -58,7 +58,7 @@ length(prop("Tweet"))
 
 Clique em Save e saia do menu então você verá a sua nova propriedade com a contagem de carácteres correspondente.
 
-![Imagem mostrando o documento contendo o rascunho de uma gitficha com a propriedade tweet e a propriedade de fórmula](https://res.cloudinary.com/jesstemporal/image/upload/v1671236101/notion/documento-ficha-properties-notion-with-formula_tfznyg.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
+![Imagem mostrando o documento contendo o rascunho de uma gitficha com a propriedade tweet e a propriedade de fórmula](/images/notion/documento-ficha-properties-notion-with-formula.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 80%;"}
 
 Eu vou deixar para você brincar de alterar o texto e ver o valor resultante da fórmula atualizar automaticamente. 😉
 

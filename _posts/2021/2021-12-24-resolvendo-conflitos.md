@@ -4,7 +4,7 @@ bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00
 description: Uma receita infalível para você entender e resolver conflitos sem medo
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 layout: post
 series: "Dicas de Git"
@@ -40,7 +40,7 @@ O conflito simboliza que duas ou mais alterações aconteceram no mesmo pedaço 
 
 Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito” que mostra os passos até que um conflito se forme. Vale salientar que normalmente, durante o ciclo de desenvolvimento de projetos, as alterações são maiores a por vezes em maior quantidade.
 
-![anatomia de um conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640379728/anatomia-de-um-conflito_ixpolc.png)
+![anatomia de um conflito](/images/anatomia-de-um-conflito.webp)
 
 **0 -** No nosso projeto temos um `README.md` que foi adicionado pelo commit inicial no repositório. Depois da criação desse arquivo, duas alterações precisam ser feitas para adicionar mais algumas informações ao mesmo arquivo e duas pessoas vão fazer essa alteração;
 
@@ -56,19 +56,19 @@ Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia
 
 Para demonstrar como isso se apresenta, eu criei um repositório com um cenário parecido ao descrito na seção anterior [que você pode encontrar aqui](https://github.com/jtemporal/exemplo-conflito/branches). O arquivo inicial foi criado e as duas branches, uma para cada pessoa, também já foram criadas a partir da `main`, veja:
 
-![imagem mostrando o estado inicial do repositório como descrito anteriormente](https://res.cloudinary.com/jesstemporal/image/upload/v1640385396/resolucao-de-conflito-git/resolucao-de-conflito-fig-1_h7tkoc.png)
+![imagem mostrando o estado inicial do repositório como descrito anteriormente](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-1.webp)
 
 Em seguida fiz as alterações para cada pessoa, no branch `pessoa1` adicionei a descrição _"Pessoa 1 esteve aqui!"_ na última linha do `README.md` e de forma similar fiz o mesmo processo para o branch `pessoa2`. Então, abri os dois pull requests:
 
-![imagem mostrando os dois pull requests abertos no github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-2_bqyfl6.png)
+![imagem mostrando os dois pull requests abertos no github](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-2.webp)
 
 Revisei e dei o merge no pull request da `pessoa1`:
 
-![imagem mostrando o pull request feito merge](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-3_oy9bss.png)
+![imagem mostrando o pull request feito merge](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-3.webp)
 
 E então voltei para o PR da `pessoa2` e pude notar a indicação de que o pull request continha um conflito, veja:
 
-![imagem mostrando o pull request de pessoa 2 com a mensagem de conflito do github](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-4_c55lad.png)
+![imagem mostrando o pull request de pessoa 2 com a mensagem de conflito do github](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-4.webp)
 
 E agora com o conflito quentinho em mãos é hora de resolvê-lo.
 
@@ -85,15 +85,15 @@ git pull origin main
 
 Isso irá trazer o conflito para a sua máquina te dando um aviso informando que existem conflitos, que você deve resolver o conflito e fazer um commit com o resultado:
 
-![resultado do comando git pull com conflito](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-5_xjzs8d.png)
+![resultado do comando git pull com conflito](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-5.webp)
 
 Se você abrir o `README.md` num editor de código irá notar a presença de marcadores indicado por sucessivos sinais de maior que (`>`), sinais de menor que (`>`) e sinais de igual (`=`), aqui um exemplo do conflito mostrado no Vim:
 
-![imagem mostrando o conflito no editor vim com as marcações mais simples](https://res.cloudinary.com/jesstemporal/image/upload/v1640385398/resolucao-de-conflito-git/resolucao-de-conflito-fig-6_zqutjm.png)
+![imagem mostrando o conflito no editor vim com as marcações mais simples](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-6.webp)
 
 Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te d'a' opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
 
-![imagem mostrando o conflito no editor VS Code com as marcações mais bem definidas](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-7_wesv8q.png)
+![imagem mostrando o conflito no editor VS Code com as marcações mais bem definidas](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-7.webp)
 
 Para entender o que cada botão apresentado pelo VS Code quer dizer, vamos dissecar um pouco esse formato de representação. Um conflito pode ser dividido em duas partes:
 
@@ -120,11 +120,11 @@ Pessoa 1 esteve aqui!
 
 Como queremos deixar ambas alterações, podemos apenas apagar as linhas com os marcadores salvar o arquivo, se você estiver usando editores mais simples. No VS Code podemos apertar em _"Accept both changes"_ e continuar com os comandos a seguir. Após aceitar todas as mudanças, manualmente ou usando os botões no VS Code, você deve ter um arquivo assim:
 
-![imagem mostrando o resultado esperado de aceitar ambos blocos de alterações](https://res.cloudinary.com/jesstemporal/image/upload/v1640385397/resolucao-de-conflito-git/resolucao-de-conflito-fig-8_ps9lz7.png)
+![imagem mostrando o resultado esperado de aceitar ambos blocos de alterações](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-8.webp)
 
 Lembre-se de salvar o arquivo. Em seguida volte para o terminal, se você rodar o comando `git status` vai ver que o arquivo `README.md` se mostra com alterações.
 
-![imagem mostrando resultado do comando git status com o arquivo readme.md apresentando alterações](https://res.cloudinary.com/jesstemporal/image/upload/v1640386495/resolucao-de-conflito-git/resolucao-de-conflito-fig-9_qos2xt.png)
+![imagem mostrando resultado do comando git status com o arquivo readme.md apresentando alterações](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-9.webp)
 
 Agora você pode adicionar esse arquivo em staging com o seguinte comando:
 
@@ -134,15 +134,15 @@ git add README.md
 
 E fazer o commit das alterações da forma que preferir. Note que ao fazer o commit, se você usar editores para escrever a mensagem de commit, é possível que essa mensagem já venha pré-preenchida como na imagem abaixo:
 
-![imagem mostrando a mensagem de commit pré-preenchida pelo editor vim](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-10_urteae.png)
+![imagem mostrando a mensagem de commit pré-preenchida pelo editor vim](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-10.webp)
 
 Você pode personalizar a mensagem ou deixá-la como está e, ao terminar de fazer o commit, enviar essas alterações para o GitHub com um `git push`:
 
-![imagem mostrando o envio das alterações para o github](https://res.cloudinary.com/jesstemporal/image/upload/v1640387040/resolucao-de-conflito-git/resolucao-de-conflito-fig-11_kumo0k.png)
+![imagem mostrando o envio das alterações para o github](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-11.webp)
 
 Agora se você recarregar a página do pull request deverá ver que o conflito foi resolvido, observe:
 
-![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](https://res.cloudinary.com/jesstemporal/image/upload/v1640387041/resolucao-de-conflito-git/resolucao-de-conflito-fig-12_nourxm.png)
+![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-12.webp)
 
 E podemos finalmente dar merge neste pull request! Vitória! 🎉🎉
 

@@ -5,7 +5,7 @@ comments: true
 date: 2023-12-03 09:01:00+00:00
 description: Se sentir confortável com uma nova habilidade exige esforço. Esse posts
   é uma reflexão sobre os aprendizados em relação a edição e gravação de vídeos
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 tags:
@@ -44,7 +44,7 @@ Embora escrever e ler sejam minhas formas preferidas de aprender, algumas pessoa
 
 Mas para que isso seja verdade preciso 1) gravar os vídeos e 2) editá-los. Talvez no futuro eu tenha uma equipe para editá-los para mim. Não sendo essa a minha realidade hoje, vou aprender a editar.
 
-![Uma foto do meu perfil do TikTok, mostrando os 2 primeiros vídeos](https://res.cloudinary.com/jesstemporal/image/upload/v1694285944/tiktok-jess-temporal-profile-showing-the-first-two-videos.jpg)
+![Uma foto do meu perfil do TikTok, mostrando os 2 primeiros vídeos](/images/tiktok-jess-temporal-profile-showing-the-first-two-videos.webp)
 
 ## Lição 1: Vídeos de 60 segundos são um desafio
 

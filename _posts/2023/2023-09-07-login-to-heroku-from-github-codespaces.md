@@ -6,7 +6,7 @@ comments: true
 date: 2023-12-02 09:01:00+00:00
 description: Using the Heroku CLI on GitHub Codespaces to perform a "browserless"
   login
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:
@@ -40,15 +40,15 @@ heroku login
 
 This command will give you a page that you can open in your browser and login. Typically you see this page here:
 
-![heroku login page](https://res.cloudinary.com/jesstemporal/image/upload/v1694298910/heroku-login-page_sjnn6v.png)
+![heroku login page](/images/heroku-login-page.webp)
 
 When you click on login, you can log into your account with your traditional method such as username and password, for example, and then your terminal will show that you have logged in successfully.
 
-![image login made in the terminal using the browser](https://res.cloudinary.com/jesstemporal/image/upload/v1694298869/heroku-successful-login-in-terminal_re304s.png)
+![image login made in the terminal using the browser](/images/heroku-successful-login-in-terminal.webp)
 
 It's kind of magical how this happens, right? However, if you are using GitHub Codespaces, you don't have a browser to view this login page, and if you try to open that same page using the traditional method of copying the URL and pasting it in your browser, you will find a page with the “IP mismatch” message.
 
-![Image showing IP mismatch from heroku](https://res.cloudinary.com/jesstemporal/image/upload/v1694297874/ip-mismatch-after-heroku-login_poxcig.png)
+![Image showing IP mismatch from heroku](/images/ip-mismatch-after-heroku-login.webp)
 
 And now what? The secret is to use the iterative way to login from the command line.
 
@@ -62,7 +62,7 @@ heroku login -i
 
 After running the command above, you will see the user and password request as can be seen in the image below:
 
-![Image requesting for the username and password](https://res.cloudinary.com/jesstemporal/image/upload/v1694299186/heroku-login-cli-credentials-requested_jfes5u.png)
+![Image requesting for the username and password](/images/heroku-login-cli-credentials-requested.webp)
 
 After entering your data and logging in, you can continue using Heroku via the CLI normally.
 

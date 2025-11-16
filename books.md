@@ -3,7 +3,7 @@ layout: default
 lang: en
 title: Books
 description: Books
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1690996804/books/git-microbook-banner_wvbnqz.png
+image: /images/books/git-microbook-banner.webp
 permalink: "/books/"
 book_page: false
 translations:

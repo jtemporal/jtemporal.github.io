@@ -2,7 +2,7 @@
 title: Ubuntu no Windows
 layout: post
 date: '2018-05-11 00:00:00'
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 type: post
 tags:
 - tutorial
@@ -21,5 +21,5 @@ Ultimamente eu tenho precisado testar alguns softwares que desenvolvemos na [Nuv
 
 Pra continuar lendo sobre isso e aprender a usar o Ubuntu (e outras distribuições Linux) no Windows clica aqui nesse botão 👇
 
-[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png){: style="display: block; margin-left: auto; margin-right: auto;"}](https://medium.com/test-after-deploy/ubuntu-no-windows-d71c53ebe402)
+[![clique aqui para ler](/images/clique-aqui-para-ler.webp){: style="display: block; margin-left: auto; margin-right: auto;"}](https://medium.com/test-after-deploy/ubuntu-no-windows-d71c53ebe402)
 

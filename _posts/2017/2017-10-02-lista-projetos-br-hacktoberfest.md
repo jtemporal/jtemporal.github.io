@@ -2,7 +2,7 @@
 title: Projetos Brasileiros para fazer pull requests nesse Hacktoberfest
 layout: post
 date: '2017-10-02 00:00:00'
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 type: post
 lang: pt
 bookbanner: true
@@ -25,5 +25,5 @@ Se não sabe ainda o que é o Hacktoberfest [da uma olhadinha nesse outro post q
 
 Pra ver projetos Brasileiros  para contribuir clica aqui nesse botão 👇
 
-[![clique aqui para ler](https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png)](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
+[![clique aqui para ler](/images/clique-aqui-para-ler.webp)](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
 

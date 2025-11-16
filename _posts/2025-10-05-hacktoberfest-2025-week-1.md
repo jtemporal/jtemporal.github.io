@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-05T04:00:00+00:00
 description: A recap covering GitFichas contributions, pull request statistics, and others
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg
+image: /images/covers/hacktoberfest.webp
 lang: en
 layout: post
 posts_list:
@@ -47,13 +47,13 @@ In this first half week of October [GitFichas received 42 pull requests](https:/
 
 Here's the breakdown of the contributions:
 
-![Stacked bar chart showing pull request type distribution for GitFichas during Hacktoberfest 2025 week 1, displaying community contributions vs author contributions](https://res.cloudinary.com/jesstemporal/image/upload/v1759705587/pr-type-distribution-week-1-hacktoberfest_aikjtb.png)
+![Stacked bar chart showing pull request type distribution for GitFichas during Hacktoberfest 2025 week 1, displaying community contributions vs author contributions](/images/pr-type-distribution-week-1-hacktoberfest.webp)
 
 My contributions (16 PRs) focused on either improving documentation or make corrections based on the PRs received. I noticed some sort of OS difference is going on and for some contributors the SVG generation has been truncating the text no matter where the break lines are.
 
 GitFichas also has a project you can follow along if you are curious [you can check it here](https://github.com/users/jtemporal/projects/1). The interesting part about it is the [insights page](https://github.com/users/jtemporal/projects/1/insights) where you can see some charts like the one below.
 
-![Burn-up chart showing GitFichas project progress up to October 5th, 2025, tracking completed tasks over time](https://res.cloudinary.com/jesstemporal/image/upload/v1759705587/burn-up-up-to-oct-4th_czxxdy.png)
+![Burn-up chart showing GitFichas project progress up to October 5th, 2025, tracking completed tasks over time](/images/burn-up-up-to-oct-4th.webp)
 
 ## Other projects
 

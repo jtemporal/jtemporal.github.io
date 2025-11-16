@@ -3,7 +3,7 @@ layout: post
 title: Deploy automatizado para o PyPI usando Travis-CI
 date: 2017-09-28 00:00:00 -0300
 type: post
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png"
+image: "/images/covers/click-2.webp"
 comments: true
 lang: pt
 tags:
@@ -38,7 +38,7 @@ Pra continuar lendo esse artigo e saber como funciona o deploy automatizado do S
 <center>
 <a href="https://medium.com/serenata/deploy-automatizado-para-o-pypi-usando-travis-ci-159e86e5d979">
 
-<img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370979/clique-aqui-para-ler_zie2kp.png" />
+<img src="/images/clique-aqui-para-ler.webp" />
 
 </a>
 </center>

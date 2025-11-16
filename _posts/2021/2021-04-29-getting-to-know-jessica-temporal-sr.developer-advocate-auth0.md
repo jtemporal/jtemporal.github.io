@@ -2,7 +2,7 @@
 layout: post
 title: Getting to know Jessica Temporal, Sr. Developer Advocate @ Auth0
 date: 2021-04-29 09:20:03 -0300
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click_to_read_zqslfy.png"
+image: "/images/covers/click_to_read.webp"
 comments: true
 description: Welcome blog post on the Auth0 blog
 type: post

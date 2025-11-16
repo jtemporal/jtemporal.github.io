@@ -5,7 +5,7 @@ comments: true
 date: 2022-01-15 11:25:00-02:00
 description: Desfaça o último commit com git reset usando --soft e reutilize a mensagem
   com o ORIG_HEAD
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 series: "Dicas de Git"
@@ -43,7 +43,7 @@ Eu falei sobre o comando [`git reset` nesta outra colinha](https://jtemporal.com
 
 Para exemplificar eu tenho aqui um histórico de um projeto em que temos dois commits: o commit inicial no branch `main` (`d815be`) e o segundo commit (`5e8ae2`) adicionando o `arquivo-1.txt` que deveria ser em outro branch, veja:
 
-![captura de tela mostrando o histórico do git no terminal com dois commits](https://res.cloudinary.com/jesstemporal/image/upload/v1642213678/git-reset/git-reset-fig-8_vr3e1u.png)
+![captura de tela mostrando o histórico do git no terminal com dois commits](/images/git-reset/git-reset-fig-8.webp)
 
 Agora chegou a hora de desfazer o nosso commit incorreto.
 
@@ -59,7 +59,7 @@ git reset HEAD^ --soft
 
 A flag `--soft` indica que você quer desfazer o commit de forma mais sutil, ou seja, mantendo as alterações. Ao executar esse comando, você não receberá nenhuma mensagem, mas as alterações estão em _staging_, o que você pode conferir com o comando `git status`  e o resultado é o seguinte:
 
-![captura de tela mostrando o resultado do comando git reset HEAD^ --soft](https://res.cloudinary.com/jesstemporal/image/upload/v1642213678/git-reset/git-reset-fig-9_xbmaen.png)
+![captura de tela mostrando o resultado do comando git reset HEAD^ --soft](/images/git-reset/git-reset-fig-9.webp)
 
 Agora vamos refazer o commit no lugar certo e reaproveitar a mensagem.
 
@@ -79,7 +79,7 @@ git commit -C ORIG_HEAD
 
 Essa flag `-C`  quer dizer literalmente "reutilizar mensagem", e esse é o resultado:
 
-![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG_HEAD](https://res.cloudinary.com/jesstemporal/image/upload/v1642213677/git-reset/git-reset-fig-10_zaqvse.png)
+![captura de tela mostrando o resultado dos comandos git switch -c add-arquivos-novos seguido de git commit -C ORIG_HEAD](/images/git-reset/git-reset-fig-10.webp)
 
 Por fim, se você quiser editar a mensagem, você deve usar a flag `-c` no lugar da flag atual, isso vai te dar a oportunidade de ajustar a mensagem anterior antes de terminar o commit.
 

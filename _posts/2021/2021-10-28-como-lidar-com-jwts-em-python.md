@@ -2,7 +2,7 @@
 comments: true
 date: 2021-07-02 09:20:03-03:00
 description: Aprenda a criar, analisar e verificar seus JWTs em Python usando PyJWT
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/click-2_f4fsdc.png
+image: /images/covers/click-2.webp
 lang: pt
 layout: post
 tags:

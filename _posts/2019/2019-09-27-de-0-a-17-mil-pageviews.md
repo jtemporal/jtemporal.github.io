@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2019-09-27 13:00:00+00:00
 description: Como uma troca de temas impactou na quantidade de acessos do meu blog
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 tags:
@@ -67,12 +67,12 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 
 <table>
 <tr>
-<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"></td>
-<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png"></td>
+<td><img src="/images/covers/tutorial.webp"></td>
+<td><img src="/images/covers/variados.webp"></td>
 </tr>
 <tr>
-<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png"></td>
-<td><img src="https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/palestra_kmgivn.png"></td>
+<td><img src="/images/covers/colinha.webp"></td>
+<td><img src="/images/covers/palestra.webp"></td>
 </tr>
 </table>
 <center><i>Algumas das capas que fiz para os artigos</i></center>

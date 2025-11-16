@@ -2,7 +2,7 @@
 comments: true
 date: 2022-04-23 22:33:34-03:00
 description: And why should you get back on the road
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+image: /images/covers/personal.webp
 lang: en
 layout: post
 related: false

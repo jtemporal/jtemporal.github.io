@@ -5,7 +5,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2023-09-11 09:10:00+00:00
 description: How to get the last item of a list with Python
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:

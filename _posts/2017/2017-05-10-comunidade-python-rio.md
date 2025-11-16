@@ -11,7 +11,7 @@ tags:
 - eventos
 - pessoal
 comments: true
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png
+image: /images/covers/pessoal.webp
 description: Sobre fazer parte de uma comunidade
 lang: pt
 author_note: false

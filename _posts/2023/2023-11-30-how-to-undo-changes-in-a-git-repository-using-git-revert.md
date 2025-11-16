@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-11-30T19:00:00.000-05:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 comments: true
 title: How to undo changes in a Git repository using git revert
 description: Learn how to use git revert and reverse changes

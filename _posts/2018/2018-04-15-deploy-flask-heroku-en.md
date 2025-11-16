@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2018-04-15 01:00:00 +0000
 description: Learn how to deploy a Flask API to Heroku, using Heroku CLI and Git
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: en
 layout: post
 tags:

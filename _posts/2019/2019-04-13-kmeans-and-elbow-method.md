@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2019-04-13 03:00:00+00:00
 description: Learn to calculate the optimal cluster number using the elbow method
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: en
 layout: post
 tags:

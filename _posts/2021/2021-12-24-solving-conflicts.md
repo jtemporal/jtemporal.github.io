@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00
 description: A recipe to understand and fix conflicts in git
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -41,7 +41,7 @@ The conflict symbolizes that two or more changes happened to the same chunk of a
 
 In the image below we have a diagram that I have affectionately nicknamed the “conflict anatomy”. It shows the steps until a conflict is formed. It is worth mentioning that usually, during the project development cycle, changes are more significant and sometimes in greater quantity.
 
-![drawing showing the conflict anatomy](https://res.cloudinary.com/jesstemporal/image/upload/v1643815916/git-conflict-resolution/conflict-anatomy_u7em32.jpg)
+![drawing showing the conflict anatomy](/images/git-conflict-resolution/conflict-anatomy.webp)
 
 **0 -** In our project we have a `README.md` that was added by the initial commit in the repository. After creating this file, two changes need to be made to add some more information to the same file and two people will make this change;
 
@@ -57,19 +57,19 @@ In the image below we have a diagram that I have affectionately nicknamed the �
 
 To demonstrate how this looks, I created a repository with a scenario similar to the one described in the previous section that [you can find here](https://github.com/jtemporal/example-conflict). The initial file and the two branches, one for each person, were created from `main`, see:
 
-![image showing the initial page from the repository previously described](https://res.cloudinary.com/jesstemporal/image/upload/v1643764598/git-conflict-resolution/example-repository-page-fig2_a5lkkj.png)
+![image showing the initial page from the repository previously described](/images/git-conflict-resolution/example-repository-page-fig2.webp)
 
 Then I made the changes for each person. In the branch `person1` I added the description _"Person 1 was here!"_ in the last line of `README.md` and similarly I did the same process for the branch `person2`. So I opened both pull requests:
 
-![image showing two open pull requests on github](https://res.cloudinary.com/jesstemporal/image/upload/v1643764614/git-conflict-resolution/list-of-pull-requests-fig3_tq96wf.png)
+![image showing two open pull requests on github](/images/git-conflict-resolution/list-of-pull-requests-fig3.webp)
 
 I reviewed and merged the `person1`'s PR:
 
-![image showing the merged pull request](https://res.cloudinary.com/jesstemporal/image/upload/v1643764630/git-conflict-resolution/merged-pull-request-fig4_wjb0n9.png)
+![image showing the merged pull request](/images/git-conflict-resolution/merged-pull-request-fig4.webp)
 
 And then I went back to `person2`'s PR and I could see the indication that the pull request contains a conflict, see:
 
-![image showing person 2 pull request with the conflict message on GitHub](https://res.cloudinary.com/jesstemporal/image/upload/v1643764659/git-conflict-resolution/pull-request-with-a-conflict-fig5_s26wre.png)
+![image showing person 2 pull request with the conflict message on GitHub](/images/git-conflict-resolution/pull-request-with-a-conflict-fig5.webp)
 
 And now with a brand new conflict in our hands, it's time to resolve it.
 
@@ -86,15 +86,15 @@ git pull origin main
 
 This will bring the conflict to your local machine giving you a warning that there are conflicts, that you should resolve the conflict and commit the result:
 
-![image showing the result of the git pull command displaying the conflict message](https://res.cloudinary.com/jesstemporal/image/upload/v1643765012/git-conflict-resolution/git-pull-with-conflict-message-fig6_tjmlsx.png)
+![image showing the result of the git pull command displaying the conflict message](/images/git-conflict-resolution/git-pull-with-conflict-message-fig6.webp)
 
 If you open `README.md` in a code editor, you will notice that are markers indicated by successive greater than signs (`>`), less than signs (`>`) and equal signs (`=`), here is an example of the conflict shown in Vim:
 
-![image showing the conflict on VIM editor](https://res.cloudinary.com/jesstemporal/image/upload/v1643765013/git-conflict-resolution/conflict-displayed-on-vim-fig7_ewxhxf.png)
+![image showing the conflict on VIM editor](/images/git-conflict-resolution/conflict-displayed-on-vim-fig7.webp)
 
 It is also possible that you use VS Code that shows the conflict in a more friendly way as it visually marks, with different colors, each change of different source and still gives you options on how to resolve the conflict by accepting part of the changes, or both, or none of them:
 
-![image showing the conflict on VS Code with the friendlier markings](https://res.cloudinary.com/jesstemporal/image/upload/v1643765144/git-conflict-resolution/conflict-displayed-in-vs-code-fig8_pyts3e.png)
+![image showing the conflict on VS Code with the friendlier markings](/images/git-conflict-resolution/conflict-displayed-in-vs-code-fig8.webp)
 
 To understand what each button presented by VS Code means, let's dissect this representation format. A conflict can be divided into two parts:
 
@@ -122,11 +122,11 @@ Person 1 was here!
 
 Since we want to leave both changes we can just delete the lines with the markers and save the file, if you are using simpler editors. In VS Code we can press _"Accept both changes"_ and continue with the following commands. After accepting all the changes, either manually or using the buttons in VS Code, you should have a file like this:
 
-![image showing the expected result after accepting both changes](https://res.cloudinary.com/jesstemporal/image/upload/v1643765298/git-conflict-resolution/the-resulting-file-after-conflict-fixing-fig9_pp45rb.png)
+![image showing the expected result after accepting both changes](/images/git-conflict-resolution/the-resulting-file-after-conflict-fixing-fig9.webp)
 
 Remember to save the file. Then go back to the terminal, if you run the command `git status` you will see that the `README.md` file shows changes.
 
-![image showing the result of the git status command with the readme.md file showing changes](https://res.cloudinary.com/jesstemporal/image/upload/v1643765300/git-conflict-resolution/git-status-message-after-fixing-conflicts-fig10_kvp98h.png)
+![image showing the result of the git status command with the readme.md file showing changes](/images/git-conflict-resolution/git-status-message-after-fixing-conflicts-fig10.webp)
 
 Now you can add this staging file with the following command:
 
@@ -136,15 +136,15 @@ git add README.md
 
 And commit the changes in your preferred way. Note that when committing, if you use editors to write the commit message, it is possible that this message comes pre-populated as in the image below:
 
-![image showing the de commit message pre-filled in vim](https://res.cloudinary.com/jesstemporal/image/upload/v1643765548/git-conflict-resolution/automatic-commit-message-after-fixing-conflict-fig11_havtpt.png)
+![image showing the de commit message pre-filled in vim](/images/git-conflict-resolution/automatic-commit-message-after-fixing-conflict-fig11.webp)
 
 You can customize the message or leave it as is, and when you're done committing, push those changes to GitHub with a `git push`:
 
-![image showing the changes being sent to GitHub](https://res.cloudinary.com/jesstemporal/image/upload/v1643765581/git-conflict-resolution/message-after-pushing-commit-with-fixed-conflict-fig12_wh3hft.png)
+![image showing the changes being sent to GitHub](/images/git-conflict-resolution/message-after-pushing-commit-with-fixed-conflict-fig12.webp)
 
 Now if you reload the pull request page you should see that the conflict is resolved, check it out:
 
-![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](https://res.cloudinary.com/jesstemporal/image/upload/v1643765641/git-conflict-resolution/updated-pull-request-without-conflict-after-latest-commit-fig13_jrunmz.png)
+![Imagem mostrando o PR que antes apresentava conflito agora com o conflito resolvido](/images/git-conflict-resolution/updated-pull-request-without-conflict-after-latest-commit-fig13.webp)
 
 And we can finally merge this pull request! Victory! 🎉🎉
 

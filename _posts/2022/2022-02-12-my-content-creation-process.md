@@ -5,7 +5,7 @@ comments: true
 date: 2022-02-12 09:00:00-02:00
 description: Let me share with you how I organize all articles, videos, talks, and
   podcasts I create and maybe help you with your own creation process
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/miscellaneous_ld0l6r.png
+image: /images/covers/miscellaneous.webp
 lang: en
 layout: post
 related: false
@@ -109,7 +109,7 @@ These topics usually define the sections of the text and they often become the h
 
 I wrote the topics in the format of the questions I would ask to understand the reason for using a new tool in a project. I started with the reason for using a CDN, going through what it is and its relationship to the speed of a page load. Next, I thought I'd talk about which service I chose as a CDN. Then I'd tell you how I uploaded and organized the images on the CDN and finished with the update of the posts section to use the images from the CDN.
 
-![Index containing the sectio titles of an article about CDN in portuguese](https://res.cloudinary.com/jesstemporal/image/upload/v1644678859/tabela-de-conteudo-com-o-blog-post-sobre-usar-um-cdn_d3fyha.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"} 
+![Index containing the sectio titles of an article about CDN in portuguese](/images/tabela-de-conteudo-com-o-blog-post-sobre-usar-um-cdn.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"} 
 
 If this CDN blog post were in a tutorial format (which it is not today) it would likely still have a closing section to review concepts learned or to highlight key points.
 

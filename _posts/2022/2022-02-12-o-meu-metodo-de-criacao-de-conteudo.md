@@ -3,7 +3,7 @@ comments: true
 date: 2022-02-12 09:00:00-02:00
 description: Vou te contar como eu organizo todo texto, vídeo, palestra e podcast
   que eu faço
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 related: false
@@ -108,7 +108,7 @@ Geralmente, esses tópicos definem as seções do texto e muitas vezes eles vira
 
 Eu escrevi os tópicos no formato das perguntas que eu faria para entender a justificativa de usar uma nova ferramenta num projeto. Comecei com o motivo de usar um CDN, passando pelo o que é e a sua relação com a velocidade de carregamento de uma página. Em seguida, eu pensei em falar sobre qual serviço eu escolhi como CDN. Depois conto como eu subi e organizei as imagens no CDN e finalizei com a parte de atualização de posts para usar as imagens de lá.
 
-![índice contendo os títulos das seções do artigo sobre CDN](https://res.cloudinary.com/jesstemporal/image/upload/v1644678859/tabela-de-conteudo-com-o-blog-post-sobre-usar-um-cdn_d3fyha.png){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"} 
+![índice contendo os títulos das seções do artigo sobre CDN](/images/tabela-de-conteudo-com-o-blog-post-sobre-usar-um-cdn.webp){: style="display: block; margin-left: auto; margin-right: auto; max-width: 50%;"} 
 
 Se esse blog post do CDN fosse em um formato de tutorial (que ele não é hoje) ele provavelmente ainda teria uma seção de fechamento para rever os conceitos aprendidos  ou para ressaltar pontos principais.
 

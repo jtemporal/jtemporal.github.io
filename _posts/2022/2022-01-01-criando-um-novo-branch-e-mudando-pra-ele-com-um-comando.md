@@ -5,7 +5,7 @@ comments: true
 date: 2022-01-01 12:34:20-02:00
 description: Veja como usar git checkout e git switch para criar um branch e automaticamente
   mudar para ele
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 series: "Dicas de Git"
@@ -38,7 +38,7 @@ git checkout ramo-1
 ```
 Como você pode ver na imagem abaixo:
 
-![imagem mostrando o resultado dos comandos git branch e git checkout](https://res.cloudinary.com/jesstemporal/image/upload/v1641056637/git-atalhos/criando-e-mudando-de-branch-fig-1_i8r9uw.png)
+![imagem mostrando o resultado dos comandos git branch e git checkout](/images/git-atalhos/criando-e-mudando-de-branch-fig-1.webp)
 
 Ou até mesmo a sequência a seguir:
 
@@ -49,7 +49,7 @@ git switch ramo-2
 
 Também visível na imagem abaixo:
 
-![imagem mostrando o resultado dos comandos git branch e git switch ](https://res.cloudinary.com/jesstemporal/image/upload/v1641056637/git-atalhos/criando-e-mudando-de-branch-fig-2_ypy9u5.png)
+![imagem mostrando o resultado dos comandos git branch e git switch ](/images/git-atalhos/criando-e-mudando-de-branch-fig-2.webp)
 
 ## Atalhos para criar branches e trocar de branch ao mesmo tempo
 
@@ -61,7 +61,7 @@ git checkout -b ramo-3
 
 Que você pode ver o resultado semelhante àquele mostrado no primeiro exemplo dessa colinha:
 
-![imagem mostrando o resultado do comando git checkout -b ramo-3](https://res.cloudinary.com/jesstemporal/image/upload/v1641056638/git-atalhos/criando-e-mudando-de-branch-fig-3_gg7i9l.png)
+![imagem mostrando o resultado do comando git checkout -b ramo-3](/images/git-atalhos/criando-e-mudando-de-branch-fig-3.webp)
 
 E se você preferir usar o comando `git switch` temos o seguinte atalho usando a _flag_ `-c`:
 
@@ -71,7 +71,7 @@ git switch -c ramo-4
 
 Também com resultado semelhante ao que vimos anteriormente:
 
-![imagem mostrando o resultado do comando git switch -c ramo-4](https://res.cloudinary.com/jesstemporal/image/upload/v1641056638/git-atalhos/criando-e-mudando-de-branch-fig-4_uolxpk.png)
+![imagem mostrando o resultado do comando git switch -c ramo-4](/images/git-atalhos/criando-e-mudando-de-branch-fig-4.webp)
 
 ## GitFichas
 

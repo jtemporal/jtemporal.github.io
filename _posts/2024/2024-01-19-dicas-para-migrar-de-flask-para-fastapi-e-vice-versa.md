@@ -3,7 +3,7 @@ comments: true
 date: 2024-01-19 10:00:00-05:00
 description: Aprenda as diferenças entre Flask e FastAPI ao lidar com templates, routers
   e arquivos estáticos
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 lang: pt
 last_updated: 2025-05-16 19:00:00-05:00
 layout: post

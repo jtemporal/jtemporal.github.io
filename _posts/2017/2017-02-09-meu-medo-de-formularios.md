@@ -12,7 +12,7 @@ tags:
 - django
 - pessoal
 comments: true
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/pessoal_unbpf7.png"
+image: "/images/covers/pessoal.webp"
 
 ---
 ### Hoje, entre um build e outro, preenchi mais um.

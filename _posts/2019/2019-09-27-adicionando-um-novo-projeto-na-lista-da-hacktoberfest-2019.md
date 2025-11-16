@@ -3,7 +3,7 @@ layout: post
 title: 'Adicionando um novo projeto na lista da #Hacktoberfest'
 date: 2019-09-29T11:00:00.000+00:00
 last_modified_at: 2025-09-30T03:00:00.000+00:00
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png
+image: /images/covers/tutorial.webp
 type: post
 bookbanner: true
 lang: pt

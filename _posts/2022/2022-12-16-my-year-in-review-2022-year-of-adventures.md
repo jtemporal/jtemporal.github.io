@@ -4,7 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 comments: true
 date: 2022-12-16 11:00:00+00:00
 description: A reflection on the events of the year
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1652632564/covers/personal_hjhwwt.png
+image: /images/covers/personal.webp
 lang: en
 layout: post
 related: false

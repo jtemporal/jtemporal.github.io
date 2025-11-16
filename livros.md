@@ -3,7 +3,7 @@ layout: default
 lang: pt
 title: Livros
 description: Livros
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1689213340/livros/microlivro-banner_vcfsnw.png
+image: /images/livros/microlivro-banner.webp
 permalink: "/livros/"
 book_page: false
 translations:

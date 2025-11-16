@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-12T05:00:00+00:00
 description: Recapitulando a semana 2 - TL;DR 54 PRs essa semana!
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg
+image: /images/covers/hacktoberfest.webp
 lang: pt
 layout: post
 type: post
@@ -42,7 +42,7 @@ Esta é a primeira semana "completa" de outubro e o [GitFichas recebeu 54 pull r
 
 Esse é o detalhamento das contribuições:
 
-![Gráfico de barras empilhadas mostrando a distribuição de tipos de pull request para GitFichas durante a semana 2 do Hacktoberfest 2025, exibindo contribuições da comunidade vs contribuições do autor](https://res.cloudinary.com/jesstemporal/image/upload/v1760289195/pr-type-distribution-week-2-hacktoberfest_p4o6ac.jpg)
+![Gráfico de barras empilhadas mostrando a distribuição de tipos de pull request para GitFichas durante a semana 2 do Hacktoberfest 2025, exibindo contribuições da comunidade vs contribuições do autor](/images/pr-type-distribution-week-2-hacktoberfest.webp)
 
 Esta semana tive pouco tempo disponível para focar em PRs durante a semana e você pode ver no gráfico acima que a maioria das contribuições foi feita pela comunidade em todas as categorias.
 
@@ -50,13 +50,13 @@ Ao analisar os [gráficos de insights](https://github.com/users/jtemporal/projec
 
 Com o tempo limitado para trabalhar em PRs devido a algumas mudanças de prioridades no trabalho, ao invés de fazer as correções eu mesma, abri issues para cada correção. Isso me permitiu rastrear as mudanças para fazer no fim de semana e também dar uma chance para a comunidade trabalhar nelas também. O resultado dessa mudança de comportamento da minha parte pode ser visto no gráfico de distribuição abaixo:
 
-![Gráfico de barras empilhadas mostrando a distribuição de issues fechadas entre a semana 1 e semana 2 do Hacktoberfest 2025 para o projeto GitFichas](https://res.cloudinary.com/jesstemporal/image/upload/v1760289749/closed-issues-distribution-w1-w2_tzkjjd.jpg)
+![Gráfico de barras empilhadas mostrando a distribuição de issues fechadas entre a semana 1 e semana 2 do Hacktoberfest 2025 para o projeto GitFichas](/images/closed-issues-distribution-w1-w2.webp)
 
 Se você olhar o primeiro gráfico no post você também verá que a comunidade fez a maioria dos PRs desta semana.
 
 Falando em fechar issues, aqui está o burn up para a semana passada até 11 de outubro:
 
-![Gráfico burn-up mostrando o progresso do projeto GitFichas até 12 de outubro de 2025, rastreando tarefas completadas ao longo do tempo](https://res.cloudinary.com/jesstemporal/image/upload/v1760289059/burn-up-up-to-oct-11th_uf3rah.jpg)
+![Gráfico burn-up mostrando o progresso do projeto GitFichas até 12 de outubro de 2025, rastreando tarefas completadas ao longo do tempo](/images/burn-up-up-to-oct-11th.webp)
 
 Embora as issues tenham aumentado em número, também fechamos várias delas. Se o ritmo continuar assim, é provável que tenhamos a maioria das issues fechadas no final do mês. 🎉
 

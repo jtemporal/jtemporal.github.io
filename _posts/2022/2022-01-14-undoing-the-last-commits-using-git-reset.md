@@ -5,7 +5,7 @@ bookbanner: true
 comments: true
 date: 2022-01-14 10:00:00-03:00
 description: Learn how to use the git reset command to undo most recent commits
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 series: "Git Pro Tips"
@@ -39,7 +39,7 @@ On the other hand, `git reset` is a command that restores a previous state of th
 
 For example, let’s suppose you have a state like the following:
 
-![Picture showing the main branch with two commits A and B](https://res.cloudinary.com/jesstemporal/image/upload/v1642207791/main-with-2-commits_gfyez0.jpg)
+![Picture showing the main branch with two commits A and B](/images/main-with-2-commits.webp)
 
 If you want to undo the last _commit_ `B`, you want to go back to the state of _commit_ `A`.
 
@@ -71,15 +71,15 @@ Note that when executing these commands, you will not see a message stating that
 
 Suppose you have a history like the one in the following image, in which the last *commit* (`48ccb8`) adds the file called `arquivo-4.txt`:
 
-![Screenshot showing the commit history containing 5 commits in the terminal](https://res.cloudinary.com/jesstemporal/image/upload/v1642202652/git-reset/git-reset-fig-2_jwpjuz.png)
+![Screenshot showing the commit history containing 5 commits in the terminal](/images/git-reset/git-reset-fig-2.webp)
 
 And if you run any of the commands above, followed by a `git status`, you will see a result like this:
 
-![Screenshot showing the result of undoing a commit and then running git status](https://res.cloudinary.com/jesstemporal/image/upload/v1642202651/git-reset/git-reset-fig-3_pjexyo.png)
+![Screenshot showing the result of undoing a commit and then running git status](/images/git-reset/git-reset-fig-3.webp)
 
 And you can see that `arquivo-4.txt` has returned to its previous state, which was waiting to be committed. And if you check the history again you will see that the commit `48ccb8` no longer appears.
 
-![Screenshot showing the detail in the commit history without the undone commit in the history](https://res.cloudinary.com/jesstemporal/image/upload/v1642202651/git-reset/git-reset-fig-4_wv1m7u.png)
+![Screenshot showing the detail in the commit history without the undone commit in the history](/images/git-reset/git-reset-fig-4.webp)
 
 You can now discard the changes or keep up with them and make a new commit.
 
@@ -87,7 +87,7 @@ You can now discard the changes or keep up with them and make a new commit.
 
 Now that you know how to undo a commit, you can use the first command you’ve just seen and adapt it to undo more commits. To do so, just add the number of commits you want to undo after `~`. Let's take another look at our history, which now contains only four commits (since I already undid one):
 
-![Screenshot showing the commit history containing 4 commits in the terminal](https://res.cloudinary.com/jesstemporal/image/upload/v1642202652/git-reset/git-reset-fig-5_qlmf7l.png)
+![Screenshot showing the commit history containing 4 commits in the terminal](/images/git-reset/git-reset-fig-5.webp)
 
 Now let's suppose I want to go back to the state of commit `d815be` which is the initial commit that added the `README.md` file. To do so it is necessary to undo three commits, so for that a suitable command is the following:
 
@@ -99,11 +99,11 @@ git reset HEAD~3
 
 After executing this command and running `git status` once more, we have the three files that were added by the unmade commits:
 
-![Screenshot showing the result of undoing 3 commits and running git status again](https://res.cloudinary.com/jesstemporal/image/upload/v1642202650/git-reset/git-reset-fig-6_jia6mq.png)
+![Screenshot showing the result of undoing 3 commits and running git status again](/images/git-reset/git-reset-fig-6.webp)
 
 Note that before running these commands I removed `arquivo-4.txt` as I won't need it anymore. And looking into the history again we only see the initial commit:
 
-![Screenshot with the commit history showing only the initial commit as the others were undone](https://res.cloudinary.com/jesstemporal/image/upload/v1642202652/git-reset/git-reset-fig-7_ymvagr.png)
+![Screenshot with the commit history showing only the initial commit as the others were undone](/images/git-reset/git-reset-fig-7.webp)
 
 Before finishing this pro tip I want to leave a recommendation: it is a good practice to avoid undoing commits that you have already pushed to prevent causing detached `HEAD` problems for other people working with you.
 

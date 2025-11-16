@@ -3,7 +3,7 @@ author_note: false
 comments: true
 date: 2019-03-16 03:00:00+00:00
 description: Learn to list and filter containers from the list
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/pro_tip_voc9gk.png
+image: /images/covers/pro_tip.webp
 lang: en
 layout: post
 tags:

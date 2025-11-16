@@ -4,7 +4,7 @@ type: post
 title: Livestream Hacktoberfest - Contribuindo com Open Source
 date: 2023-11-05T05:00:00.000+00:00
 lang: pt
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1699298604/covers/livestreams.png
+image: /images/covers/livestreams.webp
 tags:
 - português
 - github

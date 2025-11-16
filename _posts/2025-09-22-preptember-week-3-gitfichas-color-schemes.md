@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-09-22T04:00:00+00:00
 description: Busy weekend but we have 6 different color schemes on GitFichas now 🎨
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/preptember.jpg
+image: /images/covers/preptember.webp
 lang: en
 layout: post
 posts_list:
@@ -114,7 +114,7 @@ As always, if you're planning to contribute to open source during Hacktoberfest,
 Did you know that the registration for Hacktoberfest 2025 is already open? You can register now but it is worth reminding that the pull requests will only count during the month of October. I'm already registered. 👇
 
 <center>
-<img alt="jtemporal hacktoberfest profile created" src="https://res.cloudinary.com/jesstemporal/image/upload/v1758493970/jtemporal-hacktoberfest-profile-created.png"  style="max-width: 60%; border-radius: 8px; box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.57);" />
+<img alt="jtemporal hacktoberfest profile created" src="/images/jtemporal-hacktoberfest-profile-created.webp"  style="max-width: 60%; border-radius: 8px; box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.57);" />
 </center>
 
 

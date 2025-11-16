@@ -4,7 +4,7 @@ date: 2025-09-08T06:00:00.000+00:00
 title: "How to Configure the Auth0 MCP Server in VS Code for AI Assistant Integration"
 redirect_to:
   - https://auth0.com/blog/auth0-mcp-server-in-vscode/
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 lang: en
 type: post
 series: "MCP Mastery"

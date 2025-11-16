@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2022-01-23 11:25:00-02:00
 description: Entenda como usar git stash e git stash pop na prática
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640360835/covers/colinha_igmf4s.png
+image: /images/covers/colinha.webp
 lang: pt
 layout: post
 posts_list:
@@ -43,7 +43,7 @@ Pilhas, são um conceito comum em programação, e isso é importante para enten
 
 Então vamos dizer que você está trabalhando no branch `tarefa` que corresponde a implementação de uma _feature_ qualquer, mas agora você precisa voltar para o branch `main` e resolver um problema muito importante, por questões de simplicidade não vamos focar na resolução de problemas. Esse é o estado corrente do seu trabalho:
 
-![imagem do terminal mostrando que há modificações em um arquivo](https://res.cloudinary.com/jesstemporal/image/upload/v1642978865/git-stash/git-status-trabalho-em-adamento_xueuh5.png)
+![imagem do terminal mostrando que há modificações em um arquivo](/images/git-stash/git-status-trabalho-em-adamento.webp)
 
 Agora você precisa salvar o trabalho que você já fez antes de retornar ao branch `main`. Para isso use o comando a seguir:
 
@@ -53,11 +53,11 @@ git stash
 
 Esse comando é um atalho para o comando completo, o `git stash push`. Agora que o stash foi feito, você vai ver um resultado semelhante ao seguinte:
 
-![imagem mostrando o resultado do git stash](https://res.cloudinary.com/jesstemporal/image/upload/v1642978866/git-stash/resultado-comando-git-stash_p1e7cy.png)
+![imagem mostrando o resultado do git stash](/images/git-stash/resultado-comando-git-stash.webp)
 
 Você também pode ver o stash que acabou de fazer usando o comando `git stash list` para ver a lista de stashes existentes:
 
-![imagem mostrando o resultado do git stash list](https://res.cloudinary.com/jesstemporal/image/upload/v1642978866/git-stash/resultado-comando-git-stash-list_l1we2r.png)
+![imagem mostrando o resultado do git stash list](/images/git-stash/resultado-comando-git-stash-list.webp)
 
 Note na imagem acima que a listagem de stashes sempre apresenta o índice do stash e uma mensagem. Agora que o trabalho está salvo, você pode trocar de branch tranquilamente e resolver o que precisar. Vale salientar que stashes não são amarrados a um branch, então você ainda vai poder ver o seu stash na lista mesmo depois de trocar de branches.
 
@@ -71,7 +71,7 @@ git stash pop
 
 O `pop` vai remover o stash mais recente da pilha e aplicar as mudanças que ele contém, e você deve ver um resultado parecido com isso:
 
-![imagem mostrando o resultado do comando git stash pop](https://res.cloudinary.com/jesstemporal/image/upload/v1642978866/git-stash/resutlado-comando-git-stash-pop_x2jzwj.png)
+![imagem mostrando o resultado do comando git stash pop](/images/git-stash/resutlado-comando-git-stash-pop.webp)
 
 Agora você tem tudo que precisa pra continuar seu trabalho.
 
@@ -79,25 +79,25 @@ Agora você tem tudo que precisa pra continuar seu trabalho.
 
 Como falei anteriormente, arquivos novos não entram num stash, isso acontece por que eles não possuem rastreamento anterior. Por exemplo, digamos que enquanto estivesse trabalhando no branch `tarefa`, você, além de modificar o arquivo `arquivo-tarefa.txt`, você tenha criado o arquivo `arquivo-2.txt`, de deixando com o resultado a seguir no seu diretório de trabalho:
 
-![resultado do git status mostrando um arquivo modificado e um arquivo novo](https://res.cloudinary.com/jesstemporal/image/upload/v1642978866/git-stash/git-status-trabalho-em-adamento-arquivo-novo_sjrj2c.png)
+![resultado do git status mostrando um arquivo modificado e um arquivo novo](/images/git-stash/git-status-trabalho-em-adamento-arquivo-novo.webp)
 
 Se você tentar fazer o stash dessas alterações, vai ver que o arquivo novo continua lá firme e forte:
 
-![resultado dos comandos git stash e git status mostrando que o arquivo novo não entrou no stash](https://res.cloudinary.com/jesstemporal/image/upload/v1642978866/git-stash/git-stash-falha-adiocionar-arquivo-novo_fhd9yy.png)
+![resultado dos comandos git stash e git status mostrando que o arquivo novo não entrou no stash](/images/git-stash/git-stash-falha-adiocionar-arquivo-novo.webp)
 
 E aí você deve estar se perguntando, já que o stash não leva em consideração arquivos novos, como a gente burla esse comportamento? E a boa notícia é que existe um truque para adicionar arquivos novos à um stash: você precisa adicionar eles em staging!
 
 Então adicione o arquivo novo com `git add` e você terá uma situação assim:
 
-![imagem mostrando o ambiente de staging com o arquivo novo](https://res.cloudinary.com/jesstemporal/image/upload/v1642979696/git-stash/resultado-adicionar-o-arquivo-novo-em-staging_v5mpo3.png)
+![imagem mostrando o ambiente de staging com o arquivo novo](/images/git-stash/resultado-adicionar-o-arquivo-novo-em-staging.webp)
 
 E se você fizer novamente o `git stash` verá que agora seu stash guarda também o arquivo novo e como resultado você tem o seu diretório de trabalho limpo:
 
-![imagem mostrando o resultado de fazer o stash com o arquivo novo em staging](https://res.cloudinary.com/jesstemporal/image/upload/v1642979695/git-stash/resultado-stash-salvando-tambem-o-arquivo-novo_rigmpz.png)
+![imagem mostrando o resultado de fazer o stash com o arquivo novo em staging](/images/git-stash/resultado-stash-salvando-tambem-o-arquivo-novo.webp)
 
 E já que você sabe aplicar um stash e remover ele da lista com o `git stash pop`, você vai ver que o arquivo novo também volta do stash em staging:
 
-![imagem mostrando o resultado de git stash pop depois do ultimo stash](https://res.cloudinary.com/jesstemporal/image/upload/v1642980009/git-stash/resultado-git-stash-pop-com-arquivo-novo-em-staging_utlsqy.png)
+![imagem mostrando o resultado de git stash pop depois do ultimo stash](/images/git-stash/resultado-git-stash-pop-com-arquivo-novo-em-staging.webp)
 
 E agora você já sabe usar `git stash`. 🎉
 

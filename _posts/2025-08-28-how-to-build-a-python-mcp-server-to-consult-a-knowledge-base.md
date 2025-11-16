@@ -4,7 +4,7 @@ date: 2025-08-28T04:00:00.000+00:00
 title: "How to Build a Python MCP Server to Consult a Knowledge Base"
 redirect_to:
   - https://auth0.com/blog/build-python-mcp-server-for-blog-search/
-image: "https://res.cloudinary.com/jesstemporal/image/upload/v1640360836/covers/tutorial_gfgm5n.png"
+image: "/images/covers/tutorial.webp"
 lang: en
 type: post
 series: "MCP Mastery"

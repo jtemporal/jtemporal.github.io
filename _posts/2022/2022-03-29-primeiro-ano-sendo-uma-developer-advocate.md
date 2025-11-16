@@ -3,7 +3,7 @@ comments: true
 date: 2022-03-29 09:01:00+00:00
 description: Tem curiosidade sobre como foi a mudança de carreira entre ciência de
   dados para developer relations/advocacy? Nesse post eu conto tudo 😉
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1640370040/covers/variados_aanizj.png
+image: /images/covers/variados.webp
 lang: pt
 layout: post
 series: "Carreira em Tech"
@@ -24,7 +24,7 @@ type: post
 
 Antes de trabalhar com DevRel, eu pagava as contas sendo uma cientista de dados. Hoje eu posso dizer que troquei a ciência de dados para trabalhar em *developer relations* com sucesso já que atingi a marca de 1 um ano trabalhando como *Developer Advocate*! 🎉
 
-<center><img style="max-width: 70%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/166827422_515510042769353_3494362086546822067_n_ih6nui.jpg">
+<center><img style="max-width: 70%;" src="/images/166827422_515510042769353_3494362086546822067_n.webp">
 <br>  <br>
 <i>Eu no primeiro dia de trabalho oficial em Março de 2021</i>
 </center>
@@ -37,7 +37,7 @@ Um pouquinho de história antes de mergulhar nos aprendizados já que, talvez vo
 
 Há algum tempo, eu costumava trabalhar como cientista de dados. No primeiro emprego que tive, eu cheguei a apresentar mais de 13 palestras sobre o projeto em que eu trabalhava, chamado de Serenata. Incluindo uma palestra em Taiwan, tudo isso em menos de um ano. O Serenata, é um projeto de tecnologia cívica e de código aberto que dependia de nós, pessoas desenvolvedoras e cientistas de dados, para espalhar a palavra sobre esse projeto para que ele pudesse prosperar.
 
-<center><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648589876/31909575_955979771244859_4044473679331983360_n_fnyxvf.jpg">
+<center><img style="max-width: 60%;" src="/images/31909575_955979771244859_4044473679331983360_n.webp">
 <br>  <br>
 <i>Eu apresentando sobre Rosie, AI do Serenata, num Meetup lá em 2017</i>
 </center>
@@ -76,7 +76,7 @@ Além de palestrar em diversos eventos e conhecer várias pessoas enquanto eu tr
 
 Depois de sair do Serenata, eu fiz questão de participar ativamente na comunidade Python, não importando onde eu estivesse trabalhando. Sempre que pude, dei palestras no meu tempo livre, mantive o meu blog e continuei gravando o Pizza de Dados.
 
-<center><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648590752/231808710_2879851062263859_1016560339918884759_n_ufsr1n.jpg">
+<center><img style="max-width: 60%;" src="/images/231808710_2879851062263859_1016560339918884759_n.webp">
 <br>  <br>
 <i>Eu, Lele Portella e Ceci Vieira numa live stream</i>
 </center>
@@ -240,7 +240,7 @@ Tenha em mente que isso não quer dizer que todas pessoas em DevRel são assim..
 
 O meu foco não *escrever código*, mas sim ajudar pessoas e ensiná-las como implementar coisas nas suas aplicações. Eventualmente eu acabo escrevendo código para isso, afinal de contas eu estou ajudando a aumentar a adoção de um produto para devs, mas mais do que codar, a minha obrigação é entender como construir aplicações para ajudar *outras pessoas a fazerem o mesmo*.
 
-<center><a href="https://youtu.be/X1BrOOHFwGc"><img style="max-width: 60%;" src="https://res.cloudinary.com/jesstemporal/image/upload/v1648591605/jess-at-devday2021_nbe12e.png"></a>
+<center><a href="https://youtu.be/X1BrOOHFwGc"><img style="max-width: 60%;" src="/images/jess-at-devday2021.webp"></a>
 <br>  <br>
 <i>Eu apresentando minha palestra sobre Auth0 no Developer Day 2021, <a href="https://youtu.be/X1BrOOHFwGc">clica aqui pra ver o video por completo</a></i>
 </center>

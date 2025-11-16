@@ -3,7 +3,7 @@ bookbanner: true
 comments: true
 date: 2025-10-20T04:00:00+00:00
 description: Blog and GitFichas work - GitFichas now has a search bar!
-image: https://res.cloudinary.com/jesstemporal/image/upload/v1760705452/covers/hacktoberfest.jpg
+image: /images/covers/hacktoberfest.webp
 lang: en
 layout: post
 type: post
@@ -40,25 +40,25 @@ Like always, third week of Hacktoberfest symbolizes the big “*slow down*”, w
 
 Interestingly enough I tried having copilot draft a PR and it actually, did a good job. I also merged 6 PRs myself which were 2 for documentation, 2 for corrections, and 2 for improvements.
 
-![A screenshot showing GitFichas repository statistics with pull request counts and contribution metrics](https://res.cloudinary.com/jesstemporal/image/upload/v1760926901/images/hacktoberfest-2025-w3/IMG_0873_qxa065.jpg){: class="img-post"}
+![A screenshot showing GitFichas repository statistics with pull request counts and contribution metrics](/images/hacktoberfest-2025-w3/IMG_0873.webp){: class="img-post"}
 
 The most exciting part for the week for me at least, was that on October 15th we reached the mark of over 100 issues closed. Which marks the milestone of more issues closed than open for GitFichas. 🎉
 
-![GitFichas repository showing milestone of 100+ closed issues, demonstrating project progress](https://res.cloudinary.com/jesstemporal/image/upload/v1760926936/images/hacktoberfest-2025-w3/IMG_0862_ozkatg.jpg){: class="img-post" style="max-width: 45%;"}
+![GitFichas repository showing milestone of 100+ closed issues, demonstrating project progress](/images/hacktoberfest-2025-w3/IMG_0862.webp){: class="img-post" style="max-width: 45%;"}
 
 I also worked on improving descriptions for some issues that were open a long time ago.
 
-![Screenshot of GitHub issue improvement work showing better descriptions and titles for GitFichas issues](https://res.cloudinary.com/jesstemporal/image/upload/v1760970097/images/hacktoberfest-2025-w3/IMG_6050_zs206y.jpg){: class="img-post"}
+![Screenshot of GitHub issue improvement work showing better descriptions and titles for GitFichas issues](/images/hacktoberfest-2025-w3/IMG_6050.webp){: class="img-post"}
 
 As far as inviting people to contributing to your project, it is fundamental that you have both good descriptions *and* good titles since in the list of issues every contributor sees mostly the titles and tags. I did some automating to help make this easier on me and help me with maintenance tasks but I’ll write about that in a separate post later. 👀
 
 Still on the issues subject this is the burn up chart since September 1st there's still a gap but the trend is clear: the opening of issues is slowing down, and the closing of them is bridging the gap.
 
-![Burn up chart showing GitFichas issue trends from September 1st, with lines indicating opened vs closed issues over time](https://res.cloudinary.com/jesstemporal/image/upload/v1760926900/images/hacktoberfest-2025-w3/IMG_0880_zxjg9i.jpg){: class="img-post"}
+![Burn up chart showing GitFichas issue trends from September 1st, with lines indicating opened vs closed issues over time](/images/hacktoberfest-2025-w3/IMG_0880.webp){: class="img-post"}
 
 One final thing: [someone decided to implement a search bar on GitFichas](https://github.com/jtemporal/gitfichas/pull/418), there wasn't an issue for this but it is something I definitely thought about having on the website.
 
-![GitFichas website homepage showing the new search bar feature implemented by a community contributor](https://res.cloudinary.com/jesstemporal/image/upload/v1760970628/images/hacktoberfest-2025-w3/Screenshot_2025-10-20_at_10.29.58_AM_zxrnsj.png){: class="img-post"}
+![GitFichas website homepage showing the new search bar feature implemented by a community contributor](/images/hacktoberfest-2025-w3/Screenshot_2025-10-20_at_10.29.58_AM.webp){: class="img-post"}
 
 A search function is not a tiny thing, especially if you don't have a database for indexing the content. Nonetheless someone implemented it and I do believe it will help others find cards more easily! So another big win of open source! 🎉
 
@@ -76,7 +76,7 @@ Let’s dive in.
 
 Two weeks ago I implemented a series widget so anyone reading the posts can quickly jump to other posts in the same collection much like the "Related Articles" or "Recent Articles" widgets I already have.
 
-![Blog post showing the new series widget that allows readers to navigate between posts in the same series](https://res.cloudinary.com/jesstemporal/image/upload/v1760926901/images/hacktoberfest-2025-w3/IMG_0875_xwlbz5.jpg){: class="img-post"}
+![Blog post showing the new series widget that allows readers to navigate between posts in the same series](/images/hacktoberfest-2025-w3/IMG_0875.webp){: class="img-post"}
 
 Until Saturday it was impossible to link to a series, so I set on to fix that and create a way to link to a series so I could refer to series without linking out to an specific blog post.
 
@@ -104,7 +104,7 @@ These and all others are available [in the series page](https://jtemporal.com/se
 
 Another thing I always wanted to do was to have subtitles on some posts. This weekend I figured out it was time, and so after some [Liquid magic and some CSS adjustments](https://github.com/jtemporal/jtemporal.github.io/pull/352) I'm happy to inform that I can now have posts with title and subtitles.
 
-![Blog post layout showing the new subtitle feature implementation with title and subtitle styling](https://res.cloudinary.com/jesstemporal/image/upload/v1760926900/images/hacktoberfest-2025-w3/IMG_0878_hgualy.jpg){: class="img-post"}
+![Blog post layout showing the new subtitle feature implementation with title and subtitle styling](/images/hacktoberfest-2025-w3/IMG_0878.webp){: class="img-post"}
 
 Just in time too for my fairy tale post.
 
@@ -112,7 +112,7 @@ Just in time too for my fairy tale post.
 
 If you are asking yourself "*what fairy tale post?*" well I also started to get a bit annoyed at the fact the covers in the blog were too repetitive lately since the last 14 posts had all the same cover.
 
-[![Illustration of a writer looking at scrolls, representing the fairy tale blog post cover](https://res.cloudinary.com/jesstemporal/image/upload/v1760853062/images/fairy-tale/writer-looking-at-scrolls_rh5z7c.png){: class="img-post"}](https://jtemporal.com/the-writer-and-the-bot-fairy-tale/)
+[![Illustration of a writer looking at scrolls, representing the fairy tale blog post cover](/images/fairy-tale/writer-looking-at-scrolls.webp){: class="img-post"}](https://jtemporal.com/the-writer-and-the-bot-fairy-tale/)
 
 So it was time to create a few more covers and put them to good use, [I tell the story of it here in this other post](https://jtemporal.com/the-writer-and-the-bot-fairy-tale/), which I strongly encourage you to read because it is in the form of a fairy tale, but here’s the TL;DR: I noticed the repeated covers, [opened an issue, and had copilot do the code adjustments](https://github.com/jtemporal/jtemporal.github.io/pull/351).
 
@@ -120,11 +120,11 @@ So it was time to create a few more covers and put them to good use, [I tell the
 
 Finally this week I updated my Holopin profile to show off my Hacktoberfest "supercontributor" badge.
 
-![An image of @jesstemporal's Holopin badges, which is a link to view their full Holopin profile](https://res.cloudinary.com/jesstemporal/image/upload/v1760926900/images/hacktoberfest-2025-w3/IMG_0883_immvdj.png){: class="img-post"}
+![An image of @jesstemporal's Holopin badges, which is a link to view their full Holopin profile](/images/hacktoberfest-2025-w3/IMG_0883.webp){: class="img-post"}
 
 And shirt is already here too!
 
-![Hacktoberfest 2025 supercontributor shirt in light color, representing the limited edition reward for top contributors](https://res.cloudinary.com/jesstemporal/image/upload/v1760926902/images/hacktoberfest-2025-w3/IMG_5971_wqmhfe.jpg){: class="img-post" style="max-width: 50%;"}
+![Hacktoberfest 2025 supercontributor shirt in light color, representing the limited edition reward for top contributors](/images/hacktoberfest-2025-w3/IMG_5971.webp){: class="img-post" style="max-width: 50%;"}
 
 I prefer shirts with dark colors but this one feels special, since only 10,000 will be given away and this one has GitFichas written all over it. 😊
 
