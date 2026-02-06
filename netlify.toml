@@ -60,6 +60,12 @@
 
 # Handle Jekyll's clean URLs
 [[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
+from = "/dev-diaries/*"
+to = "https://jtemporal.github.io/dev-diaries/:splat"
+status = 301
+
+# keep your 404 fallback as a last rule
+[[redirects]]
+from = "/*"
+to = "/404.html"
+status = 404
