@@ -292,24 +292,37 @@
 <script>
   (function() {
     let currentPage = 0;
-    const itemsPerPage = 3;
     const allItems = document.querySelectorAll('.gallery-item');
-    const totalPages = Math.ceil(allItems.length / itemsPerPage);
+
+    function getItemsPerPage() {
+      return window.innerWidth >= 768 ? 3 : 1;
+    }
+
+    function getTotalPages() {
+      return Math.ceil(allItems.length / getItemsPerPage());
+    }
 
     function showPage(page) {
+      var perPage = getItemsPerPage();
+      var start = page * perPage;
+      var end = start + perPage;
       allItems.forEach(function(item, index) {
-        const itemPage = Math.floor(index / itemsPerPage);
-        item.style.display = itemPage === page ? 'flex' : 'none';
+        item.style.display = (index >= start && index < end) ? 'flex' : 'none';
       });
     }
 
     document.getElementById('prev-btn').addEventListener('click', function() {
-      currentPage = (currentPage - 1 + totalPages) % totalPages;
+      currentPage = (currentPage - 1 + getTotalPages()) % getTotalPages();
       showPage(currentPage);
     });
 
     document.getElementById('next-btn').addEventListener('click', function() {
-      currentPage = (currentPage + 1) % totalPages;
+      currentPage = (currentPage + 1) % getTotalPages();
+      showPage(currentPage);
+    });
+
+    window.addEventListener('resize', function() {
+      if (currentPage >= getTotalPages()) currentPage = getTotalPages() - 1;
       showPage(currentPage);
     });
 
