@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home - AC Pocket Field Guide</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#5bd912",
+                "accent-brown": "#3D3425",
+                "cream-bg": "#FDF8E7",
+                "background-light": "#FDF8E7",
+                "background-dark": "#172210",
+              },
+              fontFamily: {
+                "display": ["Plus Jakarta Sans", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+            },
+          },
+        }
+      </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-accent-brown dark:text-cream-bg transition-colors duration-300">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full px-6 md:px-20 py-4 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#e9e2cc] dark:border-[#2a3a1d]">
+<nav class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-2 rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-white text-2xl">bug_report</span>
+</div>
+<span class="text-xl font-extrabold tracking-tight text-accent-brown dark:text-white">AC Pocket Field Guide</span>
+</div>
+<div class="hidden md:flex items-center gap-8 font-semibold">
+<a class="hover:text-primary transition-colors" href="#features">Features</a>
+<a class="hover:text-primary transition-colors" href="#screenshots">Screenshots</a>
+<a class="hover:text-primary transition-colors" href="help-and-faq.html">Support</a>
+<a class="hover:text-primary transition-colors" href="privacy.html">Privacy</a>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</div>
+</nav>
+</header>
+<main class="flex-1">
+<section class="max-w-7xl mx-auto px-6 md:px-20 py-10 md:py-16 flex flex-col md:flex-row items-center gap-10">
+<div class="flex-1 flex flex-col gap-4 text-center md:text-left">
+<div class="inline-flex items-center gap-2 bg-primary/10 text-primary dark:bg-primary/20 px-4 py-1.5 rounded-full w-fit mx-auto md:mx-0">
+<span class="material-symbols-outlined text-sm">auto_awesome</span>
+<span class="text-xs font-bold uppercase tracking-wider">Expanded Museum Tracking</span>
+</div>
+<h1 class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.04em] text-accent-brown dark:text-white">
+                        Complete your <span class="text-primary underline decoration-4 underline-offset-8">museum collection</span>
+</h1>
+    <p class="text-lg md:text-xl text-accent-brown/80 dark:text-cream-bg/80 leading-relaxed max-w-xl">
+        Track 316 collectibles including:
+    </p><p class="text-lg md:text-xl text-accent-brown/80 dark:text-cream-bg/80 leading-relaxed max-w-xl">
+        200 creatures 🐛🐟🦑
+    </p><p class="text-lg md:text-xl text-accent-brown/80 dark:text-cream-bg/80 leading-relaxed max-w-xl">
+        73 fossils 🦴
+    </p><p class="text-lg md:text-xl text-accent-brown/80 dark:text-cream-bg/80 leading-relaxed max-w-xl">
+        and 43 art pieces (paintings & sculptures) 🖼️🗿
+    </p><p class="text-lg md:text-xl text-accent-brown/80 dark:text-cream-bg/80 leading-relaxed max-w-xl">
+        The ultimate, privacy-first companion for your island.
+    </p>
+<div class="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
+
+<!-- App Store button hidden until app is live
+<button class="flex items-center gap-3 bg-accent-brown text-white px-8 py-4 rounded-xl hover:brightness-125 transition-all shadow-xl group">
+<span class="material-symbols-outlined text-3xl">ios</span>
+<div class="text-left">
+<div class="text-[10px] uppercase font-bold opacity-70 leading-none">Download on the</div>
+<div class="text-lg font-bold leading-none">App Store</div>
+</div>
+</button>
+-->
+<p class="text-accent-brown/60 dark:text-cream-bg/60 text-sm italic">Coming soon to the App Store!</p>
+</div>
+</div>
+<div class="flex-1 w-full max-w-[340px] relative">
+<div class="absolute -top-10 -left-10 w-32 h-32 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
+<div class="absolute -bottom-10 -right-10 w-40 h-40 bg-orange-400/20 rounded-full blur-3xl"></div>
+<div class="relative rounded-xl overflow-hidden shadow-2xl border-8 border-accent-brown/5 dark:border-white/10 aspect-[9/16] bg-cream-bg">
+<img alt="Mockup of the Animal Crossing companion app showing museum tracking" class="w-full h-full object-contain" src="/images/ac-pocket-field-guide/06-welcome-page.png"/>
+</div>
+</div>
+</section>
+<section class="w-full py-20 bg-[#F5F1E0] dark:bg-[#1f2b16]" id="features">
+<div class="max-w-7xl mx-auto px-6 md:px-20">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-3xl md:text-4xl font-black text-accent-brown dark:text-white mb-4">Complete your Blathers' collection</h2>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-lg">Detailed tracking for all 316 collectibles. Designed for completionists with new specialized tools.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-[#2a3a1d] p-8 rounded-lg shadow-sm border border-[#e9e2cc] dark:border-[#354a25] flex flex-col gap-4 group hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white">library_books</span>
+</div>
+<h3 class="text-xl font-extrabold">316 Collectibles</h3>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-sm leading-relaxed">
+                                Full data for 200 creatures (bugs, fish, sea creatures), 73 fossils, and 43 art pieces (30 paintings + 13 sculptures).
+                            </p>
+</div>
+<div class="bg-white dark:bg-[#2a3a1d] p-8 rounded-lg shadow-sm border border-[#e9e2cc] dark:border-[#354a25] flex flex-col gap-4 group hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white">gavel</span>
+</div>
+<h3 class="text-xl font-extrabold">Forgery Detection</h3>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-sm leading-relaxed">
+                                Don't get scammed by Redd! Visual guides to identify genuine art vs. forgeries every time.
+                            </p>
+</div>
+<div class="bg-white dark:bg-[#2a3a1d] p-8 rounded-lg shadow-sm border border-[#e9e2cc] dark:border-[#354a25] flex flex-col gap-4 group hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white">update</span>
+</div>
+<h3 class="text-xl font-extrabold">Time Travel Support</h3>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-sm leading-relaxed">
+                                Custom time zone settings and time travel support to match your in-game clock perfectly.
+                            </p>
+</div>
+<div class="bg-white dark:bg-[#2a3a1d] p-8 rounded-lg shadow-sm border border-[#e9e2cc] dark:border-[#354a25] flex flex-col gap-4 group hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white">schedule</span>
+</div>
+<h3 class="text-xl font-extrabold">Available Now</h3>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-sm leading-relaxed">
+                                See exactly what you can catch right now based on your custom island time. Never miss a rare spawn!
+                            </p>
+</div>
+<div class="bg-white dark:bg-[#2a3a1d] p-8 rounded-lg shadow-sm border border-[#e9e2cc] dark:border-[#354a25] flex flex-col gap-4 group hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white">public</span>
+</div>
+<h3 class="text-xl font-extrabold">Hemisphere Support</h3>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-sm leading-relaxed">
+                                🏝️ Support for both Northern and Southern hemispheres. Syncs with your specific island setup.
+                            </p>
+</div>
+<div class="bg-white dark:bg-[#2a3a1d] p-8 rounded-lg shadow-sm border border-[#e9e2cc] dark:border-[#354a25] flex flex-col gap-4 group hover:shadow-md transition-shadow">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-primary group-hover:text-white">privacy_tip</span>
+</div>
+<h3 class="text-xl font-extrabold">Privacy First</h3>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-sm leading-relaxed">
+                                Works 100% offline. No account required, no tracking, and no ads. Your collection data is yours.
+                            </p>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-7xl mx-auto px-6 md:px-20 py-24" id="screenshots">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div class="max-w-xl">
+<h2 class="text-4xl font-black text-accent-brown dark:text-white mb-4">Take a look inside</h2>
+<p class="text-accent-brown/70 dark:text-cream-bg/70 text-lg">Identify art, track fossils, and manage your museum with ease.</p>
+</div>
+<div class="flex gap-2">
+<button class="w-12 h-12 rounded-full border border-accent-brown/10 flex items-center justify-center hover:bg-white transition-colors" id="prev-btn">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-accent-brown/10 flex items-center justify-center hover:bg-white transition-colors" id="next-btn">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="gallery-container">
+<div class="flex flex-col gap-4 gallery-item">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Home screen" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/01-home.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Home</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Insects list" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/02-insects-list.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Insects List</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Critter detail" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/03-insect-detail.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Critter Detail</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Available now" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/04-available-now.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Available Now</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Settings" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/05-settings.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Settings</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Welcome page" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/06-welcome-page.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Welcome Page</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Choose hemisphere" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/07-choose-hemisphere.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Choose Hemisphere</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Tracking mode" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/08-tracking-mode.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Tracking Mode</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Amazing painting" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/09-art-forgery-detection.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Art Forgery Detection</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Calm painting" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/10-art-not-forged.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Art Not Forged</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Fish list" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/11-fish-list.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Fish List</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Sea creatures list" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/12-sea-creatures-list.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Sea Creatures List</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Fossils list" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/13-fossils-list.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Fossils List</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Paintings list" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/14-paintings-list.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Paintings List</p>
+</div>
+<div class="flex flex-col gap-4 gallery-item" style="display:none;">
+<div class="aspect-[9/16] bg-white rounded-[2rem] p-4 shadow-xl border-4 border-accent-brown/5 overflow-hidden">
+<img alt="Sculptures list" class="w-full h-full object-contain rounded-xl" src="/images/ac-pocket-field-guide/15-sculptures-list.png"/>
+</div>
+<p class="text-center font-bold text-sm uppercase tracking-widest opacity-50">Sculptures List</p>
+</div>
+</div>
+</section>
+<script>
+  (function() {
+    let currentPage = 0;
+    const itemsPerPage = 3;
+    const allItems = document.querySelectorAll('.gallery-item');
+    const totalPages = Math.ceil(allItems.length / itemsPerPage);
+
+    function showPage(page) {
+      allItems.forEach(function(item, index) {
+        const itemPage = Math.floor(index / itemsPerPage);
+        item.style.display = itemPage === page ? 'flex' : 'none';
+      });
+    }
+
+    document.getElementById('prev-btn').addEventListener('click', function() {
+      currentPage = (currentPage - 1 + totalPages) % totalPages;
+      showPage(currentPage);
+    });
+
+    document.getElementById('next-btn').addEventListener('click', function() {
+      currentPage = (currentPage + 1) % totalPages;
+      showPage(currentPage);
+    });
+
+    showPage(0);
+  })();
+</script>
+<section class="max-w-7xl mx-auto px-6 md:px-20 mb-24">
+<div class="bg-primary rounded-xl md:rounded-lg p-12 flex flex-col items-center text-center gap-8 shadow-2xl relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-20 -mt-20 blur-2xl"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-black/10 rounded-full -ml-10 -mb-10 blur-2xl"></div>
+<h2 class="text-4xl md:text-5xl font-black text-white leading-tight max-w-2xl relative z-10">
+                        Ready to finish that Museum collection?
+                    </h2>
+<p class="text-white/90 text-lg max-w-xl relative z-10">
+                        AC Pocket Field Guide is coming soon to the App Store. Track all 316 items with forgery detection, fossil tracking, and more.
+                    </p>
+<p class="text-white/70 text-base font-semibold relative z-10">
+                        🚀 Coming Soon!
+                    </p>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-background-dark border-t border-[#e9e2cc] dark:border-[#2a3a1d] py-16">
+<div class="max-w-7xl mx-auto px-6 md:px-20 flex flex-col items-center gap-10">
+<div class="flex flex-col items-center gap-4">
+<div class="flex items-center gap-2">
+<div class="bg-primary p-1.5 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-sm">bug_report</span>
+</div>
+<span class="text-xl font-extrabold text-accent-brown dark:text-white">AC Pocket Field Guide</span>
+</div>
+<p class="text-accent-brown/50 dark:text-cream-bg/50 text-sm text-center max-w-md">
+                        This is a fan-made application and is not affiliated with, endorsed by, or associated with Nintendo. 
+                        Animal Crossing is a trademark of Nintendo.
+                    </p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 text-sm font-bold text-accent-brown/70 dark:text-cream-bg/70">
+<a class="hover:text-primary transition-colors" href="privacy.html">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="help-and-faq.html">Support</a>
+<a class="hover:text-primary transition-colors" href="https://github.com/jtemporal/ac-pocket-field-guide/issues">Contact</a>
+</div>
+<div class="text-accent-brown/30 dark:text-cream-bg/30 text-xs">
+                    © 2026 AC Pocket Field Guide. All rights reserved.
+                </div>
+</div>
+</footer>
+</div>
+
+</body></html>
