@@ -19,11 +19,11 @@
 ## File Organization
 
 - Blog posts go in `_posts/` directory
-- Draft posts go in `_drafts/` directory  
+- Draft posts go in `_drafts/` directory
 - Book content goes in `_books/en/` or `_books/pt/` based on language
 - Hacktoberfest projects are organized by language in `_hacktoberfest_projects/`
 - Static pages (about, contact, etc.) go in the root directory
-- Images should be hosted on Cloudinary when possible
+- Images are hosted locally in the `/images/` directory
 
 ## Documentation Guidelines
 
