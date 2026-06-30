@@ -3,108 +3,131 @@
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue?logo=github)](https://jtemporal.com)
 [![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-red?logo=jekyll)](https://jekyllrb.com/)
 
-Personal blog and portfolio website of Jessica Temporal - Sr. Dev Advocate, podcaster, and creator. Built with Jekyll and hosted on GitHub Pages.
+Personal blog and portfolio website of Jessica Temporal — Sr. Dev Advocate, podcaster, and creator. Built with Jekyll and the **Ethereal Ink** theme, hosted on GitHub Pages.
 
-🌐 **Live Site**: [jtemporal.com](https://jtemporal.com)
+🌐 **Live site**: [jtemporal.com](https://jtemporal.com)
+
+> **Repository note:** This project currently lives at [`jtemporal/new-blog`](https://github.com/jtemporal/new-blog) while the Ethereal Ink migration is in progress. Clone and setup instructions below still use [`jtemporal/jtemporal.github.io`](https://github.com/jtemporal/jtemporal.github.io) — the repo will be renamed once the migration ships.
 
 ## About
 
-This website features:
+This site features:
+
 - Technical blog posts about Python, data science, Git, and open source
-- Portfolio showcasing projects and talks
-- Information about books authored by Jessica
-- Hacktoberfest project collection
-- Multi-language support (Portuguese and English)
+- Books, talks, videos, series, and social links
+- Hacktoberfest project collections (2019–2025)
+- Multi-language support (Portuguese and English, with French infrastructure)
 
 ## Tech Stack
 
-- **Static Site Generator**: Jekyll
-- **Styling**: SCSS/Sass with Bootstrap
+- **Static site generator**: Jekyll 4.3
+- **Styling**: Tailwind CSS (Ethereal Ink design system) with Typography plugin
+- **Syntax highlighting**: Rouge
 - **Hosting**: GitHub Pages
-- **Domain**: Custom domain (jtemporal.com)
+- **Domain**: [jtemporal.com](https://jtemporal.com)
 - **Analytics**: Google Analytics & PostHog
-- **Comments**: Configured for comments system
 
 ## Features
 
-- 📱 Responsive design
-- 🌍 Multi-language content (PT/EN) with scalable architecture
-- 📖 Reading time estimation
-- 🎯 Project collection (Hacktoberfest)
-- 📝 Blog post pagination
-- 🔗 Language switcher with dropdown UI
+- Responsive layout with light/dark mode
+- Multi-language content (PT/EN) with scalable architecture
+- Reading time estimation
+- Post tag banners, series pages, and listing pages for talks, videos, and books
+- Blog post pagination
+- Language switcher
 
 ### Multi-Language System
 
-This site features a comprehensive multi-language system supporting Portuguese and English content, with infrastructure ready for additional languages like French. 
-
-**📚 Complete Documentation**: See [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md) for detailed information about:
-- System overview and architecture
-- Language configuration
-- Translation management
-- Adding new languages
-- Implementation examples
-- Troubleshooting guide
+See [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md) for architecture, translation management, adding languages, and troubleshooting.
 
 ## Local Development
 
 ### Prerequisites
 
-- Ruby (version 2.7+)
-- Bundler gem
+- Ruby **3.4.1** (see `.ruby-version`)
+- Bundler
+- Node.js & npm (for Tailwind CSS builds)
 - Git
 
 ### Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/jtemporal/jtemporal.github.io.git
    cd jtemporal.github.io
    ```
 
+   If you are working from the migration repo before the rename:
+
+   ```bash
+   git clone https://github.com/jtemporal/new-blog.git
+   cd new-blog
+   ```
+
 2. **Install dependencies**
+
    ```bash
    bundle install
+   npm install
    ```
 
 3. **Run the development server**
+
+   Recommended — builds CSS and starts Jekyll with the dev config:
+
    ```bash
-   bundle exec jekyll serve
+   npm run dev
    ```
 
-   Or for development with the dev config:
+   Or run the steps separately:
+
    ```bash
+   npm run build:css
    bundle exec jekyll serve --config _dev_config.yml
    ```
 
-4. **View the site**
-   Open your browser to `http://localhost:4000`
+   CSS auto-rebuilds via `_plugins/build_css.rb` while Jekyll is running.
+
+4. **Open the site**
+
+   [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
 ### Development Commands
 
-- **Build the site**: `bundle exec jekyll build`
-- **Serve with drafts**: `bundle exec jekyll serve --drafts`
-- **Serve with future posts**: `bundle exec jekyll serve --future`
-- **Clean build files**: `bundle exec jekyll clean`
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Build CSS and serve with `_dev_config.yml` |
+| `npm run build:css` | Compile Tailwind → `assets/css/main.css` |
+| `npm run watch:css` | Watch and rebuild CSS |
+| `bundle exec jekyll build` | Production build |
+| `bundle exec jekyll serve --drafts` | Include draft posts |
+| `bundle exec jekyll serve --future` | Include future-dated posts |
+| `bundle exec jekyll clean` | Remove `_site` and cache |
 
 ## Content Structure
 
 ```text
-├── _posts/          # Blog posts (markdown files)
-├── _books/          # Book collection (PT/EN)
-├── _drafts/         # Draft posts
-├── _hacktoberfest_projects/  # Hacktoberfest project collections
-├── _includes/       # Reusable templates
-├── _layouts/        # Page layouts
-├── _sass/           # Sass stylesheets
-├── images/          # Image assets
-├── slides/          # Presentation slides
-└── pages/           # Static pages (about, contact, etc.)
+├── _posts/                    # Blog posts
+├── _books/                    # Book collection (en/, pt/)
+├── _drafts/                   # Draft posts
+├── _hacktoberfest_projects_*/ # Hacktoberfest listings by year
+├── _includes/                 # Reusable templates
+├── _layouts/                  # Page layouts
+├── _plugins/                  # Jekyll plugins (CSS build, Rouge tweaks)
+├── _data/                     # YAML data (socials, localization, etc.)
+├── src/styles/                # Tailwind source (tailwind.css, theme.css, syntax.css)
+├── assets/css/                # Compiled CSS
+├── images/                    # Image assets
+└── slides/                    # Presentation slides
 ```
+
+Design mockups from Stitch live in `stitch_bilingual_blog_post_page_v1/` locally for reference — that folder is gitignored and not part of the repository.
 
 ## Writing Posts
 
-Create new posts in the `_posts/` directory with the format:
+Create new posts in `_posts/` using:
+
 ```text
 YYYY-MM-DD-post-title.md
 ```
@@ -116,10 +139,10 @@ YYYY-MM-DD-post-title.md
 layout: post
 title: "Your Post Title"
 date: 2025-08-30
-image: "path/to/featured-image.jpg"
-tags: [tag1, tag2, tag3]
+image: /images/covers/tutorial.webp
+tags: [tag1, tag2]
 lang: en  # or pt
-translations:  # Optional: for multi-language posts
+translations:
   - lang: pt
     url: "/caminho-para-traducao-em-portugues"
 ---
@@ -127,42 +150,39 @@ translations:  # Optional: for multi-language posts
 Your post content here...
 ```
 
-For more details about the translation system, see the [Multi-Language System Documentation](MULTI_LANGUAGE_SYSTEM.md).
+For translation details, see [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md).
 
 ## Collections
 
 ### Books
-Book information is stored in `_books/` with separate folders for English (`en/`) and Portuguese (`pt/`) content.
+
+Book content lives in `_books/en/` and `_books/pt/`.
 
 ### Hacktoberfest Projects
-Organized by programming language in `_hacktoberfest_projects/` directory.
+
+Organized by year in `_hacktoberfest_projects_YYYY/`.
 
 ## Configuration
 
-- **Main config**: `_config.yml`
-- **Development config**: `_dev_config.yml`
-- **Styling**: Custom Bootstrap theme in `_sass/`
+- **Production config**: `_config.yml`
+- **Development config**: `_dev_config.yml` (local URLs, dev-only excludes)
+- **Styling**: `src/styles/tailwind.css`, `tailwind.config.js`, `src/styles/theme.css`
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Theme
-
-This theme is based on the one made by [webjeda](http://webjeda.com/cards) and has been extensively customized.
+1. Fork [jtemporal/jtemporal.github.io](https://github.com/jtemporal/jtemporal.github.io)
+2. Create a feature branch (`git checkout -b feature/my-change`)
+3. Commit your changes
+4. Push and open a pull request
 
 ## License
 
-This project is open source. Please see the [LICENSE.md](LICENSE.md) file for details.
+See [LICENCE.md](LICENCE.md).
 
 ## Contact
 
 - **Website**: [jtemporal.com](https://jtemporal.com)
-- **Email**: hello at jtemporal.com
+- **Email**: hello@jtemporal.com
 - **Twitter**: [@jesstemporal](https://twitter.com/jesstemporal)
 - **GitHub**: [@jtemporal](https://github.com/jtemporal)
 
