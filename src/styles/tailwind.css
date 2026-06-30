@@ -154,6 +154,20 @@
   .dark .prose-ink {
     @apply prose-invert prose-headings:text-inverse-on-surface prose-strong:text-inverse-on-surface;
   }
+
+  /* Black-on-white signature GIF: knock out white bg, invert ink in dark mode */
+  .signature {
+    isolation: isolate;
+  }
+
+  .signature-gif {
+    mix-blend-mode: multiply;
+  }
+
+  .dark .signature-gif {
+    filter: invert(1);
+    mix-blend-mode: screen;
+  }
 }
 
 @layer utilities {
