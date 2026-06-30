@@ -1,0 +1,13 @@
+<a class="group block rounded-2xl border border-outline-variant bg-surface-container-lowest p-6 transition-all hover:border-primary hover:shadow-lg dark:border-outline dark:bg-inverse-surface" href="{{ post.url | relative_url }}">
+  {% if post.tags.first %}
+    <span class="font-label text-label-sm uppercase tracking-wider text-primary">{{ post.tags.first }}</span>
+  {% endif %}
+  <h4 class="mt-2 font-display text-lg font-bold text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">{{ post.title }}</h4>
+  <p class="mt-2 line-clamp-2 text-sm text-on-surface-variant dark:text-inverse-on-surface/70">
+    {% if post.description %}
+      {{ post.description }}
+    {% else %}
+      {{ post.excerpt | strip_html | strip_newlines | truncate: 70 }}
+    {% endif %}
+  </p>
+</a>

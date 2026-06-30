@@ -1,0 +1,163 @@
+@import './theme.css';
+@import './syntax.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-on-surface font-sans antialiased transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-background-dark text-inverse-on-surface;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+  }
+
+  em,
+  i,
+  cite {
+    font-style: normal;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 font-label text-sm font-medium text-on-primary transition-colors hover:bg-primary-container;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg border border-on-surface px-6 py-3 font-label text-sm font-medium text-on-surface transition-colors hover:border-primary hover:text-primary;
+  }
+
+  .btn-buy-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 font-sans text-sm font-bold !text-on-primary no-underline shadow-lg shadow-primary/20 transition-all hover:bg-primary-container hover:!text-on-primary hover:opacity-100 hover:shadow-primary/30;
+  }
+
+  .btn-buy-outline {
+    @apply inline-flex items-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-8 py-4 font-sans text-sm font-bold !text-on-surface no-underline transition-all hover:bg-surface-container dark:border-outline dark:bg-inverse-surface dark:!text-inverse-on-surface dark:hover:bg-outline-variant;
+  }
+
+  .btn-buy-muted {
+    @apply inline-flex items-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-8 py-4 font-sans text-sm font-bold !text-on-surface no-underline transition-all hover:bg-surface-container dark:border-outline dark:bg-inverse-surface dark:!text-inverse-on-surface;
+  }
+
+  .dark .btn-secondary {
+    @apply border-inverse-on-surface text-inverse-on-surface hover:border-inverse-primary hover:text-inverse-primary;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-outline-variant bg-surface-container-lowest p-6 shadow-cozy transition-all;
+  }
+
+  .dark .card-surface {
+    @apply border-outline bg-inverse-surface;
+  }
+
+  .card-banner {
+    background-image: radial-gradient(circle at 1px 1px, #e5e7eb 1px, transparent 0);
+    background-size: 24px 24px;
+  }
+
+  .dark .card-banner {
+    background-image: radial-gradient(circle at 1px 1px, #2d2d2d 1px, transparent 0);
+  }
+
+  .ink-card-hover {
+    @apply transition-all duration-300;
+  }
+
+  .ink-pull-quote {
+    @apply border-l-4 border-primary pl-6;
+  }
+
+  .ink-card-hover:hover {
+    @apply border-primary;
+  }
+
+  .site-container {
+    @apply mx-auto w-full max-w-container-wide px-4 sm:px-6 lg:px-8;
+  }
+
+  .prose-ink {
+    @apply prose prose-lg max-w-none font-sans prose-headings:font-display prose-p:font-sans prose-li:font-sans prose-a:text-primary prose-strong:text-on-surface;
+    --tw-prose-pre-code: #1b1c1c;
+    --tw-prose-pre-bg: transparent;
+  }
+
+  /* Typography plugin wraps inline code in literal backticks — Rouge already styles them */
+  .prose-ink :where(:not(pre) > code)::before,
+  .prose-ink :where(:not(pre) > code)::after {
+    content: none;
+  }
+
+  .highlight .copy-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 10;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 0.375rem;
+    border: 1px solid #404040;
+    background: rgba(45, 45, 48, 0.92);
+    padding: 0.25rem 0.625rem;
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+    color: #d4d4d4;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+  }
+
+  .highlight .copy-button:hover {
+    border-color: #006769;
+    background: rgba(31, 31, 31, 0.96);
+    color: #fff;
+    opacity: 1;
+  }
+
+  .highlight .copy-button.copied {
+    border-color: #006769;
+    background: rgba(0, 103, 105, 0.92);
+    color: #fff;
+    opacity: 1;
+  }
+
+  .dark .highlight .copy-button {
+    border-color: #525252;
+    background: rgba(30, 30, 30, 0.95);
+    color: #f2f0f0;
+  }
+
+  .dark .highlight .copy-button:hover,
+  .dark .highlight .copy-button.copied {
+    border-color: #5cd8db;
+    background: rgba(0, 103, 105, 0.9);
+    color: #fff;
+  }
+
+  .dark .prose-ink {
+    @apply prose-invert prose-headings:text-inverse-on-surface prose-strong:text-inverse-on-surface;
+  }
+}
+
+@layer utilities {
+  .img-post {
+    @apply my-6 w-full rounded-xl;
+  }
+}

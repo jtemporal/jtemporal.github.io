@@ -1,0 +1,33 @@
+{% include language-detection.html %}
+{% assign recent_articles_title = site.languages[current_lang].text.recent_articles_title %}
+{% assign related_articles_title = site.languages[current_lang].text.related_articles_title %}
+
+<div class="rounded-2xl border border-outline-variant bg-surface-container-low p-6 dark:border-outline dark:bg-inverse-surface">
+  {% if page.related %}
+    <h3 class="mb-4 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ related_articles_title }}</h3>
+    {% assign related_post_list = page.posts_list | join: ',' | split: ',' %}
+    <ul class="space-y-3">
+      {% for related_post in related_post_list %}
+        {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
+        {% for post in site.posts %}
+          {% if post.url == related_post_url %}
+            <li>
+              <a class="text-sm font-medium text-on-surface-variant transition-colors hover:text-primary dark:text-inverse-on-surface/80 dark:hover:text-inverse-primary" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <p class="font-label text-label-sm text-on-surface-variant">{{ post.date | date: "%b %-d, %Y" }}</p>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  {% else %}
+    <h3 class="mb-4 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ recent_articles_title }}</h3>
+    <ul class="space-y-3">
+      {% for post in site.posts limit:3 %}
+        <li>
+          <a class="text-sm font-medium text-on-surface-variant transition-colors hover:text-primary dark:text-inverse-on-surface/80 dark:hover:text-inverse-primary" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <p class="font-label text-label-sm text-on-surface-variant">{{ post.date | date: "%b %-d, %Y" }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

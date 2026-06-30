@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% include language-detection.html %}
+
+<div class="site-container py-12">
+  <div class="grid grid-cols-1 gap-12 lg:grid-cols-12">
+    <article class="lg:col-span-8">
+      <header class="mb-10">
+        <h1 class="font-display text-display-lg-mobile md:text-display-lg text-on-surface dark:text-inverse-on-surface">{{ page.series }}</h1>
+        <div class="mt-4 h-1 w-20 rounded-full bg-primary"></div>
+      </header>
+
+      <div class="prose-ink max-w-none">
+        {% assign page_lang = page.lang | default: "en" %}
+        {% assign series_posts = site.posts | where: "series", page.series | where: "lang", page_lang | sort: "series_order" %}
+
+        {% if page.series_description %}
+          <p class="text-body-lg text-on-surface-variant dark:text-inverse-on-surface/80">{{ page.series_description }}</p>
+          <hr class="my-8 border-outline-variant dark:border-outline">
+        {% endif %}
+
+        {% if current_lang == "en" %}
+          <p class="font-label text-label-md uppercase tracking-wider text-on-surface-variant">This series contains {{ series_posts.size }} posts:</p>
+        {% else %}
+          <p class="font-label text-label-md uppercase tracking-wider text-on-surface-variant">Esta série contém {{ series_posts.size }} posts:</p>
+        {% endif %}
+
+        <div class="mt-8 space-y-6">
+          {% for post in series_posts %}
+            <div class="ink-card-hover rounded-2xl border border-outline-variant p-6 dark:border-outline">
+              <h3 class="font-display text-headline-sm">
+                <a class="text-on-surface transition-colors hover:text-primary dark:text-inverse-on-surface dark:hover:text-inverse-primary" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+              </h3>
+              {% if post.description %}
+                <p class="mt-2 text-on-surface-variant dark:text-inverse-on-surface/70">{{ post.description }}</p>
+              {% else %}
+                <p class="mt-2 text-on-surface-variant dark:text-inverse-on-surface/70">{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+              {% endif %}
+              <p class="mt-3 font-label text-label-sm uppercase tracking-wider text-on-surface-variant">{{ post.date | date: "%b %-d, %Y" }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </article>
+
+    {% include sidebar.html %}
+  </div>
+</div>

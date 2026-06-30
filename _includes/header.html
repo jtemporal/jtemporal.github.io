@@ -1,0 +1,53 @@
+{% include language-detection.html %}
+
+<header class="sticky top-0 z-50 border-b border-outline-variant bg-surface-container-lowest/80 backdrop-blur-md dark:border-outline dark:bg-background-dark/80">
+  <div class="site-container">
+    <div class="flex h-20 items-center justify-between">
+      <div class="flex items-center gap-8">
+        {% if current_lang == "en" %}
+          <a class="font-sans text-2xl font-bold tracking-tight text-on-surface dark:text-inverse-on-surface" href="{{ '/en/' | relative_url }}">{{ site.title }}</a>
+          {% assign options = "About,Books,Series,Talks,Videos,Socials,CV,GitStudyCards" | split: ',' %}
+          {% assign base = "/about,/books,/series,/talks,/videos,/socials,/EnJtResume.pdf,https://gitfichas.com/en?utm_source=blog" | split: ',' %}
+        {% elsif current_lang == "fr" %}
+          <a class="font-sans text-2xl font-bold tracking-tight text-on-surface dark:text-inverse-on-surface" href="{{ '/fr/' | relative_url }}">{{ site.title }}</a>
+          {% assign options = "À propos,Livres,Conférences,CV,GitFichas" | split: ',' %}
+          {% assign base = "/a-propos,/books,/talks,/EnJtResume.pdf,https://gitfichas.com/fr?utm_source=blog" | split: ',' %}
+        {% else %}
+          <a class="font-sans text-2xl font-bold tracking-tight text-on-surface dark:text-inverse-on-surface" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+          {% assign options = "Sobre,Livros,Séries,Palestras,Vídeos,Redes sociais,CV,GitFichas" | split: ',' %}
+          {% assign base = "/sobre,/livros,/series-pt,/palestras,/videos,/sociais,/EnJtResume.pdf,https://gitfichas.com/?utm_source=blog" | split: ',' %}
+        {% endif %}
+
+        <nav class="hidden items-center gap-6 md:flex">
+          {% for item in options %}
+            {% assign idx = forloop.index0 %}
+            <a class="font-sans text-base font-medium text-on-surface-variant transition-colors hover:text-primary dark:text-inverse-on-surface dark:hover:text-inverse-primary" href="{{ base[idx] }}">{{ item }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+
+      <div class="flex items-center gap-3">
+        {% include language-switcher-multi.html %}
+
+        <button id="theme-toggle" type="button" class="rounded-full p-2 text-on-surface-variant transition-colors hover:bg-surface-container dark:text-inverse-on-surface dark:hover:bg-inverse-surface" aria-label="Toggle theme">
+          <span class="material-symbols-outlined text-xl" id="theme-icon">dark_mode</span>
+        </button>
+
+        <button id="mobile-nav-toggle" type="button" class="rounded-full p-2 text-on-surface-variant transition-colors hover:bg-surface-container md:hidden dark:text-inverse-on-surface dark:hover:bg-inverse-surface" aria-label="Toggle navigation">
+          <span class="material-symbols-outlined text-xl">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav-menu" class="hidden border-t border-outline-variant py-4 md:hidden dark:border-outline">
+      <div class="flex flex-col gap-3">
+        {% for item in options %}
+          {% assign idx = forloop.index0 %}
+          <a class="font-sans text-base font-medium text-on-surface-variant transition-colors hover:text-primary dark:text-inverse-on-surface" href="{{ base[idx] }}">{{ item }}</a>
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script src="{{ '/assets/js/mobile-nav.js' | relative_url }}" defer></script>

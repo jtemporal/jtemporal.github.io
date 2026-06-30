@@ -1,0 +1,48 @@
+/* Ethereal Ink legacy content compatibility */
+.github-project-share {
+  @apply mx-auto w-full max-w-3xl;
+}
+
+.github-project-share-card {
+  @apply my-3 flex min-h-[250px] flex-col justify-center rounded-lg border border-tertiary/35 p-4 shadow-sm;
+}
+
+.center {
+  @apply my-4 text-sm;
+}
+
+table {
+  @apply mx-auto my-6 w-full max-w-xl text-center;
+}
+
+.buy {
+  @apply btn-primary my-1;
+}
+
+.row,
+.col-md-4,
+.col-md-8,
+.col-sm-4,
+.pack {
+  display: contents;
+}
+
+.panel,
+.panel-default,
+.panel-body,
+.card,
+.card-recent {
+  display: block;
+}
+
+.pager {
+  @apply my-8 flex list-none flex-wrap gap-4;
+}
+
+.pager li {
+  @apply list-none;
+}
+
+.pager a {
+  @apply text-primary hover:underline;
+}

@@ -1,0 +1,9 @@
+{% include language-detection.html %}
+{% assign author_note_title = site.languages[current_lang].text.author_note_title %}
+
+<div class="rounded-2xl border border-outline-variant bg-surface-container-low p-6 dark:border-outline dark:bg-inverse-surface">
+  <h3 class="mb-2 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ author_note_title }}</h3>
+  <p class="text-sm text-on-surface-variant dark:text-inverse-on-surface/80">
+    <a class="text-primary transition-colors hover:underline" href="{{ page.author_note_link }}">{{ page.author_note_text }}</a>
+  </p>
+</div>

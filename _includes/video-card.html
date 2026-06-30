@@ -1,0 +1,31 @@
+{% assign post = include.post %}
+{% include post-tags-logic.html post=post %}
+
+<article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy transition-all duration-500 hover:-translate-y-1 hover:shadow-xl dark:border-outline dark:bg-inverse-surface">
+  <a class="flex h-full flex-col no-underline" href="{{ post.url | relative_url }}">
+    {% include post-tag-banner.html post=post %}
+    <div class="flex flex-1 flex-col justify-between p-6">
+      <div>
+        <h3 class="font-display text-headline-sm leading-tight text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
+          {{ post.title }}
+        </h3>
+        <p class="mt-2 font-label text-label-sm uppercase tracking-wider text-on-surface-variant">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </p>
+        <p class="mt-3 line-clamp-3 font-sans text-body-md text-on-surface-variant dark:text-inverse-on-surface/70">
+          {% if post.description %}
+            {{ post.description }}
+          {% else %}
+            {{ post.excerpt | strip_html | strip_newlines | truncate: 120 }}
+          {% endif %}
+        </p>
+      </div>
+      <div class="mt-6 flex items-center justify-between gap-4">
+        <span class="material-symbols-outlined text-4xl text-primary transition-transform group-hover:scale-110" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+        {% if topic_tag != "" %}
+          <span class="shrink-0 border border-primary px-3 py-1 font-label text-label-sm uppercase tracking-wider text-primary">{{ topic_tag | replace: "_", " " }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </a>
+</article>

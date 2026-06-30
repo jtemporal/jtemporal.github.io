@@ -1,0 +1,10 @@
+{% assign raw_desc = include.description | default: page.book_description %}
+<div class="space-y-3 font-sans text-body-md text-on-surface-variant dark:text-inverse-on-surface/80">
+{% assign desc_parts = raw_desc | split: '<br>' %}
+{% for part in desc_parts %}
+{% assign line = part | strip %}
+{% if line != "" %}
+<p>{{ line }}</p>
+{% endif %}
+{% endfor %}
+</div>

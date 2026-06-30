@@ -1,0 +1,20 @@
+{% include language-detection.html %}
+{% assign knw_btn = site.languages[current_lang].text.know_more_button %}
+{% assign buy = site.languages[current_lang].text.buy_button %}
+
+<div class="overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-low shadow-sm transition-shadow hover:shadow-md dark:border-outline dark:bg-inverse-surface">
+  <div class="relative aspect-[4/5] bg-surface-container">
+    <img class="h-full w-full object-cover" src="{{ site.banner_books[current_lang].book.cover | relative_url }}" alt="{{ site.banner_books[current_lang].book.title }}">
+    <div class="absolute inset-0 flex items-end bg-gradient-to-t from-on-surface/60 to-transparent p-6">
+      <h4 class="font-display text-xl font-bold text-on-primary">{{ site.banner_books[current_lang].book.title }}</h4>
+    </div>
+  </div>
+  <div class="p-6">
+    <p class="mb-6 text-sm leading-relaxed text-on-surface-variant dark:text-inverse-on-surface/80">{{ site.banner_books[current_lang].book.short_description }}</p>
+    <div class="space-y-2">
+      <a class="btn-primary mb-2 block w-full text-center" href="{{ site.banner_books[current_lang].book.gumroad }}">{{ buy }} Gumroad</a>
+      <a class="btn-primary mb-2 block w-full text-center" href="{{ site.banner_books[current_lang].book.amazon }}">{{ buy }} Amazon</a>
+      <a class="btn-secondary block w-full text-center" href="{{ site.banner_books[current_lang].book.page }}">{{ knw_btn }}</a>
+    </div>
+  </div>
+</div>

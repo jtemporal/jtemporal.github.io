@@ -1,0 +1,32 @@
+---
+layout: default
+lang: en_US
+image: "/images/logo.webp"
+---
+
+<div class="site-container py-12">
+  <div class="mb-12">
+    <h1 class="font-display text-display-lg-mobile text-on-surface dark:text-inverse-on-surface">Latest Posts</h1>
+    <div class="mt-2 h-1 w-20 rounded-full bg-primary"></div>
+  </div>
+
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    {% for post in paginator.posts %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+    <nav class="mt-16 flex items-center justify-center gap-4" aria-label="Pagination">
+      {% if paginator.previous_page %}
+        <a class="rounded-full border border-outline-variant px-4 py-2 font-label text-sm transition-colors hover:border-primary hover:text-primary dark:border-outline" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>
+      {% endif %}
+      <span class="font-label text-sm text-on-surface-variant">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a class="rounded-full border border-outline-variant px-4 py-2 font-label text-sm transition-colors hover:border-primary hover:text-primary dark:border-outline" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+      {% endif %}
+    </nav>
+  {% endif %}
+</div>
+
+{% include home-book-banner.html %}

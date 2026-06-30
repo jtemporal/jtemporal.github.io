@@ -1,0 +1,71 @@
+[build]
+  publish = "_site"
+  command = "npm ci && npm run build:css && bundle exec jekyll build"
+
+[build.environment]
+  RUBY_VERSION = "3.2.0"
+  NODE_VERSION = "22"
+
+# Deploy from main branch to production
+[context.production]
+  command = "npm ci && npm run build:css && bundle exec jekyll build"
+
+# Deploy previews for pull requests  
+[context.deploy-preview]
+  command = "npm ci && npm run build:css && bundle exec jekyll build --config _dev_config.yml"
+
+# Branch deploys (if you want to test other branches)
+[context.branch-deploy]
+  command = "npm ci && npm run build:css && bundle exec jekyll build --config _dev_config.yml"
+
+# Optimize caching for WebP images (90 days)
+[[headers]]
+  for = "/images/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=7776000"
+    Content-Type = "image/webp"
+    Vary = "Accept-Encoding"
+
+# Cache other image formats (90 days)
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=7776000"
+    Vary = "Accept-Encoding"
+
+# General performance and security headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+
+# Enable compression for HTML, CSS, JS
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+# Handle Jekyll's clean URLs
+[[redirects]]
+from = "/dev-diaries/*"
+to = "https://jtemporal.github.io/dev-diaries/:splat"
+status = 301
+
+# keep your 404 fallback as a last rule
+[[redirects]]
+from = "/*"
+to = "/404.html"
+status = 404

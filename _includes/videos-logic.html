@@ -1,0 +1,35 @@
+{% include language-detection.html %}
+
+{% assign video_posts = site.posts | where: "type", "video" %}
+
+<div class="not-prose">
+  <section class="mb-12">
+    <div class="inline-block bg-on-surface px-3 py-1 font-label text-label-sm uppercase tracking-widest text-on-primary dark:bg-inverse-on-surface dark:text-inverse-surface">
+      {% if current_lang == "en" %}Visual guides{% elsif current_lang == "fr" %}Guides visuels{% else %}Guias em vídeo{% endif %}
+    </div>
+    <h1 class="mt-6 font-display text-display-lg-mobile md:text-display-lg text-on-surface dark:text-inverse-on-surface">
+      {% if current_lang == "en" %}Videos{% elsif current_lang == "fr" %}Vidéos{% else %}Vídeos{% endif %}
+    </h1>
+    <p class="mt-4 max-w-xl font-sans text-body-lg text-on-surface-variant dark:text-inverse-on-surface/80">
+      {% if current_lang == "en" %}
+        Tips, tutorials, and demos on git, AI, open source, and developer workflows.
+      {% elsif current_lang == "fr" %}
+        Conseils, tutoriels et démos sur git, l'IA, l'open source et les workflows de développement.
+      {% else %}
+        Dicas, tutoriais e demos sobre git, IA, open source e fluxos de trabalho.
+      {% endif %}
+    </p>
+  </section>
+
+  {% if video_posts.size > 0 %}
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+      {% for post in video_posts %}
+        {% include video-card.html post=post %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="font-sans text-body-md text-on-surface-variant">
+      {% if current_lang == "en" %}No videos yet.{% else %}Nenhum vídeo ainda.{% endif %}
+    </p>
+  {% endif %}
+</div>

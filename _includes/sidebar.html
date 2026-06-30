@@ -1,0 +1,34 @@
+<aside class="space-y-8 lg:col-span-4">
+  {% if page.layout == "post" and page.type != "video" %}
+    <div class="overflow-hidden rounded-2xl border bg-surface-container-lowest shadow-cozy dark:bg-inverse-surface {% if page.lang == 'pt' %}border-2 border-primary/25 dark:border-primary/40{% else %}border border-outline-variant dark:border-outline{% endif %}">
+      {% include post-tag-banner.html post=page %}
+    </div>
+  {% elsif page.hide_sidebar_image != true %}
+    <div class="overflow-hidden rounded-2xl border border-outline-variant dark:border-outline">
+      {% if page.image %}
+        {% if page.image contains "http" %}
+          <img class="w-full rounded-2xl" src="{{ page.image }}" alt="{{ page.title }}">
+        {% else %}
+          <img class="w-full rounded-2xl" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+        {% endif %}
+      {% else %}
+        <img class="w-full rounded-2xl" src="{{ site.default-image | relative_url }}" alt="{{ page.title }}">
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if page.author_note == true %}
+    {% include author-note-widget.html %}
+  {% endif %}
+
+  {% if page.layout == "post" %}
+    {% if page.series %}
+      {% include series-widget.html %}
+    {% endif %}
+    {% include related-articles-widget.html %}
+  {% endif %}
+
+  {% if page.bookbanner == true %}
+    {% include book-widget.html %}
+  {% endif %}
+</aside>

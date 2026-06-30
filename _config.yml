@@ -1,0 +1,134 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jessica Temporal
+tagline: Posts about python, data science, git, open source and more 😉
+email: hello@jtemporal.com
+description: > # this means to ignore newlines until "baseurl:"
+  Sr. Dev Advocate 🥑 • 🎙 Podcaster @pizzadedados • Creator of @gitfichas • GitHub ⭐️ • cross stitch & knitter • 🇧🇷 & 🇨🇦 • she/her •
+  Opinions are my own.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jtemporal.com" # the base hostname & protocol for your site
+
+# reading time
+reading_time: true
+words_per_minute: 200
+
+#sidebar
+default-image: /images/logo.webp # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+favicon: /favicon.ico
+applefavicon: /apple-touch-icon.png
+
+#footer
+built-by: 
+
+copyright:
+   name: Jessica Temporal
+   link: 'https://jtemporal.com'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 9
+paginate_path: /page:num/
+
+# Multi-language configuration
+languages:
+  en:
+    flag: "🇺🇸"
+    name: "English"
+    code: "en"
+    locale: "en_US"
+    url: "/en/"
+    text:
+      know_more_button: "Learn more"
+      buy_button: "Buy on"
+      recent_articles_title: "Recent Articles"
+      related_articles_title: "Related Articles"
+      author_note_title: "Author Note"
+  pt:
+    flag: "🇧🇷"
+    name: "Português" 
+    code: "pt"
+    locale: "pt_BR"
+    url: "/pt/"
+    text:
+      know_more_button: "Saiba mais"
+      buy_button: "Compre na"
+      recent_articles_title: "Artigos recentes"
+      related_articles_title: "Artigos relacionados"
+      author_note_title: "Nota da autora"
+
+# Default language
+default_language: en
+
+# Tracker
+analytics: UA-89599031-1
+tagmanager: GTM-KKCR3VG
+posthog: phc_TJ8wDQtZEO0sAotAYkJLOeQmEnDU3JByJXQL8hJGDdJ
+
+# Comments
+
+#social
+twitter:
+  username: jesstemporal
+  card: summary_large_image
+github: https://github.com/jtemporal
+
+banner_books:
+  en:
+    book:
+      title: "The Big Git Microbook"
+      subtitle: "A quick guide to commands you will use daily"
+      page: "/gitmicrobook"
+      cover: "/images/books/gitmicrobook-ipad-no-bg.webp"
+      short_description: "What if you could have a Git dictionary? A book where you could find a description of how the most commonly used commands work, with practical examples?"
+      gumroad: https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true
+      amazon: https://www.amazon.com/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstempora0e-20&linkCode=ur2&linkId=efc4229f6b816609dfce4f185781d99a&camp=1789&creative=9325
+  pt:
+    book:
+      title: "O Grande Microlivro de Git"
+      subtitle: "Um guia rápido para comandos que você usará diariamente"
+      page: /microlivrodegit
+      cover: /images/livros/microlivro-de-git-ipad.webp
+      short_description: "E se você pudesse ter um dicionário de Git? Um livro onde você encontrasse uma descrição do funcionamento dos comandos mais comuns utilizados no dia-a-dia, com exemplos práticos?"
+      gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
+      amazon: https://amzn.to/3SETpx4
+
+# Collections
+collections:
+  books:
+      output: true
+  hacktoberfest_projects_2019:
+    projects: true
+  hacktoberfest_projects_2020:
+    projects: true
+  hacktoberfest_projects_2021:
+    projects: true
+  hacktoberfest_projects_2022:
+    projects: true
+  hacktoberfest_projects_2023:
+    projects: true
+  hacktoberfest_projects_2024:
+    projects: true
+  hacktoberfest_projects_2025:
+    projects: true
+
+# Sass style
+sass:
+  style: compressed
+
+# Include list
+include: [.well-known, EnJtResume.pdf, folium, llms.txt]
+
+# Exclude list - files and directories Jekyll should ignore
+exclude: [MULTI_LANGUAGE_SYSTEM.md, stitch_bilingual_blog_post_page_v1, _site, node_modules]
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-redirect-from]

@@ -1,0 +1,26 @@
+{% include language-detection.html %}
+{% if page.related %}
+  <h3 class="mb-8 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">
+    {% if current_lang == "en" %}Related Articles{% else %}Artigos relacionados{% endif %}
+  </h3>
+  {% assign related_post_list = page.posts_list | join: ',' | split: ',' %}
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+    {% for related_post in related_post_list %}
+      {% assign related_post_url = related_post | prepend: "/" | append: "/" %}
+      {% for post in site.posts %}
+        {% if post.url == related_post_url %}
+          {% include end-of-post-articles-cards.html %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% else %}
+  <h3 class="mb-8 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">
+    {% if current_lang == "en" %}Recent Articles{% else %}Artigos recentes{% endif %}
+  </h3>
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+    {% for post in site.related_posts limit:3 %}
+      {% include end-of-post-articles-cards.html %}
+    {% endfor %}
+  </div>
+{% endif %}

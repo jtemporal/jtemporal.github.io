@@ -1,0 +1,11 @@
+_site/
+stitch_bilingual_blog_post_page_v1/
+node_modules/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache
+.env
+.vscode
+Gemfile.lock
+vendor/
+.bundle/

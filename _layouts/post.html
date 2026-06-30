@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+{% include language-detection.html %}
+
+<div class="site-container py-12">
+  <nav aria-label="Breadcrumb" class="mb-8 flex flex-wrap items-center gap-2 font-label text-sm text-on-surface-variant dark:text-inverse-on-surface/70">
+    <a class="transition-colors hover:text-primary" href="{{ '/' | relative_url }}">Home</a>
+    <span class="material-symbols-outlined text-sm">chevron_right</span>
+    <a class="transition-colors hover:text-primary" href="{{ site.languages[current_lang].url | relative_url }}">
+      {% if current_lang == "en" %}Blog{% else %}Blog{% endif %}
+    </a>
+    {% if page.series %}
+      <span class="material-symbols-outlined text-sm">chevron_right</span>
+      {% if current_lang == "en" %}
+        <a class="transition-colors hover:text-primary" href="/series/{{ page.series | slugify }}/">{{ page.series }}</a>
+      {% else %}
+        <a class="transition-colors hover:text-primary" href="/series-pt/{{ page.series | slugify }}/">{{ page.series }}</a>
+      {% endif %}
+    {% endif %}
+    <span class="material-symbols-outlined text-sm">chevron_right</span>
+    <span class="truncate font-medium text-on-surface dark:text-inverse-on-surface">{{ page.title }}</span>
+  </nav>
+
+  <div class="grid grid-cols-1 gap-12 lg:grid-cols-12">
+    <article class="lg:col-span-8" itemscope itemtype="http://schema.org/BlogPosting">
+      {% if page.type == "video" %}
+        <div class="mb-8 overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy dark:border-outline dark:bg-inverse-surface">
+          {% include post-tag-banner.html post=page %}
+        </div>
+      {% endif %}
+
+      <header class="mb-10">
+        <h1 class="font-display text-display-lg-mobile md:text-display-lg leading-tight text-on-surface dark:text-inverse-on-surface" itemprop="name headline">{{ page.title }}</h1>
+        {% if page.subtitle %}
+          <p class="mt-4 font-display text-headline-sm text-on-surface-variant dark:text-inverse-on-surface/80">{{ page.subtitle }}</p>
+        {% endif %}
+        <div class="mt-6 flex flex-wrap items-center gap-4 font-label text-sm text-on-surface-variant dark:text-inverse-on-surface/70">
+          <span class="flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-base">calendar_today</span>
+            {% if page.last_modified_at %}
+              <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="datePublished">Updated on: {{ page.last_modified_at | date: "%b %-d, %Y" }}</time>
+            {% else %}
+              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+            {% endif %}
+          </span>
+          {% if page.author %}
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">{{ page.author }}</span>
+            </span>
+          {% endif %}
+          {% if site.reading_time %}
+            <span class="flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-base">timer</span>
+              {% include read-time.html %}
+            </span>
+          {% endif %}
+        </div>
+      </header>
+
+      <div class="prose-ink dark:prose-invert" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+      {% if page.type != "talk" %}
+        {% include signature.html %}
+        {% if page.bookbanner or post.bookbanner %}
+          {% include book-buy-banner.html %}
+        {% endif %}
+      {% endif %}
+
+      <section class="mt-16 border-t border-outline-variant pt-12 dark:border-outline">
+        {% include end-of-post-articles.html %}
+      </section>
+
+      <nav class="mt-10 flex flex-wrap justify-between gap-4 border-t border-outline-variant pt-8 dark:border-outline">
+        {% if page.next.url %}
+          <a class="font-label text-sm text-primary transition-colors hover:underline" href="{{ page.next.url | prepend: site.url }}">&laquo; {{ page.next.title }}</a>
+        {% endif %}
+        {% if page.previous.url %}
+          <a class="ml-auto font-label text-sm text-primary transition-colors hover:underline" href="{{ page.previous.url | prepend: site.url }}">{{ page.previous.title }} &raquo;</a>
+        {% endif %}
+      </nav>
+    </article>
+
+    {% include sidebar.html %}
+  </div>
+</div>

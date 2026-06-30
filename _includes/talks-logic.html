@@ -1,0 +1,74 @@
+{% include language-detection.html %}
+
+<div class="not-prose">
+<section class="mb-12">
+  <div class="inline-block bg-on-surface px-3 py-1 font-label text-label-sm uppercase tracking-widest text-on-primary dark:bg-inverse-on-surface dark:text-inverse-surface">
+    {% if current_lang == "en" %}Curated audio &amp; stage{% elsif current_lang == "fr" %}Audio et scène{% else %}Áudio e palco{% endif %}
+  </div>
+  <h1 class="mt-6 font-display text-display-lg-mobile md:text-display-lg text-on-surface dark:text-inverse-on-surface">
+    {% if current_lang == "en" %}Talks &amp; podcasts{% elsif current_lang == "fr" %}Conférences &amp; podcasts{% else %}Palestras &amp; podcasts{% endif %}
+  </h1>
+  <p class="mt-4 max-w-xl font-sans text-body-lg text-on-surface-variant dark:text-inverse-on-surface/80">
+    {% if current_lang == "en" %}
+      Talks, podcasts, and streams about open source, data science, git, and more.
+    {% elsif current_lang == "fr" %}
+      Conférences, podcasts et streams sur l'open source, la science des données, git et plus.
+    {% else %}
+      Palestras, podcasts e lives sobre open source, ciência de dados, git e mais.
+    {% endif %}
+  </p>
+</section>
+
+<div class="divide-y divide-outline-variant dark:divide-outline">
+  {% for post in site.posts %}
+    {% if post.type == "talk" %}
+      <div class="group flex flex-col gap-4 py-8 md:flex-row md:items-center">
+        <div class="w-full font-label text-label-md uppercase tracking-wider text-primary md:w-32">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </div>
+        <div class="flex-1">
+          {% assign talk_label = "talk" %}
+          {% assign post_title_downcase = post.title | downcase %}
+          {% assign post_description_downcase = post.description | default: "" | downcase %}
+          {% assign post_image = post.image | default: "" | downcase %}
+          {% if post_title_downcase contains "live stream" or post_title_downcase contains "[live stream]" or post_title_downcase contains " live " or post_description_downcase contains "live stream" or post_description_downcase contains "live no" %}
+            {% assign talk_label = "live" %}
+          {% elsif post_description_downcase contains "interview" or post_title_downcase contains "interview" %}
+            {% assign talk_label = "interview" %}
+          {% elsif post_image contains "podcast" or post_title_downcase contains "podcast" or post_title_downcase contains "braincast" or post_title_downcase contains "fechatag" or post_title_downcase contains "esquenta" or post_title_downcase contains "universo python" %}
+            {% assign talk_label = "podcast" %}
+          {% elsif post_image contains "tutorial" or post_title_downcase contains "tutorial" %}
+            {% assign talk_label = "tutorial" %}
+          {% elsif post_title_downcase contains "workshop" or post_description_downcase contains "workshop" %}
+            {% assign talk_label = "workshop" %}
+          {% endif %}
+          <span class="mb-1 block font-label text-label-sm uppercase tracking-wider text-on-surface-variant">
+            {% if talk_label == "live" %}
+              {% if current_lang == "en" %}Live stream{% elsif current_lang == "fr" %}Stream en direct{% else %}Live{% endif %}
+            {% elsif talk_label == "interview" %}
+              {% if current_lang == "en" %}Interview{% elsif current_lang == "fr" %}Interview{% else %}Entrevista{% endif %}
+            {% elsif talk_label == "podcast" %}
+              Podcast
+            {% elsif talk_label == "tutorial" %}
+              {% if current_lang == "en" %}Tutorial{% elsif current_lang == "fr" %}Tutoriel{% else %}Tutorial{% endif %}
+            {% elsif talk_label == "workshop" %}
+              Workshop
+            {% else %}
+              {% if current_lang == "en" %}Talk{% elsif current_lang == "fr" %}Conférence{% else %}Palestra{% endif %}
+            {% endif %}
+          </span>
+          <h2 class="font-display text-headline-sm transition-colors group-hover:text-primary dark:text-inverse-on-surface">
+            <a class="no-underline hover:underline" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          {% if post.description %}
+            <p class="mt-2 font-sans text-body-md text-on-surface-variant dark:text-inverse-on-surface/70">{{ post.description }}</p>
+          {% endif %}
+        </div>
+        <a class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-outline-variant text-on-surface-variant no-underline transition-all hover:border-primary hover:bg-primary hover:text-on-primary dark:border-outline dark:text-inverse-on-surface" href="{{ post.url | relative_url }}" aria-label="View talk">
+          <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+</div>

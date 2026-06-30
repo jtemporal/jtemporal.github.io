@@ -1,0 +1,32 @@
+{% if page.chapters %}
+<section class="mt-section-gap-lg font-sans">
+  <h2 class="mb-4 border-b border-secondary-fixed pb-4 font-display text-headline-md text-on-surface dark:text-inverse-on-surface">
+    {{ page.chapters_heading | default: "Chapters & Core Concepts" }}
+  </h2>
+  <div class="mt-8 grid grid-cols-1 gap-gutter md:grid-cols-3">
+    {% for chapter in page.chapters %}
+    <div class="group cursor-default border border-secondary-fixed p-8 transition-colors hover:border-primary dark:border-outline">
+      <span class="font-sans text-label-sm font-semibold uppercase tracking-wide text-primary">{{ chapter.number }}</span>
+      <h3 class="mt-2 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ chapter.title }}</h3>
+      <p class="mt-4 font-sans text-body-md text-secondary dark:text-inverse-on-surface/70">{{ chapter.description }}</p>
+      <div class="mt-8 h-1 w-0 bg-primary transition-all duration-500 group-hover:w-full"></div>
+    </div>
+    {% endfor %}
+    {% if page.bonus_chapter %}
+    <div class="flex flex-col justify-between border border-secondary-fixed bg-on-background p-8 text-on-primary dark:border-outline">
+      <div>
+        <span class="font-sans text-label-sm font-semibold uppercase tracking-wide text-tertiary-fixed">{{ page.bonus_chapter.label }}</span>
+        <h3 class="mt-2 font-display text-headline-sm">{{ page.bonus_chapter.title }}</h3>
+      </div>
+      <p class="mt-4 font-sans text-body-md text-secondary-fixed-dim">{{ page.bonus_chapter.description }}</p>
+      {% if page.bonus_chapter.url %}
+      <a class="mt-8 flex items-center gap-2 font-sans text-label-md font-medium uppercase tracking-wide text-tertiary-fixed no-underline transition-colors hover:text-tertiary-fixed-dim" href="{{ page.bonus_chapter.url }}">
+        {{ page.bonus_chapter.link_text | default: "Learn more" }}
+        <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_right_alt</span>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

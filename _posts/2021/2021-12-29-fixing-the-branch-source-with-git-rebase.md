@@ -1,0 +1,94 @@
+---
+author_note: true
+author_note_text: This blog post was adapted for English by Debora Azevedo.
+author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
+bookbanner: true
+comments: true
+date: 2021-12-29 12:40:00-02:00
+description: Understand how to use git rebase para to fix the brach source
+image: /images/covers/pro_tip.webp
+lang: en
+layout: post
+series: "Git Pro Tips"
+series_order: 3
+posts_list:
+- solving-conflicts
+- introducing-gitfichas
+- updating-a-branch-with-git-rebase
+related: true
+tags:
+- git
+- english
+- protip
+title: Fixing the branch source with git rebase
+translations:
+- lang: pt
+  url: /corrigindo-a-origem-de-um-branch-com-git-rebase
+type: post
+---
+
+The command `git rebase` can be used to make various history adjustments, from rewriting the commit tree (and by doing that rewriting the history) to even pushing commits forward as if the branch were created in the future.
+
+In this pro tip I will show you how to use git rebase to fix the source of a given branch.
+
+## Creating a branch from an incorrect branch
+
+Suppose you have two tasks to do in the next few weeks and you want to work on each task in a different branch.
+
+So to work on task #1 you create a branch with that name from `main`.
+
+![image showing the result of creating the branch task-1](/images/git-rebase-ajustar-origem/git-checkout-fig1.webp)
+
+Let's say that during your implementation you got tired of messing with that problem and decided that it would be a good idea to change the context for a bit and start working on task 2.
+
+For that you need to create a new branch also from `main`, however, without realizing it you ended up creating your branch from branch `task-1`:
+
+![image showing the result of creating the branch task-2 from task-1](/images/git-rebase-ajustar-origem/git-switch-fig2.webp)
+
+And then, you started working and only realized the mistake later. After you commit to `task-2` your history looks something like this:
+
+![drawing showing that the branch task-2 depends on the branch task-1](/images/git-rebase-ajustar-origem/rebase-fixing-source-fig3.webp)
+
+If you look at your history graph you'll see that it shows that the most recent commit (`1078aa`) on the branch `task-2` depends on the commit made on the branch `task-1` (`a7f89a`):
+
+![image showing the result of command git log --graph on branch tarefa-2 showing the history dependant of the branch tarefa-1](/images/git-rebase-ajustar-origem/git-log-graph-worng-branch-fig4.webp)
+
+So we need to fix this.
+
+## Fixing the branch source
+
+With this mistake in hand and since the implementations of each task are independent of each other you want to make this correction.
+
+For this you must use `git rebase` followed by the flag `--onto` and the name **of the three branches**, the full command looks like this:
+
+```console
+git rebase --onto main task-1 task-2
+```
+
+The result should look similar to the image below:
+
+![image showing the result of the command git rebase --onto main tarefa-1 task-2](/images/git-rebase-ajustar-origem/git-rebase-onto-main-task1-task2-fig5.webp)
+
+Now, having run the above command, your history becomes what it should have been from the beginning:
+
+![drawing showing the branch task-2 as dependant of the branch main](/images/git-rebase-ajustar-origem/rebase-fixed-source-fig6.webp)
+
+And if you check the history graph again, you'll see that we only see the commits from task 2 in the corresponding branch:
+
+![image showing the result of the command git log --graph showing the branch task-2 with the correct history](/images/git-rebase-ajustar-origem/git-log-graph-correct-branch-fig7.webp)
+
+Three important things to notice:
+
+1. First, it is always necessary to give the names of the three branches involved to avoid missing commits;
+1. Second, now branch `task-2` has its source in the branch `main`;
+1. And third, the hash of the commit on the branch `task-2` is no longer `1078aa` but `b25a97` since the commit has changed.
+
+With that now you know how to change or fix the source of a branch, if you want more details about the command `git rebase`, I recommend [reading the command's documentation](https://git-scm.com/docs/git-rebase).
+
+Below you can see a card that can help you remember the command `git rebase --onto`:
+
+{% assign ficha_url = "https://gitfichas.com/en/028?utm_source=blog" %}
+{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878599/gitfichas/en/028/full_thuxcg.jpg" %}
+{% assign ficha_title = "GitFicha #028" %}
+{% assign ficha_description = "git rebase --onto" %}
+{% include ficha.html %}

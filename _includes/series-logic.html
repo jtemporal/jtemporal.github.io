@@ -1,0 +1,75 @@
+{% include language-detection.html %}
+
+<div class="not-prose">
+<section class="mb-12">
+  <div class="inline-block bg-on-surface px-3 py-1 font-label text-label-sm uppercase tracking-widest text-on-primary dark:bg-inverse-on-surface dark:text-inverse-surface">
+    {% if current_lang == "en" %}Collection{% elsif current_lang == "fr" %}Collection{% else %}Coleção{% endif %}
+  </div>
+  <h1 class="mt-6 font-display text-display-lg-mobile md:text-display-lg text-on-surface dark:text-inverse-on-surface">
+    {% if current_lang == "en" %}All Series{% elsif current_lang == "fr" %}Toutes les séries{% else %}Todas as Séries{% endif %}
+  </h1>
+  <p class="mt-4 max-w-xl font-sans text-body-lg text-on-surface-variant dark:text-inverse-on-surface/80">
+    {% if current_lang == "en" %}
+      Multi-part deep dives on git, open source, AI, and more — read in order or jump to what you need.
+    {% elsif current_lang == "fr" %}
+      Séries approfondies sur git, l'open source, l'IA et plus — lisez dans l'ordre ou allez directement à ce dont vous avez besoin.
+    {% else %}
+      Séries em várias partes sobre git, open source, IA e mais — leia em ordem ou vá direto ao que precisa.
+    {% endif %}
+  </p>
+</section>
+
+{% if current_lang == "en" %}
+  {% assign all_series = site.posts | where: "lang", "en" | map: "series" | compact | uniq | sort %}
+  {% assign series_base = "/series" %}
+{% else %}
+  {% assign all_series = site.posts | where: "lang", "pt" | map: "series" | compact | uniq | sort %}
+  {% assign series_base = "/series-pt" %}
+{% endif %}
+
+{% if all_series.size > 0 %}
+  <div class="space-y-8">
+    {% for series in all_series %}
+      {% if current_lang == "en" %}
+        {% assign series_posts = site.posts | where: "series", series | where: "lang", "en" | sort: "series_order" %}
+      {% else %}
+        {% assign series_posts = site.posts | where: "series", series | where: "lang", "pt" | sort: "series_order" %}
+      {% endif %}
+      {% assign series_description = "" %}
+      {% for desc in site.data.localization.series_descriptions %}
+        {% if current_lang == "en" and desc.en == series %}
+          {% assign series_description = desc.description %}
+          {% break %}
+        {% elsif current_lang != "en" and desc.pt == series %}
+          {% assign series_description = desc.description %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      <article class="group overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy transition-all duration-500 hover:-translate-y-1 hover:shadow-xl dark:border-outline dark:bg-inverse-surface">
+        <a class="block p-6 no-underline" href="{{ series_base }}/{{ series | slugify }}/">
+          <h3 class="font-display text-headline-sm text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
+            {{ series }}
+          </h3>
+          <p class="mt-2 font-label text-label-sm uppercase tracking-wider text-on-surface-variant">
+            {% if current_lang == "en" %}{{ series_posts.size }} posts in this series{% else %}{{ series_posts.size }} posts nesta série{% endif %}
+          </p>
+          {% if series_description != "" %}
+            <p class="mt-3 text-on-surface-variant dark:text-inverse-on-surface/80">{{ series_description }}</p>
+          {% elsif series_posts.first.description %}
+            <p class="mt-3 text-on-surface-variant dark:text-inverse-on-surface/80">{{ series_posts.first.description }}</p>
+          {% else %}
+            <p class="mt-3 text-on-surface-variant dark:text-inverse-on-surface/80">{{ series_posts.first.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+          {% endif %}
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  {% if current_lang == "en" %}
+    <p>No series found.</p>
+  {% else %}
+    <p>Nenhuma série encontrada.</p>
+  {% endif %}
+{% endif %}
+</div>

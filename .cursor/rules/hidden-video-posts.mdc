@@ -1,0 +1,18 @@
+---
+description: Hidden YouTube short posts — worktrees, local preview, no push until approved
+globs:
+  - _posts/**/*-short.md
+  - AGENTS.md
+alwaysApply: false
+---
+
+# Hidden video posts
+
+When creating or editing hidden YouTube short transcript posts, follow `AGENTS.md` in the repo root.
+
+Key rules:
+- One git worktree per post (`hidden-post-<slug>` branch)
+- Preview with `RBENV_VERSION=3.4.1 bundle exec jekyll serve --config _dev_config.yml --future`
+- Do not commit until the author approves the preview
+- Do not push or open a PR until explicitly asked
+- PRs: `gh pr create --repo jtemporal/jtemporal.github.io`

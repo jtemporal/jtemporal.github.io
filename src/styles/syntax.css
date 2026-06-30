@@ -1,0 +1,190 @@
+/* Rouge syntax highlighting — Ethereal Ink light/dark surfaces */
+
+.highlight {
+  @apply relative my-6 overflow-hidden rounded-xl border border-outline-variant bg-surface-container-low;
+}
+
+.dark .highlight {
+  @apply border-outline bg-[#1e1e1e];
+}
+
+.highlight pre {
+  @apply overflow-x-auto;
+}
+
+.highlight pre {
+  @apply m-0 bg-transparent p-5 font-mono text-sm leading-relaxed text-on-surface;
+}
+
+.highlight pre code {
+  @apply bg-transparent p-0 font-mono text-inherit;
+}
+
+/* Beat Tailwind Typography prose pre color (#e5e7eb) inside article bodies */
+.prose-ink .highlight pre {
+  margin: 0;
+  padding: 1.25rem;
+  background-color: transparent;
+  color: #1b1c1c;
+}
+
+/* Light mode: ink-on-paper palette */
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs {
+  color: #5b3f43;
+}
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt,
+.highlight .nb,
+.highlight .no,
+.highlight .nt,
+.highlight .ow,
+.highlight .bp {
+  color: #006769;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .ss {
+  color: #900038;
+}
+
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il {
+  color: #474746;
+}
+
+.highlight .na,
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #b80049;
+}
+
+.highlight .nf,
+.highlight .nc,
+.highlight .ne,
+.highlight .nn {
+  color: #1b1c1c;
+}
+
+.highlight .o,
+.highlight .p,
+.highlight .w,
+.highlight .gp,
+.highlight .ni {
+  color: #1b1c1c;
+}
+
+/* Dark mode: VS Code Dark+ on inverse surface */
+.dark .highlight .c,
+.dark .highlight .cm,
+.dark .highlight .c1,
+.dark .highlight .cs {
+  color: #6a9955;
+}
+
+.dark .highlight .k,
+.dark .highlight .kc,
+.dark .highlight .kd,
+.dark .highlight .kp,
+.dark .highlight .kr,
+.dark .highlight .nb,
+.dark .highlight .no,
+.dark .highlight .nt,
+.dark .highlight .ow,
+.dark .highlight .bp {
+  color: #569cd6;
+}
+
+.dark .highlight .kt,
+.dark .highlight .nc,
+.dark .highlight .ne,
+.dark .highlight .nn {
+  color: #4ec9b0;
+}
+
+.dark .highlight .s,
+.dark .highlight .s1,
+.dark .highlight .s2,
+.dark .highlight .sb,
+.dark .highlight .sc,
+.dark .highlight .sd,
+.dark .highlight .sh,
+.dark .highlight .si,
+.dark .highlight .sx,
+.dark .highlight .ss {
+  color: #ce9178;
+}
+
+.dark .highlight .m,
+.dark .highlight .mf,
+.dark .highlight .mh,
+.dark .highlight .mi,
+.dark .highlight .mo,
+.dark .highlight .il {
+  color: #b5cea8;
+}
+
+.dark .highlight .na,
+.dark .highlight .nv,
+.dark .highlight .vc,
+.dark .highlight .vg,
+.dark .highlight .vi {
+  color: #9cdcfe;
+}
+
+.dark .highlight .nf {
+  color: #dcdcaa;
+}
+
+.dark .highlight .o,
+.dark .highlight .p,
+.dark .highlight .w,
+.dark .highlight .gp,
+.dark .highlight .ni {
+  color: #d4d4d4;
+}
+
+.dark .highlight pre {
+  color: #d4d4d4;
+}
+
+/* Inline code */
+:not(.highlight) > code,
+.prose :not(pre) > code {
+  @apply rounded bg-surface-container px-1.5 py-0.5 font-mono text-sm text-primary;
+}
+
+.dark :not(.highlight) > code,
+.dark .prose :not(pre) > code {
+  @apply bg-inverse-surface text-inverse-primary;
+}
+
+/* Non-highlighted pre blocks */
+pre:not(.highlight):not(.mermaid) {
+  @apply my-6 overflow-x-auto rounded-xl border border-outline-variant bg-surface-container-low p-5 text-sm;
+}
+
+.dark pre:not(.highlight):not(.mermaid) {
+  @apply border-outline bg-[#1e1e1e] text-inverse-on-surface;
+}

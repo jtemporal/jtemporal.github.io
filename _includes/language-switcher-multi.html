@@ -1,0 +1,45 @@
+{% comment %}
+  Ethereal Ink language switcher — preserves existing translation logic.
+{% endcomment %}
+
+<div class="relative">
+  <button id="lang-menu-toggle" type="button" class="flex items-center gap-1 rounded-full bg-surface-container px-3 py-1.5 font-label text-sm font-medium text-on-surface transition-colors hover:bg-surface-container-high dark:bg-inverse-surface dark:text-inverse-on-surface dark:hover:bg-outline-variant">
+    <span class="material-symbols-outlined text-lg">language</span>
+    <span>{{ current_lang_config.flag }} {{ current_lang_config.code | upcase }}</span>
+    <span class="material-symbols-outlined text-sm">expand_more</span>
+  </button>
+
+  <div id="lang-menu" class="absolute right-0 z-50 mt-2 hidden min-w-[12rem] overflow-hidden rounded-xl border border-outline-variant bg-surface-container-lowest shadow-lg dark:border-outline dark:bg-inverse-surface">
+    <div class="border-b border-outline-variant px-4 py-3 dark:border-outline">
+      <span class="font-label text-label-sm uppercase tracking-wider text-on-surface-variant">{{ current_lang_config.flag }} {{ current_lang_config.name }}</span>
+    </div>
+    <ul class="py-1">
+      {% for lang_pair in available_languages %}
+        {% assign alt_lang_code = lang_pair[0] %}
+        {% assign alt_lang_config = lang_pair[1] %}
+        {% if alt_lang_code != current_lang %}
+          {% assign translation_url = nil %}
+          {% if page.translations %}
+            {% for translation in page.translations %}
+              {% if translation.lang == alt_lang_code %}
+                {% assign translation_url = translation.url %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if translation_url == nil %}
+            {% assign translation_url = alt_lang_config.url %}
+          {% endif %}
+          <li>
+            <a class="block px-4 py-2 font-label text-sm text-on-surface transition-colors hover:bg-surface-container hover:text-primary dark:text-inverse-on-surface dark:hover:bg-outline-variant dark:hover:text-inverse-primary"
+               href="{{ site.url }}{{ site.baseurl }}{{ translation_url }}"
+               title="Switch to {{ alt_lang_config.name }}"
+               hreflang="{{ alt_lang_config.locale }}">
+              {{ alt_lang_config.flag }} {{ alt_lang_config.name }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

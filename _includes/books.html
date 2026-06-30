@@ -1,0 +1,49 @@
+{% assign grouped = site.books | group_by: "book_language" %}
+{% for group in grouped %}
+{% if group.name == page.lang %}
+<div class="space-y-12">
+{% for item in group.items %}
+<article class="overflow-hidden rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 shadow-cozy dark:border-outline dark:bg-inverse-surface lg:p-12">
+<div class="grid grid-cols-1 items-start gap-12 lg:grid-cols-12">
+<div class="flex justify-center lg:col-span-5 lg:justify-start">
+<div class="relative group">
+<div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary to-primary-fixed-dim opacity-10 blur transition duration-500 group-hover:opacity-20"></div>
+<a href="{{ item.permalink | relative_url }}" class="relative block rounded-2xl border border-outline-variant bg-surface-container-lowest p-3 shadow-lg dark:border-outline dark:bg-inverse-surface">
+<img class="w-full max-w-[400px] rounded-xl" src="{{ item.book_cover_ipad | relative_url }}" alt="{{ item.book_cover_ipad_alt }}">
+</a>
+</div>
+</div>
+<div class="flex flex-col gap-8 lg:col-span-7">
+<div>
+<span class="inline-block rounded bg-on-surface px-3 py-1 font-sans text-label-sm font-semibold uppercase tracking-wider text-on-primary dark:bg-inverse-on-surface dark:text-inverse-surface">{% if page.lang == 'pt' %}Disponível agora{% else %}Available now{% endif %}</span>
+<h2 class="mt-4 font-display text-display-lg-mobile leading-tight text-on-surface dark:text-inverse-on-surface md:text-headline-md">
+<a class="no-underline transition-colors hover:text-primary" href="{{ item.permalink | relative_url }}">{{ item.title }}</a>
+</h2>
+<p class="mt-3 font-sans text-xl font-bold text-primary md:text-2xl">{{ item.description }}</p>
+</div>
+{% include book-description.html description=item.book_description %}
+<div class="not-prose flex flex-wrap items-center gap-4 border-t border-outline-variant pt-8 dark:border-outline">
+{% if item.gumroad %}
+<a class="btn-buy-primary no-underline" href="{{ item.gumroad }}">
+<span class="material-symbols-outlined text-xl">shopping_cart</span>
+<span>{{ item.purchase_button }} Gumroad</span>
+</a>
+{% endif %}
+{% if item.amazon %}
+<a class="btn-buy-outline no-underline" href="{{ item.amazon }}">
+<span class="material-symbols-outlined text-xl">shopping_bag</span>
+<span>{{ item.purchase_button }} Amazon</span>
+</a>
+{% endif %}
+<a class="btn-buy-outline no-underline" href="{{ item.permalink | relative_url }}">
+<span class="material-symbols-outlined text-xl">menu_book</span>
+<span>{{ item.know_more_button }}</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+{% endfor %}
+</div>
+{% endif %}
+{% endfor %}

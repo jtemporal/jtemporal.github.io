@@ -1,0 +1,61 @@
+{% include post-tags-logic.html post=include.post %}
+{% assign post_item = include.post %}
+{% assign card_icon = 'article' %}
+{% assign card_line = 'bg-secondary' %}
+{% assign card_text = 'text-secondary' %}
+{% assign card_bg = 'bg-surface-container' %}
+
+{% if tag_key contains 'hacktoberfest' %}
+  {% assign card_icon = 'code' %}
+  {% assign card_line = 'bg-accent' %}
+  {% assign card_text = 'text-accent' %}
+  {% assign card_bg = 'bg-teal-50/40 dark:bg-teal-900/10' %}
+{% elsif tag_key contains 'preptember' %}
+  {% assign card_icon = 'calendar_month' %}
+  {% assign card_line = 'bg-indigo-500' %}
+  {% assign card_text = 'text-indigo-600 dark:text-indigo-400' %}
+  {% assign card_bg = 'bg-indigo-50/40 dark:bg-indigo-900/10' %}
+{% elsif tag_key == 'pro_tip' or tag_key contains 'colinha' or tag_key contains 'tutorial' or tag_key contains 'git' %}
+  {% assign card_icon = 'school' %}
+  {% assign card_line = 'bg-primary' %}
+  {% assign card_text = 'text-primary' %}
+  {% assign card_bg = 'bg-pink-50/40 dark:bg-pink-900/10' %}
+{% elsif tag_key contains 'miscellaneous' or tag_key contains 'variados' %}
+  {% assign card_icon = 'tips_and_updates' %}
+  {% assign card_line = 'bg-secondary' %}
+  {% assign card_text = 'text-secondary' %}
+  {% assign card_bg = 'bg-teal-50/40 dark:bg-teal-900/10' %}
+{% elsif tag_key contains 'open' or tag_key contains 'source' %}
+  {% assign card_icon = 'public' %}
+  {% assign card_line = 'bg-secondary' %}
+  {% assign card_text = 'text-secondary' %}
+  {% assign card_bg = 'bg-surface-container dark:bg-inverse-surface/50' %}
+{% elsif tag_key contains 'mcp' or tag_key == 'ai' or tag_key == 'ia' or tag_key contains 'agents' %}
+  {% assign card_icon = 'tips_and_updates' %}
+  {% assign card_line = 'bg-secondary' %}
+  {% assign card_text = 'text-secondary' %}
+  {% assign card_bg = 'bg-surface-container-high dark:bg-inverse-surface/50' %}
+{% elsif tag_key contains 'career' or tag_key contains 'carreira' %}
+  {% assign card_icon = 'work' %}
+  {% assign card_line = 'bg-tertiary' %}
+  {% assign card_text = 'text-tertiary' %}
+  {% assign card_bg = 'bg-teal-50/30 dark:bg-teal-900/10' %}
+{% else %}
+  {% assign card_icon = 'menu_book' %}
+  {% assign card_line = 'bg-outline' %}
+  {% assign card_text = 'text-on-surface-variant' %}
+  {% assign card_bg = 'bg-surface-container-low dark:bg-inverse-surface/40' %}
+{% endif %}
+
+<div class="card-banner {{ card_bg }} relative flex aspect-[16/9] items-center justify-center overflow-hidden p-8">
+  <div class="absolute inset-0 flex items-center justify-center opacity-10">
+    <span class="material-symbols-outlined text-[120px]">{{ card_icon }}</span>
+  </div>
+  <div class="relative z-10 text-center">
+    <div class="flex items-center justify-center space-x-2 {{ card_text }}">
+      <div class="h-px w-8 {{ card_line }}"></div>
+      <span class="font-sans text-sm font-bold uppercase tracking-widest">{{ tag_label | replace: "_", " " }}</span>
+      <div class="h-px w-8 {{ card_line }}"></div>
+    </div>
+  </div>
+</div>

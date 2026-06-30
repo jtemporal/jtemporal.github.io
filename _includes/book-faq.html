@@ -1,0 +1,18 @@
+{% if page.faq %}
+<section class="mt-section-gap-lg max-w-3xl font-sans">
+  <h2 class="mb-4 font-display text-headline-md text-on-surface dark:text-inverse-on-surface">
+    {{ page.faq_heading | default: "Frequently Asked Questions" }}
+  </h2>
+  <div class="mt-8 flex flex-col gap-gutter">
+    {% for item in page.faq %}
+    <div class="border-b border-secondary-fixed pb-8 dark:border-outline">
+      {% if item.label %}
+      <h4 class="mb-2 font-sans text-label-md font-medium uppercase tracking-wide text-primary">{{ item.label }}</h4>
+      {% endif %}
+      <p class="font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ item.question }}</p>
+      <p class="mt-4 font-sans text-body-md text-secondary dark:text-inverse-on-surface/70">{{ item.answer }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

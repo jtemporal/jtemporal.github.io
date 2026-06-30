@@ -1,0 +1,32 @@
+{% include language-detection.html %}
+{% assign series_posts = site.posts | where: "series", page.series | where: "lang", page.lang | sort: "series_order" %}
+{% if series_posts.size > 1 %}
+  <div class="rounded-2xl border border-outline-variant bg-surface-container-low p-6 dark:border-outline dark:bg-inverse-surface">
+    <div class="mb-6 flex items-center gap-3">
+      <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-on-primary">
+        <span class="material-symbols-outlined">library_books</span>
+      </div>
+      <div>
+        <h3 class="font-display font-bold text-on-surface dark:text-inverse-on-surface">{% if current_lang == "en" %}Series{% else %}Série{% endif %}</h3>
+        <p class="font-label text-label-sm uppercase tracking-wider text-primary">{{ page.series }}</p>
+      </div>
+    </div>
+    <ul class="space-y-4">
+      {% for post in series_posts %}
+        <li class="flex gap-3">
+          <span class="mt-1 font-mono text-xs {% if post.url == page.url %}text-primary font-bold{% else %}text-on-surface-variant{% endif %}">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          {% if post.url == page.url %}
+            <span class="text-sm font-bold text-on-surface dark:text-inverse-on-surface">{{ post.title }}</span>
+          {% else %}
+            <a class="text-sm font-medium text-on-surface-variant transition-colors hover:text-primary dark:text-inverse-on-surface/80 dark:hover:text-inverse-primary" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% if current_lang == "en" %}
+      <a class="mt-6 block rounded-xl border border-outline-variant py-2 text-center font-label text-sm font-bold text-on-surface-variant transition-colors hover:border-primary hover:text-primary dark:border-outline dark:text-inverse-on-surface" href="/series/{{ page.series | slugify }}/">View all series</a>
+    {% else %}
+      <a class="mt-6 block rounded-xl border border-outline-variant py-2 text-center font-label text-sm font-bold text-on-surface-variant transition-colors hover:border-primary hover:text-primary dark:border-outline dark:text-inverse-on-surface" href="/series-pt/{{ page.series | slugify }}/">Ver todas as séries</a>
+    {% endif %}
+  </div>
+{% endif %}

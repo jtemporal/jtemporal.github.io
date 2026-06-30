@@ -1,0 +1,51 @@
+{% assign post_item = include.post %}
+{% assign banner_tag = "" %}
+{% assign topic_tag = "" %}
+
+{% for tag in post_item.tags %}
+  {% assign tag_key = tag | downcase | replace: " ", "_" %}
+  {% assign is_skipped = false %}
+  {% if tag_key == "english" or tag_key == "português" or tag_key == "portugues" or tag_key == "short" or tag_key == "en" or tag_key == "pt_br" or tag_key == "ptbr" %}
+    {% assign is_skipped = true %}
+  {% endif %}
+
+  {% unless is_skipped %}
+    {% assign is_category = false %}
+    {% if tag_key == "pro_tip" or tag_key == "tutorial" or tag_key == "hacktoberfest" or tag_key == "preptember" or tag_key == "colinha" or tag_key == "miscellaneous" or tag_key == "opensource" or tag_key == "personal" or tag_key == "pessoal" or tag_key == "variados" or tag_key == "career" or tag_key == "carreira" %}
+      {% assign is_category = true %}
+    {% endif %}
+
+    {% if is_category and banner_tag == "" %}
+      {% assign banner_tag = tag %}
+    {% elsif is_category == false and topic_tag == "" %}
+      {% assign topic_tag = tag %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+{% if banner_tag == "" and post_item.image != blank %}
+  {% assign image_key = post_item.image | downcase %}
+  {% if image_key contains "pro_tip" or image_key contains "pro-tip" %}
+    {% assign banner_tag = "pro_tip" %}
+  {% elsif image_key contains "miscellaneous" or image_key contains "variados" %}
+    {% assign banner_tag = "miscellaneous" %}
+  {% elsif image_key contains "tutorial" %}
+    {% assign banner_tag = "tutorial" %}
+  {% elsif image_key contains "colinha" %}
+    {% assign banner_tag = "colinha" %}
+  {% elsif image_key contains "hacktoberfest" %}
+    {% assign banner_tag = "hacktoberfest" %}
+  {% elsif image_key contains "preptember" %}
+    {% assign banner_tag = "preptember" %}
+  {% elsif image_key contains "opensource" %}
+    {% assign banner_tag = "opensource" %}
+  {% endif %}
+{% endif %}
+
+{% if banner_tag == "" %}
+  {% assign banner_tag = topic_tag | default: "Article" %}
+  {% assign topic_tag = "" %}
+{% endif %}
+
+{% assign tag_label = banner_tag %}
+{% assign tag_key = banner_tag | downcase | replace: " ", "_" %}
