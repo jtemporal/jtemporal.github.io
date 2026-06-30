@@ -155,18 +155,16 @@
     @apply prose-invert prose-headings:text-inverse-on-surface prose-strong:text-inverse-on-surface;
   }
 
-  /* Black-on-white signature GIF: knock out white bg, invert ink in dark mode */
-  .signature {
-    isolation: isolate;
-  }
-
-  .signature-gif {
-    mix-blend-mode: multiply;
-  }
-
-  .dark .signature-gif {
-    filter: invert(1);
-    mix-blend-mode: screen;
+  /* Animated signature: mask uses inverted GIF so ink picks up theme text colors */
+  .signature-ink {
+    -webkit-mask-image: url('https://res.cloudinary.com/jesstemporal/image/upload/e_negate,f_auto/v1640531276/jess-signature_nhb75h.gif');
+    mask-image: url('https://res.cloudinary.com/jesstemporal/image/upload/e_negate,f_auto/v1640531276/jess-signature_nhb75h.gif');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
   }
 }
 
