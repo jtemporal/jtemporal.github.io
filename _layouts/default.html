@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.default_language }}">
+<html lang="{{ page.lang | default: site.default_language | split: '_' | first }}">
   {% include head.html %}
 
   <body>
