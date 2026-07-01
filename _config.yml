@@ -69,8 +69,7 @@ languages:
 default_language: en
 
 # Tracker
-analytics: UA-89599031-1
-tagmanager: GTM-KKCR3VG
+ga4_id: G-6KD5ZDZ8NQ
 posthog: phc_TJ8wDQtZEO0sAotAYkJLOeQmEnDU3JByJXQL8hJGDdJ
 
 # Comments

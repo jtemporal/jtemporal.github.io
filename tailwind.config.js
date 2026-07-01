@@ -7,7 +7,6 @@ module.exports = {
     './*.html',
     './*.md',
     './_books/**/*.md',
-    './_posts/**/*.md',
     './assets/js/**/*.js',
   ],
   theme: {

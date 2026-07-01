@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.default_language }}">
+<html lang="{{ page.lang | default: site.default_language | split: '_' | first }}">
   {% include head.html %}
 
   <body>
@@ -15,8 +15,8 @@ layout: compress
 
     {% include footer.html %}
 
-    <script src="{{ '/js/copy-code.js' | relative_url }}"></script>
-    {% if site.analytics %}{% include analytics.html %}{% endif %}
+    {% if site.ga4_id %}{% include analytics.html %}{% endif %}
+    {% if site.posthog %}{% include posthog.html %}{% endif %}
 
     {% if page.mermaid %}
     <script type="module">

@@ -4,7 +4,7 @@ title: Setup 🇺🇸
 description: All things I use on a daily basis
 image: /images/logo.webp
 permalink: "/setup-us/"
-lang: en_US
+lang: en
 
 ---
 
