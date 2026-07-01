@@ -3,7 +3,7 @@
   command = "npm ci && bundle exec jekyll build"
 
 [build.environment]
-  RUBY_VERSION = "3.4.1"
+  RUBY_VERSION = "3.2.0"
   NODE_VERSION = "22"
 
 # Deploy from main branch to production

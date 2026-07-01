@@ -9,6 +9,9 @@ gem "jekyll-seo-tag", "2.7.0"
 # Pin sass-embedded to avoid build issues
 gem "sass-embedded", "~> 1.69.0"
 
+# Required when google-protobuf builds native extensions on CI
+gem "rake"
+
 # Required for Jekyll 4.x
 gem "webrick", "~> 1.7"
 

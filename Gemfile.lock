@@ -140,6 +140,7 @@ DEPENDENCIES
   jekyll-seo-tag (= 2.7.0)
   jekyll-sitemap
   logger
+  rake
   sass-embedded (~> 1.69.0)
   webrick (~> 1.7)
 
