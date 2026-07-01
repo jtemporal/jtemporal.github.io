@@ -1,22 +1,22 @@
 [build]
   publish = "_site"
-  command = "npm ci && npm run build:css && bundle exec jekyll build"
+  command = "npm ci && bundle exec jekyll build"
 
 [build.environment]
-  RUBY_VERSION = "3.2.0"
+  RUBY_VERSION = "3.4.1"
   NODE_VERSION = "22"
 
 # Deploy from main branch to production
 [context.production]
-  command = "npm ci && npm run build:css && bundle exec jekyll build"
+  command = "npm ci && bundle exec jekyll build"
 
 # Deploy previews for pull requests  
 [context.deploy-preview]
-  command = "npm ci && npm run build:css && bundle exec jekyll build --config _dev_config.yml"
+  command = "npm ci && bundle exec jekyll build --config _dev_config.yml"
 
 # Branch deploys (if you want to test other branches)
 [context.branch-deploy]
-  command = "npm ci && npm run build:css && bundle exec jekyll build --config _dev_config.yml"
+  command = "npm ci && bundle exec jekyll build --config _dev_config.yml"
 
 # Optimize caching for WebP images (90 days)
 [[headers]]
