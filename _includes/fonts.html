@@ -1,0 +1,15 @@
+{% assign needs_mono = false %}
+{% if page.layout == 'post' or page.layout == 'book' %}
+  {% assign needs_mono = true %}
+{% endif %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{% capture text_fonts_url %}https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700{% if needs_mono %}&family=JetBrains+Mono:wght@400;500{% endif %}&display=swap{% endcapture %}
+<link rel="stylesheet" href="{{ text_fonts_url }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ text_fonts_url }}"></noscript>
+
+{% comment %} icon_names must be alphabetically sorted; FILL axis for filled play_arrow {% endcomment %}
+{% capture icon_fonts_url %}https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@0..1&icon_names=alternate_email,arrow_forward,arrow_right_alt,article,calendar_month,calendar_today,chevron_right,cloud,code,dark_mode,expand_more,forum,hub,language,library_books,light_mode,live_tv,mail,menu,menu_book,music_note,play_arrow,play_circle,public,school,shopping_bag,shopping_cart,timer,tips_and_updates,work&display=block{% endcapture %}
+<link rel="stylesheet" href="{{ icon_fonts_url }}">
