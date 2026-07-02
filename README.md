@@ -182,7 +182,7 @@ See [LICENCE.md](LICENCE.md).
 ## Contact
 
 - **Website**: [jtemporal.com](https://jtemporal.com)
-- **Email**: hello@jtemporal.com
+- **Contact form**: [English](https://jesstemporal.notion.site/27252b5614cf4a3cb75df604432a912e) · [Português](https://jesstemporal.notion.site/3919dd3e5b6c80f0bbf8de4876374909)
 - **Twitter**: [@jesstemporal](https://twitter.com/jesstemporal)
 - **GitHub**: [@jtemporal](https://github.com/jtemporal)
 

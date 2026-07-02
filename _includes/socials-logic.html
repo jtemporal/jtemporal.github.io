@@ -10,4 +10,20 @@
       <span class="material-symbols-outlined text-primary opacity-0 transition-all group-hover:translate-x-2 group-hover:opacity-100">arrow_forward</span>
     </a>
   {% endfor %}
+  {% if site.contact_form %}
+    {% if current_lang == "en" %}
+      {% assign contact_form_url = site.contact_form.en %}
+      {% assign contact_form_name = "Contact form" %}
+    {% else %}
+      {% assign contact_form_url = site.contact_form.pt %}
+      {% assign contact_form_name = "Formulário de contato" %}
+    {% endif %}
+    <a class="group flex items-center justify-between py-6 no-underline transition-all duration-300 hover:pl-4" href="{{ contact_form_url }}" target="_blank" rel="noopener noreferrer">
+      <div class="flex items-center gap-6">
+        <span class="material-symbols-outlined text-3xl text-on-surface-variant transition-colors group-hover:text-primary dark:text-inverse-on-surface/70">mail</span>
+        <h3 class="font-display text-headline-sm text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">{{ contact_form_name }}</h3>
+      </div>
+      <span class="material-symbols-outlined text-primary opacity-0 transition-all group-hover:translate-x-2 group-hover:opacity-100">arrow_forward</span>
+    </a>
+  {% endif %}
 </div>

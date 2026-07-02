@@ -8,7 +8,9 @@
 # Site settings
 title: Jessica Temporal
 tagline: Posts about python, data science, git, open source and more 😉
-email: hello@jtemporal.com
+contact_form:
+  en: https://jesstemporal.notion.site/27252b5614cf4a3cb75df604432a912e
+  pt: https://jesstemporal.notion.site/3919dd3e5b6c80f0bbf8de4876374909
 description: > # this means to ignore newlines until "baseurl:"
   Sr. Dev Advocate 🥑 • 🎙 Podcaster @pizzadedados • Creator of @gitfichas • GitHub ⭐️ • cross stitch & knitter • 🇧🇷 & 🇨🇦 • she/her •
   Opinions are my own.
