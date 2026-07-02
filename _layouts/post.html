@@ -25,12 +25,6 @@ layout: default
 
   <div class="grid grid-cols-1 gap-12 lg:grid-cols-12">
     <article class="lg:col-span-8" itemscope itemtype="http://schema.org/BlogPosting">
-      {% if page.type == "video" %}
-        <div class="mb-8 overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy dark:border-outline dark:bg-inverse-surface">
-          {% include post-tag-banner.html post=page %}
-        </div>
-      {% endif %}
-
       <header class="mb-10">
         <h1 class="font-display text-display-lg-mobile md:text-display-lg leading-tight text-on-surface dark:text-inverse-on-surface" itemprop="name headline">{{ page.title }}</h1>
         {% if page.subtitle %}
