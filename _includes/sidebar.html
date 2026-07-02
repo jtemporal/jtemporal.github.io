@@ -1,5 +1,5 @@
 <aside class="space-y-8 lg:col-span-4">
-  {% if page.layout == "post" and page.type != "video" %}
+  {% if page.layout == "post" %}
     <div class="overflow-hidden rounded-2xl border bg-surface-container-lowest shadow-cozy dark:bg-inverse-surface {% if page.lang == 'pt' %}border-2 border-primary/25 dark:border-primary/40{% else %}border border-outline-variant dark:border-outline{% endif %}">
       {% include post-tag-banner.html post=page %}
     </div>

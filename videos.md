@@ -6,7 +6,7 @@ image: /images/logo.webp
 permalink: "/videos/"
 lang: en
 hide_header: true
-hide_sidebar_image: true
+hide_sidebar: true
 translations:
   - lang: pt
     url: "/videos"
