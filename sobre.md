@@ -27,6 +27,6 @@ Além disso, continuo contribuindo e mantendo projetos de código aberto no GitH
 
 ### Entre em contato
 
-Você pode falar comigo [pelo Telegram aqui](https://t.me/jtemporal) ou se preferir [me mandar um e-mail aqui](mailto:hello@jtemporal.com).
+Você pode [preencher meu formulário de contato aqui](https://jesstemporal.notion.site/3919dd3e5b6c80f0bbf8de4876374909).
 
 {% include signature.html %}

@@ -10,4 +10,4 @@ translations:
     url: "/digaoi"
 ---
 
-You can talk to min [via Telegram](https://t.me/jtemporal) or if you prefer [send me an e-mail](mailto:hello@jtemporal.com).
+You can [fill out my contact form](https://jesstemporal.notion.site/27252b5614cf4a3cb75df604432a912e).
