@@ -8,3 +8,14 @@ node_modules/
 .vscode
 vendor/
 .bundle/
+
+# OG card dev previews (generate locally; not shipped)
+og-preview.html
+og-templates/compare-background.html
+og-templates/compare.html
+og-templates/index.html
+images/og/examples/
+images/og/compare/
+scripts/generate_og_examples.mjs
+scripts/generate_og_compare.mjs
+scripts/generate_og_background_compare.mjs
