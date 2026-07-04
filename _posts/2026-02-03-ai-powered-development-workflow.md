@@ -15,6 +15,9 @@ tags:
 - github copilot
 - english
 title: "AI-powered software development flow: Lessons from shipping My Yarn Stash"
+translations:
+- lang: pt
+  url: /fluxo-de-desenvolvimento-de-software-com-ia-licoes-ao-lancar-my-yarn-stash
 author_note: false
 mermaid: true
 
