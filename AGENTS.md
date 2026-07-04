@@ -1,6 +1,6 @@
 # Agent instructions — jtemporal.github.io
 
-Canonical workflow for AI agents working in this repo. **Read this file first** for hidden YouTube short posts and git worktree conventions.
+Canonical workflow for AI agents working in this repo. **Read this file first** for hidden YouTube short posts, git worktree conventions, and OG social card generation.
 
 Also referenced from:
 - `CLAUDE.md` (Claude / Claude Code)
@@ -30,14 +30,14 @@ These posts syndicate video transcripts to Medium and/or [dev.to](https://dev.to
 One isolated worktree per post or feature. Never stack unrelated post work or feature on the same branch.
 
 ```bash
-# From the main repo checkout
+# From the main repo checkout (new-blog/)
 git fetch origin
-git worktree add ../jtemporal.github.io-hidden-post-<slug> -b hidden-post-<slug> origin/main
+git worktree add ../new-blog-hidden-post-<slug> -b hidden-post-<slug> origin/main
 ```
 
 | Item | Pattern | Example |
 |------|---------|---------|
-| Worktree path | `../jtemporal.github.io-hidden-post-<slug>` | `jtemporal.github.io-hidden-post-gitkeep` |
+| Worktree path | `../new-blog-hidden-post-<slug>` | `new-blog-hidden-post-gitkeep` |
 | Branch | `hidden-post-<slug>` | `hidden-post-gitkeep` |
 | Post file | `_posts/YYYY-MM-DD-<slug>-short.md` | `_posts/2026-06-25-gitkeep-track-empty-folders-short.md` |
 
@@ -47,12 +47,28 @@ Before pushing, rebase onto latest `main` if other PRs merged:
 git fetch origin && git rebase origin/main
 ```
 
-After a PR is merged, remove the worktree:
+After a PR is merged, clean up the worktree **from the main repo checkout** (`new-blog/` on `main`):
 
 ```bash
-git worktree remove ../jtemporal.github.io-hidden-post-<slug>
+# 1. Confirm the PR landed on main
+git fetch origin
+git log origin/main --oneline | head -5   # should show the merge commit
+
+# 2. Remove the worktree (add --force if it has uncommitted changes you no longer need)
+git worktree remove ../new-blog-hidden-post-<slug>
+
+# 3. Delete the local branch
 git branch -d hidden-post-<slug>
+
+# 4. Prune stale worktree metadata
+git worktree prune
+
+# 5. If the folder still exists on disk, delete it manually
+#    (this happens when the worktree was already unlinked but left a _site/ or other junk behind)
+rm -rf ../new-blog-hidden-post-<slug>
 ```
+
+Verify cleanup with `git worktree list` — only active worktrees should remain. Do **not** delete worktrees for posts that are still in progress or awaiting publish.
 
 ### Parallel batches
 
@@ -109,8 +125,11 @@ The slug comes from the filename (without date prefix and `.md`).
 
 ### When the author approves
 
+Generate the OG social card first (see **OG social cards** below), then commit and open the PR:
+
 ```bash
-git add _posts/YYYY-MM-DD-<slug>-short.md
+npm run og:generate -- _posts/YYYY-MM-DD-<slug>-short.md
+git add _posts/YYYY-MM-DD-<slug>-short.md images/og/<slug>.png
 git commit -m "Add hidden <topic> short video transcript post"
 git push -u origin hidden-post-<slug>
 gh pr create --repo jtemporal/jtemporal.github.io \
@@ -118,6 +137,46 @@ gh pr create --repo jtemporal/jtemporal.github.io \
   --title "Add hidden <topic> short video transcript post" \
   --body "## Summary\n\nAdds a hidden type: video post for Medium syndication.\n\n- Post: _posts/...\n- YouTube: <shorts URL>"
 ```
+
+## OG social cards (required for every new post, video, and talk)
+
+Every new `_posts/` entry — blog post, `type: video`, or `type: talk` — must get its own unique OG social card PNG. Do not reuse a generic cover image as the social preview; generate a dedicated card per slug.
+
+### Generate
+
+From the repo root (requires `npm install` once):
+
+```bash
+# Single post
+npm run og:generate -- _posts/YYYY-MM-DD-<slug>.md
+
+# Multiple posts (e.g. bilingual pair)
+npm run og:generate -- _posts/YYYY-MM-DD-<slug-en>.md _posts/YYYY-MM-DD-<slug-pt>.md
+```
+
+This writes `images/og/<slug>.png` where `<slug>` is the filename without the date prefix and `.md`.
+
+### Frontmatter drives the card design
+
+Set `type` and `tags` correctly so the card picks the right theme:
+
+| Content | `type` | Tags / `image` hint |
+|---------|--------|---------------------|
+| Blog post | `post` (or omit) | Category tag (`pro_tip`, `tutorial`, `hacktoberfest`, etc.) |
+| YouTube short | `video` | Topic + category tags; `image: /images/covers/pro_tip.webp` for git tips |
+| Talk / podcast | `talk` | `image: /images/covers/podcast.webp` etc.; title/description help classify talk type |
+
+The Jekyll plugin (`_plugins/og_image.rb`) automatically uses `images/og/<slug>.png` as the post's social/featured image when the file exists.
+
+### Commit with the post
+
+Always `git add` the generated PNG alongside the markdown file. For bilingual posts, generate and commit one OG image per language file (each has its own slug).
+
+### When to generate
+
+- **Hidden video shorts:** after the author approves the preview, before commit.
+- **Regular posts / talks / videos:** before opening the PR.
+- **Never skip** for new content — every slug needs its own `images/og/<slug>.png`.
 
 ## Input format for new posts
 
