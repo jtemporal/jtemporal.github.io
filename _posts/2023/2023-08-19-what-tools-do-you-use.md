@@ -15,6 +15,10 @@ posts_list:
 - my-year-in-review-2022-year-of-adventures
 - what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like
 lang: en
+translations:
+- lang: pt
+  url: /quais-ferramentas-voce-usa
+author_note: false
 
 ---
 
