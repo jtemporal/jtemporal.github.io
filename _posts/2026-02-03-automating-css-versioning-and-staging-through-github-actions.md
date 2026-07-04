@@ -16,6 +16,9 @@ tags:
 - pull request
 - pull requests
 title: "Automating CSS versioning in staging through GitHub Actions"
+translations:
+- lang: pt
+  url: /automatizando-versionamento-de-css-em-staging-com-github-actions
 author_note: false
 
 ---
