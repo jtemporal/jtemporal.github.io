@@ -30,7 +30,7 @@
           {% assign talk_label = "talk" %}
           {% assign post_title_downcase = post.title | downcase %}
           {% assign post_description_downcase = post.description | default: "" | downcase %}
-          {% assign post_image = post.image | default: "" | downcase %}
+          {% assign post_image = post.category_cover | default: post.image | default: "" | downcase %}
           {% if post_title_downcase contains "live stream" or post_title_downcase contains "[live stream]" or post_title_downcase contains " live " or post_description_downcase contains "live stream" or post_description_downcase contains "live no" %}
             {% assign talk_label = "live" %}
           {% elsif post_description_downcase contains "interview" or post_title_downcase contains "interview" %}
