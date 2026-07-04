@@ -3,7 +3,7 @@ layout: post
 type: post
 bookbanner: true
 comments: true
-date: 2026-07-04T05:55:00+00:00
+date: 2026-07-11T05:55:00+00:00
 description: Um script Python prático com Pillow para remover o fundo branco de um GIF quadro por quadro e conectar uma assinatura transparente no blog Jekyll.
 image: /images/covers/tutorial.webp
 lang: pt

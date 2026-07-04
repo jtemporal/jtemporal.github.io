@@ -3,7 +3,7 @@ layout: post
 type: post
 bookbanner: true
 comments: true
-date: 2026-07-04T06:00:00+00:00
+date: 2026-07-11T06:00:00+00:00
 description: A practical Python script with Pillow to remove a white GIF background frame by frame and wire a transparent signature into a Jekyll blog.
 image: /images/covers/tutorial.webp
 lang: en
