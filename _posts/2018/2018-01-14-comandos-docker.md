@@ -15,6 +15,11 @@ tags:
 - conteiners
 lang: pt
 comments: true
+last_modified_at: 2026-07-04
+translations:
+- lang: en
+  url: /docker-commands
+author_note: false
 ---
 
 Se você lida com Docker diariamente é necessário saber alguns comandos. Se você for feito eu que esquece essas coisas, aqui vai uma colinha pra ajudar ;)
@@ -97,7 +102,7 @@ Irá ignorar imagens em uso uso.
 ``` console
 $ docker system prune --all
 ```
-![resultado da remoção](https://i.imgur.com/BCPzKXW.png)
+![resultado da remoção](/images/docker/system-prune-result.webp)
 
 ---
 
