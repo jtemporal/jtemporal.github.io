@@ -2,6 +2,7 @@
 bookbanner: true
 comments: true
 date: 2026-02-03T05:00:00+00:00
+last_modified_at: 2026-07-04
 description: "What I learned building a real product with AI tools as collaborators: where they helped, where they failed, and why clarity matters more than the tools themselves."
 image: /images/covers/miscellaneous.webp
 lang: en

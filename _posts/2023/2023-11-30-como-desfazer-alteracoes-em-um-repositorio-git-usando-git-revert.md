@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2023-11-30T19:00:00.000-05:00
+last_modified_at: 2026-07-04
 image: /images/covers/colinha.webp
 comments: true
 title: Como desfazer alterações em um repositório Git usando git revert

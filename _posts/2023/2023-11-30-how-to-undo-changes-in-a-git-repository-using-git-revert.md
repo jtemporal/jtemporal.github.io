@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2023-11-30T19:00:00.000-05:00
+last_modified_at: 2026-07-04
 image: /images/covers/pro_tip.webp
 comments: true
 title: How to undo changes in a Git repository using git revert

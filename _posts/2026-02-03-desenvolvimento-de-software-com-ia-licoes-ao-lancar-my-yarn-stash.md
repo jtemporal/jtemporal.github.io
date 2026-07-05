@@ -2,6 +2,7 @@
 bookbanner: true
 comments: true
 date: 2026-02-03T05:00:00+00:00
+last_modified_at: 2026-07-04
 description: "O que aprendi ao criar um produto real com ferramentas de IA como colaboradoras: onde ajudaram, onde falharam e por que clareza importa mais do que as ferramentas em si."
 image: /images/covers/miscellaneous.webp
 lang: pt

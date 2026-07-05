@@ -2,6 +2,7 @@
 bookbanner: true
 comments: true
 date: 2026-02-03T06:00:00+00:00
+last_modified_at: 2026-07-04
 description: Aprenda como contornar cache agressivo versionando arquivos CSS com deploys automatizados de staging via GitHub Actions.
 image: /images/covers/tutorial.webp
 lang: pt

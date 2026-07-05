@@ -2,6 +2,7 @@
 title: 'Quais ferramentas você usa?'
 layout: post
 date: 2023-08-19T10:00:00.000+00:00
+last_modified_at: 2026-07-04
 description: Aqui é onde você pode encontrar uma lista minha
 tags:
 - colinha

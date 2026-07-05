@@ -2,6 +2,7 @@
 title: 'Reflexões de uma mantenedora e contribuidora durante o Hacktoberfest: o código aberto está com dificuldades?'
 layout: post
 date: 2024-10-23T05:00:00.000+00:00
+last_modified_at: 2026-07-04
 image: "/images/covers/personal.webp"
 type: post
 lang: pt
