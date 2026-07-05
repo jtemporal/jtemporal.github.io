@@ -16,6 +16,11 @@ tags:
 - português
 lang: pt
 comments: true
+last_modified_at: 2026-07-04
+translations:
+- lang: en
+  url: /playing-with-postgresql
+author_note: false
 ---
 
 ## O que você vai encontrar nesse post
@@ -132,19 +137,19 @@ pgweb
 
 E o resultado será o seguinte:
 
-![foto do terminal rodando o pgweb](https://i.imgur.com/hxIsA4W.png)
+![foto do terminal rodando o pgweb](/images/postgresql/pgweb-terminal.webp)
 
 Agora é só ir no seu navegador favorito e acessar `http://localhost:8081/` e ver a telinha para conectar no banco:
 
-![página de conexão com o banco do pgweb](https://i.imgur.com/CMjOnVS.png)
+![página de conexão com o banco do pgweb](/images/postgresql/pgweb-connection.webp)
 
 Então é só preencher as lacunas:
 
-![página de conexão com o banco do pgweb com os dados preenchidos](https://i.imgur.com/Wifauax.png)
+![página de conexão com o banco do pgweb com os dados preenchidos](/images/postgresql/pgweb-connection-filled.webp)
 
 e clicar em `Connect` para ser levado para a página:
 
-![página inicial do pgweb após conexão](https://i.imgur.com/k4DvoLB.png)
+![página inicial do pgweb após conexão](/images/postgresql/pgweb-after-connection.webp)
 
 ## Minhas coisas favoritas do pgweb
 
@@ -154,35 +159,35 @@ Apesar de não ser tão completo como um pgAdmin da vida, o pgweb traz todas as 
 
 Com o pgweb dá até pra criar tabelas, mas dá também para fazer consultas mais simples como um `SELECT` e ver o resultado das consultas logo abaixo:
 
-![execução de uma query](https://i.imgur.com/8ifppem.png)
+![execução de uma query](/images/postgresql/pgweb-query.webp)
 
 Além disso, a parte mais legal é inspecionar os detalhes de uma query clicando no botão `Explain Query`:
 
-![detalhes sobre uma query](https://i.imgur.com/xLUxGMk.png)
+![detalhes sobre uma query](/images/postgresql/pgweb-query-explain.webp)
 
 ### Inspeção de registros: `Rows`
 
 Quer ver as linhas contidas em cada tabela? Clique na tabela no menu lateral esquerdo e clique na aba de `Rows` para mostrar os registros daquela tabela:
 
-![linhas da tabela clientes](https://i.imgur.com/IASRc0X.png)
+![linhas da tabela clientes](/images/postgresql/pgweb-rows.webp)
 
 ### Uso de filtros: `Rows`
 
 Ainda na aba `Rows` conseguimos ver e executar filtros simples como selecionar todas linhas que possuam `id` maior que `1` por exemplo:
 
-![filtro de id maior que dois](https://i.imgur.com/lkkcKD7.png)
+![filtro de id maior que dois](/images/postgresql/pgweb-rows-filter.webp)
 
 ### Inspeção da estrutura da tabela: `Structure`
 
 Para ver uma listagem completa da estrutura de cada tabela, novamente clique na tabela escolhida no menu à esquerda da tela e clique na aba `Structure`:
 
-![aba “structure” da tabela clientes](https://i.imgur.com/ltQrIi8.png)
+![aba “structure” da tabela clientes](/images/postgresql/pgweb-structure.webp)
 
 ### Histórico: `History`
 
 Além disso, todas as ações que fizemos ficam registradas na aba de histórico `History`:
 
-![histórico de consultas](https://i.imgur.com/jSFTc7m.png)
+![histórico de consultas](/images/postgresql/pgweb-history.webp)
 
 ---
 
