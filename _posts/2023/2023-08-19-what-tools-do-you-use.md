@@ -2,6 +2,7 @@
 title: 'What tools do you use?'
 layout: post
 date: 2023-08-19T10:00:00.000+00:00
+last_modified_at: 2026-07-04
 description: Here’s where you can find a list of mine
 tags:
 - pro tip
@@ -15,6 +16,10 @@ posts_list:
 - my-year-in-review-2022-year-of-adventures
 - what-does-getting-ready-for-the-first-time-speaking-in-person-at-a-tech-conference-feels-like
 lang: en
+translations:
+- lang: pt
+  url: /quais-ferramentas-voce-usa
+author_note: false
 
 ---
 

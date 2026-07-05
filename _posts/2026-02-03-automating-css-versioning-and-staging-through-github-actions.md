@@ -2,6 +2,7 @@
 bookbanner: true
 comments: true
 date: 2026-02-03T06:00:00+00:00
+last_modified_at: 2026-07-04
 description: Learn how to bypass caching by versioning CSS files with automated staging deploys through GitHub Actions.
 image: /images/covers/tutorial.webp
 lang: en
@@ -16,6 +17,9 @@ tags:
 - pull request
 - pull requests
 title: "Automating CSS versioning in staging through GitHub Actions"
+translations:
+- lang: pt
+  url: /automatizando-versionamento-de-css-em-staging-com-github-actions
 author_note: false
 
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2023-11-30T19:00:00.000-05:00
+last_modified_at: 2026-07-04
 image: /images/covers/pro_tip.webp
 comments: true
 title: How to undo changes in a Git repository using git revert
@@ -19,6 +20,10 @@ posts_list:
 - solving-conflicts
 - undoing-the-last-commits-using-git-reset
 lang: en
+translations:
+- lang: pt
+  url: /como-desfazer-alteracoes-em-um-repositorio-git-usando-git-revert
+author_note: false
 
 ---
 There are a number of ways of undoing commits in this pro-tip you will learn how to use `git revert` to undo commits specially when they already been published.
@@ -50,7 +55,7 @@ Last weekend was Black Friday and Cyber Monday weekend so I wanted to have a dis
 
 ![https://res.cloudinary.com/jesstemporal/image/upload/v1701353823/images/fmfmyqppkh66ftlukpox.png](https://res.cloudinary.com/jesstemporal/image/upload/v1701353823/images/fmfmyqppkh66ftlukpox.png)
 
-The image above you can see the 4 commits I made as well as the four short version of the commit hashes. For simplicity sake I can copied those for hashes on GitHub. To undo each of this commit I can use a succession of git reverts passing along each commit like this:
+The image above you can see the 4 commits I made as well as the four short version of the commit hashes. For simplicity's sake I can copy those hashes from GitHub. To undo each of this commit I can use a succession of git reverts passing along each commit like this:
 
 ```bash
 git revert 59b322a

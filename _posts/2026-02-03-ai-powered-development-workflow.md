@@ -2,6 +2,7 @@
 bookbanner: true
 comments: true
 date: 2026-02-03T05:00:00+00:00
+last_modified_at: 2026-07-04
 description: "What I learned building a real product with AI tools as collaborators: where they helped, where they failed, and why clarity matters more than the tools themselves."
 image: /images/covers/miscellaneous.webp
 lang: en
@@ -15,6 +16,9 @@ tags:
 - github copilot
 - english
 title: "AI-powered software development flow: Lessons from shipping My Yarn Stash"
+translations:
+- lang: pt
+  url: /desenvolvimento-de-software-com-ia-licoes-ao-lancar-my-yarn-stash
 author_note: false
 mermaid: true
 

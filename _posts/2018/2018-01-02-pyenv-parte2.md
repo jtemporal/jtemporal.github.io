@@ -13,6 +13,11 @@ tags:
 - português
 comments: true
 lang: pt
+last_modified_at: 2026-07-04
+translations:
+- lang: en
+  url: /python-and-its-versions-pyenv-part-2
+author_note: false
 
 ---
 A colinha de hoje é inspirada nesse tweet aqui:
@@ -44,7 +49,7 @@ versions
 Cada nova versão do Python que você instala usando o pyenv vem com o seu próprio pip. Veja:
 
 <center>
-<img src="https://i.imgur.com/HoWFDf8.png"/>
+<img src="/images/pyenv/list-installed-packages.webp"/>
 <br>
 <i>Listagem de pacotes instalados em cada versão</i>
 </center>
@@ -55,7 +60,7 @@ Resposta rápida: Não, um pacote instalado numa versão não fica disponível n
 Vejamos, vamos usar de exemplo o pacote do [Caipyra](https://github.com/jtemporal/caipyra). Antes de instalá-lo temos:
 
 <center>
-<img src="https://i.imgur.com/VxQK3Hn.png"/>
+<img src="/images/pyenv/list-installed-packages-before-caipyra.webp"/>
 <br>
 <i>Listagem de pacotes instalados em cada versão</i>
 </center>
@@ -63,7 +68,7 @@ Vejamos, vamos usar de exemplo o pacote do [Caipyra](https://github.com/jtempora
 Instalando o caipyra na versão `3.3.0`:
 
 <center>
-<img src="https://i.imgur.com/YV5bJD6.png"/>
+<img src="/images/pyenv/installing-caipyra.webp"/>
 <br>
 <i>Instalação do pacote Caipyra na versão 3.3.0</i>
 </center>
@@ -71,7 +76,7 @@ Instalando o caipyra na versão `3.3.0`:
 Listando novamente os pacotes instalados em cada versão:
 
 <center>
-<img src="https://i.imgur.com/xBOnYD1.png"/>
+<img src="/images/pyenv/list-installed-packages-after-caipyra.webp"/>
 <br>
 <i>Listagem de pacotes instalados em cada versão</i>
 </center>
@@ -79,7 +84,7 @@ Listando novamente os pacotes instalados em cada versão:
 E finalmente o teste para ver se o pacote fica disponível ou não para outras versões:
 
 <center>
-<img src="https://i.imgur.com/SmUqbsm.png"/>
+<img src="/images/pyenv/import-caipyra-test.webp"/>
 <br>
 <i>Rodando o import caipyra em todas as versões</i>
 </center>

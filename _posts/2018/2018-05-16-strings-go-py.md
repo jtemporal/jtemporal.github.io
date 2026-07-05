@@ -15,6 +15,11 @@ tags:
 - português
 comments: true
 lang: pt
+last_modified_at: 2026-07-04
+translations:
+- lang: en
+  url: /getting-the-start-of-a-string-with-go-or-python
+author_note: false
 ---
 
 A colinha de hoje mostra como pegar o começo de uma string tanto em Go como em Python sem usar expressões regulares 🎉
