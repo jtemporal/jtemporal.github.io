@@ -15,7 +15,7 @@ tags:
 - github copilot
 - português
 - pessoal
-title: "Fluxo de desenvolvimento de software com IA: lições ao lançar My Yarn Stash"
+title: "Desenvolvimento de software com IA: lições ao lançar My Yarn Stash"
 translations:
 - lang: en
   url: /ai-powered-development-workflow
