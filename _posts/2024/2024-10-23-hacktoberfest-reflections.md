@@ -19,6 +19,10 @@ posts_list:
 - solving-conflict
 - gitfichas-is-now-open-source
 - introducing-gitfichas
+translations:
+- lang: pt
+  url: /reflexoes-de-uma-mantenedora-e-contribuidora-durante-o-hacktoberfest
+author_note: false
 
 ---
 
