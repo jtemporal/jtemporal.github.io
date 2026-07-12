@@ -1,0 +1,119 @@
+<!-- Mini Jess: hidden easter egg buddy. Summon by typing "jess" or 5 quick taps on the footer. -->
+<style>
+  #jess-buddy {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    pointer-events: none;
+  }
+  #jess-buddy > * { pointer-events: auto; }
+  #jess-buddy [hidden] { display: none !important; }
+
+  #jess-buddy .jb-bubble {
+    max-width: 220px;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.85rem;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0.25rem;
+    background: #fff;
+    color: #1f1f1f;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  #jess-buddy .jb-bubble.jb-show { opacity: 1; transform: translateY(0); }
+  .dark #jess-buddy .jb-bubble { background: #2b2930; color: #e6e1e5; }
+
+  #jess-buddy .jb-char {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transform: translateY(140%);
+    transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+    -webkit-tap-highlight-color: transparent;
+  }
+  #jess-buddy.jb-in .jb-char { transform: translateY(0); }
+
+  #jess-buddy .jb-char img,
+  #jess-buddy .jb-char .jb-fallback {
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+    user-select: none;
+  }
+  #jess-buddy .jb-char .jb-fallback {
+    font-size: 56px;
+    line-height: 76px;
+    text-align: center;
+  }
+
+  #jess-buddy .jb-char.jb-bounce { animation: jb-bounce 0.5s ease; }
+  @keyframes jb-bounce {
+    0%   { transform: translateY(0) scale(1); }
+    35%  { transform: translateY(-14px) scale(1.08); }
+    70%  { transform: translateY(0) scale(0.96); }
+    100% { transform: translateY(0) scale(1); }
+  }
+
+  #jess-buddy .jb-close {
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    width: 22px;
+    height: 22px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 13px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  #jess-buddy:hover .jb-close,
+  #jess-buddy:focus-within .jb-close { opacity: 1; }
+  /* Touch screens have no hover — keep the dismiss button visible. */
+  @media (hover: none) {
+    #jess-buddy .jb-close { opacity: 0.85; }
+  }
+
+  #jess-buddy .jb-confetti {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    border-radius: 2px;
+    top: 10%;
+    left: 50%;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #jess-buddy .jb-char { transition: none; }
+    #jess-buddy .jb-char.jb-bounce { animation: none; }
+    #jess-buddy .jb-bubble { transition: opacity 0.2s ease; transform: none; }
+  }
+</style>
+
+<div id="jess-buddy" data-img-base="{{ '/images/emojis/' | relative_url }}" data-layout="{{ page.layout }}" hidden>
+  <div class="jb-bubble" role="status" hidden></div>
+  <button class="jb-close" type="button" aria-label="Dismiss">&times;</button>
+  <button class="jb-char" type="button" aria-label="Mini Jess">
+    <img alt="" draggable="false">
+    <span class="jb-fallback" aria-hidden="true" hidden></span>
+  </button>
+</div>
+
+<script src="{{ '/assets/js/jess-buddy.js' | relative_url }}" defer></script>
