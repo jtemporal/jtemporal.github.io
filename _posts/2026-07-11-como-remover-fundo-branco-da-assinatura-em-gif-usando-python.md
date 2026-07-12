@@ -35,7 +35,7 @@ Eu não queria redesenhar a animação, trocar o GIF por uma imagem, ou pior, re
 
 Peço desculpas desde já, especialmente se você estiver lendo isso em dark mode, mas era assim que minha assinatura aparecia originalmente:
 
-![](https://res.cloudinary.com/jesstemporal/image/upload/v1640531276/jess-signature_nhb75h.gif)
+![assinatura em formato gif](https://res.cloudinary.com/jesstemporal/image/upload/v1640531276/jess-signature_nhb75h.gif)
 
 Pedi ajuda ao Grok para corrigir isso, e ele sugeriu adicionar uma lógica de inversão via CSS para ficar assim:
 
