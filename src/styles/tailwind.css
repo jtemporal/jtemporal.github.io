@@ -176,4 +176,9 @@
   .img-post {
     @apply my-6 w-full rounded-xl;
   }
+
+  .signature-invert-failed-demo img {
+    -webkit-filter: invert(1);
+    filter: invert(1) !important;
+  }
 }
