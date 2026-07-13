@@ -1,6 +1,6 @@
-<!-- Mini Jess: hidden easter egg buddy. Summon by typing "jess" or 5 quick taps on the footer. -->
+<!-- Lil Jess: always-visible sidekick. Dismiss with ✕; re-summon by typing "jess" or 5 footer taps. -->
 <style>
-  #jess-buddy {
+  #lil-jess {
     position: fixed;
     right: 1.25rem;
     bottom: 1.25rem;
@@ -10,10 +10,10 @@
     align-items: flex-end;
     pointer-events: none;
   }
-  #jess-buddy > * { pointer-events: auto; }
-  #jess-buddy [hidden] { display: none !important; }
+  #lil-jess > * { pointer-events: auto; }
+  #lil-jess [hidden] { display: none !important; }
 
-  #jess-buddy .jb-bubble {
+  #lil-jess .lj-bubble {
     max-width: 220px;
     margin-bottom: 0.5rem;
     padding: 0.5rem 0.85rem;
@@ -28,10 +28,10 @@
     transform: translateY(6px);
     transition: opacity 0.25s ease, transform 0.25s ease;
   }
-  #jess-buddy .jb-bubble.jb-show { opacity: 1; transform: translateY(0); }
-  .dark #jess-buddy .jb-bubble { background: #2b2930; color: #e6e1e5; }
+  #lil-jess .lj-bubble.lj-show { opacity: 1; transform: translateY(0); }
+  .dark #lil-jess .lj-bubble { background: #2b2930; color: #e6e1e5; }
 
-  #jess-buddy .jb-char {
+  #lil-jess .lj-char {
     position: relative;
     width: 76px;
     height: 76px;
@@ -43,31 +43,31 @@
     transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
     -webkit-tap-highlight-color: transparent;
   }
-  #jess-buddy.jb-in .jb-char { transform: translateY(0); }
+  #lil-jess.lj-in .lj-char { transform: translateY(0); }
 
-  #jess-buddy .jb-char img,
-  #jess-buddy .jb-char .jb-fallback {
+  #lil-jess .lj-char img,
+  #lil-jess .lj-char .lj-fallback {
     width: 100%;
     height: 100%;
     display: block;
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
     user-select: none;
   }
-  #jess-buddy .jb-char .jb-fallback {
+  #lil-jess .lj-char .lj-fallback {
     font-size: 56px;
     line-height: 76px;
     text-align: center;
   }
 
-  #jess-buddy .jb-char.jb-bounce { animation: jb-bounce 0.5s ease; }
-  @keyframes jb-bounce {
+  #lil-jess .lj-char.lj-bounce { animation: lj-bounce 0.5s ease; }
+  @keyframes lj-bounce {
     0%   { transform: translateY(0) scale(1); }
     35%  { transform: translateY(-14px) scale(1.08); }
     70%  { transform: translateY(0) scale(0.96); }
     100% { transform: translateY(0) scale(1); }
   }
 
-  #jess-buddy .jb-close {
+  #lil-jess .lj-close {
     position: absolute;
     top: -0.25rem;
     right: -0.25rem;
@@ -83,14 +83,14 @@
     opacity: 0;
     transition: opacity 0.2s ease;
   }
-  #jess-buddy:hover .jb-close,
-  #jess-buddy:focus-within .jb-close { opacity: 1; }
+  #lil-jess:hover .lj-close,
+  #lil-jess:focus-within .lj-close { opacity: 1; }
   /* Touch screens have no hover — keep the dismiss button visible. */
   @media (hover: none) {
-    #jess-buddy .jb-close { opacity: 0.85; }
+    #lil-jess .lj-close { opacity: 0.85; }
   }
 
-  #jess-buddy .jb-confetti {
+  #lil-jess .lj-confetti {
     position: absolute;
     width: 8px;
     height: 12px;
@@ -101,19 +101,19 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    #jess-buddy .jb-char { transition: none; }
-    #jess-buddy .jb-char.jb-bounce { animation: none; }
-    #jess-buddy .jb-bubble { transition: opacity 0.2s ease; transform: none; }
+    #lil-jess .lj-char { transition: none; }
+    #lil-jess .lj-char.lj-bounce { animation: none; }
+    #lil-jess .lj-bubble { transition: opacity 0.2s ease; transform: none; }
   }
 </style>
 
-<div id="jess-buddy" data-img-base="{{ '/images/emojis/' | relative_url }}" data-layout="{{ page.layout }}" hidden>
-  <div class="jb-bubble" role="status" hidden></div>
-  <button class="jb-close" type="button" aria-label="Dismiss">&times;</button>
-  <button class="jb-char" type="button" aria-label="Mini Jess">
+<div id="lil-jess" data-img-base="{{ '/images/emojis/' | relative_url }}" data-layout="{{ page.layout }}" hidden>
+  <div class="lj-bubble" role="status" hidden></div>
+  <button class="lj-close" type="button" aria-label="Dismiss">&times;</button>
+  <button class="lj-char" type="button" aria-label="Lil Jess">
     <img alt="" draggable="false">
-    <span class="jb-fallback" aria-hidden="true" hidden></span>
+    <span class="lj-fallback" aria-hidden="true" hidden></span>
   </button>
 </div>
 
-<script src="{{ '/assets/js/jess-buddy.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/lil-jess.js' | relative_url }}" defer></script>

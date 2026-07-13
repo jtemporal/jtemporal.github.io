@@ -1,25 +1,26 @@
 /**
- * Mini Jess — a hidden blog buddy easter egg.
- * Summon her by typing "jess" anywhere, or with 5 quick taps on the footer.
- * She reacts to reading, selecting text, copying code, and coming back to the tab.
+ * Lil Jess — a friendly blog sidekick.
+ * She hangs out in the corner and reacts to reading, selecting text,
+ * copying code, and coming back to the tab. Dismiss her with the ✕;
+ * type "jess" (or 5 footer taps) to bring her back.
  */
 (function () {
   'use strict';
 
-  if (window.__jessBuddyInitialized) return;
-  window.__jessBuddyInitialized = true;
+  if (window.__lilJessInitialized) return;
+  window.__lilJessInitialized = true;
 
-  var root = document.getElementById('jess-buddy');
+  var root = document.getElementById('lil-jess');
   if (!root) return;
 
-  var bubble = root.querySelector('.jb-bubble');
-  var charBtn = root.querySelector('.jb-char');
+  var bubble = root.querySelector('.lj-bubble');
+  var charBtn = root.querySelector('.lj-char');
   var img = charBtn.querySelector('img');
-  var fallback = charBtn.querySelector('.jb-fallback');
-  var closeBtn = root.querySelector('.jb-close');
-  var imgBase = root.getAttribute('data-img-base') || '/images/jess-emotes/';
+  var fallback = charBtn.querySelector('.lj-fallback');
+  var closeBtn = root.querySelector('.lj-close');
+  var imgBase = root.getAttribute('data-img-base') || '/images/emojis/';
 
-  var STORAGE_KEY = 'jessBuddy';
+  var STORAGE_KEY = 'lilJess';
   var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var isEN = (document.documentElement.lang || '').toLowerCase().indexOf('en') === 0;
 
@@ -33,8 +34,8 @@
   };
 
   var LINES = {
-    summon:    { en: 'Hi! You found me! 🎉', pt: 'Oi! Você me achou! 🎉' },
-    hello:     { en: 'Hello again!', pt: 'Olá de novo!' },
+    hello:     { en: 'Hi there! 👋', pt: 'Oi oi! 👋' },
+    welcome:   { en: 'Hello again!', pt: 'Olá de novo!' },
     endOfPost: { en: 'You read the whole thing! Nice!', pt: 'Você leu até o fim! Boa!' },
     copyCode:  { en: 'Good code, right? 😉', pt: 'Código bom, né? 😉' },
     selection: { en: 'Ooh, I love that part too!', pt: 'Ai, também amo essa parte!' },
@@ -73,9 +74,9 @@
     };
     img.src = imgBase + emote.file;
     if (!reducedMotion) {
-      charBtn.classList.remove('jb-bounce');
+      charBtn.classList.remove('lj-bounce');
       void charBtn.offsetWidth; // restart the animation
-      charBtn.classList.add('jb-bounce');
+      charBtn.classList.add('lj-bounce');
     }
   }
 
@@ -83,11 +84,11 @@
     bubble.textContent = text;
     bubble.hidden = false;
     requestAnimationFrame(function () {
-      bubble.classList.add('jb-show');
+      bubble.classList.add('lj-show');
     });
     clearTimeout(bubbleTimer);
     bubbleTimer = setTimeout(function () {
-      bubble.classList.remove('jb-show');
+      bubble.classList.remove('lj-show');
       setTimeout(function () { bubble.hidden = true; }, 250);
     }, duration || 3500);
   }
@@ -103,7 +104,7 @@
     var colors = ['#f472b6', '#5eead4', '#fde047', '#86efac', '#93c5fd'];
     for (var i = 0; i < 18; i++) {
       var piece = document.createElement('span');
-      piece.className = 'jb-confetti';
+      piece.className = 'lj-confetti';
       piece.style.background = colors[i % colors.length];
       charBtn.appendChild(piece);
       var angle = Math.random() * Math.PI - Math.PI; // upward half-circle
@@ -124,17 +125,19 @@
     }
   }
 
-  function show(withParty) {
+  // withGreeting: true when re-summoned after dismiss (party + hello).
+  // false for the quiet default appearance on page load.
+  function show(withGreeting) {
     active = true;
     localStorage.setItem(STORAGE_KEY, 'on');
     root.hidden = false;
-    setEmote(withParty ? 'party' : 'happy');
+    setEmote(withGreeting ? 'party' : 'happy');
     requestAnimationFrame(function () {
-      root.classList.add('jb-in');
+      root.classList.add('lj-in');
     });
-    if (withParty) {
+    if (withGreeting) {
       setTimeout(confetti, 350);
-      setTimeout(function () { say(t('summon')); }, 450);
+      setTimeout(function () { say(t('hello')); }, 450);
     }
   }
 
@@ -144,12 +147,12 @@
     setEmote('crying');
     say(t('bye'), 900);
     setTimeout(function () {
-      root.classList.remove('jb-in');
+      root.classList.remove('lj-in');
       setTimeout(function () { root.hidden = true; }, 500);
     }, 900);
   }
 
-  // --- Summon triggers ---------------------------------------------------
+  // --- Re-summon after dismiss -------------------------------------------
 
   // Typing "jess" anywhere on the page (outside form fields).
   var typed = '';
@@ -169,14 +172,14 @@
       if (active) {
         setEmote('party');
         confetti();
-        say(t('hello'));
+        say(t('welcome'));
       } else {
         show(true);
       }
     }
   });
 
-  // 5 quick taps on the footer (mobile-friendly trigger).
+  // 5 quick taps on the footer (mobile-friendly re-summon).
   var footer = document.querySelector('footer');
   if (footer) {
     var taps = 0;
@@ -256,23 +259,9 @@
     }
   });
 
-  // --- Restore state across pages ----------------------------------------
+  // --- Always show (unless the reader dismissed her) ---------------------
 
-  if (localStorage.getItem(STORAGE_KEY) === 'on') {
+  if (localStorage.getItem(STORAGE_KEY) !== 'off') {
     show(false);
-  } else if (
-    localStorage.getItem(STORAGE_KEY) !== 'off' &&
-    window.matchMedia('(hover: none)').matches
-  ) {
-    // Touch devices have no keyboard to type "jess" on — she shows up
-    // on her own once the reader starts scrolling. Dismissing her still
-    // keeps her away for good.
-    var summonOnScroll = function () {
-      if (!active && window.scrollY > 400) {
-        window.removeEventListener('scroll', summonOnScroll);
-        show(true);
-      }
-    };
-    window.addEventListener('scroll', summonOnScroll, { passive: true });
   }
 })();

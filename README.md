@@ -35,10 +35,15 @@ This site features:
 - Post tag banners, series pages, and listing pages for talks, videos, and books
 - Blog post pagination
 - Language switcher
+- Lil Jess, a friendly sidekick always visible in the corner (dismiss with ✕; type `jess` or 5 footer taps to bring her back)
 
 ### Multi-Language System
 
 See [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md) for architecture, translation management, adding languages, and troubleshooting.
+
+### Lil Jess
+
+See [LIL_JESS.md](LIL_JESS.md) for always-on visibility, dismiss/re-summon, reactions, and how to tweak her moods and lines.
 
 ## Local Development
 
