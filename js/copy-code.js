@@ -80,11 +80,23 @@
     return LANG_LABELS[lang] || lang.charAt(0).toUpperCase() + lang.slice(1);
   }
 
+  function codeText(container) {
+    // Prefer the code cell so line-number gutter text is not copied.
+    var node =
+      container.querySelector('.rouge-code pre') ||
+      container.querySelector('.rouge-code') ||
+      container.querySelector('pre code') ||
+      container.querySelector('pre');
+    if (!node) return '';
+    return node.textContent.replace(/\n$/, '');
+  }
+
   function addToolbars() {
     document.querySelectorAll('div.highlight:not([data-copy-added])').forEach(function (container) {
       // Only outer Rouge wrappers (skip nested .highlight on <pre>)
       if (container.tagName !== 'DIV') return;
-      if (!container.querySelector(':scope > pre')) return;
+      // Normal blocks have <pre>; linenos blocks have a rewritten table.
+      if (!container.querySelector('pre') && !container.querySelector('table.rouge-table')) return;
 
       container.setAttribute('data-copy-added', 'true');
       container.classList.add('has-code-toolbar');
@@ -104,9 +116,9 @@
       button.setAttribute('aria-label', 'Copy code to clipboard');
 
       button.addEventListener('click', function () {
-        var code = container.querySelector('pre code') || container.querySelector('pre');
-        if (code) {
-          copyToClipboard(code.textContent.replace(/\n$/, ''), button);
+        var text = codeText(container);
+        if (text) {
+          copyToClipboard(text, button);
         }
       });
 
