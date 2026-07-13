@@ -30,14 +30,14 @@ These posts syndicate video transcripts to Medium and/or [dev.to](https://dev.to
 One isolated worktree per post or feature. Never stack unrelated post work or feature on the same branch.
 
 ```bash
-# From the main repo checkout (new-blog/)
+# From the main repo checkout (jtemporal.github.io/)
 git fetch origin
-git worktree add ../new-blog-hidden-post-<slug> -b hidden-post-<slug> origin/main
+git worktree add ../jtemporal.github.io-hidden-post-<slug> -b hidden-post-<slug> origin/main
 ```
 
 | Item | Pattern | Example |
 |------|---------|---------|
-| Worktree path | `../new-blog-hidden-post-<slug>` | `new-blog-hidden-post-gitkeep` |
+| Worktree path | `../jtemporal.github.io-hidden-post-<slug>` | `jtemporal.github.io-hidden-post-gitkeep` |
 | Branch | `hidden-post-<slug>` | `hidden-post-gitkeep` |
 | Post file | `_posts/YYYY-MM-DD-<slug>-short.md` | `_posts/2026-06-25-gitkeep-track-empty-folders-short.md` |
 
@@ -47,7 +47,7 @@ Before pushing, rebase onto latest `main` if other PRs merged:
 git fetch origin && git rebase origin/main
 ```
 
-After a PR is merged, clean up the worktree **from the main repo checkout** (`new-blog/` on `main`):
+After a PR is merged, clean up the worktree **from the main repo checkout** (`jtemporal.github.io/` on `main`):
 
 ```bash
 # 1. Confirm the PR landed on main
@@ -55,7 +55,7 @@ git fetch origin
 git log origin/main --oneline | head -5   # should show the merge commit
 
 # 2. Remove the worktree (add --force if it has uncommitted changes you no longer need)
-git worktree remove ../new-blog-hidden-post-<slug>
+git worktree remove ../jtemporal.github.io-hidden-post-<slug>
 
 # 3. Delete the local branch
 git branch -d hidden-post-<slug>
@@ -65,7 +65,7 @@ git worktree prune
 
 # 5. If the folder still exists on disk, delete it manually
 #    (this happens when the worktree was already unlinked but left a _site/ or other junk behind)
-rm -rf ../new-blog-hidden-post-<slug>
+rm -rf ../jtemporal.github.io-hidden-post-<slug>
 ```
 
 Verify cleanup with `git worktree list` — only active worktrees should remain. Do **not** delete worktrees for posts that are still in progress or awaiting publish.
