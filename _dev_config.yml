@@ -36,6 +36,12 @@ copyright:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Rouge wraps blocks in a gutter/code table when line numbers are on.
+    block:
+      line_numbers: true
 permalink: /:title/
 paginate: 9
 paginate_path: /page:num/
