@@ -119,51 +119,50 @@
     content: none;
   }
 
+  /* Copy lives in the code-toolbar header — not overlaid on the text. */
   .highlight .copy-button {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    z-index: 10;
     margin: 0;
     cursor: pointer;
-    border-radius: 0.375rem;
-    border: 1px solid #404040;
-    background: rgba(45, 45, 48, 0.92);
-    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    border: 1px solid rgb(228 189 194 / 0.9);
+    background: rgb(255 255 255 / 0.9);
+    padding: 0.3rem 0.75rem;
     font-family: Inter, sans-serif;
     font-size: 11px;
     font-weight: 600;
     line-height: 1;
-    color: #d4d4d4;
-    opacity: 0.9;
+    color: #5b3f43;
     transition: all 0.2s ease;
+    flex-shrink: 0;
   }
 
   .highlight .copy-button:hover {
-    border-color: #006769;
-    background: rgba(31, 31, 31, 0.96);
-    color: #fff;
-    opacity: 1;
+    border-color: #b80049;
+    background: #fff;
+    color: #b80049;
   }
 
   .highlight .copy-button.copied {
     border-color: #006769;
-    background: rgba(0, 103, 105, 0.92);
-    color: #fff;
-    opacity: 1;
+    background: rgba(0, 103, 105, 0.12);
+    color: #006769;
   }
 
   .dark .highlight .copy-button {
     border-color: #525252;
-    background: rgba(30, 30, 30, 0.95);
+    background: rgba(48, 48, 49, 0.95);
     color: #f2f0f0;
   }
 
-  .dark .highlight .copy-button:hover,
+  .dark .highlight .copy-button:hover {
+    border-color: #ffb2be;
+    color: #ffb2be;
+  }
+
   .dark .highlight .copy-button.copied {
     border-color: #5cd8db;
-    background: rgba(0, 103, 105, 0.9);
-    color: #fff;
+    background: rgba(0, 103, 105, 0.35);
+    color: #5cd8db;
   }
 
   .dark .prose-ink {
