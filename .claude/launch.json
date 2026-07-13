@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "bundle",
+      "runtimeArgs": ["exec", "jekyll", "serve", "--config", "_dev_config.yml"],
+      "env": { "RBENV_VERSION": "3.4.1" },
+      "port": 4000
+    }
+  ]
+}
