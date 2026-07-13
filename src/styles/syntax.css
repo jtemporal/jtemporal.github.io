@@ -1,31 +1,98 @@
-/* Rouge syntax highlighting — Ethereal Ink light/dark surfaces */
+/* Rouge syntax highlighting — Ethereal Ink light/dark surfaces
+ *
+ * Rouge emits BOTH an outer div.highlight and an inner pre.highlight.
+ * Card chrome (border, radius, margin) must target div only, or you get
+ * a rounded box nested inside another rounded box.
+ */
 
-.highlight {
-  @apply relative my-6 overflow-hidden rounded-xl border border-outline-variant bg-surface-container-low;
+div.highlight {
+  @apply relative my-6 max-w-full overflow-hidden rounded-xl border border-outline-variant bg-surface-container-low;
 }
 
-.dark .highlight {
+.dark div.highlight {
   @apply border-outline bg-[#1e1e1e];
 }
 
-.highlight pre {
-  @apply overflow-x-auto;
+/* Soft-wrap on all viewports — no sideways scrollbars in code boxes.
+   Explicitly strip card chrome from pre.highlight. */
+div.highlight > pre,
+div.highlight pre.highlight {
+  @apply m-0 max-w-full overflow-x-hidden whitespace-pre-wrap break-words rounded-none border-0 bg-transparent p-5 font-mono text-sm leading-relaxed shadow-none;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  color: #1b1c1c;
 }
 
-.highlight pre {
-  @apply m-0 bg-transparent p-5 font-mono text-sm leading-relaxed text-on-surface;
+.dark div.highlight > pre,
+.dark div.highlight pre.highlight {
+  color: #d4d4d4;
 }
 
-.highlight pre code {
-  @apply bg-transparent p-0 font-mono text-inherit;
+div.highlight pre code {
+  @apply max-w-full whitespace-pre-wrap break-words bg-transparent p-0 font-mono text-inherit;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  color: inherit;
 }
 
-/* Beat Tailwind Typography prose pre color (#e5e7eb) inside article bodies */
-.prose-ink .highlight pre {
+/* Beat Tailwind Typography prose pre color / overflow-x:auto inside article bodies */
+.prose-ink div.highlight > pre,
+.prose-ink div.highlight pre.highlight,
+.prose-ink :where(pre) {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  border-radius: 0;
+  border-width: 0;
+  box-shadow: none;
+}
+
+.prose-ink div.highlight > pre,
+.prose-ink div.highlight pre.highlight {
   padding: 1.25rem;
   background-color: transparent;
   color: #1b1c1c;
+}
+
+/* Must beat .prose-ink div.highlight pre { color: #1b1c1c } above */
+.dark .prose-ink div.highlight > pre,
+.dark .prose-ink div.highlight pre.highlight,
+.dark div.highlight > pre,
+.dark div.highlight pre.highlight {
+  color: #d4d4d4;
+}
+
+/* Top chrome: language label + copy (GitHub-style, prettier) */
+div.highlight .code-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.5rem 0.85rem;
+  border-bottom: 1px solid rgb(228 189 194 / 0.7);
+  background: rgb(239 237 237 / 0.95);
+}
+
+.dark div.highlight .code-toolbar {
+  border-bottom-color: rgb(143 111 115 / 0.45);
+  background: rgb(36 36 36 / 0.98);
+}
+
+div.highlight .code-lang {
+  font-family: Inter, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgb(91 63 67 / 0.9);
+  line-height: 1;
+}
+
+.dark div.highlight .code-lang {
+  color: rgb(242 240 240 / 0.65);
 }
 
 /* Light mode: ink-on-paper palette */
@@ -165,10 +232,6 @@
   color: #d4d4d4;
 }
 
-.dark .highlight pre {
-  color: #d4d4d4;
-}
-
 /* Inline code */
 :not(.highlight) > code,
 .prose :not(pre) > code {
@@ -182,7 +245,9 @@
 
 /* Non-highlighted pre blocks */
 pre:not(.highlight):not(.mermaid) {
-  @apply my-6 overflow-x-auto rounded-xl border border-outline-variant bg-surface-container-low p-5 text-sm;
+  @apply my-6 max-w-full overflow-x-hidden whitespace-pre-wrap break-words rounded-xl border border-outline-variant bg-surface-container-low p-5 text-sm;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .dark pre:not(.highlight):not(.mermaid) {
