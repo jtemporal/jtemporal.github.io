@@ -95,6 +95,99 @@ div.highlight .code-lang {
   color: rgb(242 240 240 / 0.65);
 }
 
+/* Line numbers: one table row per source line (see _plugins/rouge_linenos.rb)
+   so soft-wrapped lines grow only their own row and numbers stay aligned.
+   Override global `table { text-align:center; margin:auto; max-width:36rem }`. */
+div.highlight .rouge-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: left;
+}
+
+div.highlight .rouge-table tr {
+  vertical-align: top;
+}
+
+div.highlight .rouge-gutter,
+div.highlight .rouge-code {
+  vertical-align: top;
+  text-align: left;
+}
+
+div.highlight .rouge-gutter {
+  width: 2.75rem;
+  padding: 0 0.55rem 0 0.75rem;
+  user-select: none;
+  border-right: 1px solid rgb(228 189 194 / 0.55);
+  background: rgb(239 237 237 / 0.55);
+  color: rgb(91 63 67 / 0.55);
+  font-family: JetBrains Mono, ui-monospace, monospace;
+  font-size: 0.8125rem;
+  line-height: 1.625;
+  text-align: right;
+}
+
+.dark div.highlight .rouge-gutter {
+  border-right-color: rgb(143 111 115 / 0.35);
+  background: rgb(28 28 28 / 0.9);
+  color: rgb(242 240 240 / 0.4);
+}
+
+div.highlight .rouge-gutter .ln {
+  display: block;
+  line-height: 1.625;
+}
+
+div.highlight .rouge-code {
+  width: auto;
+  max-width: 100%;
+  padding: 0 1.25rem 0 0.85rem;
+}
+
+/* Row padding instead of one big pre pad — keeps first/last lines comfortable */
+div.highlight .rouge-table tr:first-child > td {
+  padding-top: 1.15rem;
+}
+
+div.highlight .rouge-table tr:last-child > td {
+  padding-bottom: 1.15rem;
+}
+
+div.highlight .rouge-code pre,
+div.highlight .rouge-code pre.rouge-code-pre {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  font-family: JetBrains Mono, ui-monospace, monospace;
+  font-size: 0.875rem;
+  line-height: 1.625;
+  color: inherit;
+  text-align: left;
+}
+
+div.highlight .rouge-code pre code {
+  display: block;
+  max-width: 100%;
+  white-space: inherit;
+  overflow-wrap: inherit;
+  word-break: inherit;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+}
+
 /* Light mode: ink-on-paper palette */
 .highlight .c,
 .highlight .cm,
