@@ -1,13 +1,11 @@
 # Jess Temporal's Blog & Portfolio
 
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue?logo=github)](https://jtemporal.com)
+[![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?logo=netlify&logoColor=white)](https://jtemporal.com)
 [![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-red?logo=jekyll)](https://jekyllrb.com/)
 
-Personal blog and portfolio website of Jessica Temporal — Sr. Dev Advocate, podcaster, and creator. Built with Jekyll and the **Ethereal Ink** theme, hosted on GitHub Pages.
+Personal blog and portfolio website of Jessica Temporal — Sr. Dev Advocate, podcaster, and creator. Built with Jekyll and the **Ethereal Ink** theme, hosted on Netlify.
 
 🌐 **Live site**: [jtemporal.com](https://jtemporal.com)
-
-> **Repository note:** This project currently lives at [`jtemporal/new-blog`](https://github.com/jtemporal/new-blog) while the Ethereal Ink migration is in progress. Clone and setup instructions below still use [`jtemporal/jtemporal.github.io`](https://github.com/jtemporal/jtemporal.github.io) — the repo will be renamed once the migration ships.
 
 ## About
 
@@ -22,8 +20,8 @@ This site features:
 
 - **Static site generator**: Jekyll 4.3
 - **Styling**: Tailwind CSS (Ethereal Ink design system) with Typography plugin
-- **Syntax highlighting**: Rouge
-- **Hosting**: GitHub Pages
+- **Syntax highlighting**: Rouge (with line numbers)
+- **Hosting**: Netlify (deploys from `main`; PR deploy previews)
 - **Domain**: [jtemporal.com](https://jtemporal.com)
 - **Analytics**: Google Analytics & PostHog
 
@@ -35,6 +33,7 @@ This site features:
 - Post tag banners, series pages, and listing pages for talks, videos, and books
 - Blog post pagination
 - Language switcher
+- Per-post OG social cards (`images/og/<slug>.png`)
 - Lil Jess, a friendly sidekick always visible in the corner (dismiss with ✕; type `jess` or 5 footer taps to bring her back)
 
 ### Multi-Language System
@@ -45,13 +44,17 @@ See [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md) for architecture, trans
 
 See [LIL_JESS.md](LIL_JESS.md) for always-on visibility, dismiss/re-summon, reactions, and how to tweak her moods and lines.
 
+### Agent workflows
+
+See [AGENTS.md](AGENTS.md) for hidden YouTube short transcript posts, git worktree conventions, and OG card generation.
+
 ## Local Development
 
 ### Prerequisites
 
 - Ruby **3.4.1** (see `.ruby-version`)
 - Bundler
-- Node.js & npm (for Tailwind CSS builds)
+- Node.js & npm (for Tailwind CSS builds and OG card generation)
 - Git
 
 ### Setup
@@ -61,13 +64,6 @@ See [LIL_JESS.md](LIL_JESS.md) for always-on visibility, dismiss/re-summon, reac
    ```bash
    git clone https://github.com/jtemporal/jtemporal.github.io.git
    cd jtemporal.github.io
-   ```
-
-   If you are working from the migration repo before the rename:
-
-   ```bash
-   git clone https://github.com/jtemporal/new-blog.git
-   cd new-blog
    ```
 
 2. **Install dependencies**
@@ -105,8 +101,9 @@ See [LIL_JESS.md](LIL_JESS.md) for always-on visibility, dismiss/re-summon, reac
 | `npm run dev` | Build CSS and serve with `_dev_config.yml` |
 | `npm run build:css` | Compile Tailwind → `assets/css/main.css` |
 | `npm run watch:css` | Watch and rebuild CSS |
+| `npm run og:generate -- _posts/<file>.md` | Generate OG card for one post |
+| `npm run og:generate:all` | Generate OG cards for all posts |
 | `bundle exec jekyll build` | Production build |
-| `bundle exec jekyll serve --drafts` | Include draft posts |
 | `bundle exec jekyll serve --future` | Include future-dated posts |
 | `bundle exec jekyll clean` | Remove `_site` and cache |
 
@@ -119,11 +116,14 @@ See [LIL_JESS.md](LIL_JESS.md) for always-on visibility, dismiss/re-summon, reac
 ├── _hacktoberfest_projects_*/ # Hacktoberfest listings by year
 ├── _includes/                 # Reusable templates
 ├── _layouts/                  # Page layouts
-├── _plugins/                  # Jekyll plugins (CSS build, Rouge tweaks)
+├── _plugins/                  # Jekyll plugins (CSS, OG images, Rouge, series)
 ├── _data/                     # YAML data (socials, localization, etc.)
 ├── src/styles/                # Tailwind source (tailwind.css, theme.css, syntax.css)
 ├── assets/css/                # Compiled CSS
 ├── images/                    # Image assets
+├── images/og/                 # Per-post OG social cards
+├── og-templates/              # HTML template for OG card generation
+├── scripts/                   # OG generation, image optimization helpers
 └── slides/                    # Presentation slides
 ```
 
@@ -142,7 +142,7 @@ YYYY-MM-DD-post-title.md
 ```yaml
 ---
 layout: post
-title: "Your Post Title"
+title: "Your post title"
 date: 2025-08-30
 image: /images/covers/tutorial.webp
 tags: [tag1, tag2]
@@ -156,6 +156,28 @@ Your post content here...
 ```
 
 For translation details, see [MULTI_LANGUAGE_SYSTEM.md](MULTI_LANGUAGE_SYSTEM.md).
+
+### OG social cards
+
+Every new post (blog post, `type: video`, or `type: talk`) needs its own OG card. Do not reuse a generic cover as the social preview.
+
+```bash
+# Single post
+npm run og:generate -- _posts/YYYY-MM-DD-<slug>.md
+
+# Bilingual pair
+npm run og:generate -- _posts/YYYY-MM-DD-<slug-en>.md _posts/YYYY-MM-DD-<slug-pt>.md
+```
+
+This writes `images/og/<slug>.png`. Commit the PNG with the post. The `_plugins/og_image.rb` plugin uses that file as the social/featured image when present.
+
+Theme cues come from front matter (`type`, `tags`, `image`). See [AGENTS.md](AGENTS.md) for full details.
+
+### Images
+
+- Keep originals under `/images/`
+- Optimize with `python scripts/image_optmizer.py` (converts to WebP)
+- Prefer WebP paths in content
 
 ## Collections
 
@@ -171,6 +193,7 @@ Organized by year in `_hacktoberfest_projects_YYYY/`.
 
 - **Production config**: `_config.yml`
 - **Development config**: `_dev_config.yml` (local URLs, dev-only excludes)
+- **Netlify**: `netlify.toml` (build, deploy previews, caching headers)
 - **Styling**: `src/styles/tailwind.css`, `tailwind.config.js`, `src/styles/theme.css`
 
 ## Contributing
