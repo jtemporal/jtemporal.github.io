@@ -13,7 +13,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 - [Apple Mac Mini 2023](https://amzn.to/3sdZvcD).
 - [NuPhy Air65 V3]() - I like small low-profile keyboards ¯\\\_(ツ)\_/¯.
-- [Apple Magic Keyboard with Touch ID](https://amzn.to/4emtQsP) - Using for work because of touch ID
+- [Apple Magic Keyboard with Touch ID]() - Using for work because of touch ID
 - [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands.
 - [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
 - [Dell Thunderbolt Dock](https://amzn.to/45c2l0h) - To connect almost all the things.
@@ -22,10 +22,10 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 ## Recording or Streaming
 
-- [Insta360 Link](https://amzn.to/3VEyk74) - Best webcam!
+- [Insta360 Link]() - Best webcam!
 - [Insta360 Luna Ultra]() - Flagship dual-lens gimbal camera for video.
 - [Elgato Key Light](https://amzn.to/45uh8Da) - I have two of these, (pro-tip my husband has 2 of the [Elgato Key Light Air](https://amzn.to/44erpCx), they work really well).
-- [Elgato Key Light Mini](https://amzn.to/4bWRACb) - Be using this to record video on the go.
+- [Elgato Key Light Mini]() - Be using this to record video on the go.
 - [Stream Deck XL](https://amzn.to/3skuTWC) - Everything to control at the press of a button.
 - [Elgato Green Screen Collapsible](https://amzn.to/45QdkMX) - For the days your background is messy.
 - [Elgato Wave Panel](https://amzn.to/3E5azLu) - To avoid echoes.
