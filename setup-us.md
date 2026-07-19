@@ -33,7 +33,6 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Shure MV7 USB Microphone](https://amzn.to/3QJ7ecJ) - to get that crispy sound.
 - [Elgato Prompter](https://amzn.to/4pzUjJK) - Because sometimes it is necessary.
 - [Insta360 Mic Pro](https://amzn.to/4wQbhpm) - Wireless mic for on-the-go recording.
-- [OBS Studio](https://obsproject.com).
 - [DJI OM 5](https://amzn.to/3E8GNFH) - Gimbal stabilizer for phones.
 - [DJI Mic](https://amzn.to/44mmD5N) - Wireless lavalier mic and a whole kit for you to record from anywhere.
 
@@ -90,6 +89,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 
 ## Retired tech
 
+- [OBS Studio](https://obsproject.com) - No longer my daily recording/streaming tool.
 - [NuPhy Air60 Wireless Mechanical Keyboard](https://amzn.to/3DWtfNL) - Replaced by the Air65 V3.
 - [Logitech MX Keys Mini Keyboard](https://amzn.to/3P3dmeA) - Retired secondary keyboard.
 - [Desview T3 Teleprompter](https://amzn.to/3KJPcn1) - Upgraded to the Elgato Prompter.
