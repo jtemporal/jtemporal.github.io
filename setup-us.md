@@ -97,3 +97,7 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [Elgato Camlink](https://amzn.to/3YCNJnY) - Capture card to use DSLR cameras as webcams.
 - [Apple Airpods Max](https://amzn.to/44asLy1). - I still use this while traveling but I'm looking for new over the ear headphones/
 - [Apple Airpods Second Gen](https://amzn.to/3E5qbP6). - New Airpods Pro are ruling now
+
+---
+
+*Disclosure: I'm an Amazon affiliate. If you buy through the links on this page, I may earn a small commission at no extra cost to you.*
