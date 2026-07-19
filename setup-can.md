@@ -1,40 +1,37 @@
 ---
-layout: default
-title: Setup 🇨🇦
+layout: page
+title: All the things 🇨🇦
 description: All things I use on a daily basis
 image: /images/logo.webp
 permalink: "/setup-can/"
 lang: en
-
 ---
-
-# All the things 🇨🇦
 
 Wondering what **software or hardware** I use? Well, here’s the answer.
 
 ## Desk
 
 - [Apple Mac Mini 2023](https://amzn.to/3sdZvcD).
-- [NuPhy Air60 Wireless Mechanical Keyboard](https://nuphy.com/collections/keyboards/products/air60?variant=39620737663085) - I like small low-profile keyboards ¯\\\_(ツ)\_/¯.
-- [Logitech MX Keys Mini Keyboard](https://amzn.to/47FaFHp) - My secondary keyboard.
+- [NuPhy Air65 V3]() - I like small low-profile keyboards ¯\\\_(ツ)\_/¯.
+- [Apple Magic Keyboard with Touch ID](https://amzn.to/4emtQsP) - Using for work because of touch ID
 - [Logitech MX Anywhere 3](https://amzn.to/47DokP4) - perfect for small hands.
 - [Flexispot E7 Pro](https://www.flexispot.ca/flexispot-best-standing-desk-e7pro) - Standing desk.
 - [Dell Thunderbolt Dock](https://amzn.to/45c2l0h) - To connect almost all the things.
 - [Dell U3421WE Ultrasharp](https://amzn.to/3sdgjAu) - Monitor.
-- [Apple Airpods Max](https://amzn.to/45dZ1S7).
-- [Apple Airpods Second Gen](https://amzn.to/44jC2DT).
+- [Apple AirPods Pro (3rd Gen)]() - these taken over even the max on my daily use.
 
 ## Recording or Streaming
 
-- [Canon EOS REBEL SL3](https://amzn.to/3qwVf7x) - Best full camera in my humble opinion.
-- [Elgato Camlink](https://amzn.to/3DYe5HN) - Capture card to use DSLR cameras as webcams.
+- [Insta360 Link](https://amzn.to/3VEyk74) - Best webcam!
+- [Insta360 Luna Ultra]() - Flagship dual-lens gimbal camera for video.
 - [Elgato Key Light](https://amzn.to/45uh8Da) - I have two of these, (pro-tip my husband has 2 of the [Elgato Key Light Air](https://amzn.to/44erpCx), they work really well).
+- [Elgato Key Light Mini](https://amzn.to/4bWRACb) - Be using this to record video on the go.
 - [Stream Deck XL](https://amzn.to/3skuTWC) - Everything to control at the press of a button.
 - [Elgato Green Screen Collapsible](https://amzn.to/45QdkMX) - For the days your background is messy.
 - [Elgato Wave Panel](https://amzn.to/3E5azLu) - To avoid echoes.
 - [Elgato Mic Arm LP](https://amzn.to/3E5azLu) - So my mic doesn't show up on camera.
 - [Shure MV7 USB Microphone](https://amzn.to/45xD5kU) - to get that crispy sound.
-- [Desview T3 Teleprompter](https://amzn.to/3YTWZod) - Because sometimes it is necessary.
+- [Elgato Prompter]() - Because sometimes it is necessary.
 - [OBS Studio](https://obsproject.com).
 - [Dji OM 5](https://amzn.to/47DlKIT) - Gimbal stabilizer for phones.
 - [DJI Mic](https://amzn.to/45lTBVq) - Wireless lavier mic and a whole kit for you to record from anywhere.
@@ -50,12 +47,10 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 ## Apps and Software
 
 - [1Password](https://1password.com/) - Passwords suck but having a manager help.
-- [Grammarly](https://grammarly.com/) - My favourite English reviewer/editor/supervisor in one place.
 - [Notion](https://www.notion.so/) - Where I take all the notes and write all the things.
 - [Teleprompter App](https://apps.apple.com/br/app/teleprompter-premium/id1533078079)
 - [Airalo](https://ref.airalo.com/a1bF) - For eSIMs when traveling.
 - [Procreate](https://procreate.com/) - For drawing (especially [GitFichas](https://gitfichas.com/en)).
-- [Notability](https://notability.com/) - For digital note taking.
 
 ## Services
 
@@ -91,3 +86,13 @@ Wondering what **software or hardware** I use? Well, here’s the answer.
 - [LED Panel Pixoo](https://amzn.to/3qzuvmQ).
 - [Nanoleaf Shapes Hexagons](https://amzn.to/3sfhak5).
 - [Elgato Light Strip](https://amzn.to/3KMfi8G).
+
+## Retired tech
+
+- [NuPhy Air60 Wireless Mechanical Keyboard](https://nuphy.com/collections/keyboards/products/air60?variant=39620737663085) - Replaced by the Air65 V3.
+- [Logitech MX Keys Mini Keyboard](https://amzn.to/47FaFHp) - Retired secondary keyboard.
+- [Desview T3 Teleprompter](https://amzn.to/3YTWZod) - Upgraded to the Elgato Prompter.
+- [Canon EOS REBEL SL3](https://amzn.to/3qwVf7x) - Best full camera in my humble opinion.
+- [Elgato Camlink](https://amzn.to/3DYe5HN) - Capture card to use DSLR cameras as webcams.
+- [Apple Airpods Max](https://amzn.to/45dZ1S7). - I still use this while traveling but I'm looking for new over the ear headphones/
+- [Apple Airpods Second Gen](https://amzn.to/44jC2DT). - New Airpods Pro are ruling now
