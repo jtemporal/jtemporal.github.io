@@ -42,8 +42,7 @@
     @apply font-display;
   }
 
-  em,
-  i,
+  /* Material Symbols use font-style: normal; body copy keeps browser italics for em/i. */
   cite {
     font-style: normal;
   }
