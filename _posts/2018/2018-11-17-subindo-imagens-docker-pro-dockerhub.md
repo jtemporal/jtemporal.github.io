@@ -17,6 +17,10 @@ tags:
 - conteiner
 - conteiners
 comments: true
+last_modified_at: 2026-07-26
+translations:
+- lang: en
+  url: /uploading-docker-images-to-dockerhub
 ---
 
 Já achou mágico aquelas imagens pros containers docker que qualquer um pode usar e já pensou em fazer uma mas não sabe como? Vem que eu te ensino 😉
@@ -39,7 +43,7 @@ Agora vamos fazer o build da nossa imagem:
 <i>docker build -t sum .</i>
 </center>
 
-Aqui usamos o parâmetro `-t` para dar nome à nossa imagem. Depois de fazer o build podemos conferir a imagem na nossa lista de imagens disponíveis localmente: 
+Aqui usamos o parâmetro `-t` para dar nome à nossa imagem. Depois de fazer o build podemos conferir a imagem na nossa lista de imagens disponíveis localmente:
 
 ![listagem de imagens antes do tag](https://raw.githubusercontent.com/jtemporal/autom-dockerhub-example/master/gifs/docker-images-before-tag.gif)
 <center>
