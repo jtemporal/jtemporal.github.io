@@ -19,6 +19,10 @@ posts_list:
 - usando-git-stash-e-git-stash-pop
 - para-que-serve-o-git-stash-drop
 - resolvendo-conflitos
+last_modified_at: 2026-07-26
+translations:
+- lang: en
+  url: /understand-the-difference-between-git-stash-apply-and-git-stash-pop
 
 ---
 Você pode saber criar seus stashes, listar eles e tudo mais, mas na hora de voltar a usar o trabalho salvo em um stash sempre rola aquela dúvida: “_apply ou pop? Eis a questão_”. E essa dúvida é muito normal já que ambos tem um funcionamento parecido, ambos aplicam as mudanças guardadas em um stash.
