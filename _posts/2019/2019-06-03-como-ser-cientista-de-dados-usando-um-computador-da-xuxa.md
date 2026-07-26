@@ -24,6 +24,10 @@ tags:
 comments: true
 description: 'A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter
   Notebooks na nuvem'
+last_modified_at: 2026-07-26
+translations:
+- lang: en
+  url: /how-to-be-a-data-scientist-using-less-than-4gb-ram
 
 ---
 #### A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter Notebooks na nuvem? Vaaamoooss!!!
