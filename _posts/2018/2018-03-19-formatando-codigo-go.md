@@ -13,6 +13,10 @@ tags:
 - português
 lang: pt
 comments: true
+last_modified_at: 2026-07-26
+translations:
+- lang: en
+  url: /using-go-to-format-go-code
 ---
 
 Coisa linda de se ver é usar um formatador de código, principalmente quando você tem preguiça de ficar formatando coisas ou quando você está preocupada em aprender a sintaxe de uma nova linguagem e ainda não pegou o jeito com o estilo de código.
