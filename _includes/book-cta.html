@@ -1,7 +1,7 @@
 {% if page.gumroad %}
 <section class="mt-section-gap-lg flex flex-col items-center justify-between gap-gutter border border-secondary-fixed bg-surface-container-low p-12 font-sans dark:border-outline dark:bg-inverse-surface md:flex-row">
   <div>
-    <h3 class="font-display text-headline-md text-on-surface dark:text-inverse-on-surface">{{ page.cta_heading | default: page.title }}</h3>
+    <h2 class="font-display text-headline-md text-on-surface dark:text-inverse-on-surface">{{ page.cta_heading | default: page.title }}</h2>
     <p class="mt-2 font-sans text-body-md text-secondary dark:text-inverse-on-surface/70">{{ page.cta_description | default: page.description }}</p>
   </div>
   <div class="not-prose flex flex-col items-center gap-3">

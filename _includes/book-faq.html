@@ -7,9 +7,9 @@
     {% for item in page.faq %}
     <div class="border-b border-secondary-fixed pb-8 dark:border-outline">
       {% if item.label %}
-      <h4 class="mb-2 font-sans text-label-md font-medium uppercase tracking-wide text-primary">{{ item.label }}</h4>
+      <p class="mb-2 font-sans text-label-md font-medium uppercase tracking-wide text-primary">{{ item.label }}</p>
       {% endif %}
-      <p class="font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ item.question }}</p>
+      <h3 class="font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ item.question }}</h3>
       <p class="mt-4 font-sans text-body-md text-secondary dark:text-inverse-on-surface/70">{{ item.answer }}</p>
     </div>
     {% endfor %}

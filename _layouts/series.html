@@ -30,9 +30,9 @@ layout: default
         <div class="mt-8 space-y-6">
           {% for post in series_posts %}
             <div class="ink-card-hover rounded-2xl border border-outline-variant p-6 dark:border-outline">
-              <h3 class="font-display text-headline-sm">
+              <h2 class="font-display text-headline-sm">
                 <a class="text-on-surface transition-colors hover:text-primary dark:text-inverse-on-surface dark:hover:text-inverse-primary" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-              </h3>
+              </h2>
               {% if post.description %}
                 <p class="mt-2 text-on-surface-variant dark:text-inverse-on-surface/70">{{ post.description }}</p>
               {% else %}

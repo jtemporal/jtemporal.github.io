@@ -4,7 +4,7 @@
 
 <div class="rounded-2xl border border-outline-variant bg-surface-container-low p-6 dark:border-outline dark:bg-inverse-surface">
   {% if page.related %}
-    <h3 class="mb-4 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ related_articles_title }}</h3>
+    <h2 class="mb-4 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ related_articles_title }}</h2>
     {% assign related_post_list = page.posts_list | join: ',' | split: ',' %}
     <ul class="space-y-3">
       {% for related_post in related_post_list %}
@@ -20,7 +20,7 @@
       {% endfor %}
     </ul>
   {% else %}
-    <h3 class="mb-4 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ recent_articles_title }}</h3>
+    <h2 class="mb-4 font-display text-headline-sm text-on-surface dark:text-inverse-on-surface">{{ recent_articles_title }}</h2>
     <ul class="space-y-3">
       {% for post in site.posts limit:3 %}
         <li>

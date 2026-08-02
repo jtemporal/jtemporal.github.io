@@ -6,9 +6,9 @@
     {% include post-tag-banner.html post=post %}
     <div class="flex flex-1 flex-col justify-between p-6">
       <div>
-        <h3 class="font-display text-headline-sm leading-tight text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
+        <h2 class="font-display text-headline-sm leading-tight text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
           {{ post.title }}
-        </h3>
+        </h2>
         <p class="mt-2 font-label text-label-sm uppercase tracking-wider text-on-surface-variant">
           {{ post.date | date: "%b %-d, %Y" }}
         </p>
