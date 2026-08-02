@@ -17,13 +17,16 @@ image: "/images/logo.webp"
   </div>
 
   {% if paginator.total_pages > 1 %}
+    {% include language-detection.html %}
+    {% assign prev_label = site.languages[current_lang].text.previous_page | default: "Previous page" %}
+    {% assign next_label = site.languages[current_lang].text.next_page | default: "Next page" %}
     <nav class="mt-16 flex items-center justify-center gap-4" aria-label="Pagination">
       {% if paginator.previous_page %}
-        <a class="rounded-full border border-outline-variant px-4 py-2 font-label text-sm transition-colors hover:border-primary hover:text-primary dark:border-outline" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>
+        <a class="rounded-full border border-outline-variant px-4 py-2 font-label text-sm transition-colors hover:border-primary hover:text-primary dark:border-outline" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="{{ prev_label }}">{{ prev_label }}</a>
       {% endif %}
       <span class="font-label text-sm text-on-surface-variant">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
-        <a class="rounded-full border border-outline-variant px-4 py-2 font-label text-sm transition-colors hover:border-primary hover:text-primary dark:border-outline" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+        <a class="rounded-full border border-outline-variant px-4 py-2 font-label text-sm transition-colors hover:border-primary hover:text-primary dark:border-outline" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="{{ next_label }}">{{ next_label }}</a>
       {% endif %}
     </nav>
   {% endif %}

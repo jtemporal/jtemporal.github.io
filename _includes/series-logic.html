@@ -48,9 +48,9 @@
 
       <article class="group overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy transition-all duration-500 hover:-translate-y-1 hover:shadow-xl dark:border-outline dark:bg-inverse-surface">
         <a class="block p-6 no-underline" href="{{ series_base }}/{{ series | slugify }}/">
-          <h3 class="font-display text-headline-sm text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
+          <h2 class="font-display text-headline-sm text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
             {{ series }}
-          </h3>
+          </h2>
           <p class="mt-2 font-label text-label-sm uppercase tracking-wider text-on-surface-variant">
             {% if current_lang == "en" %}{{ series_posts.size }} posts in this series{% else %}{{ series_posts.size }} posts nesta série{% endif %}
           </p>

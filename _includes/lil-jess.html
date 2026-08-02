@@ -35,6 +35,9 @@
 
   #lil-jess .lj-char {
     position: relative;
+    /* 48px minimum touch target; visual stays the 76px avatar. */
+    min-width: 48px;
+    min-height: 48px;
     width: 76px;
     height: 76px;
     padding: 0;
@@ -69,19 +72,25 @@
     100% { transform: translateY(0) scale(1); }
   }
 
-  /* Anchored to the character so it leaves with her on dismiss. */
+  /*
+    Dismiss control: 44×44 hit target (WCAG 2.5.5 / Lighthouse),
+    placed above the avatar with ≥8px gap so targets don't collide.
+  */
   #lil-jess .lj-close {
     position: absolute;
-    /* .lj-char is 76px; pin the ✕ to its top-right corner. */
-    bottom: calc(76px - 0.25rem);
-    right: -0.25rem;
-    width: 22px;
-    height: 22px;
+    bottom: calc(76px + 10px);
+    right: 0;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
     border: none;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.55);
     color: #fff;
-    font-size: 13px;
+    font-size: 22px;
     line-height: 1;
     cursor: pointer;
     opacity: 0;
@@ -92,9 +101,14 @@
   #lil-jess.lj-in .lj-close { transform: translateY(0); }
   #lil-jess.lj-in:hover .lj-close,
   #lil-jess.lj-in:focus-within .lj-close { opacity: 1; }
+  #lil-jess .lj-close:focus-visible {
+    opacity: 1;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
   /* Touch screens have no hover — keep the dismiss button visible while she's in. */
   @media (hover: none) {
-    #lil-jess.lj-in .lj-close { opacity: 0.85; }
+    #lil-jess.lj-in .lj-close { opacity: 0.9; }
   }
 
   #lil-jess .lj-confetti {

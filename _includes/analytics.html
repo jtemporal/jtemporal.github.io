@@ -1,7 +1,35 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.ga4_id }}');
+  (function () {
+    var loaded = false;
+    function loadGA4() {
+      if (loaded) return;
+      loaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}';
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', '{{ site.ga4_id }}');
+    }
+
+    // Defer GA until the browser is idle, first interaction, or a short timeout.
+    // Keeps analytics without competing with first paint / main-thread work.
+    function schedule() {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadGA4, { timeout: 4000 });
+      } else {
+        window.addEventListener('load', function () {
+          setTimeout(loadGA4, 2000);
+        });
+      }
+    }
+
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (evt) {
+      window.addEventListener(evt, loadGA4, { once: true, passive: true });
+    });
+    schedule();
+  })();
 </script>

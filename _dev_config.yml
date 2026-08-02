@@ -32,7 +32,7 @@ built-by:
 
 copyright:
    name: Jessica Temporal
-   link: 'https://jtemporal.com'
+   link: '/'
 
 # Build settings
 markdown: kramdown
@@ -55,23 +55,27 @@ languages:
     locale: "en_US"
     url: "/en/"
     text:
-      know_more_button: "Learn more"
+      know_more_button: "About the book"
       buy_button: "Buy on"
       recent_articles_title: "Recent Articles"
       related_articles_title: "Related Articles"
       author_note_title: "Author Note"
+      previous_page: "Previous page"
+      next_page: "Next page"
   pt:
     flag: "🇧🇷"
-    name: "Português" 
+    name: "Português"
     code: "pt"
     locale: "pt_BR"
     url: "/pt/"
     text:
-      know_more_button: "Saiba mais"
+      know_more_button: "Sobre o livro"
       buy_button: "Compre na"
       recent_articles_title: "Artigos recentes"
       related_articles_title: "Artigos relacionados"
       author_note_title: "Nota da autora"
+      previous_page: "Página anterior"
+      next_page: "Próxima página"
 
 # Default language
 default_language: en

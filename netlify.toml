@@ -42,14 +42,29 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-XSS-Protection = "1; mode=block"
 
-# Enable compression for HTML, CSS, JS
+# HTML/pages: short revalidate cache. Clean URLs (no .html) need an explicit rule.
 [[headers]]
   for = "*.html"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
+
+[[headers]]
+  for = "/page*"
+  [headers.values]
+    Cache-Control = "public, max-age=600, must-revalidate"
 
 [[headers]]
   for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
@@ -62,6 +77,16 @@
   for = "*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=7776000"
 
 [[headers]]
   for = "/favicon.ico"

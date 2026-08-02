@@ -9,7 +9,7 @@
 <div class="relative group">
 <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary to-primary-fixed-dim opacity-10 blur transition duration-500 group-hover:opacity-20"></div>
 <a href="{{ item.permalink | relative_url }}" class="relative block rounded-2xl border border-outline-variant bg-surface-container-lowest p-3 shadow-lg dark:border-outline dark:bg-inverse-surface">
-<img class="w-full max-w-[400px] rounded-xl" src="{{ item.book_cover_ipad | relative_url }}" alt="{{ item.book_cover_ipad_alt }}">
+<img class="w-full max-w-[400px] rounded-xl" src="{{ item.book_cover_ipad | relative_url }}" alt="{{ item.book_cover_ipad_alt }}" loading="lazy" decoding="async" width="400" height="300">
 </a>
 </div>
 </div>

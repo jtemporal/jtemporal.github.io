@@ -13,7 +13,7 @@ book_cover_ipad_alt: Capa do 'O Grande Micro Livro de Git' sendo mostrada num ip
 image: /images/livros/microlivro-banner.webp
 permalink: /microlivrodegit/
 purchase_button: Compre na
-know_more_button: Saiba mais
+know_more_button: Sobre o livro
 gumroad: https://jessicatemporal.gumroad.com/l/microlivrodegit?wanted=true
 amazon: https://amzn.to/3SETpx4
 translations:
