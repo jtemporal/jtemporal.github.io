@@ -13,7 +13,7 @@ book_cover_ipad_alt: Cover from 'The Big Git Microbook' being shown in an iPad
 image: /images/books/git-microbook-banner.webp
 permalink: /gitmicrobook/
 purchase_button: Buy on
-know_more_button: Learn more
+know_more_button: About the book
 gumroad: https://jessicatemporal.gumroad.com/l/gitmicrobook?wanted=true
 amazon: https://www.amazon.com/dp/B0CDNX6NS7/ref=sr_1_1?&_encoding=UTF8&tag=jesstempora0e-20&linkCode=ur2&linkId=efc4229f6b816609dfce4f185781d99a&camp=1789&creative=9325
 translations:

@@ -21,7 +21,7 @@
       <p class="mt-4 font-sans text-body-md text-secondary-fixed-dim">{{ page.bonus_chapter.description }}</p>
       {% if page.bonus_chapter.url %}
       <a class="mt-8 flex items-center gap-2 font-sans text-label-md font-medium uppercase tracking-wide text-tertiary-fixed no-underline transition-colors hover:text-tertiary-fixed-dim" href="{{ page.bonus_chapter.url }}">
-        {{ page.bonus_chapter.link_text | default: "Learn more" }}
+        {{ page.bonus_chapter.link_text | default: page.bonus_chapter.title }}
         <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_right_alt</span>
       </a>
       {% endif %}

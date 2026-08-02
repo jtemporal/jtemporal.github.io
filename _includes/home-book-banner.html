@@ -1,7 +1,11 @@
 {% include language-detection.html %}
 {% assign book = site.banner_books[current_lang].book %}
 {% assign buy = site.languages[current_lang].text.buy_button %}
-{% assign knw_btn = site.languages[current_lang].text.know_more_button %}
+{% if current_lang == "en" %}
+  {% assign knw_btn = "About " | append: book.title %}
+{% else %}
+  {% assign knw_btn = "Sobre " | append: book.title %}
+{% endif %}
 
 <section class="border-t border-outline-variant bg-surface-container-low py-24 dark:border-outline dark:bg-background-dark">
   <div class="site-container">
