@@ -26,6 +26,12 @@ type: post
 
 Como tudo que fazemos em git pode ser feito de inúmeras formas diferentes, existem alguns jeitos de se livrar de commits, a forma mais comum de desfazer um ou mais commits recentes é usando o comando `git reset` que vou te mostrar nessa colinha.
 
+Prefere assistir? Aqui vai um vídeo sobre o mesmo tema:
+
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## O que é o HEAD?
 
 O `HEAD` é um ponteiro que indica qual branch e commit você está. Ele é usado com frequência e muitas vezes sem você mesmo saber que ele é acessado para trocar de branches por exemplo.

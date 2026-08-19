@@ -28,6 +28,12 @@ author_note: false
 ---
 There are a number of ways of undoing commits in this pro-tip you will learn how to use `git revert` to undo commits specially when they already been published.
 
+Prefer watching? Here’s a walkthrough of the same topic:
+
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## What is git revert?
 
 `git revert` is a command that will undo a change in a commit by performing two actions:

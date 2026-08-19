@@ -29,6 +29,12 @@ author_note: true
 
 Since everything we do in git can be done in countless different ways, there are a few ways to get rid of commits. The most common way to undo one or more recent commits is using the command `git reset` that you'll see in this pro tip.
 
+Prefer watching? Here’s a walkthrough of the same topic:
+
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## What is the HEAD?
 
 `HEAD` is a pointer that indicates which branch and commit you’re on. It is used frequently, and often without you even knowing it. For example, did you know the `HEAD` is used to switch branches?
