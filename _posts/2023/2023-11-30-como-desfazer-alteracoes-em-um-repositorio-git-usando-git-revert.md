@@ -29,6 +29,12 @@ author_note: false
 
 Existem várias maneiras de desfazer commits. Nesta colinha, você vai aprender como usar o `git revert` para desfazer commits, especialmente quando eles já foram publicados.
 
+Prefere assistir? Aqui vai um vídeo sobre o mesmo tema:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## O que é git revert?
 
 `git revert` é um comando que desfaz uma alteração de um commit executando duas ações:
