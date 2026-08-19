@@ -29,7 +29,7 @@ Você talvez já saiba como usar `git revert` para reverter um único commit, ma
 Prefere assistir? Aqui vai um vídeo sobre o mesmo tema:
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
 ## Revertendo um commit
