@@ -26,6 +26,12 @@ translations:
 
 Você talvez já saiba como usar `git revert` para reverter um único commit, mas você também pode reverter um intervalo de commits com um único comando. Nesta dica rápida, você vai aprender como.
 
+Prefere assistir? Aqui vai um vídeo sobre o mesmo tema:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## Revertendo um commit
 
 Você pode desfazer as mudanças de um commit específico criando um novo commit com `git revert`, passando o hash do commit:
