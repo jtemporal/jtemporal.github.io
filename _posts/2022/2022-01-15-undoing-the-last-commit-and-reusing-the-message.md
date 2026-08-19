@@ -36,6 +36,12 @@ Undoing and redoing commits is part of everyday life, so it is important to unde
 
 With these two commands in your repertoire of Git commands, you will be way happier. 😉
 
+Prefer watching? Here’s a walkthrough of the same topic:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## Creating the scenario
 
 I talked about the command [`git reset` in this other pro tip](https://jtemporal.com/undoing-the-last-commits-using-git-reset). In a nutshell, it is a command that allows you to return to a previous state. The most basic use of this command is to use it to undo one or more of the most recent commits. With that, let's assume you're in the following situation (interestingly I went through this last Friday):
