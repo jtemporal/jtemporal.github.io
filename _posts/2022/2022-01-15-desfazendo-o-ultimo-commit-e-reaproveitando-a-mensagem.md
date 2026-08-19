@@ -34,6 +34,12 @@ Desfazer e refazer commits faz parte do dia a dia, então é importante entender
 
 Com esses dois comandos no seu repertório de comandos Git você será muito mais feliz. 😉
 
+Prefere assistir? Aqui vai um vídeo sobre o mesmo tema:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## Criando o cenário
 
 Eu falei sobre o comando [`git reset` nesta outra colinha](https://jtemporal.com/desfazendo-um-ou-mais-commits), em resumo ele é um comando que permite retornar à um estado anterior. O uso mais básico deste comando é usá-lo para desfazer um ou mais commits dos mais recentes. Com isso, vamos supor que você está na seguinte situação (curiosamente eu passei por isso na última sexta):
