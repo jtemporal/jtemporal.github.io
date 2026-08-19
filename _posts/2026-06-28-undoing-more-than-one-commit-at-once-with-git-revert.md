@@ -26,6 +26,12 @@ translations:
 
 You may already know how to use `git revert` to reverse a single commit, but you can also revert a range of commits with a single command. In this pro tip, you'll learn how.
 
+Prefer watching? Here’s a walkthrough of the same topic:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## Reverting one commit
 
 You can reverse the changes in a given commit by creating a new commit with `git revert`, passing the commit hash:
