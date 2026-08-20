@@ -34,8 +34,8 @@ Because stash works in the fashion of a stack, the last one in is always the fir
 
 Want the full stash workflow (pop, apply, and drop)? I covered it here: [Using git stash: pop, apply, and drop](/using-git-stash-and-git-stash-pop/)
 
-<div class="video-embed">
-<iframe src="https://www.youtube.com/embed/0c9d5e8NgH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/0c9d5e8NgH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 Follow along for more git tips like this!

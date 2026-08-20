@@ -32,8 +32,8 @@ It creates a real commit for you, but without any changes in it. Think of it lik
 
 Want the full write-up? I covered empty commits for GitHub Pages rebuilds here: [Using empty commits to rebuild GitHub Pages websites](/force-rebuild-jekyll-en/)
 
-<div class="video-embed">
-<iframe src="https://www.youtube.com/embed/qvALqmgTiN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/qvALqmgTiN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 Follow along for more git tips like this!

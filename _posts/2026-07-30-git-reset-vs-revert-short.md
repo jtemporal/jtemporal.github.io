@@ -31,8 +31,8 @@ Rule of thumb: if you pushed it, revert. If it's still local, reset.
 
 Want the full breakdown (soft / mixed / hard reset, revert by hash, and the reflog safety net)? Watch the full video: [Undo Anything in Git](/undo-anything-in-git-reset-vs-revert/)
 
-<div class="video-embed">
-<iframe src="https://www.youtube.com/embed/tEjXP1m6gJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/tEjXP1m6gJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 Follow along for more git tips like this!
