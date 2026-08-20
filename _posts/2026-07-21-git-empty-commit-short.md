@@ -16,7 +16,6 @@ description: Need to force a rebuild of your GitHub Pages site? Create an empty 
 related: true
 posts_list:
 - force-rebuild-jekyll-en
-- using-empty-commits-to-rebuild-github-pages-websites
 ---
 
 Normally, Git doesn't let you just commit nothing. But if you use the `--allow-empty` flag, it will.
@@ -33,8 +32,8 @@ It creates a real commit for you, but without any changes in it. Think of it lik
 
 Want the full write-up? I covered empty commits for GitHub Pages rebuilds here: [Using empty commits to rebuild GitHub Pages websites](/force-rebuild-jekyll-en/)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qvALqmgTiN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/qvALqmgTiN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Follow along for more git tips like this!

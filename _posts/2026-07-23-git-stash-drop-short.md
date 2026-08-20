@@ -36,8 +36,8 @@ If you don't pass an index, it drops the most recent one (`stash@{0}`).
 
 Want the full explanation with examples? I covered it here: [Learn why the command git stash drop is useful](/why-the-git-stash-drop-is-useful/)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LJFSLq_NnYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/LJFSLq_NnYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Follow along for more git tips like this!

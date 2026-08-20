@@ -42,8 +42,8 @@ The one rule with this command is that you always want to name the three branche
 
 Want the full walkthrough with diagrams? I covered it here: [Fixing the branch source with git rebase](/fixing-the-branch-source-with-git-rebase/)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gonfHBYurhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
+<div class="video-embed">
+<iframe src="https://www.youtube.com/embed/gonfHBYurhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Follow along for more git tips like this!
