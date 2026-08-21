@@ -15,6 +15,24 @@ Also referenced from:
 - Use `--future` when previewing posts dated in the future.
 - Create PRs with: `gh pr create --repo jtemporal/jtemporal.github.io` (not the default upstream).
 
+### Commit authorship (AI agents)
+
+When an AI agent (Grok, Claude, Cursor, Copilot, etc.) creates commits, always include a `Co-authored-by` trailer so GitHub shows the collaboration:
+
+```
+Co-authored-by: Grok <grok@x.ai>
+```
+
+(or the equivalent identity for the other agent).
+
+**How to add it:**
+
+```bash
+git commit -m "Your commit message" --trailer "Co-authored-by: Grok <grok@x.ai>"
+```
+
+You can also put the trailer in the commit message body (after a blank line). This makes the commit appear as a joint effort between the author and the agent.
+
 ## Hidden YouTube short posts
 
 These posts syndicate video transcripts to Medium and/or [dev.to](https://dev.to). They are **not** meant to appear on the public blog index.
@@ -130,7 +148,7 @@ Generate the OG social card first (see **OG social cards** below), then commit a
 ```bash
 npm run og:generate -- _posts/YYYY-MM-DD-<slug>-short.md
 git add _posts/YYYY-MM-DD-<slug>-short.md images/og/<slug>.png
-git commit -m "Add hidden <topic> short video transcript post"
+git commit -m "Add hidden <topic> short video transcript post" --trailer "Co-authored-by: Grok <grok@x.ai>"
 git push -u origin hidden-post-<slug>
 gh pr create --repo jtemporal/jtemporal.github.io \
   --head hidden-post-<slug> --base main \
