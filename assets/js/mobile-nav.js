@@ -6,21 +6,32 @@
 
   function setMenuOpen(open) {
     if (!toggle || !menu) return;
+    // Tailwind class controls visibility
     menu.classList.toggle('hidden', !open);
+    // Keep native hidden attribute in sync for a11y / screen readers
     if (open) {
       menu.removeAttribute('hidden');
     } else {
       menu.setAttribute('hidden', '');
     }
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    // Update the icon for clearer affordance
+    const icon = toggle.querySelector('.material-symbols-outlined');
+    if (icon) {
+      icon.textContent = open ? 'close' : 'menu';
+    }
   }
 
   if (toggle && menu) {
-    // Keep HTML hidden attribute in sync with the Tailwind "hidden" class.
+    // Ensure closed state on load (sync class + attribute)
     setMenuOpen(false);
 
-    toggle.addEventListener('click', function () {
-      setMenuOpen(menu.hasAttribute('hidden'));
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      // Prefer classList (what actually drives the visual) over the attribute
+      const currentlyHidden = menu.classList.contains('hidden');
+      setMenuOpen(currentlyHidden);
     });
   }
 
@@ -32,7 +43,8 @@
 
     setLangOpen(false);
 
-    langToggle.addEventListener('click', function () {
+    langToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
       setLangOpen(langMenu.classList.contains('hidden'));
     });
 
