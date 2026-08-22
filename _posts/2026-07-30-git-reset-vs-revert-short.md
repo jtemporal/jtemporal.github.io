@@ -12,7 +12,7 @@ tags:
 - git
 - pro_tip
 - short
-description: Reset and revert both undo commits, but they are for different situations. Ask one question: did you already push?
+description: "Reset and revert both undo commits, but they are for different situations. Ask one question: did you already push?"
 related: true
 posts_list:
 - undoing-more-than-one-commit-at-once-with-git-revert
