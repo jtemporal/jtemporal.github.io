@@ -1,6 +1,7 @@
 ---
 layout: post
 type: video
+hidden: true
 date: 2026-07-30 12:00:00 +00:00
 description: "Learn how to undo any commit in Git with reset, revert, and reflog — without losing your work."
 image: /images/covers/pro_tip.webp
