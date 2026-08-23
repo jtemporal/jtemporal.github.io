@@ -16,9 +16,25 @@
     }
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Toggle navigation');
-    // Intentionally keep the hamburger icon in both states.
-    // Swapping to the Material Symbols "close" glyph was rendering
-    // the literal word CLOSE for some users.
+
+    // Icon: hamburger when closed, plain × when open.
+    // Avoid Material Symbols "close" — it was rendering as the word CLOSE.
+    const icon = toggle.querySelector('.material-symbols-outlined');
+    if (icon) {
+      if (open) {
+        icon.textContent = '\u00D7'; // ×
+        icon.classList.remove('material-symbols-outlined');
+        icon.style.fontSize = '1.5rem';
+        icon.style.lineHeight = '1';
+        icon.style.fontWeight = '300';
+      } else {
+        icon.textContent = 'menu';
+        icon.classList.add('material-symbols-outlined');
+        icon.style.fontSize = '';
+        icon.style.lineHeight = '';
+        icon.style.fontWeight = '';
+      }
+    }
   }
 
   if (toggle && menu) {
