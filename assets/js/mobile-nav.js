@@ -16,24 +16,9 @@
     }
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Toggle navigation');
-
-    // Swap Material Symbols icon (ligature). Use 'close' only when the
-    // font is available; fall back to a simple × character so we never
-    // show the raw word "CLOSE".
-    const icon = toggle.querySelector('.material-symbols-outlined');
-    if (icon) {
-      if (open) {
-        // Prefer the symbol glyph; if font fails, × still looks fine
-        icon.textContent = 'close';
-        // Ensure ligatures aren't broken by text-transform
-        icon.style.textTransform = 'none';
-        icon.style.fontFeatureSettings = '"liga"';
-      } else {
-        icon.textContent = 'menu';
-        icon.style.textTransform = '';
-        icon.style.fontFeatureSettings = '';
-      }
-    }
+    // Intentionally keep the hamburger icon in both states.
+    // Swapping to the Material Symbols "close" glyph was rendering
+    // the literal word CLOSE for some users.
   }
 
   if (toggle && menu) {
