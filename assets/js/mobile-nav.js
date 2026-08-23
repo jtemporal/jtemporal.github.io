@@ -17,7 +17,6 @@
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Toggle navigation');
 
-    // Two dedicated icons — only visibility changes, never textContent/class.
     const iconMenu = toggle.querySelector('[data-nav-icon="menu"]');
     const iconClose = toggle.querySelector('[data-nav-icon="close"]');
     if (iconMenu && iconClose) {
@@ -32,8 +31,11 @@
     toggle.addEventListener('click', function (e) {
       e.preventDefault();
       e.stopPropagation();
-      const currentlyHidden = menu.classList.contains('hidden');
-      setMenuOpen(currentlyHidden);
+      setMenuOpen(menu.classList.contains('hidden'));
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setMenuOpen(false);
     });
   }
 
