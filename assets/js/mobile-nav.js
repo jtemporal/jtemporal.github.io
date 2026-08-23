@@ -15,7 +15,10 @@
     }
 
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Toggle navigation');
+
+    const labelOpen = toggle.getAttribute('data-label-open') || 'Close navigation';
+    const labelClosed = toggle.getAttribute('data-label-closed') || 'Toggle navigation';
+    toggle.setAttribute('aria-label', open ? labelOpen : labelClosed);
 
     const iconMenu = toggle.querySelector('[data-nav-icon="menu"]');
     const iconClose = toggle.querySelector('[data-nav-icon="close"]');
