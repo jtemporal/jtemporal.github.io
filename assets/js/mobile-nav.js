@@ -6,21 +6,39 @@
 
   function setMenuOpen(open) {
     if (!toggle || !menu) return;
+
     menu.classList.toggle('hidden', !open);
     if (open) {
       menu.removeAttribute('hidden');
     } else {
       menu.setAttribute('hidden', '');
     }
+
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+
+    const labelOpen = toggle.getAttribute('data-label-open') || 'Close navigation';
+    const labelClosed = toggle.getAttribute('data-label-closed') || 'Toggle navigation';
+    toggle.setAttribute('aria-label', open ? labelOpen : labelClosed);
+
+    const iconMenu = toggle.querySelector('[data-nav-icon="menu"]');
+    const iconClose = toggle.querySelector('[data-nav-icon="close"]');
+    if (iconMenu && iconClose) {
+      iconMenu.classList.toggle('hidden', open);
+      iconClose.classList.toggle('hidden', !open);
+    }
   }
 
   if (toggle && menu) {
-    // Keep HTML hidden attribute in sync with the Tailwind "hidden" class.
     setMenuOpen(false);
 
-    toggle.addEventListener('click', function () {
-      setMenuOpen(menu.hasAttribute('hidden'));
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      setMenuOpen(menu.classList.contains('hidden'));
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setMenuOpen(false);
     });
   }
 
@@ -32,7 +50,8 @@
 
     setLangOpen(false);
 
-    langToggle.addEventListener('click', function () {
+    langToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
       setLangOpen(langMenu.classList.contains('hidden'));
     });
 
