@@ -42,21 +42,21 @@ My socials accounts:
 
 ## Talks
 
-Talks I've given in the past. The links below take you to the raw Markdown content.
+Talks I've given in the past. The links below take you to the Markdown source.
 
-{% for post in site.posts %}{% if post.type == "talk" %}- [{{ post.title }}](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/{{ post.path }})
+{% for post in site.posts %}{% if post.type == "talk" %}- [{{ post.title }}]({{ post.markdown_path | absolute_url }})
 {% endif %}{% endfor %}
 
 ## Videos
 
-Short video transcripts. The links below take you to the raw Markdown content.
+Short video transcripts. The links below take you to the Markdown source.
 
-{% for post in site.posts %}{% if post.type == "video" %}- [{{ post.title }}](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/{{ post.path }})
+{% for post in site.posts %}{% if post.type == "video" %}- [{{ post.title }}]({{ post.markdown_path | absolute_url }})
 {% endif %}{% endfor %}
 
 ## All posts
 
-All of my posts on the blog jtemporal.com. The links below take you to the raw Markdown content.
+All of my posts on the blog jtemporal.com. The links below take you to the Markdown source.
 
-{% for post in site.posts %}{% if post.type == "post" %}- [{{ post.title }}](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/{{ post.path }})
+{% for post in site.posts %}{% if post.type == "post" %}- [{{ post.title }}]({{ post.markdown_path | absolute_url }})
 {% endif %}{% endfor %}
