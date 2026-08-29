@@ -42,6 +42,19 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-XSS-Protection = "1; mode=block"
 
+# LLM markdown copies: not for human indexes, served as markdown
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/*/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    X-Robots-Tag = "noindex, nofollow"
+
 # HTML/pages: short revalidate cache. Clean URLs (no .html) need an explicit rule.
 [[headers]]
   for = "*.html"
