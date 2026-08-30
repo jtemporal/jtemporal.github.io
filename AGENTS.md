@@ -143,6 +143,8 @@ For a **long-form** video, use the same fields except: filename ends in `-video.
 </center>
 ```
 
+The `/videos/` listing uses the YouTube thumbnail automatically from that embed ID (or from optional `youtube_id` / `youtube` frontmatter). Do not generate or commit a list thumbnail. If the embed is missing, the card falls back to the tag banner.
+
 - End with a short follow CTA (match tone of existing shorts or the long-form undo/yarn-stash video posts).
 - Save a copy of the draft in `/Users/jesstemporal/projects/youtube/shorts-hidden-posts/` when that path is available.
 
@@ -201,6 +203,8 @@ Set `type` and `tags` correctly so the card picks the right theme:
 | Talk / podcast | `talk` | `image: /images/covers/podcast.webp` etc.; title/description help classify talk type |
 
 The Jekyll plugin (`_plugins/og_image.rb`) automatically uses `images/og/<slug>.png` as the post's social/featured image when the file exists.
+
+The `/videos/` list thumbnail is **not** the OG card. It is pulled from YouTube at build time from the embed ID. You still need `images/og/<slug>.png` for social sharing.
 
 ### Commit with the post
 
