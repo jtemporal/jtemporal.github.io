@@ -34,6 +34,12 @@ Não com demos ou exemplos de brinquedo, mas com um produto real que tem usuári
 
 O que vem a seguir é um detalhamento de como a IA entrou em cada fase, onde ajudou, onde atrapalhou e o que eu aprendi (ou fui lembrada) sobre limites de ferramentas ao construir algo de verdade.
 
+Prefere assistir? Aqui está o vídeo completo com essas lições:
+
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/5MX3sMo8H-Q" title="What building My Yarn Stash taught me about working with AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## O dia em que a IA apagou meu banco de dados
 
 No começo do projeto, pedi para um agente de código me ajudar com uma mudança de schema. Ele sugeriu, com toda confiança:
