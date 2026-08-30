@@ -35,6 +35,12 @@ Not with demos or toy examples, but with a real product that has users, persiste
 
 What follows is a breakdown of how AI fit into each phase, where it helped, where it failed, and what I learned or was reminded about tool boundaries by building something real.
 
+Prefer watching? Here's the full walkthrough of these lessons:
+
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/5MX3sMo8H-Q" title="What building My Yarn Stash taught me about working with AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 ## The day the AI deleted my database
 
 Early in the project, I asked a coding agent to help with a schema change. It confidently suggested:
