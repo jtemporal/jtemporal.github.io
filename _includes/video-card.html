@@ -3,7 +3,25 @@
 
 <article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy transition-all duration-500 hover:-translate-y-1 hover:shadow-xl dark:border-outline dark:bg-inverse-surface">
   <a class="flex h-full flex-col no-underline" href="{{ post.url | relative_url }}">
-    {% include post-tag-banner.html post=post %}
+    {% if post.youtube_id %}
+      <div class="relative aspect-[16/9] overflow-hidden bg-surface-container">
+        <img
+          class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          src="https://i.ytimg.com/vi/{{ post.youtube_id }}/maxresdefault.jpg"
+          alt="{{ post.title | escape }}"
+          width="1280"
+          height="720"
+          loading="lazy"
+          decoding="async"
+          onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{{ post.youtube_id }}/mqdefault.jpg';"
+        >
+        <span class="absolute bottom-3 right-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary/95 text-on-primary shadow-md transition-transform duration-300 group-hover:scale-110" aria-hidden="true">
+          <span class="ml-0.5 h-0 w-0 border-y-[5px] border-l-[8px] border-y-transparent border-l-current"></span>
+        </span>
+      </div>
+    {% else %}
+      {% include post-tag-banner.html post=post %}
+    {% endif %}
     <div class="flex flex-1 flex-col justify-between p-6">
       <div>
         <h2 class="font-display text-headline-sm leading-tight text-on-surface transition-colors group-hover:text-primary dark:text-inverse-on-surface">
@@ -20,12 +38,11 @@
           {% endif %}
         </p>
       </div>
-      <div class="mt-6 flex items-center justify-between gap-4">
-        <span class="material-symbols-outlined text-4xl text-primary transition-transform group-hover:scale-110" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
-        {% if topic_tag != "" %}
+      {% if topic_tag != "" %}
+        <div class="mt-6 flex justify-end">
           <span class="shrink-0 border border-primary px-3 py-1 font-label text-label-sm uppercase tracking-wider text-primary">{{ topic_tag | replace: "_", " " }}</span>
-        {% endif %}
-      </div>
+        </div>
+      {% endif %}
     </div>
   </a>
 </article>
