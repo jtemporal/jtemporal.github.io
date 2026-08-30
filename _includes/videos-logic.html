@@ -1,6 +1,15 @@
 {% include language-detection.html %}
 
 {% assign video_posts = site.posts | where: "type", "video" %}
+{% assign longform_videos = "" | split: "" %}
+{% assign short_videos = "" | split: "" %}
+{% for post in video_posts %}
+  {% if post.tags contains "short" %}
+    {% assign short_videos = short_videos | push: post %}
+  {% else %}
+    {% assign longform_videos = longform_videos | push: post %}
+  {% endif %}
+{% endfor %}
 
 <div class="not-prose">
   <section class="mb-12">
@@ -12,22 +21,39 @@
     </h1>
     <p class="mt-4 max-w-xl font-sans text-body-lg text-on-surface-variant dark:text-inverse-on-surface/80">
       {% if current_lang == "en" %}
-        Tips, tutorials, and demos on git, AI, open source, and developer workflows.
+        Long-form videos and short tips on git, AI, open source, and developer workflows.
       {% elsif current_lang == "fr" %}
-        Conseils, tutoriels et démos sur git, l'IA, l'open source et les workflows de développement.
+        Vidéos longues et astuces courtes sur git, l'IA, l'open source et les workflows de développement.
       {% else %}
-        Dicas, tutoriais e demos sobre git, IA, open source e fluxos de trabalho.
+        Vídeos longos e dicas curtas sobre git, IA, open source e fluxos de trabalho.
       {% endif %}
     </p>
   </section>
 
-  {% if video_posts.size > 0 %}
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-      {% for post in video_posts %}
-        {% include video-card.html post=post %}
-      {% endfor %}
-    </div>
-  {% else %}
+  {% if longform_videos.size > 0 %}
+    <section class="mb-16" id="full-videos" aria-label="{% if current_lang == 'en' %}Videos{% elsif current_lang == 'fr' %}Vidéos{% else %}Vídeos{% endif %}">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+        {% for post in longform_videos %}
+          {% include video-card.html post=post %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if short_videos.size > 0 %}
+    <section class="{% if longform_videos.size > 0 %}border-t border-outline-variant pt-12 dark:border-outline{% endif %}" id="shorts" aria-labelledby="shorts-heading">
+      <h2 id="shorts-heading" class="mb-8 font-display text-headline-md text-on-surface dark:text-inverse-on-surface">
+        Shorts
+      </h2>
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 xl:grid-cols-4">
+        {% for post in short_videos %}
+          {% include video-card.html post=post variant="short" %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if video_posts.size == 0 %}
     <p class="font-sans text-body-md text-on-surface-variant">
       {% if current_lang == "en" %}No videos yet.{% else %}Nenhum vídeo ainda.{% endif %}
     </p>

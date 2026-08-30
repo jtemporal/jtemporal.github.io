@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Videos
-description: Video tips, tutorials, and demos
+description: Long-form videos and short tips on git, AI, open source, and developer workflows
 image: /images/logo.webp
 permalink: "/videos/"
 lang: en
