@@ -26,10 +26,13 @@ const CATEGORY_TAGS = new Set([
   'variados',
   'career',
   'carreira',
+  'ai',
+  'ia',
 ]);
 
 const IMAGE_CATEGORY_HINTS = [
   ['pro_tip', ['pro_tip', 'pro-tip']],
+  ['ai', ['covers/ai']],
   ['miscellaneous', ['miscellaneous', 'variados']],
   ['tutorial', ['tutorial']],
   ['colinha', ['colinha']],
@@ -98,11 +101,11 @@ const THEMES = {
     bgDark: '#303031',
   },
   ai: {
-    icon: 'tips_and_updates',
-    line: '#5f5e5e',
-    text: '#5f5e5e',
-    bg: '#e9e8e7',
-    bgDark: '#303031',
+    icon: 'smart_toy',
+    line: '#51a9ad',
+    text: '#006769',
+    bg: '#f0fdfa',
+    bgDark: '#134e4a',
   },
   career: {
     icon: 'work',

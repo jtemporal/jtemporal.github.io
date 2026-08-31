@@ -114,7 +114,7 @@ date: YYYY-MM-DD 00:00:00 -0300
 last_modified_at: YYYY-MM-DD
 hidden: true
 lang: en
-image: /images/covers/pro_tip.webp   # use miscellaneous.webp for non-git topics
+image: /images/covers/pro_tip.webp   # use ai.webp for AI topics, miscellaneous.webp otherwise
 tags:
 - english
 - git                            # adjust tags for topic
@@ -199,7 +199,7 @@ Set `type` and `tags` correctly so the card picks the right theme:
 |---------|--------|---------------------|
 | Blog post | `post` (or omit) | Category tag (`pro_tip`, `tutorial`, `hacktoberfest`, etc.) |
 | YouTube short | `video` | Topic + category tags + `short`; `image: /images/covers/pro_tip.webp` for git tips |
-| Long-form video | `video` | Topic + category tags, **no** `short`; `image: /images/covers/miscellaneous.webp` when it is not a git tip |
+| Long-form video | `video` | Topic + category tags, **no** `short`; `image: /images/covers/ai.webp` for AI topics, `miscellaneous.webp` otherwise |
 | Talk / podcast | `talk` | `image: /images/covers/podcast.webp` etc.; title/description help classify talk type |
 
 The Jekyll plugin (`_plugins/og_image.rb`) automatically uses `images/og/<slug>.png` as the post's social/featured image when the file exists.

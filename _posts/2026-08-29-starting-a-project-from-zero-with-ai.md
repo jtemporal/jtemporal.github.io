@@ -4,7 +4,7 @@ type: post
 title: "Starting a project from zero with AI: begin with the AGENTS.md"
 date: 2026-08-29 00:00:00 -0300
 lang: en
-image: /images/covers/miscellaneous.webp
+image: /images/covers/ai.webp
 bookbanner: true
 comments: true
 tags:
