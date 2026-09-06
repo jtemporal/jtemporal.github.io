@@ -14,7 +14,7 @@ description: >
 
 ## Quick checklist
 
-1. `git worktree add ../jtemporal.github.io-hidden-post-<slug> -b hidden-post-<slug> origin/main` then `ln -sfn ../jtemporal.github.io-shared/node_modules ../jtemporal.github.io-hidden-post-<slug>/node_modules` (see `AGENTS.md`; do not `npm install` in the worktree)
+1. `git worktree add ../jtemporal.github.io-worktrees/hidden-post-<slug> -b hidden-post-<slug> origin/main` then `ln -sfn ../../jtemporal.github.io-shared/node_modules ../jtemporal.github.io-worktrees/hidden-post-<slug>/node_modules` (see `AGENTS.md`; do not `npm install` in the worktree)
 2. Draft `_posts/YYYY-MM-DD-<slug>-short.md` using the template in `AGENTS.md`
 3. `RBENV_VERSION=3.4.1 bundle exec jekyll serve --config _dev_config.yml --future`
 4. Share preview URL — **stop here until approved**
