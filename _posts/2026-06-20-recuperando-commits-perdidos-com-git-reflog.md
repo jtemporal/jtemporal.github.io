@@ -4,7 +4,6 @@ type: post
 bookbanner: true
 comments: true
 date: 2026-06-20T12:00:00+00:00
-last_modified_at: 2026-06-20
 description: Aprenda como o git reflog registra seus movimentos no Git, como ler as entradas e como restaurar um estado anterior.
 image: /images/covers/colinha.webp
 lang: pt

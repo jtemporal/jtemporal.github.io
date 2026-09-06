@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "Git reset or git revert: which one should you use?"
 date: 2026-07-30 00:00:00 -0300
-last_modified_at: 2026-07-30
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp
@@ -20,6 +19,10 @@ posts_list:
 - undoing-the-last-commits-using-git-reset
 ---
 
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/tEjXP1m6gJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 Git reset or git revert. They sound the same, but they're intended for very different purposes.
 
 Ask one question: **Did you already push it?**
@@ -30,9 +33,5 @@ Ask one question: **Did you already push it?**
 Rule of thumb: if you pushed it, revert. If it's still local, reset.
 
 Want the full breakdown (soft / mixed / hard reset, revert by hash, and the reflog safety net)? Watch the full video: [Undo Anything in Git](/undo-anything-in-git-reset-vs-revert/)
-
-<center>
-<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/tEjXP1m6gJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 Follow along for more git tips like this!

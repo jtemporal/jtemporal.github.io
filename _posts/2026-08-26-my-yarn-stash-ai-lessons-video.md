@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "What building My Yarn Stash taught me about working with AI"
 date: 2026-08-26 00:00:00 -0300
-last_modified_at: 2026-08-26
 hidden: true
 lang: en
 image: /images/covers/miscellaneous.webp
@@ -19,6 +18,10 @@ posts_list:
 - the-writer-and-the-bot-fairy-tale
 ---
 
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/5MX3sMo8H-Q" title="What building My Yarn Stash taught me about working with AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 AI told me it was going to delete my database, and I let it. Every little bit of my data, gone with a single command. So I'm going to share what building a real application with AI taught me as a software engineer.
 
 I built [My Yarn Stash](https://myyarnstash.app): a real app with real users, auth, a database, billing, and all the unglamorous stuff that shows up when you want software to last. Most of it happened during my winter break last December, with a little more in January.
@@ -26,10 +29,6 @@ I built [My Yarn Stash](https://myyarnstash.app): a real app with real users, au
 Fair warning: AI tooling has evolved a lot since then, and my workflow is different now. Focus on the lessons, not the tool names. Those lessons are what make you a better software engineer.
 
 I wanted the final product, of course. I'm also one of the users. But I wanted to answer one question: **what actually changes when you use AI as a long-term collaborator**, across planning, design, building, and shipping?
-
-<center>
-<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/5MX3sMo8H-Q" title="What building My Yarn Stash taught me about working with AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 ## The database
 

@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "git stash: save your work without committing"
 date: 2026-06-18 00:00:00 -0300
-last_modified_at: 2026-06-18
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp
@@ -20,6 +19,10 @@ posts_list:
 - recovering-lost-commits-with-git-reflog
 ---
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rnAiEg_si8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 You're working, some priority comes up, but you're not ready to make a commit yet, and you need to switch branches. What do you do? 🤔
 
 Some people like to make a throwaway commit just to save the work so they can undo it later, but I prefer `git stash`.
@@ -33,9 +36,5 @@ You can then switch branches, do whatever you need to do, and when you come back
 One heads up though: if you have new files that git isn't tracking yet, they won't be automatically added to this stash. So before you make a stash with new files, you need to stage them first. 😅
 
 Want the full breakdown on git stash? I covered it in more depth here: [Using git stash: pop, apply, and drop](/using-git-stash-and-git-stash-pop/)
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rnAiEg_si8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 If you want more git tips that save your work, follow along!

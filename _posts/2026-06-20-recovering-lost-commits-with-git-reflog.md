@@ -4,7 +4,6 @@ type: post
 bookbanner: true
 comments: true
 date: 2026-06-20T12:00:00+00:00
-last_modified_at: 2026-06-20
 description: Learn how git reflog tracks your movements in Git, how to read its entries, and how to restore a previous state.
 image: /images/covers/pro_tip.webp
 lang: en

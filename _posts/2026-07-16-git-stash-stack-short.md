@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "Your Git stashes live in a stack"
 date: 2026-07-16 00:00:00 -0300
-last_modified_at: 2026-07-16
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp
@@ -20,6 +19,10 @@ posts_list:
 - git-stash-pop-vs-apply-short
 ---
 
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/0c9d5e8NgH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 Did you know that Git stashes get piled up on top of each other like in a stack?
 
 That means that every time you stash, Git bundles up all of the changes and puts them on top of the old stashes you already had.
@@ -33,9 +36,5 @@ That also means that when you do `git stash pop` without picking any specific st
 Because stash works in the fashion of a stack, the last one in is always the first one out. And this is good to know, especially if you have more than one stash going.
 
 Want the full stash workflow (pop, apply, and drop)? I covered it here: [Using git stash: pop, apply, and drop](/using-git-stash-and-git-stash-pop/)
-
-<center>
-<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/0c9d5e8NgH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 Follow along for more git tips like this!
