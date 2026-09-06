@@ -4,6 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-10-05 22:15:06-03:00
+last_modified_at: 2026-09-06
 description: Top tips to make your open-source contribution a success
 image: /images/covers/opensource.webp
 lang: en
@@ -32,7 +33,7 @@ October is hacktoberfest month and this should be the month where we put the mos
 
 ## Follow the project's contribution guide
 
-A maioria dos projetos _open-source_ tem um conjunto de regras ou padrões que você deve seguir para contribuir, coisas como manter cobertura de testes, criar _branches_ seguindo um certo padrão de nomeação, qual a língua oficial do projeto e de seus _commits_ e até mesmo regras sobre intervalo de tempo com inatividade no qual passado esse períodos o _pull requests_ sem atividade será fechado.
+Most open-source projects have a set of rules or standards you should follow when contributing, things like keeping test coverage, creating branches that follow a certain naming pattern, the official language of the project and of its commits, and even rules about an inactivity window after which a pull request with no activity will be closed.
 
 Following the project's contribution guide will ensure a good path to having a successful pull request right from the start. Such guide is usually found in the `CONTRIBUTING.md` file on GitHub projects but sometimes the rules can also be described in the `README.md` file.
 
@@ -60,8 +61,8 @@ This is the list of words:
 4. fix
 5. fixes
 6. fixed
-7. resolver
-8. resolve
+7. resolve
+8. resolves
 9. resolved
 
 Any of these words can be used in two places:
