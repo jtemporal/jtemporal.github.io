@@ -33,6 +33,10 @@ git commit -m "Your commit message" --trailer "Co-authored-by: Grok <grok@x.ai>"
 
 You can also put the trailer in the commit message body (after a blank line). This makes the commit appear as a joint effort between the author and the agent.
 
+### Local planning notes
+
+Private decision docs live in `planning/` at the repo root and will hold decision documents that should not be public. That folder is ignored by the global gitignore (`~/.gitignore_global`). Never add, commit, or open a PR for it.
+
 ## Hidden video posts
 
 These posts syndicate video transcripts to Medium and/or [dev.to](https://dev.to). They are **not** meant to appear on the public blog index.
