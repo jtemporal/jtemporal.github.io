@@ -2,6 +2,7 @@
 bookbanner: true
 comments: true
 date: 2021-10-05 22:15:06-03:00
+last_modified_at: 2026-09-06
 description: Dicas de ouro para fazer uma contribuição open-source de sucesso
 image: /images/covers/opensource.webp
 lang: pt
@@ -61,8 +62,8 @@ Então essa é a lista de palavras:
 4. fix
 5. fixes
 6. fixed
-7. resolver
-8. resolve
+7. resolve
+8. resolves
 9. resolved
 
 Essas palavras podem ser usadas em dois lugares:
