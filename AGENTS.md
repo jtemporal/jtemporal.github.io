@@ -64,7 +64,10 @@ One isolated worktree per post or feature. Never stack unrelated post work or fe
 # From the main repo checkout (jtemporal.github.io/)
 git fetch origin
 git worktree add ../jtemporal.github.io-hidden-post-<slug> -b hidden-post-<slug> origin/main
+ln -sfn ../jtemporal.github.io-shared/node_modules ../jtemporal.github.io-hidden-post-<slug>/node_modules
 ```
+
+`../jtemporal.github.io-shared/node_modules` is local (not in git). Do **not** `npm install` in the worktree. Ruby gems already come from `RBENV_VERSION=3.4.1`. If `package-lock.json` on `main` changes, `npm install` in the shared folder, not in each worktree.
 
 | Item | Pattern | Example (short) | Example (long-form) |
 |------|---------|-----------------|---------------------|
