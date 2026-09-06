@@ -63,15 +63,15 @@ One isolated worktree per post or feature. Never stack unrelated post work or fe
 ```bash
 # From the main repo checkout (jtemporal.github.io/)
 git fetch origin
-git worktree add ../jtemporal.github.io-hidden-post-<slug> -b hidden-post-<slug> origin/main
-ln -sfn ../jtemporal.github.io-shared/node_modules ../jtemporal.github.io-hidden-post-<slug>/node_modules
+git worktree add ../jtemporal.github.io-worktrees/hidden-post-<slug> -b hidden-post-<slug> origin/main
+ln -sfn ../../jtemporal.github.io-shared/node_modules ../jtemporal.github.io-worktrees/hidden-post-<slug>/node_modules
 ```
 
-`../jtemporal.github.io-shared/node_modules` is local (not in git). Do **not** `npm install` in the worktree. Ruby gems already come from `RBENV_VERSION=3.4.1`. If `package-lock.json` on `main` changes, `npm install` in the shared folder, not in each worktree.
+`../jtemporal.github.io-worktrees/` and `../jtemporal.github.io-shared/` are local (not in git). Do **not** `npm install` in the worktree. Ruby gems already come from `RBENV_VERSION=3.4.1`. If `package-lock.json` on `main` changes, `npm install` in the shared folder, not in each worktree.
 
 | Item | Pattern | Example (short) | Example (long-form) |
 |------|---------|-----------------|---------------------|
-| Worktree path | `../jtemporal.github.io-hidden-post-<slug>` | `jtemporal.github.io-hidden-post-gitkeep` | `jtemporal.github.io-hidden-post-my-yarn-stash-ai-lessons` |
+| Worktree path | `../jtemporal.github.io-worktrees/hidden-post-<slug>` | `jtemporal.github.io-worktrees/hidden-post-gitkeep` | `jtemporal.github.io-worktrees/hidden-post-my-yarn-stash-ai-lessons` |
 | Branch | `hidden-post-<slug>` | `hidden-post-gitkeep` | `hidden-post-my-yarn-stash-ai-lessons` |
 | Post file | `_posts/YYYY-MM-DD-<slug>-short.md` or `-video.md` | `_posts/2026-06-25-gitkeep-track-empty-folders-short.md` | `_posts/2026-08-26-my-yarn-stash-ai-lessons-video.md` |
 
@@ -91,7 +91,7 @@ git fetch origin
 git log origin/main --oneline | head -5   # should show the merge commit
 
 # 2. Remove the worktree (add --force if it has uncommitted changes you no longer need)
-git worktree remove ../jtemporal.github.io-hidden-post-<slug>
+git worktree remove ../jtemporal.github.io-worktrees/hidden-post-<slug>
 
 # 3. Delete the local branch
 git branch -d hidden-post-<slug>
@@ -101,7 +101,7 @@ git worktree prune
 
 # 5. If the folder still exists on disk, delete it manually
 #    (this happens when the worktree was already unlinked but left a _site/ or other junk behind)
-rm -rf ../jtemporal.github.io-hidden-post-<slug>
+rm -rf ../jtemporal.github.io-worktrees/hidden-post-<slug>
 ```
 
 Verify cleanup with `git worktree list` — only active worktrees should remain. Do **not** delete worktrees for posts that are still in progress or awaiting publish.
