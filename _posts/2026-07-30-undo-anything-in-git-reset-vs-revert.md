@@ -19,13 +19,13 @@ tags:
 title: "Undo anything in Git: reset vs revert, explained"
 ---
 
-Your coding assistant just made five commits, and one of them broke everything. Or maybe that was you at 2:00 AM. Either way, by the end of this post you'll know how to undo any commit in Git without losing your work.
-
-Undoing a commit can sound scary, but it comes down to **one question** and **three commands**. The question is: have you pushed the commit yet? I'll walk you through reset, revert, and the safety net that gets you unstuck when you thought you lost everything.
-
 <center>
 <iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/hRNHGHWrNNA" title="How to Undo Commits in Git" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
+
+Your coding assistant just made five commits, and one of them broke everything. Or maybe that was you at 2:00 AM. Either way, by the end of this post you'll know how to undo any commit in Git without losing your work.
+
+Undoing a commit can sound scary, but it comes down to **one question** and **three commands**. The question is: have you pushed the commit yet? I'll walk you through reset, revert, and the safety net that gets you unstuck when you thought you lost everything.
 
 ## The mental model
 

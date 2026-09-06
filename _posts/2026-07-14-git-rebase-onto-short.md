@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "Fix a branch you made from the wrong place with git rebase --onto"
 date: 2026-07-14 00:00:00 -0300
-last_modified_at: 2026-07-14
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp
@@ -19,6 +18,10 @@ posts_list:
 - updating-a-branch-with-git-rebase
 - undoing-more-than-one-commit-at-once-with-git-revert
 ---
+
+<center>
+<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/gonfHBYurhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
 You accidentally branched off from the wrong branch. How do you fix the source?
 
@@ -41,9 +44,5 @@ Git replays your `task-2` commits on top of `main`. That way `task-2` continues 
 The one rule with this command is that you always want to name the three branches to avoid dropping commits.
 
 Want the full walkthrough with diagrams? I covered it here: [Fixing the branch source with git rebase](/fixing-the-branch-source-with-git-rebase/)
-
-<center>
-<iframe style="max-width:100%; width:560px; aspect-ratio:16/9; height:auto;" src="https://www.youtube.com/embed/gonfHBYurhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 Follow along for more git tips like this!

@@ -118,7 +118,6 @@ layout: post
 type: video
 title: "<sentence-case title>"
 date: YYYY-MM-DD 00:00:00 -0300
-last_modified_at: YYYY-MM-DD
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp   # use ai.webp for AI topics, miscellaneous.webp otherwise
@@ -137,6 +136,8 @@ posts_list:
 ```
 
 For a **long-form** video, use the same fields except: filename ends in `-video.md`, omit the `short` tag, and use `miscellaneous.webp` when the topic is not git.
+
+Do **not** set `last_modified_at` on a new post. The layout prints "Updated on:" whenever that field exists, even if it is the same day as `date`. Only add `last_modified_at` later, when the post is actually updated on a different day.
 
 ### Post body conventions
 

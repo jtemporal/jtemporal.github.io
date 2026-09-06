@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "git stash pop vs apply: which one should you use?"
 date: 2026-06-23 00:00:00 -0300
-last_modified_at: 2026-06-23
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp
@@ -20,6 +19,10 @@ posts_list:
 - why-the-git-stash-drop-is-useful
 ---
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/64cz9VYtzDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 You stashed your changes, but now you want them back. Do you use `pop` or `apply`? 🤔
 
 They function similarly, but they are not the same thing.
@@ -31,9 +34,5 @@ They function similarly, but they are not the same thing.
 I usually prefer using `pop` because that keeps my stash list clean. But I also use `apply` when I'm unsure if there are any conflicts that need solving, or if I think I'll need to use those changes in another place again. 😅
 
 Want the deeper dive on git stash? I covered the full workflow over here: [Using git stash: pop, apply, and drop](/using-git-stash-and-git-stash-pop/)
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/64cz9VYtzDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 Follow along for more git tips like this!

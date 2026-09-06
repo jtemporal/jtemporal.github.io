@@ -3,7 +3,6 @@ layout: post
 type: video
 title: "git merge conflicts: what to do when git yells at you"
 date: 2026-06-30 00:00:00 -0300
-last_modified_at: 2026-06-30
 hidden: true
 lang: en
 image: /images/covers/pro_tip.webp
@@ -20,6 +19,10 @@ posts_list:
 - recovering-lost-commits-with-git-reflog
 ---
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JtOE5m6kcls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
 Let's say you are doing a merge and then git yells at you: there is a conflict. What do you do? Well, whatever you do, do not panic. This is normal. 😅
 
 It just means that two people, two AI agents, you and an AI agent, or whatever setup is working on the code changed the same lines in your repo. Git on its own cannot decide which changes to keep, so it needs you to tell it what to do.
@@ -31,9 +34,5 @@ Make sure to delete the markers and save the file. Then follow the flow as usual
 A conflict is not git breaking. It is git asking you to make the decision.
 
 Want more detail on solving conflicts? I wrote a full walkthrough here: [Solving conflicts in Git](/solving-conflicts/)
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JtOE5m6kcls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 
 Follow for more git tips like this!
