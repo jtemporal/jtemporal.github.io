@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidCompacter</title>
+    <meta name="description" content="VidCompacter shrinks a too-big phone video on your device so you can post it. Small enough for Mastodon. Coming to the App Store for iPhone, with Mac on the way.">
+    <meta name="theme-color" content="#1e2433">
+    <meta name="application-name" content="VidCompacter">
+    <meta property="og:title" content="VidCompacter">
+    <meta property="og:description" content="Shrink a too-big phone video on your device, then post it yourself. Small enough for Mastodon. Coming to the App Store for iPhone.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jtemporal.com/vidcompacter/">
+    <meta property="og:image" content="https://jtemporal.com/vidcompacter/assets/icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="VidCompacter">
+    <meta name="twitter:description" content="Shrink a too-big phone video on your device, then post it yourself.">
+    <meta name="twitter:image" content="https://jtemporal.com/vidcompacter/assets/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+    <link rel="icon" type="image/png" sizes="1024x1024" href="assets/icon.png?v=2">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="/vidcompacter/">
+            <img src="assets/icon.png" alt="" width="40" height="40">
+            <span>VidCompacter</span>
+        </a>
+        <nav>
+            <a href="#how-it-works">How it works</a>
+            <a href="#faq">FAQ</a>
+            <a href="#support">Support</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <h1>Big video.<br>Small enough<br>to <span class="accent">share</span>.</h1>
+                <p class="subhead">
+                    Got a phone video that's too big to post? VidCompacter makes a smaller copy
+                    on your device, then you share it yourself. Small enough for Mastodon.
+                    Bluesky allows much larger files, but a smaller one still sends faster.
+                </p>
+                <div class="hero-actions">
+                    <a class="cta-primary" href="#how-it-works">
+                        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                            <path fill="currentColor" d="M8 5.14v13.72L19 12 8 5.14z"/>
+                        </svg>
+                        See how it works
+                    </a>
+                    <p class="cta-note">Coming soon<br>to the App Store</p>
+                </div>
+            </div>
+
+            <figure class="hero-art">
+                <img src="assets/mascots.png" alt="A happy phone squeezing a squished video file">
+            </figure>
+        </section>
+
+        <section class="steps-section" id="how-it-works">
+            <div class="steps">
+                <article class="step">
+                    <span class="step-number">1</span>
+                    <h3>Pick your video</h3>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+                            <rect x="10" y="3" width="12" height="26" rx="2.5"/>
+                            <path d="M14 25.5h4"/>
+                        </svg>
+                    </div>
+                    <p>Choose one from Photos on iPhone, or drop a file on Mac. No upload, no account.</p>
+                </article>
+                <article class="step">
+                    <span class="step-number">2</span>
+                    <h3>Make it smaller</h3>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 4.5l1.6 5.4 5.4 1.6-5.4 1.6L16 18.5l-1.6-5.4-5.4-1.6 5.4-1.6L16 4.5z"/>
+                            <path d="M24 16.5l1.1 3.5 3.5 1.1-3.5 1.1L24 25.7l-1.1-3.5-3.5-1.1 3.5-1.1 1.1-3.5z"/>
+                            <path d="M8.2 18.2l.8 2.5 2.5.8-2.5.8-.8 2.5-.8-2.5-2.5-.8 2.5-.8.8-2.5z"/>
+                        </svg>
+                    </div>
+                    <p>VidCompacter shrinks it on your device. You can watch the progress as it works.</p>
+                </article>
+                <article class="step">
+                    <span class="step-number">3</span>
+                    <h3>Share it yourself</h3>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 6v14"/>
+                            <path d="M11 11l5-5 5 5"/>
+                            <path d="M8 18v6h16v-6"/>
+                        </svg>
+                    </div>
+                    <p>Post it to Mastodon, Bluesky, or anywhere you share. You're in control.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="privacy-section" id="on-device">
+            <img class="privacy-art" src="assets/privacy-mascot.png" alt="A happy phone holding a video file on the device">
+            <div class="privacy-copy">
+                <h2>Your video never leaves your device.</h2>
+                <ul>
+                    <li>Runs entirely on your iPhone or Mac.</li>
+                    <li>No account, no cloud, no tracking.</li>
+                    <li>Nothing is sent to a server. When you're ready, you post the file yourself.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="get-it-section" id="get-it">
+            <div class="get-it-offer">
+                <div class="get-it-icon" aria-hidden="true">
+                    <svg viewBox="0 0 120 72" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- iPhone -->
+                        <rect x="6" y="8" width="28" height="56" rx="6"/>
+                        <rect x="15" y="13" width="10" height="3.2" rx="1.6"/>
+                        <path d="M16 58h8"/>
+                        <!-- iMac -->
+                        <rect x="44" y="10" width="70" height="42" rx="4"/>
+                        <path d="M44 44h70"/>
+                        <path d="M79 52v8"/>
+                        <path d="M66 60h26"/>
+                    </svg>
+                </div>
+                <div class="get-it-main">
+                    <h2>Get VidCompacter</h2>
+                    <p class="cta-soon">Coming soon to the App Store.</p>
+                </div>
+            </div>
+            <div class="get-it-side">
+                <h3>iPhone first</h3>
+                <p>
+                    The iPhone app is coming to the App Store. A Mac version is on the way.
+                    No ads, no watermark.
+                </p>
+            </div>
+        </section>
+
+        <section class="faq-section" id="faq">
+            <h2>Frequently asked questions</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>What size limit does Mastodon have?</summary>
+                    <p>
+                        Most Mastodon servers cap video around 40 MB. VidCompacter aims for about
+                        39 MB so your file fits comfortably. Longer videos end up a bit different
+                        in size, but the goal is always "small enough to post."
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>Does this work for Bluesky?</summary>
+                    <p>
+                        Yes. As of August 2026, Bluesky allows videos up to 300 MB and 10 minutes.
+                        VidCompacter's smaller file still looks great there, and it sends much
+                        faster than the original from your phone.
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>Does VidCompacter work offline?</summary>
+                    <p>
+                        Yes. Once you have the app, it works without the internet. No account,
+                        and nothing leaves your device while it shrinks the video.
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>Does it work on Mac too?</summary>
+                    <p>
+                        Yes. VidCompacter works on Mac too. The iPhone app is coming to the
+                        App Store first.
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>Will it post my video for me?</summary>
+                    <p>
+                        No. VidCompacter shrinks your video, then you share it yourself to
+                        Mastodon, Bluesky, or wherever you post. You stay in control of what
+                        goes up and where.
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I use it for Telegram or other messaging apps?</summary>
+                    <p>
+                        Yes. Although it's built for posting to Mastodon and Bluesky and other
+                        apps have different size limits.
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>How does it shrink my video?</summary>
+                    <p>
+                        It makes a smaller copy that still looks clear. If that copy is still too
+                        big to post, VidCompacter tries again until it fits. You don't pick any
+                        settings.
+                    </p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-col" id="support">
+            <h2>Support</h2>
+            <p>
+                Need help? Have feedback? A support form will be available when VidCompacter
+                launches.
+            </p>
+        </div>
+        <div class="footer-brand">
+            <img src="assets/icon.png" alt="" width="36" height="36">
+            <span>VidCompacter</span>
+            <p class="copyright">© 2026 Jess Temporal</p>
+        </div>
+        <div class="footer-col" id="privacy">
+            <h2>Privacy</h2>
+            <p>
+                VidCompacter does not collect, store, or transmit your videos or personal information.
+                Everything runs on your device. No analytics, no tracking, no cloud upload.
+                Full privacy policy will be available at launch.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
