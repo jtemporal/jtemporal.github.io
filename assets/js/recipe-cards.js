@@ -70,8 +70,8 @@
     jsonEl.addEventListener('input', function () {
       try { applyRecipe(JSON.parse(jsonEl.value)); } catch (err) {}
     });
-    document.getElementById('printBtn').addEventListener('click', printCard);
-    document.getElementById('pngBtn').addEventListener('click', exportPng);
+    document.getElementById('printBtn').addEventListener('click', function () { exportFile('pdf'); });
+    document.getElementById('pngBtn').addEventListener('click', function () { exportFile('png'); });
     document.getElementById('shareBtn').addEventListener('click', copyShareLink);
     toggleBtn.addEventListener('click', function () {
       setEditorOpen(editor.hasAttribute('hidden'));
@@ -346,7 +346,7 @@
 
   function flashToast(message) {
     toast.textContent = message;
-    setTimeout(function () { toast.textContent = ''; }, 2800);
+    setTimeout(function () { toast.textContent = ''; }, 4000);
   }
 
   function copyToClipboard(text, done) {
@@ -372,25 +372,8 @@
     });
   }
 
-  function withUnscaledCard(fn) {
-    var card = cards.querySelector('.recipe-card');
-    if (!card) return;
-    var prevT = card.style.transform;
-    var prevM = card.style.marginBottom;
-    card.style.transform = 'none';
-    card.style.marginBottom = '0';
-    fn(card, function () {
-      card.style.transform = prevT;
-      card.style.marginBottom = prevM;
-      fitCard();
-    });
-  }
-
-  function printCard() {
-    withUnscaledCard(function (card, restore) {
-      window.print();
-      restore();
-    });
+  function recipeSlug() {
+    return (recipe.name || 'recipe').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'recipe';
   }
 
   function loadScript(src) {
@@ -403,36 +386,112 @@
     });
   }
 
-  function exportPng() {
-    withUnscaledCard(function (card, restore) {
-      toast.textContent = 'Preparing image\u2026';
-      var ready = window.html2canvas
-        ? Promise.resolve()
-        : loadScript('https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js');
-      ready.then(function () {
-        return window.html2canvas(card, { backgroundColor: '#ffffff', scale: 2, useCORS: true });
-      }).then(function (canvas) {
-        var dataUrl = canvas.toDataURL('image/png');
-        var slug = (recipe.name || 'recipe').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'recipe';
-        var a = document.createElement('a');
-        a.download = slug + '.png';
-        a.href = dataUrl;
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        var preview = document.getElementById('exportPreview');
-        preview.hidden = false;
-        preview.classList.remove('hidden');
-        preview.replaceChildren();
-        var img = document.createElement('img');
-        img.alt = recipe.name || 'Recipe card';
-        img.src = dataUrl;
-        img.className = 'w-full rounded-2xl border border-outline-variant';
-        preview.appendChild(img);
-        flashToast('PNG ready.');
-      }).catch(function () {
-        flashToast('Could not export PNG.');
-      }).then(restore);
+  function canvasToBlob(canvas) {
+    return new Promise(function (resolve) {
+      if (canvas.toBlob) {
+        canvas.toBlob(function (blob) { resolve(blob); }, 'image/png');
+        return;
+      }
+      var dataUrl = canvas.toDataURL('image/png');
+      var bin = atob(dataUrl.split(',')[1]);
+      var bytes = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      resolve(new Blob([bytes], { type: 'image/png' }));
+    });
+  }
+
+  function offerFile(blob, filename, mime) {
+    var file = new File([blob], filename, { type: mime });
+    if (navigator.canShare) {
+      try {
+        if (navigator.canShare({ files: [file] })) {
+          return navigator.share({ files: [file], title: recipe.name || filename }).then(function () {
+            return 'shared';
+          }).catch(function (err) {
+            if (err && err.name === 'AbortError') return 'cancelled';
+            return downloadBlob(blob, filename);
+          });
+        }
+      } catch (err) { /* fall through */ }
+    }
+    return Promise.resolve(downloadBlob(blob, filename));
+  }
+
+  function downloadBlob(blob, filename) {
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.rel = 'noopener';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+    return 'downloaded';
+  }
+
+  function captureCard() {
+    var card = cards.querySelector('.recipe-card');
+    if (!card) return Promise.reject(new Error('no card'));
+    var prevT = card.style.transform;
+    var prevM = card.style.marginBottom;
+    card.style.transform = 'none';
+    card.style.marginBottom = '0';
+    var ready = window.html2canvas
+      ? Promise.resolve()
+      : loadScript('https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js');
+    return ready.then(function () {
+      return window.html2canvas(card, {
+        backgroundColor: '#ffffff',
+        scale: 2,
+        useCORS: true
+      });
+    }).then(function (canvas) {
+      card.style.transform = prevT;
+      card.style.marginBottom = prevM;
+      fitCard();
+      return canvas;
+    }, function (err) {
+      card.style.transform = prevT;
+      card.style.marginBottom = prevM;
+      fitCard();
+      throw err;
+    });
+  }
+
+  function pdfFromCanvas(canvas) {
+    var ready = (window.jspdf && window.jspdf.jsPDF)
+      ? Promise.resolve()
+      : loadScript('https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js');
+    return ready.then(function () {
+      var JsPDF = window.jspdf.jsPDF;
+      var pxToPt = 72 / 96;
+      var w = canvas.width * pxToPt / 2;
+      var h = canvas.height * pxToPt / 2;
+      var pdf = new JsPDF({ orientation: w > h ? 'l' : 'p', unit: 'pt', format: [w, h] });
+      pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, w, h);
+      return pdf.output('blob');
+    });
+  }
+
+  function exportFile(kind) {
+    var slug = recipeSlug();
+    toast.textContent = kind === 'pdf' ? 'Preparing PDF…' : 'Preparing image…';
+    captureCard().then(function (canvas) {
+      if (kind === 'pdf') {
+        return pdfFromCanvas(canvas).then(function (blob) {
+          return offerFile(blob, slug + '.pdf', 'application/pdf');
+        });
+      }
+      return canvasToBlob(canvas).then(function (blob) {
+        return offerFile(blob, slug + '.png', 'image/png');
+      });
+    }).then(function (how) {
+      if (how === 'shared') flashToast('Use Save Image / Save to Files in the share sheet.');
+      else if (how === 'cancelled') flashToast('');
+      else flashToast(kind === 'pdf' ? 'PDF ready.' : 'Image ready. Check Downloads or the share sheet.');
+    }).catch(function () {
+      flashToast(kind === 'pdf' ? 'Could not export PDF.' : 'Could not export PNG.');
     });
   }
 
