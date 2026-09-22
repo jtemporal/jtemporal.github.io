@@ -5,6 +5,8 @@ description: A one-page recipe you can read while you cook — ingredients on th
 permalink: /recipe-cards/
 hide_sidebar: true
 lang: en
+extra_css: /assets/css/recipe-cards.css
+extra_js: /assets/js/recipe-cards.js
 ---
 
 <div class="recipe-app">
@@ -17,14 +19,14 @@ lang: en
     <button type="button" class="btn-primary rounded-full" id="shareBtn">Copy share link</button>
     <button type="button" class="btn-secondary rounded-full" id="pngBtn">Export PNG</button>
     <button type="button" class="btn-secondary rounded-full" id="printBtn">Export PDF</button>
-    <button type="button" class="btn-secondary rounded-full" id="toggleEditor">Edit recipe</button>
+    <button type="button" class="btn-secondary rounded-full" id="toggleEditor" aria-expanded="false">Edit recipe</button>
   </div>
   <p class="mb-4 min-h-[1.1em] text-center text-sm text-tertiary" id="toast"></p>
   <div id="exportPreview" class="mx-auto mb-6 hidden max-w-3xl text-center"></div>
 
   <div class="flex flex-col items-center" id="cards"></div>
 
-  <div class="recipe-editor mt-10 grid gap-4" id="editor" hidden>
+  <div class="recipe-editor mt-10 grid hidden gap-4" id="editor" hidden>
     <section class="card-surface">
       <h2 class="mb-3 font-display text-headline-sm">Prep lines</h2>
       <div class="grid gap-2" id="bannerList"></div>
@@ -48,6 +50,3 @@ lang: en
     </details>
   </div>
 </div>
-
-<link rel="stylesheet" href="{{ '/assets/css/recipe-cards.css' | relative_url }}">
-<script src="{{ '/assets/js/recipe-cards.js' | relative_url }}" defer></script>
