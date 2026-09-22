@@ -11,18 +11,24 @@ scripts:
 ---
 
 <div class="recipe-app">
-  <p class="mx-auto mb-8 max-w-xl text-center text-on-surface-variant dark:text-inverse-on-surface">A one-page recipe you can read while you cook: ingredients on the left, the order of mixing and baking on the right.</p>
+  <header class="mb-8 text-center">
+    <h1 class="font-display text-display-lg-mobile md:text-display-lg text-on-surface dark:text-inverse-on-surface">Recipe cards</h1>
+    <div class="mx-auto mt-4 h-1 w-20 rounded-full bg-primary"></div>
+    <p class="mx-auto mt-6 max-w-xl text-on-surface-variant dark:text-inverse-on-surface">A one-page recipe you can read while you cook: ingredients on the left, the order of mixing and baking on the right.</p>
+  </header>
 
-  <div class="recipe-toolbar mb-8 flex flex-wrap items-end justify-center gap-3">
-    <label class="flex w-full max-w-md flex-col gap-1 text-label-sm font-semibold uppercase tracking-wide text-on-surface-variant sm:w-auto">
+  <div class="recipe-toolbar mb-8 flex flex-col items-center gap-4">
+    <label class="flex w-full max-w-md flex-col gap-1 text-center text-label-sm font-semibold uppercase tracking-wide text-on-surface-variant">
       Recipe name
       <input type="text" id="nameInput" placeholder="Caramel bottom sweet potatoes" autocomplete="off"
-        class="w-full rounded-full border border-outline bg-surface-container-lowest px-4 py-2 font-display font-semibold text-on-surface dark:bg-inverse-surface dark:text-inverse-on-surface" />
+        class="w-full rounded-full border border-outline bg-surface-container-lowest px-4 py-2 text-center font-display font-semibold text-on-surface dark:bg-inverse-surface dark:text-inverse-on-surface" />
     </label>
-    <button type="button" class="btn-primary rounded-full" id="shareBtn">Copy share link</button>
-    <button type="button" class="btn-secondary rounded-full" id="pngBtn">Export PNG</button>
-    <button type="button" class="btn-secondary rounded-full" id="printBtn">Export PDF</button>
-    <button type="button" class="btn-secondary rounded-full" id="toggleEditor" aria-expanded="false">Edit recipe</button>
+    <div class="flex flex-wrap items-center justify-center gap-3">
+      <button type="button" class="btn-primary rounded-full" id="shareBtn">Copy share link</button>
+      <button type="button" class="btn-secondary rounded-full" id="pngBtn">Export PNG</button>
+      <button type="button" class="btn-secondary rounded-full" id="printBtn">Export PDF</button>
+      <button type="button" class="btn-secondary rounded-full" id="toggleEditor" aria-expanded="false">Edit recipe</button>
+    </div>
   </div>
   <p class="mb-4 min-h-[1.1em] text-center text-sm text-tertiary" id="toast"></p>
   <div id="exportPreview" class="mx-auto mb-6 hidden max-w-3xl text-center"></div>
