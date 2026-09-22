@@ -10,7 +10,7 @@
 
   var DEFAULT_RECIPE = {
     name: 'Caramel bottom sweet potatoes',
-    banners: ['Preheat oven to 190°C or 200°C', 'Line a sheet with parchment'],
+    banners: ['Preheat oven to 190\u00b0C or 200\u00b0C', 'Line a sheet with parchment'],
     rows: [
       'Sweet potatoes (as many as your heart desires)',
       'Salt, just a little',
@@ -21,7 +21,7 @@
       { label: 'split\\nlengthwise', start: 0, end: 0 },
       { label: 'season\\ncut side', start: 1, end: 2 },
       { label: 'face down\\non sheet', start: 0, end: 2 },
-      { label: 'bake\\n45 min–1 h\\ncool, flip,\\nserve', start: 0, end: 2 }
+      { label: 'bake\\n45 min\u20131 h\\ncool, flip,\\nserve', start: 0, end: 2 }
     ]
   };
 
@@ -167,7 +167,7 @@
     var acts = recipe.actions || [];
     var colCount = 1 + acts.length;
     var n = (recipe.rows || []).length;
-    document.title = (recipe.name || 'Recipe') + ' · recipe card';
+    document.title = (recipe.name || 'Recipe') + ' \u00b7 recipe card';
     var shell = document.createElement('div');
     shell.className = 'recipe-shell flex w-full justify-center';
     var card = document.createElement('div');
@@ -400,9 +400,14 @@
     });
   }
 
+  function prefersShareSheet() {
+    var ua = navigator.userAgent || '';
+    return /iPhone|iPad|iPod|Android/i.test(ua);
+  }
+
   function offerFile(blob, filename, mime) {
     var file = new File([blob], filename, { type: mime });
-    if (navigator.canShare) {
+    if (prefersShareSheet() && navigator.canShare) {
       try {
         if (navigator.canShare({ files: [file] })) {
           return navigator.share({ files: [file], title: recipe.name || filename }).then(function () {
@@ -476,7 +481,7 @@
 
   function exportFile(kind) {
     var slug = recipeSlug();
-    toast.textContent = kind === 'pdf' ? 'Preparing PDF…' : 'Preparing image…';
+    toast.textContent = kind === 'pdf' ? 'Preparing PDF\u2026' : 'Preparing image\u2026';
     captureCard().then(function (canvas) {
       if (kind === 'pdf') {
         return pdfFromCanvas(canvas).then(function (blob) {
@@ -489,7 +494,7 @@
     }).then(function (how) {
       if (how === 'shared') flashToast('Use Save Image / Save to Files in the share sheet.');
       else if (how === 'cancelled') flashToast('');
-      else flashToast(kind === 'pdf' ? 'PDF ready.' : 'Image ready. Check Downloads or the share sheet.');
+      else flashToast(kind === 'pdf' ? 'PDF downloaded.' : 'Image downloaded.');
     }).catch(function () {
       flashToast(kind === 'pdf' ? 'Could not export PDF.' : 'Could not export PNG.');
     });
