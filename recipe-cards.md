@@ -5,8 +5,10 @@ description: A one-page recipe you can read while you cook — ingredients on th
 permalink: /recipe-cards/
 hide_sidebar: true
 lang: en
-extra_css: /assets/css/recipe-cards.css
-extra_js: /assets/js/recipe-cards.js
+stylesheets:
+  - /assets/css/recipe-cards.css
+scripts:
+  - /assets/js/recipe-cards.js
 ---
 
 <div class="recipe-app">
