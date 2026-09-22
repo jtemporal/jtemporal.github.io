@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: standalone
 title: Recipe cards
 description: A one-page recipe you can read while you cook — ingredients on the left, the order of mixing and baking on the right.
 permalink: /recipe-cards/
-hide_sidebar: true
 lang: en
 stylesheets:
   - /assets/css/recipe-cards.css
@@ -12,11 +11,13 @@ scripts:
 ---
 
 <div class="recipe-app">
+  <p class="mx-auto mb-8 max-w-xl text-center text-on-surface-variant dark:text-inverse-on-surface">A one-page recipe you can read while you cook: ingredients on the left, the order of mixing and baking on the right.</p>
+
   <div class="recipe-toolbar mb-8 flex flex-wrap items-end justify-center gap-3">
-    <label class="flex flex-col gap-1 text-label-sm font-semibold uppercase tracking-wide text-on-surface-variant">
+    <label class="flex w-full max-w-md flex-col gap-1 text-label-sm font-semibold uppercase tracking-wide text-on-surface-variant sm:w-auto">
       Recipe name
       <input type="text" id="nameInput" placeholder="Caramel bottom sweet potatoes" autocomplete="off"
-        class="min-w-[min(280px,70vw)] rounded-full border border-outline bg-surface-container-lowest px-4 py-2 font-display font-semibold text-on-surface" />
+        class="w-full rounded-full border border-outline bg-surface-container-lowest px-4 py-2 font-display font-semibold text-on-surface dark:bg-inverse-surface dark:text-inverse-on-surface" />
     </label>
     <button type="button" class="btn-primary rounded-full" id="shareBtn">Copy share link</button>
     <button type="button" class="btn-secondary rounded-full" id="pngBtn">Export PNG</button>
@@ -26,7 +27,7 @@ scripts:
   <p class="mb-4 min-h-[1.1em] text-center text-sm text-tertiary" id="toast"></p>
   <div id="exportPreview" class="mx-auto mb-6 hidden max-w-3xl text-center"></div>
 
-  <div class="flex flex-col items-center" id="cards"></div>
+  <div class="flex flex-col items-center pb-16" id="cards"></div>
 
   <div class="recipe-editor mt-10 grid hidden gap-4" id="editor" hidden>
     <section class="card-surface">
