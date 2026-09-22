@@ -1,24 +1,28 @@
 [build]
   publish = "_site"
-  command = "npm ci && bundle exec jekyll build"
+  command = "pip install pillow && python3 scripts/write-recipe-og.py && npm ci && bundle exec jekyll build"
 
 [build.environment]
   RUBY_VERSION = "3.2.0"
   NODE_VERSION = "22"
 
-# Deploy from main branch to production
 [context.production]
-  command = "npm ci && bundle exec jekyll build"
+  command = "pip install pillow && python3 scripts/write-recipe-og.py && npm ci && bundle exec jekyll build"
 
-# Deploy previews for pull requests  
 [context.deploy-preview]
-  command = "npm ci && bundle exec jekyll build --config _dev_config.yml"
+  command = "pip install pillow && python3 scripts/write-recipe-og.py && npm ci && bundle exec jekyll build --config _dev_config.yml"
 
-# Branch deploys (if you want to test other branches)
 [context.branch-deploy]
-  command = "npm ci && bundle exec jekyll build --config _dev_config.yml"
+  command = "pip install pillow && python3 scripts/write-recipe-og.py && npm ci && bundle exec jekyll build --config _dev_config.yml"
 
-# Optimize caching for WebP images (90 days)
+[[edge_functions]]
+  function = "recipe-cards-og"
+  path = "/recipe-cards"
+
+[[edge_functions]]
+  function = "recipe-cards-og"
+  path = "/recipe-cards/"
+
 [[headers]]
   for = "/images/*.webp"
   [headers.values]
@@ -26,14 +30,12 @@
     Content-Type = "image/webp"
     Vary = "Accept-Encoding"
 
-# Cache other image formats (90 days)
 [[headers]]
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=7776000"
     Vary = "Accept-Encoding"
 
-# General performance and security headers for all pages
 [[headers]]
   for = "/*"
   [headers.values]
@@ -42,7 +44,6 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-XSS-Protection = "1; mode=block"
 
-# LLM markdown copies: not for human indexes, served as markdown
 [[headers]]
   for = "/*.md"
   [headers.values]
@@ -55,7 +56,6 @@
     Content-Type = "text/markdown; charset=utf-8"
     X-Robots-Tag = "noindex, nofollow"
 
-# HTML/pages: short revalidate cache. Clean URLs (no .html) need an explicit rule.
 [[headers]]
   for = "*.html"
   [headers.values]
@@ -111,13 +111,11 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Handle Jekyll's clean URLs
 [[redirects]]
 from = "/dev-diaries/*"
 to = "https://jtemporal.github.io/dev-diaries/:splat"
 status = 301
 
-# keep your 404 fallback as a last rule
 [[redirects]]
 from = "/*"
 to = "/404.html"
