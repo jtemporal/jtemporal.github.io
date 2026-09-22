@@ -1,129 +1,209 @@
+/**
+ * Recipe cards — shareable one-page recipe grid.
+ * Same IIFE + readyState pattern as js/copy-code.js.
+ */
 (function () {
-  const DEFAULT_RECIPE = {
-    name: "Caramel bottom sweet potatoes",
-    banners: ["Preheat oven to 190\u00b0C or 200\u00b0C", "Line a sheet with parchment"],
+  'use strict';
+
+  if (window.__recipeCardsInitialized) return;
+  window.__recipeCardsInitialized = true;
+
+  var DEFAULT_RECIPE = {
+    name: 'Caramel bottom sweet potatoes',
+    banners: ['Preheat oven to 190°C or 200°C', 'Line a sheet with parchment'],
     rows: [
-      "Sweet potatoes (as many as your heart desires)",
-      "Salt, just a little",
-      "Pepper, to taste"
+      'Sweet potatoes (as many as your heart desires)',
+      'Salt, just a little',
+      'Pepper, to taste'
     ],
     actions: [
-      { label: "wash\\ntrim ends", start: 0, end: 0 },
-      { label: "split\\nlengthwise", start: 0, end: 0 },
-      { label: "season\\ncut side", start: 1, end: 2 },
-      { label: "face down\\non sheet", start: 0, end: 2 },
-      { label: "bake\\n45 min\u20131 h\\ncool, flip,\\nserve", start: 0, end: 2 }
+      { label: 'wash\\ntrim ends', start: 0, end: 0 },
+      { label: 'split\\nlengthwise', start: 0, end: 0 },
+      { label: 'season\\ncut side', start: 1, end: 2 },
+      { label: 'face down\\non sheet', start: 0, end: 2 },
+      { label: 'bake\\n45 min–1 h\\ncool, flip,\\nserve', start: 0, end: 2 }
     ]
   };
 
-  const nameInput = document.getElementById("nameInput");
-  const cards = document.getElementById("cards");
-  const jsonEl = document.getElementById("json");
-  const editor = document.getElementById("editor");
-  const toast = document.getElementById("toast");
-  const bannerList = document.getElementById("bannerList");
-  const rowList = document.getElementById("rowList");
-  const actList = document.getElementById("actList");
-  if (!nameInput || !cards) return;
+  var INPUT_CLASS = 'w-full min-w-0 rounded-lg border border-outline-variant bg-surface-container-lowest px-3 py-2 text-on-surface dark:bg-inverse-surface dark:text-inverse-on-surface';
+  var ICON_BTN_CLASS = 'flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant hover:border-primary hover:text-primary';
+  var SELECT_CLASS = 'min-w-0 rounded-lg border border-outline-variant bg-surface-container-lowest px-1 py-2 text-sm dark:bg-inverse-surface';
 
-  let recipe = structuredClone(DEFAULT_RECIPE);
-  let suppressHash = false;
+  var nameInput, cards, jsonEl, editor, toast, bannerList, rowList, actList, toggleBtn, recipe;
+  var suppressHash = false;
+
+  function init() {
+    nameInput = document.getElementById('nameInput');
+    cards = document.getElementById('cards');
+    jsonEl = document.getElementById('json');
+    editor = document.getElementById('editor');
+    toast = document.getElementById('toast');
+    bannerList = document.getElementById('bannerList');
+    rowList = document.getElementById('rowList');
+    actList = document.getElementById('actList');
+    toggleBtn = document.getElementById('toggleEditor');
+    if (!nameInput || !cards) return;
+    recipe = structuredClone(DEFAULT_RECIPE);
+    bindEvents();
+    applyRecipe(decodeRecipe(location.hash) || structuredClone(DEFAULT_RECIPE), {
+      updateHash: !location.hash
+    });
+  }
+
+  function bindEvents() {
+    nameInput.addEventListener('input', function () {
+      recipe.name = cleanText(nameInput.value, 120);
+      afterEdit();
+    });
+    document.getElementById('addBanner').addEventListener('click', function () {
+      recipe.banners.push('');
+      afterEdit(true);
+    });
+    document.getElementById('addRow').addEventListener('click', function () {
+      recipe.rows.push('');
+      afterEdit(true);
+    });
+    document.getElementById('addAct').addEventListener('click', function () {
+      recipe.actions.push({ label: 'mix', start: 0, end: Math.max(0, recipe.rows.length - 1) });
+      afterEdit(true);
+    });
+    jsonEl.addEventListener('input', function () {
+      try { applyRecipe(JSON.parse(jsonEl.value)); } catch (err) {}
+    });
+    document.getElementById('printBtn').addEventListener('click', printCard);
+    document.getElementById('pngBtn').addEventListener('click', exportPng);
+    document.getElementById('shareBtn').addEventListener('click', copyShareLink);
+    toggleBtn.addEventListener('click', function () {
+      setEditorOpen(editor.hasAttribute('hidden'));
+    });
+    window.addEventListener('resize', fitCard);
+    window.addEventListener('hashchange', function () {
+      if (suppressHash) return;
+      var decoded = decodeRecipe(location.hash);
+      if (decoded) applyRecipe(decoded, { updateHash: false });
+    });
+  }
 
   function toBase64Url(str) {
-    const bytes = new TextEncoder().encode(str);
-    let bin = "";
-    bytes.forEach((b) => { bin += String.fromCharCode(b); });
-    return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+    var bytes = new TextEncoder().encode(str);
+    var bin = '';
+    bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+    return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
   }
+
   function fromBase64Url(s) {
-    const pad = s.length % 4 === 0 ? "" : "=".repeat(4 - (s.length % 4));
-    const b64 = s.replace(/-/g, "+").replace(/_/g, "/") + pad;
-    const bin = atob(b64);
-    const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0));
+    var pad = s.length % 4 === 0 ? '' : '='.repeat(4 - (s.length % 4));
+    var b64 = s.replace(/-/g, '+').replace(/_/g, '/') + pad;
+    var bin = atob(b64);
+    var bytes = Uint8Array.from(bin, function (c) { return c.charCodeAt(0); });
     return new TextDecoder().decode(bytes);
   }
+
   function encodeRecipe(r) { return toBase64Url(JSON.stringify(r)); }
+
   function decodeRecipe(hash) {
-    const raw = hash.replace(/^#/, "");
-    const payload = raw.startsWith("r=") ? raw.slice(2) : raw;
+    var raw = hash.replace(/^#/, '');
+    var payload = raw.indexOf('r=') === 0 ? raw.slice(2) : raw;
     if (!payload) return null;
     try { return sanitizeRecipe(JSON.parse(fromBase64Url(payload))); }
-    catch (e) { return null; }
+    catch (err) { return null; }
   }
+
   function writeHash() {
-    const next = "#r=" + encodeRecipe(recipe);
+    var next = '#r=' + encodeRecipe(recipe);
     if (location.hash === next) return;
     suppressHash = true;
-    history.replaceState(null, "", next);
-    requestAnimationFrame(() => { suppressHash = false; });
+    history.replaceState(null, '', next);
+    requestAnimationFrame(function () { suppressHash = false; });
   }
+
   function cleanText(value, max) {
-    return String(value ?? "").replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "").replace(/^\uFEFF/, "").slice(0, max);
+    return String(value == null ? '' : value)
+      .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '')
+      .replace(/^\uFEFF/, '')
+      .slice(0, max);
   }
+
   function sanitizeRecipe(raw) {
-    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
-    const rows = Array.isArray(raw.rows) ? raw.rows.slice(0, 60).map((r) => cleanText(r, 240)) : [];
+    if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null;
+    var rows = Array.isArray(raw.rows) ? raw.rows.slice(0, 60).map(function (r) { return cleanText(r, 240); }) : [];
     if (!rows.length) return null;
-    const banners = Array.isArray(raw.banners) ? raw.banners.slice(0, 12).map((b) => cleanText(b, 200)).filter(Boolean) : [];
-    const actions = Array.isArray(raw.actions) ? raw.actions.slice(0, 16).map((a) => {
-      const item = a && typeof a === "object" ? a : {};
-      const start = Number.parseInt(item.start, 10);
-      const end = Number.parseInt(item.end, 10);
+    var banners = Array.isArray(raw.banners)
+      ? raw.banners.slice(0, 12).map(function (b) { return cleanText(b, 200); }).filter(Boolean)
+      : [];
+    var actions = Array.isArray(raw.actions) ? raw.actions.slice(0, 16).map(function (a) {
+      var item = a && typeof a === 'object' ? a : {};
+      var start = Number.parseInt(item.start, 10);
+      var end = Number.parseInt(item.end, 10);
       return {
-        label: cleanText(String(item.label ?? "").replace(/\r/g, ""), 200),
+        label: cleanText(String(item.label == null ? '' : item.label).replace(/\r/g, ''), 200),
         start: Number.isFinite(start) ? start : 0,
         end: Number.isFinite(end) ? end : 0
       };
     }) : [];
-    return { name: cleanText(raw.name, 120) || "Untitled recipe", banners, rows, actions };
+    return { name: cleanText(raw.name, 120) || 'Untitled recipe', banners: banners, rows: rows, actions: actions };
   }
+
   function setCellText(el, text) {
-    String(text).split(/\n|\\n/).forEach((part, i) => {
-      if (i) el.appendChild(document.createElement("br"));
+    String(text).split(/\n|\\n/).forEach(function (part, i) {
+      if (i) el.appendChild(document.createElement('br'));
       el.appendChild(document.createTextNode(part));
     });
   }
+
+  function iconButton(symbol) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = ICON_BTN_CLASS;
+    var icon = document.createElement('span');
+    icon.className = 'material-symbols-outlined text-base';
+    icon.setAttribute('aria-hidden', 'true');
+    icon.textContent = symbol;
+    btn.appendChild(icon);
+    return btn;
+  }
+
   function renderCard() {
-    const acts = recipe.actions || [];
-    const colCount = 1 + acts.length;
-    const n = (recipe.rows || []).length;
-    document.title = (recipe.name || "Recipe") + " \u00b7 recipe card";
-    const shell = document.createElement("div");
-    shell.className = "recipe-shell flex w-full justify-center";
-    const card = document.createElement("div");
-    card.className = "recipe-card rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy";
-    const table = document.createElement("table");
-    const titleRow = document.createElement("tr");
-    const titleCell = document.createElement("th");
-    titleCell.className = "recipe-banner title";
+    var acts = recipe.actions || [];
+    var colCount = 1 + acts.length;
+    var n = (recipe.rows || []).length;
+    document.title = (recipe.name || 'Recipe') + ' · recipe card';
+    var shell = document.createElement('div');
+    shell.className = 'recipe-shell flex w-full justify-center';
+    var card = document.createElement('div');
+    card.className = 'recipe-card rounded-2xl border border-outline-variant bg-surface-container-lowest shadow-cozy dark:border-outline dark:bg-inverse-surface';
+    var table = document.createElement('table');
+    var titleRow = document.createElement('tr');
+    var titleCell = document.createElement('th');
+    titleCell.className = 'recipe-banner title';
     titleCell.colSpan = colCount;
-    titleCell.textContent = recipe.name || "Untitled recipe";
+    titleCell.textContent = recipe.name || 'Untitled recipe';
     titleRow.appendChild(titleCell);
     table.appendChild(titleRow);
-    (recipe.banners || []).forEach((b) => {
-      const tr = document.createElement("tr");
-      const th = document.createElement("th");
-      th.className = "recipe-banner";
+    (recipe.banners || []).forEach(function (b) {
+      var tr = document.createElement('tr');
+      var th = document.createElement('th');
+      th.className = 'recipe-banner';
       th.colSpan = colCount;
       th.textContent = b;
       tr.appendChild(th);
       table.appendChild(tr);
     });
-    for (let r = 0; r < n; r++) {
-      const tr = document.createElement("tr");
-      const ing = document.createElement("td");
-      ing.className = "recipe-ing";
+    for (var r = 0; r < n; r++) {
+      var tr = document.createElement('tr');
+      var ing = document.createElement('td');
+      ing.className = 'recipe-ing';
       ing.textContent = recipe.rows[r];
       tr.appendChild(ing);
-      acts.forEach((a, ai) => {
+      acts.forEach(function (a, ai) {
         if (r === a.start) {
-          const td = document.createElement("td");
-          td.className = "recipe-act" + (ai === acts.length - 1 ? " final" : "");
+          var td = document.createElement('td');
+          td.className = 'recipe-act' + (ai === acts.length - 1 ? ' final' : '');
           td.rowSpan = Math.max(1, a.end - a.start + 1);
           setCellText(td, a.label);
           tr.appendChild(td);
         } else if (!(r > a.start && r <= a.end)) {
-          tr.appendChild(document.createElement("td"));
+          tr.appendChild(document.createElement('td'));
         }
       });
       table.appendChild(tr);
@@ -133,106 +213,120 @@
     cards.replaceChildren(shell);
     fitCard();
   }
+
   function fitCard() {
-    const shell = cards.querySelector(".recipe-shell");
-    const card = cards.querySelector(".recipe-card");
+    var shell = cards.querySelector('.recipe-shell');
+    var card = cards.querySelector('.recipe-card');
     if (!shell || !card) return;
-    card.style.transform = "none";
-    card.style.marginBottom = "0";
-    const scale = Math.min(1, shell.clientWidth / card.offsetWidth);
-    card.style.transform = "scale(" + scale + ")";
-    const hidden = card.offsetWidth * (1 - scale);
-    card.style.marginBottom = hidden ? (-hidden) + "px" : "0";
+    card.style.transform = 'none';
+    card.style.marginBottom = '0';
+    var scale = Math.min(1, shell.clientWidth / card.offsetWidth);
+    card.style.transform = 'scale(' + scale + ')';
+    var hiddenW = card.offsetWidth * (1 - scale);
+    card.style.marginBottom = hiddenW ? -hiddenW + 'px' : '0';
   }
-  window.addEventListener("resize", fitCard);
+
   function clampActions() {
-    const max = Math.max(0, (recipe.rows || []).length - 1);
-    (recipe.actions || []).forEach((a) => {
+    var max = Math.max(0, (recipe.rows || []).length - 1);
+    (recipe.actions || []).forEach(function (a) {
       a.start = Math.min(Math.max(0, Number(a.start) || 0), max);
       a.end = Math.min(Math.max(a.start, Number(a.end) || 0), max);
     });
   }
+
   function renderForm() {
-    nameInput.value = recipe.name || "";
-    bannerList.innerHTML = "";
-    (recipe.banners || []).forEach((text, i) => bannerList.appendChild(lineRow("banner", i, text, (recipe.banners || []).length > 1)));
-    rowList.innerHTML = "";
-    (recipe.rows || []).forEach((text, i) => rowList.appendChild(lineRow("row", i, text, (recipe.rows || []).length > 1)));
-    actList.innerHTML = "";
-    const n = (recipe.rows || []).length;
-    (recipe.actions || []).forEach((a, i) => actList.appendChild(actRow(i, a, n)));
+    nameInput.value = recipe.name || '';
+    bannerList.replaceChildren();
+    (recipe.banners || []).forEach(function (text, i) {
+      bannerList.appendChild(lineRow('banner', i, text, (recipe.banners || []).length > 1));
+    });
+    rowList.replaceChildren();
+    (recipe.rows || []).forEach(function (text, i) {
+      rowList.appendChild(lineRow('row', i, text, (recipe.rows || []).length > 1));
+    });
+    actList.replaceChildren();
+    var n = (recipe.rows || []).length;
+    (recipe.actions || []).forEach(function (a, i) {
+      actList.appendChild(actRow(i, a, n));
+    });
     if (document.activeElement !== jsonEl) jsonEl.value = JSON.stringify(recipe, null, 2);
   }
+
   function lineRow(kind, i, text, canRemove) {
-    const wrap = document.createElement("div");
-    wrap.className = "row-item";
-    wrap.innerHTML = '<span class="w-8 text-right text-xs text-outline">' + (i + 1) + "</span>";
-    const input = document.createElement("input");
-    input.type = "text";
-    input.className = "w-full min-w-0 rounded-lg border border-outline-variant bg-surface-container-lowest px-3 py-2";
+    var wrap = document.createElement('div');
+    wrap.className = 'row-item';
+    var idx = document.createElement('span');
+    idx.className = 'w-8 text-right text-xs text-outline';
+    idx.textContent = String(i + 1);
+    var input = document.createElement('input');
+    input.type = 'text';
+    input.className = INPUT_CLASS;
     input.value = text;
-    input.addEventListener("input", () => {
-      if (kind === "banner") recipe.banners[i] = cleanText(input.value, 200);
+    input.addEventListener('input', function () {
+      if (kind === 'banner') recipe.banners[i] = cleanText(input.value, 200);
       else recipe.rows[i] = cleanText(input.value, 240);
       afterEdit();
     });
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant";
-    btn.textContent = "\u00d7";
+    var btn = iconButton('close');
     btn.disabled = !canRemove;
-    btn.addEventListener("click", () => {
-      if (kind === "banner") recipe.banners.splice(i, 1);
+    btn.setAttribute('aria-label', 'Remove');
+    btn.addEventListener('click', function () {
+      if (kind === 'banner') recipe.banners.splice(i, 1);
       else { recipe.rows.splice(i, 1); clampActions(); }
       afterEdit(true);
     });
-    wrap.append(input, btn);
+    wrap.append(idx, input, btn);
     return wrap;
   }
+
   function actRow(i, a, n) {
-    const wrap = document.createElement("div");
-    wrap.className = "act-item";
-    const label = document.createElement("textarea");
-    label.className = "recipe-act-label w-full min-w-0 rounded-lg border border-outline-variant px-3 py-2";
-    label.value = String(a.label || "").replace(/\\n/g, "\n");
-    label.placeholder = "mix";
-    label.addEventListener("input", () => {
-      recipe.actions[i].label = cleanText(label.value.replace(/\n/g, "\\n"), 200);
+    var wrap = document.createElement('div');
+    wrap.className = 'act-item';
+    var label = document.createElement('textarea');
+    label.className = 'recipe-act-label ' + INPUT_CLASS;
+    label.value = String(a.label || '').replace(/\\n/g, '\n');
+    label.placeholder = 'mix';
+    label.addEventListener('input', function () {
+      recipe.actions[i].label = cleanText(label.value.replace(/\n/g, '\\n'), 200);
       afterEdit();
     });
-    const from = document.createElement("select");
-    const to = document.createElement("select");
-    from.className = to.className = "min-w-0 rounded-lg border border-outline-variant px-1 py-2 text-sm";
-    for (let r = 0; r < n; r++) {
+    var from = document.createElement('select');
+    var to = document.createElement('select');
+    from.className = SELECT_CLASS;
+    to.className = SELECT_CLASS;
+    for (var r = 0; r < n; r++) {
       from.appendChild(new Option(String(r + 1), r, false, r === a.start));
       to.appendChild(new Option(String(r + 1), r, false, r === a.end));
     }
-    from.addEventListener("change", () => {
+    from.addEventListener('change', function () {
       recipe.actions[i].start = Number(from.value);
       if (recipe.actions[i].end < recipe.actions[i].start) recipe.actions[i].end = recipe.actions[i].start;
       afterEdit(true);
     });
-    to.addEventListener("change", () => {
+    to.addEventListener('change', function () {
       recipe.actions[i].end = Number(to.value);
       if (recipe.actions[i].end < recipe.actions[i].start) recipe.actions[i].start = recipe.actions[i].end;
       afterEdit(true);
     });
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant";
-    btn.textContent = "\u00d7";
-    btn.addEventListener("click", () => { recipe.actions.splice(i, 1); afterEdit(true); });
+    var btn = iconButton('close');
+    btn.setAttribute('aria-label', 'Remove step');
+    btn.addEventListener('click', function () {
+      recipe.actions.splice(i, 1);
+      afterEdit(true);
+    });
     wrap.append(label, from, to, btn);
     return wrap;
   }
+
   function afterEdit(rebuildForm) {
     renderCard();
     writeHash();
     if (rebuildForm) renderForm();
     else if (document.activeElement !== jsonEl) jsonEl.value = JSON.stringify(recipe, null, 2);
   }
+
   function applyRecipe(next, opts) {
-    const clean = sanitizeRecipe(next);
+    var clean = sanitizeRecipe(next);
     if (!clean) return;
     recipe = clean;
     clampActions();
@@ -240,87 +334,111 @@
     renderForm();
     if (!opts || opts.updateHash !== false) writeHash();
   }
-  nameInput.addEventListener("input", () => { recipe.name = cleanText(nameInput.value, 120); afterEdit(); });
-  document.getElementById("addBanner").addEventListener("click", () => { recipe.banners.push(""); afterEdit(true); });
-  document.getElementById("addRow").addEventListener("click", () => { recipe.rows.push(""); afterEdit(true); });
-  document.getElementById("addAct").addEventListener("click", () => {
-    recipe.actions.push({ label: "mix", start: 0, end: Math.max(0, recipe.rows.length - 1) });
-    afterEdit(true);
-  });
-  jsonEl.addEventListener("input", () => { try { applyRecipe(JSON.parse(jsonEl.value)); } catch (e) {} });
-  document.getElementById("printBtn").addEventListener("click", () => {
-    const card = cards.querySelector(".recipe-card");
-    const prev = card ? card.style.transform : "";
-    if (card) { card.style.transform = "none"; card.style.marginBottom = "0"; }
-    window.print();
-    if (card) { card.style.transform = prev; fitCard(); }
-  });
-  document.getElementById("pngBtn").addEventListener("click", async () => {
-    const card = cards.querySelector(".recipe-card");
-    if (!card) return;
-    toast.textContent = "Preparing image\u2026";
-    const prevT = card.style.transform;
-    const prevM = card.style.marginBottom;
-    card.style.transform = "none";
-    card.style.marginBottom = "0";
-    try {
-      if (!window.html2canvas) {
-        await new Promise((resolve, reject) => {
-          const s = document.createElement("script");
-          s.src = "https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js";
-          s.onload = resolve;
-          s.onerror = reject;
-          document.head.appendChild(s);
-        });
-      }
-      const canvas = await window.html2canvas(card, { backgroundColor: "#ffffff", scale: 2, useCORS: true });
-      const dataUrl = canvas.toDataURL("image/png");
-      const slug = (recipe.name || "recipe").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "recipe";
-      const a = document.createElement("a");
-      a.download = slug + ".png";
-      a.href = dataUrl;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      const preview = document.getElementById("exportPreview");
-      preview.hidden = false;
-      preview.classList.remove("hidden");
-      preview.replaceChildren();
-      const img = document.createElement("img");
-      img.alt = recipe.name || "Recipe card";
-      img.src = dataUrl;
-      img.className = "w-full rounded-2xl border border-outline-variant";
-      preview.appendChild(img);
-      toast.textContent = "PNG ready.";
-    } catch (e) {
-      toast.textContent = "Could not export PNG.";
+
+  function setEditorOpen(open) {
+    editor.classList.toggle('hidden', !open);
+    if (open) editor.removeAttribute('hidden');
+    else editor.setAttribute('hidden', '');
+    toggleBtn.textContent = open ? 'Hide editor' : 'Edit recipe';
+    toggleBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) editor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function flashToast(message) {
+    toast.textContent = message;
+    setTimeout(function () { toast.textContent = ''; }, 2800);
+  }
+
+  function copyToClipboard(text, done) {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function () { done(); }).catch(function () { done(false); });
+      return;
     }
-    card.style.transform = prevT;
-    card.style.marginBottom = prevM;
-    fitCard();
-    setTimeout(() => { toast.textContent = ""; }, 2800);
-  });
-  const toggleBtn = document.getElementById("toggleEditor");
-  toggleBtn.addEventListener("click", () => {
-    const open = editor.hidden;
-    editor.hidden = !open;
-    toggleBtn.textContent = open ? "Hide editor" : "Edit recipe";
-    if (open) editor.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-  document.getElementById("shareBtn").addEventListener("click", async () => {
+    var textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    try { document.execCommand('copy'); done(); }
+    catch (err) { done(false); }
+    document.body.removeChild(textarea);
+  }
+
+  function copyShareLink() {
     writeHash();
-    try {
-      await navigator.clipboard.writeText(location.href);
-      toast.textContent = "Link copied.";
-    } catch (e) {
-      toast.textContent = location.href;
-    }
-    setTimeout(() => { toast.textContent = ""; }, 2800);
-  });
-  window.addEventListener("hashchange", () => {
-    if (suppressHash) return;
-    const decoded = decodeRecipe(location.hash);
-    if (decoded) applyRecipe(decoded, { updateHash: false });
-  });
-  applyRecipe(decodeRecipe(location.hash) || structuredClone(DEFAULT_RECIPE), { updateHash: !location.hash });
+    copyToClipboard(location.href, function (ok) {
+      flashToast(ok === false ? location.href : 'Link copied.');
+    });
+  }
+
+  function withUnscaledCard(fn) {
+    var card = cards.querySelector('.recipe-card');
+    if (!card) return;
+    var prevT = card.style.transform;
+    var prevM = card.style.marginBottom;
+    card.style.transform = 'none';
+    card.style.marginBottom = '0';
+    fn(card, function () {
+      card.style.transform = prevT;
+      card.style.marginBottom = prevM;
+      fitCard();
+    });
+  }
+
+  function printCard() {
+    withUnscaledCard(function (card, restore) {
+      window.print();
+      restore();
+    });
+  }
+
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = src;
+      s.onload = resolve;
+      s.onerror = reject;
+      document.head.appendChild(s);
+    });
+  }
+
+  function exportPng() {
+    withUnscaledCard(function (card, restore) {
+      toast.textContent = 'Preparing image\u2026';
+      var ready = window.html2canvas
+        ? Promise.resolve()
+        : loadScript('https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js');
+      ready.then(function () {
+        return window.html2canvas(card, { backgroundColor: '#ffffff', scale: 2, useCORS: true });
+      }).then(function (canvas) {
+        var dataUrl = canvas.toDataURL('image/png');
+        var slug = (recipe.name || 'recipe').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'recipe';
+        var a = document.createElement('a');
+        a.download = slug + '.png';
+        a.href = dataUrl;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        var preview = document.getElementById('exportPreview');
+        preview.hidden = false;
+        preview.classList.remove('hidden');
+        preview.replaceChildren();
+        var img = document.createElement('img');
+        img.alt = recipe.name || 'Recipe card';
+        img.src = dataUrl;
+        img.className = 'w-full rounded-2xl border border-outline-variant';
+        preview.appendChild(img);
+        flashToast('PNG ready.');
+      }).catch(function () {
+        flashToast('Could not export PNG.');
+      }).then(restore);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
