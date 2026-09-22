@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_language | split: '_' | first }}">
+  {% include head.html %}
+  <body class="min-h-screen bg-background text-on-surface dark:bg-background-dark dark:text-inverse-on-surface">
+    <header class="border-b border-outline-variant bg-surface-container-lowest/80 backdrop-blur-md dark:border-outline dark:bg-background-dark/80">
+      <div class="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
+        <a class="font-sans text-sm font-medium text-on-surface-variant transition-colors hover:text-primary dark:text-inverse-on-surface" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <div class="flex items-center gap-2">
+          <span class="font-display text-sm font-semibold text-on-surface dark:text-inverse-on-surface">{{ page.title }}</span>
+          <button id="theme-toggle" type="button" class="rounded-full p-2 text-on-surface-variant transition-colors hover:bg-surface-container dark:text-inverse-on-surface dark:hover:bg-inverse-surface" aria-label="Toggle theme">
+            <span class="material-symbols-outlined text-xl" id="theme-icon" aria-hidden="true">dark_mode</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+      {{ content }}
+    </main>
+
+    {% if site.ga4_id %}{% include analytics.html %}{% endif %}
+    {% if site.posthog %}{% include posthog.html %}{% endif %}
+
+    {% for src in page.scripts %}
+    <script src="{{ src | relative_url }}" defer></script>
+    {% endfor %}
+  </body>
+</html>
