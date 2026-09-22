@@ -4,6 +4,7 @@ title: Recipe cards
 description: A one-page recipe you can read while you cook — ingredients on the left, the order of mixing and baking on the right.
 permalink: /recipe-cards/
 lang: en
+image: /images/recipe-cards-og.svg
 stylesheets:
   - /assets/css/recipe-cards.css
 scripts:
