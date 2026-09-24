@@ -151,15 +151,12 @@
     });
   }
 
-  function iconButton(symbol) {
+  function iconButton() {
     var btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = ICON_BTN_CLASS;
-    var icon = document.createElement('span');
-    icon.className = 'material-symbols-outlined text-base';
-    icon.setAttribute('aria-hidden', 'true');
-    icon.textContent = symbol;
-    btn.appendChild(icon);
+    btn.className = ICON_BTN_CLASS + ' icon-remove';
+    btn.setAttribute('aria-hidden', 'true');
+    btn.textContent = '\u00d7';
     return btn;
   }
 
@@ -220,10 +217,10 @@
     if (!shell || !card) return;
     card.style.transform = 'none';
     card.style.marginBottom = '0';
+    shell.style.height = '';
     var scale = Math.min(1, shell.clientWidth / card.offsetWidth);
     card.style.transform = 'scale(' + scale + ')';
-    var hiddenW = card.offsetWidth * (1 - scale);
-    card.style.marginBottom = hiddenW ? -hiddenW + 'px' : '0';
+    shell.style.height = (card.offsetHeight * scale) + 'px';
   }
 
   function clampActions() {
@@ -267,7 +264,7 @@
       else recipe.rows[i] = cleanText(input.value, 240);
       afterEdit();
     });
-    var btn = iconButton('close');
+    var btn = iconButton();
     btn.disabled = !canRemove;
     btn.setAttribute('aria-label', 'Remove');
     btn.addEventListener('click', function () {
@@ -308,7 +305,7 @@
       if (recipe.actions[i].end < recipe.actions[i].start) recipe.actions[i].start = recipe.actions[i].end;
       afterEdit(true);
     });
-    var btn = iconButton('close');
+    var btn = iconButton();
     btn.setAttribute('aria-label', 'Remove step');
     btn.addEventListener('click', function () {
       recipe.actions.splice(i, 1);
