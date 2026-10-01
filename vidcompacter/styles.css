@@ -161,6 +161,15 @@ h1 .accent {
     color: var(--navy);
 }
 
+.trust-line {
+    margin-top: 18px;
+    max-width: 42ch;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--ink-muted);
+}
+
 .hero-art {
     display: flex;
     justify-content: center;
@@ -330,6 +339,24 @@ h1 .accent {
     font-size: 28px;
     font-weight: 800;
     letter-spacing: -0.04em;
+}
+
+.get-it-body {
+    margin-top: 8px;
+    color: var(--ink-muted);
+    font-size: 15px;
+    max-width: 40ch;
+    line-height: 1.5;
+}
+
+.get-it-actions {
+    margin-top: 16px;
+}
+
+.cta-soon-btn {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.95;
 }
 
 .cta-soon {
