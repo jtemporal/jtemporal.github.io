@@ -81,9 +81,7 @@
                 <details class="faq-item">
                     <summary>Does it work on iPhone, iPad, and Mac?</summary>
                     <p>
-                        Yes on iPhone, iPad, and Mac. Same idea everywhere: pick a video, wait, share it
-                        yourself. If you run into something wonky on a larger screen, tell Jess on the
-                        support form and pick iPad as the platform.
+                        Yes — and one Universal Purchase on the App Store unlocks all three. Same idea everywhere: pick a video, wait, share it yourself.
                     </p>
                 </details>
                 <details class="faq-item">
@@ -165,8 +163,18 @@
                 <details class="faq-item">
                     <summary>How much does it cost?</summary>
                     <p>
-                        One-time purchase when it ships for iPhone, iPad, and Mac. No ads. No watermark.
-                        No subscription. The App Store listing is not live yet.
+                        One-time purchase on the App Store: <span data-vc-price>US$7.99</span>
+                        (<span data-vc-price-note>price on the App Store for your country</span>).
+                        No subscription, no ads, no watermark. Your App Store shows the price for your country.
+                        Verified storefronts: US$7.99 · CA$9.99 · R$9,90.
+                    </p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I shrink a video to send to an AI chat?</summary>
+                    <p>
+                        Yes. Chat tools and AI agents often reject big phone videos. Run the clip through
+                        VidCompacter on your device first, then attach the smaller file. Same idea as posting
+                        to Mastodon: make a shareable copy, then you send it yourself.
                     </p>
                 </details>
                 <details class="faq-item">
@@ -216,5 +224,38 @@
             </p>
         </div>
     </footer>
+
+<script>
+(function () {
+  function detectCountry() {
+    var q = new URLSearchParams(window.location.search).get('cc');
+    if (q) return q.toUpperCase();
+    var meta = document.querySelector('meta[name="vc-geo-country"]');
+    if (meta && meta.content) return meta.content.toUpperCase();
+    try {
+      var lang = (navigator.language || '').toLowerCase();
+      if (lang === 'pt-br' || lang.endsWith('-br')) return 'BR';
+      if (lang.endsWith('-ca') || lang === 'en-ca' || lang === 'fr-ca') return 'CA';
+      if (lang.endsWith('-us')) return 'US';
+    } catch (e) {}
+    return 'US';
+  }
+  var PRICES = {
+    BR: { primary: 'R$9,90', note: 'compra única · preço na App Store do Brasil' },
+    CA: { primary: 'CA$9.99', note: 'one-time · Canadian App Store' },
+    US: { primary: 'US$7.99', note: 'one-time · price on the App Store for your country' }
+  };
+  var cc = detectCountry();
+  var p = PRICES[cc] || PRICES.US;
+  document.querySelectorAll('[data-vc-price]').forEach(function (el) {
+    el.textContent = p.primary;
+  });
+  document.querySelectorAll('[data-vc-price-note]').forEach(function (el) {
+    el.textContent = p.note;
+  });
+  document.documentElement.setAttribute('data-vc-country', cc);
+})();
+</script>
+
 </body>
 </html>
