@@ -5,7 +5,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-12-30 12:34:20-02:00
-last_modified_at: 2026-06-20
+last_modified_at: 2026-11-09
 description: See how to use git rebase to bring all the most recent commits to your
   current branch
 image: /images/covers/pro_tip.webp
@@ -58,7 +58,7 @@ git checkout task-2
 git rebase main
 ```
 
-By running these commands you will see in your terminal the message  saying that the update was done successfully *“Successfully rebased and updated refs/heads/task-2.”* as you can see in the following image:
+By running these commands you will see in your terminal a short progress line such as `Rebasing (1/1)`, then the message saying that the update was done successfully: *“Successfully rebased and updated refs/heads/task-2.”* as you can see in the following image:
 
 ![imagem com o resultado dos comandos anteriores](/images/git-rebase-ajustar-origem/git-rebase-branch-fig9.webp)
 

@@ -4,7 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2022-01-23 11:25:00-02:00
-last_modified_at: 2026-06-20
+last_modified_at: 2026-11-09
 description: Understand how to use git stash and git stash pop for real
 image: /images/covers/pro_tip.webp
 lang: en
@@ -108,6 +108,8 @@ If you try to stash these changes, you'll see that the new file is still there, 
 ![Commands git stash and git status output showing that the new file has not been stashed](/images/git-stash/git-stash-falha-adiocionar-arquivo-novo.webp)
 
 And then you might be wondering, since the stash command doesn't take new files into account, how do we get around this behavior? And the good news is that there is a trick to adding new files to a stash: you need to add them to staging!
+
+(If you prefer a one-liner, `git stash -u` includes untracked files without the extra `git add`. The rest of this section shows the staging path, which is useful when you want to choose exactly which new files go into the stash.)
 
 Then add the new file with `git add` and you'll have something like this:
 

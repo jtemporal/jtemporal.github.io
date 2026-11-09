@@ -2,7 +2,7 @@
 bookbanner: true
 comments: true
 date: 2022-01-23 11:25:00-02:00
-last_modified_at: 2026-06-20
+last_modified_at: 2026-11-09
 description: Entenda como usar git stash e git stash pop na prática
 image: /images/covers/colinha.webp
 lang: pt
@@ -32,7 +32,7 @@ Existem algumas formas de interromper o trabalho, incluindo fazer commits. A min
 
 ## O que é o stash
 
-Stash pode ser visto com um empacotamento das mudanças atuais, que ainda não foram feitas o commit, que fica salvo localmente no seu computador numa pilha. Cada pacote de mudanças é chamado de stash.
+Stash pode ser visto como um empacotamento das mudanças atuais, que ainda não foram feitas o commit, que fica salvo localmente no seu computador numa pilha. Cada pacote de mudanças é chamado de stash.
 
 Quando um stash é criado, o seu diretório volta a um _estado limpo_, ou seja, sem mudanças nos arquivos que são acompanhados pelo Git. Isso também quer dizer que arquivos novos, que ainda não foram adicionados em um commit, não são adicionados em stash.
 
@@ -98,7 +98,7 @@ Você também pode remover um stash específico passando o índice dele, por exe
 
 ## Como adicionar um arquivo novo à um stash
 
-Como falei anteriormente, arquivos novos não entram num stash, isso acontece por que eles não possuem rastreamento anterior. Por exemplo, digamos que enquanto estivesse trabalhando no branch `tarefa`, você, além de modificar o arquivo `arquivo-tarefa.txt`, você tenha criado o arquivo `arquivo-2.txt`, de deixando com o resultado a seguir no seu diretório de trabalho:
+Como falei anteriormente, arquivos novos não entram num stash, isso acontece porque eles não possuem rastreamento anterior. Por exemplo, digamos que enquanto estivesse trabalhando no branch `tarefa`, você, além de modificar o arquivo `arquivo-tarefa.txt`, você tenha criado o arquivo `arquivo-2.txt`, deixando com o resultado a seguir no seu diretório de trabalho:
 
 ![resultado do git status mostrando um arquivo modificado e um arquivo novo](/images/git-stash/git-status-trabalho-em-adamento-arquivo-novo.webp)
 
@@ -106,7 +106,9 @@ Se você tentar fazer o stash dessas alterações, vai ver que o arquivo novo co
 
 ![resultado dos comandos git stash e git status mostrando que o arquivo novo não entrou no stash](/images/git-stash/git-stash-falha-adiocionar-arquivo-novo.webp)
 
-E aí você deve estar se perguntando, já que o stash não leva em consideração arquivos novos, como a gente burla esse comportamento? E a boa notícia é que existe um truque para adicionar arquivos novos à um stash: você precisa adicionar eles em staging!
+E aí você deve estar se perguntando, já que o stash não leva em consideração arquivos novos, como a gente burla esse comportamento? E a boa notícia é que existe um truque para adicionar arquivos novos a um stash: você precisa adicionar eles em staging!
+
+(Se preferir um atalho, o `git stash -u` já inclui os arquivos novos, os chamados _untracked_, sem precisar do `git add`. O resto desta seção mostra o caminho pelo staging, que é útil quando você quer escolher exatamente quais arquivos novos entram no stash.)
 
 Então adicione o arquivo novo com `git add` e você terá uma situação assim:
 

@@ -4,6 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00
+last_modified_at: 2026-11-09
 description: A recipe to understand and fix conflicts in git
 image: /images/covers/tutorial.webp
 lang: en
@@ -77,7 +78,21 @@ And now with a brand new conflict in our hands, it's time to resolve it.
 
 Before starting it is important to note that this type of conflict is also possible to resolve through the GitHub interface, but the focus here is on the commands, so let's go!
 
-The first important thing is to decide on which branch to resolve the conflict, a rule that usually works is to resolve conflicts on the branch that presents the changes, in this case, this branch is `person2`, with that you must update your local repository, and this particular branch with adjustments from main, for that you can do:
+The first important thing is to decide on which branch to resolve the conflict. A rule that usually works is to resolve conflicts on the branch that brings the changes; in this case, that branch is `person2`.
+
+Before the steps, set how `git pull` should reconcile divergent branches. In newer versions of Git, if your branch and the branch you pull from have diverged and you have not configured a pull strategy, `git pull` stops with a hint and:
+
+```
+fatal: Need to specify how to reconcile divergent branches.
+```
+
+Setting `pull.rebase` to `false` keeps the merge behavior this post demonstrates. You only need this once per repository. If you prefer not to change the repo config, you can pass `--no-rebase` on a single pull instead.
+
+```console
+git config pull.rebase false
+```
+
+Then check out the branch and bring in `main`:
 
 ```console
 git checkout person2
@@ -88,7 +103,7 @@ This will bring the conflict to your local machine giving you a warning that the
 
 ![image showing the result of the git pull command displaying the conflict message](/images/git-conflict-resolution/git-pull-with-conflict-message-fig6.webp)
 
-If you open `README.md` in a code editor, you will notice that are markers indicated by successive greater than signs (`>`), less than signs (`>`) and equal signs (`=`), here is an example of the conflict shown in Vim:
+If you open `README.md` in a code editor, you will notice markers indicated by successive less than signs (`<`), equal signs (`=`), and greater than signs (`>`). Here is an example of the conflict shown in Vim:
 
 ![image showing the conflict on VIM editor](/images/git-conflict-resolution/conflict-displayed-on-vim-fig7.webp)
 
@@ -154,13 +169,14 @@ You now understand how conflicts happen and you also know all the steps involved
 
 Here is the simple list of all commands and steps to resolve conflicts, remember to replace the `<>` notations accordingly:
 
-1. `git checkout <name of the branch in conflict>`
-2. `git pull origin main`
-3. open the file in conflict and resolve it
-4. save the file
-5. `git add <name of the altered file>`
-6. `git commit`
-7. `git push`
+1. `git config pull.rebase false` once per repository
+2. `git checkout <name of the branch in conflict>`
+3. `git pull origin main`
+4. open the file in conflict and resolve it
+5. save the file
+6. `git add <name of the altered file>`
+7. `git commit`
+8. `git push`
 
 I hope this article helps you resolve any git conflicts you may encounter going forward. 😉
 

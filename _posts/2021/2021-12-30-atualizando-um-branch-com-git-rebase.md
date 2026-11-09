@@ -3,7 +3,7 @@ author_note: false
 bookbanner: true
 comments: true
 date: 2021-12-30 12:34:20-02:00
-last_modified_at: 2026-06-20
+last_modified_at: 2026-11-09
 description: Veja como usar git rebase para trazer commits mais recentes para o branch
   atual
 image: /images/covers/colinha.webp
@@ -55,7 +55,7 @@ Tem duas formas de usar o rebase para fazer essa atualização, vamos ver a prim
 git checkout tarefa-2
 git rebase main
 ```
-Ao executar esses comandos você verá no seu terminal a mensagem avisando que a atualização foi feita com sucesso *"Successfully rebased and updated refs/heads/tarefa-2."* (ou *"Rebase e atualização das refs/heads/tarefa-2 bem sucedida."* em tradução livre) como você pode ver na imagem a seguir:
+Ao executar esses comandos você vai ver no terminal uma linha curta de progresso tipo `Rebasing (1/1)`, e depois a mensagem de sucesso *"Successfully rebased and updated refs/heads/tarefa-2."* (ou *"Rebase e atualização das refs/heads/tarefa-2 bem sucedida."* em tradução livre), como na imagem a seguir:
 
 ![imagem com o resultado dos comandos anteriores](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-9.webp)
 
