@@ -3,6 +3,7 @@ author_note: false
 bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00
+last_modified_at: 2026-11-09
 description: Uma receita infalível para você entender e resolver conflitos sem medo
 image: /images/covers/tutorial.webp
 lang: pt
@@ -38,7 +39,7 @@ O conflito simboliza que duas ou mais alterações aconteceram no mesmo pedaço 
 
 ## Como um conflito se forma
 
-Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito” que mostra os passos até que um conflito se forme. Vale salientar que normalmente, durante o ciclo de desenvolvimento de projetos, as alterações são maiores a por vezes em maior quantidade.
+Na imagem abaixo temos um diagrama que eu carinhosamente apelidei de “anatomia de um conflito” que mostra os passos até que um conflito se forme. Vale salientar que normalmente, durante o ciclo de desenvolvimento de projetos, as alterações são maiores e por vezes em maior quantidade.
 
 ![anatomia de um conflito](/images/anatomia-de-um-conflito.webp)
 
@@ -76,7 +77,21 @@ E agora com o conflito quentinho em mãos é hora de resolvê-lo.
 
 Antes de começar é importante notar que este tipo de conflito é possível resolver também pela interface do GitHub, mas o foco aqui são os comandos, então vamos lá!
 
-A primeira coisa importante é decidir em qual branch resolver o conflito, uma regra que geralmente funciona é resolver os conflitos no branch que apresenta as alterações, neste caso, o branch em questão é o `pessoa2`, com isso você deve atualizar o seu repositório local, e este branch em particular com os ajustes da main, para isso faça:
+A primeira coisa importante é decidir em qual branch resolver o conflito. Uma regra que geralmente funciona é resolver no branch que traz as alterações. Neste caso, esse branch é o `pessoa2`.
+
+Antes de seguir, configure como o `git pull` deve lidar com branches divergentes. Desde o Git 2.27, se o seu branch e o branch de onde você está trazendo as mudanças divergiram e você ainda não configurou uma estratégia de pull, o `git pull` é interrompido, mostra algumas dicas e termina com:
+
+```
+fatal: Need to specify how to reconcile divergent branches.
+```
+
+Configurar `pull.rebase` como `false` mantém o comportamento de merge que este post mostra. Você só precisa fazer isso uma vez por repositório. Se preferir não mexer na configuração do repositório, você pode passar `--no-rebase` só naquele pull.
+
+```console
+git config pull.rebase false
+```
+
+Agora sim, faça o checkout do branch e traga as mudanças da `main`:
 
 ```console
 git checkout pessoa2
@@ -87,11 +102,11 @@ Isso irá trazer o conflito para a sua máquina te dando um aviso informando que
 
 ![resultado do comando git pull com conflito](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-5.webp)
 
-Se você abrir o `README.md` num editor de código irá notar a presença de marcadores indicado por sucessivos sinais de maior que (`>`), sinais de menor que (`>`) e sinais de igual (`=`), aqui um exemplo do conflito mostrado no Vim:
+Se você abrir o `README.md` num editor de código, vai notar marcadores feitos de sucessivos sinais de menor que (`<`), sinais de igual (`=`) e sinais de maior que (`>`). Aqui um exemplo do conflito mostrado no Vim:
 
 ![imagem mostrando o conflito no editor vim com as marcações mais simples](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-6.webp)
 
-Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te d'a' opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
+Também é possível que você use o VS Code que mostra o conflito de uma forma mais amigável já que ele marca visualmente, com cores diferentes, cada mudança de origem diferente e ainda te dá opções de como resolver o conflito aceitando parte das mudanças, ou as duas, ou nenhuma delas:
 
 ![imagem mostrando o conflito no editor VS Code com as marcações mais bem definidas](/images/resolucao-de-conflito-git/resolucao-de-conflito-fig-7.webp)
 
@@ -152,13 +167,14 @@ Você agora entende como os conflitos se formam e também sabe todos os passos e
 
 Aqui está a lista simples de todos os comandos e passos para resolver conflitos, lembre de substituir as notações `<>` de acordo:
 
-1. `git checkout <nome do branch com conflito>`
-2. `git pull origin main`
-3. abra o arquivo com conflito e os resolva
-4. salve o arquivo
-5. `git add <nome do arquivo alterado>`
-6. `git commit`
-7. `git push`
+1. `git config pull.rebase false` uma vez por repositório
+2. `git checkout <nome do branch com conflito>`
+3. `git pull origin main`
+4. abra o arquivo com conflito e resolva
+5. salve o arquivo
+6. `git add <nome do arquivo alterado>`
+7. `git commit`
+8. `git push`
 
 Espero que esse artigo te ajude a resolver os conflitos de git que você encontrar daqui pra frente. 😉
 
