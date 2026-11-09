@@ -80,7 +80,7 @@ Before starting it is important to note that this type of conflict is also possi
 
 The first important thing is to decide on which branch to resolve the conflict. A rule that usually works is to resolve conflicts on the branch that brings the changes; in this case, that branch is `person2`.
 
-Before the steps, set how `git pull` should reconcile divergent branches. Since Git 2.27, if your branch and the branch you pull from have diverged and you have not configured a pull strategy, `git pull` stops with a hint and:
+Before the steps, set how `git pull` should reconcile divergent branches. In newer versions of Git, if your branch and the branch you pull from have diverged and you have not configured a pull strategy, `git pull` stops with a hint and:
 
 ```
 fatal: Need to specify how to reconcile divergent branches.

@@ -79,7 +79,7 @@ Antes de começar é importante notar que este tipo de conflito é possível res
 
 A primeira coisa importante é decidir em qual branch resolver o conflito. Uma regra que geralmente funciona é resolver no branch que traz as alterações. Neste caso, esse branch é o `pessoa2`.
 
-Antes de seguir, configure como o `git pull` deve lidar com branches divergentes. Desde o Git 2.27, se o seu branch e o branch de onde você está trazendo as mudanças divergiram e você ainda não configurou uma estratégia de pull, o `git pull` é interrompido, mostra algumas dicas e termina com:
+Antes de seguir, configure como o `git pull` deve lidar com branches divergentes. Nas versões mais recentes do Git, se o seu branch e o branch de onde você está trazendo as mudanças divergiram e você ainda não configurou uma estratégia de pull, o `git pull` é interrompido, mostra algumas dicas e termina com:
 
 ```
 fatal: Need to specify how to reconcile divergent branches.
