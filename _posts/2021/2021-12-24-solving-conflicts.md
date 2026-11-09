@@ -88,7 +88,7 @@ This will bring the conflict to your local machine giving you a warning that the
 
 ![image showing the result of the git pull command displaying the conflict message](/images/git-conflict-resolution/git-pull-with-conflict-message-fig6.webp)
 
-If you open `README.md` in a code editor, you will notice that are markers indicated by successive greater than signs (`>`), less than signs (`>`) and equal signs (`=`), here is an example of the conflict shown in Vim:
+If you open `README.md` in a code editor, you will notice markers indicated by successive less than signs (`<`), equal signs (`=`), and greater than signs (`>`). Here is an example of the conflict shown in Vim:
 
 ![image showing the conflict on VIM editor](/images/git-conflict-resolution/conflict-displayed-on-vim-fig7.webp)
 
