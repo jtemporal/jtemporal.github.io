@@ -3,6 +3,7 @@ author_note: false
 bookbanner: true
 comments: true
 date: 2021-12-29 12:34:20-02:00
+last_modified_at: 2026-11-09
 description: Veja como usar git rebase para corrigir a origem de um branch
 image: /images/covers/colinha.webp
 lang: pt
@@ -55,7 +56,7 @@ Então precisamos corrigir isso.
 
 ## Corrigindo a origem do branch
 
-Com esse erro nas mãos e como as implementações de cada tarefa é independente uma da outra você quer fazer essa correção.
+Com esse erro nas mãos e como as implementações de cada tarefa são independentes uma da outra você quer fazer essa correção.
 
 Para isso você deve usar o `git rebase` seguido da *flag* `--onto` e o nome **dos três** branches, o comando por completo fica assim:
 
@@ -63,7 +64,7 @@ Para isso você deve usar o `git rebase` seguido da *flag* `--onto` e o nome **d
 git rebase --onto main tarefa-1 tarefa-2
 ```
 
-O resultado deverá ser semelhante a imagem abaixo:
+O resultado deverá ser semelhante à imagem abaixo. Nas versões mais recentes do Git, você também vai ver uma linha curta de progresso tipo `Rebasing (1/1)` antes da mensagem de sucesso.
 
 ![resultado do comando git rebase --onto main tarefa-1 tarefa-2](/images/git-rebase-ajustar-origem/git-rebase-origem-fig-5.webp)
 
@@ -78,7 +79,7 @@ E se você conferir novamente o grafo do histórico, verá que apenas vemos os c
 Três coisas são importantes de notar:
 
 1. Primeiro, que é sempre necessário dar os nomes dos três branches envolvidos para evitar perder commits;
-1. Segundo, que o agora o branch `tarefa-2` tem sua origem no branch `main`;
+1. Segundo, que agora o branch `tarefa-2` tem sua origem no branch `main`;
 1. E terceiro, que o hash do commit no branch `tarefa-2` não é mais `99247c` e sim `952dc3` já que o commit mudou.
 
 Com isso agora você sabe alterar ou corrigir a origem de um branch, caso queira mais detalhes sobre o comando `git rebase`, recomendo a leitura da [documentação do comando em português](https://git-scm.com/docs/git-rebase/pt_BR).
