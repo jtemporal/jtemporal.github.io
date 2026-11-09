@@ -5,7 +5,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-12-30 12:34:20-02:00
-last_modified_at: 2026-06-20
+last_modified_at: 2026-11-09
 description: See how to use git rebase to bring all the most recent commits to your
   current branch
 image: /images/covers/pro_tip.webp

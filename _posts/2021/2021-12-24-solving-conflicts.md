@@ -4,6 +4,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-12-24 18:55:59-02:00
+last_modified_at: 2026-11-09
 description: A recipe to understand and fix conflicts in git
 image: /images/covers/tutorial.webp
 lang: en

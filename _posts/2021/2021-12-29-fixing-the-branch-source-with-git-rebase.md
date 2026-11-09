@@ -5,6 +5,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-12-29 12:40:00-02:00
+last_modified_at: 2026-11-09
 description: Understand how to use git rebase to fix the branch source
 image: /images/covers/pro_tip.webp
 lang: en
