@@ -85,12 +85,15 @@ Before the steps, set how `git pull` should reconcile divergent branches. Since 
 fatal: Need to specify how to reconcile divergent branches.
 ```
 
-(Verified on Git 2.47.3; the same stop has applied since 2.27.) Setting `pull.rebase` to `false` keeps the merge behavior this post demonstrates. You only need this once per repository. If you prefer not to change the repo config, you can pass `--no-rebase` on a single pull instead.
+Setting `pull.rebase` to `false` keeps the merge behavior this post demonstrates. You only need this once per repository. If you prefer not to change the repo config, you can pass `--no-rebase` on a single pull instead.
+
+```console
+git config pull.rebase false
+```
 
 Then check out the branch and bring in `main`:
 
 ```console
-git config pull.rebase false
 git checkout person2
 git pull origin main
 ```
@@ -165,7 +168,7 @@ You now understand how conflicts happen and you also know all the steps involved
 
 Here is the simple list of all commands and steps to resolve conflicts, remember to replace the `<>` notations accordingly:
 
-1. `git config pull.rebase false` (once per repository; or use `git pull --no-rebase origin main` in step 3 instead)
+1. `git config pull.rebase false` once per repository
 2. `git checkout <name of the branch in conflict>`
 3. `git pull origin main`
 4. open the file in conflict and resolve it
