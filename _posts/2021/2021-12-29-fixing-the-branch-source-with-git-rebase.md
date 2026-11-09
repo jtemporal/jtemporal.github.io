@@ -5,7 +5,7 @@ author_note_link: https://deboraazevedo.github.io/?utm_source=blogdajess
 bookbanner: true
 comments: true
 date: 2021-12-29 12:40:00-02:00
-description: Understand how to use git rebase para to fix the brach source
+description: Understand how to use git rebase to fix the branch source
 image: /images/covers/pro_tip.webp
 lang: en
 layout: post
@@ -65,7 +65,7 @@ For this you must use `git rebase` followed by the flag `--onto` and the name **
 git rebase --onto main task-1 task-2
 ```
 
-The result should look similar to the image below:
+The result should look similar to the image below. On current Git you will also see a short progress line such as `Rebasing (1/1)` before the success message.
 
 ![image showing the result of the command git rebase --onto main tarefa-1 task-2](/images/git-rebase-ajustar-origem/git-rebase-onto-main-task1-task2-fig5.webp)
 
