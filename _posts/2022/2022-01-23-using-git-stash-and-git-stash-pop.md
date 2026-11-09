@@ -109,6 +109,8 @@ If you try to stash these changes, you'll see that the new file is still there, 
 
 And then you might be wondering, since the stash command doesn't take new files into account, how do we get around this behavior? And the good news is that there is a trick to adding new files to a stash: you need to add them to staging!
 
+(If you prefer a one-liner, `git stash -u` includes untracked files without the extra `git add`. The rest of this section shows the staging path, which is useful when you want to choose exactly which new files go into the stash.)
+
 Then add the new file with `git add` and you'll have something like this:
 
 ![Image showing the staging area with the new file](/images/git-stash/resultado-adicionar-o-arquivo-novo-em-staging.webp)
