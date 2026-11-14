@@ -93,7 +93,7 @@ Below you'll find [two GitFichas to help you remember these shortcuts](https://g
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/035?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878600/gitfichas/en/035/full_krt83d.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/035-en.svg" %}
 {% assign ficha_title = "GitFicha #035" %}
 {% assign ficha_description = "git switch -c name" %}
 {% include ficha.html %}
