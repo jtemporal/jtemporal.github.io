@@ -97,13 +97,13 @@ Finally, if you want to edit the message, you should use the flag `-c` in place 
 ## GitFichas | GitStudyCards
 
 {% assign ficha_url = "https://gitfichas.com/en/038?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642882051/gitfichas/en/038/full_ytpvz2.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/038-en.svg" %}
 {% assign ficha_title = "GitFicha #038" %}
 {% assign ficha_description = "git reset HEAD^ --soft" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/039?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878601/gitfichas/en/039/full_cvowy3.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/039-en.svg" %}
 {% assign ficha_title = "GitFicha #039" %}
 {% assign ficha_description = "git commit -C ORIG_HEAD" %}
 {% include ficha.html %}

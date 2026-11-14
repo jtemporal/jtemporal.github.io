@@ -130,7 +130,7 @@ Below you can find some [Git study cards to help you remember these commands and
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/037?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878601/gitfichas/en/037/full_dko55b.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/037-en.svg" %}
 {% assign ficha_title = "GitFicha #037" %}
 {% assign ficha_description = "git reset HEAD^" %}
 {% include ficha.html %}

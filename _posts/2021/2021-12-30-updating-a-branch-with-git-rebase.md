@@ -85,7 +85,7 @@ Now you know how to update a branch using rebase, if you want more details about
 Below you can see the git study card that can help you remember the command `git rebase` to update a branch:
 
 {% assign ficha_url = "https://gitfichas.com/en/027?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878599/gitfichas/en/027/full_zjjwxe.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/027-en.svg" %}
 {% assign ficha_title = "GitFicha #027" %}
 {% assign ficha_description = "git rebase" %}
 {% include ficha.html %}
