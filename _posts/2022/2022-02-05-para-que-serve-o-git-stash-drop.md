@@ -66,13 +66,13 @@ Vale salientar que assim como o [`git stash pop`](https://jtemporal.com/usando-g
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/projects/045?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1644148850/gitfichas/pt/045/full_pketo7.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/045.svg" %}
 {% assign ficha_title = "GitFicha #045" %}
 {% assign ficha_description = "git stash drop" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/projects/043?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964759/gitfichas/pt/043/full_uuuiaz.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/043.svg" %}
 {% assign ficha_title = "GitFicha #043" %}
 {% assign ficha_description = "git stash list" %}
 {% include ficha.html %}

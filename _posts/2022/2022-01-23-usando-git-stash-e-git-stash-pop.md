@@ -129,19 +129,19 @@ Se um stash parecer ter sumido, ou você perder trabalho por causa de um `reset`
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/projects/041?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964758/gitfichas/pt/041/full_m1zqzv.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/041.svg" %}
 {% assign ficha_title = "GitFicha #041" %}
 {% assign ficha_description = "git stash push" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/projects/043?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964759/gitfichas/pt/043/full_uuuiaz.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/043.svg" %}
 {% assign ficha_title = "GitFicha #043" %}
 {% assign ficha_description = "git stash list" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/projects/044?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964759/gitfichas/pt/044/full_sbhjsb.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/044.svg" %}
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash pop" %}
 {% include ficha.html %}

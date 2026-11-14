@@ -142,7 +142,7 @@ If a stash ever seems to vanish, or you lose work to a `reset` or `rebase`, the 
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/044?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964724/gitfichas/en/044/full_hvzjs2.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/044-en.svg" %}
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash pop" %}
 {% include ficha.html %}

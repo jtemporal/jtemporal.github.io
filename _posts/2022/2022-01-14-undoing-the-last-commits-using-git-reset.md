@@ -118,13 +118,13 @@ Before finishing this pro tip I want to leave a recommendation: it is a good pra
 Below you can find some [Git study cards to help you remember these commands and shortcuts](https://gitfichas.com):
 
 {% assign ficha_url = "https://gitfichas.com/en/013?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878596/gitfichas/en/013/full_crgtzp.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/013-en.svg" %}
 {% assign ficha_title = "GitFicha #013" %}
 {% assign ficha_description = "What is HEAD?" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/036?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878600/gitfichas/en/036/full_rkilqa.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/036-en.svg" %}
 {% assign ficha_title = "GitFicha #036" %}
 {% assign ficha_description = "git reset HEAD\~3" %}
 {% include ficha.html %}

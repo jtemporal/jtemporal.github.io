@@ -73,7 +73,7 @@ Do not use the interface to rename files in your Git projects, use the `git mv` 
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/en/052?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1692466960/gitfichas/en/052/052-full_l6yjdm.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/052-en.svg" %}
 {% assign ficha_title = "GitFicha #052" %}
 {% assign ficha_description = "git mv  source target" %}
 {% include ficha.html %}

@@ -71,7 +71,7 @@ Não use a interface para renomear os arquivos nos seus projetos Git, use o coma
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/projects/052?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1692471498/gitfichas/pt/052/052-full_cu0alv.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/052.svg" %}
 {% assign ficha_title = "GitFicha #052" %}
 {% assign ficha_description = "git mv origem destino" %}
 {% include ficha.html %}
