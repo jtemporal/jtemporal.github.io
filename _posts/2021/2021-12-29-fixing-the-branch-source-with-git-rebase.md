@@ -89,7 +89,7 @@ With that now you know how to change or fix the source of a branch, if you want 
 Below you can see a card that can help you remember the command `git rebase --onto`:
 
 {% assign ficha_url = "https://gitfichas.com/en/028?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878599/gitfichas/en/028/full_thuxcg.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/028-en.svg" %}
 {% assign ficha_title = "GitFicha #028" %}
 {% assign ficha_description = "git rebase --onto" %}
 {% include ficha.html %}

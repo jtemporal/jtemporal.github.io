@@ -80,13 +80,13 @@ The important part is that now you understand the difference between one and the
 ## GitFichas | GitStudyCards
 
 {% assign ficha_url = "https://gitfichas.com/en/045?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1644148964/gitfichas/en/045/full_zugn9f.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/045-en.svg" %}
 {% assign ficha_title = "GitFicha #045" %}
 {% assign ficha_description = "git stash drop" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/044?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964724/gitfichas/en/044/full_hvzjs2.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/044-en.svg" %}
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash pop" %}
 {% include ficha.html %}

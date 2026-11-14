@@ -87,13 +87,13 @@ If you are tidying up your Git workflow, you might also like how to [update a br
 Below you'll find [two GitFichas to help you remember these shortcuts](https://gitfichas.com):
 
 {% assign ficha_url = "https://gitfichas.com/en/014?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878596/gitfichas/en/014/full_tatfxp.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/014-en.svg" %}
 {% assign ficha_title = "GitFicha #014" %}
 {% assign ficha_description = "git checkout -b name" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/035?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642878600/gitfichas/en/035/full_krt83d.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/035-en.svg" %}
 {% assign ficha_title = "GitFicha #035" %}
 {% assign ficha_description = "git switch -c name" %}
 {% include ficha.html %}

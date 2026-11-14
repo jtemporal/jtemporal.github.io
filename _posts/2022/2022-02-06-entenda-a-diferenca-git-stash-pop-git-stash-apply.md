@@ -80,13 +80,13 @@ O importante é que agora você entende a diferença entre um e outro e não pre
 ## GitFichas
 
 {% assign ficha_url = "https://gitfichas.com/projects/044?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1644151679/gitfichas/pt/046/full_mutfuw.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/046.svg" %}
 {% assign ficha_title = "GitFicha #046" %}
 {% assign ficha_description = "git stash drop" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/projects/044?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964759/gitfichas/pt/044/full_sbhjsb.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/044.svg" %}
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash pop" %}
 {% include ficha.html %}

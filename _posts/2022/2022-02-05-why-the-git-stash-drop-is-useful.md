@@ -67,13 +67,13 @@ It's worth mentioning that just like [`git stash pop`](https://jtemporal.com/usi
 ## GitFichas | GitStudyCards
 
 {% assign ficha_url = "https://gitfichas.com/en/045?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1644148964/gitfichas/en/045/full_zugn9f.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/045-en.svg" %}
 {% assign ficha_title = "GitFicha #045" %}
 {% assign ficha_description = "git stash drop" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/043?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964722/gitfichas/en/043/full_qdsc7t.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/043-en.svg" %}
 {% assign ficha_title = "GitFicha #043" %}
 {% assign ficha_description = "git stash list" %}
 {% include ficha.html %}

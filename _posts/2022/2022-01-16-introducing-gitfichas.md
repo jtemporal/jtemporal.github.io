@@ -28,7 +28,7 @@ This is not a problem, especially if you are starting your journey with versioni
 
 In order to improve the lives of those who use Git, I started [GitFichas](https://gitfichas.com/?utm_source=blog). GitFichas is nothing more than a site that aggregates Git study cards, in its original form, it was intend as a friendly resource in Portuguese, and now it officially has its version in English. Each card is made to be the simplest possible way so anyone can understand each command or concept.
 
-[![GitFicha explaining how to interactively with command git add -p](https://res.cloudinary.com/jesstemporal/image/upload/v1642878595/gitfichas/en/008/full_mur6v1.jpg)](https://gitfichas.com/en/008?utm_source=blog)
+[![GitFicha explaining how to interactively with command git add -p](https://gitfichas.com/assets/img/mermaid/008-en.svg)](https://gitfichas.com/en/008?utm_source=blog)
 
 <center>
 <i>GitFicha number 008 talking about git add -p</i>

@@ -130,19 +130,19 @@ If a stash ever seems to vanish, or you lose work to a `reset` or `rebase`, the 
 ## GitFichas | GitStudyCards
 
 {% assign ficha_url = "https://gitfichas.com/en/041?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964723/gitfichas/en/041/full_iswlps.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/041-en.svg" %}
 {% assign ficha_title = "GitFicha #041" %}
 {% assign ficha_description = "git stash push" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/043?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964722/gitfichas/en/043/full_qdsc7t.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/043-en.svg" %}
 {% assign ficha_title = "GitFicha #043" %}
 {% assign ficha_description = "git stash list" %}
 {% include ficha.html %}
 
 {% assign ficha_url = "https://gitfichas.com/en/044?utm_source=blog" %}
-{% assign ficha_img = "https://res.cloudinary.com/jesstemporal/image/upload/v1642964724/gitfichas/en/044/full_hvzjs2.jpg" %}
+{% assign ficha_img = "https://gitfichas.com/assets/img/mermaid/044-en.svg" %}
 {% assign ficha_title = "GitFicha #044" %}
 {% assign ficha_description = "git stash pop" %}
 {% include ficha.html %}
